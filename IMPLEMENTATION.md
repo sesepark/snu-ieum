@@ -213,8 +213,43 @@ POST /v1/admin/resources/{resourceId}/verify
 ## 10. 수집·운영
 
 ```text
-수집기 → 원본 스냅샷/정규화 → 검증 → 임베딩 → 인덱스·관계 갱신 → 검색 노출
+수집기 → 원본 파일 보관 → 정규화 초안 → 사람 검수·승인 → 임베딩·관계 생성 → 서비스 인덱스 반영 → 검색 노출
 ```
+
+### 원본과 서비스 데이터의 분리
+
+수집 결과를 웹 DB나 검색 인덱스에 바로 넣지 않는다. 모든 데이터는 먼저 수정 가능한 **수집 보관소(staging)**에 파일과 메타데이터로 저장하고, 검수된 버전만 서비스용 DB에 반영한다.
+
+| 계층 | 권장 형식 | 목적 | 수정 가능 여부 |
+| --- | --- | --- | --- |
+| Raw | JSON/JSONL, 원본 HTML/PDF, API 응답 | 수집 시점의 원문 보존·재현 | 원본 불변(append-only) |
+| Staging | CSV 또는 JSONL + 검수 상태 파일 | 사람이 열어 보고 수정·보강·승인 | 가능, 변경 이력 기록 |
+| Canonical | PostgreSQL 정규화 테이블 | 승인된 자원의 단일 기준 데이터 | 승인 워크플로우를 통해서만 변경 |
+| Serving | pgvector 인덱스·그래프 읽기 모델 | 빠른 검색·추천·지도 표시 | Canonical 데이터에서 자동 생성 |
+
+`CSV`는 장비·공간·교육·지원사업처럼 행 단위로 검수하기 좋은 자원에, `JSONL`은 논문 초록·중첩 관계·API 원본처럼 구조가 복잡하거나 대량인 데이터에 사용한다. 원본 파일 자체(HTML/PDF)는 URL만 남기지 말고 가능하면 수집 시점의 스냅샷도 보관한다. 단, 저작권·이용약관상 저장이 허용되지 않는 데이터는 URL, 해시, 수집 시각과 필요한 최소 메타데이터만 남긴다.
+
+### 수집 파일 규격과 버전
+
+```text
+data/
+  raw/{source}/{YYYY-MM-DD}/{runId}/response.jsonl
+  raw/{source}/{YYYY-MM-DD}/{runId}/artifacts/{sha256}.html
+  staging/{resourceType}/{YYYY-MM-DD}/{batchId}.csv
+  staging/{resourceType}/{YYYY-MM-DD}/{batchId}.review.json
+  manifests/{runId}.json
+```
+
+각 수집 실행(`runId`)에는 데이터원, 요청 URL/API 버전, 실행 시각, 파일 SHA-256, 레코드 수, 파서 버전, 라이선스·저장 제한, 실행 상태를 담은 `manifest`를 남긴다. Staging 레코드에는 최소한 `external_id`, `source_url`, `retrieved_at`, `review_status`, `reviewed_by`, `reviewed_at`, `change_reason` 필드를 둔다.
+
+### 검수·반영 흐름
+
+1. 수집기는 Raw 파일과 manifest만 생성한다.
+2. 변환 작업이 Raw를 Staging CSV/JSONL로 정규화하고, 형식·필수 출처·중복 검사를 수행한다.
+3. 데이터 운영자가 Staging에서 `approved`, `needs_revision`, `rejected`, `expired` 상태를 부여하고 사유를 기록한다.
+4. 승인된 배치만 Canonical DB에 upsert한다. 삭제 대신 비활성화와 유효 종료일을 우선 사용한다.
+5. Canonical 변경 이벤트가 임베딩·그래프·검색 인덱스 재생성을 트리거한다.
+6. 배포 전에는 배치 diff(추가·변경·비활성화 레코드와 출처)를 검토하고, 문제가 있으면 이전 승인 배치로 롤백한다.
 
 - 데이터원별 수집 주기와 실패 상태를 기록한다.
 - 변동 가능성이 큰 공고·교육·장비 정보에는 짧은 TTL을 적용한다.
