@@ -78,16 +78,6 @@ git push
 > 커밋 prefix는 `feat: fix: docs: refactor: chore: test:` 6개만 씁니다. 애매하면 `chore:`.
 > 자세한 규칙은 [AGENTS.md §7](AGENTS.md#7-커밋--푸시-규칙).
 
-### 마일스톤
-
-`gh`에 전용 명령이 없어서 API를 직접 씁니다. 웹에서는 `Issues 탭 → Milestones → New milestone`.
-
-```bash
-gh api repos/sesepark/snu-ieum/milestones -f title="3.지도"   # 만들기
-gh issue edit 22 --milestone "3.지도"                          # 이슈에 붙이기
-gh issue list --milestone "3.지도"                             # 진척 보기
-```
-
 ### 이슈 관리
 
 ```bash
