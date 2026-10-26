@@ -33,7 +33,7 @@ export function catalog(s: Snapshot): Catalog {
 }
 export function recommend(s: Snapshot, f: Filters, semantic: Map<string, number> = new Map(), now = Date.now()): Recommendation[] {
   const ordinary = filteredResources(s, f);
-  const candidates = semantic.size ? filteredResources(s, { ...f, q: '' }).filter(r => ordinary.includes(r) || semantic.has(r.id)) : ordinary;
+  const candidates = semantic.size ? filteredResources(s, { ...f, q: '' }).filter(r => (Boolean(f.q) && ordinary.includes(r)) || semantic.has(r.id)) : ordinary;
   const direct = new Set(semantic.keys());
   const proximity = new Map<string, number>();
   let frontier = direct;
@@ -49,10 +49,10 @@ export function recommend(s: Snapshot, f: Filters, semantic: Map<string, number>
     const source = s.sources.filter(source => r.sourceIds.includes(source.id));
     const age = Math.max(0, (now - Date.parse(r.lastVerifiedAt)) / 86400000);
     const ttl = r.kind === 'equipment' || r.kind === 'space' ? 7 : 30;
-    const score = .45 * (semantic.get(r.id) ?? (ordinary.includes(r) ? 1 : 0)) + .25 * (direct.has(r.id) ? 1 : proximity.get(r.id) ?? 0) + .2 * (source.some(s => s.sourceType === 'official-page') ? 1 : .5) + .1 * Math.max(0, 1 - age / 365);
+    const score = .45 * (semantic.get(r.id) ?? ((Boolean(f.q) || !semantic.size) && ordinary.includes(r) ? 1 : 0)) + .25 * (direct.has(r.id) ? 1 : proximity.get(r.id) ?? 0) + .2 * (source.some(s => s.sourceType === 'official-page') ? 1 : .5) + .1 * Math.max(0, 1 - age / 365);
     const relationIds = s.relations.filter(e => (e.from === r.id && (direct.has(e.to) || proximity.has(e.to))) || (e.to === r.id && (direct.has(e.from) || proximity.has(e.from)))).map(e => e.id);
     const result = RecommendationSchema.safeParse({ resource: r, source, score,
-      reason: proximity.has(r.id) ? '공식 출처가 있는 관계로 검색 후보와 연결됩니다.' : f.q ? `공식 소개의 이름·연구 분야·소속에서 검색어와 일치합니다.` : '공식 출처에서 확인한 수록 자원입니다.',
+      reason: proximity.has(r.id) ? '공식 출처가 있는 관계로 검색 후보와 연결됩니다.' : semantic.has(r.id) && !ordinary.includes(r) ? '목표 해석과 승인된 연구 소개의 의미 유사도로 찾은 후보입니다.' : f.q ? `공식 소개의 이름·연구 분야·소속에서 검색어와 일치합니다.` : '공식 출처에서 확인한 수록 자원입니다.',
       lastVerifiedAt: r.lastVerifiedAt, verificationRequired: r.verificationRequired || age > ttl, relationIds });
     return result.success ? result.data : null;
   }).filter((r): r is Recommendation => r !== null).sort((a, b) => b.score - a.score || a.resource.name.localeCompare(b.resource.name, 'ko'));

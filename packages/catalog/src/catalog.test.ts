@@ -30,6 +30,10 @@ describe('catalog evidence and limits', () => {
     expect(expanded.nodes).toHaveLength(500);
     expect(expanded.hiddenNodes).toBe(120);
   });
+  it('limits AI candidates to semantic matches and evidenced neighbors when no lexical query exists', () => {
+    const results = recommend(s, base, new Map([['lab-bi', .9]]));
+    expect(results.map(r => r.resource.id).sort()).toEqual(['lab-bi', 'prof-bi']);
+  });
   it('marks weekly infrastructure as needing verification', () => {
     const changed = { ...s, resources: [{ ...s.resources[0], kind: 'equipment' as const, verificationRequired: false }] };
     expect(recommend(changed, base, new Map(), Date.parse('2026-11-10T00:00:00Z'))[0].verificationRequired).toBe(true);
