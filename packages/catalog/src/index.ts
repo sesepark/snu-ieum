@@ -16,10 +16,12 @@ export function filteredResources(s: Snapshot, f: Filters) {
 }
 export function catalog(s: Snapshot): Catalog {
   const counts = (resources: Resource[]) => Object.fromEntries(['researcher', 'lab', 'equipment', 'space'].map(kind => [kind, resources.filter(r => r.kind === kind).length])) as Catalog['totals'];
-  const departments = s.departments.map(d => {
+  const groups = s.departments.map(d => {
     const resources = s.resources.filter(r => r.departmentId === d.id);
     return { ...d, counts: counts(resources), lastVerifiedAt: resources.map(r => r.lastVerifiedAt).sort().at(-1) ?? null };
   });
+  const departments = groups.filter(d => d.groupType === 'department');
+  const sharedGroups = groups.filter(d => d.groupType === 'shared');
   const totals = counts(s.resources);
   const gaps: string[] = [];
   for (const d of departments) {
@@ -29,7 +31,7 @@ export function catalog(s: Snapshot): Catalog {
   if (totals.equipment < 20) gaps.push(`장비 ${totals.equipment}/20`);
   if (totals.space < 10) gaps.push(`공간 ${totals.space}/10`);
   if (s.manifest.publication !== 'approved') gaps.push('사람의 공개 배치 승인 대기');
-  return { manifest: s.manifest, departments, totals, launchReady: gaps.length === 0, gaps };
+  return { manifest: s.manifest, departments, sharedGroups, totals, launchReady: gaps.length === 0, gaps };
 }
 export function recommend(s: Snapshot, f: Filters, semantic: Map<string, number> = new Map(), now = Date.now()): Recommendation[] {
   const ordinary = filteredResources(s, f);

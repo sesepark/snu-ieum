@@ -24,7 +24,7 @@ export const EvidenceSchema = z.strictObject({
   id: Id, kind: z.enum(['paper', 'thesis']), title: Text,
   resourceIds: z.array(Id).min(1), sourceIds: z.array(Id).min(1), lastVerifiedAt: DateTime
 });
-export const DepartmentSchema = z.strictObject({ id: Id, name: Text, sourceIds: z.array(Id).min(1) });
+export const DepartmentSchema = z.strictObject({ id: Id, name: Text, sourceIds: z.array(Id).min(1), groupType: z.enum(['department', 'shared']).default('department') });
 export const GoalProfileSchema = z.strictObject({
   problemDomains: z.array(Text).max(15), coreTechnologies: z.array(Text).max(15),
   requiredCapabilities: z.array(Text).max(15), expectedOutputs: z.array(Text).max(15), keywords: z.array(Text).max(30)
@@ -89,4 +89,4 @@ export type GraphNode = z.infer<typeof GraphNodeSchema>;
 export type GraphEdge = z.infer<typeof GraphEdgeSchema>;
 export type Graph = { nodes: GraphNode[]; edges: GraphEdge[]; hiddenNodes: number; hiddenEdges: number };
 export type SearchResponse = { results: Recommendation[]; mode: 'ordinary' | 'ai' | 'fallback'; message?: string };
-export type Catalog = { manifest: Snapshot['manifest']; departments: (Department & { counts: Record<Resource['kind'], number>; lastVerifiedAt: string | null })[]; totals: Record<Resource['kind'], number>; launchReady: boolean; gaps: string[] };
+export type Catalog = { manifest: Snapshot['manifest']; departments: (Department & { counts: Record<Resource['kind'], number>; lastVerifiedAt: string | null })[]; sharedGroups: (Department & { counts: Record<Resource['kind'], number>; lastVerifiedAt: string | null })[]; totals: Record<Resource['kind'], number>; launchReady: boolean; gaps: string[] };

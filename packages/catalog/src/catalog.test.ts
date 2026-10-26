@@ -51,3 +51,12 @@ it('counts relationships omitted with capped nodes and gates document expansion'
   const ids = new Set(expanded.nodes.map(n => n.id));
   expect(expanded.edges.every(e => ids.has(e.source) && ids.has(e.target) && e.sourceIds.length > 0)).toBe(true);
 });
+
+it('treats shared infrastructure as a display group without inventing a department affiliation', () => {
+  const shared = parseSnapshot({...s, departments:[...s.departments,{id:'shared',name:'공용시설',sourceIds:['s-departments'],groupType:'shared'}], resources:[...s.resources,{...s.resources[0],id:'fixture-equipment',kind:'equipment',departmentId:'shared'}]});
+  const summary = catalog(shared);
+  expect(summary.departments).toHaveLength(12); expect(summary.sharedGroups).toHaveLength(1);
+  expect(summary.totals.equipment).toBe(1);
+  expect(summary.gaps.some(gap => gap.includes('공용시설: 교수'))).toBe(false);
+  expect(graph(shared, base).nodes.some(node => node.id === 'fixture-equipment')).toBe(true);
+});
