@@ -1,3 +1,4 @@
+import { loadSpatialFiles } from './spatial.ts';
 import { resolve } from 'node:path';
 import { Pool } from 'pg';
 import { createApp } from './app.ts';
@@ -10,7 +11,10 @@ const repository = pool ? new PostgresRepository(pool) : new FileRepository(reso
 const ai = verifiedAI(pool);
 const origin = process.env.CORS_ORIGIN || 'https://sesepark.github.io';
 if (new URL(origin).origin !== origin || (production && !origin.startsWith('https://'))) throw new Error('CORS_ORIGIN must be an exact origin');
-const app = await createApp(repository, { ai, origin, prototype: !production });
+const spatialPaths={campus:resolve(process.env.IEUM_CAMPUS_PATH || '../../data/campus/campus-draft.json'),coverage:resolve(process.env.IEUM_COVERAGE_PATH || '../../data/coverage/coverage-draft.json')};
+if(production&&(!process.env.IEUM_CAMPUS_PATH||!process.env.IEUM_COVERAGE_PATH))throw new Error('Production requires explicitly exported campus and coverage batch paths');
+const spatial=(snapshot:Awaited<ReturnType<typeof repository.snapshot>>)=>loadSpatialFiles(snapshot,spatialPaths,production);
+const app = await createApp(repository, { ai, origin, prototype: !production, spatial });
 await app.listen({ host: process.env.HOST || '127.0.0.1', port: Number(process.env.PORT || 4100) });
 console.log('서울대 이음 API ready');
 for (const signal of ['SIGINT', 'SIGTERM']) process.on(signal, async () => { await app.close(); await pool?.end(); process.exit(0); });

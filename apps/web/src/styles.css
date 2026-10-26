@@ -27,3 +27,4 @@
 
 .campus-map-label{min-height:44px}.status-notice{font-size:10px;padding:8px 12px;max-width:calc(100% - 125px)}
 @media(max-width:900px){.campus-search{top:137px}.campus-unlocated{top:186px}.status-notice{display:none}.status-notice:not(:empty){display:block;max-width:240px;font-size:9px}.has-detail .status-notice{display:none}}
+.resource-facts h4{font-size:12px;margin:18px 0 8px}.resource-facts p{font-size:12px;line-height:1.8}.resource-facts>div{border-bottom:1px solid #edf1ee;padding-bottom:10px}.resource-facts .fine{font-size:10px}

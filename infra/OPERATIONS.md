@@ -60,3 +60,18 @@ cron에는 별도의 권한 제한 환경 파일에서 `BACKUP_RECIPIENT`, `BACK
 `npm exec -- tsx infra/release.ts data/public-snapshot.json data/launch-evidence.json`이 성공해야 공개한다. 데이터 최소 수량·사람 승인·동일 배치의 실제 사용자/성능/장애/복구 증거가 없으면 실패한다. 예시 증거 파일은 미완료 값이며 그대로 통과하지 않는다.
 
 Pages workflow는 수동 실행만 지원한다. 승인 스냅샷과 검증 증거를 커밋하고 검사한 후 실행한다. 시제품 빌드 성공을 첫 출시 완료로 표시하지 않는다.
+
+## 실제 캠퍼스 공간·수록률 배치
+
+공간은 `Campus` 별도 계약이며 `resourceVersion`이 연구 스냅샷 버전과 같아야 한다. `IEUM_CAMPUS_PATH`·`IEUM_COVERAGE_PATH`를 운영 API에 명시적으로 주입한다. 운영 API는 미승인 공간 배치를 거부하며 공간 로딩 실패 시 연구 목록·검색은 유지한다. `/v1/campus`, `/v1/coverage`, 자원 상세의 `spatial`에서 위치와 정보별 출처를 확인한다. 동일 정보는 정적 내보내기에도 포함한다.
+
+출시용 연구 파일 옆의 기본 이름은 `public-campus.json`, `public-coverage.json`이다. 다른 경로는 환경변수 또는 출시 게이트 3·4번째 인자로 지정한다. Pages 기존 게이트 호출도 이 파일을 반드시 요구하며, 파일이 없거나 승인·버전·새 수록률 목표가 미완료면 실패한다. 웹 빌드도 승인 연구 배치와 초안 공간 파일을 혼합하지 않는다.
+
+```sh
+node --import tsx infra/release.ts data/public-snapshot.json data/launch-evidence.json data/public-campus.json data/public-coverage.json
+IEUM_SNAPSHOT_PATH=../../data/public-snapshot.json IEUM_CAMPUS_PATH=../../data/public-campus.json IEUM_COVERAGE_PATH=../../data/public-coverage.json npm run build
+```
+
+단위 테스트의 합성 승인·측정 자료나 에이전트의 원문 확인을 사람 검수로 사용하지 않는다. 지도에 쓰는 주소는 연구실·교수실·장비설치·공간을 구별하고 교수실을 연구실 위치로 전파하지 않는다. 7일/30일 재확인 기한이 지난 위치는 지도에서 제외하고 목록에 남긴다. 공식 건물 목록 분모, 윤곽 결합 후보, 설치 위치 미확인, 중복 자산 후보를 그대로 보존한다.
+
+새 출시 기록은 공간 배치 버전, 실제 건물까지 찾은 2분 성공 인원, 거리·같은 주제·확인된 관계를 구별한 인원, 개인정보/동명이인/출처 없는 관계 0건 점검을 포함한다. `coverageReport`의 ready와 실사용자·성능·복구 검증은 별개이며 모두 통과해야 출시다.

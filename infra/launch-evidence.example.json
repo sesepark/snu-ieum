@@ -22,5 +22,11 @@
   "aiFailureFallbackPassed": false,
   "freeAccountVerified": false,
   "backupRestorePassed": false,
-  "batchRollbackPassed": false
+  "batchRollbackPassed": false,
+  "spatialBatchVersion": "replace-with-human-approved-campus-version",
+  "foundBuildingAndOpenedInTwoMinutes": 0,
+  "relationshipMeaningCorrect": 0,
+  "personalContactsExposed": 0,
+  "unverifiedIdentityMerges": 0,
+  "unsourcedRelations": 0
 }

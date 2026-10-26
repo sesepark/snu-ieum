@@ -13,3 +13,10 @@ test('unlocated lab remains discoverable without a fabricated map location',asyn
  await page.goto('#/?view=2d&selected=lab-cee-urban');await expect(page.getByLabel('선택 자원 상세')).toBeVisible();await expect(page.getByLabel('선택 자원 상세').getByText(/공식 상세 주소·건물 연결 확인 필요/)).toBeVisible();
  await expect(page.getByText(/위치 확인 필요 \d+개 · 목록에서 탐색/)).toBeVisible();expect(page.url()).not.toContain('building=');
 });
+test('equipment details show field-level official model evidence while retaining unconfirmed installation location',async({page})=>{
+ await page.goto('#/?view=2d&selected=eq-isrc-275');
+ const panel=page.getByLabel('선택 자원 상세');await expect(panel.getByRole('heading',{name:'정보별 근거',exact:true})).toBeVisible();
+ await expect(panel.locator('.resource-facts').getByText('4522',{exact:true})).toBeVisible();
+ await expect(panel.getByText(/개별 장비 배치 근거 확인 필요/)).toBeVisible();
+ await expect(panel.locator('.resource-facts').getByRole('link',{name:/와이어 볼 본딩/}).first()).toHaveAttribute('href','https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=275');
+});

@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
-import { Id, ManifestSchema } from './base';
-export { Id, ManifestSchema } from './base';
+import { Id, ManifestSchema } from './base.ts';
+export { Id, ManifestSchema } from './base.ts';
 const Text = z.string().trim().min(1).max(2000);
 const DateTime = z.iso.datetime({ offset: true });
 const HttpsUrl = z.url().refine(value => new URL(value).protocol === 'https:' && !new URL(value).username && !new URL(value).password, 'HTTPS source required');
@@ -85,4 +85,4 @@ export type Graph = { nodes: GraphNode[]; edges: GraphEdge[]; hiddenNodes: numbe
 export type SearchResponse = { results: Recommendation[]; mode: 'ordinary' | 'ai' | 'fallback'; message?: string };
 export type Catalog = { manifest: Snapshot['manifest']; departments: (Department & { counts: Record<Resource['kind'], number>; lastVerifiedAt: string | null })[]; sharedGroups: (Department & { counts: Record<Resource['kind'], number>; lastVerifiedAt: string | null })[]; totals: Record<Resource['kind'], number>; launchReady: boolean; gaps: string[] };
 
-export * from './campus';
+export * from './campus.ts';

@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { Id, ResourceKind, type Snapshot, type Campus } from '@ieum/contracts';
 import departments from '../../../data/departments.json' with { type: 'json' };
-import { mappedLocations } from './campus';
+import { mappedLocations } from './campus.ts';
 const DateTime=z.iso.datetime({offset:true});
 const Fact=z.strictObject({value:z.string().trim().min(1).max(2000),sourceIds:z.array(Id).min(1),lastVerifiedAt:DateTime});
 export const CoverageSchema=z.strictObject({
@@ -36,7 +36,7 @@ export function coverageReport(snapshot:Snapshot,campus:Campus,input:unknown,now
  const locationIds=new Set(mappedLocations(campus,snapshot,now).map(l=>l.resourceId));
  const field=(id:string,key:string)=>{
   const f=v.profiles.find(p=>p.resourceId===id)?.fields[key];
-  if(!f)return false;
+  if(!f||/^(?:-|—|n\/?a|unknown|확인 필요|미확인)$/i.test(f.value.trim()))return false;
   const r=resources.get(id)!,ttl=r.kind==='space'||r.kind==='equipment'?7:30;
   const age=(now-Date.parse(f.lastVerifiedAt))/86400000;
   return age>=0&&age<=ttl;

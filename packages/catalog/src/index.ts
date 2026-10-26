@@ -15,7 +15,7 @@ export function filteredResources(s: Snapshot, f: Filters) {
   const terms = queryTerms(f.q);
   return s.resources.filter(r => (!f.kinds.length || f.kinds.includes(r.kind)) && (!f.departmentIds.length || f.departmentIds.includes(r.departmentId)) && terms.every(group => group.some(term => resourceText(r, s).includes(term))));
 }
-export function catalog(s: Snapshot): Catalog {
+export function catalog(s: Snapshot, quality?:{ready:boolean;gaps:string[]}): Catalog {
   const counts = (resources: Resource[]) => Object.fromEntries(['researcher', 'lab', 'equipment', 'space'].map(kind => [kind, resources.filter(r => r.kind === kind).length])) as Catalog['totals'];
   const groups = s.departments.map(d => {
     const resources = s.resources.filter(r => r.departmentId === d.id);
@@ -32,8 +32,10 @@ export function catalog(s: Snapshot): Catalog {
     if (d.counts.researcher < 3 || d.counts.lab < 3) gaps.push(`${d.name}: 교수 ${d.counts.researcher}/3 · 연구실 ${d.counts.lab}/3`);
     if (!s.evidence.some(e => e.resourceIds.some(id => s.resources.some(r => r.id === id && r.departmentId === d.id)))) gaps.push(`${d.name}: 논문 근거 미확보`);
   }
-  if (totals.equipment < 20) gaps.push(`장비 ${totals.equipment}/20`);
-  if (totals.space < 10) gaps.push(`공간 ${totals.space}/10`);
+  if (totals.equipment < 100) gaps.push(`장비 ${totals.equipment}/100`);
+  if (totals.space < 20) gaps.push(`공간 ${totals.space}/20`);
+  if(!quality)gaps.push('공식 전체 명단·상세·위치·논문 목표 검수 대기');
+  else if(!quality.ready)gaps.push(...quality.gaps);
   if (s.manifest.publication !== 'approved') gaps.push('사람의 공개 배치 승인 대기');
   return { manifest: s.manifest, departments, sharedGroups, totals, launchReady: gaps.length === 0, gaps };
 }

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { Id, ManifestSchema } from './base';
+import { Id, ManifestSchema } from './base.ts';
 const DateTime = z.iso.datetime({ offset: true });
 const Text = z.string().trim().min(1).max(2000);
 const Url = z.url().refine(v => new URL(v).protocol === 'https:' && !new URL(v).username && !new URL(v).password);

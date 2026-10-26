@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { catalog, graph, recommend } from '@ieum/catalog';
-import { loadCatalog, loadCampus, search } from './client';
+import { loadCatalog, loadCampus, loadCoverage, search } from './client';
 import { parseUrl, shareUrl, useExplore } from './state';
 import Map from './Map';
 import BuildingDetail, { ResourcePosition } from './BuildingDetail';
 import CampusCoverage from './CampusCoverage';
+import ResourceFacts from './ResourceFacts';
 import { mappedLocations } from '../../../packages/catalog/src/campus';
 import Filters from './Filters';
 import Relations from './Relations';
@@ -41,6 +42,7 @@ export default function App() {
   const snapshot = data?.snapshot;
   const campusQuery=useQuery({queryKey:['campus',snapshot?.manifest.version],queryFn:()=>loadCampus(snapshot!),enabled:Boolean(snapshot),staleTime:60_000});
   const campus=campusQuery.data;
+  const metadataQuery=useQuery({queryKey:['coverage',snapshot?.manifest.version,campus?.manifest.version],queryFn:()=>loadCoverage(snapshot!,campus!),enabled:Boolean(snapshot&&campus),retry:false,staleTime:60_000});
   const mappedIds=useMemo(()=>new Set(campus&&snapshot?mappedLocations(campus,snapshot).map(l=>l.resourceId):[]),[campus,snapshot]);
   const filters = useMemo(() => ({ q: state.q, kinds: state.kinds, departmentIds: state.departmentIds }), [state.q, state.kinds, state.departmentIds]);
   useEffect(() => { setAIResult(null); }, [filters, snapshot]);
@@ -81,7 +83,7 @@ export default function App() {
         <div className="map-footer"><div className="legend">{Object.entries(kindLabels).map(([kind, name]) => <span key={kind}><i className={`kind-mark ${kind}`} />{name}</span>)}<p>실제 건물 위치 · 높이는 개략 표현 포함.<br />가까운 위치·같은 주제는 협업 관계가 아닙니다.<br />지형은 약 30m DSM · 정밀 지면고도 아님.</p></div><details className="coverage"><summary>학과별 수록 현황 <span>↗</span></summary><div className="coverage-content"><p>대표 표본입니다. 전수 수집이 아닙니다.</p>{[...counts.departments, ...counts.sharedGroups].map(d => <div key={d.id}><strong>{d.name}</strong><span>교수 {d.counts.researcher} · 연구실 {d.counts.lab}<br />장비 {d.counts.equipment} · 공간 {d.counts.space}</span><small>{d.lastVerifiedAt?.slice(0, 10) || '수록 대기'}</small></div>)}{campus && <CampusCoverage campus={campus} snapshot={snapshot}/>}</div></details></div>
         <div className="status-notice" role="status">{state.notice || (campus?.manifest.publication==='prototype' && !state.selected ? '실제 지형·건물 기반 공간 초안 · 사람 승인과 공식 전체 건물 대조가 필요합니다.' : '') || (state.selected && !resource ? '이 배치에 없는 자원입니다. 목록에서 다른 자원을 선택해주세요.' : '')}</div>
       <div className="campus-attribution">{campus?.sources.filter(s=>s.id==='osm'||s.id==='copernicus-dem').map(source=><a key={source.id} href={source.url} target="_blank" rel="noreferrer">{source.id==='osm'?'© OpenStreetMap contributors · ODbL':'Copernicus DEM · DLR / Airbus / EU / ESA'}</a>)}</div></section>
-      {resource && <Detail resource={resource} snapshot={snapshot} verificationRequired={Boolean(selectedCard?.verificationRequired)} onSelect={select} onClose={() => { state.select(undefined); if (matchMedia('(max-width:900px)').matches) listToggle.current?.focus(); else list.current?.focus(); }}><Relations snapshot={snapshot} resource={resource} />{campus && <ResourcePosition campus={campus} snapshot={snapshot} resource={resource} onBuilding={state.selectBuilding}/>}</Detail>}
+      {resource && <Detail resource={resource} snapshot={snapshot} verificationRequired={Boolean(selectedCard?.verificationRequired)} onSelect={select} onClose={() => { state.select(undefined); if (matchMedia('(max-width:900px)').matches) listToggle.current?.focus(); else list.current?.focus(); }}><Relations snapshot={snapshot} resource={resource} />{campus && <ResourcePosition campus={campus} snapshot={snapshot} resource={resource} onBuilding={state.selectBuilding}/>}{campus&&metadataQuery.data&&<ResourceFacts resource={resource} campus={campus} snapshot={snapshot} coverage={metadataQuery.data.coverage}/>}</Detail>}
     </main>
   </div>;
 }

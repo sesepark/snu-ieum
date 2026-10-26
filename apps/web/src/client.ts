@@ -43,3 +43,12 @@ export async function loadCampus(snapshot:Snapshot, api=defaultApi,request:typeo
   for(const url of urls)try{const response=await request(url,{signal:AbortSignal.timeout(6000),cache:'no-cache'});if(!response.ok)continue;const c=CampusSchema.parse(await response.json());if(snapshot.manifest.publication==='approved'&&(c.manifest.publication!=='approved'||c.resourceVersion!==snapshot.manifest.version))continue;return c;}catch{/* Keep ordinary resource exploration available. */}
   throw new Error('공간 배치를 사용할 수 없습니다.');
 }
+export async function loadCoverage(snapshot:Snapshot,campus:Campus,api=defaultApi,request:typeof fetch=fetch){
+ const {CoverageSchema,coverageReport}=await import('../../../packages/catalog/src/coverage');
+ for(const url of [...(api?[`${api}/v1/coverage`]:[]),`${import.meta.env.BASE_URL}coverage.json`])try{
+  const response=await request(url,{signal:AbortSignal.timeout(6000),cache:'no-cache'});if(!response.ok)continue;
+  const body=await response.json(),coverage=CoverageSchema.parse(body.coverage??body),report=coverageReport(snapshot,campus,coverage);
+  return{coverage,report};
+ }catch{/* Use the compatible exported snapshot or retain ordinary resource details. */}
+ throw new Error('수록률·필드 검수 배치를 사용할 수 없습니다.');
+}

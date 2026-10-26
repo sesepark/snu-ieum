@@ -6,6 +6,8 @@ import { z } from 'zod';
 import { FiltersSchema, Id, InterpretRequestSchema, SearchRequestSchema, type SearchResponse } from '@ieum/contracts';
 import { catalog, graph, filteredResources, recommend } from '@ieum/catalog';
 import type { Repository } from './repository.ts';
+import type { SpatialBundle } from './spatial';
+import type { Snapshot } from '@ieum/contracts';
 import type { AI } from './ai.ts';
 
 const Query = z.object({ q: z.string().max(300).optional(), kind: z.string().optional(), department: z.string().optional() });
@@ -13,7 +15,7 @@ const filters = (input: unknown) => {
   const query = Query.parse(input);
   return FiltersSchema.parse({ q: query.q, kinds: query.kind?.split(',').filter(Boolean), departmentIds: query.department?.split(',').filter(Boolean) });
 };
-export async function createApp(repository: Repository, options: { ai?: AI; origin?: string; prototype?: boolean } = {}) {
+export async function createApp(repository: Repository, options: { ai?: AI; origin?: string; prototype?: boolean; spatial?(snapshot:Snapshot):Promise<SpatialBundle> } = {}) {
   // No request logger: goals and query strings must never enter logs or shared caches.
   const app = Fastify({ logger: false, bodyLimit: 24_000, trustProxy: false });
   await app.register(cors, { origin: options.origin ?? 'https://sesepark.github.io', methods: ['GET', 'POST'] });
@@ -30,7 +32,10 @@ export async function createApp(repository: Repository, options: { ai?: AI; orig
     return s;
   };
   app.get('/health', async () => { const s = await snapshot(); return { ok: true, version: s.manifest.version }; });
-  app.get('/v1/catalog', async () => { const s = await snapshot(); return { ...catalog(s), snapshot: s, aiAvailable: Boolean(options.ai) }; });
+  app.get('/v1/catalog', async () => { const s = await snapshot(); let quality;try{quality=options.spatial?(await options.spatial(s)).report:undefined;}catch{/* Research browsing survives a spatial data outage. */}return { ...catalog(s,quality), snapshot: s, aiAvailable: Boolean(options.ai) }; });
+  const spatial=async()=>{if(!options.spatial)throw new Error('Spatial bundle unavailable');return options.spatial(await snapshot());};
+  app.get('/v1/campus',async()=> (await spatial()).campus);
+  app.get('/v1/coverage',async()=>{const bundle=await spatial();return{coverage:bundle.coverage,report:bundle.report};});
   app.get('/v1/resources', async req => {
     const pagination = z.object({ page: z.coerce.number().int().min(1).max(10000).default(1), pageSize: z.coerce.number().int().min(1).max(100).default(30) }).parse(req.query);
     const resources = filteredResources(await snapshot(), filters(req.query));
@@ -44,7 +49,8 @@ export async function createApp(repository: Repository, options: { ai?: AI; orig
     const relations = s.relations.filter(e => e.from === id || e.to === id);
     const evidence = s.evidence.filter(e => e.resourceIds.includes(id));
     const sourceIds = new Set([...resource.sourceIds, ...relations.flatMap(e => e.sourceIds), ...evidence.flatMap(e => e.sourceIds)]);
-    return { resource, relations, evidence, sources: s.sources.filter(source => sourceIds.has(source.id)), version: s.manifest.version };
+    let spatialDetails;try{const bundle=options.spatial?await options.spatial(s):undefined;if(bundle)spatialDetails={locations:bundle.campus.locations.filter(l=>l.resourceId===id),profile:bundle.coverage.profiles.find(p=>p.resourceId===id),spatialSources:bundle.campus.sources};}catch{/* Detail retains ordinary official resource sources. */}
+    return { resource, relations, evidence, spatial:spatialDetails, sources: s.sources.filter(source => sourceIds.has(source.id)), version: s.manifest.version };
   });
   app.get('/v1/graph', async req => {
     const query = z.object({ focus: Id.optional(), depth: z.coerce.number().int().min(1).max(2).default(1), evidence: z.enum(['true', 'false']).default('false'), expanded: z.enum(['true', 'false']).default('false') }).parse(req.query);

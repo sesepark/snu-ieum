@@ -1,9 +1,12 @@
 import { readFile } from 'node:fs/promises';
+import { dirname,resolve } from 'node:path';
 import { SnapshotSchema } from '@ieum/contracts';
 import { launchCheck } from './launch.ts';
-const [snapshotPath, evidencePath] = process.argv.slice(2);
+const [snapshotPath, evidencePath, campusPath, coveragePath] = process.argv.slice(2);
 if (!snapshotPath || !evidencePath) throw new Error('Usage: release.ts <approved-snapshot.json> <launch-evidence.json>');
 const snapshot = SnapshotSchema.parse(JSON.parse(await readFile(snapshotPath, 'utf8')));
-const result = launchCheck(snapshot, JSON.parse(await readFile(evidencePath, 'utf8')));
+const campus=JSON.parse(await readFile(campusPath || process.env.IEUM_CAMPUS_PATH || resolve(dirname(snapshotPath),'public-campus.json'),'utf8'));
+const coverage=JSON.parse(await readFile(coveragePath || process.env.IEUM_COVERAGE_PATH || resolve(dirname(snapshotPath),'public-coverage.json'),'utf8'));
+const result = launchCheck(snapshot, JSON.parse(await readFile(evidencePath, 'utf8')),{campus,coverage});
 console.log(JSON.stringify(result, null, 2));
 if (!result.ready) process.exitCode = 1;

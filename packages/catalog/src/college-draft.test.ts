@@ -13,7 +13,8 @@ it('keeps the complete sourced college draft reproducible and pending human appr
   expect(summary.sharedGroups).toHaveLength(2);
   expect(summary.totals).toEqual({ researcher: 319, lab: 58, equipment: 209, space: 20 });
   expect(summary.departments.every(d => d.counts.researcher >= 3 && d.counts.lab >= 3)).toBe(true);
-  expect(summary.gaps).toEqual(['사람의 공개 배치 승인 대기']);
+  expect(summary.gaps).toContain('사람의 공개 배치 승인 대기');
+  expect(summary.gaps).toContain('공식 전체 명단·상세·위치·논문 목표 검수 대기');
   expect(summary.launchReady).toBe(false);
   expect(snapshot.resources.every(r => r.verificationRequired)).toBe(true);
   expect(snapshot.relations.some(r => r.from.startsWith('prof-architecture-'))).toBe(false);
