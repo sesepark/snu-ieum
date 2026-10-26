@@ -56,7 +56,7 @@ CREATE TABLE revalidation_queue (
   reason text NOT NULL, due_at timestamptz NOT NULL, status text NOT NULL DEFAULT 'pending'
 );
 CREATE TABLE ai_usage (
-  model text NOT NULL, window text NOT NULL, requests integer NOT NULL DEFAULT 0,
-  tokens integer NOT NULL DEFAULT 0, PRIMARY KEY(model,window)
+  model text NOT NULL, "window" text NOT NULL, requests integer NOT NULL DEFAULT 0,
+  tokens integer NOT NULL DEFAULT 0, PRIMARY KEY(model,"window")
 );
 COMMIT;
