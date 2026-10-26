@@ -23,6 +23,7 @@ Node.js 24 작업공간에서 `npm run cli -w @ieum/worker -- <명령>` 또는 `
 - `resume <runId> <operator-handle> <reason>`: 계정 한도·오류를 확인한 뒤 실패한 실행만 명시적으로 재개한다. 다음 openalex 설정에 같은 `runId`를 넣으면 DB 커서부터 재개한다.
 - `sspace <config.json>`: `policy`, `metadata`를 입력한다. metadata에는 공식 handle URL, 제목, 허용된 초록/키워드/학과/지도교수명, 확인일, `permissionConfirmed: true`, 사용 허용 근거, 검수자가 필요하다. 접근 제한을 우회하지 않는다. 지도교수 이름은 자원 ID로 자동 연결하지 않는다.
 - `export-review /app/data/review.jsonl` 또는 `.csv`: Staging 검수 내보내기. 이 파일은 Raw DB를 대체하지 않는다. CSV/JSONL 자체의 `approved` 값으로 공개 승인하지 않는다.
+- `import-review /app/data/review.csv` 또는 `.jsonl`: 수정된 draft를 원래 `run_id`/`raw_id`와 연결해 Staging으로 재반입한다. CSV의 따옴표·쉼표·개행을 파싱하고 파일의 승인/검수자 필드는 승인 근거로 사용하지 않는다. 1,000행·2MB 이하로 나눠 반입한다. 운영 API `POST /ops/import-review`에서도 `{text, format}`으로 반입할 수 있다.
 - `import <bundle.json>`: 운영자가 명시적으로 정리한 전체 배치 초안 `draft`와 `source`, `externalId`, `sourceUrl`, `policy`를 Raw/Staging에 넣는다. `draft`는 `prototype`이어야 한다. 개별 후보를 공식 근거로 연결해 이 배치 초안을 만드는 작업은 사람이 수행한다.
 - 운영 UI에서 출처·선정 사유·동명이인·관계를 검토하고 검수자·사유와 함께 승인한다. 승인된 Staging ID와 새 버전으로 반영한다. 배치는 불변이며 롤백은 이전 버전을 활성화한다.
 - `export /app/data/public-snapshot.json`: 활성 승인 배치만 원자적으로 내보낸다. 공개 웹 스냅샷도 이 버전을 사용한다.

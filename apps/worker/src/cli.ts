@@ -10,6 +10,7 @@ import { embedApprovedResources } from './embeddings.ts';
 import { verifiedAI } from '../../api/src/config.ts';
 import { PostgresBudget } from '../../api/src/ai.ts';
 import { operationalStatus } from './health.ts';
+import { exportReviewRows, importReviewRows } from './review-io.ts';
 if (!process.env.DATABASE_URL) throw new Error('DATABASE_URL required');
 const pool = new Pool({ connectionString: process.env.DATABASE_URL, max: 5 }); const pipeline = new Pipeline(pool);
 const json = async (path: string) => JSON.parse(await readFile(path, 'utf8'));
@@ -45,10 +46,9 @@ try {
     console.log(await embedApprovedResources(pool, ai, Number(path || 20)));
   } else if (command === 'export-review' && path) {
     const { rows } = await pool.query('SELECT id,run_id,raw_id,draft,status,reviewed_by,reviewed_at,reason FROM staging_records ORDER BY id');
-    const quote = (value: unknown) => '"' + (typeof value === 'string' ? value : JSON.stringify(value) ?? '').replaceAll('"', '""') + '"';
-    const keys = ['id', 'run_id', 'raw_id', 'draft', 'status', 'reviewed_by', 'reviewed_at', 'reason'];
-    const text = path.endsWith('.csv') ? keys.map(quote).join(',') + '\n' + rows.map(row => keys.map(key => quote(row[key])).join(',')).join('\n') : rows.map(row => JSON.stringify(row)).join('\n');
+    const text = exportReviewRows(rows, path.endsWith('.csv') ? 'csv' : 'jsonl');
     await writeFile(path, text + '\n', { mode: 0o600 }); console.log({ exported: rows.length });
-  } else if (command === 'health') console.log(await operationalStatus(pool, path || '/var/lib/ieum/raw', process.env.BACKUP_STATUS_FILE));
-  else throw new Error('Commands: import|official|openalex|sspace <reviewed-config.json>, resume <runId> <operator> <reason>, embed [limit], export <snapshot.json>, export-review <csv|jsonl>, health [artifact-directory]');
+  } else if (command === 'import-review' && path) console.log(await importReviewRows(pipeline, await readFile(path, 'utf8'), path.endsWith('.csv') ? 'csv' : 'jsonl'));
+  else if (command === 'health') console.log(await operationalStatus(pool, path || '/var/lib/ieum/raw', process.env.BACKUP_STATUS_FILE));
+  else throw new Error('Commands: import|official|openalex|sspace <reviewed-config.json>, resume <runId> <operator> <reason>, embed [limit], export <snapshot.json>, export-review|import-review <csv|jsonl>, health [artifact-directory]');
 } finally { await pool.end(); }

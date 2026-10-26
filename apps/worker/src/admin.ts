@@ -4,6 +4,7 @@ import { timingSafeEqual } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import { z } from 'zod';
 import { Id } from '@ieum/contracts';
+import { importReviewRows } from './review-io.ts';
 import { Pipeline, PolicySchema } from './pipeline.ts';
 export async function createAdmin(pipeline: Pipeline, token: string) {
   if (token.length < 32) throw new Error('ADMIN_TOKEN must be at least 32 characters');
@@ -33,6 +34,7 @@ export async function createAdmin(pipeline: Pipeline, token: string) {
     const rawId = await pipeline.record(b.runId, b.externalId, b.sourceUrl, b.payload);
     return { rawId, stagingId: await pipeline.stage(b.runId, rawId, b.draft) };
   });
+  app.post('/ops/import-review', async req => { const body = z.strictObject({text:z.string().min(1).max(2_000_000),format:z.enum(['csv','jsonl'])}).parse(req.body); return importReviewRows(pipeline,body.text,body.format); });
   app.post('/ops/review', async req => { const b = z.strictObject({ id: Id, status: z.enum(['approved', 'needs_revision', 'rejected', 'expired']), actor: z.string().min(1), reason: z.string().min(1) }).parse(req.body); await pipeline.review(b.id, b.status, b.actor, b.reason); return { ok: true }; });
   app.post('/ops/publish', async req => { const b = z.strictObject({ id: Id, version: Id, actor: z.string().min(1), reason: z.string().min(1), publicDataReviewed: z.literal(true) }).parse(req.body); const snapshot = await pipeline.publish(b.id, b.version, b.actor, b.reason); return snapshot.manifest; });
   app.post('/ops/rollback', async req => { const b = z.strictObject({ version: Id, actor: z.string().min(1), reason: z.string().min(1) }).parse(req.body); await pipeline.rollback(b.version, b.actor, b.reason); return { ok: true }; });
