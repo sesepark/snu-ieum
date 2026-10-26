@@ -1,0 +1,83 @@
+{
+  "template": true,
+  "evaluationConducted": false,
+  "approvedBatchVersion": null,
+  "checkedAt": null,
+  "environment": null,
+  "plannedSlots": [
+    {
+      "slotId": "S01",
+      "viewOrder": [
+        "2d",
+        "3d"
+      ]
+    },
+    {
+      "slotId": "S02",
+      "viewOrder": [
+        "2d",
+        "3d"
+      ]
+    },
+    {
+      "slotId": "S03",
+      "viewOrder": [
+        "2d",
+        "3d"
+      ]
+    },
+    {
+      "slotId": "S04",
+      "viewOrder": [
+        "2d",
+        "3d"
+      ]
+    },
+    {
+      "slotId": "S05",
+      "viewOrder": [
+        "3d",
+        "2d"
+      ]
+    },
+    {
+      "slotId": "S06",
+      "viewOrder": [
+        "3d",
+        "2d"
+      ]
+    },
+    {
+      "slotId": "S07",
+      "viewOrder": [
+        "3d",
+        "2d"
+      ]
+    },
+    {
+      "slotId": "S08",
+      "viewOrder": [
+        "3d",
+        "2d"
+      ]
+    }
+  ],
+  "results": [],
+  "resultShape": {
+    "anonymousParticipantCode": null,
+    "slotId": null,
+    "views": [
+      {
+        "view": null,
+        "taskACompleted": null,
+        "taskASeconds": null,
+        "sourceIdOpened": null,
+        "within120Seconds": null,
+        "taskBRelationUnderstood": null,
+        "relationSourceIdOpened": null,
+        "failureCodes": []
+      }
+    ],
+    "repeatedFatigue3dReported": null
+  }
+}

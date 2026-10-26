@@ -1,0 +1,128 @@
+{
+  "template": true,
+  "evaluationConducted": false,
+  "approvedBatchVersion": null,
+  "reviewStatus": "pending",
+  "cases": [
+    {
+      "id": "search-cee",
+      "targetDepartmentId": "cee",
+      "task": "수질과 환경 오염을 분석할 연구 자원을 찾는다.",
+      "ordinaryQuery": "수질 환경",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-architecture",
+      "targetDepartmentId": "architecture",
+      "task": "건축물의 구조 안전과 설계 방법을 검토할 연구 자원을 찾는다.",
+      "ordinaryQuery": "구조",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-mechanical",
+      "targetDepartmentId": "mechanical",
+      "task": "로봇의 인식과 동작을 연구할 자원을 찾는다.",
+      "ordinaryQuery": "로봇",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-industrial",
+      "targetDepartmentId": "industrial",
+      "task": "산업 데이터의 이상을 발견하고 의사결정을 개선할 자원을 찾는다.",
+      "ordinaryQuery": "이상치",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-energy",
+      "targetDepartmentId": "energy",
+      "task": "폐자원에서 유용한 금속을 회수할 연구 자원을 찾는다.",
+      "ordinaryQuery": "자원회수",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-nuclear",
+      "targetDepartmentId": "nuclear",
+      "task": "원자력 계통의 열과 유체 거동을 연구할 자원을 찾는다.",
+      "ordinaryQuery": "열수력",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-materials",
+      "targetDepartmentId": "materials",
+      "task": "소재의 변형과 물성을 해석할 자원을 찾는다.",
+      "ordinaryQuery": "재료역학",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-ece",
+      "targetDepartmentId": "ece",
+      "task": "유연한 센서와 전자소자를 연구할 자원을 찾는다.",
+      "ordinaryQuery": "유연",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-naval",
+      "targetDepartmentId": "naval",
+      "task": "선박과 해양 시스템을 설계할 자원을 찾는다.",
+      "ordinaryQuery": "설계",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-cse",
+      "targetDepartmentId": "cse",
+      "task": "데이터 분석을 위한 알고리즘과 기계학습 자원을 찾는다.",
+      "ordinaryQuery": "데이터",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-aerospace",
+      "targetDepartmentId": "aerospace",
+      "task": "항공우주 비행체의 추진과 공력 연구 자원을 찾는다.",
+      "ordinaryQuery": "추진",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    },
+    {
+      "id": "search-chemical",
+      "targetDepartmentId": "chemical",
+      "task": "환경 오염과 에너지 생산을 위한 촉매 연구 자원을 찾는다.",
+      "ordinaryQuery": "촉매",
+      "departmentFilter": null,
+      "relevanceJudgments": [],
+      "topTenResourceIds": [],
+      "passed": null
+    }
+  ]
+}
