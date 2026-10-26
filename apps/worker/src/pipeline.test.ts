@@ -2,8 +2,9 @@ import { expect, it } from 'vitest';
 import { sanitize } from './privacy.ts';
 import { assertAllowed } from './pipeline.ts';
 it('excludes contact fields and inline contact data before raw persistence', () => {
-  const result = sanitize({ title: '공식 표본', email: 'person@example.org', nested: [{ phone: '010-1234-5678', description: 'Reach person@example.org or 02-880-1234' }], version: 'prototype-20261026' });
-  expect(JSON.stringify(result.payload)).not.toContain('person@example.org');
+  const result = sanitize({ title: '공식 표본', email: 'person@example.org', nested: [{ phone: '010-1234-5678', description: 'Reach person@example.org or 02-880-1234' }], version: 'prototype-20261026', index: { 'private@example.org': [1, 2] } });
+  expect(JSON.stringify(result)).not.toContain('person@example.org');
+  expect(JSON.stringify(result)).not.toContain('private@example.org');
   expect(JSON.stringify(result.payload)).not.toContain('880-1234');
   expect(JSON.stringify(result.payload)).toContain('prototype-20261026');
   expect(result.exclusions.length).toBeGreaterThan(2);

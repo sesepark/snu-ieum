@@ -1,31 +1,41 @@
 import { z } from 'zod';
 import { GoalProfileSchema, type GoalProfile } from '@ieum/contracts';
 import type { Pool } from 'pg';
-export type Limits = { rpm: number; tpm: number; rpd: number };
+export type Limits = { rpm: number; tpm: number; rpd: number; dayTimeZone?: string };
 export type AI = { interpret(goal: string): Promise<GoalProfile>; embed(text: string): Promise<number[]>; embeddingModel: string };
 export type Reservation = { model: string; tokens: number };
 export type Budget = { reserve(requests: Reservation[], priority?: 'user' | 'ingest'): Promise<boolean> };
+export function quotaDay(date: Date, timeZone = 'UTC') {
+  const parts = new Intl.DateTimeFormat('en-US', {timeZone, year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(date);
+  const part = (type: string) => parts.find(p => p.type === type)!.value;
+  return `${part('year')}-${part('month')}-${part('day')}`;
+}
 export class PostgresBudget implements Budget {
   constructor(private pool: Pool, private limits: Record<string, Limits>) {}
   async reserve(requests: Reservation[], priority: 'user' | 'ingest' = 'user') {
     const client = await this.pool.connect();
     try {
       await client.query('BEGIN');
-      // Serializes reservations across public and worker processes; user capacity is reserved.
       await client.query("SELECT pg_advisory_xact_lock(hashtext('ieum-ai-budget'))");
-      const now = new Date().toISOString();
-      const windows = [{ key: 'minute:' + now.slice(0, 16), minute: true }, { key: 'day:' + now.slice(0, 10), minute: false }];
+      const now = new Date(), previousMinute = 'minute:' + new Date(now.getTime() - 60000).toISOString().slice(0,16);
       const fraction = priority === 'user' ? .8 : .4;
-      for (const request of requests) for (const window of windows) {
-        const limit = this.limits[request.model];
-        if (!limit) throw new Error('Unverified quota');
-        await client.query('INSERT INTO ai_usage(model,"window") VALUES($1,$2) ON CONFLICT DO NOTHING', [request.model, window.key]);
-        const result = await client.query('SELECT requests,tokens FROM ai_usage WHERE model=$1 AND "window"=$2 FOR UPDATE', [request.model, window.key]);
-        const usage = result.rows[0];
-        if (usage.requests + 1 > Math.floor(fraction * (window.minute ? limit.rpm : limit.rpd)) || (window.minute && usage.tokens + request.tokens > Math.floor(fraction * limit.tpm))) {
-          await client.query('ROLLBACK'); return false;
+      for (const request of requests) {
+        const limit = this.limits[request.model]; if (!limit) throw new Error('Unverified quota');
+        const windows = [{key:'minute:' + now.toISOString().slice(0,16), minute:true}, {key:'day:' + quotaDay(now, limit.dayTimeZone), minute:false}];
+        for (const window of windows) {
+          await client.query('INSERT INTO ai_usage(model,"window") VALUES($1,$2) ON CONFLICT DO NOTHING', [request.model, window.key]);
+          const result = await client.query('SELECT requests,tokens FROM ai_usage WHERE model=$1 AND "window"=$2 FOR UPDATE', [request.model, window.key]);
+          const usage = result.rows[0];
+          // Include the previous full minute to avoid bursts across fixed-window boundaries.
+          if (window.minute) {
+            const previous = await client.query('SELECT requests,tokens FROM ai_usage WHERE model=$1 AND "window"=$2', [request.model, previousMinute]);
+            if (previous.rowCount) { usage.requests += previous.rows[0].requests; usage.tokens += previous.rows[0].tokens; }
+          }
+          if (usage.requests + 1 > Math.floor(fraction * (window.minute ? limit.rpm : limit.rpd)) || (window.minute && usage.tokens + request.tokens > Math.floor(fraction * limit.tpm))) {
+            await client.query('ROLLBACK'); return false;
+          }
+          await client.query('UPDATE ai_usage SET requests=requests+1,tokens=tokens+$3 WHERE model=$1 AND "window"=$2', [request.model, window.key, request.tokens]);
         }
-        await client.query('UPDATE ai_usage SET requests=requests+1,tokens=tokens+$3 WHERE model=$1 AND "window"=$2', [request.model, window.key, request.tokens]);
       }
       await client.query('COMMIT'); return true;
     } catch (error) { await client.query('ROLLBACK'); throw error; }

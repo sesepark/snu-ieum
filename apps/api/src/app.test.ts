@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import seed from '../../../data/prototype.json' with { type: 'json' };
 import { parseSnapshot } from '@ieum/catalog';
 import { createApp } from './app.ts';
-import { Gemini } from './ai.ts';
+import { Gemini, quotaDay } from './ai.ts';
 const snapshot = parseSnapshot(seed);
 const repository = { snapshot: async () => snapshot };
 const profile = { problemDomains: [], coreTechnologies: [], requiredCapabilities: [], expectedOutputs: [], keywords: ['AI'] };
@@ -51,3 +51,10 @@ describe('public API', () => {
     await expect(invalid.interpret('private')).rejects.toThrow();
   });
 });
+it('keeps ordinary results when supplemental database similarity fails', async () => {
+  const app = await createApp({ ...repository, similar: async () => { throw new Error('temporary database failure'); } }, {prototype:true}); apps.push(app);
+  const response = await app.inject({method:'POST',url:'/v1/search',payload:{q:'AI'}});
+  expect(response.statusCode).toBe(200); expect(response.json().results.length).toBeGreaterThan(0);
+});
+
+it('uses the provider daily reset timezone instead of UTC', () => { expect(quotaDay(new Date('2026-10-26T00:10:00Z'), 'America/Los_Angeles')).toBe('2026-10-25'); });

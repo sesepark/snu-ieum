@@ -70,7 +70,8 @@ export async function createApp(repository: Repository, options: { ai?: AI; orig
     }
     let results = recommend(s, input, semantic);
     if (!semantic.size && input.q && repository.similar) {
-      const similar = await repository.similar(input.q, s.manifest.version);
+      let similar = new Map<string, number>();
+      try { similar = await repository.similar(input.q, s.manifest.version); } catch { /* Keep validated in-memory results if supplemental trigram search fails. */ }
       const extra = recommend(s, { ...input, q: '' }).filter(r => similar.has(r.resource.id) && !results.some(x => x.resource.id === r.resource.id));
       results = [...results, ...extra.map(r => ({ ...r, reason: '공식 소개 텍스트와 검색어의 부분·문자 유사도를 확인한 후보입니다.' }))];
     }

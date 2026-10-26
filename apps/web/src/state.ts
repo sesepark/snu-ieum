@@ -15,7 +15,7 @@ export function shareUrl(state: SharedState) {
   if (state.selected) params.set('selected', state.selected);
   return params.toString();
 }
-const initialView = typeof matchMedia === 'function' && matchMedia('(min-width: 901px)').matches ? '3d' : '2d';
+const initialView = import.meta.env.VITE_DEFAULT_VIEW === '2d' ? '2d' : import.meta.env.VITE_DEFAULT_VIEW === '3d' ? '3d' : typeof matchMedia === 'function' && matchMedia('(min-width: 901px)').matches ? '3d' : '2d';
 export const useExplore = create<SharedState & {
   q: string; depth: 1 | 2; focusOnly: boolean; evidence: boolean; notice: string;
   restore(shared: SharedState): void; setView(view: View): void; select(id?: string): void;
@@ -23,7 +23,7 @@ export const useExplore = create<SharedState & {
   expand(): void; setFocusOnly(value: boolean): void; setEvidence(value: boolean): void; fallback(): void;
 }>(set => ({
   view: initialView, kinds: [], departmentIds: [], q: '', selected: undefined, depth: 1, focusOnly: false, evidence: false, notice: '',
-  restore: shared => set(shared), setView: view => set({ view }), select: selected => set({ selected, depth: 1, evidence: false }),
+  restore: shared => set(shared), setView: view => set({ view, notice: '' }), select: selected => set({ selected, depth: 1, evidence: false }),
   setQuery: q => set({ q }), setKinds: kinds => set({ kinds }), setDepartments: departmentIds => set({ departmentIds }),
   expand: () => set({ depth: 2, focusOnly: true }), setFocusOnly: focusOnly => set({ focusOnly }), setEvidence: evidence => set({ evidence }),
   fallback: () => set({ view: '2d', notice: '3D를 사용할 수 없어 2D로 전환했습니다. 자원 목록에서도 탐색할 수 있습니다.' })

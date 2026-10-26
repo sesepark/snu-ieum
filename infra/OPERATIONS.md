@@ -35,7 +35,7 @@ Node.js 24 작업공간에서 `npm run cli -w @ieum/worker -- <명령>` 또는 `
 
 기본은 비활성이다. 실제 계정에서 두 모델의 무료 접근·JSON·768차원 응답을 확인하고, `AI_FREE_TIER_VERIFIED=true`, `AI_QUOTA_VERIFIED_AT=YYYY-MM-DD`, 모델별 RPM/TPM/RPD를 기록한 뒤 활성화한다. 유료 계정으로 자동 전환하는 코드는 없다.
 
-수집 자원 임베딩은 공개 승인과 무료 서비스 데이터 처리 조건 확인 후 `DATA_EMBEDDING_APPROVED=true`에서만 `embed [limit]`로 실행한다. 기존 임베딩은 건너뛰고 다음 미처리 자원을 처리한다. 수집은 한도의 40%까지만 사용하고 사용자 요청을 포함한 전체는 80% 이하로 제한한다. 모델·배치가 다른 벡터는 함께 검색하지 않는다.
+수집 자원 임베딩은 공개 승인과 무료 서비스 데이터 처리 조건 확인 후 `DATA_EMBEDDING_APPROVED=true`에서만 `embed [limit]`로 실행한다. 기존 임베딩은 건너뛰고 다음 미처리 자원을 처리한다. 수집은 한도의 40%까지만 사용하고 사용자 요청을 포함한 전체는 80% 이하로 제한한다. 모델·배치가 다른 벡터는 함께 검색하지 않는다. Gemini 일일 한도는 공식 규격의 미국 태평양 시간 자정에 맞추고 RPM/TPM은 이전 분도 합산해 경계 시점의 몰림을 보수적으로 제한한다. [공식 한도 규격](https://ai.google.dev/gemini-api/docs/rate-limits).
 
 ## 백업·복구·관측
 

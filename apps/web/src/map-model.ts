@@ -11,7 +11,7 @@ export function model(data: Graph, departments: Department[]) {
   for (const [i, d] of departments.entries()) {
     const x = (i % 4 - 1.5) * 230, y = (Math.floor(i / 4) - 1) * 190, z = Math.sin(i * 1.7) * 20;
     const resources = data.nodes.filter(n => n.departmentId === d.id);
-    nodes.push({ id: `group:${d.id}`, name: d.name, departmentId: d.id, kind: 'department', count: resources.length, fx: x, fy: y, fz: z });
+    nodes.push({ id: `__group__:${d.id}`, name: d.name, departmentId: d.id, kind: 'department', count: resources.length, fx: x, fy: y, fz: z });
     for (const [j, r] of resources.entries()) {
       const angle = j * 2.399963;
       const radius = 42 + Math.sqrt(j) * 10;

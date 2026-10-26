@@ -44,3 +44,12 @@ test('mobile defaults to 2D with an accessible list and bottom detail sheet', as
   await expect(page.getByRole('button', { name: '검색 · 자원 목록', exact: true })).toBeFocused();
   await page.screenshot({ path: 'test-results/mobile.png' });
 });
+test('a lost WebGL context falls back to 2D while retaining selection', async ({ page }) => {
+  await page.goto('#/?view=3d&department=cse&selected=lab-bi');
+  await expect(page.getByRole('heading', {name:'Biointelligence Lab',exact:true})).toBeVisible();
+  await page.locator('.map-stage canvas').waitFor();
+  await page.locator('.map-stage canvas').evaluate(canvas => canvas.dispatchEvent(new Event('webglcontextlost', {cancelable:true})));
+  await expect(page.getByRole('button',{name:'2D',exact:true})).toHaveAttribute('aria-pressed','true');
+  await expect(page).toHaveURL(/selected=lab-bi/);
+  await expect(page.getByText('3D를 사용할 수 없어 2D로 전환했습니다.',{exact:false})).toBeVisible();
+});

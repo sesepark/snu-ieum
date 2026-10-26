@@ -77,6 +77,7 @@ export function graph(s: Snapshot, f: Filters, options: { focus?: string; depth?
   const ids = new Set(selected.map(r => r.id));
   const nodes: Graph['nodes'] = selected.map(({ id, name, kind, departmentId, sourceIds }) => ({ id, name, kind, departmentId, sourceIds }));
   const edges: Graph['edges'] = s.relations.filter(e => ids.has(e.from) && ids.has(e.to)).map(e => ({ id: e.id, source: e.from, target: e.to, label: e.label, sourceIds: e.sourceIds, lastVerifiedAt: e.lastVerifiedAt }));
+  const omittedRelations = s.relations.filter(e => visible.has(e.from) && visible.has(e.to)).length - edges.length;
   let hiddenEvidence = 0;
   if (options.evidence && options.focus && ids.has(options.focus)) {
     for (const e of s.evidence.filter(e => e.resourceIds.includes(options.focus!))) {
@@ -86,6 +87,6 @@ export function graph(s: Snapshot, f: Filters, options: { focus?: string; depth?
       for (const id of e.resourceIds.filter(id => ids.has(id))) edges.push({ id: `${e.id}:${id}`, source: e.id, target: id, label: '논문 근거', sourceIds: e.sourceIds, lastVerifiedAt: e.lastVerifiedAt });
     }
   }
-  return { nodes, edges: edges.slice(0, 1000), hiddenNodes: visible.size - selected.length + hiddenEvidence, hiddenEdges: Math.max(0, edges.length - 1000) };
+  return { nodes, edges: edges.slice(0, 1000), hiddenNodes: visible.size - selected.length + hiddenEvidence, hiddenEdges: omittedRelations + Math.max(0, edges.length - 1000) };
 }
 export function parseSnapshot(input: unknown) { return SnapshotSchema.parse(input); }

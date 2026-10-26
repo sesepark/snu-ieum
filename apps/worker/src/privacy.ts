@@ -9,7 +9,8 @@ export function sanitize(input: unknown) {
   const visit = (value: unknown, path: string): unknown => {
     if (Array.isArray(value)) return value.map((item, i) => visit(item, `${path}[${i}]`));
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).flatMap(([key, value]) => {
-      if (contactKey.test(key)) { exclusions.push(path + '.' + key); return []; }
+      const safeKey = key.replace(email, '[contact removed]').replace(obfuscatedEmail, '[contact removed]').replace(phone, '[contact removed]');
+      if (safeKey !== key || contactKey.test(key)) { exclusions.push(path + '.' + (safeKey !== key ? '[contact-key-removed]' : key)); return []; }
       return [[key, visit(value, path + '.' + key)]];
     }));
     if (typeof value === 'string') {

@@ -21,6 +21,8 @@ export default function App() {
   const { data, isPending, error, refetch } = useQuery({ queryKey: ['catalog'], queryFn: () => loadCatalog(), staleTime: 60_000 });
   const list = useRef<HTMLDivElement>(null);
   useEffect(() => {
+    const canonicalHash = `#/?${shareUrl(useExplore.getState())}`;
+    if (window.location.hash !== canonicalHash) window.history.replaceState(null, '', canonicalHash);
     const unsubscribe = useExplore.subscribe(next => {
       const hash = `#/?${shareUrl(next)}`;
       if (window.location.hash !== hash) window.location.hash = hash;
@@ -30,7 +32,7 @@ export default function App() {
     return () => { unsubscribe(); window.removeEventListener('hashchange', restore); };
   }, []);
   useEffect(() => {
-    const escape = (event: KeyboardEvent) => { if (event.key === 'Escape') { useExplore.getState().select(undefined); setMobileListOpen(false); listToggle.current?.focus(); } };
+    const escape = (event: KeyboardEvent) => { if (event.key === 'Escape') { useExplore.getState().select(undefined); setMobileListOpen(false); if (matchMedia('(max-width:900px)').matches) listToggle.current?.focus(); else list.current?.focus(); } };
     window.addEventListener('keydown', escape); return () => window.removeEventListener('keydown', escape);
   }, []);
   const snapshot = data?.snapshot;

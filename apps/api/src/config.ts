@@ -8,7 +8,7 @@ export function verifiedAI(pool: Pool | undefined, env: NodeJS.ProcessEnv = proc
   const model = env.GEMINI_MODEL || 'gemini-3.5-flash-lite', embedding = env.GEMINI_EMBEDDING_MODEL || 'gemini-embedding-2';
   const limits = (prefix: string): Limits => {
     const value = (key: string) => z.coerce.number().int().positive().parse(env[`${prefix}_${key}`]);
-    return { rpm: value('RPM'), tpm: value('TPM'), rpd: value('RPD') };
+    return { rpm: value('RPM'), tpm: value('TPM'), rpd: value('RPD'), dayTimeZone: 'America/Los_Angeles' };
   };
   const budget = new PostgresBudget(pool, { [model]: limits('AI_TEXT'), [embedding]: limits('AI_EMBED') });
   return new Gemini(env.GEMINI_API_KEY, { reserve: requests => budget.reserve(requests, priority) }, embedding, model);

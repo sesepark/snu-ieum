@@ -39,3 +39,15 @@ describe('catalog evidence and limits', () => {
     expect(recommend(changed, base, new Map(), Date.parse('2026-11-10T00:00:00Z'))[0].verificationRequired).toBe(true);
   });
 });
+it('counts relationships omitted with capped nodes and gates document expansion', () => {
+  const resources = Array.from({length: 310}, (_, i) => ({...s.resources[0], id: `n-${i}`}));
+  const relations = resources.slice(1).map((r, i) => ({...s.relations[0], id: `e-${i}`, from: 'n-0', to: r.id}));
+  const limited = graph({...s, resources, relations}, base);
+  expect(limited.hiddenNodes).toBe(10); expect(limited.hiddenEdges).toBe(10);
+  const withDocument = {...s, evidence: [{id:'fixture-paper', kind:'paper' as const, title:'테스트 근거', resourceIds:['lab-bi'], sourceIds:['s-bi'], lastVerifiedAt:'2026-10-26T00:00:00Z'}]};
+  expect(graph(withDocument, base).nodes.some(n => n.kind === 'paper')).toBe(false);
+  const expanded = graph(withDocument, base, {focus:'lab-bi', evidence:true});
+  expect(expanded.nodes.some(n => n.kind === 'paper')).toBe(true);
+  const ids = new Set(expanded.nodes.map(n => n.id));
+  expect(expanded.edges.every(e => ids.has(e.source) && ids.has(e.target) && e.sourceIds.length > 0)).toBe(true);
+});

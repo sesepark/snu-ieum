@@ -31,6 +31,7 @@ export class Pipeline {
     return id;
   }
   async record(runId: string, externalId: string, sourceUrl: string, payload: unknown, checkpoint: unknown = {}) {
+    if (sanitize(externalId).exclusions.length) throw new Error('Sensitive external identifier');
     return transaction(this.pool, async client => {
       const result = await client.query('SELECT policy,status FROM ingestion_runs WHERE id=$1 FOR UPDATE', [runId]);
       if (!result.rowCount || result.rows[0].status !== 'running') throw new Error('Run not active');
