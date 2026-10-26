@@ -1,0 +1,17 @@
+{
+  "runId": "3b5c43d8-5b83-498e-a2ae-9113bf21443f",
+  "rawId": "66dd827f90444f1f5cbd1a87663971068606824ad474b54511d22c96a6f3f673",
+  "checkedAt": "2026-10-26T18:05:48.337Z",
+  "status": "pending-human-review",
+  "facts": {
+    "keptResourceId": "prof-dir-cee-impklbnnhlff",
+    "absorbedUncommittedCandidateId": "prof-current-cee-z",
+    "officialKorean": "최정권",
+    "officialEnglish": "Choe, Jong Kwon",
+    "directoryEnglish": "CHOE JONG KWON",
+    "department": "건설환경도시공학부",
+    "profileUrl": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=4",
+    "directoryUrl": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=22",
+    "basis": "한 공식 카드에 한글과 영문 성명이 함께 명시되고 공대 목록의 같은 소속 영문 전체 이름과 일치. 다른 어순의 Nguyen 후보는 병합하지 않음."
+  }
+}

@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "college-draft-20261026",
-    "generatedAt": "2026-10-26T17:46:17.279Z",
+    "generatedAt": "2026-10-26T17:57:49.731Z",
     "publication": "prototype",
     "selectionReason": "12개 학과와 공용 시설의 공식 출처를 확인한 검수 초안을 통합했다. 학과별 선정 이유는 data/drafts에 기록했다. 건축학과 교수의 분야 대표성과 지도 연구실은 추가 검수가 필요하며 확인되지 않은 관계는 만들지 않았다. 모든 자원은 사람 승인 전이며 전수 조사·이용 가능 보장이 아니다.",
     "schemaVersion": 1
@@ -167,6 +167,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:30:50.557Z",
       "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "profile-source-cee-1",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "organization": "서울대학교 건설환경도시공학부",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
     },
     {
       "id": "src-architecture-faculty",
@@ -1031,6 +1040,69 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T16:43:51.267Z",
       "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "profile-source-energy-3",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=16",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "강진수 공식 교수 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "profile-source-energy-4",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=14",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "민동주 공식 교수 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "profile-source-energy-5",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=13",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "박형동 공식 교수 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "profile-source-energy-6",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=12",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "송재준 공식 교수 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "profile-source-energy-8",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=11",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "전석원 공식 교수 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "profile-source-energy-9",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=9",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "정훈영 공식 교수 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "profile-source-energy-11",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "최종근 공식 교수 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
     },
     {
       "id": "official-lab-inventory-nuclear",
@@ -2678,6 +2750,24 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T17:46:17.279Z",
       "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-energy-2",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "source-naval-lab-addresses",
+      "url": "https://naoe.snu.ac.kr/research/lab",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "조선해양공학과 공식 연구실 목록·주소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T18:04:47.802Z",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z"
     }
   ],
   "resources": [
@@ -2685,16 +2775,18 @@
       "id": "prof-cee-urban",
       "kind": "researcher",
       "name": "권영상",
-      "summary": "공식 전공은 도시계획 및 설계이며 교수 카드에 도시설계연구실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 도시계획 및 설계",
       "departmentId": "cee",
       "keywords": [
         "도시계획",
-        "도시설계"
+        "도시설계",
+        "도시계획 및 설계"
       ],
       "sourceIds": [
-        "src-cee-urban"
+        "src-cee-urban",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -2717,16 +2809,18 @@
       "id": "prof-cee-structural",
       "kind": "researcher",
       "name": "김호경",
-      "summary": "공식 전공은 구조설계공학이며 교수 카드에 구조설계연구실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 구조설계공학",
       "departmentId": "cee",
       "keywords": [
         "구조설계",
-        "구조공학"
+        "구조공학",
+        "구조설계공학"
       ],
       "sourceIds": [
-        "src-cee-structural"
+        "src-cee-structural",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -2749,16 +2843,17 @@
       "id": "prof-cee-water",
       "kind": "researcher",
       "name": "최용주",
-      "summary": "공식 전공은 환경공학이며 교수 카드에 수질환경실험실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 환경공학",
       "departmentId": "cee",
       "keywords": [
         "환경공학",
         "수질"
       ],
       "sourceIds": [
-        "src-cee-water"
+        "src-cee-water",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -3113,18 +3208,19 @@
       "id": "prof-energy-recycling",
       "kind": "researcher",
       "name": "강정신",
-      "summary": "희소금속의 제련과 폐자원 리사이클링 공정을 연구한다. 공식 교수 소개에 해당 연구실과 금속 회수·제조 주제가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 제련 및 리사이클링 공학",
       "departmentId": "energy",
       "keywords": [
         "희소금속",
         "제련",
         "리사이클링",
-        "자원회수"
+        "자원회수",
+        "제련 및 리사이클링 공학"
       ],
       "sourceIds": [
         "src-energy-recycling"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -3149,7 +3245,7 @@
       "id": "prof-energy-rock",
       "kind": "researcher",
       "name": "민기복",
-      "summary": "열·수리·역학이 결합된 지하암반 거동을 연구하며 지열에너지·이산화탄소 지하저장·폐기물 지하처분을 응용 분야로 다룬다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 암반공학",
       "departmentId": "energy",
       "keywords": [
         "암반공학",
@@ -3160,7 +3256,7 @@
       "sourceIds": [
         "src-energy-rock"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -3185,17 +3281,18 @@
       "id": "prof-energy-geochemistry",
       "kind": "researcher",
       "name": "정은혜",
-      "summary": "에너지 및 자원 생산 과정의 환경 문제와 유용자원 회수를 연구한다. 공식 소개에 환경지구화학과 오염수 내 자원 회수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 에너지환경지구화학",
       "departmentId": "energy",
       "keywords": [
         "환경지구화학",
         "자원회수",
-        "환경오염"
+        "환경오염",
+        "에너지환경지구화학"
       ],
       "sourceIds": [
         "src-energy-geochemistry"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -4512,384 +4609,432 @@
       "id": "prof-dir-cee-nkgdakldgjea",
       "kind": "researcher",
       "name": "고희동",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 구조공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "조교수"
+        "조교수",
+        "구조공학"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-dogleejefkka",
       "kind": "researcher",
       "name": "김동규",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 교통공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "교통공학"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-jpkckadkadgg",
       "kind": "researcher",
       "name": "김성렬",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 지반공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "지반공학"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-gpdgjgjikfbg",
       "kind": "researcher",
       "name": "김영오",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 수공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "수공학"
       ],
       "sourceIds": [
-        "source-eng-directory-4"
+        "source-eng-directory-4",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-djnhcjkfchmm",
       "kind": "researcher",
       "name": "김용일",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 공간정보공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "공간정보공학"
       ],
       "sourceIds": [
-        "source-eng-directory-4"
+        "source-eng-directory-4",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-dfbddkfiedfk",
       "kind": "researcher",
       "name": "김재영",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 환경공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "환경공학"
       ],
       "sourceIds": [
-        "source-eng-directory-4"
+        "source-eng-directory-4",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-cpapibemkajl",
       "kind": "researcher",
       "name": "김희철",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 스마트시티(도시공학)",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "조교수"
+        "조교수",
+        "스마트시티(도시공학)"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-hafjdgbbdacg",
       "kind": "researcher",
       "name": "남경필",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 환경공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "환경공학"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-nedlfeehnllo",
       "kind": "researcher",
       "name": "문주혁",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 구조재료공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "구조재료공학"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-ndflhlanmfol",
       "kind": "researcher",
       "name": "박용성",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 해안공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "부교수"
+        "부교수",
+        "해안공학"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-hajffoiipcfa",
       "kind": "researcher",
       "name": "박윤미",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 스마트도시계획",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "부교수"
+        "부교수",
+        "스마트도시계획"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-fmepjamfhian",
       "kind": "researcher",
       "name": "박주영",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 지속가능공학, 산업생태학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "지속가능공학",
+        "산업생태학"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-gofjfblbhogd",
       "kind": "researcher",
       "name": "박준범",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 지반환경공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "지반환경공학"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-jehjakehmbof",
       "kind": "researcher",
       "name": "양수현",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 수공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "조교수"
+        "조교수",
+        "수공학"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-fodcoeojmnag",
       "kind": "researcher",
       "name": "유기윤",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 공간정보공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "공간정보공학"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-djncbngmecaj",
       "kind": "researcher",
       "name": "윤규근",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 교통공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "조교수"
+        "조교수",
+        "교통공학"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-oghhliecplbm",
       "kind": "researcher",
       "name": "이청원",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 교통공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "교통공학"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-nakklooefebh",
       "kind": "researcher",
       "name": "조재열",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 구조공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "구조공학"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-eemfnopkoiha",
       "kind": "researcher",
       "name": "주진현",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 지반공학,전산역학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "부교수"
+        "부교수",
+        "지반공학",
+        "전산역학"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-ebpbpfmfbjlf",
       "kind": "researcher",
       "name": "지석호",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 건설관리",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "건설관리"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-dekgcclcjdki",
       "kind": "researcher",
       "name": "채윤병",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 구조공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "구조공학"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-geklhilakbnc",
       "kind": "researcher",
       "name": "함영집",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 건설관리",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "부교수"
+        "부교수",
+        "건설관리"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-bhmnomjalcgg",
       "kind": "researcher",
       "name": "황진환",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 수공학",
       "departmentId": "cee",
       "keywords": [
         "건설환경도시공학부",
-        "교수"
+        "교수",
+        "수공학"
       ],
       "sourceIds": [
-        "source-eng-directory-22"
+        "source-eng-directory-22",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-cee-impklbnnhlff",
       "kind": "researcher",
-      "name": "CHOE JONG KWON",
-      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "name": "최정권",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
       "departmentId": "cee",
       "keywords": [
-        "건설환경도시공학부",
-        "교수"
+        "CHOE JONG KWON"
       ],
       "sourceIds": [
-        "source-eng-directory-22"
+        "source-eng-directory-22",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -5891,112 +6036,126 @@
       "id": "prof-dir-energy-kcianenjjcld",
       "kind": "researcher",
       "name": "강진수",
-      "summary": "공대 공식 교수검색에 에너지자원공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전기화학에너지공학",
       "departmentId": "energy",
       "keywords": [
         "에너지자원공학과",
-        "부교수"
+        "부교수",
+        "전기화학에너지공학"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "profile-source-energy-3"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-energy-khmhhoedfjaj",
       "kind": "researcher",
       "name": "민동주",
-      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 물리탐사",
       "departmentId": "energy",
       "keywords": [
         "에너지자원공학과",
-        "교수"
+        "교수",
+        "물리탐사"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-source-energy-4"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-energy-gldniokddaib",
       "kind": "researcher",
       "name": "박형동",
-      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 에너지 GIS",
       "departmentId": "energy",
       "keywords": [
         "에너지자원공학과",
-        "교수"
+        "교수",
+        "에너지 GIS"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-source-energy-5"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-energy-emjemdkaompl",
       "kind": "researcher",
       "name": "송재준",
-      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 암반공학",
       "departmentId": "energy",
       "keywords": [
         "에너지자원공학과",
-        "교수"
+        "교수",
+        "암반공학"
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "profile-source-energy-6"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-energy-anpalkbiakec",
       "kind": "researcher",
       "name": "전석원",
-      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 암반공학",
       "departmentId": "energy",
       "keywords": [
         "에너지자원공학과",
-        "교수"
+        "교수",
+        "암반공학"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-source-energy-8"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-energy-pfhhnngalknn",
       "kind": "researcher",
       "name": "정훈영",
-      "summary": "공대 공식 교수검색에 에너지자원공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 지하유체유동 및 수송",
       "departmentId": "energy",
       "keywords": [
         "에너지자원공학과",
-        "부교수"
+        "부교수",
+        "지하유체유동 및 수송"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-source-energy-9"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-energy-cjdheeiaiapa",
       "kind": "researcher",
       "name": "최종근",
-      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 석유가스공학",
       "departmentId": "energy",
       "keywords": [
         "에너지자원공학과",
-        "교수"
+        "교수",
+        "석유가스공학"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-source-energy-11"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -12859,6 +13018,539 @@
       ],
       "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
+    },
+    {
+      "id": "prof-current-cee-p",
+      "kind": "researcher",
+      "name": "송준호",
+      "summary": "공식 학과 현직 교수 목록의 교수/첨단융합학부장. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-cee-ab",
+      "kind": "researcher",
+      "name": "허태민",
+      "summary": "공식 학과 현직 교수 목록의 조교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-cee-ad",
+      "kind": "researcher",
+      "name": "Nguyen, Van Thinh",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-a",
+      "kind": "lab",
+      "name": "구조해석연구실",
+      "summary": "공식 전임 교수 카드에 고희동 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-c",
+      "kind": "lab",
+      "name": "교통계획 및 물류 연구실",
+      "summary": "공식 전임 교수 카드에 김동규 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-d",
+      "kind": "lab",
+      "name": "지반공학연구실",
+      "summary": "공식 전임 교수 카드에 김성렬 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-e",
+      "kind": "lab",
+      "name": "기후변화적응 수자원연구실",
+      "summary": "공식 전임 교수 카드에 김영오 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-f",
+      "kind": "lab",
+      "name": "공간정보연구실",
+      "summary": "공식 전임 교수 카드에 김용일 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-g",
+      "kind": "lab",
+      "name": "폐기물실험실",
+      "summary": "공식 전임 교수 카드에 김재영 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-j",
+      "kind": "lab",
+      "name": "토양환경연구실",
+      "summary": "공식 전임 교수 카드에 남경필 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-k",
+      "kind": "lab",
+      "name": "멀티스케일구조재료실험실",
+      "summary": "공식 전임 교수 카드에 문주혁 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-l",
+      "kind": "lab",
+      "name": "해안공학연구실",
+      "summary": "공식 전임 교수 카드에 박용성 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-m",
+      "kind": "lab",
+      "name": "스마트도시계획연구실",
+      "summary": "공식 전임 교수 카드에 박윤미 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-n",
+      "kind": "lab",
+      "name": "물질흐름 및 탄소모델링 연구실",
+      "summary": "공식 전임 교수 카드에 박주영 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-o",
+      "kind": "lab",
+      "name": "지반환경공학연구실",
+      "summary": "공식 전임 교수 카드에 박준범 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-p",
+      "kind": "lab",
+      "name": "구조신뢰성연구실",
+      "summary": "공식 전임 교수 카드에 송준호 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-q",
+      "kind": "lab",
+      "name": "도시물시스템연구실",
+      "summary": "공식 전임 교수 카드에 양수현 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-s",
+      "kind": "lab",
+      "name": "스마트교통연구실",
+      "summary": "공식 전임 교수 카드에 윤규근 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-t",
+      "kind": "lab",
+      "name": "교통공학연구실",
+      "summary": "공식 전임 교수 카드에 이청원 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-u",
+      "kind": "lab",
+      "name": "콘크리트구조 연구실",
+      "summary": "공식 전임 교수 카드에 조재열 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-v",
+      "kind": "lab",
+      "name": "지반역학연구실",
+      "summary": "공식 전임 교수 카드에 주진현 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-w",
+      "kind": "lab",
+      "name": "건설혁신연구실",
+      "summary": "공식 전임 교수 카드에 지석호 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-x",
+      "kind": "lab",
+      "name": "응용구조동역학연구실",
+      "summary": "공식 전임 교수 카드에 채윤병 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-z",
+      "kind": "lab",
+      "name": "지속가능환경기술연구실",
+      "summary": "공식 전임 교수 카드에 최정권 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-aa",
+      "kind": "lab",
+      "name": "스마트건설연구실",
+      "summary": "공식 전임 교수 카드에 함영집 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-ab",
+      "kind": "lab",
+      "name": "에너지인프라최적화연구실",
+      "summary": "공식 전임 교수 카드에 허태민 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-cee-ac",
+      "kind": "lab",
+      "name": "유체 물리 및 정보공학 연구실",
+      "summary": "공식 전임 교수 카드에 황진환 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-a",
+      "kind": "lab",
+      "name": "지능형 수소에너지 시스템연구실",
+      "summary": "공식 전임 교수 카드에 강상규 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-b",
+      "kind": "lab",
+      "name": "해양 및 쇼어기술 연구실",
+      "summary": "공식 전임 교수 카드에 김도균 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-d",
+      "kind": "lab",
+      "name": "딥러닝 연구실",
+      "summary": "공식 전임 교수 카드에 김태완 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-e",
+      "kind": "lab",
+      "name": "내항조종연구실",
+      "summary": "공식 전임 교수 카드에 남보우 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-h",
+      "kind": "lab",
+      "name": "능동인지 및 로봇지능 연구실",
+      "summary": "공식 전임 교수 카드에 신재정 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-i",
+      "kind": "lab",
+      "name": "통합설계자동화연구실",
+      "summary": "공식 전임 교수 카드에 오민재 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-j",
+      "kind": "lab",
+      "name": "생산공학연구실",
+      "summary": "공식 전임 교수 카드에 우종훈 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-k",
+      "kind": "lab",
+      "name": "선박저항성능연구실",
+      "summary": "공식 전임 교수 카드에 이신형 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-l",
+      "kind": "lab",
+      "name": "차세대선박해양공정연구실",
+      "summary": "공식 전임 교수 카드에 임영섭 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-m",
+      "kind": "lab",
+      "name": "전산구조역학연구실",
+      "summary": "공식 전임 교수 카드에 조선호 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cards-naval-n",
+      "kind": "lab",
+      "name": "수중 음향 지능 연구실",
+      "summary": "공식 전임 교수 카드에 추영민 교수와 함께 안내된 연구실입니다. 개별 연구 분야·실제 연구실 주소는 공식 연구실 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-energy-g",
+      "kind": "researcher",
+      "name": "이진욱",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "energy",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-energy-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-energy-k",
+      "kind": "researcher",
+      "name": "조용채",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "energy",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-energy-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-energy-m",
+      "kind": "researcher",
+      "name": "허은녕",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "energy",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-energy-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "verificationRequired": true
     }
   ],
   "relations": [
@@ -13582,6 +14274,391 @@
         "profile-source-industrial-13"
       ],
       "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-cards-cee-a",
+      "from": "prof-dir-cee-nkgdakldgjea",
+      "to": "lab-cards-cee-a",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-c",
+      "from": "prof-dir-cee-dogleejefkka",
+      "to": "lab-cards-cee-c",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-d",
+      "from": "prof-dir-cee-jpkckadkadgg",
+      "to": "lab-cards-cee-d",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-e",
+      "from": "prof-dir-cee-gpdgjgjikfbg",
+      "to": "lab-cards-cee-e",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-f",
+      "from": "prof-dir-cee-djnhcjkfchmm",
+      "to": "lab-cards-cee-f",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-g",
+      "from": "prof-dir-cee-dfbddkfiedfk",
+      "to": "lab-cards-cee-g",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-j",
+      "from": "prof-dir-cee-hafjdgbbdacg",
+      "to": "lab-cards-cee-j",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-k",
+      "from": "prof-dir-cee-nedlfeehnllo",
+      "to": "lab-cards-cee-k",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-l",
+      "from": "prof-dir-cee-ndflhlanmfol",
+      "to": "lab-cards-cee-l",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-m",
+      "from": "prof-dir-cee-hajffoiipcfa",
+      "to": "lab-cards-cee-m",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-n",
+      "from": "prof-dir-cee-fmepjamfhian",
+      "to": "lab-cards-cee-n",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-o",
+      "from": "prof-dir-cee-gofjfblbhogd",
+      "to": "lab-cards-cee-o",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-p",
+      "from": "prof-current-cee-p",
+      "to": "lab-cards-cee-p",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-q",
+      "from": "prof-dir-cee-jehjakehmbof",
+      "to": "lab-cards-cee-q",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-s",
+      "from": "prof-dir-cee-djncbngmecaj",
+      "to": "lab-cards-cee-s",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-t",
+      "from": "prof-dir-cee-oghhliecplbm",
+      "to": "lab-cards-cee-t",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-u",
+      "from": "prof-dir-cee-nakklooefebh",
+      "to": "lab-cards-cee-u",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-v",
+      "from": "prof-dir-cee-eemfnopkoiha",
+      "to": "lab-cards-cee-v",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-w",
+      "from": "prof-dir-cee-ebpbpfmfbjlf",
+      "to": "lab-cards-cee-w",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-x",
+      "from": "prof-dir-cee-dekgcclcjdki",
+      "to": "lab-cards-cee-x",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-z",
+      "from": "prof-dir-cee-impklbnnhlff",
+      "to": "lab-cards-cee-z",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-aa",
+      "from": "prof-dir-cee-geklhilakbnc",
+      "to": "lab-cards-cee-aa",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-ab",
+      "from": "prof-current-cee-ab",
+      "to": "lab-cards-cee-ab",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-cee-ac",
+      "from": "prof-dir-cee-bhmnomjalcgg",
+      "to": "lab-cards-cee-ac",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-a",
+      "from": "prof-dir-naval-ggnnpflocfjb",
+      "to": "lab-cards-naval-a",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-b",
+      "from": "prof-dir-naval-gpeipclipdjo",
+      "to": "lab-cards-naval-b",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-d",
+      "from": "prof-dir-naval-pmhaiiijegii",
+      "to": "lab-cards-naval-d",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-e",
+      "from": "prof-dir-naval-njlcdlebdplh",
+      "to": "lab-cards-naval-e",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-h",
+      "from": "prof-dir-naval-ielahgkhgaik",
+      "to": "lab-cards-naval-h",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-i",
+      "from": "prof-dir-naval-kbbpfkibnabo",
+      "to": "lab-cards-naval-i",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-j",
+      "from": "prof-dir-naval-bkbajbgibllh",
+      "to": "lab-cards-naval-j",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-k",
+      "from": "prof-dir-naval-kigjfjdognkm",
+      "to": "lab-cards-naval-k",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-l",
+      "from": "prof-dir-naval-gdmopbocdkio",
+      "to": "lab-cards-naval-l",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-m",
+      "from": "prof-dir-naval-jhhjopmmomgo",
+      "to": "lab-cards-naval-m",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "leads-cards-naval-n",
+      "from": "prof-dir-naval-jflocpkoobcd",
+      "to": "lab-cards-naval-n",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
     }
   ],
   "evidence": [

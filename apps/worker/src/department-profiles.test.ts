@@ -18,3 +18,9 @@ it('handles nested label spans and keeps Latin acronyms inside a Korean lab name
  const fact=parseIELab(`<div class="responsive-table">${row('연구실명','빅데이터 AI 연구실 Big Data AI Lab')}${row('지도교수','Prof. 박종헌')}${row('위치','39동 501호')}</div>`);
  expect(fact.title).toBe('빅데이터 AI 연구실');expect(fact.advisor).toBe('박종헌');expect(fact.address).toBe('39동 501호');
 });
+it('uses the building icon on CEE faculty cards and never a phone or footer as the office address',async()=>{
+ const{parseCEEFaculty}=await import('./department-profiles');const fact=parseCEEFaculty('<li class="ml_card"><h1 class="name"><a href="https://example.org/profile">고희동</a><span>Goh</span></h1><p class="depart">조교수</p><ul class="icon-wr"><li><i class="ri-building-fill"></i>35동 414호</li><li><i class="ri-phone-fill"></i>02-880-1234</li></ul><div class="lab-info"><dl><dt>전 공</dt><dd>구조공학</dd></dl><dl><dt>홈페이지</dt><dd><a href="https://example.org">구조해석연구실</a></dd></dl></div></li>')[0];expect(fact.officeAddress).toBe('35동 414호');expect(fact.researchFields).toBe('구조공학');expect(fact.labName).toBe('구조해석연구실');
+});
+it('excludes visiting naval faculty and labels their official address as an office rather than a lab',async()=>{
+ const{parseNavalFaculty}=await import('./department-profiles');const html='<div class="cont"><h3>김용환 / 교수</h3><ul><li><a href="https://example.org">해양유체역학연구실</a></li><li>private@example.org</li><li>34-411</li></ul></div><div class="cont"><h3>다른사람 / 객원교수</h3></div>';const facts=parseNavalFaculty(html);expect(facts).toHaveLength(1);expect(facts[0].officeAddress).toBe('34동 411호');expect(facts[0].researchFields).toBeNull();
+});

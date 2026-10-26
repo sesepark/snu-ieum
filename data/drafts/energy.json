@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "energy-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "generatedAt": "2026-10-26T17:57:49.731Z",
     "publication": "prototype",
     "selectionReason": "공식 전임교수 목록과 상세를 대조하고 금속순환·지하암반·환경지구화학의 서로 다른 분야를 골랐다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -135,18 +135,19 @@
       "id": "prof-energy-recycling",
       "kind": "researcher",
       "name": "강정신",
-      "summary": "희소금속의 제련과 폐자원 리사이클링 공정을 연구한다. 공식 교수 소개에 해당 연구실과 금속 회수·제조 주제가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 제련 및 리사이클링 공학",
       "departmentId": "energy",
       "keywords": [
         "희소금속",
         "제련",
         "리사이클링",
-        "자원회수"
+        "자원회수",
+        "제련 및 리사이클링 공학"
       ],
       "sourceIds": [
         "src-energy-recycling"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -171,7 +172,7 @@
       "id": "prof-energy-rock",
       "kind": "researcher",
       "name": "민기복",
-      "summary": "열·수리·역학이 결합된 지하암반 거동을 연구하며 지열에너지·이산화탄소 지하저장·폐기물 지하처분을 응용 분야로 다룬다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 암반공학",
       "departmentId": "energy",
       "keywords": [
         "암반공학",
@@ -182,7 +183,7 @@
       "sourceIds": [
         "src-energy-rock"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -207,17 +208,18 @@
       "id": "prof-energy-geochemistry",
       "kind": "researcher",
       "name": "정은혜",
-      "summary": "에너지 및 자원 생산 과정의 환경 문제와 유용자원 회수를 연구한다. 공식 소개에 환경지구화학과 오염수 내 자원 회수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 에너지환경지구화학",
       "departmentId": "energy",
       "keywords": [
         "환경지구화학",
         "자원회수",
-        "환경오염"
+        "환경오염",
+        "에너지환경지구화학"
       ],
       "sourceIds": [
         "src-energy-geochemistry"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {

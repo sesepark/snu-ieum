@@ -128,3 +128,11 @@ Raw ID는 `986ddaa2e6043aa572534eff2fc78f56cb2849cbdce45f7809bb3bdaffc32ad2`, pe
 새 공식 분야는 출처와 함께 요약·검색어에 반영했다. 기존 ID가 여러 검수 조각에서 재사용된 경우 내용을 동일하게 갱신했으며 compile-draft는 다른 내용의 중복 ID를 계속 거부한다. 새 원문/연락처를 복제하지 않고 각 공식 페이지의 명단·분야·홈페이지·주소 최소 사실을 Raw로 남겼다. 과거 파서가 제목 셀을 값으로 읽거나 AI 약어를 자른 Staging 5개는 needs_revision으로 표시했고 Raw는 수정하지 않았다. 최신 source별 ID는 data/campus/department-profile-ingestion.json을 따른다.
 
 재수집은 `DATABASE_URL=... node --import tsx apps/worker/src/department-profiles-cli.ts <config.json>`을 사용한다. config는 policies(검토한 호스트/경로·보관 조건)와 outputDirectory를 요구한다. CLI는 Raw→pending Staging과 실행 기록만 만들며 반복 실행해도 canonical 초안이나 승인 배치를 수정하지 않는다. 검수자는 후보를 공식 ID와 대조한 뒤 통합 초안/coverage에 반입한다. CSE/건축 등의 기존 접근 제한을 이 CLI로 우회하지 않는다.
+
+## 건설환경·조선해양·에너지 전체 명단
+
+건설환경 공식 교수 카드 30개, 조선해양 전임 교수 14명, 에너지 전임 교수 13명을 공대 목록과 대조했다. 본문에 없는 교수실·연구실 주소를 학과 사무실 footer에서 보충하지 않았다. CEE/조선해양 카드에서 실제 이름이 명시된 연구실만 추가했고, 별도 조선해양 공식 연구실 목록 14개와 주소를 다시 대조했다. 연구 분야가 원문 텍스트로 제공되지 않는 항목은 필드를 비워 둔다.
+
+최정권/Choe, Jong Kwon은 한 공식 카드의 한글·영문 병기와 공대 영문 이름·같은 소속이 일치함을 확인해 기존 ID를 유지하며 중복 초안을 합쳤다. 근거는 cee-alias-ingestion.json에 있다. Nguyen 이름 어순 후보는 추가 신원 확인 전 병합하지 않았고 CEE 전체 분모 확정을 대기로 유지했다. 해당 목록에서 확인이 어려운 사람을 삭제해 비율을 높이지 않는다. 새 Raw/Staging ID는 remaining-department-profile-ingestion.json과 naval-lab-ingestion.json을 따른다.
+
+현재 통합 초안은 교수 후보 329명·연구실 105곳·장비 후보 209개·공간 20곳·관계 100개다. 이는 전체 신원·현재성·위치·상세·논문 검수를 끝낸 수량이 아니다. 재수집 CLI의 `cohort: civil-naval-energy`를 사용하면 세 출처와 별도 조선해양 연구실 목록을 Raw/Staging 후보로 수집하며 canonical을 덮어쓰지 않는다.

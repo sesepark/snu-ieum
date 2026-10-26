@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-26T17:57:49.731Z",
+  "records": [
+    {
+      "departmentId": "cee",
+      "runId": "6714865a-4f76-4639-98fc-a5cfd47fc90e",
+      "rawId": "78b146424745d5161836f9d34f1f0082e8ee1cd448a459a2b9aa03797373998a",
+      "stagingId": "5e7dd684-706c-4c75-962c-78d6efc5dc64",
+      "faculty": 30
+    },
+    {
+      "departmentId": "naval",
+      "runId": "b402a5c9-86b9-4f56-aef0-8321d49392cf",
+      "rawId": "dee6fe5fea69f393166a8769b9212dc37c0d265ac73a6e8371d06d3f53025208",
+      "stagingId": "e27e0a71-425c-4758-8275-36f1518556e2",
+      "faculty": 14
+    },
+    {
+      "departmentId": "energy",
+      "runId": "ab565104-8609-415f-aca7-44d182659172",
+      "rawId": "027b48564e3342cb6999286f2b466062adc47bc2e0758e20f7e68ae5405b056d",
+      "stagingId": "b8501f5b-a3fd-452e-845e-de06f5759548",
+      "faculty": 13
+    }
+  ],
+  "updatedResourceFields": 43,
+  "newResourceIds": [
+    "prof-current-cee-p",
+    "prof-current-cee-z",
+    "prof-current-cee-ab",
+    "prof-current-cee-ad",
+    "lab-cards-cee-a",
+    "lab-cards-cee-c",
+    "lab-cards-cee-d",
+    "lab-cards-cee-e",
+    "lab-cards-cee-f",
+    "lab-cards-cee-g",
+    "lab-cards-cee-j",
+    "lab-cards-cee-k",
+    "lab-cards-cee-l",
+    "lab-cards-cee-m",
+    "lab-cards-cee-n",
+    "lab-cards-cee-o",
+    "lab-cards-cee-p",
+    "lab-cards-cee-q",
+    "lab-cards-cee-s",
+    "lab-cards-cee-t",
+    "lab-cards-cee-u",
+    "lab-cards-cee-v",
+    "lab-cards-cee-w",
+    "lab-cards-cee-x",
+    "lab-cards-cee-z",
+    "lab-cards-cee-aa",
+    "lab-cards-cee-ab",
+    "lab-cards-cee-ac",
+    "lab-cards-naval-a",
+    "lab-cards-naval-b",
+    "lab-cards-naval-d",
+    "lab-cards-naval-e",
+    "lab-cards-naval-h",
+    "lab-cards-naval-i",
+    "lab-cards-naval-j",
+    "lab-cards-naval-k",
+    "lab-cards-naval-l",
+    "lab-cards-naval-m",
+    "lab-cards-naval-n",
+    "prof-current-energy-g",
+    "prof-current-energy-k",
+    "prof-current-energy-m"
+  ],
+  "status": "pending-human-review"
+}

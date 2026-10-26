@@ -3043,6 +3043,210 @@
       "attribution": "서울대학교 항공우주공학과",
       "redistribution": "metadata-only",
       "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-cee-1",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 건설환경도시공학부",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 건설환경도시공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-naval-fluids",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "김용환 · 해양유체역학연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 조선해양공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-2",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-energy-recycling",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=17",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "강정신 · 제련 및 리사이클링 공정 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-3",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=16",
+      "title": "강진수 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-energy-rock",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=15",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "민기복 · 암반공학 민기복 교수 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-4",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=14",
+      "title": "민동주 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-5",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=13",
+      "title": "박형동 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-6",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=12",
+      "title": "송재준 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-7",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=18",
+      "title": "이진욱 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-8",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=11",
+      "title": "전석원 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-energy-geochemistry",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=10",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "정은혜 · 에너지환경지구화학 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-9",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=9",
+      "title": "정훈영 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-10",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=8",
+      "title": "조용채 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-11",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=7",
+      "title": "최종근 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-energy-12",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=6",
+      "title": "허은녕 공식 교수 상세",
+      "organization": "서울대학교 에너지자원공학과",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 에너지자원공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "source-naval-lab-addresses",
+      "url": "https://naoe.snu.ac.kr/research/lab",
+      "title": "조선해양공학과 공식 연구실 목록·주소",
+      "organization": "서울대학교 조선해양공학과",
+      "retrievedAt": "2026-10-26T18:04:47.802Z",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "license": "직접 작성한 목록·주소 최소 사실",
+      "attribution": "서울대학교 조선해양공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
     }
   ],
   "colleges": [
@@ -21148,18 +21352,6 @@
   ],
   "locations": [
     {
-      "id": "location-prof-cee-urban",
-      "resourceId": "prof-cee-urban",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-lab-cee-urban",
       "resourceId": "lab-cee-urban",
       "buildingId": null,
@@ -21172,34 +21364,10 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-prof-cee-structural",
-      "resourceId": "prof-cee-structural",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-lab-cee-structural",
       "resourceId": "lab-cee-structural",
       "buildingId": null,
       "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-cee-water",
-      "resourceId": "prof-cee-water",
-      "buildingId": null,
-      "purpose": "office",
       "room": null,
       "status": "unknown",
       "sourceIds": [],
@@ -21570,78 +21738,6 @@
     {
       "id": "location-lab-ece-mind",
       "resourceId": "lab-ece-mind",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-naval-fluids",
-      "resourceId": "prof-naval-fluids",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-naval-fluids",
-      "resourceId": "lab-naval-fluids",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-naval-systems",
-      "resourceId": "prof-naval-systems",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-naval-systems",
-      "resourceId": "lab-naval-systems",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-naval-energy",
-      "resourceId": "prof-naval-energy",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-naval-energy",
-      "resourceId": "lab-naval-energy",
       "buildingId": null,
       "purpose": "lab",
       "room": null,
@@ -26394,6 +26490,1154 @@
       ],
       "addressText": "36동 307B호",
       "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-nkgdakldgjea-35",
+      "resourceId": "prof-dir-cee-nkgdakldgjea",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "414호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 414호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-cee-urban-35",
+      "resourceId": "prof-cee-urban",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "413호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 413호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-dogleejefkka-35",
+      "resourceId": "prof-dir-cee-dogleejefkka",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "308호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 308호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-jpkckadkadgg-35",
+      "resourceId": "prof-dir-cee-jpkckadkadgg",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "303호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 303호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-gpdgjgjikfbg-35",
+      "resourceId": "prof-dir-cee-gpdgjgjikfbg",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "405호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 405호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-djnhcjkfchmm-35",
+      "resourceId": "prof-dir-cee-djnhcjkfchmm",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "410호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 410호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-dfbddkfiedfk-316",
+      "resourceId": "prof-dir-cee-dfbddkfiedfk",
+      "buildingId": "snu-316",
+      "purpose": "office",
+      "room": "403호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "316동 403호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-cee-structural-35",
+      "resourceId": "prof-cee-structural",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "404호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 404호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-cpapibemkajl-35",
+      "resourceId": "prof-dir-cee-cpapibemkajl",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "409호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 409호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-hafjdgbbdacg-35",
+      "resourceId": "prof-dir-cee-hafjdgbbdacg",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "311호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 311호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-nedlfeehnllo-35",
+      "resourceId": "prof-dir-cee-nedlfeehnllo",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "412호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 412호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-ndflhlanmfol-35",
+      "resourceId": "prof-dir-cee-ndflhlanmfol",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "313호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 313호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-hajffoiipcfa-35",
+      "resourceId": "prof-dir-cee-hajffoiipcfa",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "310호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 310호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-fmepjamfhian-35",
+      "resourceId": "prof-dir-cee-fmepjamfhian",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "407호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 407호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-gofjfblbhogd-35",
+      "resourceId": "prof-dir-cee-gofjfblbhogd",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "411호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 411호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-current-cee-p-18",
+      "resourceId": "prof-current-cee-p",
+      "buildingId": "snu-18",
+      "purpose": "office",
+      "room": "508호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "18동 508호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-jehjakehmbof-35",
+      "resourceId": "prof-dir-cee-jehjakehmbof",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "408호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 408호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-fodcoeojmnag-35",
+      "resourceId": "prof-dir-cee-fodcoeojmnag",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "406호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 406호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-djncbngmecaj-35",
+      "resourceId": "prof-dir-cee-djncbngmecaj",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "401호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 401호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-oghhliecplbm-35",
+      "resourceId": "prof-dir-cee-oghhliecplbm",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "305호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 305호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-nakklooefebh-35",
+      "resourceId": "prof-dir-cee-nakklooefebh",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "312호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 312호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-eemfnopkoiha-35",
+      "resourceId": "prof-dir-cee-eemfnopkoiha",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "415호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 415호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-ebpbpfmfbjlf-35",
+      "resourceId": "prof-dir-cee-ebpbpfmfbjlf",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "304호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 304호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-dekgcclcjdki-35",
+      "resourceId": "prof-dir-cee-dekgcclcjdki",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "302호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 302호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-cee-water-35",
+      "resourceId": "prof-cee-water",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "307호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 307호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-current-cee-z-35",
+      "resourceId": "prof-dir-cee-impklbnnhlff",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "402호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 402호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-geklhilakbnc-35",
+      "resourceId": "prof-dir-cee-geklhilakbnc",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "403호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 403호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-current-cee-ab-19",
+      "resourceId": "prof-current-cee-ab",
+      "buildingId": "snu-19",
+      "purpose": "office",
+      "room": "326호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "19동 326호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-cee-bhmnomjalcgg-35",
+      "resourceId": "prof-dir-cee-bhmnomjalcgg",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "306호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 306호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-current-cee-ad-35",
+      "resourceId": "prof-current-cee-ad",
+      "buildingId": "snu-35",
+      "purpose": "office",
+      "room": "309호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": "35동 309호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-cards-cee-a",
+      "resourceId": "lab-cards-cee-a",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-c",
+      "resourceId": "lab-cards-cee-c",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-d",
+      "resourceId": "lab-cards-cee-d",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-e",
+      "resourceId": "lab-cards-cee-e",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-f",
+      "resourceId": "lab-cards-cee-f",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-g",
+      "resourceId": "lab-cards-cee-g",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-j",
+      "resourceId": "lab-cards-cee-j",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-k",
+      "resourceId": "lab-cards-cee-k",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-l",
+      "resourceId": "lab-cards-cee-l",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-m",
+      "resourceId": "lab-cards-cee-m",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-n",
+      "resourceId": "lab-cards-cee-n",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-o",
+      "resourceId": "lab-cards-cee-o",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-p",
+      "resourceId": "lab-cards-cee-p",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-q",
+      "resourceId": "lab-cards-cee-q",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-s",
+      "resourceId": "lab-cards-cee-s",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-t",
+      "resourceId": "lab-cards-cee-t",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-u",
+      "resourceId": "lab-cards-cee-u",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-v",
+      "resourceId": "lab-cards-cee-v",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-w",
+      "resourceId": "lab-cards-cee-w",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-x",
+      "resourceId": "lab-cards-cee-x",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-z",
+      "resourceId": "lab-cards-cee-z",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-aa",
+      "resourceId": "lab-cards-cee-aa",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-ab",
+      "resourceId": "lab-cards-cee-ab",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-cards-cee-ac",
+      "resourceId": "lab-cards-cee-ac",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-source-cee-1"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 교수실 주소를 연구실 위치로 전파하지 않음 · 개별 연구실 주소 확인 필요"
+    },
+    {
+      "id": "profile-location-prof-dir-naval-ggnnpflocfjb-34",
+      "resourceId": "prof-dir-naval-ggnnpflocfjb",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "413호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 413호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-gpeipclipdjo-34",
+      "resourceId": "prof-dir-naval-gpeipclipdjo",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "409호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 409호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-naval-fluids-34",
+      "resourceId": "prof-naval-fluids",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "411호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 411호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-pmhaiiijegii-34",
+      "resourceId": "prof-dir-naval-pmhaiiijegii",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "405호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 405호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-njlcdlebdplh-34",
+      "resourceId": "prof-dir-naval-njlcdlebdplh",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "408호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 408호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-naval-systems-34",
+      "resourceId": "prof-naval-systems",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "414호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 414호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-naval-energy-34",
+      "resourceId": "prof-naval-energy",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "407호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 407호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-ielahgkhgaik-34",
+      "resourceId": "prof-dir-naval-ielahgkhgaik",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "406호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 406호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-kbbpfkibnabo-34",
+      "resourceId": "prof-dir-naval-kbbpfkibnabo",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "412호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 412호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-bkbajbgibllh-34",
+      "resourceId": "prof-dir-naval-bkbajbgibllh",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "410호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 410호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-kigjfjdognkm-34",
+      "resourceId": "prof-dir-naval-kigjfjdognkm",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "402호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 402호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-gdmopbocdkio-34",
+      "resourceId": "prof-dir-naval-gdmopbocdkio",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "403호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 403호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-jhhjopmmomgo-34",
+      "resourceId": "prof-dir-naval-jhhjopmmomgo",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "404호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 404호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-naval-jflocpkoobcd-34",
+      "resourceId": "prof-dir-naval-jflocpkoobcd",
+      "buildingId": "snu-34",
+      "purpose": "office",
+      "room": "401호",
+      "status": "verified",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "addressText": "34동 401호",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-e",
+      "resourceId": "lab-cards-naval-e",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "408호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-408",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-h",
+      "resourceId": "lab-cards-naval-h",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "406호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-406",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-d",
+      "resourceId": "lab-cards-naval-d",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "405호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-405",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-j",
+      "resourceId": "lab-cards-naval-j",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "410호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-410",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-k",
+      "resourceId": "lab-cards-naval-k",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "402호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-402",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-n",
+      "resourceId": "lab-cards-naval-n",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "401호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-401",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-naval-systems",
+      "resourceId": "lab-naval-systems",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "414호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-414",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-m",
+      "resourceId": "lab-cards-naval-m",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "404호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-404",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-a",
+      "resourceId": "lab-cards-naval-a",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "413호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-413",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-naval-energy",
+      "resourceId": "lab-naval-energy",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "407호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-407",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-l",
+      "resourceId": "lab-cards-naval-l",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "403호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-403",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-i",
+      "resourceId": "lab-cards-naval-i",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "412호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-412",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-cards-naval-b",
+      "resourceId": "lab-cards-naval-b",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "409호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-409",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
+      "reason": null
+    },
+    {
+      "id": "naval-location-lab-naval-fluids",
+      "resourceId": "lab-naval-fluids",
+      "buildingId": "snu-34",
+      "purpose": "lab",
+      "room": "411호",
+      "status": "verified",
+      "sourceIds": [
+        "source-naval-lab-addresses"
+      ],
+      "addressText": "34-411",
+      "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
       "reason": null
     }
   ],

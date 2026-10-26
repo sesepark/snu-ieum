@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "cee-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "generatedAt": "2026-10-26T17:57:49.731Z",
     "publication": "prototype",
     "selectionReason": "공식 교수 카드에서 도시계획·구조설계·환경공학의 서로 다른 분야를 골랐다. 같은 카드의 이름과 연구실명으로 관계를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -137,6 +137,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:30:50.557Z",
       "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "profile-source-cee-1",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 건설환경도시공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:57:49.731Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
     }
   ],
   "resources": [
@@ -144,16 +153,18 @@
       "id": "prof-cee-urban",
       "kind": "researcher",
       "name": "권영상",
-      "summary": "공식 전공은 도시계획 및 설계이며 교수 카드에 도시설계연구실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 도시계획 및 설계",
       "departmentId": "cee",
       "keywords": [
         "도시계획",
-        "도시설계"
+        "도시설계",
+        "도시계획 및 설계"
       ],
       "sourceIds": [
-        "src-cee-urban"
+        "src-cee-urban",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -176,16 +187,18 @@
       "id": "prof-cee-structural",
       "kind": "researcher",
       "name": "김호경",
-      "summary": "공식 전공은 구조설계공학이며 교수 카드에 구조설계연구실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 구조설계공학",
       "departmentId": "cee",
       "keywords": [
         "구조설계",
-        "구조공학"
+        "구조공학",
+        "구조설계공학"
       ],
       "sourceIds": [
-        "src-cee-structural"
+        "src-cee-structural",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
@@ -208,16 +221,17 @@
       "id": "prof-cee-water",
       "kind": "researcher",
       "name": "최용주",
-      "summary": "공식 전공은 환경공학이며 교수 카드에 수질환경실험실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 환경공학",
       "departmentId": "cee",
       "keywords": [
         "환경공학",
         "수질"
       ],
       "sourceIds": [
-        "src-cee-water"
+        "src-cee-water",
+        "profile-source-cee-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:57:49.731Z",
       "verificationRequired": true
     },
     {
