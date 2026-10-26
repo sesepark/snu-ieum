@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-26T11:05:13.576Z",
+  "reviewer": "codex",
+  "reviewKind": "source-discovery-only",
+  "automaticIngestionEnabled": false,
+  "retention": {
+    "html": false,
+    "pdf": false,
+    "images": false,
+    "manualFacts": "직접 작성한 최소 사실 메타데이터 payload 전체를 Raw DB에 보관하고 Staging으로 이동한다. 원문 페이지 복제·개인 연락처는 보관하지 않는다.",
+    "licenseStatus": "footer의 All rights reserved 또는 명시적 재사용 허가 미확인. robots 허용을 원문 보관 허가로 해석하지 않는다."
+  },
+  "policyReferences": [
+    "https://www.snu.ac.kr/personal_information",
+    "https://irf.snu.ac.kr/terms/privacy_policy.php"
+  ],
+  "departments": [
+    {
+      "departmentId": "cee",
+      "officialHome": "https://cuee.snu.ac.kr/",
+      "facultyUrl": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "robotsUrl": "https://cuee.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public-except-private",
+      "selectors": {
+        "facultyName": "h1.name",
+        "labName": ".lab-info"
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "교수 카드 li.ml_card와 같은 카드의 연구실 정보를 함께 검수한다. 검색·로그인·다운로드 경로는 제외한다."
+    },
+    {
+      "departmentId": "architecture",
+      "officialHome": "https://architecture.snu.ac.kr/",
+      "facultyUrl": "https://architecture.snu.ac.kr/",
+      "robotsUrl": "https://architecture.snu.ac.kr/robots.txt",
+      "robotsStatus": "disallow-all",
+      "selectors": {
+        "facultyName": null,
+        "labName": null
+      },
+      "selectorStatus": "manual-or-adapter-review-required",
+      "note": "자동 접근 제외. 공대 공식 학과 페이지와 개인 연락처 없는 교수 목록만 대체 출처로 검토한다."
+    },
+    {
+      "departmentId": "mechanical",
+      "officialHome": "https://me.snu.ac.kr/",
+      "facultyUrl": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "robotsUrl": "https://me.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public",
+      "selectors": {
+        "facultyName": null,
+        "labName": null
+      },
+      "selectorStatus": "manual-or-adapter-review-required",
+      "note": "WordPress 교수 목록은 단순 article/h3 selector가 맞지 않아 상세 페이지 selector 재검수가 필요하다."
+    },
+    {
+      "departmentId": "industrial",
+      "officialHome": "https://ie.snu.ac.kr/",
+      "facultyUrl": "https://ie.snu.ac.kr/professor/",
+      "robotsUrl": "https://ie.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public",
+      "selectors": {
+        "facultyName": null,
+        "labName": "h3.elementor-heading-title"
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "연구실별 /or_lab/, /dsba_lab/, /his_lab/ 같은 공식 상세 페이지의 제목과 지도교수를 함께 확인한다."
+    },
+    {
+      "departmentId": "energy",
+      "officialHome": "https://ere.snu.ac.kr/",
+      "facultyUrl": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "robotsUrl": "https://ere.snu.ac.kr/robots.txt",
+      "robotsStatus": "no-matching-agent-rule",
+      "selectors": {
+        "facultyName": "h2.name",
+        "labName": null
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "robots는 Yeti만 지정한다. 교수별 상세/연구실 항목을 별도 검수한다."
+    },
+    {
+      "departmentId": "nuclear",
+      "officialHome": "https://nucleng.snu.ac.kr/",
+      "facultyUrl": "https://nucleng.snu.ac.kr/about/people/faculty",
+      "robotsUrl": "https://nucleng.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public",
+      "selectors": {
+        "facultyName": null,
+        "labName": "#zcmscontent h3"
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "연구실 /research/lab의 h3/h4는 국·영문 연구실명이다. 교수 연결은 같은 카드 또는 교수 프로필에서 확인한다."
+    },
+    {
+      "departmentId": "materials",
+      "officialHome": "https://mse.snu.ac.kr/",
+      "facultyUrl": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+      "robotsUrl": "https://mse.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public-except-private",
+      "selectors": {
+        "facultyName": "h3.elementor-post__title",
+        "labName": null
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "분야 탭에 같은 교수가 반복된다. 공식 상세 URL로 중복 제거하고 이름만으로 병합하지 않는다."
+    },
+    {
+      "departmentId": "ece",
+      "officialHome": "https://ece.snu.ac.kr/",
+      "facultyUrl": "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+      "robotsUrl": "https://ece.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public-except-private",
+      "selectors": {
+        "facultyName": null,
+        "labName": "#zcmscontent .professor"
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "/research-faculty/research/lab의 h4는 연구그룹이다. 그룹을 개별 연구실로 오인하지 않고 하위 연구실 항목을 확인한다. /webdata 제외."
+    },
+    {
+      "departmentId": "naval",
+      "officialHome": "https://naoe.snu.ac.kr/",
+      "facultyUrl": "https://naoe.snu.ac.kr/about/people/faculty",
+      "robotsUrl": "https://naoe.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public",
+      "selectors": {
+        "facultyName": "#zcmscontent h3",
+        "labName": null
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "전임교수와 비전임교수 영역을 구별한다. 연구실 이름·관계는 프로필에 명시된 것만 수록한다."
+    },
+    {
+      "departmentId": "cse",
+      "officialHome": "https://cse.snu.ac.kr/",
+      "facultyUrl": "https://cse.snu.ac.kr/en/people/faculty",
+      "robotsUrl": "https://cse.snu.ac.kr/robots.txt",
+      "robotsStatus": "unavailable",
+      "selectors": {
+        "facultyName": null,
+        "labName": null
+      },
+      "selectorStatus": "manual-or-adapter-review-required",
+      "note": "robots 조회 실패. 기존 수동 확인 표본은 유지하되 자동 수집 정책을 활성화하지 않는다. 연구실 공식 목록 /en/research/labs."
+    },
+    {
+      "departmentId": "aerospace",
+      "officialHome": "https://aerospace.snu.ac.kr/",
+      "facultyUrl": "https://aerospace.snu.ac.kr/about/faculty",
+      "robotsUrl": "https://aerospace.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public",
+      "selectors": {
+        "facultyName": null,
+        "labName": ".lablist-tit"
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "연구실 /research/laboratories의 .lablist-tit에서 이름을 확인한다. 같은 카드의 교수와 연결한다."
+    },
+    {
+      "departmentId": "chemical",
+      "officialHome": "https://cbe.snu.ac.kr/",
+      "facultyUrl": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?profCate=66&menuNo=300015",
+      "robotsUrl": "https://cbe.snu.ac.kr/robots.txt",
+      "robotsStatus": "allow-public-except-private",
+      "selectors": {
+        "facultyName": ".name",
+        "labName": null
+      },
+      "selectorStatus": "partial-observed-not-an-adapter",
+      "note": "목록은 8명씩 페이지 조회된다. javascript:modify 링크는 출처 URL로 저장하지 않는다. /WEB-INF/ 제외."
+    }
+  ],
+  "shared": [
+    {
+      "groupId": "shared-irf",
+      "name": "기초과학공동기기원",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php",
+      "robotsStatus": "allow-public",
+      "robotsUrl": "https://irf.snu.ac.kr/robots.txt",
+      "selector": ".device_wrap",
+      "note": "상세 선택은 기기 ID로 한다. 장비 목록의 팀과 실제 설치실을 구별한다. 공대 학과 소속을 추정하지 않는다."
+    },
+    {
+      "groupId": "shared-engineering",
+      "name": "공대 공용 공간",
+      "url": "https://eng.snu.ac.kr/about/support-facilities/sinyang-library",
+      "robotsStatus": "allow-public",
+      "robotsUrl": "https://eng.snu.ac.kr/robots.txt",
+      "selector": "h3.sub-t",
+      "note": "공식 지원시설 안내의 명시된 공간만 수록한다. 이용 자격·예약 가능 여부를 추정하지 않는다."
+    }
+  ],
+  "restricted": [
+    {
+      "url": "https://s-space.snu.ac.kr/robots.txt",
+      "status": "manual-permission-required",
+      "note": "일반 에이전트의 /handle/, /bitstream/, /retrieve/ 자동 접근 금지. 허용 메타데이터 제공 방식과 기관 허가 확인 후 수동 반입한다. 특정 검색봇으로 가장하지 않는다."
+    },
+    {
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y",
+      "status": "list-only",
+      "note": "개별 상세 URL이 개인 이메일을 키로 사용한다. 해당 상세 URL은 저장하지 않고 개인 연락처 없는 학과 목록 URL을 출처로 사용한다."
+    }
+  ]
+}
