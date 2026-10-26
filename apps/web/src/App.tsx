@@ -5,6 +5,7 @@ import { loadCatalog } from './client';
 import { parseUrl, shareUrl, useExplore } from './state';
 import Map from './Map';
 import Filters from './Filters';
+import Relations from './Relations';
 import Detail, { kindLabels } from './Detail';
 import './tokens.css';
 import './styles.css';
@@ -49,7 +50,7 @@ export default function App() {
         <div className="map-footer"><div className="legend">{Object.entries(kindLabels).map(([kind, name]) => <span key={kind}><i className={`kind-mark ${kind}`} />{name}</span>)}<p>거리·높이는 배치 값입니다.<br />연구 수준이나 실제 협업 강도를 뜻하지 않습니다.</p></div><details className="coverage"><summary>학과별 수록 현황 <span>↗</span></summary><div className="coverage-content"><p>대표 표본입니다. 전수 수집이 아닙니다.</p>{counts.departments.map(d => <div key={d.id}><strong>{d.name}</strong><span>교수 {d.counts.researcher} · 연구실 {d.counts.lab}<br />장비 {d.counts.equipment} · 공간 {d.counts.space}</span><small>{d.lastVerifiedAt?.slice(0, 10) || '수록 대기'}</small></div>)}</div></details></div>
         <div className="status-notice" role="status">{state.notice || (state.selected && !resource ? '이 배치에 없는 자원입니다. 목록에서 다른 자원을 선택해주세요.' : '')}</div>
       </section>
-      {resource && <Detail resource={resource} snapshot={snapshot} verificationRequired={Boolean(selectedCard?.verificationRequired)} onSelect={state.select} onClose={() => { state.select(undefined); list.current?.focus(); }} />}
+      {resource && <Detail resource={resource} snapshot={snapshot} verificationRequired={Boolean(selectedCard?.verificationRequired)} onSelect={state.select} onClose={() => { state.select(undefined); list.current?.focus(); }}><Relations snapshot={snapshot} resource={resource} /></Detail>}
     </main>
   </div>;
 }

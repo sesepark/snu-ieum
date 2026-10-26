@@ -31,13 +31,17 @@ export default function Map3D(p: ViewProps) {
     }
     return map;
   }, [p.nodes, p.selected, p.searching, p.highlighted, neighbors]);
-  useEffect(() => () => { for (const object of objects.values()) object.traverse(child => {
+  const edgeObjects = useMemo(() => new Map(p.links.filter(e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected)).map(e => {
+    const text = label(e.label); text.scale.multiplyScalar(.4); text.material.depthTest = false;
+    return [e.id, text] as const;
+  })), [p.links, p.selected]);
+  useEffect(() => () => { for (const object of [...objects.values(), ...edgeObjects.values()]) object.traverse(child => {
     if (child instanceof Mesh) child.geometry.dispose();
     if (child instanceof Mesh || child instanceof Sprite) {
       const materials = Array.isArray(child.material) ? child.material : [child.material];
       for (const material of materials) { if ('map' in material && material.map instanceof CanvasTexture) material.map.dispose(); material.dispose(); }
     }
-  }); }, [objects]);
+  }); }, [objects, edgeObjects]);
   useEffect(() => {
     const home = () => ref.current?.cameraPosition({ x: 0, y: 0, z: 1000 }, { x: 0, y: 0, z: 0 }, p.reducedMotion ? 0 : 500);
     p.onReady({ home, zoom: factor => { const graph = ref.current; if (!graph) return; const position = graph.camera().position; graph.cameraPosition({ x: position.x / factor, y: position.y / factor, z: position.z / factor }, undefined, p.reducedMotion ? 0 : 250); }, focus: id => { const n = p.nodes.find(n => n.id === id); if (n) ref.current?.cameraPosition({ x: n.fx, y: n.fy, z: n.fz + 230 }, { x: n.fx, y: n.fy, z: n.fz }, p.reducedMotion ? 0 : 450); } });
@@ -62,5 +66,5 @@ export default function Map3D(p: ViewProps) {
     controls.addEventListener('change', update); update();
     return () => controls.removeEventListener('change', update);
   }, [objects, p.nodes, p.selected, p.searching, p.highlighted]);
-  return <ForceGraph3D<DisplayNode, DisplayEdge> ref={ref} graphData={graphData} width={p.width} height={p.height} backgroundColor="#f6f7f9" showNavInfo={false} nodeThreeObject={n => objects.get(n.id)!} nodeLabel={n => escapeHtml(n.name)} linkLabel={e => escapeHtml(e.label)} linkColor={e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected) ? '#2458d3' : '#b7c2d1'} linkOpacity={.5} linkWidth={.8} onNodeClick={n => n.kind !== 'department' && p.onSelect(n.id)} enableNodeDrag={false} cooldownTicks={0} />;
+  return <ForceGraph3D<DisplayNode, DisplayEdge> ref={ref} graphData={graphData} width={p.width} height={p.height} backgroundColor="#f6f7f9" showNavInfo={false} nodeThreeObject={n => objects.get(n.id)!} nodeLabel={n => escapeHtml(n.name)} linkLabel={e => escapeHtml(e.label)} linkColor={e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected) ? '#2458d3' : '#b7c2d1'} linkOpacity={.5} linkWidth={.8} linkThreeObjectExtend linkThreeObject={e => edgeObjects.get(e.id)!} onNodeClick={n => n.kind !== 'department' && p.onSelect(n.id)} enableNodeDrag={false} cooldownTicks={0} />;
 }
