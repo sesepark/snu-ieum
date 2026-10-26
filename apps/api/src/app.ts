@@ -63,14 +63,14 @@ export async function createApp(repository: Repository, options: { ai?: AI; orig
       mode = 'fallback';
       if (options.ai && repository.semantic) try {
         const terms = Object.values(input.profile).flat().join(' ').slice(0, 4000);
-        semantic = await repository.semantic(await options.ai.embed(terms), options.ai.embeddingModel);
+        semantic = await repository.semantic(await options.ai.embed(terms), options.ai.embeddingModel, s.manifest.version);
         if (semantic.size) mode = 'ai';
       } catch { /* Ordinary search remains available. */ }
       if (mode === 'fallback') message = 'AI 검색을 사용할 수 없어 일반 검색 결과를 표시합니다.';
     }
     let results = recommend(s, input, semantic);
     if (!semantic.size && input.q && repository.similar) {
-      const similar = await repository.similar(input.q);
+      const similar = await repository.similar(input.q, s.manifest.version);
       const extra = recommend(s, { ...input, q: '' }).filter(r => similar.has(r.resource.id) && !results.some(x => x.resource.id === r.resource.id));
       results = [...results, ...extra.map(r => ({ ...r, reason: '공식 소개 텍스트와 검색어의 부분·문자 유사도를 확인한 후보입니다.' }))];
     }

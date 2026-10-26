@@ -9,6 +9,7 @@ import { Pipeline } from './pipeline.ts';
 import { PostgresRepository } from '../../api/src/repository.ts';
 import { PostgresBudget } from '../../api/src/ai.ts';
 import { createAdmin } from './admin.ts';
+import { embedApprovedResources } from './embeddings.ts';
 const url = process.env.TEST_DATABASE_URL;
 if (!url) throw new Error('TEST_DATABASE_URL required; run against a disposable PostgreSQL database');
 const schema = 'ieum_test_' + randomUUID().replaceAll('-', '');
@@ -45,7 +46,7 @@ describe.sequential('real PostgreSQL approval and batch boundary', () => {
     await pipeline.publish(stagingId, 'test-v1', 'integration-test', 'First fixture batch');
     const repository = new PostgresRepository(pool);
     expect((await repository.snapshot()).manifest.version).toBe('test-v1');
-    expect((await repository.similar('Biointelligence')).has('lab-bi')).toBe(true);
+    expect((await repository.similar('Biointelligence', 'test-v1')).has('lab-bi')).toBe(true);
     await pipeline.publish(stagingId, 'test-v2', 'integration-test', 'Second fixture batch');
     await expect(pipeline.publish(stagingId, 'test-v2', 'integration-test', 'Duplicate version')).rejects.toThrow();
     expect((await repository.snapshot()).manifest.version).toBe('test-v2');
@@ -56,6 +57,15 @@ describe.sequential('real PostgreSQL approval and batch boundary', () => {
     const directory = await mkdtemp(join(tmpdir(), 'ieum-export-'));
     await pipeline.export(join(directory, 'snapshot.json'));
     expect(JSON.parse(await readFile(join(directory, 'snapshot.json'), 'utf8')).manifest.version).toBe('test-v1');
+  });
+  it('stores 768-dimensional approved resource vectors and isolates model and batch versions', async () => {
+    const vector = [1, ...Array.from({ length: 767 }, () => 0)];
+    const ai = { embeddingModel: 'fixture-model', embed: async () => vector, interpret: async () => ({ problemDomains: [], coreTechnologies: [], requiredCapabilities: [], expectedOutputs: [], keywords: [] }) };
+    const result = await embedApprovedResources(pool, ai, 6); expect(result.updated).toBe(6);
+    const repository = new PostgresRepository(pool);
+    expect((await repository.semantic(vector, 'fixture-model', 'test-v1')).size).toBe(6);
+    expect((await repository.semantic(vector, 'other-model', 'test-v1')).size).toBe(0);
+    expect((await repository.semantic(vector, 'fixture-model', 'test-v2')).size).toBe(0);
   });
   it('serializes shared AI reservations and reserves capacity for users', async () => {
     const budget = new PostgresBudget(pool, { test: { rpm: 10, rpd: 100, tpm: 1000 } });
