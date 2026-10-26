@@ -25,7 +25,7 @@ export function launchCheck(snapshot: Snapshot, input: unknown) {
     const e = evidence.data;
     if (e.batchVersion !== snapshot.manifest.version) gaps.push('검증 기록과 공개 배치 버전 불일치');
     if (e.foundAndOpenedInTwoMinutes * 5 < e.participants * 4) gaps.push('2분 자원 발견·원문 확인 성공률 80% 미달');
-    if (e.searchTargets < snapshot.departments.length || e.relevantTopTenPass * 5 < e.searchTargets * 4) gaps.push('학과별 검색 평가 80% 미달');
+    if (e.searchTargets < catalog(snapshot).departments.length || e.relevantTopTenPass * 5 < e.searchTargets * 4) gaps.push('학과별 검색 평가 80% 미달');
   }
   return { ready: gaps.length === 0, gaps, defaultView: evidence.success ? defaultView(evidence.data) : null };
 }
