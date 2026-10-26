@@ -67,3 +67,9 @@
 | --- | --- | --- |
 | chemical | `e77119aa5213ba86af4418ca4875d0f834372d5cb78398efb3a1e43ed9db4e1e` | `189e86ef-db3c-432d-ba45-367a26e39d6a` |
 | cse | `c32d62da34e256d8ab02975b7c583fe36b0179111c9d830fd985490c6076da6a` | `3daf71bf-8e4d-447d-8733-35fc55a94965` |
+
+## 건축학과의 별도 공식 목록
+
+`architecture.json`은 학과 호스트에 접근하지 않고 공대 본부의 별도 공식 교수검색 목록과 건축학과 대학원 안내를 사용했다. 교수 3명과 역사·도시공간·구조공학 연구실 3곳을 수록했다. 교수별 연구 분야·선정의 대표성·지도 연구실은 확인하지 못했으며, 교수와 연구실을 짝짓거나 관계를 만들지 않았다. 따라서 수량 확보가 공개 데이터 검수 완료를 의미하지 않는다. 이 검수는 #33에 남긴다.
+
+Raw ID는 `986ddaa2e6043aa572534eff2fc78f56cb2849cbdce45f7809bb3bdaffc32ad2`, pending Staging ID는 `28de2c38-61d2-4bea-a604-e1fbf5b5fee7`이다. 모든 자원의 verificationRequired는 true이고 사람 승인 배치는 없다.

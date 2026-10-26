@@ -1,0 +1,225 @@
+{
+  "manifest": {
+    "version": "architecture-draft-20261026",
+    "generatedAt": "2026-10-26T11:24:21Z",
+    "publication": "prototype",
+    "selectionReason": "학과 호스트의 자동 접근 제한을 준수하고 별도의 공대 공식 목록을 사용했다. 연구실은 역사·도시공간·구조공학의 서로 다른 분야를 골랐다. 교수는 공개 목록에서 식별 가능한 3명을 우선 수록한 임시 선정으로, 연구 분야 대표성과 지도 연구실은 사람이 재검수해야 한다. 교수와 연구실을 짝짓거나 지도 관계를 추정하지 않았다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-architecture-faculty",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y",
+      "title": "공대 공식 교수검색 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:24:21Z",
+      "lastVerifiedAt": "2026-10-26T11:24:21Z"
+    },
+    {
+      "id": "src-architecture-labs",
+      "url": "https://eng.snu.ac.kr/academics/graduate-programs/architecture-and-architectural-engineering",
+      "title": "공대 공식 건축학과 대학원 연구실 안내",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:24:21Z",
+      "lastVerifiedAt": "2026-10-26T11:24:21Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-architecture-bumjoon",
+      "kind": "researcher",
+      "name": "강범준",
+      "summary": "공대 공식 교수검색 목록에 건축학과 부교수로 수록되어 있다. 개별 연구 분야와 연구실 지도 관계는 추가 확인이 필요하다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과"
+      ],
+      "sourceIds": [
+        "src-architecture-faculty"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-architecture-yerin",
+      "kind": "researcher",
+      "name": "강예린",
+      "summary": "공대 공식 교수검색 목록에 건축학과 부교수로 수록되어 있다. 개별 연구 분야와 연구실 지도 관계는 추가 확인이 필요하다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과"
+      ],
+      "sourceIds": [
+        "src-architecture-faculty"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-architecture-hyungoo",
+      "kind": "researcher",
+      "name": "강현구",
+      "summary": "공대 공식 교수검색 목록에 건축학과 교수로 수록되어 있다. 개별 연구 분야와 연구실 지도 관계는 추가 확인이 필요하다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과"
+      ],
+      "sourceIds": [
+        "src-architecture-faculty"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-architecture-history",
+      "kind": "lab",
+      "name": "건축사연구실",
+      "summary": "공대 공식 대학원 안내에 건축역사와 한국·동아시아 건축, 역사 문헌·아카이빙을 연구하는 연구실로 소개되어 있다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축역사",
+        "한국건축사",
+        "아카이빙"
+      ],
+      "sourceIds": [
+        "src-architecture-labs"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-architecture-urban",
+      "kind": "lab",
+      "name": "건축도시공간연구실",
+      "summary": "공대 공식 대학원 안내에 공간분석·건축계획·도시설계를 연구하는 연구실로 소개되어 있다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "공간분석",
+        "건축계획",
+        "도시설계"
+      ],
+      "sourceIds": [
+        "src-architecture-labs"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-architecture-structures",
+      "kind": "lab",
+      "name": "고성능구조공학연구실",
+      "summary": "공대 공식 대학원 안내에 콘크리트 해석과 실험, 성능기반 내풍설계·전산유체해석을 연구하는 연구실로 소개되어 있다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "구조공학",
+        "콘크리트",
+        "내풍설계",
+        "전산유체해석"
+      ],
+      "sourceIds": [
+        "src-architecture-labs"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [],
+  "evidence": []
+}

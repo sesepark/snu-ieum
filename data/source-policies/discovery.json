@@ -39,8 +39,12 @@
         "facultyName": null,
         "labName": null
       },
-      "selectorStatus": "manual-or-adapter-review-required",
-      "note": "자동 접근 제외. 공대 공식 학과 페이지와 개인 연락처 없는 교수 목록만 대체 출처로 검토한다."
+      "selectorStatus": "separate-college-lists-confirmed-manual-facts",
+      "note": "학과 호스트 자동 접근은 금지 상태를 유지한다. 별도의 공대 공식 교수 목록에서 강범준·강예린·강현구 소속을, 대학원 안내에서 연구실명·분야를 확인했다. 교수별 연구실 지도 관계와 교수 분야 대표성은 미확인으로 남겼다.",
+      "alternativeUrls": [
+        "https://eng.snu.ac.kr/about/organization/professor?sc=y",
+        "https://eng.snu.ac.kr/academics/graduate-programs/architecture-and-architectural-engineering"
+      ]
     },
     {
       "departmentId": "mechanical",
