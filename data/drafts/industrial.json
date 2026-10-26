@@ -1,0 +1,279 @@
+{
+  "manifest": {
+    "version": "industrial-draft-20261026",
+    "generatedAt": "2026-10-26T11:11:58Z",
+    "publication": "prototype",
+    "selectionReason": "공식 연구실 소개에서 경영과학·산업 데이터 분석·인간공학의 서로 다른 방법론을 골랐다. 이름만으로 연결하지 않고 각 소개의 지도교수 필드를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-industrial-or",
+      "url": "https://ie.snu.ac.kr/or_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "박명주 · 경영과학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-industrial-dsba",
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "강필성 · 데이터과학 및 비즈니스 애널리틱스 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-industrial-his",
+      "url": "https://ie.snu.ac.kr/his_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "윤명환 · 휴먼인터페이스시스템 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-industrial-or",
+      "kind": "researcher",
+      "name": "박명주",
+      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "경영과학",
+        "최적화",
+        "스케줄링"
+      ],
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-industrial-or",
+      "kind": "lab",
+      "name": "경영과학 연구실",
+      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "경영과학",
+        "최적화",
+        "스케줄링"
+      ],
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-industrial-dsba",
+      "kind": "researcher",
+      "name": "강필성",
+      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "데이터과학",
+        "기계학습",
+        "시계열",
+        "자연어",
+        "이상치 탐지"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-industrial-dsba",
+      "kind": "lab",
+      "name": "데이터과학 및 비즈니스 애널리틱스 연구실",
+      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "데이터과학",
+        "기계학습",
+        "시계열",
+        "자연어",
+        "이상치 탐지"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-industrial-his",
+      "kind": "researcher",
+      "name": "윤명환",
+      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "인간공학",
+        "HCI",
+        "사용자 경험",
+        "생체역학"
+      ],
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-industrial-his",
+      "kind": "lab",
+      "name": "휴먼인터페이스시스템 연구실",
+      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "인간공학",
+        "HCI",
+        "사용자 경험",
+        "생체역학"
+      ],
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-industrial-or",
+      "from": "prof-industrial-or",
+      "to": "lab-industrial-or",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-industrial-dsba",
+      "from": "prof-industrial-dsba",
+      "to": "lab-industrial-dsba",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-industrial-his",
+      "from": "prof-industrial-his",
+      "to": "lab-industrial-his",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    }
+  ],
+  "evidence": []
+}

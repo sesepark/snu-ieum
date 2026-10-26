@@ -1,0 +1,271 @@
+{
+  "manifest": {
+    "version": "mechanical-draft-20261026",
+    "generatedAt": "2026-10-26T11:11:58Z",
+    "publication": "prototype",
+    "selectionReason": "공식 전임교수 명단에서 로보틱스·유체/소프트물질·설계생산의 서로 다른 분야를 골랐다. 교수 이름과 같은 카드의 연구실 항목을 대조했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-mechanical-robot",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "김아영 · 로봇 인식 및 공간 지능 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-mechanical-fluids",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "김호영 · 마이크로유체 및 소프트물질 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-mechanical-manufacturing",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "안성훈 · 혁신설계 및 통합생산 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-mechanical-robot",
+      "kind": "researcher",
+      "name": "김아영",
+      "summary": "공식 전임교수 안내에 로보틱스 전공과 로봇 인식 및 공간 지능 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "로보틱스",
+        "로봇 인식",
+        "공간 지능"
+      ],
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-mechanical-robot",
+      "kind": "lab",
+      "name": "로봇 인식 및 공간 지능 연구실",
+      "summary": "공식 전임교수 안내에 로보틱스 전공과 로봇 인식 및 공간 지능 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "로보틱스",
+        "로봇 인식",
+        "공간 지능"
+      ],
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-mechanical-fluids",
+      "kind": "researcher",
+      "name": "김호영",
+      "summary": "공식 전임교수 안내에 마이크로유체 및 소프트물질 전공과 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "마이크로유체",
+        "소프트물질"
+      ],
+      "sourceIds": [
+        "src-mechanical-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-mechanical-fluids",
+      "kind": "lab",
+      "name": "마이크로유체 및 소프트물질 연구실",
+      "summary": "공식 전임교수 안내에 마이크로유체 및 소프트물질 전공과 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "마이크로유체",
+        "소프트물질"
+      ],
+      "sourceIds": [
+        "src-mechanical-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-mechanical-manufacturing",
+      "kind": "researcher",
+      "name": "안성훈",
+      "summary": "공식 전임교수 안내에 설계 생산 전공과 혁신설계 및 통합생산 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "설계",
+        "생산",
+        "제조"
+      ],
+      "sourceIds": [
+        "src-mechanical-manufacturing"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-mechanical-manufacturing",
+      "kind": "lab",
+      "name": "혁신설계 및 통합생산 연구실",
+      "summary": "공식 전임교수 안내에 설계 생산 전공과 혁신설계 및 통합생산 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "설계",
+        "생산",
+        "제조"
+      ],
+      "sourceIds": [
+        "src-mechanical-manufacturing"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-mechanical-robot",
+      "from": "prof-mechanical-robot",
+      "to": "lab-mechanical-robot",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-mechanical-fluids",
+      "from": "prof-mechanical-fluids",
+      "to": "lab-mechanical-fluids",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-mechanical-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-mechanical-manufacturing",
+      "from": "prof-mechanical-manufacturing",
+      "to": "lab-mechanical-manufacturing",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-mechanical-manufacturing"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    }
+  ],
+  "evidence": []
+}

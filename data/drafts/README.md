@@ -22,3 +22,15 @@
 개발용 DB는 `127.0.0.1:55440/ieum_curation`, 클러스터는 `~/.local/share/snu-ieum/curation-pg`다. 테스트 DB와 분리했다. 로컬 dump는 `~/.local/share/snu-ieum/curation-20261026.dump`에 보관했다. 이 로컬 사본은 운영의 암호화·별도 기기 백업 완료를 뜻하지 않는다.
 
 후속 반입은 해당 JSON과 반입 전용 Policy를 worker `import` bundle에 넣어 수행한다. 자세한 명령은 [CONTRIBUTING.md](../../CONTRIBUTING.md) §12와 [운영 문서](../../infra/OPERATIONS.md)를 따른다. 사람은 공식 출처를 다시 확인하고 운영 전용 review/publish로 승인한다. 에이전트 확인을 사람 승인으로 기록하지 않는다.
+
+## 건설환경도시·기계·산업
+
+`cee.json`, `mechanical.json`, `industrial.json`은 각각 교수 3명·연구실 3곳과 공식 지도교수 관계 3개를 수록한다. 분야별 선정 이유는 각 manifest에 있다. CEE는 공식 교수 카드의 전공과 연구실명, 기계는 전임교수 카드의 전공·연구실, 산업은 연구실 소개의 지도교수 항목을 직접 대조했다. 공식 소속·카드·연구실명으로 식별했고 이름만으로 다른 데이터원의 연구자를 병합하지 않았다.
+
+| 초안 | Raw ID | pending Staging ID |
+| --- | --- | --- |
+| cee | `c156fe78dd748dd2e6afaee1e3d9895fe1f799fb314e986b0332fa1af34ade5b` | `c2d1155c-2e98-4851-885f-69accaa84a69` |
+| mechanical | `b6c460a8ef0efc4ce476f197e0393bc1dabda6df9ff0ac3f24cc950c607a3770` | `e5744ee6-4558-41ce-a9ba-5884793d66ad` |
+| industrial | `0a6cfdcc1fe5e5b2dae5dc4192b80f70901948ceeb6ee5ce9c35914833f6b797` | `0992e407-aaa4-47ae-bbdc-8c7e5b8da841` |
+
+세 초안 모두 해당 학과 호스트·공식 목록/상세 경로로 한정한 `manual-facts-1` Policy를 DB run에 기록했다. 개인 연락처·전체 원문은 반입하지 않았다. 논문 근거는 후속 검수에서 추가한다.

@@ -1,0 +1,267 @@
+{
+  "manifest": {
+    "version": "cee-draft-20261026",
+    "generatedAt": "2026-10-26T11:11:58Z",
+    "publication": "prototype",
+    "selectionReason": "공식 교수 카드에서 도시계획·구조설계·환경공학의 서로 다른 분야를 골랐다. 같은 카드의 이름과 연구실명으로 관계를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-cee-urban",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1#faculty-27",
+      "organization": "서울대학교 건설환경도시공학부",
+      "title": "권영상 · 도시설계연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-cee-structural",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1#faculty-21",
+      "organization": "서울대학교 건설환경도시공학부",
+      "title": "김호경 · 구조설계연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-cee-water",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1#faculty-5",
+      "organization": "서울대학교 건설환경도시공학부",
+      "title": "최용주 · 수질환경실험실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-cee-urban",
+      "kind": "researcher",
+      "name": "권영상",
+      "summary": "공식 전공은 도시계획 및 설계이며 교수 카드에 도시설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "도시계획",
+        "도시설계"
+      ],
+      "sourceIds": [
+        "src-cee-urban"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cee-urban",
+      "kind": "lab",
+      "name": "도시설계연구실",
+      "summary": "공식 전공은 도시계획 및 설계이며 교수 카드에 도시설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "도시계획",
+        "도시설계"
+      ],
+      "sourceIds": [
+        "src-cee-urban"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-cee-structural",
+      "kind": "researcher",
+      "name": "김호경",
+      "summary": "공식 전공은 구조설계공학이며 교수 카드에 구조설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "구조설계",
+        "구조공학"
+      ],
+      "sourceIds": [
+        "src-cee-structural"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cee-structural",
+      "kind": "lab",
+      "name": "구조설계연구실",
+      "summary": "공식 전공은 구조설계공학이며 교수 카드에 구조설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "구조설계",
+        "구조공학"
+      ],
+      "sourceIds": [
+        "src-cee-structural"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-cee-water",
+      "kind": "researcher",
+      "name": "최용주",
+      "summary": "공식 전공은 환경공학이며 교수 카드에 수질환경실험실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "환경공학",
+        "수질"
+      ],
+      "sourceIds": [
+        "src-cee-water"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cee-water",
+      "kind": "lab",
+      "name": "수질환경실험실",
+      "summary": "공식 전공은 환경공학이며 교수 카드에 수질환경실험실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "환경공학",
+        "수질"
+      ],
+      "sourceIds": [
+        "src-cee-water"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-cee-urban",
+      "from": "prof-cee-urban",
+      "to": "lab-cee-urban",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-cee-urban"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-cee-structural",
+      "from": "prof-cee-structural",
+      "to": "lab-cee-structural",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-cee-structural"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-cee-water",
+      "from": "prof-cee-water",
+      "to": "lab-cee-water",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-cee-water"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    }
+  ],
+  "evidence": []
+}

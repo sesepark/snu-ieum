@@ -49,11 +49,11 @@
       "robotsUrl": "https://me.snu.ac.kr/robots.txt",
       "robotsStatus": "allow-public",
       "selectors": {
-        "facultyName": null,
-        "labName": null
+        "facultyName": "h2.jet-headline",
+        "labName": "h2.jet-headline → closest .elementor-widget-wrap → 연구실 항목"
       },
-      "selectorStatus": "manual-or-adapter-review-required",
-      "note": "WordPress 교수 목록은 단순 article/h3 selector가 맞지 않아 상세 페이지 selector 재검수가 필요하다."
+      "selectorStatus": "three-cards-confirmed-manual-facts",
+      "note": "2026-10-26 전임교수 목록의 김아영·김호영·안성훈 카드에서 이름·전공·연구실을 대조했다. 연락처 노드는 제외한다."
     },
     {
       "departmentId": "industrial",
@@ -62,11 +62,11 @@
       "robotsUrl": "https://ie.snu.ac.kr/robots.txt",
       "robotsStatus": "allow-public",
       "selectors": {
-        "facultyName": null,
+        "facultyName": ".page-content의 지도교수 필드",
         "labName": "h3.elementor-heading-title"
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "연구실별 /or_lab/, /dsba_lab/, /his_lab/ 같은 공식 상세 페이지의 제목과 지도교수를 함께 확인한다."
+      "selectorStatus": "three-pages-confirmed-manual-facts",
+      "note": "2026-10-26 /or_lab/, /dsba_lab/, /his_lab/의 연구실명·지도교수·주요 연구 분야를 대조했다."
     },
     {
       "departmentId": "energy",
