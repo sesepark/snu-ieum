@@ -1,0 +1,4009 @@
+{
+  "resourceVersion": "college-draft-20261026",
+  "generatedAt": "2026-10-26T17:21:42.466Z",
+  "works": [],
+  "pending": [
+    {
+      "workId": "https://openalex.org/W4281790889",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281640394",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4375858802",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392304105",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4383957026",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388464011",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280589633",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4225246927",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406352787",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389367121",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4212893393",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4205134630",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323653529",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281630496",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285992810",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4377695790",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280540675",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308040595",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387865238",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280572991",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308620767",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392544734",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415091769",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4226083230",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4286299948",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4365813058",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206384216",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4315865958",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296036096",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4297498241",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280552086",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221025951",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4229035861",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311116389",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387849849",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385429828",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280631862",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221079197",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4377565774",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322722917",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291197342",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4298138773",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391925503",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415092555",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402551965",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403062911",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304695118",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220656655",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280598936",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206038398",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220917957",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390350622",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323304861",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282932245",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390605189",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4223595573",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210427519",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304084160",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281630256",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4229079925",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389074118",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388627415",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281389645",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296777364",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289766873",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311154145",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403496222",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280608520",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307233260",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310155374",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390985412",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4394675771",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4225285080",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4290615267",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304695497",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404369323",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392191246",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283803434",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3173128495",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4295787966",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292665410",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392977246",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403062913",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399774717",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399369977",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367176438",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389938304",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405717781",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366529414",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399218247",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3202140980",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4318478298",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210430773",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281555333",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388946853",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280648529",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367040782",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386708656",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281709976",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213209208",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296799572",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4410927244",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366352225",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399187767",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385603861",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4365510427",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213121119",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366598884",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386592635",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388072673",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210417346",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220868729",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4414590999",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382631096",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4378974942",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4205566485",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220939307",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213384181",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386204475",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406160687",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210795205",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399119041",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385341464",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404447386",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224084185",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312694242",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4376630140",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293464737",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4324257760",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307033076",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386757978",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399103914",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379114671",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4364354110",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282932147",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210650500",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292230157",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319461187",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3216620312",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4287219229",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392229557",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4360610048",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W35239734",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310466702",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406944029",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224212721",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4317234390",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220803499",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362522287",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221083418",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319080751",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4294051893",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4409695029",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280533969",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224880055",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4383998048",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296293256",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3216299966",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405220977",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285043157",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386161431",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289688861",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386582468",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4212942200",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4229042584",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292179380",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389208559",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4368373869",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285386328",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311486741",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4315435939",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291019959",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4301596145",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321749424",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391738483",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311691578",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312066528",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282838394",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210599653",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4294904260",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4306150184",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210377061",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391631778",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4318218814",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367836072",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388233273",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387328184",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3215720729",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406715937",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W2984425456",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4412856333",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312309344",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4397049657",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293182211",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4284899944",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367186142",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3199473923",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321004232",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396977435",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387844848",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296032784",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386946669",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3187423116",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220699785",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313406560",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319346667",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391652234",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399382258",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224299463",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280523559",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280539117",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313142698",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402472398",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386054443",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391017280",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4284989259",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307425104",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4318159227",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322721662",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309412600",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281780731",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387375398",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4288050309",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391091480",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366162936",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4317761992",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320915007",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4380873186",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220797926",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4381185249",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4205811598",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213343292",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213262208",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307958658",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321275178",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399716637",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404664868",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210550149",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388763087",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291221577",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388081006",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388982470",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389221329",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396583674",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281609193",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388126490",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319216265",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382932088",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292998399",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291011381",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311663295",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312575110",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379645948",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387799053",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391447289",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387999074",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4395467497",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313196659",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321077653",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311790957",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312065239",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313418830",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292156427",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311634026",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4414321738",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285408211",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310640401",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408013956",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323651976",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399275893",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406472597",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210951405",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405571072",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220765490",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220804542",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386981999",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388525448",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393054884",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224282499",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224321801",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283210123",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283322968",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399203787",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213321520",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220747652",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311378281",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387187272",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221004038",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322739110",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382197383",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320856256",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322739225",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386289983",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392982824",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403398964",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366997708",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386098083",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220845590",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221093155",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311675337",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385297225",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292379765",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304690428",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307925365",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308372409",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388217580",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400870359",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206804309",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285134648",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322621664",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391109567",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4223945129",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221032937",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4225320237",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283775908",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285118858",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296691527",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403547493",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4409283540",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210765216",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402916615",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206660661",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382363307",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382600878",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390971969",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282590616",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367833791",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4303857036",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389097388",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389429352",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403086664",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405854414",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4413677730",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224262640",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296691503",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4306907395",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210916485",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321748593",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311398490",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396988476",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399018205",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366463050",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4286209083",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311672560",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4361194512",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405036663",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311675338",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387955559",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390884326",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396213219",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400079376",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406679883",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291624786",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367692803",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382393512",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280634382",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386390808",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415739261",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283331752",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289779533",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293276412",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407162975",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319333852",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3195893957",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313544410",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4327846087",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312648215",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322766835",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387504257",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210368497",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390509278",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206008723",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214500137",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4226244194",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312066820",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321749650",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389373097",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391676180",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4395037991",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406134773",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408942121",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220905311",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4225434086",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4328104197",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4381598611",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4384296590",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401515942",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210540808",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4284886889",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4380609168",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386932783",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4205556251",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210831098",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210925581",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213182639",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309164570",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321480162",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323362488",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387303138",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389122169",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392201695",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393004180",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206311579",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220685943",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4294732834",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307748944",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311021757",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323353562",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391779877",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4394998968",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408441732",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206831263",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220886084",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285391095",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4294904337",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4295958081",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4318994912",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4378901018",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402437967",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4410242531",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220917431",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308440551",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319159564",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386318989",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387331974",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402501413",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206017711",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220902920",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313454801",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4417199191",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4211115119",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312709262",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4383311370",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390272121",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396626913",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206090230",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311237446",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4316687845",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385549550",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415295904",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3129646882",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210505448",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213422114",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4284688932",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4290671898",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4315701871",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366507128",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4380853828",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385797886",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386438593",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387141392",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388215085",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391994217",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283731158",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387073777",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391506607",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281479254",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311658466",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320487122",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386200366",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387141349",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387798677",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401240655",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406681280",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213034216",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220666315",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4286435233",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292325804",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404353474",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311114086",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313532386",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386223099",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387375256",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214603558",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4223653173",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4375948958",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387722553",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408230710",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4412388001",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210356237",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320717500",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323661696",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214864556",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362523478",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388264017",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390873025",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392847527",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393221670",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393347766",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206903760",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210338699",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289260965",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313575817",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4381053009",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386132921",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390501139",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391533841",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402100410",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407695009",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4410919646",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W7126115639",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210343955",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220832992",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4284973149",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285386949",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4298042826",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304194043",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311375981",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389123507",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389235794",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393221715",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400952524",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403666775",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406159439",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285091412",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4380881143",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385452857",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386100167",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387330414",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4394905311",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401067377",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408893878",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206602938",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4207013760",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224303284",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312624488",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387095396",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3205738223",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210331562",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210705467",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4211210254",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4226065385",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280611431",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285010035",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285391032",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319231534",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4327704773",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403601231",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405989541",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221092264",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4223464414",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293493694",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4300717301",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323804933",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4324029535",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4365458361",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4378194956",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386369135",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391720494",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396894886",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4223625349",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4300817963",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323035159",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4327581674",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385757093",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387040106",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401171653",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406098970",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296777427",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386741480",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390739534",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220969678",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283014430",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293578007",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4381857034",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385988768",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386439058",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390541689",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206047302",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283167149",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313201641",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387029265",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388849739",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396535814",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4410916531",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4413860037",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210352766",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210573317",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221075302",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4225107312",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289783321",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382937173",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392168628",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392931790",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396916661",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282926850",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4316507344",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4394813043",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396615096",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399361815",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400029468",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402143990",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405239853",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206642489",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220688583",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285890888",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319080864",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320015857",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4380356020",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386142183",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387898969",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389446193",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392052016",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4395074566",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403042131",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221125501",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4226204451",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4229441097",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281726192",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281770739",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282936986",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309658700",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319593844",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379231338",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391948897",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392111236",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210720893",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4288722726",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296457555",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4298119430",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4303433522",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309136461",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311276238",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4315650988",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4316681234",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4318479298",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4381716577",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387996479",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415024796",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206644916",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4212854642",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214568242",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4223507394",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291014649",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296691249",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309971721",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310759330",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319293951",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362507253",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4375945603",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379508645",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382930099",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4383105288",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389979583",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390988414",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281787370",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283727388",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285195589",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296037019",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308173055",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313340213",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366162971",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386623494",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4398194425",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403439923",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4414090563",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210326058",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213240927",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214921936",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220960872",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4221139509",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4305082891",
+      "reason": "철회 표시 · 근거 연결 제외"
+    },
+    {
+      "workId": "https://openalex.org/W4312018490",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312309978",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312874524",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4360602769",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362589710",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391447827",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400236873",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4410384052",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214821204",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319300630",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385264825",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388011686",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404147280",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206327250",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313395925",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320856226",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4361279075",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379206959",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4381889984",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391135486",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396701982",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402976597",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408061313",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4413859744",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4205452413",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4226350810",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292850404",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311307625",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391123250",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406340267",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407884083",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214857716",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4290673796",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310975413",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320732219",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4384126565",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4402592730",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224027124",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4225268865",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292615405",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304701327",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4306194648",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310106511",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319812540",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362607287",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362692446",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4364353105",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386438860",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386731037",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388226785",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388524098",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389127782",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391744602",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391746182",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393263140",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4205835991",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4207060947",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283773309",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291392156",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292828425",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292939890",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296366326",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4306730746",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310601446",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312524025",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313887511",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320480797",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388500442",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389765881",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396706029",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4398184759",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400038706",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400987055",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415668525",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206916567",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210753890",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224237500",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293457648",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307138125",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308483075",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308951083",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311020882",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382724745",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4383872869",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385276385",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386836433",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391022390",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3215090996",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4205546786",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220886720",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4223527477",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224942308",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282946303",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283020086",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289446599",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322745242",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4360830321",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379967316",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382244172",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4384200934",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386094759",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386988678",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389070219",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401616283",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W7165207250",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210391504",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220762984",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224995042",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283831282",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4286245986",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4303986302",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4306935913",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309643660",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4311944066",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321506967",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362040523",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4383217272",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385605293",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387577586",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391837297",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392010986",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400948868",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415929050",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W7125394157",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281632229",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4284711296",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312019526",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362453594",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4380519894",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385230862",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386090944",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391848409",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393193897",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400882806",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401539347",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4410242339",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220763878",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283585247",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4291184207",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293060354",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4301293603",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304692444",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321480324",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385695866",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386314985",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386467197",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388487685",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389938223",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391754116",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393951524",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4206799785",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224322616",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4229052197",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280625311",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293007272",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293340313",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293493479",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308254239",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4316466946",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4378515194",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385282759",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387809590",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389407755",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391092204",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4405499204",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406401130",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407740809",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4414499039",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210575970",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4226007707",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285012534",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4290674376",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4294308865",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4297831032",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309095150",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312648273",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4365504554",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390589383",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400882007",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401360938",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403432458",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404642782",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404723487",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213371573",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214693701",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4305013890",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4306902095",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309778777",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4318040552",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4320480793",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366714489",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379743996",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389045221",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389741588",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390547184",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392541987",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399849668",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403132522",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4414593320",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4211029138",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214736509",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4226427511",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280645672",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283646499",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4293791173",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4319334001",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4323653622",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4360614012",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385572399",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386800059",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387440746",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390510629",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4400293729",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401478162",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4406078034",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407516967",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220888435",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4284973574",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4286499403",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289711706",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289846545",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307228020",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4307340641",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4308151970",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362640458",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4381612716",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386329445",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387665012",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390452064",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391514762",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4392561510",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396831857",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403383258",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407634350",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407878649",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4213316922",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281481164",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282926496",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283805541",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283820727",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4288060117",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296709683",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4361220755",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379386891",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386216053",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387518450",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4394990140",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396558373",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404236466",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4415030076",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4207026063",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281663836",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4281808606",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4283816654",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4288385200",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4289860488",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304471693",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4318916841",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4322487456",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4353031495",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4378745130",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4379051589",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4384822351",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385751881",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4388563094",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391541099",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4399346550",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4407837026",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408202206",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W2898554843",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4210683641",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214487960",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214747128",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220861952",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220990553",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4225669880",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4294440005",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4295193379",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296802028",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309218855",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4312219874",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313656758",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4316881870",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4382724159",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4387115048",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391604836",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4395084916",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401334304",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403098857",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4403985437",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4408892094",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4409733056",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4411536191",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220755333",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220784776",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4228999628",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4290775428",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292731316",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4297325547",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309030160",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4321458712",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367550843",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4367677608",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4377157856",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4384823700",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4389546256",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4391872909",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4393255262",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4396853024",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4404402023",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3164534318",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4282920100",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4285728475",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4292551931",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4296139766",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309331063",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4309898929",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4310778882",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313989419",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4362696252",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4366387598",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385555935",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4385580660",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4386883138",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4390572009",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401193885",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4401339236",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W3200397171",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4214479070",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4220972971",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4224862023",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4280575583",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4302007524",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4304688510",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4313312181",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4327568933",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4328049038",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    },
+    {
+      "workId": "https://openalex.org/W4328051841",
+      "reason": "공식 현직 공대 연구자와 저자 식별자·논문 소속의 교차 대조 필요"
+    }
+  ],
+  "duplicates": [],
+  "uniqueWorks": 1000
+}
