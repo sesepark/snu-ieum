@@ -56,6 +56,23 @@ export class Pipeline {
     });
   }
   async finish(runId: string, status: 'complete' | 'failed') { await this.pool.query('UPDATE ingestion_runs SET status=$2 WHERE id=$1', [runId, status]); }
+  async run(runId: string) {
+    const result = await this.pool.query('SELECT status,checkpoint,policy FROM ingestion_runs WHERE id=$1', [runId]);
+    if (!result.rowCount) throw new Error('Unknown run');
+    return result.rows[0] as { status: string; checkpoint: { cursor?: string }; policy: Policy };
+  }
+  async resume(runId: string, actor: string, reason: string) {
+    if (!actor.trim() || !reason.trim()) throw new Error('Resume reason required');
+    await transaction(this.pool, async client => {
+      const result = await client.query("UPDATE ingestion_runs SET status='running' WHERE id=$1 AND status IN ('failed','running') RETURNING id", [runId]);
+      if (!result.rowCount) throw new Error('Run cannot be resumed');
+      await audit(client, actor, 'resume', runId, reason);
+    });
+  }
+  async checkpoint(runId: string, cursor: string) {
+    const parsed = z.string().max(4096).parse(cursor);
+    await this.pool.query("UPDATE ingestion_runs SET checkpoint=$2 WHERE id=$1 AND status='running'", [runId, { cursor: parsed }]);
+  }
   async artifact(rawId: string, path: string, sha256: string, policy: Policy) {
     if (!policy.artifactsAllowed || policy.storage !== 'sanitized-payload') throw new Error('Artifact retention not allowed');
     await this.pool.query('INSERT INTO raw_artifacts(id,raw_id,path,sha256,policy) VALUES($1,$2,$3,$4,$5) ON CONFLICT DO NOTHING', [hash(rawId + ':' + sha256), rawId, path, sha256, policy]);
@@ -65,7 +82,7 @@ export class Pipeline {
     const clean = sanitize(candidate); if (clean.exclusions.length) throw new Error('Contact data in candidate');
     const raw = await this.pool.query('SELECT id FROM raw_records WHERE id=$1 AND run_id=$2', [rawId, runId]);
     if (!raw.rowCount) throw new Error('Raw record must belong to run');
-    const id = randomUUID(); await this.pool.query('INSERT INTO staging_records(id,run_id,raw_id,draft) VALUES($1,$2,$3,$4)', [id, runId, rawId, { candidate }]); return id;
+    const id = hash(`${runId}:${rawId}:${candidate.externalId}:${JSON.stringify(candidate)}`); await this.pool.query('INSERT INTO staging_records(id,run_id,raw_id,draft) VALUES($1,$2,$3,$4) ON CONFLICT DO NOTHING', [id, runId, rawId, { candidate }]); return id;
   }
   async stage(runId: string, rawId: string, input: unknown) {
     const cleaned = sanitize(input);
