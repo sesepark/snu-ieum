@@ -12,7 +12,7 @@
 | --- | --- |
 | 새 작업공간 `npm ci` | 성공, 감사 결과 알려진 취약점 0 |
 | `npm run check` | TypeScript 통과 |
-| `npm test` | 46개 단위·API 검사 통과 |
+| `npm test` | 47개 단위·API 검사 통과 |
 | 실제 PostgreSQL `npm run test:db` | 7개 통합 검사 통과 |
 | Chrome `npm run test:e2e` | 5개 브라우저 흐름 통과 |
 | `npm run build` | Vite production 빌드 성공 |
@@ -70,3 +70,5 @@ CSV 반입 파서는 알려진 prototype replacement 문제가 수정된 csv-par
 공식 원문 수집 실패도 직접 자원뿐 아니라 그 원문을 사용하는 관계·논문 근거의 자원까지 재검수 큐에 등록한다. 공개 manifest 검수자는 개인 연락처 대신 계정 ID로 검증하며, 승인/반영 전에 거부하는 검사를 포함한다.
 
 실제 출시의 후속 작업은 [공식 수집 정책 #27](https://github.com/sesepark/snu-ieum/issues/27), [무료 계정 #28](https://github.com/sesepark/snu-ieum/issues/28), [집 서버·복구 #29](https://github.com/sesepark/snu-ieum/issues/29), [사용자·검색 평가 #30](https://github.com/sesepark/snu-ieum/issues/30)에 분리했다.
+
+소스별 selector가 실패해도 개인정보와 비밀 필드를 제외한 허용 Raw를 먼저 기록하고 원문 content SHA-256을 별도 추적한다. 실패한 변환을 새 네트워크 수집 없이 재처리할 근거를 보관한다.

@@ -20,3 +20,12 @@ it('queues a failed official source for revalidation and marks the run failed', 
   await expect(collectOfficial(pipeline as unknown as Pipeline,'run',url,policy,{kind:'lab',name:'h1',summary:'main'},vi.fn().mockResolvedValue(new Response('',{status:404})))).rejects.toThrow();
   expect(pipeline.sourceFailed).toHaveBeenCalledWith(url); expect(pipeline.finish).toHaveBeenCalledWith('run','failed');
 });
+
+it('persists permitted Raw before a source-specific selector failure', async () => {
+  const pipeline={record:vi.fn().mockResolvedValue('raw'),stageCandidate:vi.fn(),sourceFailed:vi.fn(),finish:vi.fn()};
+  const response=new Response('<h1>공식 표본</h1><main>내용</main>',{headers:{'content-type':'text/html'}});
+  await expect(collectOfficial(pipeline as unknown as Pipeline,'run','https://cse.snu.ac.kr/en/research/labs/4',policy,{kind:'lab',name:'.missing',summary:'main'},vi.fn().mockResolvedValue(response))).rejects.toThrow('selector');
+  expect(pipeline.record).toHaveBeenCalledOnce(); expect(pipeline.stageCandidate).not.toHaveBeenCalled();
+  expect(pipeline.record.mock.calls[0][3].contentSha256).toMatch(/^[a-f0-9]{64}$/);
+  expect(pipeline.finish).toHaveBeenCalledWith('run','failed');
+});

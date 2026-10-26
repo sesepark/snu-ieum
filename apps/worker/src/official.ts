@@ -24,24 +24,28 @@ export async function fetchAllowed(url: string, policy: Policy, request: typeof 
   }
   throw new Error('Too many redirects');
 }
-export function parseOfficial(html: string, selectors: { name: string; summary: string }) {
+export function sanitizeOfficial(html: string) {
   const $ = load(html);
   $('script,style,noscript,[href^="mailto:"],[href^="tel:"],.contact,.contact-info').remove();
-  const safeHtml = (sanitize({ html: $.html() }).payload as { html: string }).html;
-  const clean = load(safeHtml);
-  return { html: safeHtml, name: clean(selectors.name).first().text().replace(/\s+/g, ' ').trim(), summary: clean(selectors.summary).first().text().replace(/\s+/g, ' ').trim().slice(0, 2000), exclusions: ['scripts, contact nodes and inline contact patterns removed'] };
+  return { html: (sanitize({ html: $.html() }).payload as { html: string }).html, exclusions: ['scripts, contact nodes and inline contact patterns removed'] };
 }
+export function parseOfficial(html: string, selectors: { name: string; summary: string }) {
+  const safe = sanitizeOfficial(html); const clean = load(safe.html);
+  return { ...safe, name: clean(selectors.name).first().text().replace(/\s+/g, ' ').trim(), summary: clean(selectors.summary).first().text().replace(/\s+/g, ' ').trim().slice(0, 2000) };
+}
+
 export async function collectOfficial(pipeline: Pipeline, runId: string, url: string, policy: Policy, config: { kind: z.infer<typeof CollectionKind>; name: string; summary: string; artifactRoot?: string }, request: typeof fetch = fetch) {
   try {
     const fetched = await fetchAllowed(url, policy, request);
     if (!fetched.response.headers.get('content-type')?.includes('text/html')) throw new Error('Expected HTML');
-    const parsed = parseOfficial(await readLimited(fetched.response), config);
-    if (!parsed.name) throw new Error('Source-specific name selector did not match');
-    const rawId = await pipeline.record(runId, fetched.url, fetched.url, { html: parsed.html, metadata: { title: parsed.name, summary: parsed.summary }, exclusions: parsed.exclusions, parserVersion: policy.parserVersion });
+    const original = await readLimited(fetched.response); const safe = sanitizeOfficial(original);
+    const rawId = await pipeline.record(runId, fetched.url, fetched.url, { html: safe.html, contentSha256: hash(original), exclusions: safe.exclusions, parserVersion: policy.parserVersion });
     if (config.artifactRoot && policy.artifactsAllowed && policy.storage === 'sanitized-payload') {
-      const sha256 = hash(parsed.html), path = join(config.artifactRoot, sha256 + '.html');
-      await mkdir(config.artifactRoot, { recursive: true }); await writeFile(path, parsed.html, { mode: 0o600 }); await pipeline.artifact(rawId, path, sha256, policy);
+      const sha256 = hash(safe.html), path = join(config.artifactRoot, sha256 + '.html');
+      await mkdir(config.artifactRoot, { recursive: true }); await writeFile(path, safe.html, { mode: 0o600 }); await pipeline.artifact(rawId, path, sha256, policy);
     }
+    const parsed = parseOfficial(safe.html, config);
+    if (!parsed.name) throw new Error('Source-specific name selector did not match');
     const stagingId = await pipeline.stageCandidate(runId, rawId, { kind: config.kind, name: parsed.name, sourceUrl: fetched.url, externalId: fetched.url, parserVersion: policy.parserVersion, facts: { summary: parsed.summary } });
     return { rawId, stagingId };
   } catch (error) { await pipeline.sourceFailed(url); await pipeline.finish(runId, 'failed'); throw error; }

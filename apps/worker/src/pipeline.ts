@@ -41,8 +41,9 @@ export class Pipeline {
       const originalSha256 = hash(JSON.stringify(payload));
       const stored = policy.storage === 'metadata-only' ? { sourceUrl, originalSha256, storageRestricted: true } : cleaned.payload;
       const prior = await client.query('SELECT sha256 FROM raw_records WHERE source_url=$1 ORDER BY retrieved_at DESC LIMIT 1', [sourceUrl]);
+      const contentHash = payload && typeof payload === 'object' && 'contentSha256' in payload && typeof payload.contentSha256 === 'string' && /^[a-f0-9]{64}$/.test(payload.contentSha256) ? payload.contentSha256 : undefined;
       const sha256 = hash(JSON.stringify(stored)); const id = hash(`${runId}:${externalId}:${sha256}`);
-      await client.query('INSERT INTO raw_records(id,run_id,external_id,source_url,payload,sha256,exclusions) VALUES($1,$2,$3,$4,$5,$6,$7) ON CONFLICT DO NOTHING', [id, runId, externalId, sourceUrl, stored, sha256, { fields: cleaned.exclusions, originalSha256 }]);
+      await client.query('INSERT INTO raw_records(id,run_id,external_id,source_url,payload,sha256,exclusions) VALUES($1,$2,$3,$4,$5,$6,$7) ON CONFLICT DO NOTHING', [id, runId, externalId, sourceUrl, stored, sha256, { fields: cleaned.exclusions, originalSha256, contentSha256: contentHash }]);
       if (prior.rowCount && prior.rows[0].sha256 !== sha256) await this.queueSource(client, sourceUrl, '원문 변경');
       // Checkpoints are allowed transport cursors only, never unfiltered source payload or credentials.
       const safeCheckpoint = z.object({ cursor: z.string().max(4096).optional(), page: z.number().int().nonnegative().optional() }).strict().parse(checkpoint);

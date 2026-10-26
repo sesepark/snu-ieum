@@ -2,7 +2,8 @@ import { createHash } from 'node:crypto';
 const email = /[A-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi;
 const obfuscatedEmail = /[A-Z0-9._%+-]+\s*(?:\[at\]|\(at\))\s*[A-Z0-9.-]+\s*(?:\[dot\]|\(dot\))\s*[A-Z]{2,}/gi;
 const phone = /(?:\+82[-.\s]?0?|0)(?:1[016789]|2|[3-6][1-5]|70)[-.\s)]*\d{3,4}[-.\s]*\d{4}\b/g;
-const contactKey = /(?:e[-_]?mail|phone|telephone|mobile|fax|contact|tel(?:ephone)?|연락처|전화|이메일)/i;
+const secretKey = /^(?:api[_-]?key|authorization|password|secret|(?:access|refresh)[_-]?token)$/i;
+const contactKey = /^(?:(?:personal|official|institution|lab)[_-]?)?(?:e[-_]?mail|phone|telephone|mobile|fax|contacts?|contact[_-]?(?:details|info)|tel|연락처|전화|이메일)(?:[_-]?(?:numbers?|addresses?|details|info|번호))?$/i;
 export const hash = (value: string) => createHash('sha256').update(value).digest('hex');
 export function sanitize(input: unknown) {
   const exclusions: string[] = [];
@@ -10,7 +11,8 @@ export function sanitize(input: unknown) {
     if (Array.isArray(value)) return value.map((item, i) => visit(item, `${path}[${i}]`));
     if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).flatMap(([key, value]) => {
       const safeKey = key.replace(email, '[contact removed]').replace(obfuscatedEmail, '[contact removed]').replace(phone, '[contact removed]');
-      if (safeKey !== key || contactKey.test(key)) { exclusions.push(path + '.' + (safeKey !== key ? '[contact-key-removed]' : key)); return []; }
+      const wordPositions = path.endsWith('.abstract_inverted_index') && Array.isArray(value) && value.every(item => Number.isInteger(item));
+      if (safeKey !== key || (!wordPositions && (contactKey.test(key) || secretKey.test(key)))) { exclusions.push(path + '.' + (safeKey !== key ? '[contact-key-removed]' : key)); return []; }
       return [[key, visit(value, path + '.' + key)]];
     }));
     if (typeof value === 'string') {
