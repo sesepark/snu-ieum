@@ -576,7 +576,7 @@ PLAYWRIGHT_CHANNEL=chrome npm run test:e2e
 TEST_DATABASE_URL=... npm run test:db
 ```
 
-테스트 DB는 다른 서비스와 분리합니다. 통합 검사는 임의 이름의 schema를 생성하고 종료 시 제거합니다. 운영 DB URL을 사용하지 않습니다. Chrome을 사용하지 않으면 `npm exec -- playwright install chromium`으로 Playwright 브라우저를 설치한 뒤 `npm run test:e2e`를 실행합니다. CI는 headless Chromium shell을 사용합니다.
+테스트 DB는 다른 서비스와 분리합니다. 통합 검사는 임의 이름의 schema를 생성하고 종료 시 제거합니다. 운영 DB URL을 사용하지 않습니다. Chrome을 사용하지 않으면 `npm exec -- playwright install chromium`으로 Playwright 브라우저를 설치한 뒤 `npm run test:e2e`를 실행합니다. CI는 Ubuntu 24.04의 사전 설치 Chrome을 사용합니다.
 
 ### 수집·검수·배포
 

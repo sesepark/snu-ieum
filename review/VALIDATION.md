@@ -24,9 +24,9 @@
 | 공용 패치 | 반영 전 apply check, 반영 후 reverse check 성공 |
 | 출시 게이트 | 미승인·수량 미달·검증 미완료 시 의도대로 실패 |
 
-GitHub Actions의 [verify 실행](https://github.com/sesepark/snu-ieum/actions/runs/40292086102)에서도 타입·단위 39개·PostgreSQL 6개·브라우저 5개·빌드가 성공했다. CI는 headless Chromium shell만 설치하고 설치 8분/전체 20분 제한을 둔다.
+GitHub Actions의 [verify 실행](https://github.com/sesepark/snu-ieum/actions/runs/40292086102)에서도 타입·단위 39개·PostgreSQL 6개·브라우저 5개·빌드가 성공했다. 이후 브라우저 다운로드가 간헐적으로 8분 제한에 도달한 실행을 확인해, Ubuntu 24.04의 사전 설치 Chrome으로 변경했다. 전체 job 20분 제한을 유지하며 별도 브라우저 다운로드는 하지 않는다.
 
-브라우저는 설치된 Chrome을 `PLAYWRIGHT_CHANNEL=chrome`으로 사용했다. CI에서는 Playwright Chromium을 설치하도록 준비했다. iab가 제공되지 않아 Chrome으로 화면을 확인했다.
+브라우저는 설치된 Chrome을 `PLAYWRIGHT_CHANNEL=chrome`으로 사용했다. CI도 사전 설치 Chrome을 사용한다. iab가 제공되지 않아 Chrome으로 화면을 확인했다.
 
 단위·API 검사는 출처 강제, 존재하지 않는 ID, 중복 ID, 추천의 실제 승인 필드 일치, 일반 검색, AI 미동의/한도/비정상 JSON/실패 대체, URL 원문 제외, 노드·연결 한도와 숨겨진 수, 개인정보 제거를 다룬다. 개인정보가 JSON 키인 경우에도 값과 제외 기록에 원문이 남지 않게 수정했다.
 
