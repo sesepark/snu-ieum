@@ -1,0 +1,913 @@
+{
+  "manifest": {
+    "version": "shared-draft-20261026",
+    "generatedAt": "2026-10-26T11:09:09Z",
+    "publication": "prototype",
+    "selectionReason": "기기원 보유기기의 서로 다른 분석 방식과 공대 공식 지원시설의 학술 공간을 골랐다. 장비 20개·공간 12곳의 사실 메타데이터 검수 초안으로 사람 승인 전이다. 전수 조사나 이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "shared-irf",
+      "name": "기초과학공동기기원",
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "groupType": "shared"
+    },
+    {
+      "id": "shared-engineering",
+      "name": "공대 공용 공간",
+      "sourceIds": [
+        "src-shared-sinyang",
+        "src-shared-engineer-house",
+        "src-shared-gece"
+      ],
+      "groupType": "shared"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-irf-105",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "300kV Cryo-EM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-1",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=1",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "300MHz NMR 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-109",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=109",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "CD 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-84",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=84",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "CLSM LSM980 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-108",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=108",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Cryo Sample Prep_Vitrobot 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-53",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=53",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Cs-STEM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-10",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=10",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Elemental Analyzer 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-106",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=106",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ESCA Axis Supra+ 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-100",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=100",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ESR 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-35",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=35",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FACS AriaII 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-54",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=54",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-EPMA 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-89",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=89",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FIB II 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-50",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=50",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FT-IR 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-15",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=15",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "GAMMA 조사기 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-74",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=74",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "GC-HRTOFMS 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-19",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=19",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "HRXRD 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-21",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=21",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ICP-MS 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-114",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=114",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MICADAS 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-113",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=113",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MRI 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-91",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=91",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "XRM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-shared-sinyang",
+      "url": "https://eng.snu.ac.kr/about/support-facilities/sinyang-library",
+      "organization": "서울대학교 공과대학",
+      "title": "신양학술정보관 공식 시설현황",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-shared-engineer-house",
+      "url": "https://eng.snu.ac.kr/about/support-facilities/engineering-house",
+      "organization": "서울대학교 공과대학",
+      "title": "엔지니어하우스 공식 시설현황",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-shared-gece",
+      "url": "https://eng.snu.ac.kr/about/support-facilities/GECE",
+      "organization": "서울대학교 공과대학",
+      "title": "글로벌공학교육센터 공식 시설현황",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "eq-irf-105",
+      "kind": "equipment",
+      "name": "300kV 초저온 전자현미경 · 300kV Cryo-EM",
+      "summary": "300kV 초저온 전자현미경. 공식 상세에 모델 Krios G4 Cryo-EM, 호실 139-1동 B112호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "300kV 초저온 전자현미경",
+        "300kV Cryo-EM",
+        "Krios G4 Cryo-EM"
+      ],
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-1",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기 300MHz · 300MHz NMR",
+      "summary": "핵자기 공명 분광기 300MHz. 공식 상세에 모델 AvanceIII HD, 호실 139동 103호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "핵자기 공명 분광기 300MHz",
+        "300MHz NMR",
+        "AvanceIII HD"
+      ],
+      "sourceIds": [
+        "src-irf-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-109",
+      "kind": "equipment",
+      "name": "원편광 이색성 분광광도계 · CD",
+      "summary": "원편광 이색성 분광광도계. 공식 상세에 모델 J-1700, 호실 407호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "원편광 이색성 분광광도계",
+        "CD",
+        "J-1700"
+      ],
+      "sourceIds": [
+        "src-irf-109"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-84",
+      "kind": "equipment",
+      "name": "공초점 레이저 주사 현미경 · CLSM LSM980",
+      "summary": "공초점 레이저 주사 현미경. 공식 상세에 모델 LSM980, 호실 504동 206호_수요자중심서비스센터으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "공초점 레이저 주사 현미경",
+        "CLSM LSM980",
+        "LSM980"
+      ],
+      "sourceIds": [
+        "src-irf-84"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-108",
+      "kind": "equipment",
+      "name": "초저온 시편제조기 · Cryo Sample Prep_Vitrobot",
+      "summary": "초저온 시편제조기. 공식 상세에 모델 Vitrobot, 호실 139-1동 B112호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "초저온 시편제조기",
+        "Cryo Sample Prep_Vitrobot",
+        "Vitrobot"
+      ],
+      "sourceIds": [
+        "src-irf-108"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-53",
+      "kind": "equipment",
+      "name": "구면수차보정 주사투과전자현미경 · Cs-STEM",
+      "summary": "구면수차보정 주사투과전자현미경. 공식 상세에 모델 JEM-ARM200F, 호실 139동 101호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "구면수차보정 주사투과전자현미경",
+        "Cs-STEM",
+        "JEM-ARM200F"
+      ],
+      "sourceIds": [
+        "src-irf-53"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-10",
+      "kind": "equipment",
+      "name": "원소 분석기 · Elemental Analyzer",
+      "summary": "원소 분석기. 공식 상세에 모델 Flash2000, 호실 139동 402호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "원소 분석기",
+        "Elemental Analyzer",
+        "Flash2000"
+      ],
+      "sourceIds": [
+        "src-irf-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-106",
+      "kind": "equipment",
+      "name": "표면분석장치 · ESCA Axis Supra+",
+      "summary": "표면분석장치. 공식 상세에 모델 AXIS SUPRA+, 호실 139-1동 254호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "표면분석장치",
+        "ESCA Axis Supra+",
+        "AXIS SUPRA+"
+      ],
+      "sourceIds": [
+        "src-irf-106"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-100",
+      "kind": "equipment",
+      "name": "전자스핀공명 분광기 · ESR",
+      "summary": "전자스핀공명 분광기. 공식 상세에 모델 EMXplus-9.5/12/P/L System, 호실 139동 108호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "전자스핀공명 분광기",
+        "ESR",
+        "EMXplus-9.5/12/P/L System"
+      ],
+      "sourceIds": [
+        "src-irf-100"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-35",
+      "kind": "equipment",
+      "name": "초고속 유세포 분리기 · FACS AriaII",
+      "summary": "초고속 유세포 분리기. 공식 상세에 모델 FACS AriaII, 호실 139동 408호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "초고속 유세포 분리기",
+        "FACS AriaII",
+        "FACS AriaII"
+      ],
+      "sourceIds": [
+        "src-irf-35"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-54",
+      "kind": "equipment",
+      "name": "전계방사 전자현미분석기 · FE-EPMA",
+      "summary": "전계방사 전자현미분석기. 공식 상세에 모델 JXA-8530F, 호실 139동 130호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "전계방사 전자현미분석기",
+        "FE-EPMA",
+        "JXA-8530F"
+      ],
+      "sourceIds": [
+        "src-irf-54"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-89",
+      "kind": "equipment",
+      "name": "이온빔집속장치 · FIB II",
+      "summary": "이온빔집속장치. 공식 상세에 모델 Helios G4, 호실 139동 130호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "이온빔집속장치",
+        "FIB II",
+        "Helios G4"
+      ],
+      "sourceIds": [
+        "src-irf-89"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-50",
+      "kind": "equipment",
+      "name": "푸리에 변환 적외선 분광기 · FT-IR",
+      "summary": "푸리에 변환 적외선 분광기. 공식 상세에 모델 TENSOR27, 호실 139동 306호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "푸리에 변환 적외선 분광기",
+        "FT-IR",
+        "TENSOR27"
+      ],
+      "sourceIds": [
+        "src-irf-50"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-15",
+      "kind": "equipment",
+      "name": "감마선 조사기 · GAMMA 조사기",
+      "summary": "감마선 조사기. 공식 상세에 모델 GC 3000 Elan, 호실 139동 401호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "감마선 조사기",
+        "GAMMA 조사기",
+        "GC 3000 Elan"
+      ],
+      "sourceIds": [
+        "src-irf-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-74",
+      "kind": "equipment",
+      "name": "기체크로마토그래피 고분해능 비행시간형 질량분석기 · GC-HRTOFMS",
+      "summary": "기체크로마토그래피 고분해능 비행시간형 질량분석기. 공식 상세에 모델 JMS-T2000GC, 호실 139동 306호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "기체크로마토그래피 고분해능 비행시간형 질량분석기",
+        "GC-HRTOFMS",
+        "JMS-T2000GC"
+      ],
+      "sourceIds": [
+        "src-irf-74"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-19",
+      "kind": "equipment",
+      "name": "고분해능 X-선 회절분석기 · HRXRD",
+      "summary": "고분해능 X-선 회절분석기. 공식 상세에 모델 SmartLab, 호실 139-1동 254호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "고분해능 X-선 회절분석기",
+        "HRXRD",
+        "SmartLab"
+      ],
+      "sourceIds": [
+        "src-irf-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-21",
+      "kind": "equipment",
+      "name": "유도결합 플라즈마 질량분석기 · ICP-MS",
+      "summary": "유도결합 플라즈마 질량분석기. 공식 상세에 모델 NexION 350D, 호실 139동 207호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "유도결합 플라즈마 질량분석기",
+        "ICP-MS",
+        "NexION 350D"
+      ],
+      "sourceIds": [
+        "src-irf-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-114",
+      "kind": "equipment",
+      "name": "소형탄소연대측정시스템 · MICADAS",
+      "summary": "소형탄소연대측정시스템. 공식 상세에 모델 MICADAS, 호실 152호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "소형탄소연대측정시스템",
+        "MICADAS",
+        "MICADAS"
+      ],
+      "sourceIds": [
+        "src-irf-114"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-113",
+      "kind": "equipment",
+      "name": "차세대 뇌과학 연구용 3T 자기공명영상장치 · MRI",
+      "summary": "차세대 뇌과학 연구용 3T 자기공명영상장치. 공식 상세에 모델 Siemens MAGNETOM Cima.X, 호실 139-1동 151호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "차세대 뇌과학 연구용 3T 자기공명영상장치",
+        "MRI",
+        "Siemens MAGNETOM Cima.X"
+      ],
+      "sourceIds": [
+        "src-irf-113"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-91",
+      "kind": "equipment",
+      "name": "고분해능 3차원 X선 이미징 시스템 · XRM",
+      "summary": "고분해능 3차원 X선 이미징 시스템. 공식 상세에 모델 Xradia 620 Versa, 호실 139동 209호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "고분해능 3차원 X선 이미징 시스템",
+        "XRM",
+        "Xradia 620 Versa"
+      ],
+      "sourceIds": [
+        "src-irf-91"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-info",
+      "kind": "space",
+      "name": "신양학술정보관 정보화 열람실",
+      "summary": "44-1동 1층의 정보화 열람실 및 인터넷카페로 안내된 공간.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "열람",
+        "인터넷",
+        "학술"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-pc206",
+      "kind": "space",
+      "name": "신양학술정보관 PC 실습실 1",
+      "summary": "44-1동 206호 PC 실습실. 공식 안내의 PC 사양은 오래된 운영체제를 포함하므로 현장 최신 상태 확인이 필요하다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "PC",
+        "실습",
+        "컴퓨터"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-pc207",
+      "kind": "space",
+      "name": "신양학술정보관 PC 실습실 2",
+      "summary": "44-1동 207호 PC 실습실. 공식 안내의 PC 사양은 오래된 운영체제를 포함하므로 현장 최신 상태 확인이 필요하다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "PC",
+        "실습",
+        "컴퓨터"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-reading306",
+      "kind": "space",
+      "name": "신양학술정보관 자유열람실",
+      "summary": "44-1동 306호로 안내된 자유열람실.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "열람",
+        "학술",
+        "자습"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-seminar302",
+      "kind": "space",
+      "name": "신양학술정보관 세미나실",
+      "summary": "44-1동 302호로 안내된 세미나 공간.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "세미나",
+        "학술",
+        "발표"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-group4",
+      "kind": "space",
+      "name": "신양학술정보관 그룹 스터디실",
+      "summary": "44-1동 4층 그룹 스터디 공간. 공식 안내에 예약하샤를 통한 예약이 명시되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "스터디",
+        "토론",
+        "모임"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-print201",
+      "kind": "space",
+      "name": "신양학술정보관 대형출력실",
+      "summary": "44-1동 201호 대형출력실. 공식 안내에 대형 출력·스캔·래미네이팅 장비가 기재되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "출력",
+        "스캔",
+        "포스터"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-engineer-auditorium101",
+      "kind": "space",
+      "name": "엔지니어하우스 대강당",
+      "summary": "엔지니어하우스 101호 대강당. 공식 시설현황에 200명 수용과 발표 지원시설이 안내되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "강당",
+        "발표",
+        "학술행사"
+      ],
+      "sourceIds": [
+        "src-shared-engineer-house"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-engineer-lectureb106",
+      "kind": "space",
+      "name": "엔지니어하우스 산학강의실",
+      "summary": "엔지니어하우스 B106호 강의실. 공식 시설현황에 40명 수용과 발표 지원시설이 안내되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "강의",
+        "세미나",
+        "산학"
+      ],
+      "sourceIds": [
+        "src-shared-engineer-house"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-gece-media",
+      "kind": "space",
+      "name": "글로벌공학교육센터 개방형 미디어 창작소",
+      "summary": "글로벌공학교육센터 공식 층별 시설현황에 기재된 미디어 창작 공간. 이용 조건은 공식 센터에서 확인해야 한다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "미디어",
+        "콘텐츠",
+        "제작"
+      ],
+      "sourceIds": [
+        "src-shared-gece"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-irf-b112",
+      "kind": "space",
+      "name": "기초과학공동기기원 139-1동 B112호",
+      "summary": "300kV Cryo-EM과 초저온 시편제조기의 공식 설치 호실. 자유 이용 공간이나 예약 가능 여부를 의미하지 않는다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "전자현미경",
+        "초저온",
+        "시편제조"
+      ],
+      "sourceIds": [
+        "src-irf-105",
+        "src-irf-108"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-irf-103",
+      "kind": "space",
+      "name": "기초과학공동기기원 139동 103호",
+      "summary": "300MHz NMR의 공식 설치 호실. 자유 이용 공간이나 예약 가능 여부를 의미하지 않는다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "핵자기공명",
+        "분광"
+      ],
+      "sourceIds": [
+        "src-irf-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "located-irf-105",
+      "from": "eq-irf-105",
+      "to": "space-irf-b112",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "located-irf-108",
+      "from": "eq-irf-108",
+      "to": "space-irf-b112",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-108"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "located-irf-1",
+      "from": "eq-irf-1",
+      "to": "space-irf-103",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    }
+  ],
+  "evidence": []
+}

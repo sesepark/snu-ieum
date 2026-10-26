@@ -1,0 +1,16 @@
+{
+  "reviewedBy": "codex",
+  "termsCheckedAt": "2026-10-26T11:09:09Z",
+  "robotsCheckedAt": "2026-10-26T11:09:09Z",
+  "allowedHosts": [
+    "eng.snu.ac.kr",
+    "irf.snu.ac.kr"
+  ],
+  "allowedPathPrefixes": [
+    "/about/support-facilities/",
+    "/possessed_device/possessed_device.php"
+  ],
+  "storage": "sanitized-payload",
+  "artifactsAllowed": false,
+  "parserVersion": "manual-facts-1"
+}
