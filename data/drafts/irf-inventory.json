@@ -1,0 +1,909 @@
+{
+  "manifest": {
+    "version": "irf-inventory-20261027",
+    "generatedAt": "2026-10-26T17:03:13.722Z",
+    "publication": "prototype",
+    "schemaVersion": 1,
+    "selectionReason": "공식 IRF 보유기기 이름순 목록과 장비별 명칭·모델·명시 설치 호실의 최소 사실. 기존 ID를 보존하며 연락처·담당자·사진·일정·신청 정보와 HTML은 제외. 사람 공개 승인 대기."
+  },
+  "departments": [
+    {
+      "id": "shared-irf",
+      "name": "기초과학공동기기원",
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "groupType": "shared"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-irf-105",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "300kV Cryo-EM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "source-irf-equipment-4",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=4",
+      "title": "500MHz Solid NMR 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-3",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=3",
+      "title": "600MHz-NMR 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-60",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=60",
+      "title": "850MHz Cryo NMR 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-72",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=72",
+      "title": "CAE-Simulator 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-45",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=45",
+      "title": "CLSM II 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-85",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=85",
+      "title": "ColdSpray-LC-TOF-MS 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-52",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=52",
+      "title": "Cs-TEM 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-64",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=64",
+      "title": "ESCA II 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-112",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=112",
+      "title": "FACSymphony A5 SE 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-55",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=55",
+      "title": "FE-SEM 7800F Prime 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-102",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=102",
+      "title": "FE-SEM GeminiSEM 560 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-82",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=82",
+      "title": "FE-TEM 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-48",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=48",
+      "title": "FIB 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-16",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=16",
+      "title": "GC-HRMS 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-61",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=61",
+      "title": "GC-MS/MS 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-20",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=20",
+      "title": "ICP-AES 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-92",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=92",
+      "title": "LA-ICP-MS 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-24",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=24",
+      "title": "MALDI-TOF 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-68",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=68",
+      "title": "MALDI-TOFTOF 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-65",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=65",
+      "title": "MC-ICP-MS 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-56",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=56",
+      "title": "Microscope IR 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-90",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=90",
+      "title": "Mini SEM 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-86",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=86",
+      "title": "Mounting and Polishing 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-57",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=57",
+      "title": "NANO MILL 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-62",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=62",
+      "title": "Powder XRD 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-67",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=67",
+      "title": "Raman (DXR2xi) 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-83",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=83",
+      "title": "SAICAS 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-66",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=66",
+      "title": "SC-XRD 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-70",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=70",
+      "title": "SEM MILL 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-49",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=49",
+      "title": "SRM 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-97",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=97",
+      "title": "Surface Profiler 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-59",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=59",
+      "title": "TEM Software 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-42",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=42",
+      "title": "TEM(200kV) (구 TEM II) 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-63",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=63",
+      "title": "TOF-SIMS 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-69",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=69",
+      "title": "WD-XRF(S8 TIGER) 공식 보유기기 안내",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "eq-irf-4",
+      "kind": "equipment",
+      "name": "고체상 핵자기공명 분광기 · 500MHz Solid NMR",
+      "summary": "공식 장비 안내의 모델 Bruker Avance III HD, 설치 호실 139동 106호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "500MHz Solid NMR",
+        "Bruker Avance III HD"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-3",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기 600MHz · 600MHz-NMR",
+      "summary": "공식 장비 안내의 모델 AvanceIII-600, 설치 호실 139동 103호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "600MHz-NMR",
+        "AvanceIII-600"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-60",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기 850MHz · 850MHz Cryo NMR",
+      "summary": "공식 장비 안내의 모델 AVNACE III HD, 설치 호실 139-1동 120호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "850MHz Cryo NMR",
+        "AVNACE III HD"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-60"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-72",
+      "kind": "equipment",
+      "name": "이미지 분석 시뮬레이터 · CAE-Simulator",
+      "summary": "공식 장비 안내의 모델 CAE-Simulator ThunderBolt/ R2N24C4V48G/10g, 설치 호실 139동 307-1호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "CAE-Simulator",
+        "CAE-Simulator ThunderBolt/ R2N24C4V48G/10g"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-72"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-45",
+      "kind": "equipment",
+      "name": "공초점 레이저 주사 현미경 · CLSM II",
+      "summary": "공식 장비 안내의 모델 LSM710, 설치 호실 504동 206호_수요자중심서비스센터. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "CLSM II",
+        "LSM710"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-45"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-85",
+      "kind": "equipment",
+      "name": "액체 크로마토그래피 비행시간차 질량분석기 · ColdSpray-LC-TOF-MS",
+      "summary": "공식 장비 안내의 모델 JMS-T100LP 4G, 설치 호실 139동 306호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ColdSpray-LC-TOF-MS",
+        "JMS-T100LP 4G"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-85"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-52",
+      "kind": "equipment",
+      "name": "구면수차보정 투과전자현미경 · Cs-TEM",
+      "summary": "공식 장비 안내의 모델 JEM-ARM200F, 설치 호실 139동 101호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Cs-TEM",
+        "JEM-ARM200F"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-52"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-64",
+      "kind": "equipment",
+      "name": "표면분석장치 II · ESCA II",
+      "summary": "공식 장비 안내의 모델 AXIS SUPRA, 설치 호실 139-1동 254호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ESCA II",
+        "AXIS SUPRA"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-64"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-112",
+      "kind": "equipment",
+      "name": "세포분석기(프리미엄 하이엔드 유세포분석기) · FACSymphony A5 SE",
+      "summary": "공식 장비 안내의 모델 FACSymphony A5 SE, 설치 호실 4층, 408호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FACSymphony A5 SE",
+        "FACSymphony A5 SE"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-112"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-55",
+      "kind": "equipment",
+      "name": "전계방사 주사전자현미경 · FE-SEM 7800F Prime",
+      "summary": "공식 장비 안내의 모델 JSM-7800F Prime, 설치 호실 139동 130호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-SEM 7800F Prime",
+        "JSM-7800F Prime"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-55"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-102",
+      "kind": "equipment",
+      "name": "전계방사 주사전자현미경 · FE-SEM GeminiSEM 560",
+      "summary": "공식 장비 안내의 모델 ZEISS GeminiSEM 560, 설치 호실 139-1동 130호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-SEM GeminiSEM 560",
+        "ZEISS GeminiSEM 560"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-102"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-82",
+      "kind": "equipment",
+      "name": "전계방사 투과전자현미경 · FE-TEM",
+      "summary": "공식 장비 안내의 모델 JEM-F200(TFEG), 설치 호실 139동 101호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-TEM",
+        "JEM-F200(TFEG)"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-82"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-48",
+      "kind": "equipment",
+      "name": "이온빔집속장치 · FIB",
+      "summary": "공식 장비 안내의 모델 Helios 650, 설치 호실 139동 108호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FIB",
+        "Helios 650"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-48"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-16",
+      "kind": "equipment",
+      "name": "기체 크로마토그래피 고분해능 질량분석기 · GC-HRMS",
+      "summary": "공식 장비 안내의 모델 JMS-700(JEOL, Japan), 6890 Series, 설치 호실 139동 306호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "GC-HRMS",
+        "JMS-700(JEOL, Japan), 6890 Series"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-61",
+      "kind": "equipment",
+      "name": "기체 크로마토그래피 탠덤 질량분석기 · GC-MS/MS",
+      "summary": "공식 장비 안내의 모델 TSQ 8000 Evo / TRACE 1310, 설치 호실 139동 306호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "GC-MS/MS",
+        "TSQ 8000 Evo / TRACE 1310"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-61"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-20",
+      "kind": "equipment",
+      "name": "유도결합 플라즈마 방출 분광기 · ICP-AES",
+      "summary": "공식 장비 안내의 모델 OPTIMA 8300, 설치 호실 139동 207호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ICP-AES",
+        "OPTIMA 8300"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-92",
+      "kind": "equipment",
+      "name": "레이저 삭마 유도결합 플라즈마 질량 분석기 · LA-ICP-MS",
+      "summary": "공식 장비 안내의 모델 ICP-MS iCAP RQ, Laser NWR 193, 설치 호실 139동 207-1호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "LA-ICP-MS",
+        "ICP-MS iCAP RQ, Laser NWR 193"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-92"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-24",
+      "kind": "equipment",
+      "name": "고분해능 거대질량 분석기 · MALDI-TOF",
+      "summary": "공식 장비 안내의 모델 MALDI TOF Voyager DE-STR, 설치 호실 139동 412호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "MALDI-TOF",
+        "MALDI TOF Voyager DE-STR"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-24"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-68",
+      "kind": "equipment",
+      "name": "고분해능 거대질량 분석기 · MALDI-TOFTOF",
+      "summary": "공식 장비 안내의 모델 MALDI TOF-TOF 5800 System, 설치 호실 139동 412호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "MALDI-TOFTOF",
+        "MALDI TOF-TOF 5800 System"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-68"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-65",
+      "kind": "equipment",
+      "name": "다중검출 유도결합플라즈마 질량분석기 · MC-ICP-MS",
+      "summary": "공식 장비 안내의 모델 Plasma 3, 설치 호실 139동 208호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "MC-ICP-MS",
+        "Plasma 3"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-65"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-56",
+      "kind": "equipment",
+      "name": "현미경 적외선 분광기 · Microscope IR",
+      "summary": "공식 장비 안내의 모델 Spotlight 400, 설치 호실 139동 306호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Microscope IR",
+        "Spotlight 400"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-56"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-90",
+      "kind": "equipment",
+      "name": "미니  주사전자현미경 · Mini SEM",
+      "summary": "공식 장비 안내의 모델 JCM-6000, 설치 호실 139동 130호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Mini SEM",
+        "JCM-6000"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-90"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-86",
+      "kind": "equipment",
+      "name": "전자현미경전처리장비 · Mounting and Polishing",
+      "summary": "공식 장비 안내의 모델 LaboPol-30, 설치 호실 139동 130호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Mounting and Polishing",
+        "LaboPol-30"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-86"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-57",
+      "kind": "equipment",
+      "name": "나노밀 · NANO MILL",
+      "summary": "공식 장비 안내의 모델 M1040, 설치 호실 139동 101호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "NANO MILL",
+        "M1040"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-57"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-62",
+      "kind": "equipment",
+      "name": "분말 X-선 회절 분석기 · Powder XRD",
+      "summary": "공식 장비 안내의 모델 SmartLab, 설치 호실 139-1동 254호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Powder XRD",
+        "SmartLab"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-62"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-67",
+      "kind": "equipment",
+      "name": "라만분광기 · Raman (DXR2xi)",
+      "summary": "공식 장비 안내의 모델 DXR2xi, 설치 호실 139동 404호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Raman (DXR2xi)",
+        "DXR2xi"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-67"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-83",
+      "kind": "equipment",
+      "name": "계면 특성 분석 시스템 · SAICAS",
+      "summary": "공식 장비 안내의 모델 SAICAS EN-EX, 설치 호실 139동 413호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SAICAS",
+        "SAICAS EN-EX"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-83"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-66",
+      "kind": "equipment",
+      "name": "단결정 X-선 회절분석기 · SC-XRD",
+      "summary": "공식 장비 안내의 모델 XtaLAB PRO, 설치 호실 139-1동 254호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SC-XRD",
+        "XtaLAB PRO"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-66"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-70",
+      "kind": "equipment",
+      "name": "SEM 이온밀 · SEM MILL",
+      "summary": "공식 장비 안내의 모델 M1060, 설치 호실 101호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SEM MILL",
+        "M1060"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-70"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-49",
+      "kind": "equipment",
+      "name": "초고해상도 현미경 시스템 · SRM",
+      "summary": "공식 장비 안내의 모델 ELYRA PS.1, 설치 호실 504동 206호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SRM",
+        "ELYRA PS.1"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-49"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-97",
+      "kind": "equipment",
+      "name": "접촉식 단차 측정기 · Surface Profiler",
+      "summary": "공식 장비 안내의 모델 ET200, 설치 호실 139-1동 254호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Surface Profiler",
+        "ET200"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-97"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-59",
+      "kind": "equipment",
+      "name": "투과전자현미경 소프트웨어 · TEM Software",
+      "summary": "공식 장비 안내의 모델 TEM DATA 분석 응용프로그램, 설치 호실 . 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "TEM Software",
+        "TEM DATA 분석 응용프로그램"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-59"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-42",
+      "kind": "equipment",
+      "name": "투과전자현미경 · TEM(200kV) (구 TEM II)",
+      "summary": "공식 장비 안내의 모델 JEM-2100, 설치 호실 139-1동 251호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "TEM(200kV) (구 TEM II)",
+        "JEM-2100"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-42"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-63",
+      "kind": "equipment",
+      "name": "비행시간형 이차이온질량분석기 · TOF-SIMS",
+      "summary": "공식 장비 안내의 모델 TOF.SIMS-5, 설치 호실 139-1동 254호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "TOF-SIMS",
+        "TOF.SIMS-5"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-63"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-69",
+      "kind": "equipment",
+      "name": "파장분산형 X선 형광 분석기 · WD-XRF(S8 TIGER)",
+      "summary": "공식 장비 안내의 모델 S8 TIGER, 설치 호실 139동 402호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "WD-XRF(S8 TIGER)",
+        "S8 TIGER"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-69"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [],
+  "evidence": []
+}

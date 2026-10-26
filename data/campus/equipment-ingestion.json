@@ -1,0 +1,286 @@
+{
+  "runId": "236064fb-40f6-4aec-85bd-f6cdefc5141d",
+  "listRawId": "3a25c37bcf1aa970096e0d9982ab0ce8a776fd627bb4cb44847b135ac19d1a29",
+  "stagingId": "a67c96ac-9bf3-41cc-b1d3-3faa7d5014ae",
+  "checkedAt": "2026-10-26T17:03:13.722Z",
+  "total": 55,
+  "newEquipment": 35,
+  "records": [
+    {
+      "resourceId": "eq-irf-105",
+      "rawId": "3e97c877aac3d5c0ad92f943bdfed6d371a8156c355b7156c83f904ae408f86a",
+      "address": "139-1동 B112호"
+    },
+    {
+      "resourceId": "eq-irf-1",
+      "rawId": "4dcb3b53b16ed4662c2edff50ad90b04e4225aea7ee58814279b467726b85b8d",
+      "address": "139동 103호"
+    },
+    {
+      "resourceId": "eq-irf-4",
+      "rawId": "fdc1c1751993b578ae3e6248e2c9ba9d79dd89211d01e4d2a410691232f81db5",
+      "address": "139동 106호"
+    },
+    {
+      "resourceId": "eq-irf-3",
+      "rawId": "587936640f208a8167d1a6fd1f2275145c5368acbfa73f094b2cd94a73006dd9",
+      "address": "139동 103호"
+    },
+    {
+      "resourceId": "eq-irf-60",
+      "rawId": "6964c7a8f8eb524c8e0a5536696543b0506f7a96452ad2f9237ce714c0570b15",
+      "address": "139-1동 120호"
+    },
+    {
+      "resourceId": "eq-irf-72",
+      "rawId": "d3137d7cc039b65d1b31c81ed20398f2999a9295703189fc3c13ee8dbf4687b8",
+      "address": "139동 307-1호"
+    },
+    {
+      "resourceId": "eq-irf-109",
+      "rawId": "c351502394d62af84d00b12cfa04028730f483ac8201e5c03eebef856a47e9b0",
+      "address": "407호"
+    },
+    {
+      "resourceId": "eq-irf-45",
+      "rawId": "1c0aa59d086dd480122efaeb79fefdbcdfc21775371bcf3b2b1779c8c864eace",
+      "address": "504동 206호_수요자중심서비스센터"
+    },
+    {
+      "resourceId": "eq-irf-84",
+      "rawId": "ece58534e71fecc4a7dfa638f49e363de4189f7fd8c769f4e647bae767b72661",
+      "address": "504동 206호_수요자중심서비스센터"
+    },
+    {
+      "resourceId": "eq-irf-85",
+      "rawId": "57b0247e3f7abeee7b8eef04f192b3cffab95e564403c0ad792eb93ca14690b4",
+      "address": "139동 306호"
+    },
+    {
+      "resourceId": "eq-irf-108",
+      "rawId": "f470f14674b4c6de471d63fab14d764bb0aa4fd96337e920928f9925e19a6395",
+      "address": "139-1동 B112호"
+    },
+    {
+      "resourceId": "eq-irf-53",
+      "rawId": "751561c58f35e4568991fe1f868327026035fe2120462488826976c1c186a429",
+      "address": "139동 101호"
+    },
+    {
+      "resourceId": "eq-irf-52",
+      "rawId": "a704c39101cbc8416e8e106e117424800f5093db703df9205386802f2a70438e",
+      "address": "139동 101호"
+    },
+    {
+      "resourceId": "eq-irf-10",
+      "rawId": "bb77ef17cb3f604b1376a093e08817e7d868c19150e1b13c8e02d94a0942d0ee",
+      "address": "139동 402호"
+    },
+    {
+      "resourceId": "eq-irf-106",
+      "rawId": "ce01823327b57a7f22afcc1e704459e73e72625b3467120c4cf68dc73a952164",
+      "address": "139-1동 254호"
+    },
+    {
+      "resourceId": "eq-irf-64",
+      "rawId": "fa1feab4f1a3a5bf9721436af3f70eadb97d2d56a2df3da88bf6a8bfede6af41",
+      "address": "139-1동 254호"
+    },
+    {
+      "resourceId": "eq-irf-100",
+      "rawId": "4370da5863503c287043b2a3e4452da30d71558a4a4b5d61d3c1a7f165326f32",
+      "address": "139동 108호"
+    },
+    {
+      "resourceId": "eq-irf-35",
+      "rawId": "4733f0be603cb5d74e80a0c677d7b957e07afc1d6bcc22cc724b994e3eae51d5",
+      "address": "139동 408호"
+    },
+    {
+      "resourceId": "eq-irf-112",
+      "rawId": "10f655face7dbd311711e826dd60eb70cb6c4b3f2b99752277e75d5b8b75c467",
+      "address": "4층, 408호"
+    },
+    {
+      "resourceId": "eq-irf-54",
+      "rawId": "309204377d7e956d7379a0d404e93c2d480150c0b1c80177c694bded7bc772f8",
+      "address": "139동 130호"
+    },
+    {
+      "resourceId": "eq-irf-55",
+      "rawId": "543c9f0ad8f173c929b01da33a0bcb2f7a008ea8d4a1c6d1e718d677e94374f4",
+      "address": "139동 130호"
+    },
+    {
+      "resourceId": "eq-irf-102",
+      "rawId": "1a7c9a905b8ae9486934dcd515d427db43b97ed2a62d14627675c426d7393c84",
+      "address": "139-1동 130호"
+    },
+    {
+      "resourceId": "eq-irf-82",
+      "rawId": "f0dafb090e0cd157586e08f03195c8162a4b88ad1eb138c5c98edce46e1de7e2",
+      "address": "139동 101호"
+    },
+    {
+      "resourceId": "eq-irf-48",
+      "rawId": "57ae9e5122290edc59622176626827581a70497f1e4b1d636885472701fe5331",
+      "address": "139동 108호"
+    },
+    {
+      "resourceId": "eq-irf-89",
+      "rawId": "2d1f24703fed060a544fe59b2a0b04b58eafc8dafd75fb4abf12d3cb22f2750b",
+      "address": "139동 130호"
+    },
+    {
+      "resourceId": "eq-irf-50",
+      "rawId": "0523040d144ead885ca4a2bcf2feccda395521b75e2ad6558554d43fcfacfac8",
+      "address": "139동 306호"
+    },
+    {
+      "resourceId": "eq-irf-15",
+      "rawId": "7483b8c417af2ca6718c70ca91560358524046e208a3e961d891d307f3e3ebba",
+      "address": "139동 401호"
+    },
+    {
+      "resourceId": "eq-irf-16",
+      "rawId": "a94f756e6cf16f01d8b63b13aec0fb44b894c370013ca05d195ef50703245ed2",
+      "address": "139동 306호"
+    },
+    {
+      "resourceId": "eq-irf-74",
+      "rawId": "c3ecc2e58fbc8b9bd1a88cea5315b42c3bb11e60fe58bf670509e1ec6f514e0c",
+      "address": "139동 306호"
+    },
+    {
+      "resourceId": "eq-irf-61",
+      "rawId": "12bafa209c04b5e6341567eadc13210e73e3f6c96d5b88b72d325098e3ae9815",
+      "address": "139동 306호"
+    },
+    {
+      "resourceId": "eq-irf-19",
+      "rawId": "e3b4cb27ada1f4f25b301456c7ff17c0fdcce639ce6d8d1917149ed51b70f78e",
+      "address": "139-1동 254호"
+    },
+    {
+      "resourceId": "eq-irf-20",
+      "rawId": "f366a3c580d45eeb9793e6305d212e6a489ecf32a1958097e8feeeb85a942ec2",
+      "address": "139동 207호"
+    },
+    {
+      "resourceId": "eq-irf-21",
+      "rawId": "e4e21ba6d4bfa9ad5dd31532e495500ecad09466e643629a6ac56c2e02d407de",
+      "address": "139동 207호"
+    },
+    {
+      "resourceId": "eq-irf-92",
+      "rawId": "91717bed889c9b9ef6daafb9bcccd5558ea2af54e23a5c71d7c85b27152aee05",
+      "address": "139동 207-1호"
+    },
+    {
+      "resourceId": "eq-irf-24",
+      "rawId": "7e00071fea083a58f1fe60e8b4ca8b038a8370d3693e2297788b724a88293da1",
+      "address": "139동 412호"
+    },
+    {
+      "resourceId": "eq-irf-68",
+      "rawId": "68fa989b201bdcaa7f2de005868233772237fffc19e1a9d4c5ab13d616cdfcad",
+      "address": "139동 412호"
+    },
+    {
+      "resourceId": "eq-irf-65",
+      "rawId": "9b28f5477ac9508a00fe5f4e2b931bbf0214fc20c24eebffb23ddd38151ec4c0",
+      "address": "139동 208호"
+    },
+    {
+      "resourceId": "eq-irf-114",
+      "rawId": "c5454633108991e6153c7044ed5ef1ed897fb75489f2884fc698b140a8a1db71",
+      "address": "152호"
+    },
+    {
+      "resourceId": "eq-irf-56",
+      "rawId": "8d60402e6be85ca120350798cd3f683219600c0b615c2c25931d0d8830f4c4f7",
+      "address": "139동 306호"
+    },
+    {
+      "resourceId": "eq-irf-90",
+      "rawId": "863e7d77d8e472fe96e6dd1e50e652a12176c8ad804eed09b447d90889418fba",
+      "address": "139동 130호"
+    },
+    {
+      "resourceId": "eq-irf-86",
+      "rawId": "14b1daead9de5e207c47dad8ad79556104998987213272e20216f7ee068a87b1",
+      "address": "139동 130호"
+    },
+    {
+      "resourceId": "eq-irf-113",
+      "rawId": "99f3ff26387ffd77bfaf44b926a511d22f027b263113e9b1de2d0e960ad738e0",
+      "address": "139-1동 151호"
+    },
+    {
+      "resourceId": "eq-irf-57",
+      "rawId": "51182860700af8779c33b332f2512c3e2ad321ccfc5a6d818b10362e866e6baf",
+      "address": "139동 101호"
+    },
+    {
+      "resourceId": "eq-irf-62",
+      "rawId": "ce7b500ec4409ab8c7f39f31f2abc7b909233fcb1e5fd28e2e652c3256f33f4e",
+      "address": "139-1동 254호"
+    },
+    {
+      "resourceId": "eq-irf-67",
+      "rawId": "0d1ade3116df7e6bb93c79d80553051db21a5bd2defa70cb9dc037cc464f534d",
+      "address": "139동 404호"
+    },
+    {
+      "resourceId": "eq-irf-83",
+      "rawId": "dc26aa59ab5d05845c462bf35503ee7d2dc54293147a745e52a70c5fd047b2ad",
+      "address": "139동 413호"
+    },
+    {
+      "resourceId": "eq-irf-66",
+      "rawId": "4a2c6c78f358bef1613a4b61701446ae921b58dacdd48e143fa3051f199e7854",
+      "address": "139-1동 254호"
+    },
+    {
+      "resourceId": "eq-irf-70",
+      "rawId": "c600ad17d815a2407777c966913f8c9a92d8c40a6f040fbbd8542fc88fa95cbe",
+      "address": "101호"
+    },
+    {
+      "resourceId": "eq-irf-49",
+      "rawId": "8ee15437839b0fb0d7b51f68c586d44204d6e942da9023378bebf1cad7e6a024",
+      "address": "504동 206호"
+    },
+    {
+      "resourceId": "eq-irf-97",
+      "rawId": "6a588f42733a53c3d747c46a83ec09106bde31e1d9246e1d76e28eb705555f0b",
+      "address": "139-1동 254호"
+    },
+    {
+      "resourceId": "eq-irf-59",
+      "rawId": "7d885d6d4955914fee5eacdcbdad70f836b228e36b36d5fed54bf9d34b33407a",
+      "address": ""
+    },
+    {
+      "resourceId": "eq-irf-42",
+      "rawId": "b39652963865c7da8f664654f08a8cef3383350f5189138ee049e503c168644f",
+      "address": "139-1동 251호"
+    },
+    {
+      "resourceId": "eq-irf-63",
+      "rawId": "4bd2208d0651b4753db275bf0267a08ab3a3d426f2d2967a8d8d84d9890669bf",
+      "address": "139-1동 254호"
+    },
+    {
+      "resourceId": "eq-irf-69",
+      "rawId": "bfebad0ff16de0e5ad7d2ae63976d5e950c711cea4934eef97bd7a0a66c3db77",
+      "address": "139동 402호"
+    },
+    {
+      "resourceId": "eq-irf-91",
+      "rawId": "eb682e6778d155cb06a264bc3a1660c15681267074833d5d63711f0083484a9d",
+      "address": "139동 209호"
+    }
+  ],
+  "status": "pending-human-review"
+}

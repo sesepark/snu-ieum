@@ -1,0 +1,3466 @@
+{
+  "manifest": {
+    "version": "isrc-inventory-20261027",
+    "generatedAt": "2026-10-26T17:08:55.752Z",
+    "publication": "prototype",
+    "schemaVersion": 1,
+    "selectionReason": "공개 장비소개 목록·상세의 이름·모델·기능 최소 메타데이터. 장비 담당자·연락처·예약·회원 정보·HTML은 저장하지 않음. 위치는 원문 개별 설치 근거 확인 전 unknown. 서비스/호출 항목은 장비로 세지 않음."
+  },
+  "departments": [
+    {
+      "id": "shared-irf",
+      "name": "기초과학공동기기원",
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "groupType": "shared"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-irf-105",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "300kV Cryo-EM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "source-isrc-275",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=275",
+      "title": "와이어 볼 본딩 장비 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-120",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=120",
+      "title": "Acid-Solvent-Wet Station (21) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-267",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=267",
+      "title": "Solvent-Wet Staion (18) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-131",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=131",
+      "title": "Acid-Wet Station (16) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-130",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=130",
+      "title": "Acid-Wet Station (15) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1064",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1064",
+      "title": "Acid-Wet Station (14-1) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-128",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=128",
+      "title": "Acid-Wet Station (13) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-266",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=266",
+      "title": "Solvent-Wet Staion (10) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1063",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1063",
+      "title": "Solvent-Wet Staion (09) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1121",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1121",
+      "title": "Solvent-Wet Staion (08) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-264",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=264",
+      "title": "Solvent-Wet Staion (08) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1062",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1062",
+      "title": "Acid-Wet Station (WA-5) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-125",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=125",
+      "title": "Acid-Wet Station (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-124",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=124",
+      "title": "Acid-Wet Station (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-123",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=123",
+      "title": "Acid-Wet Station (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-122",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=122",
+      "title": "Acid-Wet Station (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-621",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=621",
+      "title": "웨이퍼 마커 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-421",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=421",
+      "title": "파장 분산 엑스선 형광 분석기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-216",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=216",
+      "title": "PR 트랙 장비 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-272",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=272",
+      "title": "열 금속 증착 장비 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-881",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=881",
+      "title": "열저항 측정기(T3STER) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-103",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=103",
+      "title": "표면단차측정기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-227",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=227",
+      "title": "슈퍼 잉크젯 프린터 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-228",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=228",
+      "title": "스트레스 측정기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-862",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=862",
+      "title": "Spin Rinse Dryer (13) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-861",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=861",
+      "title": "Spin Rinse Dryer (12) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-257",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=257",
+      "title": "Spin Rinse Dryer (10) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-256",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=256",
+      "title": "Spin Rinse Dryer (9) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-255",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=255",
+      "title": "Spin Rinse Dryer (8) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-251",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=251",
+      "title": "Spin Rinse Dryer (4) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-250",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=250",
+      "title": "Spin Rinse Dryer (3) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-249",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=249",
+      "title": "Spin Rinse Dryer (2) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-241",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=241",
+      "title": "스피너 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-235",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=235",
+      "title": "스핀 코터 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-239",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=239",
+      "title": "스핀 코터 (06) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-238",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=238",
+      "title": "스핀 코터 (05) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1204",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1204",
+      "title": "솔더 본더 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1205",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1205",
+      "title": "신터 본더 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1203",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1203",
+      "title": "초음파 분석 장비 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-233",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=233",
+      "title": "반도체 소자 특성 측정기 (05) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-232",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=232",
+      "title": "반도체 소자 특성 측정기 (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-230",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=230",
+      "title": "반도체 소자 특성 측정기 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-229",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=229",
+      "title": "반도체 소자 특성 측정기 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-641",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=641",
+      "title": "리플렉토미터(Nanospec) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-222",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=222",
+      "title": "RTA (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-221",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=221",
+      "title": "RTA (급속열처리장치_non CMOS) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-441",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=441",
+      "title": "포토 레지스트 8종 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-209",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=209",
+      "title": "패럴린 막 증착 장비 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-210",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=210",
+      "title": "OXFORD PECVD [SiO2, Si3N4] 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-923",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=923",
+      "title": "오븐 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-201",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=201",
+      "title": "광학 현미경 (06) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-200",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=200",
+      "title": "광학 현미경 (05) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-199",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=199",
+      "title": "광학 현미경 (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-198",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=198",
+      "title": "광학 현미경 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-197",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=197",
+      "title": "광학 현미경 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-196",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=196",
+      "title": "광학 현미경 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-158",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=158",
+      "title": "Mini Furnace 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-194",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=194",
+      "title": "금속 산화물 스퍼터 (02) SRN sputter 2 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-193",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=193",
+      "title": "금속 산화물 스퍼터 (01) SNTEK 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-246",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=246",
+      "title": "금속 스퍼터 (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-242",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=242",
+      "title": "금속 스퍼터 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-244",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=244",
+      "title": "금속 스퍼터 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-243",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=243",
+      "title": "금속 스퍼터 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-982",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=982",
+      "title": "마스크리스 리소그래피 시스템 (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-981",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=981",
+      "title": "마스크리스 리소그래피 시스템 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-192",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=192",
+      "title": "마스크리스 리소그래피 시스템 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-191",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=191",
+      "title": "마스크리스 리소그래피 시스템 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1081",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1081",
+      "title": "중전류 이온주입기 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-542",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=542",
+      "title": "ICP Metal Etcher (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-182",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=182",
+      "title": "ICP Metal Etcher (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-177",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=177",
+      "title": "유도 결합 플라즈마 식각 장비 (06) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-541",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=541",
+      "title": "ICP Dielectric Etcher (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-179",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=179",
+      "title": "유도 결합 플라즈마 식각 장비 (08) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-164",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=164",
+      "title": "홀 효과 측정기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-226",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=226",
+      "title": "전계 방출형 주사전자현미경 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-225",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=225",
+      "title": "전계 방출형 주사전자현미경 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-147",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=147",
+      "title": "엘립소미터 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-144",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=144",
+      "title": "에너지 분산 X선 분광기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-152",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=152",
+      "title": "전자빔 금속 증착 장비 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-151",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=151",
+      "title": "전자빔 금속 증착 장비 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1101",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1101",
+      "title": "전자빔 리소그래피 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-277",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=277",
+      "title": "웨이퍼 절삭기 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-276",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=276",
+      "title": "웨이퍼 절삭기 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-140",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=140",
+      "title": "깊이 측정 현미경 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-385",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=385",
+      "title": "유도 결합 플라즈마 식각 장비 (13) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-176",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=176",
+      "title": "유도 결합 플라즈마 식각 장비 (05) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-136",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=136",
+      "title": "In-Line 임계치수 측정 주사전자현미경 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-922",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=922",
+      "title": "i-line 스테퍼 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-214",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=214",
+      "title": "i-line 스테퍼 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1201",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1201",
+      "title": "PR 트랙 장비 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-215",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=215",
+      "title": "PR 트랙 장비 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-661",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=661",
+      "title": "2D 표면 단차 측정기 (2) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-218",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=218",
+      "title": "리플렉토미터(Nanospec) (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-224",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=224",
+      "title": "RTP (급속열처리장치_전기로) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-223",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=223",
+      "title": "RTA (급속열처리장치_CMOS RTA) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-139",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=139",
+      "title": "P5000 4호기 [TEOS-CVD, W-CVD, SiO/SiN ETCH] 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-245",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=245",
+      "title": "씨모스 금속 스퍼터 (01) Endura 2 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-189",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=189",
+      "title": "LPCVD(리드) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-1202",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1202",
+      "title": "C-KrF Scanner 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-173",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=173",
+      "title": "유도 결합 플라즈마 식각 장비 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-172",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=172",
+      "title": "유도 결합 플라즈마 식각 장비 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-174",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=174",
+      "title": "유도 결합 플라즈마 식각 장비 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-175",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=175",
+      "title": "유도 결합 플라즈마 식각 장비 (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-163",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=163",
+      "title": "HDPCVD 2호기(SiO2) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-901",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=901",
+      "title": "C-Furnace (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-461",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=461",
+      "title": "C-Furnace (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-146",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=146",
+      "title": "엘립소미터 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-145",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=145",
+      "title": "엘립소미터 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-134",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=134",
+      "title": "화학적 건식 식각 장비 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-502",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=502",
+      "title": "C-CVD(W) System 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-137",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=137",
+      "title": "CMP (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-262",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=262",
+      "title": "STI CMP (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-135",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=135",
+      "title": "임계치수 측정 주사전자현미경 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-208",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=208",
+      "title": "PR 건식 애셔 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-382",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=382",
+      "title": "씨모스 원자층 증착 장비 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-381",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=381",
+      "title": "씨모스 원자층 증착 장비 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-114",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=114",
+      "title": "씨모스 원자층 증착 장비 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-644",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=644",
+      "title": "면저항 측정기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-110",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=110",
+      "title": "4-포인트 프로브 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-207",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=207",
+      "title": "PR 건식 애셔 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-213",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=213",
+      "title": "PR 플라즈마 애셔 (2) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-212",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=212",
+      "title": "PR 플라즈마 애셔 (1) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-118",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=118",
+      "title": "얼라이너 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-383",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=383",
+      "title": "원자층 증착 장비 (05) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-801",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=801",
+      "title": "원자층  증착 장비 (04) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-384",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=384",
+      "title": "원자층 증착 장비 (03) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-116",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=116",
+      "title": "원자층 증착 장비 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-115",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=115",
+      "title": "원자층 증착 장비 (01) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-112",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=112",
+      "title": "원자 힘 현미경 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-643",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=643",
+      "title": "면저항 측정기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-642",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=642",
+      "title": "면저항 측정기 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    },
+    {
+      "id": "source-isrc-105",
+      "url": "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=105",
+      "title": "3D 표면 단차 측정기 (02) 공식 장비소개",
+      "organization": "서울대학교 반도체공동연구소",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:55.752Z",
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "eq-isrc-275",
+      "kind": "equipment",
+      "name": "와이어 볼 본딩 장비",
+      "summary": "Capillary를 이용하여 공정 완료된 시편과 패드 연결 모델: 4522. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wire Ball Bonder",
+        "4522",
+        "KULICKE&SOFFA"
+      ],
+      "sourceIds": [
+        "source-isrc-275"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-120",
+      "kind": "equipment",
+      "name": "Acid-Solvent-Wet Station (21)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-03-01. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (21) (Acid-Solvent)",
+        "AW04-03-01",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-120"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-267",
+      "kind": "equipment",
+      "name": "Solvent-Wet Staion (18)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (18) (Solvent)",
+        "없음",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-267"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-131",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (16)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (16) (Acid)",
+        "AW04-01-03",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-131"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-130",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (15)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW08-10-01 (WA-15). 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (15) (Acid)",
+        "AW08-10-01 (WA-15)",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-130"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1064",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (14-1)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: XGB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (14-1) (Acid)",
+        "XGB",
+        "(주)울텍"
+      ],
+      "sourceIds": [
+        "source-isrc-1064"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-128",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (13)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW06-10-08(WA-13). 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (13) (Acid)",
+        "AW06-10-08(WA-13)",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-128"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-266",
+      "kind": "equipment",
+      "name": "Solvent-Wet Staion (10)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: WA04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (10) (Solvent)",
+        "WA04-01-03",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-266"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1063",
+      "kind": "equipment",
+      "name": "Solvent-Wet Staion (09)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: XGB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (09-1) (Solvent)",
+        "XGB",
+        "(주)울텍"
+      ],
+      "sourceIds": [
+        "source-isrc-1063"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1121",
+      "kind": "equipment",
+      "name": "Solvent-Wet Staion (08)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: TDP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (08-1) (Solvent)",
+        "TDP",
+        "(주)울텍"
+      ],
+      "sourceIds": [
+        "source-isrc-1121"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-264",
+      "kind": "equipment",
+      "name": "Solvent-Wet Staion (08)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (08) (Solvent)",
+        "AW04-01-03",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-264"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1062",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (WA-5)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: XGB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (05-1) (Acid)",
+        "XGB",
+        "(주)울텍"
+      ],
+      "sourceIds": [
+        "source-isrc-1062"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-125",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (04)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: WA04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (04) (Acid)",
+        "WA04-01-03",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-125"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-124",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (03)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03(WA-3). 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (03) (Acid)",
+        "AW04-01-03(WA-3)",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-124"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-123",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (02)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03(WA-2). 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (02) (Acid)",
+        "AW04-01-03(WA-2)",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-123"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-122",
+      "kind": "equipment",
+      "name": "Acid-Wet Station (01)",
+      "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03(WA-1). 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wet Station (01) (Acid)",
+        "AW04-01-03(WA-1)",
+        "ATIS"
+      ],
+      "sourceIds": [
+        "source-isrc-122"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-621",
+      "kind": "equipment",
+      "name": "웨이퍼 마커",
+      "summary": "Wafer ID marking system 모델: WM080. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Wafer Marker",
+        "WM080",
+        "(주)이오테크닉스"
+      ],
+      "sourceIds": [
+        "source-isrc-621"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-421",
+      "kind": "equipment",
+      "name": "파장 분산 엑스선 형광 분석기",
+      "summary": "- Be부터 U까지 넓은 영역의 원소를 정성, 정량분석하는 파장분산형 형광분석기- 박막 및 다층 기판 하면조사 방식으로 두께 및 조성을 분석 모델: S8 TIGER. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "WD-XRF",
+        "S8 TIGER",
+        "Bruker"
+      ],
+      "sourceIds": [
+        "source-isrc-421"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-216",
+      "kind": "equipment",
+      "name": "PR 트랙 장비 (02)",
+      "summary": "PR Coating, Develop, BAKE를 Auto 진행 모델: MSX-1000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Track",
+        "MSX-1000",
+        "(주)에스브이에스"
+      ],
+      "sourceIds": [
+        "source-isrc-216"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-272",
+      "kind": "equipment",
+      "name": "열 금속 증착 장비 (01)",
+      "summary": "Auto / Manual 공정 가능Thickness monitoring 가능Substrate rotation 가능 모델: HMS1800. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Thermal Evaporator",
+        "HMS1800",
+        "(주)무한"
+      ],
+      "sourceIds": [
+        "source-isrc-272"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-881",
+      "kind": "equipment",
+      "name": "열저항 측정기(T3STER)",
+      "summary": "패키지화된 반도체 장비(Diode, BJT, MOSFET, IGBT, LED 등)의 열 성능을 평가하기 위한 장비입니다 모델: T3STER. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "T3STER",
+        "T3STER",
+        "DELTAES"
+      ],
+      "sourceIds": [
+        "source-isrc-881"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-103",
+      "kind": "equipment",
+      "name": "표면단차측정기",
+      "summary": "박막 단차 측정 모델: DEKTAKXT-A. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Surface Profiler",
+        "DEKTAKXT-A",
+        "BRUKER"
+      ],
+      "sourceIds": [
+        "source-isrc-103"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-227",
+      "kind": "equipment",
+      "name": "슈퍼 잉크젯 프린터",
+      "summary": "Inkjet technology는 nozzle과 기판 사이의 전기력을 이용하여 1㎛ 이하의 초미세패턴을 가능하게 하며, 기존 Inkjet에서는 불가능했던 고점성, 고표면장력의 잉크도 사용할 수 있어, 응용의 폭이 더욱 큼. 이 Inkjet technology 고해상도 printable electronics, solar-cells, touch panels, microlens-array 등에 사용될 수 있음. 모델: SIJ-050. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Super Inkjet Printer",
+        "SIJ-050",
+        "SIJ TECHNOLOGY"
+      ],
+      "sourceIds": [
+        "source-isrc-227"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-228",
+      "kind": "equipment",
+      "name": "스트레스 측정기",
+      "summary": "Laser를 사용하여 파장(650nm)이 film에서 간섭현상을 일으키는 방법으로 전체 기판의 곡률을 측정한다. 모델: FSM 900 TC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Stress Measurement",
+        "FSM 900 TC",
+        "FSM"
+      ],
+      "sourceIds": [
+        "source-isrc-228"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-862",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (13)",
+      "summary": "Wet-station 작업 후 웨이퍼 건조 장치 모델: SD-1505S2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (13)",
+        "SD-1505S2",
+        "semitronix"
+      ],
+      "sourceIds": [
+        "source-isrc-862"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-861",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (12)",
+      "summary": "Non-Metal용. Wet-station 작업 후 웨이퍼 건조 장치 모델: SD-1505S2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (12)",
+        "SD-1505S2",
+        "semitronix"
+      ],
+      "sourceIds": [
+        "source-isrc-861"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-257",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (10)",
+      "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-870S-3-1-E-ML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (10)",
+        "SRD-870S-3-1-E-ML",
+        "SEMI TOOL"
+      ],
+      "sourceIds": [
+        "source-isrc-257"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-256",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (9)",
+      "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-870S-3-1-E-ML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (09)",
+        "SRD-870S-3-1-E-ML",
+        "SEMI TOOL"
+      ],
+      "sourceIds": [
+        "source-isrc-256"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-255",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (8)",
+      "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-270S-3-1-E-ML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (08)",
+        "SRD-270S-3-1-E-ML",
+        "SEMI TOOL"
+      ],
+      "sourceIds": [
+        "source-isrc-255"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-251",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (4)",
+      "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-240S-2-1-EML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (04)",
+        "SRD-240S-2-1-EML",
+        "SEMI TOOL"
+      ],
+      "sourceIds": [
+        "source-isrc-251"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-250",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (3)",
+      "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-240S-6-1-EML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (03)",
+        "SRD-240S-6-1-EML",
+        "SEMI TOOL"
+      ],
+      "sourceIds": [
+        "source-isrc-250"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-249",
+      "kind": "equipment",
+      "name": "Spin Rinse Dryer (2)",
+      "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-240S-2-1-EML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Rinse Dryer (02)",
+        "SRD-240S-2-1-EML",
+        "SEMI TOOL"
+      ],
+      "sourceIds": [
+        "source-isrc-249"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-241",
+      "kind": "equipment",
+      "name": "스피너 (03)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: TMSC-08V2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Coater (05) (E-BEAM)",
+        "TMSC-08V2",
+        "티에프테크"
+      ],
+      "sourceIds": [
+        "source-isrc-241"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-235",
+      "kind": "equipment",
+      "name": "스핀 코터 (02)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: TMSC-08V2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Coater (04)",
+        "TMSC-08V2",
+        "티에프테크"
+      ],
+      "sourceIds": [
+        "source-isrc-235"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-239",
+      "kind": "equipment",
+      "name": "스핀 코터 (06)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: SM-180BT. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Coater (03)",
+        "SM-180BT",
+        "Sawatec"
+      ],
+      "sourceIds": [
+        "source-isrc-239"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-238",
+      "kind": "equipment",
+      "name": "스핀 코터 (05)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: WS-650MZ-23NPPB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Spin Coater (02)",
+        "WS-650MZ-23NPPB",
+        "LAURELL"
+      ],
+      "sourceIds": [
+        "source-isrc-238"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1204",
+      "kind": "equipment",
+      "name": "솔더 본더",
+      "summary": "솔더 본더 모델: VADU100. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Solder Bonder",
+        "VADU100",
+        "Pink"
+      ],
+      "sourceIds": [
+        "source-isrc-1204"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1205",
+      "kind": "equipment",
+      "name": "신터 본더",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: X-Sinter P52. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Sinter Bonder",
+        "X-Sinter P52",
+        "AMX"
+      ],
+      "sourceIds": [
+        "source-isrc-1205"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1203",
+      "kind": "equipment",
+      "name": "초음파 분석 장비",
+      "summary": "초음파 임피던스 차이를 이용한 반도체 결함 평가 장비 모델: D9650. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Scanning Acoustic Microscope",
+        "D9650",
+        "Nordson"
+      ],
+      "sourceIds": [
+        "source-isrc-1203"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-233",
+      "kind": "equipment",
+      "name": "반도체 소자 특성 측정기 (05)",
+      "summary": "B1500A / M6VC I-V(Current-voltage measurement capabilityes)C-V(AC Capacitance measurement in multi frequency)PI-V(Pulsed I-V Measurement) 모델: B1500A. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SPA-IV/CV (02)",
+        "B1500A",
+        "Keysight Technologies"
+      ],
+      "sourceIds": [
+        "source-isrc-233"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-232",
+      "kind": "equipment",
+      "name": "반도체 소자 특성 측정기 (04)",
+      "summary": "Semiconductor electrical characteristic MeasurementI-V(Current versus voltage), C-V(Capacitance versus voltage), etc. 모델: 4200-SCS. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SPA-IV/CV (01) ",
+        "4200-SCS",
+        "KEITHLEY"
+      ],
+      "sourceIds": [
+        "source-isrc-232"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-230",
+      "kind": "equipment",
+      "name": "반도체 소자 특성 측정기 (02)",
+      "summary": "Fully automatic/high speed dc characterization of semiconductor d evices, High-resolution, wide-range sourcing and measurement I : 50fA to 100mA; V : 1mV to 100V, Max 1140 measurement and display, points for precise measurement and analysis Four SMU(Source/Monitor Unit) built in, Voltage 4 1/2 digits, Cur rent 4 digits, Voltage measurement input resistance/ Current sour ce output resistance >-10(12) ohm, Max capacitive load : 1000pF 모델: 4145B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SPA-IV (02) ",
+        "4145B",
+        "HP"
+      ],
+      "sourceIds": [
+        "source-isrc-230"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-229",
+      "kind": "equipment",
+      "name": "반도체 소자 특성 측정기 (01)",
+      "summary": "Fully automatic/high speed dc characterization of semiconductor d evices, High-resolution, wide-range sourcing and measurement I : 50fA to 100mA; V : 1mV to 100V, Max 1140 measurement and display, points for precise measurement and analysis Four SMU(Source/Monitor Unit) built in, Voltage 4 1/2 digits, Cur rent 4 digits, Voltage measurement input resistance/ Current sour ce output resistance >-10(12) ohm, Max capacitive load : 1000pF 모델: 4145B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SPA-IV (01) ",
+        "4145B",
+        "HP"
+      ],
+      "sourceIds": [
+        "source-isrc-229"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-641",
+      "kind": "equipment",
+      "name": "리플렉토미터(Nanospec)",
+      "summary": "박막 두께 측정기(Manual Type) 모델: ST4000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Reflectometer (02)",
+        "ST4000",
+        "SJT"
+      ],
+      "sourceIds": [
+        "source-isrc-641"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-222",
+      "kind": "equipment",
+      "name": "RTA (04)",
+      "summary": "- Ti, Ni silicide를 위한 RTP 공정 진행 모델: KVRTP- T1540. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "RTA (04)",
+        "KVRTP- T1540",
+        "(주)코리아베큠테크"
+      ],
+      "sourceIds": [
+        "source-isrc-222"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-221",
+      "kind": "equipment",
+      "name": "RTA (급속열처리장치_non CMOS)",
+      "summary": "Vacuum 상태에서 급속한 열처리로 Annealing, Alloy 공정 가능. 모델: KVR-3006T. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "RTA (02)",
+        "KVR-3006T",
+        "(주)코리아베큠테크"
+      ],
+      "sourceIds": [
+        "source-isrc-221"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-441",
+      "kind": "equipment",
+      "name": "포토 레지스트 8종",
+      "summary": "포토 레지스트 8종 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Photo Resist_8 Type",
+        "없음",
+        "없음"
+      ],
+      "sourceIds": [
+        "source-isrc-441"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-209",
+      "kind": "equipment",
+      "name": "패럴린 막 증착 장비",
+      "summary": "Parylene막 증착장비 모델: PDS 2010. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Parylene Deposition System",
+        "PDS 2010",
+        "Specialty Coating Systems"
+      ],
+      "sourceIds": [
+        "source-isrc-209"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-210",
+      "kind": "equipment",
+      "name": "OXFORD PECVD [SiO2, Si3N4]",
+      "summary": "Plasma를 이용, 낮은 온도(350℃)에서 유전체(SiOx, SixNx)를 증착하는 설비 모델: PLASMAPRO SYSTEM100. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "PECVD",
+        "PLASMAPRO SYSTEM100",
+        "OXFORD INSTRUMENTS"
+      ],
+      "sourceIds": [
+        "source-isrc-210"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-923",
+      "kind": "equipment",
+      "name": "오븐",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: Blue M, US/DCC-146C. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Oven (01)",
+        "Blue M, US/DCC-146C",
+        "Blue M"
+      ],
+      "sourceIds": [
+        "source-isrc-923"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-201",
+      "kind": "equipment",
+      "name": "광학 현미경 (06)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Optical Microscope (06)",
+        "없음",
+        "없음"
+      ],
+      "sourceIds": [
+        "source-isrc-201"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-200",
+      "kind": "equipment",
+      "name": "광학 현미경 (05)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Optical Microscope (05)",
+        "없음",
+        "없음"
+      ],
+      "sourceIds": [
+        "source-isrc-200"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-199",
+      "kind": "equipment",
+      "name": "광학 현미경 (04)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: 형광. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Optical Microscope (04)",
+        "형광",
+        "LEICA"
+      ],
+      "sourceIds": [
+        "source-isrc-199"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-198",
+      "kind": "equipment",
+      "name": "광학 현미경 (03)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: POLYVAR SC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Optical Microscope (03)",
+        "POLYVAR SC",
+        "LEICA"
+      ],
+      "sourceIds": [
+        "source-isrc-198"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-197",
+      "kind": "equipment",
+      "name": "광학 현미경 (02)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: POLYVAR SC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Optical Microscope (02)",
+        "POLYVAR SC",
+        "LEICA"
+      ],
+      "sourceIds": [
+        "source-isrc-197"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-196",
+      "kind": "equipment",
+      "name": "광학 현미경 (01)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: POLYCON. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Optical Microscope (01)",
+        "POLYCON",
+        "LEICA"
+      ],
+      "sourceIds": [
+        "source-isrc-196"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-158",
+      "kind": "equipment",
+      "name": "Mini Furnace",
+      "summary": "Annealing 공정 가능 모델: SMF-800. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Mini Furnace",
+        "SMF-800",
+        "서울일렉트론"
+      ],
+      "sourceIds": [
+        "source-isrc-158"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-194",
+      "kind": "equipment",
+      "name": "금속 산화물 스퍼터 (02) SRN sputter 2",
+      "summary": "Metal-oxide target sputtering, Al2O2, IGZO, In2O3, SnO2 모델: SRN120. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Metal-Oxide Sputter (02)",
+        "SRN120",
+        "(주)소로나"
+      ],
+      "sourceIds": [
+        "source-isrc-194"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-193",
+      "kind": "equipment",
+      "name": "금속 산화물 스퍼터 (01) SNTEK",
+      "summary": "Ar+ 플라즈마를 이용하여 Wafer 표면에 Oxide 계열의 금속을 균일하게 증착할 수 있다. 증착 가능 물질 : Al2O3 모델: PSP5004. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Metal-Oxide Sputter (01)",
+        "PSP5004",
+        "SNTEK"
+      ],
+      "sourceIds": [
+        "source-isrc-193"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-246",
+      "kind": "equipment",
+      "name": "금속 스퍼터 (04)",
+      "summary": "Ar 플라즈마를 활용한 금속 Sputter 모델: SRN120. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Metal Sputter (04)",
+        "SRN120",
+        "(주)소로나"
+      ],
+      "sourceIds": [
+        "source-isrc-246"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-242",
+      "kind": "equipment",
+      "name": "금속 스퍼터 (01)",
+      "summary": "증착가능 Metal: Au, Cr(adhesion용)1batch 1wafer loading 가능substrate rotation 가능Within Wafer Uniformity : 4\", 6\" 5% 이내Wafer Heating: 20℃ ~ 250℃ 모델: ALPS-C03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Metal Sputter (03)",
+        "ALPS-C03",
+        "알파플러스"
+      ],
+      "sourceIds": [
+        "source-isrc-242"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-244",
+      "kind": "equipment",
+      "name": "금속 스퍼터 (02)",
+      "summary": "ISRC STD Al, Pure Al, Ni(Silicide), Ti, TiN 박막 증착 모델: ENDURA 5500. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Metal Sputter (02)",
+        "ENDURA 5500",
+        "AMK"
+      ],
+      "sourceIds": [
+        "source-isrc-244"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-243",
+      "kind": "equipment",
+      "name": "금속 스퍼터 (01)",
+      "summary": "Ar 플라즈마를 활용한 금속 Sputter 모델: MHS1500. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Metal Sputter (01)",
+        "MHS1500",
+        "(주)무한"
+      ],
+      "sourceIds": [
+        "source-isrc-243"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-982",
+      "kind": "equipment",
+      "name": "마스크리스 리소그래피 시스템 (04)",
+      "summary": "반도체 포토 공정시 사용되는 노광장비로서, 포토레지스트가 코팅된 웨이퍼 위에 마스크 제작 없이 설계된 패턴에 따라 빛을 조사하여 패턴을 구현하는 노광장비이다. 마스크 제작이 필요없기 때문에 제작비용과 시간을 절약할수 있으며, 미세선폭(>1um) 구현이 가능하여 다양한 연구 분야의 사용이 가능하다. 모델: MLA-150. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Maskless lithography system (04)",
+        "MLA-150",
+        "Heidelberg Instruments"
+      ],
+      "sourceIds": [
+        "source-isrc-982"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-981",
+      "kind": "equipment",
+      "name": "마스크리스 리소그래피 시스템 (03)",
+      "summary": "반도체 포토 공정시 사용되는 노광장비로서, 포토레지스트가 코팅된 웨이퍼 위에 마스크 제작 없이 설계된 패턴에 따라 빛을 조사하여 패턴을 구현하는 노광장비이다. 마스크 제작이 필요없기 때문에 제작비용과 시간을 절약할수 있으며, 미세선폭(>600nm) 구현이 가능하여 다양한 연구 분야의 사용이 가능하다. 모델: MLA-150. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Maskless lithography system (03)",
+        "MLA-150",
+        "Heidelberg Instruments"
+      ],
+      "sourceIds": [
+        "source-isrc-981"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-192",
+      "kind": "equipment",
+      "name": "마스크리스 리소그래피 시스템 (02)",
+      "summary": "Mask 없이 GDS File 만으로 패턴을 구현할 수 있으며Auto/Manual로 Alignment를 진행 할 수 있음 모델: DL-1000HP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Maskless lithography system (02)",
+        "DL-1000HP",
+        "NANO SYSTEM SOLUTION"
+      ],
+      "sourceIds": [
+        "source-isrc-192"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-191",
+      "kind": "equipment",
+      "name": "마스크리스 리소그래피 시스템 (01)",
+      "summary": "Mask 없이도 GDS File 만으로 패턴을 구현할수 있는 장비이며, Auto/Manual로 Alignment를 진행 할 수 있음.Laser diode의10W의 높은 출력으로 빠른 패턴 가능. 모델: DL-1000 HP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Maskless lithography system (01)",
+        "DL-1000 HP",
+        "NANO SYSTEM SOLUTION"
+      ],
+      "sourceIds": [
+        "source-isrc-191"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1081",
+      "kind": "equipment",
+      "name": "중전류 이온주입기 (02)",
+      "summary": "본 장비는 반도체 wafer를 고진공(10E-6 Torr 이하) 상태에서 원자 이온을 목표물의 표면을 뚫고 들어갈 만큼 에너지를 갖게하여 웨이퍼 속으로 붕소, 인, 비소 등의 불순물 이온을 균일하게 Doping할 수 있다. 모델: VIISta 900 3D. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Ion Implanter (01)",
+        "VIISta 900 3D",
+        "AMAT"
+      ],
+      "sourceIds": [
+        "source-isrc-1081"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-542",
+      "kind": "equipment",
+      "name": "ICP Metal Etcher (03)",
+      "summary": "Cl Based Gas (O2, Ar, BCl3, Cl2, CH4, H2)을 활용한 Al, TiN 등의 Metal 물질 Etch 모델: NeoS-MAXIS200H. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ICP Metal Etcher (03)",
+        "NeoS-MAXIS200H",
+        "Gigalane"
+      ],
+      "sourceIds": [
+        "source-isrc-542"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-182",
+      "kind": "equipment",
+      "name": "ICP Metal Etcher (01)",
+      "summary": "ICP 방식을 이용한 ETCH(AI, Au 등 가능) 모델: PLASMA PRO 100 COBRA. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ICP Metal Etcher (01)",
+        "PLASMA PRO 100 COBRA",
+        "OXFORD INSTRUMENTS"
+      ],
+      "sourceIds": [
+        "source-isrc-182"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-177",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (06)",
+      "summary": "Only piece, 4inch wafer process4inch single wafer manual typeHigh temperature etching 모델: PLASMAPRO100 COBRA300. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ICP HT Metal Etcher (02)",
+        "PLASMAPRO100 COBRA300",
+        "OXFORD INSTRUMENTS"
+      ],
+      "sourceIds": [
+        "source-isrc-177"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-541",
+      "kind": "equipment",
+      "name": "ICP Dielectric Etcher (02)",
+      "summary": "F Based Gas (O2, Ar, SF6, CF4, CHF3, C4H8)등을 활용한 Dielectric 물질 Etch 모델: NeoS-MAXIS200H. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ICP Dielectric Etcher (02)",
+        "NeoS-MAXIS200H",
+        "Gigalane"
+      ],
+      "sourceIds": [
+        "source-isrc-541"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-179",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (08)",
+      "summary": "Silicon oxide와 Silicon nitride 박막 etching 모델: NeoS-MAXIS 200L. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ICP Dielectric Etcher (01)",
+        "NeoS-MAXIS 200L",
+        "GIGALANE"
+      ],
+      "sourceIds": [
+        "source-isrc-179"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-164",
+      "kind": "equipment",
+      "name": "홀 효과 측정기",
+      "summary": "Hall effect : 금속이나 반도체 등의 고체를 자기장 속에 넣고, 자기장의 방향의 직각으로 고체속 에 Hall 측정.반도체 재료의 전기 전도도, 이동도, 캐리어 농도, Si계, InGaAs계, InP계, GaN계 등의 모든 반도체의 N형이나 P형 판정등을 측정하는 장비이며 반도체의 전기적인 특성도 함께 측정이 가능하다. 모델: HL5500PC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Hall Effect Measurement",
+        "HL5500PC",
+        "BIO-RAD"
+      ],
+      "sourceIds": [
+        "source-isrc-164"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-226",
+      "kind": "equipment",
+      "name": "전계 방출형 주사전자현미경 (02)",
+      "summary": "전자들을 전자 렌즈 시스템에 의해 샘플의 표면에 접속되고 이때 전자빔을 화상시스템과 동기화 시켜 시편의 표면에 x-y로 스캐닝되어 시편에서 발생되는 이차 전자가 전류로 증폭되어 CRT와 동기화시켜 이미지를 형성하게 된다. 모델: APREO 2S. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-SEM (02)",
+        "APREO 2S",
+        "THERMO FISHER SCIENTIFIC"
+      ],
+      "sourceIds": [
+        "source-isrc-226"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-225",
+      "kind": "equipment",
+      "name": "전계 방출형 주사전자현미경 (01)",
+      "summary": "전자들을 전자 렌즈 시스템에 의해 샘플의 표면에 접속되고 이때 전자빔을 화상시스템과 동기화 시켜 시편의 표면에 x-y로 스캐닝되어 시편에서 발생되는 이차 전자가 전류로 증폭되어 CRT와 동기화시켜 이미지를 형성하게 된다. 모델: S-4800. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-SEM (01)",
+        "S-4800",
+        "HITACHI"
+      ],
+      "sourceIds": [
+        "source-isrc-225"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-147",
+      "kind": "equipment",
+      "name": "엘립소미터 (03)",
+      "summary": "반도체 CMOS, MEMS, Display, BIO, III-V 등 연구에 필요한 단층 및 다층 박막을 광학적인 방법을 사용하여 Sub Å ~ 수 ㎛ 두께 범위의 두께 및 굴절율 등을 측정하는 spectroscopic ellipsometer 장비 모델: ELLI-SEU-AM8. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Ellipsometer",
+        "ELLI-SEU-AM8",
+        "엘립소테크놀러지"
+      ],
+      "sourceIds": [
+        "source-isrc-147"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-144",
+      "kind": "equipment",
+      "name": "에너지 분산 X선 분광기",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: AZTEC ENERGY. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "EDS",
+        "AZTEC ENERGY",
+        "OXFORD INSTRUMENTS"
+      ],
+      "sourceIds": [
+        "source-isrc-144"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-152",
+      "kind": "equipment",
+      "name": "전자빔 금속 증착 장비 (02)",
+      "summary": "Evaporation 방식을 이용한 금속박막의 증착증착 가능 물질 : Pt, Ti, Cr, Cu, Au, Al , Ni 모델: SRN200I. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "E-Gun Evaporator (02)",
+        "SRN200I",
+        "(주)소로나"
+      ],
+      "sourceIds": [
+        "source-isrc-152"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-151",
+      "kind": "equipment",
+      "name": "전자빔 금속 증착 장비 (01)",
+      "summary": "Evaporation 방식을 이용한 금속박막의 증착증착 가능 물질 : Pt, Ti, Cr, Cu, Au, Al , Ni 모델: SRN-200. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "E-Gun Evaporator (01)",
+        "SRN-200",
+        "(주)소로나"
+      ],
+      "sourceIds": [
+        "source-isrc-151"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1101",
+      "kind": "equipment",
+      "name": "전자빔 리소그래피",
+      "summary": "E-Beam Lithography는 감광제(PR)가 도포된 웨이퍼 위에 전자빔을 직접 조사하여 미세한 회로 패턴을 그리는 공정 장비.전자의 짧은 파장을 이용하기 때문에 수 나노미터(nm) 단위의 초미세 패턴 구현이 가능. 모델: JBX-8100FS. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "E-Beam Lithography (02)",
+        "JBX-8100FS",
+        "JEOL"
+      ],
+      "sourceIds": [
+        "source-isrc-1101"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-277",
+      "kind": "equipment",
+      "name": "웨이퍼 절삭기 (03)",
+      "summary": "고속 회전Blade로 wafer dicing 모델: DAD3221. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Dicing Saw (03)",
+        "DAD3221",
+        "DISCO"
+      ],
+      "sourceIds": [
+        "source-isrc-277"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-276",
+      "kind": "equipment",
+      "name": "웨이퍼 절삭기 (02)",
+      "summary": "고속회전 스핀들에 절단용 블레이드를 장착하여 웨이퍼 등의 피절단물을 절단하는 장치이다. 모델: DAD3350. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Dicing Saw (02)",
+        "DAD3350",
+        "DISCO"
+      ],
+      "sourceIds": [
+        "source-isrc-276"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-140",
+      "kind": "equipment",
+      "name": "깊이 측정 현미경",
+      "summary": "Z-axis 반복정밀도가 뛰어난 장비샘플의 패턴이나 반복오차를 1㎛ 이내로 측정 가능 모델: STM6-F21-3. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Depth Measurement Microscope",
+        "STM6-F21-3",
+        "OLYMPUS"
+      ],
+      "sourceIds": [
+        "source-isrc-140"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-385",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (13)",
+      "summary": "Deep silicon etching6inch cassette automatic typeOnly piece~4inch wafer, 6inch wafer process (bonding process : piece~4inch) 모델: NEOGEN-MAXIS200D. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Deep Si Etcher (02)",
+        "NEOGEN-MAXIS200D",
+        "GIGALANE"
+      ],
+      "sourceIds": [
+        "source-isrc-385"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-176",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (05)",
+      "summary": "Deep silicon etching4inch single wafer manual typeOnly piece, 4inch wafer process (bonding process : piece) 모델: SLR-7701-10R-B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Deep Si Etcher (01)",
+        "SLR-7701-10R-B",
+        "PLASMA THERM"
+      ],
+      "sourceIds": [
+        "source-isrc-176"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-136",
+      "kind": "equipment",
+      "name": "In-Line 임계치수 측정 주사전자현미경",
+      "summary": "Photo or Etch 공정 후 CD(Critical Dimension) 측정 모델: VEGA4 GMS. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "CD-SEM",
+        "VEGA4 GMS",
+        "TESCAN"
+      ],
+      "sourceIds": [
+        "source-isrc-136"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-922",
+      "kind": "equipment",
+      "name": "i-line 스테퍼",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: JP/NSR-2205i11D. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-i-line Stepper (02)",
+        "JP/NSR-2205i11D",
+        "NIKON"
+      ],
+      "sourceIds": [
+        "source-isrc-922"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-214",
+      "kind": "equipment",
+      "name": "i-line 스테퍼",
+      "summary": "분해능 Si : Line 0.25㎛ + space 0.5㎛ Oxide, Si3N4 : Line 0.4㎛ + space 0.4㎛ Metal(AI) : Line 0.45㎛ + space 0.45㎛ 모델: NSR-2005I10C. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-i-line Stepper",
+        "NSR-2005I10C",
+        "NIKON"
+      ],
+      "sourceIds": [
+        "source-isrc-214"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1201",
+      "kind": "equipment",
+      "name": "PR 트랙 장비 (02)",
+      "summary": "PR coating, Develop, Bake, PEB 모델: MSX-1000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Track (02)",
+        "MSX-1000",
+        "에스브이에스(주)"
+      ],
+      "sourceIds": [
+        "source-isrc-1201"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-215",
+      "kind": "equipment",
+      "name": "PR 트랙 장비 (01)",
+      "summary": "PR coating, Develop, Bake, PEB 모델: MSX-1060. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Track",
+        "MSX-1060",
+        "(주)고려반도체기술"
+      ],
+      "sourceIds": [
+        "source-isrc-215"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-661",
+      "kind": "equipment",
+      "name": "2D 표면 단차 측정기 (2)",
+      "summary": "CMOS구역 내 nano~1,200um 범위의 2D 단차를 측정하는 장비 모델: Alpha-Step D-600. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Surface Profiler (02)",
+        "Alpha-Step D-600",
+        "KLA-TENCOR"
+      ],
+      "sourceIds": [
+        "source-isrc-661"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-218",
+      "kind": "equipment",
+      "name": "리플렉토미터(Nanospec) (01)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: ST4000-DLX. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Reflectometer",
+        "ST4000-DLX",
+        "케이맥"
+      ],
+      "sourceIds": [
+        "source-isrc-218"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-224",
+      "kind": "equipment",
+      "name": "RTP (급속열처리장치_전기로)",
+      "summary": "Vacuum 상태에서 급속 열처리 장비. 모델: KVT-EF001. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-RTP",
+        "KVT-EF001",
+        "(주)코리아베큠테크"
+      ],
+      "sourceIds": [
+        "source-isrc-224"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-223",
+      "kind": "equipment",
+      "name": "RTA (급속열처리장치_CMOS RTA)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: KVR-6000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-RTA",
+        "KVR-6000",
+        "(주)코리아베큠테크"
+      ],
+      "sourceIds": [
+        "source-isrc-223"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-139",
+      "kind": "equipment",
+      "name": "P5000 4호기 [TEOS-CVD, W-CVD, SiO/SiN ETCH]",
+      "summary": "- A Chamber: Plasma를 이용, TEOS Oxide를 짧은시간 내 두꺼운 증착에 이용- B Chamber: 텅스텐 금속박막을 CVD 방식으로 Via 또는 contact Gap-fill 하는데 이용- C Chamber: Silicon Oxide, Silicon Nitride 박막 Etching 모델: P5000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-PECVD/RIE System",
+        "P5000",
+        "AMK (Applied Materials)"
+      ],
+      "sourceIds": [
+        "source-isrc-139"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-245",
+      "kind": "equipment",
+      "name": "씨모스 금속 스퍼터 (01) Endura 2",
+      "summary": "ISRC STD Al, Hot Al, Ni(silicide), Ti(IMP), TiN(MOCVD) 박막 증착 모델: ENDURA 5500. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Metal Sputter (01)",
+        "ENDURA 5500",
+        "AMK"
+      ],
+      "sourceIds": [
+        "source-isrc-245"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-189",
+      "kind": "equipment",
+      "name": "LPCVD(리드)",
+      "summary": "N+ dopped poly Si, poly Si, Nitride, MTO 박막 증착 가능 모델: PF-D64. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-LPCVD (04)",
+        "PF-D64",
+        "(주)리드엔지니어링"
+      ],
+      "sourceIds": [
+        "source-isrc-189"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-1202",
+      "kind": "equipment",
+      "name": "C-KrF Scanner",
+      "summary": "분해능 170nm 모델: NSR S204B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-KrF Scanner",
+        "NSR S204B",
+        "NIKON"
+      ],
+      "sourceIds": [
+        "source-isrc-1202"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-173",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (02)",
+      "summary": "C-Si, Poly Si 박막 etching 모델: NEOGEN-MAXIS 200L. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-ICP Poly Si Etcher (02)",
+        "NEOGEN-MAXIS 200L",
+        "GIGALANE"
+      ],
+      "sourceIds": [
+        "source-isrc-173"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-172",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (01)",
+      "summary": "Only 6inch wafer process6inch single wafer manual type 모델: MULTIPLEX. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-ICP Poly Si Etcher (01)",
+        "MULTIPLEX",
+        "STS"
+      ],
+      "sourceIds": [
+        "source-isrc-172"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-174",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (03)",
+      "summary": "Metal etcher (AI, Ti, TiN, etc) 모델: APEX SLR ICP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-ICP Metal Etcher",
+        "APEX SLR ICP",
+        "PLASMA THERM"
+      ],
+      "sourceIds": [
+        "source-isrc-174"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-175",
+      "kind": "equipment",
+      "name": "유도 결합 플라즈마 식각 장비 (04)",
+      "summary": "Silicon oxide와 Silicon nitride 박막 etching 모델: APEX SLR ICP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-ICP Dielectric Etcher",
+        "APEX SLR ICP",
+        "PLASMA THERM"
+      ],
+      "sourceIds": [
+        "source-isrc-175"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-163",
+      "kind": "equipment",
+      "name": "HDPCVD 2호기(SiO2)",
+      "summary": "SiO2 증착 및 STI (Shallow Trench Isolation) gap-fill process 모델: APEX SLR HDPCVD MK I. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-HDPCVD (02)",
+        "APEX SLR HDPCVD MK I",
+        "PLASMA THERM"
+      ],
+      "sourceIds": [
+        "source-isrc-163"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-901",
+      "kind": "equipment",
+      "name": "C-Furnace (04)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: PF-D63. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Furnace (04)",
+        "PF-D63",
+        "P&Tech"
+      ],
+      "sourceIds": [
+        "source-isrc-901"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-461",
+      "kind": "equipment",
+      "name": "C-Furnace (03)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: PF-D63. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Furnace (03)",
+        "PF-D63",
+        "P&Tech"
+      ],
+      "sourceIds": [
+        "source-isrc-461"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-146",
+      "kind": "equipment",
+      "name": "엘립소미터 (02)",
+      "summary": "반도체 CMOS 등 연구에 필요한 단층 및 다층 박막을 광학적인 방법으로 Sub Å ~ 수 ㎛ 두께 범위의 두께 및 굴절율 등을 측정하는 장비. 모델: M-2000X. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Ellipsometer (02)",
+        "M-2000X",
+        "J.A.WOOLLAM"
+      ],
+      "sourceIds": [
+        "source-isrc-146"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-145",
+      "kind": "equipment",
+      "name": "엘립소미터 (01)",
+      "summary": "반도체 CMOS, MEMS, Display, BIO, III-V 등 연구에 필요한 단층 및 다층 박막을 광학적인 방법을 사용하여 Sub Å ~ 수 ㎛ 두께 범위의 두께 및 굴절율 등을 측정하는 ellipsometer 장비 모델: M-2000V. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Ellipsometer (01)",
+        "M-2000V",
+        "J.A.WOOLLAM"
+      ],
+      "sourceIds": [
+        "source-isrc-145"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-134",
+      "kind": "equipment",
+      "name": "화학적 건식 식각 장비",
+      "summary": "Only 6inch process6inch single wafer manual typeIsotropic etching, Corner round etching, Surface treatment 모델: MINILOCK. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Chemical Dry Etcher",
+        "MINILOCK",
+        "TRION"
+      ],
+      "sourceIds": [
+        "source-isrc-134"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-502",
+      "kind": "equipment",
+      "name": "C-CVD(W) System",
+      "summary": "BEOL(Back End Of Line) 공정 中 Metal Plug 또는 Contact hall을 위한 텅스텐 금속박막을 LPCVD(Low Pressure Vapor Deposition) 방식으로 증착 할 수 있도록 구성된 장비 모델: P5000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-CVD(W) System",
+        "P5000",
+        "AMK (Applied Materials)"
+      ],
+      "sourceIds": [
+        "source-isrc-502"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-137",
+      "kind": "equipment",
+      "name": "CMP (02)",
+      "summary": "HDP CVD. TEOS SiO2 박막을 CMP 할 수 있다. 모델: UNIPLA221. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-CMP (02)",
+        "UNIPLA221",
+        "두산디앤디"
+      ],
+      "sourceIds": [
+        "source-isrc-137"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-262",
+      "kind": "equipment",
+      "name": "STI CMP (01)",
+      "summary": "W CMP를 진행하는 장비 모델: UNIPLA211. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-CMP (01)",
+        "UNIPLA211",
+        "두산디앤디"
+      ],
+      "sourceIds": [
+        "source-isrc-262"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-135",
+      "kind": "equipment",
+      "name": "임계치수 측정 주사전자현미경",
+      "summary": "전자들을 전자 렌즈 시스템에 의해 샘플의 표면에 접속되고 이때 전자빔을 화상시스템과 동기화 시켜 시편의 표면에 X-Y로 스캐닝되어 시편에서 발생되는 이차전자가 전류로 증폭되어 CRT와 동기화시켜 이미지를 형성하게 된다. 모델: S-8820. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-CD-SEM",
+        "S-8820",
+        "Hitachi"
+      ],
+      "sourceIds": [
+        "source-isrc-135"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-208",
+      "kind": "equipment",
+      "name": "PR 건식 애셔 (01)",
+      "summary": "사진 식각에서 사용되는 photoresist를 Dry Ethc 또는 Ion Implant 공정 이후 O2 가스를 이용하여 제거 모델: PS300SA. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-Asher",
+        "PS300SA",
+        "TEPLA AG."
+      ],
+      "sourceIds": [
+        "source-isrc-208"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-382",
+      "kind": "equipment",
+      "name": "씨모스 원자층 증착 장비 (03)",
+      "summary": "Si3N4 증착 전용 ALD 장비(CSN-2, BTBAS, BDEAS)Top lid : Shower head type 모델: Premium system. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-ALD (03)",
+        "Premium system",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-382"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-381",
+      "kind": "equipment",
+      "name": "씨모스 원자층 증착 장비 (02)",
+      "summary": "SiO2 증착 전용 ALD 장비 (BDIPADS, DIPAS)Top lid : Shower head type 모델: Premium system. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-ALD (02)",
+        "Premium system",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-381"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-114",
+      "kind": "equipment",
+      "name": "씨모스 원자층 증착 장비 (01)",
+      "summary": "* ALD 방식을 이용한 high-k 유전 박막 및 금속 박막 증착 * RTP와 remote plasma를 이용한 PDA(Post Deposition Annealing) 및 표면처리 모델: Atomic Premium Cluster Type. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-ALD (01)",
+        "Atomic Premium Cluster Type",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-114"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-644",
+      "kind": "equipment",
+      "name": "면저항 측정기",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-4-Point Probe (02)",
+        "CMT-SR2000N",
+        "AIT"
+      ],
+      "sourceIds": [
+        "source-isrc-644"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-110",
+      "kind": "equipment",
+      "name": "4-포인트 프로브 (03)",
+      "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "C-4-Point Probe (01)",
+        "CMT-SR2000N",
+        "AIT"
+      ],
+      "sourceIds": [
+        "source-isrc-110"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-207",
+      "kind": "equipment",
+      "name": "PR 건식 애셔 (02)",
+      "summary": "사진 식각에서 사용되는 Photoresist를 Dry Etch 또는 Ion Implant 공정 이후 O2 가스를 이용하여 제거 모델: PS300SA. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Asher (03)",
+        "PS300SA",
+        "TEPLA AG"
+      ],
+      "sourceIds": [
+        "source-isrc-207"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-213",
+      "kind": "equipment",
+      "name": "PR 플라즈마 애셔 (2)",
+      "summary": "주로 MEMS분야에서 필요한 공정인 등방성 Ashing을 할 수 있는 장비임.표면 마이크로 머시닝 기술로 금속 구조물을 제작할 경우 희생층으로 사용되는 Polymer를 선택적으로 제거하는데 사용. 사진 식각에서 사용되는 Photoresist를 제거하는데 사용. 모델: V-15G. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Asher (02)",
+        "V-15G",
+        "PLASMA FINISH"
+      ],
+      "sourceIds": [
+        "source-isrc-213"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-212",
+      "kind": "equipment",
+      "name": "PR 플라즈마 애셔 (1)",
+      "summary": "주로 MEMS분야에서 필요한 공정인 등방성 Ashing을 할 수 있는 장비임.표면 마이크로 머시닝 기술로 금속 구조물을 제작할 경우 희생층으로 사용되는 Polymer를 선택적으로 제거하는데 사용. 사진 식각에서 사용되는 Photoresist를 제거하는데 사용. 모델: V15-G. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Asher (01)",
+        "V15-G",
+        "PLASMA FINISH"
+      ],
+      "sourceIds": [
+        "source-isrc-212"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-118",
+      "kind": "equipment",
+      "name": "얼라이너 (02)",
+      "summary": "- MA6 Aligner는 고해상도의 사진공정을 위해 설계 되었다. Double side align이 가능하며, 조각 시편에서 6 Inch Wafer까지 공정이 가능할 뿐만 아니라 다른 두께의 비규격 모양의 기판을 다룰 수 있는 뛰어난 융통성을 가진 장비이다. 또한 MA6를 가지고 수동 작업을 행하면 모든 종류의 Contact 프로그램(Vacuum, Low vacuum, Hard, Soft Contact and Proximity)까지 가능하며 X, Y방향 변위이동은 0.1㎛이하이며 광학적 방법으로는 감지가 되지 못하고 6mm 두께의 Wafer와 기판까지도 프로세스가 가능하다. 모델: MA-6. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Aligner (02)",
+        "MA-6",
+        "SUSS MICROTEC"
+      ],
+      "sourceIds": [
+        "source-isrc-118"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-383",
+      "kind": "equipment",
+      "name": "원자층 증착 장비 (05)",
+      "summary": "Al2O3 증착 전용 ALD 장비 (TMA)Top lid : Traveling wave type 모델: Classic system. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ALD (05)",
+        "Classic system",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-383"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-801",
+      "kind": "equipment",
+      "name": "원자층  증착 장비 (04)",
+      "summary": "오존을 Reactant로 활용한 Thermal ALD(IGZO 증착), source (DADI, TMG, DEZ) 모델: ATOMIC PREMIUM. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ALD (04)",
+        "ATOMIC PREMIUM",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-801"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-384",
+      "kind": "equipment",
+      "name": "원자층 증착 장비 (03)",
+      "summary": "오존을 Reactant로 활용한 Thermal ALD(HfO2, ZrO2, HZO) 모델: Atomic Classic System(ISRC-2310). 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ALD (03)",
+        "Atomic Classic System(ISRC-2310)",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-384"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-116",
+      "kind": "equipment",
+      "name": "원자층 증착 장비 (02)",
+      "summary": "Ozone 및 Plasma를 활용한 ALD(Al2O3, HfO2, AlN, SiO2, TiN) 모델: Atomic Premium Cluster System. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ALD (02)",
+        "Atomic Premium Cluster System",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-116"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-115",
+      "kind": "equipment",
+      "name": "원자층 증착 장비 (01)",
+      "summary": "오존을 Reactant로 활용한 Thermal ALD(Al2O3, HfO2) 모델: Atomic Premium. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ALD (01)",
+        "Atomic Premium",
+        "(주)CN1"
+      ],
+      "sourceIds": [
+        "source-isrc-115"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-112",
+      "kind": "equipment",
+      "name": "원자 힘 현미경 (02)",
+      "summary": "반도체 재료의 표면 거칠기 및 전기적 특성 측정 모델: CYPHER S. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "AFM (02)",
+        "CYPHER S",
+        "OXFORD INSTRUMENTS"
+      ],
+      "sourceIds": [
+        "source-isrc-112"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-643",
+      "kind": "equipment",
+      "name": "면저항 측정기",
+      "summary": "면저항 측정 장비,wafer scale (3\",4\",6\"), Dicing 조각 시편(10X10, 20X20, 30X30 mm) 5pt 측정 Recipe 제공 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "4-Point Probe (03)",
+        "CMT-SR2000N",
+        "AIT"
+      ],
+      "sourceIds": [
+        "source-isrc-643"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-642",
+      "kind": "equipment",
+      "name": "면저항 측정기",
+      "summary": "면저항 측정 장비,wafer scale (3\",4\",6\"), Dicing 조각 시편(10X10, 20X20, 30X30 mm) 5pt 측정 Recipe 제공 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "4-Point Probe (02)",
+        "CMT-SR2000N",
+        "AIT"
+      ],
+      "sourceIds": [
+        "source-isrc-642"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-isrc-105",
+      "kind": "equipment",
+      "name": "3D 표면 단차 측정기 (02)",
+      "summary": "비접촉식 3차원 구조 분석 장비로 비접촉식으로 샘플의 3D단차를 측정하고 Real Color Image로 구현할 수 있다. 모델: USURF. 설치 위치·이용 절차는 공식 상세 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "3D Surface Profiler (02)",
+        "USURF",
+        "나노포커스"
+      ],
+      "sourceIds": [
+        "source-isrc-105"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:55.752Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [],
+  "evidence": []
+}

@@ -1,0 +1,373 @@
+{
+  "manifest": {
+    "version": "cbe-equipment-20261027",
+    "generatedAt": "2026-10-26T17:08:08.684Z",
+    "publication": "prototype",
+    "schemaVersion": 1,
+    "selectionReason": "공식 공동기기실 22행 명칭·규격·설치장소 최소 사실. 동일 모델 복수 위치는 자산 식별 전 중복 후보이며 임의 합치지 않음. 최신 장비/이용 조건·사람 승인 대기."
+  },
+  "departments": [
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 학과/학부 목록",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "source-cbe-shared-equipment",
+      "url": "https://cbe.snu.ac.kr/cbe/main/contents.do?menuNo=300033",
+      "title": "화학생물공학부 공동기기실 주요 기기 현황",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:08.684Z",
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "eq-cbe-a",
+      "kind": "equipment",
+      "name": "가스크로마토그래프/질량분석기(GC/MS)",
+      "summary": "공식 기기 현황의 규격 Agilent 7890A Gas chromatograph and 5977A Mass selective detector, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Agilent 7890A Gas chromatograph and 5977A Mass selective detector"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-b",
+      "kind": "equipment",
+      "name": "겔투과크로마토그래피(GPC)",
+      "summary": "공식 기기 현황의 규격 Spectra System P1000, 설치장소 302-714. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Spectra System P1000"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-c",
+      "kind": "equipment",
+      "name": "고성능 액체크로마토그래피(HPLC)",
+      "summary": "공식 기기 현황의 규격 Agilent technologies 1260 infinity Ⅱ, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Agilent technologies 1260 infinity Ⅱ"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-d",
+      "kind": "equipment",
+      "name": "공초점레이저현미경(CLSM)",
+      "summary": "공식 기기 현황의 규격 ECLIPSE C1 plus confocal microscope system, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "ECLIPSE C1 plus confocal microscope system"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-e",
+      "kind": "equipment",
+      "name": "미생물유세포분석기(FACS)",
+      "summary": "공식 기기 현황의 규격 S3e™ Cell Sorter, 설치장소 302-716. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "S3e™ Cell Sorter"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-f",
+      "kind": "equipment",
+      "name": "시차열량주사계(DSC)/열중량분석기(TGA)",
+      "summary": "공식 기기 현황의 규격 DSC25 / TGA55, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "DSC25 / TGA55"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-g",
+      "kind": "equipment",
+      "name": "열중량분석기(TGA)/시차열분석기(DSC)",
+      "summary": "공식 기기 현황의 규격 TA SDT Q600, 설치장소 311-217-3. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "TA SDT Q600"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-h",
+      "kind": "equipment",
+      "name": "적외선분광기(Cary600)",
+      "summary": "공식 기기 현황의 규격 Cary 600 Series FT-IR Spectrometer, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Cary 600 Series FT-IR Spectrometer"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-i",
+      "kind": "equipment",
+      "name": "적외선분광기(PerkinElmer)",
+      "summary": "공식 기기 현황의 규격 Frontier, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Frontier"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-j",
+      "kind": "equipment",
+      "name": "전계 방사형 주사 전자 현미경(FE-SEM)",
+      "summary": "공식 기기 현황의 규격 JSM-6701F, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "JSM-6701F"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-k",
+      "kind": "equipment",
+      "name": "전자스핀자기공명분광기(EPR)",
+      "summary": "공식 기기 현황의 규격 EMXmicro-9.5/2.7, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "EMXmicro-9.5/2.7"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-l",
+      "kind": "equipment",
+      "name": "주사탐침현미경(AFM)",
+      "summary": "공식 기기 현황의 규격 INNV-BASE, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "INNV-BASE"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-m",
+      "kind": "equipment",
+      "name": "태양전지 성능평가 시스템(IPCE)",
+      "summary": "공식 기기 현황의 규격 QEX7, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "QEX7"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-n",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기(NMR)",
+      "summary": "공식 기기 현황의 규격 Bruker Avance III 400 FT-NMR, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Bruker Avance III 400 FT-NMR"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-o",
+      "kind": "equipment",
+      "name": "헤드스페이스 가스크로마토그래피/질량분석기 (Headspace GC/MS)",
+      "summary": "공식 기기 현황의 규격 7697A Headspace / 8890 Mainframe MS / 5977B HES MSD Turbo EI Mainframe, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "7697A Headspace / 8890 Mainframe MS / 5977B HES MSD Turbo EI Mainframe"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-p",
+      "kind": "equipment",
+      "name": "BET 비표면적 분석장치(ASAP2020)",
+      "summary": "공식 기기 현황의 규격 ASAP2020, 설치장소 311-204. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "ASAP2020"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-q",
+      "kind": "equipment",
+      "name": "유도결합플라즈마 분광분석기(ICPS)",
+      "summary": "공식 기기 현황의 규격 ICPS-8100, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "ICPS-8100"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-r",
+      "kind": "equipment",
+      "name": "원소분석기(EA)",
+      "summary": "공식 기기 현황의 규격 TruSpec® Micro CHNS, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "TruSpec® Micro CHNS"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-s",
+      "kind": "equipment",
+      "name": "X-ray 광전자 분석기(XPS)",
+      "summary": "공식 기기 현황의 규격 Sigma probe, 설치장소 37-204. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Sigma probe"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-t",
+      "kind": "equipment",
+      "name": "X-ray 회절 분석기(XRD)",
+      "summary": "공식 기기 현황의 규격 JP/D/MAX-2500H, 설치장소 37-204. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "JP/D/MAX-2500H"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-u",
+      "kind": "equipment",
+      "name": "X-ray 회절 분석기(XRD)(D/Max)",
+      "summary": "공식 기기 현황의 규격 JP/D/MAX-2500H, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "JP/D/MAX-2500H"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-v",
+      "kind": "equipment",
+      "name": "X-ray 회절 분석기(XRD)(SmartLab)",
+      "summary": "공식 기기 현황의 규격 RIGAKU Mode 1 Smart Lab, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "RIGAKU Mode 1 Smart Lab"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [],
+  "evidence": []
+}

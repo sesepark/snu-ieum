@@ -11,7 +11,7 @@ it('keeps the complete sourced college draft reproducible and pending human appr
   const summary = catalog(snapshot);
   expect(summary.departments).toHaveLength(12);
   expect(summary.sharedGroups).toHaveLength(2);
-  expect(summary.totals).toEqual({ researcher: 319, lab: 58, equipment: 20, space: 12 });
+  expect(summary.totals).toEqual({ researcher: 319, lab: 58, equipment: 209, space: 20 });
   expect(summary.departments.every(d => d.counts.researcher >= 3 && d.counts.lab >= 3)).toBe(true);
   expect(summary.gaps).toEqual(['사람의 공개 배치 승인 대기']);
   expect(summary.launchReady).toBe(false);

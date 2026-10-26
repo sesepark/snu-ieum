@@ -1,0 +1,11 @@
+{
+  "runId": "7b4ee14a-c05f-467b-b030-79cdfe2faf55",
+  "rawId": "4f89dd26d91e1d3b31b8fcf4824aa6f3cca8cd6c419038a36768ed87dcf6c707",
+  "stagingId": "d9a72072-b2f0-4385-a84a-d1038ad12892",
+  "checkedAt": "2026-10-26T17:08:08.684Z",
+  "count": 22,
+  "status": "pending-human-review",
+  "duplicateReview": [
+    "JP/D/MAX-2500H appears at both 37-204 and 302-214; asset identity confirmation required"
+  ]
+}

@@ -110,3 +110,13 @@ Raw ID는 `986ddaa2e6043aa572534eff2fc78f56cb2849cbdce45f7809bb3bdaffc32ad2`, pe
 ## 원자핵·항공우주 전체 연구실 목록
 
 `nuclear-inventory.json`, `aerospace-inventory.json`은 공식 연구실 목록 각 14곳에서 기존 3곳을 제외한 연구실 11곳씩을 추가했다. 공식 카드의 지도교수 이름과 같은 학과의 유일한 연구자 후보가 일치하는 경우에만 관계를 추가했다. 동명이인이 있거나 일치하지 않으면 관계를 만들지 않았다. `campus-sources.ts`는 연구실별 섹션/행에서 주소를 읽고 전화·이메일을 제외한다. Raw/Staging ID는 data/campus/lab-inventory-ingestion.json에 있다. 원문 전체는 보관하지 않았다. 교수 현재 소속은 여전히 학과 명단과 교차 검수 대상이다.
+
+## 장비 전체 목록과 공간 확장 · 2026-10-27
+
+`irf-inventory.json`은 공식 보유기기 이름순 55개 전부를 대조해 기존 20개와 같은 ID를 유지하고 새 35개만 추가한다. `isrc-inventory.json`은 공개 장비소개 133항목 중 장비가 아닌 의뢰자 호출 1개를 제외한 132개 후보다. 기존 IRF와 ISRC 원자료의 자산 식별자 대조 전에는 물리 장비 187대가 확정됐다고 표시하지 않는다. 원문 명칭·모델·기능·NFEC 번호가 있는 경우 필드 출처로 보존했고 장비 담당자·연락처·사진·회원·예약 정보는 제외했다. ISRC 기관 주소의 104/104-1/104-4동을 개별 장비 설치 위치로 전파하지 않았다.
+
+`cbe-equipment.json`은 공동기기실 22행의 이름·모델·설치장소다. JP/D/MAX-2500H의 37-204와 302-214는 같은 자산의 이전 위치인지 다른 장비인지 확인 전 별도 후보로 보존한다. `gece-spaces.json`은 공대 공식 시설 안내의 개별 명명 공간 8개를 추가했다. 이름 없이 8실/5실로만 알려진 세미나실·강의실은 한 공간군으로 보존해 개별 호실로 쪼개지 않았다.
+
+전체 카탈로그의 장비 209개·공간 20곳은 수록 후보량이며 모든 필수 정보·위치·중복·현재 이용 안내까지 검수한 수량이 아니다. 새 기준 충족량은 data/coverage/report.json에서 별도로 계산한다. Raw/Staging ID는 data/campus의 equipment-ingestion.json, isrc-ingestion.json, cbe-equipment-ingestion.json, space-ingestion.json에 있다. ISRC 첫 페이지네이션 시도는 failed run이며 성공 run과 분리했다.
+
+신소재공동연구소 robots는 전체 Disallow를 확인해 추가 자동 수집을 중단했다. 정책 확인과 같은 루프에서 이미 받은 원문 임시 파일은 삭제했으며 Raw·Staging·저장소에 반입하지 않았다. 이 소스는 허용된 공식 제공·수동 반입 경로 확인 전 목표 수량에 포함하지 않는다.
