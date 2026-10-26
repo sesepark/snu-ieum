@@ -75,3 +75,5 @@ IEUM_SNAPSHOT_PATH=../../data/public-snapshot.json IEUM_CAMPUS_PATH=../../data/p
 단위 테스트의 합성 승인·측정 자료나 에이전트의 원문 확인을 사람 검수로 사용하지 않는다. 지도에 쓰는 주소는 연구실·교수실·장비설치·공간을 구별하고 교수실을 연구실 위치로 전파하지 않는다. 7일/30일 재확인 기한이 지난 위치는 지도에서 제외하고 목록에 남긴다. 공식 건물 목록 분모, 윤곽 결합 후보, 설치 위치 미확인, 중복 자산 후보를 그대로 보존한다.
 
 새 출시 기록은 공간 배치 버전, 실제 건물까지 찾은 2분 성공 인원, 거리·같은 주제·확인된 관계를 구별한 인원, 개인정보/동명이인/출처 없는 관계 0건 점검을 포함한다. `coverageReport`의 ready와 실사용자·성능·복구 검증은 별개이며 모두 통과해야 출시다.
+
+공간 검수의 최종 내보내기는 `node --import tsx apps/worker/src/campus-cli.ts export-approved <config.json>`을 사용한다. config는 stagingId, version, **승인된 연구 snapshot 경로**, 새로운 outputDirectory를 요구한다. 해당 Staging의 `campusCandidate`와 `coverageCandidate`는 최종 승인 연구 버전을 가리켜야 한다. 다른 버전의 초안을 조용히 재바인딩하지 않는다. 기존 운영 review API로 사람이 approved를 기록한 뒤에만 내보내며 reviewedBy·reviewedAt·reason을 DB에서 읽는다. 파일은 덮어쓰지 않고 버전별 새 디렉터리에 생성하고 audit를 남긴다. 내보낸 파일 자체는 데이터 목표/학생 평가 통과를 뜻하지 않으며 release 게이트를 별도로 통과해야 한다.

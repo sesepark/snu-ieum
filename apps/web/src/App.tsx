@@ -53,7 +53,7 @@ export default function App() {
     return () => { active = false; clearTimeout(timer); };
   }, [snapshot, filters]);
   const results = useMemo(() => aiResult?.results ?? ordinaryResult?.results ?? (snapshot ? recommend(snapshot, filters) : []), [snapshot, filters, aiResult, ordinaryResult]);
-  const graphData = useMemo(() => snapshot ? graph(snapshot, filters, { focus: state.focusOnly ? state.selected : undefined, depth: state.depth, evidence: state.evidence, expanded: state.focusOnly }) : { nodes: [], edges: [], hiddenNodes: 0, hiddenEdges: 0 }, [snapshot, filters, state.selected, state.focusOnly, state.depth, state.evidence]);
+  const graphData = useMemo(() => snapshot ? graph(snapshot, filters, { focus: state.focusOnly ? state.selected : undefined, selected:state.selected, depth: state.depth, evidence: state.evidence, expanded: state.focusOnly }) : { nodes: [], edges: [], hiddenNodes: 0, hiddenEdges: 0 }, [snapshot, filters, state.selected, state.focusOnly, state.depth, state.evidence]);
   const highlighted = useMemo(() => new Set(results.map(r => r.resource.id)), [results]);
   const counts = useMemo(() => snapshot ? catalog(snapshot) : null, [snapshot]);
   const resource = snapshot?.resources.find(r => r.id === state.selected);
@@ -75,7 +75,7 @@ export default function App() {
         <div className="data-note"><span className="live-dot" /><span>{data.source === 'snapshot' ? '스냅샷으로 탐색 중' : 'API 연결됨'} · {snapshot.manifest.generatedAt.slice(0, 10)}<small>수록 자원 {snapshot.resources.length}개 · 사람 승인 전 검수 초안</small></span><button className="text-button" onClick={() => refetch()}>갱신</button></div>
       </aside>
       <section className="map-panel" aria-label="전체 지식지도"><div className="map-heading"><div><span className="eyebrow">EXPLORE CONNECTIONS</span><h2>관악캠퍼스 <span>공대 {departments.filter(d => d.groupType === 'department').length}개 학과{departments.some(d => d.groupType === 'shared') ? ' · 공용시설' : ''}</span></h2></div><div className="view-switch" aria-label="지도 뷰"><button aria-pressed={state.view === '2d'} onClick={() => state.setView('2d')}>2D</button><button aria-pressed={state.view === '3d'} onClick={() => state.setView('3d')}>3D</button></div></div>
-        <Map campus={campus} snapshot={snapshot} graph={graphData} filters={filters} view={state.view} selected={state.selected} building={state.building} viewpoint={state.viewpoint} highlighted={highlighted} searching={Boolean(state.q || aiResult)} onBuilding={state.selectBuilding} onViewpoint={state.setViewpoint} onFallback={state.fallback} />
+        <Map campus={campus} snapshot={snapshot} graph={graphData} filters={filters} view={state.view} selected={state.selected} building={state.building} college={state.college} onCollege={state.selectCollege} viewpoint={state.viewpoint} highlighted={highlighted} searching={Boolean(state.q || aiResult)} onBuilding={state.selectBuilding} onViewpoint={state.setViewpoint} onFallback={state.fallback} />
         {campusQuery.error && <p className="campus-load-error">공간 자료를 열지 못했습니다. 검색과 자원 목록은 계속 사용할 수 있습니다.</p>}
         {campus && state.building && !resource && <BuildingDetail campus={campus} snapshot={snapshot} id={state.building} filterIds={highlighted} onSelect={select} onClose={()=>state.selectBuilding(undefined)}/>}
 

@@ -24,9 +24,9 @@ export default function Campus2D(p:CampusViewProps){
    const path=(points:readonly number[][],close=false)=>{ctx.beginPath();points.forEach((pt,i)=>{const [x,y]=to(...project(pt));if(i)ctx.lineTo(x,y);else ctx.moveTo(x,y);});if(close)ctx.closePath();};
    for(const road of q.campus.paths){path(road.points,road.kind==='green');ctx.strokeStyle=road.kind==='road'?'#fff':'#b7c1ac';ctx.lineWidth=Math.max(.7,road.kind==='road'?6*k:1.2*k);if(road.kind==='green'){ctx.fillStyle='#b2c6a6';ctx.fill();}else ctx.stroke();}
    for(const m of q.model.markers){
-    const b=m.building,selected=b.id===q.selectedBuilding,hit=q.searching&&m.matched>0;
-    ctx.fillStyle=selected?'#285cc5':hit?'#f4b759':m.resourceIds.length?'#b7c6d7':'#e2e1da';ctx.strokeStyle=selected?'#1c4089':hit?'#a66c20':'#b4b9b4';ctx.lineWidth=selected?2:Math.max(.6,k);
-    if(b.footprint){for(const ring of b.footprint.coordinates)path(ring,true);ctx.fill('evenodd');ctx.stroke();}else{const[x,y]=to(...m.center);ctx.beginPath();ctx.arc(x,y,5,0,Math.PI*2);ctx.fill();ctx.stroke();}
+    const b=m.building,selected=b.id===q.selectedBuilding,hit=q.searching&&m.matched>0,college=q.college&&b.collegeIds.includes(q.college);
+    ctx.fillStyle=selected?'#285cc5':hit?'#f4b759':college?'#89b4c6':m.resourceIds.length?'#b7c6d7':'#e2e1da';ctx.strokeStyle=selected?'#1c4089':hit?'#a66c20':'#b4b9b4';ctx.lineWidth=selected?2:Math.max(.6,k);
+    if(b.footprint){ctx.beginPath();for(const ring of b.footprint.coordinates){ring.forEach((pt,i)=>{const[x,y]=to(...project(pt));if(i)ctx.lineTo(x,y);else ctx.moveTo(x,y);});ctx.closePath();}ctx.fill('evenodd');ctx.stroke();}else{const[x,y]=to(...m.center);ctx.beginPath();ctx.arc(x,y,5,0,Math.PI*2);ctx.fill();ctx.stroke();}
    }
    const occupied:{x:number;y:number;w:number;h:number}[]=[];
    ctx.textAlign='center';ctx.textBaseline='middle';
@@ -37,13 +37,14 @@ export default function Campus2D(p:CampusViewProps){
     if(!selected&&(x<0||x>q.width||y<0||y>q.height||occupied.some(r=>Math.abs(x-r.x)<(w+r.w)/2+4&&Math.abs(y-r.y)<(h+r.h)/2+4)))continue;
     occupied.push({x,y,w,h});ctx.fillStyle=selected?'#fff':'#fffffff0';ctx.beginPath();ctx.roundRect(x-w/2,y-h/2,w,h,5);ctx.fill();ctx.fillStyle=selected?'#1b459a':'#30403a';ctx.fillText(text,x,y);
    }
-   for(const link of q.model.links){const a=q.model.markers.find(m=>m.building.id===link.from),b=q.model.markers.find(m=>m.building.id===link.to);if(!a||!b)continue;const [x,y]=to(...a.center),[tx,ty]=to(...b.center);ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(tx,ty);ctx.strokeStyle='#2563b8';ctx.lineWidth=2;ctx.setLineDash([4,4]);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='#1a467c';ctx.fillText(link.label,(x+tx)/2,(y+ty)/2-10);}
+   if(v.zoom<2&&!q.selectedBuilding){ctx.font='600 12px sans-serif';for(const college of q.model.colleges){const[x,y]=to(...college.center),w=ctx.measureText(college.name).width+24,h=44;if(occupied.some(r=>Math.abs(x-r.x)<(w+r.w)/2+8&&Math.abs(y-r.y)<(h+r.h)/2+8))continue;occupied.push({x,y,w,h});ctx.fillStyle=college.id===q.college?'#dbeaf3':'#ffffffec';ctx.beginPath();ctx.roundRect(x-w/2,y-h/2,w,h,7);ctx.fill();ctx.fillStyle='#2f4a46';ctx.fillText(college.name,x,y-6);ctx.font='10px sans-serif';ctx.fillText(`건물 ${college.buildingIds.length} · 수록 ${college.resourceCount}`,x,y+10);ctx.font='600 12px sans-serif';}}
+   for(const link of q.model.links){if(link.from===link.to)continue;const a=q.model.markers.find(m=>m.building.id===link.from),b=q.model.markers.find(m=>m.building.id===link.to);if(!a||!b)continue;const [x,y]=to(...a.center),[tx,ty]=to(...b.center);ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(tx,ty);ctx.strokeStyle='#2563b8';ctx.lineWidth=2;ctx.setLineDash([4,4]);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='#1a467c';ctx.fillText(link.label,(x+tx)/2,(y+ty)/2-10);}
    ctx.fillStyle='#52624d';ctx.textAlign='left';ctx.font='11px sans-serif';ctx.fillText('N ↑',18,25);
    const meters=100,bar=meters*k;ctx.fillRect(18,q.height-24,bar,2);ctx.fillText('100 m',18,q.height-34);
   };
   const commit=()=>latest.current.onViewpoint({...view.current});
   const zoom=(f:number)=>{view.current={...view.current,zoom:Math.max(.2,Math.min(20,view.current.zoom*f))};redraw();commit();};
-  const handle={home:()=>{view.current=homeView;redraw();commit();},zoom,focus:(id:string)=>{const m=latest.current.model.markers.find(m=>m.building.id===id||m.resourceIds.includes(id));if(m){view.current={...view.current,x:m.center[0],y:m.center[1],zoom:4};redraw();commit();}}};
+  const handle={home:()=>{view.current=homeView;redraw();commit();},zoom,focus:(id:string)=>{const college=latest.current.model.colleges.find(c=>`college:${c.id}`===id);if(college){view.current={...view.current,x:college.center[0],y:college.center[1],zoom:1.7};redraw();commit();return;}const m=latest.current.model.markers.find(m=>m.building.id===id||m.resourceIds.includes(id));if(m){view.current={...view.current,x:m.center[0],y:m.center[1],zoom:4};redraw();commit();}}};
   latest.current.onReady(handle);
   const down=(e:PointerEvent)=>{drag={x:e.clientX,y:e.clientY,vx:view.current.x,vy:view.current.y,distance:0};node.setPointerCapture(e.pointerId);};
   const move=(e:PointerEvent)=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;drag.distance=Math.hypot(dx,dy);view.current={...view.current,x:Math.max(-6000,Math.min(6000,drag.vx-dx/scale())),y:Math.max(-6000,Math.min(6000,drag.vy-dy/scale()))};redraw();};

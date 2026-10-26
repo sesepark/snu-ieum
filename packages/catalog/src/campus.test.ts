@@ -22,3 +22,15 @@ describe('spatial evidence and version boundaries', () => {
     expect(mappedLocations(campus,snapshot,now+31*86400000)).toHaveLength(0);
   });
 });
+
+it('retains the selected added lab and its confirmed neighbors ahead of the initial graph cap',async()=>{
+ const{graph}=await import('./index');const id='lab-list-aerospace-a';const relation=snapshot.relations.find(e=>e.to===id)!;
+ const result=graph(snapshot,{q:'',kinds:[],departmentIds:[]},{selected:id});
+ expect(result.nodes[0].id).toBe(id);expect(result.nodes.some(n=>n.id===relation.from)).toBe(true);expect(result.edges.some(e=>e.id===relation.id)).toBe(true);
+});
+it('never treats an unidentified background shape as a verified resource address',()=>{
+ const c=CampusSchema.parse(campusData);
+ for(const l of c.locations.filter(l=>l.status==='verified'))expect(c.buildings.find(b=>b.id===l.buildingId)?.number).toBeTruthy();
+ const cryo=c.locations.find(l=>l.resourceId==='space-irf-b112')!;expect(cryo.buildingId).toBe('snu-139-1');
+ expect(c.locations.find(l=>l.resourceId==='eq-irf-109')!.status).not.toBe('verified');
+});

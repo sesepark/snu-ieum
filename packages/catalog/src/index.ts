@@ -65,7 +65,7 @@ export function recommend(s: Snapshot, f: Filters, semantic: Map<string, number>
     return result.success ? result.data : null;
   }).filter((r): r is Recommendation => r !== null).sort((a, b) => b.score - a.score || a.resource.name.localeCompare(b.resource.name, 'ko'));
 }
-export function graph(s: Snapshot, f: Filters, options: { focus?: string; depth?: number; evidence?: boolean; expanded?: boolean } = {}): Graph {
+export function graph(s: Snapshot, f: Filters, options: { focus?: string; selected?:string; depth?: number; evidence?: boolean; expanded?: boolean } = {}): Graph {
   const eligible = filteredResources(s, { ...f, q: '' }); // Search highlights the existing map; it never removes clusters.
   const allowed = new Set(eligible.map(r => r.id));
   let visible = allowed;
@@ -81,7 +81,10 @@ export function graph(s: Snapshot, f: Filters, options: { focus?: string; depth?
     }
   }
   const limit = options.expanded ? 500 : 300;
-  const selected = eligible.filter(r => visible.has(r.id)).sort((a, b) => Number(b.id === options.focus) - Number(a.id === options.focus)).slice(0, limit);
+  const selection=options.focus??options.selected;
+  const neighbors=new Set(selection?s.relations.flatMap(e=>e.from===selection?[e.to]:e.to===selection?[e.from]:[]):[]);
+  const priority=(id:string)=>id===selection?2:neighbors.has(id)?1:0;
+  const selected = eligible.filter(r => visible.has(r.id)).sort((a,b)=>priority(b.id)-priority(a.id)).slice(0,limit);
   const ids = new Set(selected.map(r => r.id));
   const nodes: Graph['nodes'] = selected.map(({ id, name, kind, departmentId, sourceIds }) => ({ id, name, kind, departmentId, sourceIds }));
   const edges: Graph['edges'] = s.relations.filter(e => ids.has(e.from) && ids.has(e.to)).map(e => ({ id: e.id, source: e.from, target: e.to, label: e.label, sourceIds: e.sourceIds, lastVerifiedAt: e.lastVerifiedAt }));

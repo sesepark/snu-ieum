@@ -1,0 +1,84 @@
+{
+  "runId": "3247e3cd-a838-4f32-bd7e-d2bc565f36be",
+  "stagingId": "93645502-c43e-4a2f-904d-bd5b41d8cfa6",
+  "checkedAt": "2026-10-26T17:24:25.947Z",
+  "records": [
+    {
+      "id": "engineering",
+      "name": "공과대학",
+      "rawId": "9af0464fd13e4fb847189bb25400014237f2d73b7201ed0ec0067a3017076c22",
+      "buildings": 16
+    },
+    {
+      "id": "humanities",
+      "name": "인문대학",
+      "rawId": "00d5678979be179b418d855bafc1821dce34b1a0a48743bba63d252de0385ca5",
+      "buildings": 9
+    },
+    {
+      "id": "social",
+      "name": "사회과학대학",
+      "rawId": "5b09146d6e656ce791d3fafcac46302dca97e2465e7cad1307d666534dce7cc3",
+      "buildings": 1
+    },
+    {
+      "id": "natural",
+      "name": "자연과학대학",
+      "rawId": "307f3626043feb689ab9418cb0208d95ddb1929e06ce63f3631332a5d48de68b",
+      "buildings": 11
+    },
+    {
+      "id": "business",
+      "name": "경영대학",
+      "rawId": "ee3d0682dfc061644ba58a80af18209862b3a457612d4fa6f2a088f8d630c749",
+      "buildings": 2
+    },
+    {
+      "id": "agriculture",
+      "name": "농업생명과학대학",
+      "rawId": "fd39c9d74d58114d3e2e9b4c1111bd5b1f52e1433336f420d64e911a03580ca1",
+      "buildings": 3
+    },
+    {
+      "id": "education",
+      "name": "사범대학",
+      "rawId": "a200987eca3ab42d5d5270e39f8938120689e1376a4c13433f34124ea0e5d56c",
+      "buildings": 5
+    },
+    {
+      "id": "ecology",
+      "name": "생활과학대학",
+      "rawId": "94f5cc122a15c9988580bf1648e2710284290088ecbaa8eee8cc0ddacc27884b",
+      "buildings": 1
+    },
+    {
+      "id": "veterinary",
+      "name": "수의과대학",
+      "rawId": "c52f1d381a13db8817fb63e2ce5058487128f1b568064d1cb1bb070551cc115f",
+      "buildings": 3
+    },
+    {
+      "id": "music",
+      "name": "음악대학",
+      "rawId": "ffbb3b08c79867fa3682593724ec51d24c4bd3a147b818b25ad77befe9bfaf4f",
+      "buildings": 3
+    },
+    {
+      "id": "finearts",
+      "name": "미술대학",
+      "rawId": "f40296a58bcc046340d8bfc0e6ddffad4785405574210b732fe20ce0f3f92024",
+      "buildings": 6
+    },
+    {
+      "id": "pharmacy",
+      "name": "약학대학",
+      "rawId": "de04b382624f1841b8c58d000a809fa9862a0ee7bb1b1bed7c0b7c2db4ab6f6d",
+      "buildings": 7
+    }
+  ],
+  "notes": [
+    "official search results only; no exclusive college ownership or department location inferred",
+    "official linked PDF returned HTTP 404 and was not imported"
+  ],
+  "status": "pending-human-review"
+}

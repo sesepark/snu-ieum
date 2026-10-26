@@ -48,6 +48,20 @@ export default function Campus3D(p:CampusViewProps){
    const q=latest.current,occupied:{x:number;y:number;w:number;h:number}[]=[];
    const valid=pickLabels(q.model,q.selectedBuilding,q.searching,q.viewpoint.zoom);
    const validIds=new Set(valid.map(m=>m.building.id));
+   for(const el of container.querySelectorAll<HTMLButtonElement>('.campus-relation-label')){
+    const link=q.model.links.find(l=>l.id===el.dataset.relation);el.style.display='none';if(!link)continue;
+    const a=q.model.markers.find(m=>m.building.id===link.from),b=q.model.markers.find(m=>m.building.id===link.to);if(!a||!b)continue;
+    const z=Math.max(surface(q.campus,...a.center),surface(q.campus,...b.center))+70,pos=new Vector3((a.center[0]+b.center[0])/2,(a.center[1]+b.center[1])/2,z).project(camera);
+    const x=(pos.x+1)/2*q.width,y=(1-pos.y)/2*q.height,w=el.offsetWidth||120,h=44;if(pos.z< -1||pos.z>1||x<5||x>q.width-5||y<5||y>q.height-50)continue;
+    if(occupied.some(r=>Math.abs(x-r.x)<(w+r.w)/2+5&&Math.abs(y-r.y)<(h+r.h)/2+5))continue;
+    occupied.push({x,y,w,h});el.style.display='block';el.style.transform=`translate(${x}px,${y}px) translate(-50%,-50%)`;
+   }
+   for(const el of container.querySelectorAll<HTMLButtonElement>('.campus-college-label')){
+    const college=q.model.colleges.find(c=>c.id===el.dataset.college);el.style.display='none';if(!college||q.viewpoint.zoom>=2||q.selectedBuilding)continue;
+    const pos=new Vector3(college.center[0],college.center[1],surface(q.campus,...college.center)+45).project(camera);const x=(pos.x+1)/2*q.width,y=(1-pos.y)/2*q.height,w=el.offsetWidth||140,h=44;
+    if(pos.z< -1||pos.z>1||x<5||x>q.width-5||y<5||y>q.height-50||occupied.some(r=>Math.abs(x-r.x)<(w+r.w)/2+5&&Math.abs(y-r.y)<(h+r.h)/2+5))continue;
+    occupied.push({x,y,w,h});el.style.display='block';el.style.transform=`translate(${x}px,${y}px) translate(-50%,-50%)`;
+   }
    const dom=container.querySelectorAll<HTMLButtonElement>('.campus-map-label');
    const elements=new Map([...dom].map(el=>[el.dataset.building!,el]));
    for(const el of elements.values())el.style.display='none';
@@ -71,13 +85,13 @@ export default function Campus3D(p:CampusViewProps){
   const update=()=>{
    for(const child of [...relations.children]){if(child instanceof LineSegments){child.geometry.dispose();const material=child.material;if(Array.isArray(material))material.forEach(m=>m.dispose());else material.dispose();}relations.remove(child);}
    const q=latest.current;renderer.setSize(q.width,q.height,false);camera.aspect=q.width/Math.max(1,q.height);camera.updateProjectionMatrix();
-   for(const m of q.model.markers){const material=meshes.get(m.building.id)?.material as MeshStandardMaterial|undefined;if(!material)continue;material.color.set(m.building.id===q.selectedBuilding?'#3773c8':q.searching&&m.matched?'#f0b157':m.resourceIds.length?'#bbcad4':'#e2e2dc');}
+   for(const m of q.model.markers){const material=meshes.get(m.building.id)?.material as MeshStandardMaterial|undefined;if(!material)continue;material.color.set(m.building.id===q.selectedBuilding?'#3773c8':q.searching&&m.matched?'#f0b157':q.college&&m.building.collegeIds.includes(q.college)?'#7eabbd':m.resourceIds.length?'#bbcad4':'#e2e2dc');}
    const segments:number[]=[];
-   for(const link of q.model.links){const a=q.model.markers.find(m=>m.building.id===link.from),b=q.model.markers.find(m=>m.building.id===link.to);if(!a||!b)continue;const z=Math.max(surface(q.campus,...a.center),surface(q.campus,...b.center))+45;segments.push(a.center[0],a.center[1],z,b.center[0],b.center[1],z);}
+   for(const link of q.model.links){if(link.from===link.to)continue;const a=q.model.markers.find(m=>m.building.id===link.from),b=q.model.markers.find(m=>m.building.id===link.to);if(!a||!b)continue;const z=Math.max(surface(q.campus,...a.center),surface(q.campus,...b.center))+45;segments.push(a.center[0],a.center[1],z,b.center[0],b.center[1],z);}
    if(segments.length){const geometry=new BufferGeometry();geometry.setAttribute('position',new BufferAttribute(new Float32Array(segments),3));relations.add(new LineSegments(geometry,new LineBasicMaterial({color:'#245da9',depthTest:false,transparent:true,opacity:.85})));}
    labels();
   };
-  const handles={home:()=>{apply(homeView);latest.current.onViewpoint(homeView);},zoom:(factor:number)=>{camera.position.sub(controls.target).divideScalar(factor).add(controls.target);controls.update();commit();},focus:(id:string)=>{const m=latest.current.model.markers.find(m=>m.building.id===id||m.resourceIds.includes(id));if(m){const v={...latest.current.viewpoint,x:m.center[0],y:m.center[1],zoom:4};apply(v);latest.current.onViewpoint(v);}}};
+  const handles={home:()=>{apply(homeView);latest.current.onViewpoint(homeView);},zoom:(factor:number)=>{camera.position.sub(controls.target).divideScalar(factor).add(controls.target);controls.update();commit();},focus:(id:string)=>{const college=latest.current.model.colleges.find(c=>`college:${c.id}`===id);if(college){const v={...latest.current.viewpoint,x:college.center[0],y:college.center[1],zoom:1.7};apply(v);latest.current.onViewpoint(v);return;}const m=latest.current.model.markers.find(m=>m.building.id===id||m.resourceIds.includes(id));if(m){const v={...latest.current.viewpoint,x:m.center[0],y:m.center[1],zoom:4};apply(v);latest.current.onViewpoint(v);}}};
   runtime.current={apply,update};latest.current.onReady(handles);update();apply(p.viewpoint);
   const ray=new Raycaster(),pointer=new Vector2();let down:[number,number]=[0,0];
   const onDown=(e:PointerEvent)=>{down=[e.clientX,e.clientY];};
@@ -90,5 +104,5 @@ export default function Campus3D(p:CampusViewProps){
  },[p.campus,p.model.markers.length]);
  useEffect(()=>{runtime.current?.update();},[p]);
  useEffect(()=>{runtime.current?.apply(p.viewpoint);},[p.viewpoint]);
- return <div ref={root} style={{position:'relative',width:p.width,height:p.height}}><canvas ref={canvas} style={{width:'100%',height:'100%',touchAction:'none'}} tabIndex={0} aria-label="3D 실제 관악 캠퍼스. 드래그 회전, 휠 확대, 방향키 이동. 건물 목록에서도 선택 가능."/><div className="campus-label-layer">{p.model.markers.filter(m=>m.building.number||m.resourceIds.length||m.building.id===p.selectedBuilding).map(m=><button key={m.building.id} data-building={m.building.id} className={`campus-map-label ${m.building.id===p.selectedBuilding?'selected':''}`} onClick={()=>p.onBuilding(m.building.id)}>{m.building.number?`${m.building.number}동 `:''}{m.building.name}{m.resourceIds.length?` · ${m.resourceIds.length}`:''}</button>)}</div></div>;
+ return <div ref={root} style={{position:'relative',width:p.width,height:p.height}}><canvas ref={canvas} style={{width:'100%',height:'100%',touchAction:'none'}} tabIndex={0} aria-label="3D 실제 관악 캠퍼스. 드래그 회전, 휠 확대, 방향키 이동. 건물 목록에서도 선택 가능."/><div className="campus-label-layer">{p.model.links.map(l=><button key={l.id} className="campus-relation-label" data-relation={l.id} onClick={()=>p.onRelation(l.id)}>{l.label}{l.from===l.to?' · 같은 건물':''} ↗</button>)}{p.model.colleges.map(c=><button key={c.id} className={`campus-college-label ${p.college===c.id?'selected':''}`} data-college={c.id} onClick={()=>{p.onCollege(c.id);const v={...p.viewpoint,x:c.center[0],y:c.center[1],zoom:1.7};runtime.current?.apply(v);p.onViewpoint(v);}}><strong>{c.name}</strong><small>건물 {c.buildingIds.length} · 수록 {c.resourceCount}</small></button>)}{p.model.markers.filter(m=>m.building.number||m.resourceIds.length||m.building.id===p.selectedBuilding).map(m=><button key={m.building.id} data-building={m.building.id} className={`campus-map-label ${m.building.id===p.selectedBuilding?'selected':''}`} onClick={()=>p.onBuilding(m.building.id)}>{m.building.number?`${m.building.number}동 `:''}{m.building.name}{m.resourceIds.length?` · ${m.resourceIds.length}`:''}</button>)}</div></div>;
 }

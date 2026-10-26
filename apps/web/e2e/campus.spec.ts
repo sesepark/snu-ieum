@@ -4,7 +4,7 @@ test.beforeEach(async({page})=>{await page.route('**/snapshot.json',route=>route
 test('real buildings group resources and restore a bounded map viewpoint',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('#/?view=2d');await page.getByLabel('건물 선택',{exact:true}).selectOption('snu-139');
- await expect(page.getByLabel('선택 건물 상세')).toBeVisible();await expect(page.getByLabel('선택 건물 상세').getByText(/수록 자원 34개/)).toBeVisible();
+ await expect(page.getByLabel('선택 건물 상세')).toBeVisible();await expect(page.getByLabel('선택 건물 상세').getByText(/수록 자원 35개/)).toBeVisible();
  await expect(page.getByLabel('선택 건물 상세').getByRole('link',{name:/서울대학교 캠퍼스맵/})).toHaveAttribute('href','https://map.snu.ac.kr/web/main.action');
  await expect(page).toHaveURL(/building=snu-139.*camera=/);const url=page.url();await page.reload();await expect(page.getByLabel('건물 선택',{exact:true})).toHaveValue('snu-139');expect(page.url()).toBe(url);
  await page.getByLabel('선택 건물 상세').getByRole('button',{name:/300MHz NMR/}).click();await expect(page.getByLabel('선택 자원 상세')).toBeVisible();await expect(page.getByLabel('선택 자원 상세').getByText(/장비 설치 위치/)).toBeVisible();expect(errors).toEqual([]);
@@ -19,4 +19,14 @@ test('equipment details show field-level official model evidence while retaining
  await expect(panel.locator('.resource-facts').getByText('4522',{exact:true})).toBeVisible();
  await expect(panel.getByText(/개별 장비 배치 근거 확인 필요/)).toBeVisible();
  await expect(panel.locator('.resource-facts').getByRole('link',{name:/와이어 볼 본딩/}).first()).toHaveAttribute('href','https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=275');
+});
+test('college background highlights multiple officially searched buildings and shares that selection',async({page})=>{
+ await page.goto('#/?view=2d');await page.getByLabel('단과대 건물 배경').selectOption('engineering');await expect(page).toHaveURL(/college=engineering/);
+ await expect(page.getByLabel('단과대 건물 배경').locator('option[value=engineering]')).toHaveText(/공과대학 · 1[0-9]동/);
+ await page.getByLabel('건물 선택',{exact:true}).selectOption('snu-301');await expect(page.getByLabel('선택 건물 상세')).toBeVisible();await expect(page).toHaveURL(/building=snu-301.*college=engineering/);
+});
+test('same-building official relations open their evidence without a fabricated geographic route',async({page})=>{
+ await page.goto('#/?view=2d&selected=eq-irf-105');
+ await page.getByLabel('지도에 표시한 공식 관계').getByRole('button',{name:/같은 건물/}).first().click();
+ const evidence=page.getByLabel('선택 관계 근거');await expect(evidence).toBeVisible();await expect(evidence.getByText('같은 건물에 있는 자원의 확인된 관계입니다.')).toBeVisible();await expect(evidence.getByRole('link')).toHaveCount(1);
 });

@@ -22,3 +22,7 @@ it('restores bounded building and camera state while rejecting malformed or exce
  for(const camera of ['0,0,Infinity,0,45','0,0,0,0,45','90000,0,1,0,45','0,0,1,0,100','0,0,1,0'])expect(parseUrl(`camera=${camera}`).viewpoint).toBeUndefined();
  useExplore.getState().restore(state);useExplore.getState().restore({view:'2d',kinds:[],departmentIds:[]});expect(useExplore.getState().building).toBeUndefined();expect(useExplore.getState().viewpoint).toBeUndefined();
 });
+it('shares college background without adding user text or altering the selected building',()=>{
+ const s={view:'2d' as const,kinds:[],departmentIds:[],college:'engineering',building:'snu-301'};
+ expect(parseUrl(shareUrl(s)).college).toBe('engineering');expect(parseUrl(shareUrl(s)).building).toBe('snu-301');
+});

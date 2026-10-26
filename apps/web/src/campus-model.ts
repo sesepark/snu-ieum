@@ -23,16 +23,17 @@ export function buildingModel(c:Campus,s:Snapshot,f:Filters,highlighted:Set<stri
  const buckets=new Map<string,string[]>();
  for(const l of locations)if(allowed.has(l.resourceId)&&l.buildingId){const ids=buckets.get(l.buildingId)??[];if(!ids.includes(l.resourceId))ids.push(l.resourceId);buckets.set(l.buildingId,ids);}
  const markers=c.buildings.filter(b=>b.point||b.footprint).map(b=>({building:b,center:buildingCenter(b),resourceIds:buckets.get(b.id)??[],matched:(buckets.get(b.id)??[]).filter(id=>highlighted.has(id)).length}));
- const links: {id:string;from:string;to:string;label:string}[]=[];
+ const links: {id:string;from:string;to:string;label:string;sourceIds:string[]}[]=[];
  if(selected)for(const edge of g.edges){
   if(edge.source!==selected&&edge.target!==selected)continue;
   const a=locations.find(l=>l.resourceId===edge.source),b=locations.find(l=>l.resourceId===edge.target);
-  if(a?.buildingId&&b?.buildingId&&a.buildingId!==b.buildingId)links.push({id:edge.id,from:a.buildingId,to:b.buildingId,label:edge.label});
+  if(a?.buildingId&&b?.buildingId)links.push({id:edge.id,from:a.buildingId,to:b.buildingId,label:edge.label,sourceIds:edge.sourceIds});
  }
- return {markers,links,unlocated:filteredResources(s,f).filter(r=>!locations.some(l=>l.resourceId===r.id)).length};
+ const colleges=c.colleges.flatMap(college=>{const buildings=markers.filter(m=>m.building.collegeIds.includes(college.id));if(!buildings.length)return[];const center:[number,number]=[buildings.reduce((s,b)=>s+b.center[0],0)/buildings.length,buildings.reduce((s,b)=>s+b.center[1],0)/buildings.length];return[{...college,center,buildingIds:buildings.map(b=>b.building.id),resourceCount:new Set(buildings.flatMap(b=>b.resourceIds)).size}];});
+ return {markers,links,colleges,unlocated:filteredResources(s,f).filter(r=>!locations.some(l=>l.resourceId===r.id)).length};
 }
 export type CampusModel=ReturnType<typeof buildingModel>;
-export type CampusViewProps={campus:Campus;model:CampusModel;width:number;height:number;selectedBuilding?:string;searching:boolean;viewpoint:Viewpoint;reducedMotion:boolean;onBuilding(id:string):void;onViewpoint(v:Viewpoint):void;onReady(handle:{home():void;zoom(factor:number):void;focus(id:string):void}):void;onFailure():void};
+export type CampusViewProps={campus:Campus;model:CampusModel;width:number;height:number;selectedBuilding?:string;college?:string;onCollege(id:string):void;searching:boolean;viewpoint:Viewpoint;reducedMotion:boolean;onBuilding(id:string):void;onRelation(id:string):void;onViewpoint(v:Viewpoint):void;onReady(handle:{home():void;zoom(factor:number):void;focus(id:string):void}):void;onFailure():void};
 export function pickLabels(model:CampusModel,selected:string|undefined,searching:boolean,zoom:number){
  return [...model.markers].filter(m=>m.building.id===selected||(searching?m.matched>0:zoom>1.5?Boolean(m.building.number):m.resourceIds.length>0)).sort((a,b)=>Number(b.building.id===selected)-Number(a.building.id===selected)||b.matched-a.matched||b.resourceIds.length-a.resourceIds.length).slice(0,80);
 }

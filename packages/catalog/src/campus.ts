@@ -7,6 +7,7 @@ export function parseCampus(input: unknown, snapshot: Snapshot, approvedOnly = f
   for (const l of campus.locations) {
     const r = snapshot.resources.find(r => r.id === l.resourceId);
     if (!r) throw new Error(`Unknown location resource ${l.resourceId}`);
+    if(l.status==='verified'&&!campus.buildings.some(b=>b.id===l.buildingId&&b.number&&b.identitySourceIds.length))throw new Error('Verified resource address needs an officially identified numbered building');
     if (l.purpose !== purposes[r.kind]) throw new Error(`Incorrect address purpose for ${r.id}`);
   }
   return campus;

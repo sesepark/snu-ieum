@@ -1,4 +1,6 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { join } from 'node:path';
+import { prepareApprovedSpatial } from './campus-release.ts';
 import { randomUUID } from 'node:crypto';
 import { Pool } from 'pg';
 import { z } from 'zod';
@@ -10,7 +12,20 @@ import { coverageReport } from '../../../packages/catalog/src/coverage';
 const json=async(path:string)=>JSON.parse(await readFile(path,'utf8'));
 const [command,configPath]=process.argv.slice(2);
 if(!configPath)throw new Error('campus-cli build|coverage <config.json>');
-if(command==='coverage'){
+if(command==='export-approved'){
+ if(!process.env.DATABASE_URL)throw new Error('Dedicated curation DATABASE_URL required');
+ const config=z.strictObject({stagingId:z.string(),version:z.string(),snapshot:z.string(),outputDirectory:z.string()}).parse(await json(configPath));
+ const pool=new Pool({connectionString:process.env.DATABASE_URL});
+ try{
+  const result=await pool.query("SELECT draft,status,reviewed_by,reviewed_at,reason FROM staging_records WHERE id=$1",[config.stagingId]);if(!result.rowCount)throw new Error('Unknown reviewed spatial candidate');const record=result.rows[0];
+  const exported=prepareApprovedSpatial(record.draft,{status:record.status,reviewedBy:record.reviewed_by,reviewedAt:record.reviewed_at?.toISOString(),reason:record.reason},SnapshotSchema.parse(await json(config.snapshot)),config.version);
+  await mkdir(config.outputDirectory,{recursive:true});
+  const files=[['public-campus.json',exported.campus],['public-coverage.json',exported.coverage],['spatial-review.json',exported.review]]as const;
+  for(const [name,value]of files)await writeFile(join(config.outputDirectory,name),JSON.stringify(value,null,2)+'\n',{flag:'wx'});
+  await pool.query('INSERT INTO change_log(actor,action,record_id,reason) VALUES($1,$2,$3,$4)',[record.reviewed_by,'export-approved-spatial',config.version,record.reason]);
+  console.log({resourceVersion:exported.campus.resourceVersion,spatialVersion:config.version,dataTargetsReady:exported.report.ready,gaps:exported.report.gaps});
+ }finally{await pool.end();}
+}else if(command==='coverage'){
  const config=z.strictObject({snapshot:z.string(),campus:z.string(),coverage:z.string(),output:z.string()}).parse(await json(configPath));
  const snapshot=SnapshotSchema.parse(await json(config.snapshot)),campus=parseCampus(await json(config.campus),snapshot);
  const report=coverageReport(snapshot,campus,await json(config.coverage));

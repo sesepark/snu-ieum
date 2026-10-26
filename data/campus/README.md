@@ -1,6 +1,6 @@
 # 관악 공간 검수 초안
 
-`campus-draft.json`은 실제 OSM 윤곽·도로·보행로와 공식 지도 건물 최소 사실, Copernicus DSM의 **미승인 개발용 공간 스냅샷**이다. 연구 배치 `resourceVersion`이 맞을 때만 위치 연결을 사용한다. 공식 건물 128개 식별과 실제 윤곽 259개를 결합했으며 겹치는 식별/윤곽은 합쳐 총 282개 레코드다. 이 수량은 관악 전수 건물 수가 아니다. 공식 강의동 응답 88건에 공식 검색에서 확인한 공동기기원 139동·139-1동·엔지니어하우스 310동을 보완한 뒤 공식 건물 검색의 추가 최소 사실을 반영했다. 위치 사실을 가진 수록 자원은 65개이며 재확인 기한·연구 배치 검증에 따라 지도 표시 수는 달라진다. 공식 목록 전수 여부는 false다.
+`campus-draft.json`은 실제 OSM 윤곽·도로·보행로와 공식 지도 건물 최소 사실, Copernicus DSM의 **미승인 개발용 공간 스냅샷**이다. 연구 배치 `resourceVersion`이 맞을 때만 위치 연결을 사용한다. 공식 건물 137개 식별과 실제 윤곽 259개를 결합했으며 겹치는 식별/윤곽은 합쳐 총 284개 레코드다. 이 수량은 관악 전수 건물 수가 아니다. 공식 강의동 응답 88건에 공식 검색에서 확인한 공동기기원 139동·139-1동·엔지니어하우스 310동을 보완한 뒤 공식 건물 검색의 추가 최소 사실을 반영했다. 위치 사실을 가진 수록 자원은 125개이며 재확인 기한·연구 배치 검증에 따라 지도 표시 수는 달라진다. 공식 목록 전수 여부는 false다.
 
 - OSM: © OpenStreetMap contributors, [ODbL](https://www.openstreetmap.org/copyright). 2026-10-27 고정 범위에서 단발성 원자료를 확보했다. 반복 조회·서비스 운영에 OSM 편집 API를 사용하지 않는다. [정책](https://operations.osmfoundation.org/policies/api/)에 따라 갱신은 허용된 지역 추출본·Overpass 또는 자체 추출로 수행한다. Overpass 최초 시도는 timeout/HTTP 406/502로 실패했고 성공으로 기록하지 않았다. 원자료의 편집 사용자 식별자·연락처는 보관 대상에서 제외했다. 허용 geometry/tag 최소 payload를 Raw에 기록한 뒤 canonical 초안을 만들었다.
 - 공식 지도: [서울대 캠퍼스맵](https://map.snu.ac.kr/web/main.action). `/api/getClassLatLon.action` 및 공개 검색 응답에서 건물번호·명칭·경위도 최소 사실만 직접 선정했다. 전화·사진·호실 수업표·주차장·신청 정보와 원문 응답은 보관하지 않았다. robots.txt 404를 수집 허가로 해석하지 않는다. 원자료 재배포·정기 자동 수집 허가는 미확인이다.
@@ -12,3 +12,7 @@
 `ingestion.json`, `location-ingestion.json`, `terrain-provenance.json`은 실제 전용 로컬 PostgreSQL `127.0.0.1:55440/ieum_curation`의 Raw/Staging 기록이다. 사람 승인·운영 배치·출시 검증이 아니다. 로컬 파일은 검수용 사본이다.
 
 새 수입은 `node --import tsx apps/worker/src/campus-cli.ts build <config.json>`을 쓴다. config는 osmXml, officialFacts, snapshot, output, sourceUrl, 검토한 policy를 요구한다. DATABASE_URL 없이 Raw를 파일로 대체하지 않는다. 빌드는 사람 승인 전 prototype만 만든다. 이 CLI는 공식 지도 API의 정기 자동 수집을 활성화하지 않는다. 지형·추가 위치 등은 별도 Raw와 함께 재검수한다.
+
+공식 캠퍼스맵에서 12개 단과대 이름으로 검색했을 때 반환되는 건물 묶음을 college-background-ingestion.json에 기록했다. 이는 공식 검색 기준이며 학과별 전체 점유·전용 소유·이용 권한을 뜻하지 않는다. 공대는 16개 건물을 함께 강조하며 한 학과를 한 건물로 고정하지 않는다. 공식 안내가 연결한 캠퍼스 PDF는 HTTP 404여서 반입하지 않았다.
+
+주소 정규화 교정: 건물번호 없는 자원 4건이 건물번호 null인 배경 도형과 일치할 수 있던 초안을 교정했다. 명칭에 번호가 명시된 설치 공간 두 곳은 139/139-1동으로 연결하고 CD/MICADAS의 건물 생략 호실은 unknown으로 되돌렸다. 해당 오류가 있는 이전 pending 공간 Staging 7개를 needs_revision으로 표시하고 audit 사유를 남겼다. Raw 이력은 고치지 않았다. 교정된 최신 공간 Staging은 integrated-ingestion.json을 따른다. 서비스도 verified 위치에 공식 식별된 건물번호를 요구한다.
