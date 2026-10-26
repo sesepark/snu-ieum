@@ -7,17 +7,21 @@ export default function Map2D(p: ViewProps) {
   const neighbors = useMemo(() => related(p.nodes, p.links, p.selected), [p.nodes, p.links, p.selected]);
   useEffect(() => {
     const home = () => ref.current?.zoomToFit(p.reducedMotion ? 0 : 400, 75);
-    p.onReady({ home, zoom: f => { const graph = ref.current; if (graph) graph.zoom(graph.zoom() * f, p.reducedMotion ? 0 : 250); }, focus: id => { const n = p.nodes.find(n => n.id === id); if (n) { ref.current?.centerAt(n.fx, n.fy, p.reducedMotion ? 0 : 350); ref.current?.zoom(2, p.reducedMotion ? 0 : 350); } } });
-    const timer = setTimeout(home, 80); return () => clearTimeout(timer);
-  }, [p.nodes, p.width, p.height, p.reducedMotion, p.onReady]);
+    const handle = { home, zoom: (f: number) => { const graph = ref.current; if (graph) graph.zoom(graph.zoom() * f, p.reducedMotion ? 0 : 250); }, focus: (id: string) => { const n = p.nodes.find(n => n.id === id); if (n) { ref.current?.centerAt(n.fx, n.fy, p.reducedMotion ? 0 : 350); ref.current?.zoom(p.width < 650 ? 1.25 : 2, p.reducedMotion ? 0 : 350); } } };
+    p.onReady(handle);
+    const timer = setTimeout(() => p.focusSelection && p.selected && p.nodes.some(n => n.id === p.selected) ? handle.focus(p.selected) : home(), 80); return () => clearTimeout(timer);
+  }, [p.nodes, p.width, p.height, p.reducedMotion, p.onReady, p.selected, p.focusSelection]);
   const draw = (n: DisplayNode, ctx: CanvasRenderingContext2D, scale: number) => {
     const x = n.x ?? n.fx, y = n.y ?? n.fy;
     ctx.save();
     if (n.kind === 'department') {
       ctx.strokeStyle = '#d9dfe8'; ctx.lineWidth = 1 / scale; ctx.setLineDash([3 / scale, 5 / scale]);
       ctx.beginPath(); ctx.arc(x, y, 76, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]);
-      ctx.fillStyle = '#596578'; ctx.font = `500 ${Math.max(10, 12 / scale)}px sans-serif`; ctx.textAlign = 'center';
-      ctx.fillText(n.name, x, y - 91); ctx.font = `${Math.max(8, 10 / scale)}px sans-serif`; ctx.fillStyle = '#768294'; ctx.fillText(`${n.count}개 수록`, x, y - 77);
+      if (p.focusSelection) { ctx.restore(); return; }
+      const compact = p.width < 650 && scale < .8;
+      const name = compact ? n.name.replace(/공학(과|부)$|학(과|부)$/g, '').slice(0, 6) : n.name;
+      ctx.fillStyle = '#596578'; ctx.font = `500 ${(compact ? 9 : 12) / scale}px sans-serif`; ctx.textAlign = 'center';
+      ctx.fillText(name, x, y - 91); ctx.font = `${Math.max(8, 10 / scale)}px sans-serif`; ctx.fillStyle = '#768294'; ctx.fillText(`${n.count}개 수록`, x, y - 77);
       ctx.restore(); return;
     }
     const selected = n.id === p.selected;

@@ -2,7 +2,7 @@ import type { Department, Graph, GraphNode } from '@ieum/contracts';
 export type DisplayNode = { id: string; name: string; kind: GraphNode['kind'] | 'department'; departmentId: string; count?: number; fx: number; fy: number; fz: number; x?: number; y?: number; z?: number };
 export type DisplayEdge = { id: string; source: string | DisplayNode; target: string | DisplayNode; label: string };
 export type MapHandle = { home(): void; zoom(factor: number): void; focus(id: string): void };
-export type ViewProps = { nodes: DisplayNode[]; links: DisplayEdge[]; width: number; height: number; selected?: string; highlighted: Set<string>; searching: boolean; reducedMotion: boolean; onSelect(id: string): void; onReady(handle: MapHandle): void; onFailure(): void };
+export type ViewProps = { nodes: DisplayNode[]; links: DisplayEdge[]; width: number; height: number; selected?: string; highlighted: Set<string>; searching: boolean; focusSelection: boolean; reducedMotion: boolean; onSelect(id: string): void; onReady(handle: MapHandle): void; onFailure(): void };
 export const colors: Record<DisplayNode['kind'], string> = { department: '#8d98a8', researcher: '#795a99', lab: '#367b68', equipment: '#986324', space: '#456e8a', paper: '#757b85', thesis: '#757b85' };
 export const endpointId = (value: string | DisplayNode) => typeof value === 'string' ? value : value.id;
 export const escapeHtml = (text: string) => text.replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]!);

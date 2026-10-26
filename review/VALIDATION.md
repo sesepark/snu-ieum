@@ -4,7 +4,7 @@
 
 실행 가능한 첫 출시 기반과 시제품 코드를 구현했다. **첫 출시 완료는 아니다.** 공용 파일은 처음 `review/shared/`와 `foundation.patch`의 검증된 변경안으로 준비했다. 이후 사용자가 이번 작업의 직접 반영 예외를 명시적으로 승인해 실제 경로에 적용했다. 초기 검토본은 기록으로 남긴다. 일반 협업 규칙은 변경하지 않았다.
 
-독립 작업공간 `/tmp/ieum-final-verified`에 현재 앱과 공용 제안을 조립하고, Node.js 24.22.1에서 새 `npm ci`로 검증했다. 원본 저장소의 `.serena/`는 기존 미추적 파일로 남겨두었다.
+독립 작업공간 `/tmp/ieum-final-verified`에 앱과 공용 제안을 조립하고, Node.js 24.22.1에서 새 `npm ci`로 검증했다. 사용자 예외 승인으로 반영한 뒤 저장소 루트에서도 설치·타입·단위·DB·빌드를 통과했다. 모바일 지도 결함 수정은 루트의 Playwright 흐름으로 다시 확인했다. 원본 저장소의 `.serena/`는 기존 미추적 파일로 남겨두었다.
 
 ## 통과한 검사
 
@@ -21,7 +21,7 @@
 | CI·Pages workflow | YAML 파싱 통과; 실제 GitHub 실행은 미수행 |
 | 백업·복구 shell | shellcheck 통과 |
 | 개발 API 실기동 | `/health`, `/v1/catalog`, `/v1/graph` 200 |
-| 공용 패치 | `git apply --check review/foundation.patch` 성공 |
+| 공용 패치 | 반영 전 apply check, 반영 후 reverse check 성공 |
 | 출시 게이트 | 미승인·수량 미달·검증 미완료 시 의도대로 실패 |
 
 브라우저는 설치된 Chrome을 `PLAYWRIGHT_CHANNEL=chrome`으로 사용했다. CI에서는 Playwright Chromium을 설치하도록 준비했다. iab가 제공되지 않아 Chrome으로 화면을 확인했다.
@@ -46,7 +46,7 @@ pg_dump custom format → DB+원문 tar → 임시 GPG 키로 암호화
 
 ## 빌드 특성
 
-지도를 2D/3D별로 지연 로딩한다. 이번 빌드는 첫 JS 약 409KB(gzip 127KB), 2D 약 92KB(gzip 31KB), 3D 약 1.29MB(gzip 341KB)다. 이는 빌드 크기이며 실제 사용자 성능 달성을 뜻하지 않는다.
+지도를 2D/3D별로 지연 로딩한다. 이번 빌드는 첫 JS 약 410KB(gzip 127KB), 2D 약 92KB(gzip 31KB), 3D 약 1.29MB(gzip 341KB)다. 이는 빌드 크기이며 실제 사용자 성능 달성을 뜻하지 않는다.
 
 ## 남은 출시 조건
 

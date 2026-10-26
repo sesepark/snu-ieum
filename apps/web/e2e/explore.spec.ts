@@ -36,6 +36,11 @@ test('mobile defaults to 2D with an accessible list and bottom detail sheet', as
   await page.locator('.resource-card').first().focus();
   await page.keyboard.press('Enter');
   await expect(page.getByLabel('선택 자원 상세')).toBeVisible();
+  const mapBox = await page.locator('.map-stage canvas').boundingBox();
+  const viewBox = await page.getByRole('button', {name:'2D',exact:true}).boundingBox();
+  const controlsBox = await page.getByRole('button', {name:'처음 보기',exact:true}).boundingBox();
+  expect(controlsBox!.y).toBeGreaterThanOrEqual(viewBox!.y + viewBox!.height);
+  expect(mapBox!.height).toBeLessThan(400);
   const box = await page.getByLabel('선택 자원 상세').boundingBox();
   expect(box!.y).toBeGreaterThan(300); expect(box!.width).toBeLessThanOrEqual(390);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
