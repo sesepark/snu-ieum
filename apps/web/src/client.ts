@@ -24,7 +24,7 @@ export async function search(input: SearchRequest, s: Snapshot, api = defaultApi
       if (!parsed.success) return [];
       const r = parsed.data;
       const resource = s.resources.find(resource => resource.id === r.resource.id);
-      if (!resource || r.source.some(source => !s.sources.some(known => known.id === source.id && known.url === source.url)) || r.relationIds.some(id => !s.relations.some(e => e.id === id))) return [];
+      if (!resource || JSON.stringify(resource) !== JSON.stringify(r.resource) || r.lastVerifiedAt !== resource.lastVerifiedAt || (resource.verificationRequired && !r.verificationRequired) || r.source.some(source => !s.sources.some(known => JSON.stringify(known) === JSON.stringify(source))) || r.relationIds.some(id => !s.relations.some(e => e.id === id))) return [];
       return [r];
     });
     return { results, mode: body.mode, message: typeof body.message === 'string' ? body.message : undefined };
