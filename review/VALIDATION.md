@@ -24,7 +24,7 @@
 | 공용 패치 | 반영 전 apply check, 반영 후 reverse check 성공 |
 | 출시 게이트 | 미승인·수량 미달·검증 미완료 시 의도대로 실패 |
 
-GitHub Actions의 [verify 실행](https://github.com/sesepark/snu-ieum/actions/runs/40304597494)에서도 타입·단위 44개·PostgreSQL 6개·브라우저 5개·빌드가 성공했다. 이후 브라우저 다운로드가 간헐적으로 8분 제한에 도달한 실행을 확인해, Ubuntu 24.04의 사전 설치 Chrome으로 변경했다. 전체 job 20분 제한을 유지하며 별도 브라우저 다운로드는 하지 않는다.
+GitHub Actions의 [verify 실행](https://github.com/sesepark/snu-ieum/actions/runs/40307612487)에서도 타입·단위 46개·PostgreSQL 7개·브라우저 5개·빌드가 성공했다. 이후 브라우저 다운로드가 간헐적으로 8분 제한에 도달한 실행을 확인해, Ubuntu 24.04의 사전 설치 Chrome으로 변경했다. 전체 job 20분 제한을 유지하며 별도 브라우저 다운로드는 하지 않는다.
 
 브라우저는 설치된 Chrome을 `PLAYWRIGHT_CHANNEL=chrome`으로 사용했다. CI도 사전 설치 Chrome을 사용한다. iab가 제공되지 않아 Chrome으로 화면을 확인했다.
 
@@ -68,3 +68,5 @@ pg_dump custom format → DB+원문 tar → 임시 GPG 키로 암호화
 CSV 반입 파서는 알려진 prototype replacement 문제가 수정된 csv-parse 7.0.3을 사용하며 설치 후 npm audit은 취약점 0건이다.
 
 공식 원문 수집 실패도 직접 자원뿐 아니라 그 원문을 사용하는 관계·논문 근거의 자원까지 재검수 큐에 등록한다. 공개 manifest 검수자는 개인 연락처 대신 계정 ID로 검증하며, 승인/반영 전에 거부하는 검사를 포함한다.
+
+실제 출시의 후속 작업은 [공식 수집 정책 #27](https://github.com/sesepark/snu-ieum/issues/27), [무료 계정 #28](https://github.com/sesepark/snu-ieum/issues/28), [집 서버·복구 #29](https://github.com/sesepark/snu-ieum/issues/29), [사용자·검색 평가 #30](https://github.com/sesepark/snu-ieum/issues/30)에 분리했다.
