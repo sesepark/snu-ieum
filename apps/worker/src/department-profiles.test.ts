@@ -1,0 +1,20 @@
+import{expect,it}from'vitest';import{parseIEFaculty,parseNuclearFaculty,parseAerospaceFaculty,parseIELab}from'./department-profiles';
+it('reads official current faculty fields and excludes guest faculty and contact fields',()=>{
+ const html='<h2>현직교수</h2><div class="elementor-widget-wrap"><h2>강필성 부교수</h2><a href="https://example.org">site</a><p>전공 인공지능 주소 서울대학교 39동 301호 연락처 02-880-1234 이메일 private@example.org</p></div><h2>객원교수</h2><div class="elementor-widget-wrap"><h2>다른사람 교수</h2></div>';
+ expect(parseIEFaculty(html)).toEqual([{name:'강필성',rank:'부교수',researchFields:'인공지능',homepage:'https://example.org',officeAddress:'서울대학교 39동 301호',labName:null}]);
+});
+it('distinguishes official office addresses from a lab label on a faculty card',()=>{
+ const html='<div class="cont"><h3><a>김기현</a> 교수</h3><div class="info"><ul><li><a href="https://example.org">방사선공학연구실</a></li><li>방사선 계측 및 응용</li><li>02-880-1234</li><li>private@example.org</li><li>36동 307C호</li></ul></div></div>';
+ const fact=parseNuclearFaculty(html)[0];expect(fact.officeAddress).toBe('36동 307C호');expect(fact.researchFields).toBe('방사선 계측 및 응용');expect(JSON.stringify(fact)).not.toContain('private');
+});
+it('reads a lab-specific address and research fields without personal contact rows',()=>{
+ const row=(k:string,v:string)=>`<div><div><strong>${k}</strong></div><div>${v}</div></div>`;
+ const html=row('연구실명','데이터과학 연구실 Data Science Lab')+row('지도교수','Prof. 강필성 (Kang)')+row('주요 연구 분야','시계열, 자연어')+row('위치','39동 411호')+row('홈페이지','<a href="https://example.org">lab</a>')+row('연락처','private@example.org');
+ expect(parseIELab(html)).toEqual({title:'데이터과학 연구실',advisor:'강필성',researchFields:'시계열, 자연어',homepage:'https://example.org',address:'39동 411호'});
+});
+
+it('handles nested label spans and keeps Latin acronyms inside a Korean lab name',()=>{
+ const row=(k:string,v:string)=>`<div><div><span><strong>${k}</strong></span></div><div>${v}</div></div>`;
+ const fact=parseIELab(`<div class="responsive-table">${row('연구실명','빅데이터 AI 연구실 Big Data AI Lab')}${row('지도교수','Prof. 박종헌')}${row('위치','39동 501호')}</div>`);
+ expect(fact.title).toBe('빅데이터 AI 연구실');expect(fact.advisor).toBe('박종헌');expect(fact.address).toBe('39동 501호');
+});

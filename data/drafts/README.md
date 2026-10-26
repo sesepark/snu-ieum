@@ -120,3 +120,11 @@ Raw ID는 `986ddaa2e6043aa572534eff2fc78f56cb2849cbdce45f7809bb3bdaffc32ad2`, pe
 전체 카탈로그의 장비 209개·공간 20곳은 수록 후보량이며 모든 필수 정보·위치·중복·현재 이용 안내까지 검수한 수량이 아니다. 새 기준 충족량은 data/coverage/report.json에서 별도로 계산한다. Raw/Staging ID는 data/campus의 equipment-ingestion.json, isrc-ingestion.json, cbe-equipment-ingestion.json, space-ingestion.json에 있다. ISRC 첫 페이지네이션 시도는 failed run이며 성공 run과 분리했다.
 
 신소재공동연구소 robots는 전체 Disallow를 확인해 추가 자동 수집을 중단했다. 정책 확인과 같은 루프에서 이미 받은 원문 임시 파일은 삭제했으며 Raw·Staging·저장소에 반입하지 않았다. 이 소스는 허용된 공식 제공·수동 반입 경로 확인 전 목표 수량에 포함하지 않는다.
+
+## 산업·원자핵·항공우주 현직 명단과 정보별 상세
+
+산업 현직 14명과 연구실 15곳을 전체 대조해 분야·공식 홈페이지·소속·확인일과 교수실/연구실 주소를 각각 기록했다. 연구실 12곳과 원자핵 교수 3명·항공우주 교수 1명을 추가했으며 새 교수 4명은 학과 목록과 공대 교수검색의 차이를 확인 대기로 유지했다. 전체 초안은 교수 후보 323명·연구실 70곳·장비 후보 209개·공간 20곳·출처 있는 관계 65개다.
+
+새 공식 분야는 출처와 함께 요약·검색어에 반영했다. 기존 ID가 여러 검수 조각에서 재사용된 경우 내용을 동일하게 갱신했으며 compile-draft는 다른 내용의 중복 ID를 계속 거부한다. 새 원문/연락처를 복제하지 않고 각 공식 페이지의 명단·분야·홈페이지·주소 최소 사실을 Raw로 남겼다. 과거 파서가 제목 셀을 값으로 읽거나 AI 약어를 자른 Staging 5개는 needs_revision으로 표시했고 Raw는 수정하지 않았다. 최신 source별 ID는 data/campus/department-profile-ingestion.json을 따른다.
+
+재수집은 `DATABASE_URL=... node --import tsx apps/worker/src/department-profiles-cli.ts <config.json>`을 사용한다. config는 policies(검토한 호스트/경로·보관 조건)와 outputDirectory를 요구한다. CLI는 Raw→pending Staging과 실행 기록만 만들며 반복 실행해도 canonical 초안이나 승인 배치를 수정하지 않는다. 검수자는 후보를 공식 ID와 대조한 뒤 통합 초안/coverage에 반입한다. CSE/건축 등의 기존 접근 제한을 이 CLI로 우회하지 않는다.

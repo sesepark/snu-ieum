@@ -1,0 +1,151 @@
+{
+  "checkedAt": "2026-10-26T17:46:17.279Z",
+  "records": [
+    {
+      "departmentId": "industrial",
+      "runId": "8a151c34-9f4e-4457-bc15-c702b4dbb3d6",
+      "rawId": "23b1715bc12fcf1ac56861ccfbc1246d7b17d65151e2b466a6151a7b67cdb28c",
+      "stagingId": "e40464bf-70ec-4a60-9e6f-18176193afe6",
+      "faculty": 14
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/or_lab/",
+      "runId": "032c1180-2c9b-4172-bcee-1a01926ef2f1",
+      "rawId": "f2914936e768e9bcc4b43e795dbcb5ae0d1dd4e8414e4dd8a9e9e2a7f82a7602",
+      "stagingId": "2f4b98ec-da36-405c-a210-daf3fb67a40c"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/leesa/",
+      "runId": "094c1584-1566-4a4c-8120-f029a9a93698",
+      "rawId": "f886abc203b0c786732ab3fa6dd99c08aea8c165a6d2e310df1380920aecd47d",
+      "stagingId": "a0665488-1f41-4965-8a8e-bf1f1fd142ae"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/scm_lab/",
+      "runId": "59c8a736-7587-4688-b720-b49646ba977a",
+      "rawId": "03b55b7d92b744711c94be045742ab85a42076e44df963ac897828a3a3dec0e2",
+      "stagingId": "bc81a369-e3f8-4b71-8113-e1b984bb614b"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/fre_lab/",
+      "runId": "f357fa5d-7116-464b-b8b6-f4ea91216bda",
+      "rawId": "a861de7826fc35e93565b7a7de29f53a0fe8a7956dd15a4e8ac6f8da1f553d6b",
+      "stagingId": "f16ebf0e-26bd-4bd3-b3e1-922fcae50ad7"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/ti_lab/",
+      "runId": "0b7c142b-7e3f-40c8-913d-104c4bd46cde",
+      "rawId": "d0ab8768ab5ca390a7951129fc4ef2f5c12e00de713e58a7ed546abfc330715d",
+      "stagingId": "fda9c481-22bf-41ce-be99-b7613a496990"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "runId": "1f801c6f-c95c-4ed0-a63e-247ac80cfe2f",
+      "rawId": "a51e6ef7efba9579d7b0e69b4d235848241746e182409a1085b642ad50840bbb",
+      "stagingId": "f6c852ff-c0cf-414d-a205-7dcc062dcbf9"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/bdai_lab/",
+      "runId": "a3e8c2c7-e7f4-40fb-80ab-076d8f8ae4ed",
+      "rawId": "00b7982d8f9ded5c35c3c0ea09e047a68d01c01e85b5e9daeca7ca51ebb31794",
+      "stagingId": "68983036-79b2-462a-b985-1d0885909574"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/let_lab/",
+      "runId": "479a46da-1f53-40d3-af15-020623d4bec1",
+      "rawId": "2f46f9a5cefcd7f39b13f036a08f56bc33dfe954b6b69d51a11cc7674552d52b",
+      "stagingId": "4a6cc4d2-7e2e-47d3-bc37-f21883e1343d"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/service_inno_lab/",
+      "runId": "26f5b7ee-16c6-4895-9b78-5a84b730d342",
+      "rawId": "3067a4cc1b9cd27f268480baf0cb5ea8a136e1c019b820025e41db021bb12bd8",
+      "stagingId": "b32ff1e4-de92-4437-a8c2-203820b7eaf7"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/optimize_lab/",
+      "runId": "e0d56d3e-b1df-4f46-a7bf-5a8186ac5d5b",
+      "rawId": "8dadd584b6326af42e849a351b8dd6217312ff241f304741ddcf7c93e2d9c0ed",
+      "stagingId": "d5349408-bb10-4249-869b-4c1e7d48c6fc"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/om_lab/",
+      "runId": "ceade582-59c2-46d4-9c32-91942ed8d837",
+      "rawId": "bb47192f3d7312efc251c11a9f87d7ee21dd910c21d65ba67af0eb5a510da55e",
+      "stagingId": "49f2bfad-95e7-4553-910e-b8a4289e629f"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/im_lab/",
+      "runId": "44be20c6-ec07-4335-8d3a-857f4ea38eca",
+      "rawId": "bba92f4d718e4f70a2a2f6b528ed4cc357948c33512141a2b020c9af80a24e20",
+      "stagingId": "59cb027f-9431-47e8-81c5-ccd8616282d9"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/pse_lab/",
+      "runId": "eadb67ee-0628-4693-843f-6bb38ecf1d60",
+      "rawId": "61703f9fd8b710658817c40d37c1dd2624cfbf47a700cec8e4dd2a6e9f7dab4b",
+      "stagingId": "0ef3cdbd-a303-461a-adf9-55ee7c49b2bb"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/slcf_lab/",
+      "runId": "a4cd370e-480f-47d2-a3fd-95232217a9b1",
+      "rawId": "7cd2a1ce000b66cf3448eb47cc9143c5e53d3daa88e05f1442653f446fe5408f",
+      "stagingId": "bce3b886-563b-4c73-9963-1212e7d06700"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/his_lab/",
+      "runId": "65c056e7-5ce6-438d-927a-9c056c9dfd1a",
+      "rawId": "9b33b23460621dca54f0f1824f4e7d2fc709fa4e66691ea915772ad1a959952e",
+      "stagingId": "be847eac-5d30-44f1-a53e-91ca9358311e"
+    },
+    {
+      "departmentId": "nuclear",
+      "runId": "a66069e5-9626-41ac-8809-3545076e8f12",
+      "rawId": "e2be2733a6c790de6d4a3c4448162642d42c4d8bd13a2d2ccb3c30e3fd5e58e8",
+      "stagingId": "047f31a8-a304-4a25-9fc8-5e9a6a492785",
+      "faculty": 14
+    },
+    {
+      "departmentId": "aerospace",
+      "runId": "c81e8082-f567-4bb2-ae40-9613349f7347",
+      "rawId": "6f649613d7fdc7c846e6dbd5895d35181a0b9f573fc303722b9cba89baf27964",
+      "stagingId": "98bab3d5-3317-43e6-85c1-e51b17e7dc91",
+      "faculty": 14
+    }
+  ],
+  "updatedResourceFields": 43,
+  "newResourceIds": [
+    "lab-current-industrial-b",
+    "lab-current-industrial-c",
+    "lab-current-industrial-d",
+    "lab-current-industrial-e",
+    "lab-current-industrial-g",
+    "lab-current-industrial-h",
+    "lab-current-industrial-i",
+    "lab-current-industrial-j",
+    "lab-current-industrial-k",
+    "lab-current-industrial-l",
+    "lab-current-industrial-m",
+    "lab-current-industrial-n",
+    "prof-current-nuclear-c",
+    "prof-current-nuclear-f",
+    "prof-current-nuclear-h",
+    "prof-current-aerospace-a"
+  ],
+  "status": "pending-human-review"
+}

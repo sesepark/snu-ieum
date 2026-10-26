@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "industrial-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "generatedAt": "2026-10-26T17:46:17.279Z",
     "publication": "prototype",
     "selectionReason": "공식 연구실 소개에서 경영과학·산업 데이터 분석·인간공학의 서로 다른 방법론을 골랐다. 이름만으로 연결하지 않고 각 소개의 지도교수 필드를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -128,6 +128,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:11:58Z",
       "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "profile-source-industrial-1",
+      "url": "https://ie.snu.ac.kr/professor/",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 산업공학과",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
     }
   ],
   "resources": [
@@ -135,108 +144,135 @@
       "id": "prof-industrial-or",
       "kind": "researcher",
       "name": "박명주",
-      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 수리계획법, 조합최적화, 근사해법, 스케줄링",
       "departmentId": "industrial",
       "keywords": [
         "경영과학",
         "최적화",
-        "스케줄링"
+        "스케줄링",
+        "수리계획법",
+        "조합최적화",
+        "근사해법"
       ],
       "sourceIds": [
-        "src-industrial-or"
+        "src-industrial-or",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "lab-industrial-or",
       "kind": "lab",
       "name": "경영과학 연구실",
-      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "summary": "공식 연구실 소개의 연구 분야: ▪ 수리계획법, 조합최적화, 근사해법, 스케줄링, 수치최적화, 동적최적화",
       "departmentId": "industrial",
       "keywords": [
         "경영과학",
         "최적화",
-        "스케줄링"
+        "스케줄링",
+        "▪ 수리계획법",
+        "조합최적화",
+        "근사해법",
+        "수치최적화",
+        "동적최적화"
       ],
       "sourceIds": [
         "src-industrial-or"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-industrial-dsba",
       "kind": "researcher",
       "name": "강필성",
-      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 산업 데이터 애널리틱스, 멀티모달(시계열/자연어/비전) 인공지능",
       "departmentId": "industrial",
       "keywords": [
         "데이터과학",
         "기계학습",
         "시계열",
         "자연어",
-        "이상치 탐지"
+        "이상치 탐지",
+        "산업 데이터 애널리틱스",
+        "멀티모달(시계열/자연어/비전) 인공지능"
       ],
       "sourceIds": [
-        "src-industrial-dsba"
+        "src-industrial-dsba",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "lab-industrial-dsba",
       "kind": "lab",
       "name": "데이터과학 및 비즈니스 애널리틱스 연구실",
-      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "summary": "공식 연구실 소개의 연구 분야: ▪ 시계열 데이터: 시계열 표상 학습, 이상치 탐지 및 예측 방법론 개발 및 응용▪ 자연어 데이터: 오피니언 마이닝, 로그 이상치 탐지, 언어모델의 효율적 학습▪ 이미지 데이터: 이미지 이상치 탐지, Active Learning, 비전-언어 모델 등",
       "departmentId": "industrial",
       "keywords": [
         "데이터과학",
         "기계학습",
         "시계열",
         "자연어",
-        "이상치 탐지"
+        "이상치 탐지",
+        "▪ 시계열 데이터: 시계열 표상 학습",
+        "이상치 탐지 및 예측 방법론 개발 및 응용▪ 자연어 데이터: 오피니언 마이닝",
+        "로그 이상치 탐지",
+        "언어모델의 효율적 학습▪ 이미지 데이터: 이미지 이상치 탐지",
+        "Active Learning",
+        "비전-언어 모델 등"
       ],
       "sourceIds": [
         "src-industrial-dsba"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-industrial-his",
       "kind": "researcher",
       "name": "윤명환",
-      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 인간공학, 인간-컴퓨터 상호작용, 사용자 중심 제품 디자인, 인체 역학, 감성공학, 인간-AI 협업 등",
       "departmentId": "industrial",
       "keywords": [
         "인간공학",
         "HCI",
         "사용자 경험",
-        "생체역학"
+        "생체역학",
+        "인간-컴퓨터 상호작용",
+        "사용자 중심 제품 디자인",
+        "인체 역학",
+        "감성공학",
+        "인간-AI 협업 등"
       ],
       "sourceIds": [
-        "src-industrial-his"
+        "src-industrial-his",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "lab-industrial-his",
       "kind": "lab",
       "name": "휴먼인터페이스시스템 연구실",
-      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "summary": "공식 연구실 소개의 연구 분야: ▪ 인간공학 (Ergonomics), HCI (human-computer interaction)▪ 사용자 경험(UX) 설계, 사용자 중심 디자인 (User-centered Design)▪ 생체역학 (biomechanics)",
       "departmentId": "industrial",
       "keywords": [
         "인간공학",
         "HCI",
         "사용자 경험",
-        "생체역학"
+        "생체역학",
+        "▪ 인간공학 (Ergonomics)",
+        "HCI (human-computer interaction)▪ 사용자 경험(UX) 설계",
+        "사용자 중심 디자인 (User-centered Design)▪ 생체역학 (biomechanics)"
       ],
       "sourceIds": [
         "src-industrial-his"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     }
   ],

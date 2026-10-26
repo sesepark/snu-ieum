@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "college-draft-20261026",
-    "generatedAt": "2026-10-26T17:09:39.658Z",
+    "generatedAt": "2026-10-26T17:46:17.279Z",
     "publication": "prototype",
     "selectionReason": "12개 학과와 공용 시설의 공식 출처를 확인한 검수 초안을 통합했다. 학과별 선정 이유는 data/drafts에 기록했다. 건축학과 교수의 분야 대표성과 지도 연구실은 추가 검수가 필요하며 확인되지 않은 관계는 만들지 않았다. 모든 자원은 사람 승인 전이며 전수 조사·이용 가능 보장이 아니다.",
     "schemaVersion": 1
@@ -259,6 +259,15 @@
       "lastVerifiedAt": "2026-10-26T11:11:58Z"
     },
     {
+      "id": "profile-source-industrial-1",
+      "url": "https://ie.snu.ac.kr/professor/",
+      "organization": "서울대학교 산업공학과",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
       "id": "src-energy-recycling",
       "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=17",
       "organization": "서울대학교 에너지자원공학과",
@@ -320,6 +329,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:30:50.557Z",
       "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "profile-source-nuclear-14",
+      "url": "https://nucleng.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 원자핵공학과",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
     },
     {
       "id": "src-materials-mechanics",
@@ -2543,6 +2561,123 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T17:08:08.684Z",
       "lastVerifiedAt": "2026-10-26T17:08:08.684Z"
+    },
+    {
+      "id": "profile-source-industrial-2",
+      "url": "https://ie.snu.ac.kr/leesa/",
+      "organization": "서울대학교 산업공학과",
+      "title": "경제성분석연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-3",
+      "url": "https://ie.snu.ac.kr/scm_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "공급망관리 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-4",
+      "url": "https://ie.snu.ac.kr/fre_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "금융리스크공학 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-5",
+      "url": "https://ie.snu.ac.kr/ti_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "기술 인텔리전스 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-6",
+      "url": "https://ie.snu.ac.kr/bdai_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "빅데이터 AI 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-7",
+      "url": "https://ie.snu.ac.kr/let_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "삶향상기술연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-8",
+      "url": "https://ie.snu.ac.kr/service_inno_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "서비스 혁신 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-9",
+      "url": "https://ie.snu.ac.kr/optimize_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "시스템최적화 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-10",
+      "url": "https://ie.snu.ac.kr/om_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "운영관리 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-11",
+      "url": "https://ie.snu.ac.kr/im_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "정보경영 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-12",
+      "url": "https://ie.snu.ac.kr/pse_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "제품서비스공학 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-13",
+      "url": "https://ie.snu.ac.kr/slcf_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "통계학습 및 계산금융 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-aerospace-15",
+      "url": "https://aerospace.snu.ac.kr/about/faculty",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
     }
   ],
   "resources": [
@@ -2843,108 +2978,135 @@
       "id": "prof-industrial-or",
       "kind": "researcher",
       "name": "박명주",
-      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 수리계획법, 조합최적화, 근사해법, 스케줄링",
       "departmentId": "industrial",
       "keywords": [
         "경영과학",
         "최적화",
-        "스케줄링"
+        "스케줄링",
+        "수리계획법",
+        "조합최적화",
+        "근사해법"
       ],
       "sourceIds": [
-        "src-industrial-or"
+        "src-industrial-or",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "lab-industrial-or",
       "kind": "lab",
       "name": "경영과학 연구실",
-      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "summary": "공식 연구실 소개의 연구 분야: ▪ 수리계획법, 조합최적화, 근사해법, 스케줄링, 수치최적화, 동적최적화",
       "departmentId": "industrial",
       "keywords": [
         "경영과학",
         "최적화",
-        "스케줄링"
+        "스케줄링",
+        "▪ 수리계획법",
+        "조합최적화",
+        "근사해법",
+        "수치최적화",
+        "동적최적화"
       ],
       "sourceIds": [
         "src-industrial-or"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-industrial-dsba",
       "kind": "researcher",
       "name": "강필성",
-      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 산업 데이터 애널리틱스, 멀티모달(시계열/자연어/비전) 인공지능",
       "departmentId": "industrial",
       "keywords": [
         "데이터과학",
         "기계학습",
         "시계열",
         "자연어",
-        "이상치 탐지"
+        "이상치 탐지",
+        "산업 데이터 애널리틱스",
+        "멀티모달(시계열/자연어/비전) 인공지능"
       ],
       "sourceIds": [
-        "src-industrial-dsba"
+        "src-industrial-dsba",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "lab-industrial-dsba",
       "kind": "lab",
       "name": "데이터과학 및 비즈니스 애널리틱스 연구실",
-      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "summary": "공식 연구실 소개의 연구 분야: ▪ 시계열 데이터: 시계열 표상 학습, 이상치 탐지 및 예측 방법론 개발 및 응용▪ 자연어 데이터: 오피니언 마이닝, 로그 이상치 탐지, 언어모델의 효율적 학습▪ 이미지 데이터: 이미지 이상치 탐지, Active Learning, 비전-언어 모델 등",
       "departmentId": "industrial",
       "keywords": [
         "데이터과학",
         "기계학습",
         "시계열",
         "자연어",
-        "이상치 탐지"
+        "이상치 탐지",
+        "▪ 시계열 데이터: 시계열 표상 학습",
+        "이상치 탐지 및 예측 방법론 개발 및 응용▪ 자연어 데이터: 오피니언 마이닝",
+        "로그 이상치 탐지",
+        "언어모델의 효율적 학습▪ 이미지 데이터: 이미지 이상치 탐지",
+        "Active Learning",
+        "비전-언어 모델 등"
       ],
       "sourceIds": [
         "src-industrial-dsba"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-industrial-his",
       "kind": "researcher",
       "name": "윤명환",
-      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 인간공학, 인간-컴퓨터 상호작용, 사용자 중심 제품 디자인, 인체 역학, 감성공학, 인간-AI 협업 등",
       "departmentId": "industrial",
       "keywords": [
         "인간공학",
         "HCI",
         "사용자 경험",
-        "생체역학"
+        "생체역학",
+        "인간-컴퓨터 상호작용",
+        "사용자 중심 제품 디자인",
+        "인체 역학",
+        "감성공학",
+        "인간-AI 협업 등"
       ],
       "sourceIds": [
-        "src-industrial-his"
+        "src-industrial-his",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "lab-industrial-his",
       "kind": "lab",
       "name": "휴먼인터페이스시스템 연구실",
-      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "summary": "공식 연구실 소개의 연구 분야: ▪ 인간공학 (Ergonomics), HCI (human-computer interaction)▪ 사용자 경험(UX) 설계, 사용자 중심 디자인 (User-centered Design)▪ 생체역학 (biomechanics)",
       "departmentId": "industrial",
       "keywords": [
         "인간공학",
         "HCI",
         "사용자 경험",
-        "생체역학"
+        "생체역학",
+        "▪ 인간공학 (Ergonomics)",
+        "HCI (human-computer interaction)▪ 사용자 경험(UX) 설계",
+        "사용자 중심 디자인 (User-centered Design)▪ 생체역학 (biomechanics)"
       ],
       "sourceIds": [
         "src-industrial-his"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -3057,17 +3219,20 @@
       "id": "prof-nuclear-thermal",
       "kind": "researcher",
       "name": "조형규",
-      "summary": "원자핵공학과 공식 연구실 안내에 Nuclear Thermal-Hydraulic Engineering Laboratory와 조형규 교수가 함께 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열수력 코드 개발, 2상유동 실험",
       "departmentId": "nuclear",
       "keywords": [
         "열수력",
         "원자력",
-        "계통"
+        "계통",
+        "열수력 코드 개발",
+        "2상유동 실험"
       ],
       "sourceIds": [
-        "src-nuclear-thermal"
+        "src-nuclear-thermal",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -3091,16 +3256,17 @@
       "id": "prof-nuclear-reactor",
       "kind": "researcher",
       "name": "주한규",
-      "summary": "원자핵공학과 공식 연구실 안내에 Reactor Physics Laboratory와 주한규 교수가 함께 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 원자로물리",
       "departmentId": "nuclear",
       "keywords": [
         "원자로물리",
         "원자력"
       ],
       "sourceIds": [
-        "src-nuclear-reactor"
+        "src-nuclear-reactor",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -3123,16 +3289,18 @@
       "id": "prof-nuclear-radiation",
       "kind": "researcher",
       "name": "김은희",
-      "summary": "원자핵공학과 공식 연구실 안내에 Radiation Bioengineering Laboratory와 김은희 교수가 함께 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 방사선 방호",
       "departmentId": "nuclear",
       "keywords": [
         "방사선",
-        "생명공학"
+        "생명공학",
+        "방사선 방호"
       ],
       "sourceIds": [
-        "src-nuclear-radiation"
+        "src-nuclear-radiation",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -5496,176 +5664,227 @@
       "id": "prof-dir-industrial-ofpanjencloh",
       "kind": "researcher",
       "name": "금영정",
-      "summary": "공대 공식 교수검색에 산업공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 데이터 기반 기술기획, 서비스 혁신, 연구개발관리",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "부교수"
+        "부교수",
+        "데이터 기반 기술기획",
+        "서비스 혁신",
+        "연구개발관리"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-pohilfgakejb",
       "kind": "researcher",
       "name": "문일경",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 생산관리, 공급망관리, 물류관리",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "생산관리",
+        "공급망관리",
+        "물류관리"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-dolbcmikjdfl",
       "kind": "researcher",
       "name": "박건수",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 생산서비스 운영관리, 공급망관리, 재고관리, 물류관리",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "생산서비스 운영관리",
+        "공급망관리",
+        "재고관리",
+        "물류관리"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-ikbdfplkcici",
       "kind": "researcher",
       "name": "박우진",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 인간공학, 생성형 인공지능, 인공지능 응용, 자동차인간공학, UI/UX, 작업생체역학, 창의적사고",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "인간공학",
+        "생성형 인공지능",
+        "인공지능 응용",
+        "자동차인간공학",
+        "UI/UX",
+        "작업생체역학",
+        "창의적사고"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-lpkepmdnfhlf",
       "kind": "researcher",
       "name": "박종헌",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기계학습 산업응용",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "기계학습 산업응용"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-jbljnjdfecda",
       "kind": "researcher",
       "name": "이경식",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 정수최적화, 조합최적화, 불확실성하에서의 최적화, 생산/물류/에너지 시스템 최적화, 최적화 산업 응용",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "정수최적화",
+        "조합최적화",
+        "불확실성하에서의 최적화",
+        "생산/물류/에너지 시스템 최적화",
+        "최적화 산업 응용"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-olabcknbecgo",
       "kind": "researcher",
       "name": "이덕주",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기술시스템 경제성 분석, 시장설계 산업응용",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "기술시스템 경제성 분석",
+        "시장설계 산업응용"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-kganfepnehig",
       "kind": "researcher",
       "name": "이성주",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기술경영 및 애널리틱스, 혁신정책, 지식재산관리",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "기술경영 및 애널리틱스",
+        "혁신정책",
+        "지식재산관리"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-acbjeidoanfd",
       "kind": "researcher",
       "name": "이재욱",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: Safe AI, 핀테크, 통계학습 & 계산 금융",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "Safe AI",
+        "핀테크",
+        "통계학습 & 계산 금융"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-mebgpdgakfbi",
       "kind": "researcher",
       "name": "장우진",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 금융공학, 확률모형, 웨이블렛 분석",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "금융공학",
+        "확률모형",
+        "웨이블렛 분석"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-industrial-hlcjgfikjkbl",
       "kind": "researcher",
       "name": "홍유석",
-      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 제품 서비스 융합을 통한 가치혁신, 아키텍처 기반의 시스템 분석 및 개발, 개발 프로세스의 효율, 위험, 품질 관리, 제품 서비스 설계",
       "departmentId": "industrial",
       "keywords": [
         "산업공학과",
-        "교수"
+        "교수",
+        "제품 서비스 융합을 통한 가치혁신",
+        "아키텍처 기반의 시스템 분석 및 개발",
+        "개발 프로세스의 효율",
+        "위험",
+        "품질 관리",
+        "제품 서비스 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-22"
+        "source-eng-directory-22",
+        "profile-source-industrial-1"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -5784,128 +6003,145 @@
       "id": "prof-dir-nuclear-jpdihpiddmcb",
       "kind": "researcher",
       "name": "김기현",
-      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 방사선 계측 및 응용",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "교수"
+        "교수",
+        "방사선 계측 및 응용"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-nuclear-plibkhmkmkpj",
       "kind": "researcher",
       "name": "나용수",
-      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 핵융합 공학 및 플라즈마 물리",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "교수"
+        "교수",
+        "핵융합 공학 및 플라즈마 물리"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-nuclear-olnhpapekfib",
       "kind": "researcher",
       "name": "박설혜",
-      "summary": "공대 공식 교수검색에 원자핵공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 핵융합 및 플라즈마 물리",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "부교수"
+        "부교수",
+        "핵융합 및 플라즈마 물리"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-nuclear-jgofoampeoik",
       "kind": "researcher",
       "name": "심형진",
-      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 원자로 물리 및 전산수치해석",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "교수"
+        "교수",
+        "원자로 물리 및 전산수치해석"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-nuclear-deflpkghlnhp",
       "kind": "researcher",
       "name": "이유호",
-      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 핵연료재료 및 원자로공학",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "교수"
+        "교수",
+        "핵연료재료 및 원자로공학"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-nuclear-cpafkbbgbepi",
       "kind": "researcher",
       "name": "정경재",
-      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 플라즈마 및 방사선 소스 공학",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "교수"
+        "교수",
+        "플라즈마 및 방사선 소스 공학"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-nuclear-cbdenbojboga",
       "kind": "researcher",
       "name": "최성열",
-      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 핵연료주기, 사용후핵연료 관리",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "교수"
+        "교수",
+        "핵연료주기",
+        "사용후핵연료 관리"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-nuclear-eaophadchiib",
       "kind": "researcher",
       "name": "황용석",
-      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 핵융합 공학 및 플라즈마 물리",
       "departmentId": "nuclear",
       "keywords": [
         "원자핵공학과",
-        "교수"
+        "교수",
+        "핵융합 공학 및 플라즈마 물리"
       ],
       "sourceIds": [
-        "source-eng-directory-22"
+        "source-eng-directory-22",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -12415,6 +12651,214 @@
       ],
       "lastVerifiedAt": "2026-10-26T17:09:39.658Z",
       "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-b",
+      "kind": "lab",
+      "name": "경제성분석연구실",
+      "summary": "공식 연구 분야: ▪ 에너지 시스템 등 기술 시스템 대상 경제적 타당성 분석▪ 게임이론 응용 연구 및 메커니즘 디자인 기반 시장 설계 연구▪ 불확실성 하에서의 투자 의사결정 분석",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-c",
+      "kind": "lab",
+      "name": "공급망관리 연구실",
+      "summary": "공식 연구 분야: ▪ 스마트 시티▪ 해운 물류▪ 항공 물류",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-d",
+      "kind": "lab",
+      "name": "금융리스크공학 연구실",
+      "summary": "공식 연구 분야: ▪ 경제 물리학을 이용한 경제현상 분석▪ 강화학습 기반 트레이딩 전략 개발▪ 머신러닝 기반 금융 시계열 분석 및 예측",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-e",
+      "kind": "lab",
+      "name": "기술 인텔리전스 연구실",
+      "summary": "공식 연구 분야: ▪ 기술경영 및 애널리틱스: 기술 전략 및 로드맵핑, R&D 프로젝트 관리, 지식재산 및 데이터 가치평가, 미래 예측 및 유망 기술 발굴, 특허/상표 분석 방법론 개발 및 응용 등▪ 기술정책: 과학·산업 기술정책 수립, 데이터 기반 기술/산업 모니터링 등",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-g",
+      "kind": "lab",
+      "name": "빅데이터 AI 연구실",
+      "summary": "공식 연구 분야: ▪ Data Mining▪ Artificial Intelligence▪ Deep Learning",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-h",
+      "kind": "lab",
+      "name": "삶향상기술연구실",
+      "summary": "공식 연구 분야: ▪ Human factors/ergonomics▪ Generative AI▪ AI/ML applications▪ Automotive ergonomics▪ UI/UX▪ Occupational biomechanics▪ Creativity",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-i",
+      "kind": "lab",
+      "name": "서비스 혁신 연구실",
+      "summary": "공식 연구 분야: ▪ 데이터 기반 기술 및 서비스 혁신, 비즈니스 모델 혁신▪ 서비스 운영관리 및 데이터 기반 서비스 애널리틱스▪ 데이터 기반 로드매핑 및 연구개발관리",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-j",
+      "kind": "lab",
+      "name": "시스템최적화 연구실",
+      "summary": "공식 연구 분야: ▪ 최적화 이론 및 알고리듬: 정수최적화, 네트워크최적화, 동적최적화, 강건최적화, 확률적최적화 등▪ 최적화 기술의 산업 응용: 하이테크(반도체, 디스플레이), 물류/수송, 전력산업 (전력시장, 스마트그리드 등), 생산물류IT시스템(SCM, MES 등)",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-k",
+      "kind": "lab",
+      "name": "운영관리 연구실",
+      "summary": "공식 연구 분야: ▪ 공급망 및 재고 관리 최적화 – 복잡한 다계층 공급망에서 고객 수요, 생산 과정, 공급자 변동성을 고려한 선제 대응전략 및 실행계획 도출▪ 물류 네트워크 설계 및 운영 최적화 – 물류 네트워크 설계와 생산 및 공정 관리 스케줄링(APS) 등 기업의 물류 운영 최적화 전략 연구▪ 공급망 위험을 고려한 재무 의사결정 최적화 – 고객 수요 변동과 공급자 위험을 고려한 공급망 계약, 판매가 및 구매조달 전략 등의 재무 의사결정 연구",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-l",
+      "kind": "lab",
+      "name": "정보경영 연구실",
+      "summary": "공식 연구 분야: ▪ 예측형 인공지능(Predictive AI): 시계열 분석 및 예측, 이상 탐지 및 원인 분석, 투자 인공지능▪ 생성형 인공지능(Generative AI): 멀티모달 생성 모델, 음악 인공지능",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-m",
+      "kind": "lab",
+      "name": "제품서비스공학 연구실",
+      "summary": "공식 연구 분야: ▪ 아키텍처 기반의 시스템 분석 및 개발▪ 제품/서비스 융합을 통한 가치혁신▪ 개발 프로세스의 효율, 위험, 품질 관리",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-n",
+      "kind": "lab",
+      "name": "통계학습 및 계산금융 연구실",
+      "summary": "공식 연구 분야: ▪ 데이터 프라이버시▪ 딥러닝 기반 시계열 예측▪ 금융 및 블록체인 도메인 연구",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-nuclear-c",
+      "kind": "researcher",
+      "name": "김응수",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-nuclear-f",
+      "kind": "researcher",
+      "name": "박종규",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-nuclear-h",
+      "kind": "researcher",
+      "name": "오다타쿠지",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-current-aerospace-a",
+      "kind": "researcher",
+      "name": "기창돈",
+      "summary": "공식 학과 현직 교수 목록의 교수. 연구 분야·소속은 아래 공식 출처 확인.",
+      "departmentId": "aerospace",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-aerospace-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
     }
   ],
   "relations": [
@@ -13017,6 +13461,127 @@
         "official-lab-inventory-aerospace"
       ],
       "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-current-industrial-b",
+      "from": "prof-dir-industrial-olabcknbecgo",
+      "to": "lab-current-industrial-b",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-c",
+      "from": "prof-dir-industrial-pohilfgakejb",
+      "to": "lab-current-industrial-c",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-d",
+      "from": "prof-dir-industrial-mebgpdgakfbi",
+      "to": "lab-current-industrial-d",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-e",
+      "from": "prof-dir-industrial-kganfepnehig",
+      "to": "lab-current-industrial-e",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-h",
+      "from": "prof-dir-industrial-ikbdfplkcici",
+      "to": "lab-current-industrial-h",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-i",
+      "from": "prof-dir-industrial-ofpanjencloh",
+      "to": "lab-current-industrial-i",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-j",
+      "from": "prof-dir-industrial-jbljnjdfecda",
+      "to": "lab-current-industrial-j",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-k",
+      "from": "prof-dir-industrial-dolbcmikjdfl",
+      "to": "lab-current-industrial-k",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-l",
+      "from": "prof-dir-industrial-lpkepmdnfhlf",
+      "to": "lab-current-industrial-l",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-m",
+      "from": "prof-dir-industrial-hlcjgfikjkbl",
+      "to": "lab-current-industrial-m",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "leads-current-industrial-n",
+      "from": "prof-dir-industrial-acbjeidoanfd",
+      "to": "lab-current-industrial-n",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "profile-source-industrial-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
     }
   ],
   "evidence": [

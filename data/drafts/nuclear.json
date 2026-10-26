@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "nuclear-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "generatedAt": "2026-10-26T17:46:17.279Z",
     "publication": "prototype",
     "selectionReason": "공식 연구실 카드와 전임교수 명단을 대조하고 열수력·원자로물리·방사선 생명공학의 서로 다른 분야를 골랐다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -137,6 +137,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:30:50.557Z",
       "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "profile-source-nuclear-14",
+      "url": "https://nucleng.snu.ac.kr/about/people/faculty",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 원자핵공학과",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
     }
   ],
   "resources": [
@@ -144,17 +153,20 @@
       "id": "prof-nuclear-thermal",
       "kind": "researcher",
       "name": "조형규",
-      "summary": "원자핵공학과 공식 연구실 안내에 Nuclear Thermal-Hydraulic Engineering Laboratory와 조형규 교수가 함께 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열수력 코드 개발, 2상유동 실험",
       "departmentId": "nuclear",
       "keywords": [
         "열수력",
         "원자력",
-        "계통"
+        "계통",
+        "열수력 코드 개발",
+        "2상유동 실험"
       ],
       "sourceIds": [
-        "src-nuclear-thermal"
+        "src-nuclear-thermal",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -178,16 +190,17 @@
       "id": "prof-nuclear-reactor",
       "kind": "researcher",
       "name": "주한규",
-      "summary": "원자핵공학과 공식 연구실 안내에 Reactor Physics Laboratory와 주한규 교수가 함께 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 원자로물리",
       "departmentId": "nuclear",
       "keywords": [
         "원자로물리",
         "원자력"
       ],
       "sourceIds": [
-        "src-nuclear-reactor"
+        "src-nuclear-reactor",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {
@@ -210,16 +223,18 @@
       "id": "prof-nuclear-radiation",
       "kind": "researcher",
       "name": "김은희",
-      "summary": "원자핵공학과 공식 연구실 안내에 Radiation Bioengineering Laboratory와 김은희 교수가 함께 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 방사선 방호",
       "departmentId": "nuclear",
       "keywords": [
         "방사선",
-        "생명공학"
+        "생명공학",
+        "방사선 방호"
       ],
       "sourceIds": [
-        "src-nuclear-radiation"
+        "src-nuclear-radiation",
+        "profile-source-nuclear-14"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
     },
     {

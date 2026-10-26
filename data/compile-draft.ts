@@ -15,7 +15,7 @@ function merge<T extends { id: string }>(groups: T[][], allowIdentical = false):
 }
 
 export async function compileDraft(): Promise<Snapshot> {
-  const files = [...departments.departments.map(d => d.id), 'shared', 'faculty-inventory', 'nuclear-inventory', 'aerospace-inventory', 'irf-inventory', 'isrc-inventory', 'cbe-equipment', 'gece-spaces'];
+  const files = [...departments.departments.map(d => d.id), 'shared', 'faculty-inventory', 'nuclear-inventory', 'aerospace-inventory', 'irf-inventory', 'isrc-inventory', 'cbe-equipment', 'gece-spaces', 'department-profiles'];
   const drafts = await Promise.all(files.map(async id => SnapshotSchema.parse(JSON.parse(await readFile(new URL(`./drafts/${id}.json`, import.meta.url), 'utf8')))));
   if (drafts.some(d => d.manifest.publication !== 'prototype')) throw new Error('Compile pending drafts only; approved batches must be exported by the worker');
   const generatedAt = drafts.map(d => d.manifest.generatedAt).sort().at(-1)!;

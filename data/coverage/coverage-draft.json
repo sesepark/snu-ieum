@@ -773,132 +773,110 @@
     {
       "departmentId": "industrial",
       "kind": "researcher",
-      "complete": false,
+      "complete": true,
       "sourceIds": [
-        "source-eng-directory-1",
-        "source-eng-directory-2",
-        "source-eng-directory-3",
-        "source-eng-directory-4",
-        "source-eng-directory-5",
-        "source-eng-directory-6",
-        "source-eng-directory-7",
-        "source-eng-directory-8",
-        "source-eng-directory-9",
-        "source-eng-directory-10",
-        "source-eng-directory-11",
-        "source-eng-directory-12",
-        "source-eng-directory-13",
-        "source-eng-directory-14",
-        "source-eng-directory-15",
-        "source-eng-directory-16",
-        "source-eng-directory-17",
-        "source-eng-directory-18",
-        "source-eng-directory-19",
-        "source-eng-directory-20",
-        "source-eng-directory-21",
-        "source-eng-directory-22",
-        "source-eng-directory-23"
+        "profile-source-industrial-1"
       ],
-      "checkedAt": "2026-10-26T16:43:51.267Z",
-      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
+      "checkedAt": "2026-10-26T17:46:17.279Z",
+      "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
       "entries": [
         {
-          "externalId": "directory-industrial-pohhobncobce",
+          "externalId": "official-faculty-industrial-1",
           "name": "강필성",
           "resourceId": "prof-industrial-dsba",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-ofpanjencloh",
+          "externalId": "official-faculty-industrial-2",
           "name": "금영정",
           "resourceId": "prof-dir-industrial-ofpanjencloh",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-pohilfgakejb",
+          "externalId": "official-faculty-industrial-3",
           "name": "문일경",
           "resourceId": "prof-dir-industrial-pohilfgakejb",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-dolbcmikjdfl",
+          "externalId": "official-faculty-industrial-4",
           "name": "박건수",
           "resourceId": "prof-dir-industrial-dolbcmikjdfl",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-iichgmhjbkbn",
+          "externalId": "official-faculty-industrial-5",
           "name": "박명주",
           "resourceId": "prof-industrial-or",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-ikbdfplkcici",
+          "externalId": "official-faculty-industrial-6",
           "name": "박우진",
           "resourceId": "prof-dir-industrial-ikbdfplkcici",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-lpkepmdnfhlf",
+          "externalId": "official-faculty-industrial-7",
           "name": "박종헌",
           "resourceId": "prof-dir-industrial-lpkepmdnfhlf",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-hoeonmkcgkjk",
+          "externalId": "official-faculty-industrial-8",
           "name": "윤명환",
           "resourceId": "prof-industrial-his",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-jbljnjdfecda",
+          "externalId": "official-faculty-industrial-9",
           "name": "이경식",
           "resourceId": "prof-dir-industrial-jbljnjdfecda",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-olabcknbecgo",
+          "externalId": "official-faculty-industrial-10",
           "name": "이덕주",
           "resourceId": "prof-dir-industrial-olabcknbecgo",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-kganfepnehig",
+          "externalId": "official-faculty-industrial-11",
           "name": "이성주",
           "resourceId": "prof-dir-industrial-kganfepnehig",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-acbjeidoanfd",
+          "externalId": "official-faculty-industrial-12",
           "name": "이재욱",
           "resourceId": "prof-dir-industrial-acbjeidoanfd",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-mebgpdgakfbi",
+          "externalId": "official-faculty-industrial-13",
           "name": "장우진",
           "resourceId": "prof-dir-industrial-mebgpdgakfbi",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-industrial-hlcjgfikjkbl",
+          "externalId": "official-faculty-industrial-14",
           "name": "홍유석",
           "resourceId": "prof-dir-industrial-hlcjgfikjkbl",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         }
       ]
     },
@@ -921,31 +899,31 @@
         },
         {
           "externalId": "official-lab-industrial-2",
-          "name": "경제성분석 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "name": "경제성분석연구실",
+          "resourceId": "lab-current-industrial-b",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-3",
           "name": "공급망관리 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-c",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-4",
           "name": "금융리스크공학 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-d",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-5",
           "name": "기술 인텔리전스 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-e",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-6",
@@ -957,58 +935,58 @@
         {
           "externalId": "official-lab-industrial-7",
           "name": "빅데이터 AI 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-g",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-8",
-          "name": "삶향상기술 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "name": "삶향상기술연구실",
+          "resourceId": "lab-current-industrial-h",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-9",
-          "name": "서비스혁신 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "name": "서비스 혁신 연구실",
+          "resourceId": "lab-current-industrial-i",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-10",
           "name": "시스템최적화 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-j",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-11",
           "name": "운영관리 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-k",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-12",
           "name": "정보경영 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-l",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-13",
           "name": "제품서비스공학 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-m",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-14",
           "name": "통계학습 및 계산금융 연구실",
-          "resourceId": null,
-          "status": "missing",
-          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+          "resourceId": "lab-current-industrial-n",
+          "status": "matched",
+          "reason": null
         },
         {
           "externalId": "official-lab-industrial-15",
@@ -1159,111 +1137,110 @@
     {
       "departmentId": "nuclear",
       "kind": "researcher",
-      "complete": false,
+      "complete": true,
       "sourceIds": [
-        "source-eng-directory-1",
-        "source-eng-directory-2",
-        "source-eng-directory-3",
-        "source-eng-directory-4",
-        "source-eng-directory-5",
-        "source-eng-directory-6",
-        "source-eng-directory-7",
-        "source-eng-directory-8",
-        "source-eng-directory-9",
-        "source-eng-directory-10",
-        "source-eng-directory-11",
-        "source-eng-directory-12",
-        "source-eng-directory-13",
-        "source-eng-directory-14",
-        "source-eng-directory-15",
-        "source-eng-directory-16",
-        "source-eng-directory-17",
-        "source-eng-directory-18",
-        "source-eng-directory-19",
-        "source-eng-directory-20",
-        "source-eng-directory-21",
-        "source-eng-directory-22",
-        "source-eng-directory-23"
+        "profile-source-nuclear-14"
       ],
-      "checkedAt": "2026-10-26T16:43:51.267Z",
-      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
+      "checkedAt": "2026-10-26T17:46:17.279Z",
+      "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
       "entries": [
         {
-          "externalId": "directory-nuclear-jpdihpiddmcb",
+          "externalId": "official-faculty-nuclear-1",
           "name": "김기현",
           "resourceId": "prof-dir-nuclear-jpdihpiddmcb",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-fnlaggoijcje",
+          "externalId": "official-faculty-nuclear-2",
           "name": "김은희",
           "resourceId": "prof-nuclear-radiation",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-plibkhmkmkpj",
+          "externalId": "official-faculty-nuclear-3",
+          "name": "김응수",
+          "resourceId": "prof-current-nuclear-c",
+          "status": "needs-review",
+          "reason": "학과 현직 목록에는 있으나 공대 교수검색 누락/갱신 시차 대조 필요"
+        },
+        {
+          "externalId": "official-faculty-nuclear-4",
           "name": "나용수",
           "resourceId": "prof-dir-nuclear-plibkhmkmkpj",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-olnhpapekfib",
+          "externalId": "official-faculty-nuclear-5",
           "name": "박설혜",
           "resourceId": "prof-dir-nuclear-olnhpapekfib",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-jgofoampeoik",
+          "externalId": "official-faculty-nuclear-6",
+          "name": "박종규",
+          "resourceId": "prof-current-nuclear-f",
+          "status": "needs-review",
+          "reason": "학과 현직 목록에는 있으나 공대 교수검색 누락/갱신 시차 대조 필요"
+        },
+        {
+          "externalId": "official-faculty-nuclear-7",
           "name": "심형진",
           "resourceId": "prof-dir-nuclear-jgofoampeoik",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-deflpkghlnhp",
+          "externalId": "official-faculty-nuclear-8",
+          "name": "오다타쿠지",
+          "resourceId": "prof-current-nuclear-h",
+          "status": "needs-review",
+          "reason": "학과 현직 목록에는 있으나 공대 교수검색 누락/갱신 시차 대조 필요"
+        },
+        {
+          "externalId": "official-faculty-nuclear-9",
           "name": "이유호",
           "resourceId": "prof-dir-nuclear-deflpkghlnhp",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-cpafkbbgbepi",
+          "externalId": "official-faculty-nuclear-10",
           "name": "정경재",
           "resourceId": "prof-dir-nuclear-cpafkbbgbepi",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-lhlheamlephk",
+          "externalId": "official-faculty-nuclear-11",
           "name": "조형규",
           "resourceId": "prof-nuclear-thermal",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-aokdljmmajnc",
+          "externalId": "official-faculty-nuclear-12",
           "name": "주한규",
           "resourceId": "prof-nuclear-reactor",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-cbdenbojboga",
+          "externalId": "official-faculty-nuclear-13",
           "name": "최성열",
           "resourceId": "prof-dir-nuclear-cbdenbojboga",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-nuclear-eaophadchiib",
+          "externalId": "official-faculty-nuclear-14",
           "name": "황용석",
           "resourceId": "prof-dir-nuclear-eaophadchiib",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         }
       ]
     },
@@ -2747,125 +2724,110 @@
     {
       "departmentId": "aerospace",
       "kind": "researcher",
-      "complete": false,
+      "complete": true,
       "sourceIds": [
-        "source-eng-directory-1",
-        "source-eng-directory-2",
-        "source-eng-directory-3",
-        "source-eng-directory-4",
-        "source-eng-directory-5",
-        "source-eng-directory-6",
-        "source-eng-directory-7",
-        "source-eng-directory-8",
-        "source-eng-directory-9",
-        "source-eng-directory-10",
-        "source-eng-directory-11",
-        "source-eng-directory-12",
-        "source-eng-directory-13",
-        "source-eng-directory-14",
-        "source-eng-directory-15",
-        "source-eng-directory-16",
-        "source-eng-directory-17",
-        "source-eng-directory-18",
-        "source-eng-directory-19",
-        "source-eng-directory-20",
-        "source-eng-directory-21",
-        "source-eng-directory-22",
-        "source-eng-directory-23"
+        "profile-source-aerospace-15"
       ],
-      "checkedAt": "2026-10-26T16:43:51.267Z",
-      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
+      "checkedAt": "2026-10-26T17:46:17.279Z",
+      "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
       "entries": [
         {
-          "externalId": "directory-aerospace-gaefkmhffhem",
+          "externalId": "official-faculty-aerospace-1",
+          "name": "기창돈",
+          "resourceId": "prof-current-aerospace-a",
+          "status": "needs-review",
+          "reason": "학과 현직 목록에는 있으나 공대 교수검색 누락/갱신 시차 대조 필요"
+        },
+        {
+          "externalId": "official-faculty-aerospace-2",
           "name": "김규홍",
           "resourceId": "prof-dir-aerospace-gaefkmhffhem",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-piednglijhic",
+          "externalId": "official-faculty-aerospace-3",
           "name": "김윤호",
           "resourceId": "prof-dir-aerospace-piednglijhic",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-ibdajfjepjpe",
+          "externalId": "official-faculty-aerospace-4",
           "name": "김종암",
           "resourceId": "prof-aerospace-aerodynamics",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-mbbpgahfndao",
+          "externalId": "official-faculty-aerospace-5",
           "name": "김현진",
           "resourceId": "prof-dir-aerospace-mbbpgahfndao",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-ofleljlbmoie",
+          "externalId": "official-faculty-aerospace-6",
           "name": "박찬국",
           "resourceId": "prof-aerospace-navigation",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-lhigidmdclgo",
+          "externalId": "official-faculty-aerospace-7",
           "name": "박형준",
           "resourceId": "prof-dir-aerospace-lhigidmdclgo",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-ggdbnhbejecn",
+          "externalId": "official-faculty-aerospace-8",
           "name": "신상준",
           "resourceId": "prof-dir-aerospace-ggdbnhbejecn",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-lfhgjdfahege",
+          "externalId": "official-faculty-aerospace-9",
           "name": "여재익",
           "resourceId": "prof-dir-aerospace-lfhgjdfahege",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-plleclfggfkp",
+          "externalId": "official-faculty-aerospace-10",
           "name": "윤군진",
           "resourceId": "prof-dir-aerospace-plleclfggfkp",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-foimgmpmpjch",
+          "externalId": "official-faculty-aerospace-11",
           "name": "윤영빈",
           "resourceId": "prof-aerospace-rocket",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-lpliopomchpl",
+          "externalId": "official-faculty-aerospace-12",
           "name": "이관중",
           "resourceId": "prof-dir-aerospace-lpliopomchpl",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-ihljlklhldfg",
+          "externalId": "official-faculty-aerospace-13",
           "name": "이복직",
           "resourceId": "prof-dir-aerospace-ihljlklhldfg",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "directory-aerospace-pkcechgjodfo",
+          "externalId": "official-faculty-aerospace-14",
           "name": "조남훈",
           "resourceId": "prof-dir-aerospace-pkcechgjodfo",
-          "status": "needs-review",
-          "reason": "학과 현직 전임 목록 교차 대조 대기"
+          "status": "matched",
+          "reason": null
         }
       ]
     },
@@ -10367,6 +10329,1278 @@
             "src-shared-gece"
           ],
           "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-industrial-dsba",
+      "fields": {
+        "researchFields": {
+          "value": "산업 데이터 애널리틱스, 멀티모달(시계열/자연어/비전) 인공지능",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://dsba.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-ofpanjencloh",
+      "fields": {
+        "researchFields": {
+          "value": "데이터 기반 기술기획, 서비스 혁신, 연구개발관리",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://ddsi.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-pohilfgakejb",
+      "fields": {
+        "researchFields": {
+          "value": "생산관리, 공급망관리, 물류관리",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://scm.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-dolbcmikjdfl",
+      "fields": {
+        "researchFields": {
+          "value": "생산서비스 운영관리, 공급망관리, 재고관리, 물류관리",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://om.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-industrial-or",
+      "fields": {
+        "researchFields": {
+          "value": "수리계획법, 조합최적화, 근사해법, 스케줄링",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://or.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-ikbdfplkcici",
+      "fields": {
+        "researchFields": {
+          "value": "인간공학, 생성형 인공지능, 인공지능 응용, 자동차인간공학, UI/UX, 작업생체역학, 창의적사고",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://let.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-lpkepmdnfhlf",
+      "fields": {
+        "researchFields": {
+          "value": "기계학습 산업응용",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://imlab.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-industrial-his",
+      "fields": {
+        "researchFields": {
+          "value": "인간공학, 인간-컴퓨터 상호작용, 사용자 중심 제품 디자인, 인체 역학, 감성공학, 인간-AI 협업 등",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://his.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-jbljnjdfecda",
+      "fields": {
+        "researchFields": {
+          "value": "정수최적화, 조합최적화, 불확실성하에서의 최적화, 생산/물류/에너지 시스템 최적화, 최적화 산업 응용",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://optimize.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-olabcknbecgo",
+      "fields": {
+        "researchFields": {
+          "value": "기술시스템 경제성 분석, 시장설계 산업응용",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://leesa.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-kganfepnehig",
+      "fields": {
+        "researchFields": {
+          "value": "기술경영 및 애널리틱스, 혁신정책, 지식재산관리",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://tma.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-acbjeidoanfd",
+      "fields": {
+        "researchFields": {
+          "value": "Safe AI, 핀테크, 통계학습 & 계산 금융",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://slcf.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-mebgpdgakfbi",
+      "fields": {
+        "researchFields": {
+          "value": "금융공학, 확률모형, 웨이블렛 분석",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://fre.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-industrial-hlcjgfikjkbl",
+      "fields": {
+        "researchFields": {
+          "value": "제품 서비스 융합을 통한 가치혁신, 아키텍처 기반의 시스템 분석 및 개발, 개발 프로세스의 효율, 위험, 품질 관리, 제품 서비스 설계",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://product.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-industrial-or",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 수리계획법, 조합최적화, 근사해법, 스케줄링, 수치최적화, 동적최적화",
+          "sourceIds": [
+            "src-industrial-or"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://or.snu.ac.kr/",
+          "sourceIds": [
+            "src-industrial-or"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "src-industrial-or"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-b",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 에너지 시스템 등 기술 시스템 대상 경제적 타당성 분석▪ 게임이론 응용 연구 및 메커니즘 디자인 기반 시장 설계 연구▪ 불확실성 하에서의 투자 의사결정 분석",
+          "sourceIds": [
+            "profile-source-industrial-2"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://leesa.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-2"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-2"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-c",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 스마트 시티▪ 해운 물류▪ 항공 물류",
+          "sourceIds": [
+            "profile-source-industrial-3"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://scm.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-3"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-3"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-d",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 경제 물리학을 이용한 경제현상 분석▪ 강화학습 기반 트레이딩 전략 개발▪ 머신러닝 기반 금융 시계열 분석 및 예측",
+          "sourceIds": [
+            "profile-source-industrial-4"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://fre.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-4"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-4"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-e",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 기술경영 및 애널리틱스: 기술 전략 및 로드맵핑, R&D 프로젝트 관리, 지식재산 및 데이터 가치평가, 미래 예측 및 유망 기술 발굴, 특허/상표 분석 방법론 개발 및 응용 등▪ 기술정책: 과학·산업 기술정책 수립, 데이터 기반 기술/산업 모니터링 등",
+          "sourceIds": [
+            "profile-source-industrial-5"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://www.tma.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-5"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-5"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-industrial-dsba",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 시계열 데이터: 시계열 표상 학습, 이상치 탐지 및 예측 방법론 개발 및 응용▪ 자연어 데이터: 오피니언 마이닝, 로그 이상치 탐지, 언어모델의 효율적 학습▪ 이미지 데이터: 이미지 이상치 탐지, Active Learning, 비전-언어 모델 등",
+          "sourceIds": [
+            "src-industrial-dsba"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://dsba.snu.ac.kr/",
+          "sourceIds": [
+            "src-industrial-dsba"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "src-industrial-dsba"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-g",
+      "fields": {
+        "researchFields": {
+          "value": "▪ Data Mining▪ Artificial Intelligence▪ Deep Learning",
+          "sourceIds": [
+            "profile-source-industrial-6"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://dm.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-6"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-6"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-h",
+      "fields": {
+        "researchFields": {
+          "value": "▪ Human factors/ergonomics▪ Generative AI▪ AI/ML applications▪ Automotive ergonomics▪ UI/UX▪ Occupational biomechanics▪ Creativity",
+          "sourceIds": [
+            "profile-source-industrial-7"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://let.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-7"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-7"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-i",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 데이터 기반 기술 및 서비스 혁신, 비즈니스 모델 혁신▪ 서비스 운영관리 및 데이터 기반 서비스 애널리틱스▪ 데이터 기반 로드매핑 및 연구개발관리",
+          "sourceIds": [
+            "profile-source-industrial-8"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://ddsi.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-8"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-8"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-j",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 최적화 이론 및 알고리듬: 정수최적화, 네트워크최적화, 동적최적화, 강건최적화, 확률적최적화 등▪ 최적화 기술의 산업 응용: 하이테크(반도체, 디스플레이), 물류/수송, 전력산업 (전력시장, 스마트그리드 등), 생산물류IT시스템(SCM, MES 등)",
+          "sourceIds": [
+            "profile-source-industrial-9"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://optimize.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-industrial-9"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-9"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-k",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 공급망 및 재고 관리 최적화 – 복잡한 다계층 공급망에서 고객 수요, 생산 과정, 공급자 변동성을 고려한 선제 대응전략 및 실행계획 도출▪ 물류 네트워크 설계 및 운영 최적화 – 물류 네트워크 설계와 생산 및 공정 관리 스케줄링(APS) 등 기업의 물류 운영 최적화 전략 연구▪ 공급망 위험을 고려한 재무 의사결정 최적화 – 고객 수요 변동과 공급자 위험을 고려한 공급망 계약, 판매가 및 구매조달 전략 등의 재무 의사결정 연구",
+          "sourceIds": [
+            "profile-source-industrial-10"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://om.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-10"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-10"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-l",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 예측형 인공지능(Predictive AI): 시계열 분석 및 예측, 이상 탐지 및 원인 분석, 투자 인공지능▪ 생성형 인공지능(Generative AI): 멀티모달 생성 모델, 음악 인공지능",
+          "sourceIds": [
+            "profile-source-industrial-11"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://imlab.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-11"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-11"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-m",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 아키텍처 기반의 시스템 분석 및 개발▪ 제품/서비스 융합을 통한 가치혁신▪ 개발 프로세스의 효율, 위험, 품질 관리",
+          "sourceIds": [
+            "profile-source-industrial-12"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://product.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-12"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-12"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-current-industrial-n",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 데이터 프라이버시▪ 딥러닝 기반 시계열 예측▪ 금융 및 블록체인 도메인 연구",
+          "sourceIds": [
+            "profile-source-industrial-13"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://safeai.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-industrial-13"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "profile-source-industrial-13"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-industrial-his",
+      "fields": {
+        "researchFields": {
+          "value": "▪ 인간공학 (Ergonomics), HCI (human-computer interaction)▪ 사용자 경험(UX) 설계, 사용자 중심 디자인 (User-centered Design)▪ 생체역학 (biomechanics)",
+          "sourceIds": [
+            "src-industrial-his"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://hislabmanager.mycafe24.com/",
+          "sourceIds": [
+            "src-industrial-his"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "서울대학교 산업공학과",
+          "sourceIds": [
+            "src-industrial-his"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-jpdihpiddmcb",
+      "fields": {
+        "researchFields": {
+          "value": "방사선 계측 및 응용",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://snuns.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-nuclear-radiation",
+      "fields": {
+        "researchFields": {
+          "value": "방사선 방호",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-current-nuclear-c",
+      "fields": {
+        "researchFields": {
+          "value": "원자력 시스템 및 안전",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://snueslab.com",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-plibkhmkmkpj",
+      "fields": {
+        "researchFields": {
+          "value": "핵융합 공학 및 플라즈마 물리",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://fusma.snu.ac.kr/plare/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-olnhpapekfib",
+      "fields": {
+        "researchFields": {
+          "value": "핵융합 및 플라즈마 물리",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://snupal.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-current-nuclear-f",
+      "fields": {
+        "researchFields": {
+          "value": "핵융합 및 플라즈마 물리",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-jgofoampeoik",
+      "fields": {
+        "researchFields": {
+          "value": "원자로 물리 및 전산수치해석",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://mcl.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-current-nuclear-h",
+      "fields": {
+        "researchFields": {
+          "value": "핵재료 모델링 및 시뮬레이션",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://sites.google.com/snu.ac.kr/snu-nmml/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-deflpkghlnhp",
+      "fields": {
+        "researchFields": {
+          "value": "핵연료재료 및 원자로공학",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://fuel.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-cpafkbbgbepi",
+      "fields": {
+        "researchFields": {
+          "value": "플라즈마 및 방사선 소스 공학",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://snupi.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-nuclear-thermal",
+      "fields": {
+        "researchFields": {
+          "value": "열수력 코드 개발, 2상유동 실험",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://nuthel.com/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-nuclear-reactor",
+      "fields": {
+        "researchFields": {
+          "value": "원자로물리",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://neutron.snu.ac.kr/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-cbdenbojboga",
+      "fields": {
+        "researchFields": {
+          "value": "핵연료주기, 사용후핵연료 관리",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "https://www.snunfc.com/",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-nuclear-eaophadchiib",
+      "fields": {
+        "researchFields": {
+          "value": "핵융합 공학 및 플라즈마 물리",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "officialHomepage": {
+          "value": "http://nuplex.snu.ac.kr",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        },
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-current-aerospace-a",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-gaefkmhffhem",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-piednglijhic",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-aerospace-aerodynamics",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-mbbpgahfndao",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-aerospace-navigation",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-lhigidmdclgo",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-ggdbnhbejecn",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-lfhgjdfahege",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-plleclfggfkp",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-aerospace-rocket",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-lpliopomchpl",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-ihljlklhldfg",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-aerospace-pkcechgjodfo",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ],
+          "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
         }
       }
     }

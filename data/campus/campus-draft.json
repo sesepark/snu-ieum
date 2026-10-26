@@ -2863,6 +2863,186 @@
       "lastVerifiedAt": "2026-10-26T17:24:25.947Z",
       "contentUpdatedAt": null,
       "redistribution": "metadata-only"
+    },
+    {
+      "id": "profile-source-industrial-1",
+      "url": "https://ie.snu.ac.kr/professor/",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-2",
+      "url": "https://ie.snu.ac.kr/leesa/",
+      "title": "경제성분석연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-3",
+      "url": "https://ie.snu.ac.kr/scm_lab/",
+      "title": "공급망관리 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-4",
+      "url": "https://ie.snu.ac.kr/fre_lab/",
+      "title": "금융리스크공학 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-5",
+      "url": "https://ie.snu.ac.kr/ti_lab/",
+      "title": "기술 인텔리전스 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-6",
+      "url": "https://ie.snu.ac.kr/bdai_lab/",
+      "title": "빅데이터 AI 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-7",
+      "url": "https://ie.snu.ac.kr/let_lab/",
+      "title": "삶향상기술연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-8",
+      "url": "https://ie.snu.ac.kr/service_inno_lab/",
+      "title": "서비스 혁신 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-9",
+      "url": "https://ie.snu.ac.kr/optimize_lab/",
+      "title": "시스템최적화 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-10",
+      "url": "https://ie.snu.ac.kr/om_lab/",
+      "title": "운영관리 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-11",
+      "url": "https://ie.snu.ac.kr/im_lab/",
+      "title": "정보경영 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-12",
+      "url": "https://ie.snu.ac.kr/pse_lab/",
+      "title": "제품서비스공학 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-industrial-13",
+      "url": "https://ie.snu.ac.kr/slcf_lab/",
+      "title": "통계학습 및 계산금융 연구실 공식 소개",
+      "organization": "서울대학교 산업공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 산업공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-nuclear-14",
+      "url": "https://nucleng.snu.ac.kr/about/people/faculty",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 원자핵공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 원자핵공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-source-aerospace-15",
+      "url": "https://aerospace.snu.ac.kr/about/faculty",
+      "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
+      "organization": "서울대학교 항공우주공학과",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 항공우주공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
     }
   ],
   "colleges": [
@@ -21256,42 +21436,6 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-prof-nuclear-thermal",
-      "resourceId": "prof-nuclear-thermal",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-nuclear-reactor",
-      "resourceId": "prof-nuclear-reactor",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-nuclear-radiation",
-      "resourceId": "prof-nuclear-radiation",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-prof-materials-mechanics",
       "resourceId": "prof-materials-mechanics",
       "buildingId": null,
@@ -22123,48 +22267,6 @@
       "reason": null
     },
     {
-      "id": "location-lab-industrial-or-39",
-      "resourceId": "lab-industrial-or",
-      "buildingId": "snu-39",
-      "purpose": "lab",
-      "room": "310호",
-      "status": "verified",
-      "sourceIds": [
-        "src-industrial-or"
-      ],
-      "addressText": "39동 310호",
-      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
-      "reason": null
-    },
-    {
-      "id": "location-lab-industrial-dsba-39",
-      "resourceId": "lab-industrial-dsba",
-      "buildingId": "snu-39",
-      "purpose": "lab",
-      "room": "411호",
-      "status": "verified",
-      "sourceIds": [
-        "src-industrial-dsba"
-      ],
-      "addressText": "39동 411호",
-      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
-      "reason": null
-    },
-    {
-      "id": "location-lab-industrial-his-39",
-      "resourceId": "lab-industrial-his",
-      "buildingId": "snu-39",
-      "purpose": "lab",
-      "room": "338호",
-      "status": "verified",
-      "sourceIds": [
-        "src-industrial-his"
-      ],
-      "addressText": "39동 338호",
-      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
-      "reason": null
-    },
-    {
       "id": "location-lab-nuclear-thermal-31",
       "resourceId": "lab-nuclear-thermal",
       "buildingId": "snu-31",
@@ -22273,48 +22375,6 @@
         "src-aerospace-aerodynamics"
       ],
       "addressText": "133동 607호",
-      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
-      "reason": null
-    },
-    {
-      "id": "location-prof-industrial-dsba-39",
-      "resourceId": "prof-industrial-dsba",
-      "buildingId": "snu-39",
-      "purpose": "office",
-      "room": "301호",
-      "status": "verified",
-      "sourceIds": [
-        "official-address-ie-faculty"
-      ],
-      "addressText": "39동 301호",
-      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
-      "reason": null
-    },
-    {
-      "id": "location-prof-industrial-or-39",
-      "resourceId": "prof-industrial-or",
-      "buildingId": "snu-39",
-      "purpose": "office",
-      "room": "302호",
-      "status": "verified",
-      "sourceIds": [
-        "official-address-ie-faculty"
-      ],
-      "addressText": "39동 302호",
-      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
-      "reason": null
-    },
-    {
-      "id": "location-prof-industrial-his-39",
-      "resourceId": "prof-industrial-his",
-      "buildingId": "snu-39",
-      "purpose": "office",
-      "room": "303호",
-      "status": "verified",
-      "sourceIds": [
-        "official-address-ie-faculty"
-      ],
-      "addressText": "39동 303호",
       "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
       "reason": null
     },
@@ -25732,6 +25792,608 @@
       ],
       "addressText": "38동 지하1층",
       "lastVerifiedAt": "2026-10-26T17:10:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-industrial-dsba-39",
+      "resourceId": "prof-industrial-dsba",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "301호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 301호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-ofpanjencloh-39",
+      "resourceId": "prof-dir-industrial-ofpanjencloh",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "304호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 304호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-pohilfgakejb-39",
+      "resourceId": "prof-dir-industrial-pohilfgakejb",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "330호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 330호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-dolbcmikjdfl-39",
+      "resourceId": "prof-dir-industrial-dolbcmikjdfl",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "332호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 332호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-industrial-or-39",
+      "resourceId": "prof-industrial-or",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "302호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 302호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-ikbdfplkcici-39",
+      "resourceId": "prof-dir-industrial-ikbdfplkcici",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "403호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 403호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-lpkepmdnfhlf-39",
+      "resourceId": "prof-dir-industrial-lpkepmdnfhlf",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "306호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 306호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-industrial-his-39",
+      "resourceId": "prof-industrial-his",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "303호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 303호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-jbljnjdfecda-39",
+      "resourceId": "prof-dir-industrial-jbljnjdfecda",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "333호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 333호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-olabcknbecgo-39",
+      "resourceId": "prof-dir-industrial-olabcknbecgo",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "405호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 405호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-kganfepnehig-39",
+      "resourceId": "prof-dir-industrial-kganfepnehig",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "331호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 331호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-acbjeidoanfd-39",
+      "resourceId": "prof-dir-industrial-acbjeidoanfd",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "402호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 402호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-mebgpdgakfbi-39",
+      "resourceId": "prof-dir-industrial-mebgpdgakfbi",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "305호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 305호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-industrial-hlcjgfikjkbl-39",
+      "resourceId": "prof-dir-industrial-hlcjgfikjkbl",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "328호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-1"
+      ],
+      "addressText": "서울대학교 공과대학 39동 328호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-industrial-or-39",
+      "resourceId": "lab-industrial-or",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "310호",
+      "status": "verified",
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "addressText": "39동 310호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-b-39",
+      "resourceId": "lab-current-industrial-b",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "315호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-2"
+      ],
+      "addressText": "39동 315호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-c-39",
+      "resourceId": "lab-current-industrial-c",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "312호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-3"
+      ],
+      "addressText": "39동 312호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-d-39",
+      "resourceId": "lab-current-industrial-d",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "319호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-4"
+      ],
+      "addressText": "39동 319호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-e-39",
+      "resourceId": "lab-current-industrial-e",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "314호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-5"
+      ],
+      "addressText": "39동 314호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-industrial-dsba-39",
+      "resourceId": "lab-industrial-dsba",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "411호",
+      "status": "verified",
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "addressText": "39동 411호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-g-39",
+      "resourceId": "lab-current-industrial-g",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "339호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-6"
+      ],
+      "addressText": "39동 339호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-h-39",
+      "resourceId": "lab-current-industrial-h",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "313호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-7"
+      ],
+      "addressText": "39동 313호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-i-39",
+      "resourceId": "lab-current-industrial-i",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "218호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-8"
+      ],
+      "addressText": "39동 218호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-j-39",
+      "resourceId": "lab-current-industrial-j",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "317호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-9"
+      ],
+      "addressText": "39동 317호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-k-39",
+      "resourceId": "lab-current-industrial-k",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "412호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-10"
+      ],
+      "addressText": "39동 412호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-l-39",
+      "resourceId": "lab-current-industrial-l",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "337호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-11"
+      ],
+      "addressText": "39동 337호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-m-39",
+      "resourceId": "lab-current-industrial-m",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "318호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-12"
+      ],
+      "addressText": "39동 318호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-current-industrial-n-39",
+      "resourceId": "lab-current-industrial-n",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "311호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-industrial-13"
+      ],
+      "addressText": "39동 311호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-lab-industrial-his-39",
+      "resourceId": "lab-industrial-his",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "338호",
+      "status": "verified",
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "addressText": "39동 338호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-jpdihpiddmcb-36",
+      "resourceId": "prof-dir-nuclear-jpdihpiddmcb",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "307C호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 307C호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-nuclear-radiation-36",
+      "resourceId": "prof-nuclear-radiation",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "308B호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 308B호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-current-nuclear-c-36",
+      "resourceId": "prof-current-nuclear-c",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "302A-3호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 302A-3호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-plibkhmkmkpj-36",
+      "resourceId": "prof-dir-nuclear-plibkhmkmkpj",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "308D호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 308D호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-olnhpapekfib-36",
+      "resourceId": "prof-dir-nuclear-olnhpapekfib",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "307B호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 307B호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-current-nuclear-f-36",
+      "resourceId": "prof-current-nuclear-f",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "304호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 304호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-jgofoampeoik-36",
+      "resourceId": "prof-dir-nuclear-jgofoampeoik",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "308C호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 308C호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-current-nuclear-h-36",
+      "resourceId": "prof-current-nuclear-h",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "303A호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 303A호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-deflpkghlnhp-36",
+      "resourceId": "prof-dir-nuclear-deflpkghlnhp",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "307A호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 307A호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-cpafkbbgbepi-36",
+      "resourceId": "prof-dir-nuclear-cpafkbbgbepi",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "307호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 307호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-nuclear-thermal-36",
+      "resourceId": "prof-nuclear-thermal",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "308A호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 308A호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-nuclear-reactor-36",
+      "resourceId": "prof-nuclear-reactor",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": null,
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 302A-2",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-cbdenbojboga-36",
+      "resourceId": "prof-dir-nuclear-cbdenbojboga",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "304A호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 304A호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-nuclear-eaophadchiib-36",
+      "resourceId": "prof-dir-nuclear-eaophadchiib",
+      "buildingId": "snu-36",
+      "purpose": "office",
+      "room": "307B호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-source-nuclear-14"
+      ],
+      "addressText": "36동 307B호",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "reason": null
     }
   ],
