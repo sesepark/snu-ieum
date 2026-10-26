@@ -6,7 +6,7 @@ import { verifiedAI } from './config.ts';
 const production = process.env.NODE_ENV === 'production';
 const pool = process.env.DATABASE_URL ? new Pool({ connectionString: process.env.DATABASE_URL, max: 10 }) : undefined;
 if (production && !pool) throw new Error('Production requires PostgreSQL');
-const repository = pool ? new PostgresRepository(pool) : new FileRepository(resolve('../../data/prototype.json'));
+const repository = pool ? new PostgresRepository(pool) : new FileRepository(resolve(process.env.IEUM_SNAPSHOT_PATH || '../../data/college-draft.json'));
 const ai = verifiedAI(pool);
 const origin = process.env.CORS_ORIGIN || 'https://sesepark.github.io';
 if (new URL(origin).origin !== origin || (production && !origin.startsWith('https://'))) throw new Error('CORS_ORIGIN must be an exact origin');

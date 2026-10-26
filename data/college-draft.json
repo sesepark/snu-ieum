@@ -1,0 +1,3168 @@
+{
+  "manifest": {
+    "version": "college-draft-20261026",
+    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "publication": "prototype",
+    "selectionReason": "12개 학과와 공용 시설의 공식 출처를 확인한 검수 초안을 통합했다. 학과별 선정 이유는 data/drafts에 기록했다. 건축학과 교수의 분야 대표성과 지도 연구실은 추가 검수가 필요하며 확인되지 않은 관계는 만들지 않았다. 모든 자원은 사람 승인 전이며 전수 조사·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "shared-irf",
+      "name": "기초과학공동기기원",
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "groupType": "shared"
+    },
+    {
+      "id": "shared-engineering",
+      "name": "공대 공용 공간",
+      "sourceIds": [
+        "src-shared-sinyang",
+        "src-shared-engineer-house",
+        "src-shared-gece"
+      ],
+      "groupType": "shared"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 학과/학부 목록",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-cee-urban",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1#faculty-27",
+      "organization": "서울대학교 건설환경도시공학부",
+      "title": "권영상 · 도시설계연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-cee-structural",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1#faculty-21",
+      "organization": "서울대학교 건설환경도시공학부",
+      "title": "김호경 · 구조설계연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-cee-water",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1#faculty-5",
+      "organization": "서울대학교 건설환경도시공학부",
+      "title": "최용주 · 수질환경실험실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-cee-paper",
+      "url": "https://wqe.snu.ac.kr/international-articles/",
+      "organization": "서울대학교 건설환경도시공학부 및 공식 연결 연구실",
+      "title": "공식 논문 목록·게재 안내 (Yongju Choi, 2026)",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "src-architecture-faculty",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 목록",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:24:21Z",
+      "lastVerifiedAt": "2026-10-26T11:24:21Z"
+    },
+    {
+      "id": "src-architecture-labs",
+      "url": "https://eng.snu.ac.kr/academics/graduate-programs/architecture-and-architectural-engineering",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 건축학과 대학원 연구실 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:24:21Z",
+      "lastVerifiedAt": "2026-10-26T11:24:21Z"
+    },
+    {
+      "id": "src-architecture-paper",
+      "url": "https://eng.snu.ac.kr/communication/promotion/news?bbsidx=5755&md=v",
+      "organization": "서울대학교 건축학과 및 공식 연결 연구실",
+      "title": "공대 공식 2025년 T.Y. Lin Award 수상 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "src-mechanical-robot",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "김아영 · 로봇 인식 및 공간 지능 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-mechanical-fluids",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "김호영 · 마이크로유체 및 소프트물질 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-mechanical-manufacturing",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "안성훈 · 혁신설계 및 통합생산 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-mechanical-paper",
+      "url": "https://me.snu.ac.kr/학부뉴스/document/11263/?mod=document&pageid=18&uid=11385",
+      "organization": "서울대학교 기계공학부 및 공식 연결 연구실",
+      "title": "공식 논문 목록·게재 안내 (김호영, 2023)",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "src-industrial-or",
+      "url": "https://ie.snu.ac.kr/or_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "박명주 · 경영과학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-industrial-dsba",
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "강필성 · 데이터과학 및 비즈니스 애널리틱스 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-industrial-his",
+      "url": "https://ie.snu.ac.kr/his_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "윤명환 · 휴먼인터페이스시스템 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-energy-recycling",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=17",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "강정신 · 제련 및 리사이클링 공정 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-energy-rock",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=15",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "민기복 · 암반공학 민기복 교수 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-energy-geochemistry",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=10",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "정은혜 · 에너지환경지구화학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-nuclear-thermal",
+      "url": "https://nucleng.snu.ac.kr/research/lab",
+      "organization": "서울대학교 원자핵공학과",
+      "title": "조형규 · 열수력계통연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-nuclear-reactor",
+      "url": "https://nucleng.snu.ac.kr/research/lab",
+      "organization": "서울대학교 원자핵공학과",
+      "title": "주한규 · 원자로물리연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-nuclear-radiation",
+      "url": "https://nucleng.snu.ac.kr/research/lab",
+      "organization": "서울대학교 원자핵공학과",
+      "title": "김은희 · 방사선 생명공학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-nuclear-paper",
+      "url": "https://nuthel.com/publications",
+      "organization": "서울대학교 원자핵공학과 및 공식 연결 연구실",
+      "title": "공식 논문 목록·게재 안내 (Cho, H. K., 2026)",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "src-materials-mechanics",
+      "url": "https://mamel.snu.ac.kr/professor-2/",
+      "organization": "서울대학교 재료공학부",
+      "title": "이명규 · 재료역학연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-bioinspired",
+      "url": "https://www.nkitae.org/",
+      "organization": "서울대학교 재료공학부",
+      "title": "남기태 · 생체분자나노재료연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-dna",
+      "url": "https://kimgroup-snu.wixsite.com/home/principal-investigator",
+      "organization": "서울대학교 재료공학부",
+      "title": "김영은 · THE KIM RESEARCH GROUP 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-mechanics-profile",
+      "url": "https://mse.snu.ac.kr/lee-myoung-gyu/",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "이명규 공식 교수 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-mechanics-home",
+      "url": "https://mamel.snu.ac.kr/",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "재료역학연구실 공식 연구 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-bioinspired-profile",
+      "url": "https://mse.snu.ac.kr/nam-ki-tae/",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "남기태 공식 교수 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-bioinspired-pi",
+      "url": "https://www.nkitae.org/professor/",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "BMNL 공식 Professor 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-dna-profile",
+      "url": "https://mse.snu.ac.kr/김영은/",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "김영은 공식 교수 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-dna-research",
+      "url": "https://kimgroup-snu.wixsite.com/home/research",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "THE KIM RESEARCH GROUP 공식 연구 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-ece-optics",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=138",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "박재형 · 3차원 광공학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-ece-flexible",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=130",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "홍용택 · 차세대 유연·신축성 전자소자 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-ece-mind",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=37",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "문태섭 · 기계지능 및 데이터사이언스 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-naval-fluids",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "김용환 · 해양유체역학연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-naval-systems",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "노명일 · 시스템설계연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-naval-energy",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "서유택 · 지속가능 에너지 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-naval-paper",
+      "url": "https://sydlab.snu.ac.kr/",
+      "organization": "서울대학교 조선해양공학과 및 공식 연결 연구실",
+      "title": "공식 논문 목록·게재 안내 (Myung-Il Roh, 2026)",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "s-afds",
+      "url": "https://cse.snu.ac.kr/en/research/labs/69",
+      "organization": "서울대학교 컴퓨터공학부",
+      "title": "Algorithmic Foundations of Data Science Lab",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-prof-afds",
+      "url": "https://cse.snu.ac.kr/en/people/faculty/161",
+      "organization": "서울대학교 컴퓨터공학부",
+      "title": "Chenglin Fan",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-bhi",
+      "url": "https://cse.snu.ac.kr/en/research/labs/8",
+      "organization": "서울대학교 컴퓨터공학부",
+      "title": "Bio and Health Informatics Lab",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-prof-bhi",
+      "url": "https://cse.snu.ac.kr/en/people/faculty/4",
+      "organization": "서울대학교 컴퓨터공학부",
+      "title": "Sun Kim",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-bi",
+      "url": "https://cse.snu.ac.kr/en/research/labs/4",
+      "organization": "서울대학교 컴퓨터공학부",
+      "title": "Biointelligence Lab",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-prof-bi",
+      "url": "https://cse.snu.ac.kr/en/people/faculty/55",
+      "organization": "서울대학교 컴퓨터공학부",
+      "title": "Byoung-Tak Zhang",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-cse-paper",
+      "url": "https://sites.google.com/snu.ac.kr/afdlabsnu/publications",
+      "organization": "서울대학교 컴퓨터공학부 및 공식 연결 연구실",
+      "title": "공식 논문 목록·게재 안내 (Chenglin Fan, 2026)",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "src-aerospace-aerodynamics",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "김종암 · 공력 시뮬레이션 및 디자인 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-aerospace-rocket",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "윤영빈 · 로켓추진연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-aerospace-navigation",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "박찬국 · 항법전자시스템 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-aerospace-paper",
+      "url": "https://mana.snu.ac.kr/publications/journal",
+      "organization": "서울대학교 항공우주공학과 및 공식 연결 연구실",
+      "title": "공식 논문 목록·게재 안내 (Chongam Kim, 2026)",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "src-chemical-flextronics",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3489",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김대형 · 플렉트로닉스 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "src-chemical-catalysis",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3481",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김도희 · 에너지 및 환경촉매 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "src-chemical-regenerative",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3473",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김병수 · 재생 바이오 의공학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "src-chemical-paper",
+      "url": "https://eecat.snu.ac.kr/publications/journal/index.jsp",
+      "organization": "서울대학교 화학생물공학부 및 공식 연결 연구실",
+      "title": "공식 논문 목록·게재 안내 (Do Heui Kim, 2026)",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "src-irf-105",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "300kV Cryo-EM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-1",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=1",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "300MHz NMR 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-109",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=109",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "CD 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-84",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=84",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "CLSM LSM980 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-108",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=108",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Cryo Sample Prep_Vitrobot 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-53",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=53",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Cs-STEM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-10",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=10",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Elemental Analyzer 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-106",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=106",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ESCA Axis Supra+ 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-100",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=100",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ESR 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-35",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=35",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FACS AriaII 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-54",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=54",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-EPMA 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-89",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=89",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FIB II 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-50",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=50",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FT-IR 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-15",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=15",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "GAMMA 조사기 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-74",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=74",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "GC-HRTOFMS 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-19",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=19",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "HRXRD 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-21",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=21",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ICP-MS 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-114",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=114",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MICADAS 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-113",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=113",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MRI 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-irf-91",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=91",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "XRM 공식 보유기기 상세",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-shared-sinyang",
+      "url": "https://eng.snu.ac.kr/about/support-facilities/sinyang-library",
+      "organization": "서울대학교 공과대학",
+      "title": "신양학술정보관 공식 시설현황",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-shared-engineer-house",
+      "url": "https://eng.snu.ac.kr/about/support-facilities/engineering-house",
+      "organization": "서울대학교 공과대학",
+      "title": "엔지니어하우스 공식 시설현황",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "src-shared-gece",
+      "url": "https://eng.snu.ac.kr/about/support-facilities/GECE",
+      "organization": "서울대학교 공과대학",
+      "title": "글로벌공학교육센터 공식 시설현황",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-cee-urban",
+      "kind": "researcher",
+      "name": "권영상",
+      "summary": "공식 전공은 도시계획 및 설계이며 교수 카드에 도시설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "도시계획",
+        "도시설계"
+      ],
+      "sourceIds": [
+        "src-cee-urban"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cee-urban",
+      "kind": "lab",
+      "name": "도시설계연구실",
+      "summary": "공식 전공은 도시계획 및 설계이며 교수 카드에 도시설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "도시계획",
+        "도시설계"
+      ],
+      "sourceIds": [
+        "src-cee-urban"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-cee-structural",
+      "kind": "researcher",
+      "name": "김호경",
+      "summary": "공식 전공은 구조설계공학이며 교수 카드에 구조설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "구조설계",
+        "구조공학"
+      ],
+      "sourceIds": [
+        "src-cee-structural"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cee-structural",
+      "kind": "lab",
+      "name": "구조설계연구실",
+      "summary": "공식 전공은 구조설계공학이며 교수 카드에 구조설계연구실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "구조설계",
+        "구조공학"
+      ],
+      "sourceIds": [
+        "src-cee-structural"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-cee-water",
+      "kind": "researcher",
+      "name": "최용주",
+      "summary": "공식 전공은 환경공학이며 교수 카드에 수질환경실험실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "환경공학",
+        "수질"
+      ],
+      "sourceIds": [
+        "src-cee-water"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-cee-water",
+      "kind": "lab",
+      "name": "수질환경실험실",
+      "summary": "공식 전공은 환경공학이며 교수 카드에 수질환경실험실이 명시되어 있다.",
+      "departmentId": "cee",
+      "keywords": [
+        "환경공학",
+        "수질"
+      ],
+      "sourceIds": [
+        "src-cee-water"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-architecture-bumjoon",
+      "kind": "researcher",
+      "name": "강범준",
+      "summary": "공대 공식 교수검색 목록에 건축학과 부교수로 수록되어 있다. 개별 연구 분야와 연구실 지도 관계는 추가 확인이 필요하다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과"
+      ],
+      "sourceIds": [
+        "src-architecture-faculty"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-architecture-yerin",
+      "kind": "researcher",
+      "name": "강예린",
+      "summary": "공대 공식 교수검색 목록에 건축학과 부교수로 수록되어 있다. 개별 연구 분야와 연구실 지도 관계는 추가 확인이 필요하다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과"
+      ],
+      "sourceIds": [
+        "src-architecture-faculty"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-architecture-hyungoo",
+      "kind": "researcher",
+      "name": "강현구",
+      "summary": "공대 공식 교수검색 목록에 건축학과 교수로 수록되어 있다. 개별 연구 분야와 연구실 지도 관계는 추가 확인이 필요하다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과"
+      ],
+      "sourceIds": [
+        "src-architecture-faculty"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-architecture-history",
+      "kind": "lab",
+      "name": "건축사연구실",
+      "summary": "공대 공식 대학원 안내에 건축역사와 한국·동아시아 건축, 역사 문헌·아카이빙을 연구하는 연구실로 소개되어 있다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축역사",
+        "한국건축사",
+        "아카이빙"
+      ],
+      "sourceIds": [
+        "src-architecture-labs"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-architecture-urban",
+      "kind": "lab",
+      "name": "건축도시공간연구실",
+      "summary": "공대 공식 대학원 안내에 공간분석·건축계획·도시설계를 연구하는 연구실로 소개되어 있다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "공간분석",
+        "건축계획",
+        "도시설계"
+      ],
+      "sourceIds": [
+        "src-architecture-labs"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-architecture-structures",
+      "kind": "lab",
+      "name": "고성능구조공학연구실",
+      "summary": "공대 공식 대학원 안내에 콘크리트 해석과 실험, 성능기반 내풍설계·전산유체해석을 연구하는 연구실로 소개되어 있다.",
+      "departmentId": "architecture",
+      "keywords": [
+        "구조공학",
+        "콘크리트",
+        "내풍설계",
+        "전산유체해석"
+      ],
+      "sourceIds": [
+        "src-architecture-labs"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:24:21Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-mechanical-robot",
+      "kind": "researcher",
+      "name": "김아영",
+      "summary": "공식 전임교수 안내에 로보틱스 전공과 로봇 인식 및 공간 지능 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "로보틱스",
+        "로봇 인식",
+        "공간 지능"
+      ],
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-mechanical-robot",
+      "kind": "lab",
+      "name": "로봇 인식 및 공간 지능 연구실",
+      "summary": "공식 전임교수 안내에 로보틱스 전공과 로봇 인식 및 공간 지능 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "로보틱스",
+        "로봇 인식",
+        "공간 지능"
+      ],
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-mechanical-fluids",
+      "kind": "researcher",
+      "name": "김호영",
+      "summary": "공식 전임교수 안내에 마이크로유체 및 소프트물질 전공과 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "마이크로유체",
+        "소프트물질"
+      ],
+      "sourceIds": [
+        "src-mechanical-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-mechanical-fluids",
+      "kind": "lab",
+      "name": "마이크로유체 및 소프트물질 연구실",
+      "summary": "공식 전임교수 안내에 마이크로유체 및 소프트물질 전공과 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "마이크로유체",
+        "소프트물질"
+      ],
+      "sourceIds": [
+        "src-mechanical-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-mechanical-manufacturing",
+      "kind": "researcher",
+      "name": "안성훈",
+      "summary": "공식 전임교수 안내에 설계 생산 전공과 혁신설계 및 통합생산 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "설계",
+        "생산",
+        "제조"
+      ],
+      "sourceIds": [
+        "src-mechanical-manufacturing"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-mechanical-manufacturing",
+      "kind": "lab",
+      "name": "혁신설계 및 통합생산 연구실",
+      "summary": "공식 전임교수 안내에 설계 생산 전공과 혁신설계 및 통합생산 연구실이 명시되어 있다.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "설계",
+        "생산",
+        "제조"
+      ],
+      "sourceIds": [
+        "src-mechanical-manufacturing"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-industrial-or",
+      "kind": "researcher",
+      "name": "박명주",
+      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "경영과학",
+        "최적화",
+        "스케줄링"
+      ],
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-industrial-or",
+      "kind": "lab",
+      "name": "경영과학 연구실",
+      "summary": "수리계획·조합최적화·스케줄링·수치 및 동적 최적화를 연구한다. 공식 연구실 소개에 박명주 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "경영과학",
+        "최적화",
+        "스케줄링"
+      ],
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-industrial-dsba",
+      "kind": "researcher",
+      "name": "강필성",
+      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "데이터과학",
+        "기계학습",
+        "시계열",
+        "자연어",
+        "이상치 탐지"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-industrial-dsba",
+      "kind": "lab",
+      "name": "데이터과학 및 비즈니스 애널리틱스 연구실",
+      "summary": "시계열·자연어·이미지 데이터를 활용한 산업 데이터 분석과 기계학습을 연구한다. 공식 연구실 소개에 강필성 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "데이터과학",
+        "기계학습",
+        "시계열",
+        "자연어",
+        "이상치 탐지"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-industrial-his",
+      "kind": "researcher",
+      "name": "윤명환",
+      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "인간공학",
+        "HCI",
+        "사용자 경험",
+        "생체역학"
+      ],
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-industrial-his",
+      "kind": "lab",
+      "name": "휴먼인터페이스시스템 연구실",
+      "summary": "인간공학·HCI·사용자 경험·생체역학을 바탕으로 인간 중심 제품 설계를 연구한다. 공식 연구실 소개에 윤명환 지도교수가 명시되어 있다.",
+      "departmentId": "industrial",
+      "keywords": [
+        "인간공학",
+        "HCI",
+        "사용자 경험",
+        "생체역학"
+      ],
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-energy-recycling",
+      "kind": "researcher",
+      "name": "강정신",
+      "summary": "희소금속의 제련과 폐자원 리사이클링 공정을 연구한다. 공식 교수 소개에 해당 연구실과 금속 회수·제조 주제가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "희소금속",
+        "제련",
+        "리사이클링",
+        "자원회수"
+      ],
+      "sourceIds": [
+        "src-energy-recycling"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-energy-recycling",
+      "kind": "lab",
+      "name": "제련 및 리사이클링 공정 연구실",
+      "summary": "희소금속의 제련과 폐자원 리사이클링 공정을 연구한다. 공식 교수 소개에 해당 연구실과 금속 회수·제조 주제가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "희소금속",
+        "제련",
+        "리사이클링",
+        "자원회수"
+      ],
+      "sourceIds": [
+        "src-energy-recycling"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-energy-rock",
+      "kind": "researcher",
+      "name": "민기복",
+      "summary": "열·수리·역학이 결합된 지하암반 거동을 연구하며 지열에너지·이산화탄소 지하저장·폐기물 지하처분을 응용 분야로 다룬다.",
+      "departmentId": "energy",
+      "keywords": [
+        "암반공학",
+        "지열",
+        "이산화탄소 저장",
+        "지하처분"
+      ],
+      "sourceIds": [
+        "src-energy-rock"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-energy-rock",
+      "kind": "lab",
+      "name": "암반공학 민기복 교수 연구실",
+      "summary": "열·수리·역학이 결합된 지하암반 거동을 연구하며 지열에너지·이산화탄소 지하저장·폐기물 지하처분을 응용 분야로 다룬다.",
+      "departmentId": "energy",
+      "keywords": [
+        "암반공학",
+        "지열",
+        "이산화탄소 저장",
+        "지하처분"
+      ],
+      "sourceIds": [
+        "src-energy-rock"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-energy-geochemistry",
+      "kind": "researcher",
+      "name": "정은혜",
+      "summary": "에너지 및 자원 생산 과정의 환경 문제와 유용자원 회수를 연구한다. 공식 소개에 환경지구화학과 오염수 내 자원 회수가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "환경지구화학",
+        "자원회수",
+        "환경오염"
+      ],
+      "sourceIds": [
+        "src-energy-geochemistry"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-energy-geochemistry",
+      "kind": "lab",
+      "name": "에너지환경지구화학 연구실",
+      "summary": "에너지 및 자원 생산 과정의 환경 문제와 유용자원 회수를 연구한다. 공식 소개에 환경지구화학과 오염수 내 자원 회수가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "환경지구화학",
+        "자원회수",
+        "환경오염"
+      ],
+      "sourceIds": [
+        "src-energy-geochemistry"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-nuclear-thermal",
+      "kind": "researcher",
+      "name": "조형규",
+      "summary": "원자핵공학과 공식 연구실 안내에 Nuclear Thermal-Hydraulic Engineering Laboratory와 조형규 교수가 함께 명시되어 있다.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "열수력",
+        "원자력",
+        "계통"
+      ],
+      "sourceIds": [
+        "src-nuclear-thermal"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-nuclear-thermal",
+      "kind": "lab",
+      "name": "열수력계통연구실",
+      "summary": "원자핵공학과 공식 연구실 안내에 Nuclear Thermal-Hydraulic Engineering Laboratory와 조형규 교수가 함께 명시되어 있다.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "열수력",
+        "원자력",
+        "계통"
+      ],
+      "sourceIds": [
+        "src-nuclear-thermal"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-nuclear-reactor",
+      "kind": "researcher",
+      "name": "주한규",
+      "summary": "원자핵공학과 공식 연구실 안내에 Reactor Physics Laboratory와 주한규 교수가 함께 명시되어 있다.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자로물리",
+        "원자력"
+      ],
+      "sourceIds": [
+        "src-nuclear-reactor"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-nuclear-reactor",
+      "kind": "lab",
+      "name": "원자로물리연구실",
+      "summary": "원자핵공학과 공식 연구실 안내에 Reactor Physics Laboratory와 주한규 교수가 함께 명시되어 있다.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자로물리",
+        "원자력"
+      ],
+      "sourceIds": [
+        "src-nuclear-reactor"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-nuclear-radiation",
+      "kind": "researcher",
+      "name": "김은희",
+      "summary": "원자핵공학과 공식 연구실 안내에 Radiation Bioengineering Laboratory와 김은희 교수가 함께 명시되어 있다.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "방사선",
+        "생명공학"
+      ],
+      "sourceIds": [
+        "src-nuclear-radiation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-nuclear-radiation",
+      "kind": "lab",
+      "name": "방사선 생명공학 연구실",
+      "summary": "원자핵공학과 공식 연구실 안내에 Radiation Bioengineering Laboratory와 김은희 교수가 함께 명시되어 있다.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "방사선",
+        "생명공학"
+      ],
+      "sourceIds": [
+        "src-nuclear-radiation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-materials-mechanics",
+      "kind": "researcher",
+      "name": "이명규",
+      "summary": "재료의 변형·손상과 다중스케일·다중물리 모델링을 연구한다. 공식 연구실의 Professor 페이지에서 이명규 교수와 재료공학부 소속을 확인했다.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료역학",
+        "다중스케일",
+        "다중물리",
+        "구조재료"
+      ],
+      "sourceIds": [
+        "src-materials-mechanics",
+        "src-materials-mechanics-profile",
+        "src-materials-mechanics-home"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-materials-mechanics",
+      "kind": "lab",
+      "name": "재료역학연구실",
+      "summary": "재료의 변형·손상과 다중스케일·다중물리 모델링을 연구한다. 공식 연구실의 Professor 페이지에서 이명규 교수와 재료공학부 소속을 확인했다.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료역학",
+        "다중스케일",
+        "다중물리",
+        "구조재료"
+      ],
+      "sourceIds": [
+        "src-materials-mechanics",
+        "src-materials-mechanics-profile",
+        "src-materials-mechanics-home"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-materials-bioinspired",
+      "kind": "researcher",
+      "name": "남기태",
+      "summary": "생체모사 소재와 에너지·광학 응용을 연구한다. 공식 연구실 홈페이지에 생체분자나노재료연구실과 Ki Tae Nam Research Lab이 명시되어 있다.",
+      "departmentId": "materials",
+      "keywords": [
+        "생체모사",
+        "나노재료",
+        "에너지 소재",
+        "광학"
+      ],
+      "sourceIds": [
+        "src-materials-bioinspired",
+        "src-materials-bioinspired-profile",
+        "src-materials-bioinspired-pi"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-materials-bioinspired",
+      "kind": "lab",
+      "name": "생체분자나노재료연구실",
+      "summary": "생체모사 소재와 에너지·광학 응용을 연구한다. 공식 연구실 홈페이지에 생체분자나노재료연구실과 Ki Tae Nam Research Lab이 명시되어 있다.",
+      "departmentId": "materials",
+      "keywords": [
+        "생체모사",
+        "나노재료",
+        "에너지 소재",
+        "광학"
+      ],
+      "sourceIds": [
+        "src-materials-bioinspired",
+        "src-materials-bioinspired-profile",
+        "src-materials-bioinspired-pi"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-materials-dna",
+      "kind": "researcher",
+      "name": "김영은",
+      "summary": "핵산 기반 소재를 활용한 바이오센서·동적 소재·진단 기술을 연구한다. 공식 학과 소개에서 연결한 연구실의 Principal Investigator는 김영은 교수다.",
+      "departmentId": "materials",
+      "keywords": [
+        "핵산",
+        "DNA",
+        "바이오센서",
+        "동적 소재"
+      ],
+      "sourceIds": [
+        "src-materials-dna",
+        "src-materials-dna-profile",
+        "src-materials-dna-research"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-materials-dna",
+      "kind": "lab",
+      "name": "THE KIM RESEARCH GROUP",
+      "summary": "핵산 기반 소재를 활용한 바이오센서·동적 소재·진단 기술을 연구한다. 공식 학과 소개에서 연결한 연구실의 Principal Investigator는 김영은 교수다.",
+      "departmentId": "materials",
+      "keywords": [
+        "핵산",
+        "DNA",
+        "바이오센서",
+        "동적 소재"
+      ],
+      "sourceIds": [
+        "src-materials-dna",
+        "src-materials-dna-profile",
+        "src-materials-dna-research"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-ece-optics",
+      "kind": "researcher",
+      "name": "박재형",
+      "summary": "공식 연구실 상세에 Advanced Optical Engineering, AR/VR Display와 박재형 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "광공학",
+        "AR",
+        "VR",
+        "디스플레이"
+      ],
+      "sourceIds": [
+        "src-ece-optics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-ece-optics",
+      "kind": "lab",
+      "name": "3차원 광공학 연구실",
+      "summary": "공식 연구실 상세에 Advanced Optical Engineering, AR/VR Display와 박재형 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "광공학",
+        "AR",
+        "VR",
+        "디스플레이"
+      ],
+      "sourceIds": [
+        "src-ece-optics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-ece-flexible",
+      "kind": "researcher",
+      "name": "홍용택",
+      "summary": "유연·신축성 전자소자와 회로, 인쇄 공정 기반 디스플레이·전자피부를 연구한다. 공식 상세에 홍용택 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "유연전자",
+        "신축성 소자",
+        "전자피부",
+        "디스플레이",
+        "인쇄 공정"
+      ],
+      "sourceIds": [
+        "src-ece-flexible"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-ece-flexible",
+      "kind": "lab",
+      "name": "차세대 유연·신축성 전자소자 연구실",
+      "summary": "유연·신축성 전자소자와 회로, 인쇄 공정 기반 디스플레이·전자피부를 연구한다. 공식 상세에 홍용택 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "유연전자",
+        "신축성 소자",
+        "전자피부",
+        "디스플레이",
+        "인쇄 공정"
+      ],
+      "sourceIds": [
+        "src-ece-flexible"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-ece-mind",
+      "kind": "researcher",
+      "name": "문태섭",
+      "summary": "디노이징·연속학습·메타학습·설명가능 인공지능·공정한 알고리즘을 연구한다. 공식 상세에 문태섭 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "기계학습",
+        "연속학습",
+        "메타학습",
+        "디노이징",
+        "설명가능 인공지능"
+      ],
+      "sourceIds": [
+        "src-ece-mind"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-ece-mind",
+      "kind": "lab",
+      "name": "기계지능 및 데이터사이언스 연구실",
+      "summary": "디노이징·연속학습·메타학습·설명가능 인공지능·공정한 알고리즘을 연구한다. 공식 상세에 문태섭 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "기계학습",
+        "연속학습",
+        "메타학습",
+        "디노이징",
+        "설명가능 인공지능"
+      ],
+      "sourceIds": [
+        "src-ece-mind"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-naval-fluids",
+      "kind": "researcher",
+      "name": "김용환",
+      "summary": "조선해양공학과 공식 교수진 카드에 김용환 교수와 해양유체역학연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "해양유체역학",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-naval-fluids",
+      "kind": "lab",
+      "name": "해양유체역학연구실",
+      "summary": "조선해양공학과 공식 교수진 카드에 김용환 교수와 해양유체역학연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "해양유체역학",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-naval-systems",
+      "kind": "researcher",
+      "name": "노명일",
+      "summary": "조선해양공학과 공식 교수진 카드에 노명일 교수와 시스템설계연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "시스템설계",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-systems"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-naval-systems",
+      "kind": "lab",
+      "name": "시스템설계연구실",
+      "summary": "조선해양공학과 공식 교수진 카드에 노명일 교수와 시스템설계연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "시스템설계",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-systems"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-naval-energy",
+      "kind": "researcher",
+      "name": "서유택",
+      "summary": "조선해양공학과 공식 교수진 카드에 서유택 교수와 지속가능 에너지 연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "지속가능 에너지",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-energy"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-naval-energy",
+      "kind": "lab",
+      "name": "지속가능 에너지 연구실",
+      "summary": "조선해양공학과 공식 교수진 카드에 서유택 교수와 지속가능 에너지 연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "지속가능 에너지",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-energy"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-afds",
+      "kind": "lab",
+      "name": "Algorithmic Foundations of Data Science Lab",
+      "summary": "데이터 과학 문제를 위한 알고리즘의 설계·분석·구현을 연구합니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "알고리즘",
+        "데이터 과학",
+        "data science"
+      ],
+      "sourceIds": [
+        "s-afds"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-afds",
+      "kind": "researcher",
+      "name": "Chenglin Fan",
+      "summary": "컴퓨터공학부 공식 연구실 페이지에 Algorithmic Foundations of Data Science Lab의 교수로 기재되어 있습니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "알고리즘",
+        "데이터 과학",
+        "data science"
+      ],
+      "sourceIds": [
+        "s-prof-afds",
+        "s-afds"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-bhi",
+      "kind": "lab",
+      "name": "Bio and Health Informatics Lab",
+      "summary": "생물·건강 정보 분석을 위한 계산·데이터 마이닝·기계학습 방법을 연구합니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "생물정보학",
+        "기계학습",
+        "헬스케어",
+        "machine learning"
+      ],
+      "sourceIds": [
+        "s-bhi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-bhi",
+      "kind": "researcher",
+      "name": "Sun Kim",
+      "summary": "컴퓨터공학부 공식 연구실 페이지에 Bio and Health Informatics Lab의 교수로 기재되어 있습니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "생물정보학",
+        "기계학습",
+        "헬스케어",
+        "machine learning"
+      ],
+      "sourceIds": [
+        "s-prof-bhi",
+        "s-bhi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-bi",
+      "kind": "lab",
+      "name": "Biointelligence Lab",
+      "summary": "뇌와 인지의 정보 처리 원리, 지각하고 행동하고 학습하는 인공 지능을 연구합니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "인공지능",
+        "인지",
+        "학습",
+        "artificial intelligence"
+      ],
+      "sourceIds": [
+        "s-bi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-bi",
+      "kind": "researcher",
+      "name": "Byoung-Tak Zhang",
+      "summary": "컴퓨터공학부 공식 연구실 페이지에 Biointelligence Lab의 교수로 기재되어 있습니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "인공지능",
+        "인지",
+        "학습",
+        "artificial intelligence"
+      ],
+      "sourceIds": [
+        "s-prof-bi",
+        "s-bi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-aerospace-aerodynamics",
+      "kind": "researcher",
+      "name": "김종암",
+      "summary": "공식 연구실 표의 같은 행에 김종암 교수와 Aerodynamic Simulation & Design Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "공력",
+        "시뮬레이션",
+        "디자인"
+      ],
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-aerospace-aerodynamics",
+      "kind": "lab",
+      "name": "공력 시뮬레이션 및 디자인 연구실",
+      "summary": "공식 연구실 표의 같은 행에 김종암 교수와 Aerodynamic Simulation & Design Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "공력",
+        "시뮬레이션",
+        "디자인"
+      ],
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-aerospace-rocket",
+      "kind": "researcher",
+      "name": "윤영빈",
+      "summary": "공식 연구실 표의 같은 행에 윤영빈 교수와 Rocket Propulsion Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "로켓",
+        "추진"
+      ],
+      "sourceIds": [
+        "src-aerospace-rocket"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-aerospace-rocket",
+      "kind": "lab",
+      "name": "로켓추진연구실",
+      "summary": "공식 연구실 표의 같은 행에 윤영빈 교수와 Rocket Propulsion Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "로켓",
+        "추진"
+      ],
+      "sourceIds": [
+        "src-aerospace-rocket"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-aerospace-navigation",
+      "kind": "researcher",
+      "name": "박찬국",
+      "summary": "공식 연구실 표의 같은 행에 박찬국 교수와 Navigation & Electronic System Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항법",
+        "전자시스템"
+      ],
+      "sourceIds": [
+        "src-aerospace-navigation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-aerospace-navigation",
+      "kind": "lab",
+      "name": "항법전자시스템 연구실",
+      "summary": "공식 연구실 표의 같은 행에 박찬국 교수와 Navigation & Electronic System Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항법",
+        "전자시스템"
+      ],
+      "sourceIds": [
+        "src-aerospace-navigation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-chemical-flextronics",
+      "kind": "researcher",
+      "name": "김대형",
+      "summary": "나노소재와 소프트 전자소자를 융합한 헬스케어·디스플레이·이미징·로보틱스·에너지 응용을 연구한다. 공식 교수 상세에 연구실명이 명시되어 있다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "나노소재",
+        "소프트 일렉트로닉스",
+        "디스플레이",
+        "로보틱스"
+      ],
+      "sourceIds": [
+        "src-chemical-flextronics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-chemical-flextronics",
+      "kind": "lab",
+      "name": "플렉트로닉스 연구실",
+      "summary": "나노소재와 소프트 전자소자를 융합한 헬스케어·디스플레이·이미징·로보틱스·에너지 응용을 연구한다. 공식 교수 상세에 연구실명이 명시되어 있다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "나노소재",
+        "소프트 일렉트로닉스",
+        "디스플레이",
+        "로보틱스"
+      ],
+      "sourceIds": [
+        "src-chemical-flextronics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-chemical-catalysis",
+      "kind": "researcher",
+      "name": "김도희",
+      "summary": "온실가스 및 대기오염물 저감, 폐자원 전환, 청정에너지 생산을 위한 촉매와 반응 공정을 연구한다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "촉매",
+        "반응공학",
+        "온실가스",
+        "수소",
+        "폐자원 전환"
+      ],
+      "sourceIds": [
+        "src-chemical-catalysis"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-chemical-catalysis",
+      "kind": "lab",
+      "name": "에너지 및 환경촉매 연구실",
+      "summary": "온실가스 및 대기오염물 저감, 폐자원 전환, 청정에너지 생산을 위한 촉매와 반응 공정을 연구한다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "촉매",
+        "반응공학",
+        "온실가스",
+        "수소",
+        "폐자원 전환"
+      ],
+      "sourceIds": [
+        "src-chemical-catalysis"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-chemical-regenerative",
+      "kind": "researcher",
+      "name": "김병수",
+      "summary": "생체재료·면역학·세포공학·유전자치료 기법을 결합한 치료 기술을 연구한다. 연구 주제 소개이며 치료 효과나 실제 이용 가능성을 뜻하지 않는다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "생체재료",
+        "면역학",
+        "세포공학",
+        "유전자치료"
+      ],
+      "sourceIds": [
+        "src-chemical-regenerative"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-chemical-regenerative",
+      "kind": "lab",
+      "name": "재생 바이오 의공학 연구실",
+      "summary": "생체재료·면역학·세포공학·유전자치료 기법을 결합한 치료 기술을 연구한다. 연구 주제 소개이며 치료 효과나 실제 이용 가능성을 뜻하지 않는다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "생체재료",
+        "면역학",
+        "세포공학",
+        "유전자치료"
+      ],
+      "sourceIds": [
+        "src-chemical-regenerative"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-105",
+      "kind": "equipment",
+      "name": "300kV 초저온 전자현미경 · 300kV Cryo-EM",
+      "summary": "300kV 초저온 전자현미경. 공식 상세에 모델 Krios G4 Cryo-EM, 호실 139-1동 B112호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "300kV 초저온 전자현미경",
+        "300kV Cryo-EM",
+        "Krios G4 Cryo-EM"
+      ],
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-1",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기 300MHz · 300MHz NMR",
+      "summary": "핵자기 공명 분광기 300MHz. 공식 상세에 모델 AvanceIII HD, 호실 139동 103호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "핵자기 공명 분광기 300MHz",
+        "300MHz NMR",
+        "AvanceIII HD"
+      ],
+      "sourceIds": [
+        "src-irf-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-109",
+      "kind": "equipment",
+      "name": "원편광 이색성 분광광도계 · CD",
+      "summary": "원편광 이색성 분광광도계. 공식 상세에 모델 J-1700, 호실 407호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "원편광 이색성 분광광도계",
+        "CD",
+        "J-1700"
+      ],
+      "sourceIds": [
+        "src-irf-109"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-84",
+      "kind": "equipment",
+      "name": "공초점 레이저 주사 현미경 · CLSM LSM980",
+      "summary": "공초점 레이저 주사 현미경. 공식 상세에 모델 LSM980, 호실 504동 206호_수요자중심서비스센터으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "공초점 레이저 주사 현미경",
+        "CLSM LSM980",
+        "LSM980"
+      ],
+      "sourceIds": [
+        "src-irf-84"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-108",
+      "kind": "equipment",
+      "name": "초저온 시편제조기 · Cryo Sample Prep_Vitrobot",
+      "summary": "초저온 시편제조기. 공식 상세에 모델 Vitrobot, 호실 139-1동 B112호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "초저온 시편제조기",
+        "Cryo Sample Prep_Vitrobot",
+        "Vitrobot"
+      ],
+      "sourceIds": [
+        "src-irf-108"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-53",
+      "kind": "equipment",
+      "name": "구면수차보정 주사투과전자현미경 · Cs-STEM",
+      "summary": "구면수차보정 주사투과전자현미경. 공식 상세에 모델 JEM-ARM200F, 호실 139동 101호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "구면수차보정 주사투과전자현미경",
+        "Cs-STEM",
+        "JEM-ARM200F"
+      ],
+      "sourceIds": [
+        "src-irf-53"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-10",
+      "kind": "equipment",
+      "name": "원소 분석기 · Elemental Analyzer",
+      "summary": "원소 분석기. 공식 상세에 모델 Flash2000, 호실 139동 402호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "원소 분석기",
+        "Elemental Analyzer",
+        "Flash2000"
+      ],
+      "sourceIds": [
+        "src-irf-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-106",
+      "kind": "equipment",
+      "name": "표면분석장치 · ESCA Axis Supra+",
+      "summary": "표면분석장치. 공식 상세에 모델 AXIS SUPRA+, 호실 139-1동 254호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "표면분석장치",
+        "ESCA Axis Supra+",
+        "AXIS SUPRA+"
+      ],
+      "sourceIds": [
+        "src-irf-106"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-100",
+      "kind": "equipment",
+      "name": "전자스핀공명 분광기 · ESR",
+      "summary": "전자스핀공명 분광기. 공식 상세에 모델 EMXplus-9.5/12/P/L System, 호실 139동 108호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "전자스핀공명 분광기",
+        "ESR",
+        "EMXplus-9.5/12/P/L System"
+      ],
+      "sourceIds": [
+        "src-irf-100"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-35",
+      "kind": "equipment",
+      "name": "초고속 유세포 분리기 · FACS AriaII",
+      "summary": "초고속 유세포 분리기. 공식 상세에 모델 FACS AriaII, 호실 139동 408호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "초고속 유세포 분리기",
+        "FACS AriaII",
+        "FACS AriaII"
+      ],
+      "sourceIds": [
+        "src-irf-35"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-54",
+      "kind": "equipment",
+      "name": "전계방사 전자현미분석기 · FE-EPMA",
+      "summary": "전계방사 전자현미분석기. 공식 상세에 모델 JXA-8530F, 호실 139동 130호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "전계방사 전자현미분석기",
+        "FE-EPMA",
+        "JXA-8530F"
+      ],
+      "sourceIds": [
+        "src-irf-54"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-89",
+      "kind": "equipment",
+      "name": "이온빔집속장치 · FIB II",
+      "summary": "이온빔집속장치. 공식 상세에 모델 Helios G4, 호실 139동 130호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "이온빔집속장치",
+        "FIB II",
+        "Helios G4"
+      ],
+      "sourceIds": [
+        "src-irf-89"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-50",
+      "kind": "equipment",
+      "name": "푸리에 변환 적외선 분광기 · FT-IR",
+      "summary": "푸리에 변환 적외선 분광기. 공식 상세에 모델 TENSOR27, 호실 139동 306호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "푸리에 변환 적외선 분광기",
+        "FT-IR",
+        "TENSOR27"
+      ],
+      "sourceIds": [
+        "src-irf-50"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-15",
+      "kind": "equipment",
+      "name": "감마선 조사기 · GAMMA 조사기",
+      "summary": "감마선 조사기. 공식 상세에 모델 GC 3000 Elan, 호실 139동 401호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "감마선 조사기",
+        "GAMMA 조사기",
+        "GC 3000 Elan"
+      ],
+      "sourceIds": [
+        "src-irf-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-74",
+      "kind": "equipment",
+      "name": "기체크로마토그래피 고분해능 비행시간형 질량분석기 · GC-HRTOFMS",
+      "summary": "기체크로마토그래피 고분해능 비행시간형 질량분석기. 공식 상세에 모델 JMS-T2000GC, 호실 139동 306호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "기체크로마토그래피 고분해능 비행시간형 질량분석기",
+        "GC-HRTOFMS",
+        "JMS-T2000GC"
+      ],
+      "sourceIds": [
+        "src-irf-74"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-19",
+      "kind": "equipment",
+      "name": "고분해능 X-선 회절분석기 · HRXRD",
+      "summary": "고분해능 X-선 회절분석기. 공식 상세에 모델 SmartLab, 호실 139-1동 254호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "고분해능 X-선 회절분석기",
+        "HRXRD",
+        "SmartLab"
+      ],
+      "sourceIds": [
+        "src-irf-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-21",
+      "kind": "equipment",
+      "name": "유도결합 플라즈마 질량분석기 · ICP-MS",
+      "summary": "유도결합 플라즈마 질량분석기. 공식 상세에 모델 NexION 350D, 호실 139동 207호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "유도결합 플라즈마 질량분석기",
+        "ICP-MS",
+        "NexION 350D"
+      ],
+      "sourceIds": [
+        "src-irf-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-114",
+      "kind": "equipment",
+      "name": "소형탄소연대측정시스템 · MICADAS",
+      "summary": "소형탄소연대측정시스템. 공식 상세에 모델 MICADAS, 호실 152호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "소형탄소연대측정시스템",
+        "MICADAS",
+        "MICADAS"
+      ],
+      "sourceIds": [
+        "src-irf-114"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-113",
+      "kind": "equipment",
+      "name": "차세대 뇌과학 연구용 3T 자기공명영상장치 · MRI",
+      "summary": "차세대 뇌과학 연구용 3T 자기공명영상장치. 공식 상세에 모델 Siemens MAGNETOM Cima.X, 호실 139-1동 151호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "차세대 뇌과학 연구용 3T 자기공명영상장치",
+        "MRI",
+        "Siemens MAGNETOM Cima.X"
+      ],
+      "sourceIds": [
+        "src-irf-113"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-91",
+      "kind": "equipment",
+      "name": "고분해능 3차원 X선 이미징 시스템 · XRM",
+      "summary": "고분해능 3차원 X선 이미징 시스템. 공식 상세에 모델 Xradia 620 Versa, 호실 139동 209호으로 안내되어 있다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "고분해능 3차원 X선 이미징 시스템",
+        "XRM",
+        "Xradia 620 Versa"
+      ],
+      "sourceIds": [
+        "src-irf-91"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-info",
+      "kind": "space",
+      "name": "신양학술정보관 정보화 열람실",
+      "summary": "44-1동 1층의 정보화 열람실 및 인터넷카페로 안내된 공간.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "열람",
+        "인터넷",
+        "학술"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-pc206",
+      "kind": "space",
+      "name": "신양학술정보관 PC 실습실 1",
+      "summary": "44-1동 206호 PC 실습실. 공식 안내의 PC 사양은 오래된 운영체제를 포함하므로 현장 최신 상태 확인이 필요하다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "PC",
+        "실습",
+        "컴퓨터"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-pc207",
+      "kind": "space",
+      "name": "신양학술정보관 PC 실습실 2",
+      "summary": "44-1동 207호 PC 실습실. 공식 안내의 PC 사양은 오래된 운영체제를 포함하므로 현장 최신 상태 확인이 필요하다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "PC",
+        "실습",
+        "컴퓨터"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-reading306",
+      "kind": "space",
+      "name": "신양학술정보관 자유열람실",
+      "summary": "44-1동 306호로 안내된 자유열람실.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "열람",
+        "학술",
+        "자습"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-seminar302",
+      "kind": "space",
+      "name": "신양학술정보관 세미나실",
+      "summary": "44-1동 302호로 안내된 세미나 공간.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "세미나",
+        "학술",
+        "발표"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-group4",
+      "kind": "space",
+      "name": "신양학술정보관 그룹 스터디실",
+      "summary": "44-1동 4층 그룹 스터디 공간. 공식 안내에 예약하샤를 통한 예약이 명시되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "스터디",
+        "토론",
+        "모임"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-sinyang-print201",
+      "kind": "space",
+      "name": "신양학술정보관 대형출력실",
+      "summary": "44-1동 201호 대형출력실. 공식 안내에 대형 출력·스캔·래미네이팅 장비가 기재되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "출력",
+        "스캔",
+        "포스터"
+      ],
+      "sourceIds": [
+        "src-shared-sinyang"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-engineer-auditorium101",
+      "kind": "space",
+      "name": "엔지니어하우스 대강당",
+      "summary": "엔지니어하우스 101호 대강당. 공식 시설현황에 200명 수용과 발표 지원시설이 안내되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "강당",
+        "발표",
+        "학술행사"
+      ],
+      "sourceIds": [
+        "src-shared-engineer-house"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-engineer-lectureb106",
+      "kind": "space",
+      "name": "엔지니어하우스 산학강의실",
+      "summary": "엔지니어하우스 B106호 강의실. 공식 시설현황에 40명 수용과 발표 지원시설이 안내되어 있다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "강의",
+        "세미나",
+        "산학"
+      ],
+      "sourceIds": [
+        "src-shared-engineer-house"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-gece-media",
+      "kind": "space",
+      "name": "글로벌공학교육센터 개방형 미디어 창작소",
+      "summary": "글로벌공학교육센터 공식 층별 시설현황에 기재된 미디어 창작 공간. 이용 조건은 공식 센터에서 확인해야 한다.",
+      "departmentId": "shared-engineering",
+      "keywords": [
+        "미디어",
+        "콘텐츠",
+        "제작"
+      ],
+      "sourceIds": [
+        "src-shared-gece"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-irf-b112",
+      "kind": "space",
+      "name": "기초과학공동기기원 139-1동 B112호",
+      "summary": "300kV Cryo-EM과 초저온 시편제조기의 공식 설치 호실. 자유 이용 공간이나 예약 가능 여부를 의미하지 않는다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "전자현미경",
+        "초저온",
+        "시편제조"
+      ],
+      "sourceIds": [
+        "src-irf-105",
+        "src-irf-108"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-irf-103",
+      "kind": "space",
+      "name": "기초과학공동기기원 139동 103호",
+      "summary": "300MHz NMR의 공식 설치 호실. 자유 이용 공간이나 예약 가능 여부를 의미하지 않는다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "핵자기공명",
+        "분광"
+      ],
+      "sourceIds": [
+        "src-irf-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-cee-urban",
+      "from": "prof-cee-urban",
+      "to": "lab-cee-urban",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-cee-urban"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-cee-structural",
+      "from": "prof-cee-structural",
+      "to": "lab-cee-structural",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-cee-structural"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-cee-water",
+      "from": "prof-cee-water",
+      "to": "lab-cee-water",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-cee-water"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-mechanical-robot",
+      "from": "prof-mechanical-robot",
+      "to": "lab-mechanical-robot",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-mechanical-fluids",
+      "from": "prof-mechanical-fluids",
+      "to": "lab-mechanical-fluids",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-mechanical-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-mechanical-manufacturing",
+      "from": "prof-mechanical-manufacturing",
+      "to": "lab-mechanical-manufacturing",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-mechanical-manufacturing"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-industrial-or",
+      "from": "prof-industrial-or",
+      "to": "lab-industrial-or",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-industrial-dsba",
+      "from": "prof-industrial-dsba",
+      "to": "lab-industrial-dsba",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-industrial-his",
+      "from": "prof-industrial-his",
+      "to": "lab-industrial-his",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "leads-energy-recycling",
+      "from": "prof-energy-recycling",
+      "to": "lab-energy-recycling",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-energy-recycling"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-energy-rock",
+      "from": "prof-energy-rock",
+      "to": "lab-energy-rock",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-energy-rock"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-energy-geochemistry",
+      "from": "prof-energy-geochemistry",
+      "to": "lab-energy-geochemistry",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-energy-geochemistry"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-nuclear-thermal",
+      "from": "prof-nuclear-thermal",
+      "to": "lab-nuclear-thermal",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-nuclear-thermal"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-nuclear-reactor",
+      "from": "prof-nuclear-reactor",
+      "to": "lab-nuclear-reactor",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-nuclear-reactor"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-nuclear-radiation",
+      "from": "prof-nuclear-radiation",
+      "to": "lab-nuclear-radiation",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-nuclear-radiation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-materials-mechanics",
+      "from": "prof-materials-mechanics",
+      "to": "lab-materials-mechanics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-materials-mechanics",
+        "src-materials-mechanics-profile",
+        "src-materials-mechanics-home"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-materials-bioinspired",
+      "from": "prof-materials-bioinspired",
+      "to": "lab-materials-bioinspired",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-materials-bioinspired",
+        "src-materials-bioinspired-profile",
+        "src-materials-bioinspired-pi"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-materials-dna",
+      "from": "prof-materials-dna",
+      "to": "lab-materials-dna",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-materials-dna",
+        "src-materials-dna-profile",
+        "src-materials-dna-research"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-ece-optics",
+      "from": "prof-ece-optics",
+      "to": "lab-ece-optics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-ece-optics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-ece-flexible",
+      "from": "prof-ece-flexible",
+      "to": "lab-ece-flexible",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-ece-flexible"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-ece-mind",
+      "from": "prof-ece-mind",
+      "to": "lab-ece-mind",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-ece-mind"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-naval-fluids",
+      "from": "prof-naval-fluids",
+      "to": "lab-naval-fluids",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-naval-systems",
+      "from": "prof-naval-systems",
+      "to": "lab-naval-systems",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-naval-systems"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-naval-energy",
+      "from": "prof-naval-energy",
+      "to": "lab-naval-energy",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-naval-energy"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-afds",
+      "from": "prof-afds",
+      "to": "lab-afds",
+      "type": "LEADS",
+      "label": "연구실 교수",
+      "sourceIds": [
+        "s-afds"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "leads-bhi",
+      "from": "prof-bhi",
+      "to": "lab-bhi",
+      "type": "LEADS",
+      "label": "연구실 교수",
+      "sourceIds": [
+        "s-bhi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "leads-bi",
+      "from": "prof-bi",
+      "to": "lab-bi",
+      "type": "LEADS",
+      "label": "연구실 교수",
+      "sourceIds": [
+        "s-bi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "leads-aerospace-aerodynamics",
+      "from": "prof-aerospace-aerodynamics",
+      "to": "lab-aerospace-aerodynamics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-aerospace-rocket",
+      "from": "prof-aerospace-rocket",
+      "to": "lab-aerospace-rocket",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-aerospace-rocket"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-aerospace-navigation",
+      "from": "prof-aerospace-navigation",
+      "to": "lab-aerospace-navigation",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-aerospace-navigation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-chemical-flextronics",
+      "from": "prof-chemical-flextronics",
+      "to": "lab-chemical-flextronics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-chemical-flextronics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "leads-chemical-catalysis",
+      "from": "prof-chemical-catalysis",
+      "to": "lab-chemical-catalysis",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-chemical-catalysis"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "leads-chemical-regenerative",
+      "from": "prof-chemical-regenerative",
+      "to": "lab-chemical-regenerative",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-chemical-regenerative"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "located-irf-105",
+      "from": "eq-irf-105",
+      "to": "space-irf-b112",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-105"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "located-irf-108",
+      "from": "eq-irf-108",
+      "to": "space-irf-b112",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-108"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "located-irf-1",
+      "from": "eq-irf-1",
+      "to": "space-irf-103",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "paper-cee-example",
+      "kind": "paper",
+      "title": "Recovery of solid-phase diammonium citrate and diammonium oxalate from wastewater by integrated membrane contactor and solvent-driven fractional crystallization system",
+      "resourceIds": [
+        "lab-cee-water",
+        "prof-cee-water"
+      ],
+      "sourceIds": [
+        "src-cee-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-architecture-example",
+      "kind": "paper",
+      "title": "Seismic Behavior of Monolithic Exterior Beam-Column Connections with Unbonded Post-Tensioning",
+      "resourceIds": [
+        "prof-architecture-hyungoo"
+      ],
+      "sourceIds": [
+        "src-architecture-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-mechanical-example",
+      "kind": "paper",
+      "title": "Elastic hoops jumping water",
+      "resourceIds": [
+        "lab-mechanical-fluids",
+        "prof-mechanical-fluids"
+      ],
+      "sourceIds": [
+        "src-mechanical-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-industrial-example",
+      "kind": "paper",
+      "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+      "resourceIds": [
+        "lab-industrial-dsba",
+        "prof-industrial-dsba"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-energy-example",
+      "kind": "paper",
+      "title": "Development of deoxidation process for off-grade titanium sponge using magnesium metal with wire mesh strainer type of crucible",
+      "resourceIds": [
+        "lab-energy-recycling",
+        "prof-energy-recycling"
+      ],
+      "sourceIds": [
+        "src-energy-recycling"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-nuclear-example",
+      "kind": "paper",
+      "title": "Improvement of Sodium Heat Pipe Analysis Code Considering Effect of Liquid Pool under Overfilled Condition",
+      "resourceIds": [
+        "lab-nuclear-thermal",
+        "prof-nuclear-thermal"
+      ],
+      "sourceIds": [
+        "src-nuclear-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-materials-example",
+      "kind": "paper",
+      "title": "Redox-neutral electrochemical conversion of CO2 to dimethyl carbonate",
+      "resourceIds": [
+        "lab-materials-bioinspired",
+        "prof-materials-bioinspired"
+      ],
+      "sourceIds": [
+        "src-materials-bioinspired-profile"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-ece-example",
+      "kind": "paper",
+      "title": "A site-selective integration strategy for microdevices on conformable substrates",
+      "resourceIds": [
+        "lab-ece-flexible",
+        "prof-ece-flexible"
+      ],
+      "sourceIds": [
+        "src-ece-flexible"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-naval-example",
+      "kind": "paper",
+      "title": "A Method of Intentional Derating Operation for Rotor Sails to Enhance Overall Energy Efficiency of Ships",
+      "resourceIds": [
+        "lab-naval-systems",
+        "prof-naval-systems"
+      ],
+      "sourceIds": [
+        "src-naval-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-cse-example",
+      "kind": "paper",
+      "title": "Learning-Augmented Ski Rental with Discrete Distribution: A Bayesian Approach",
+      "resourceIds": [
+        "lab-afds",
+        "prof-afds"
+      ],
+      "sourceIds": [
+        "src-cse-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-aerospace-example",
+      "kind": "paper",
+      "title": "Computational Investigation of Aero-Optic Aberrations in a Supersonic Interceptor with Lateral Jets",
+      "resourceIds": [
+        "lab-aerospace-aerodynamics",
+        "prof-aerospace-aerodynamics"
+      ],
+      "sourceIds": [
+        "src-aerospace-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-chemical-example",
+      "kind": "paper",
+      "title": "Unraveling the promotional roles of Ce in Cu-Ce/ZSM-5 catalyst for the selective catalytic oxidation of ammonia",
+      "resourceIds": [
+        "lab-chemical-catalysis",
+        "prof-chemical-catalysis"
+      ],
+      "sourceIds": [
+        "src-chemical-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    }
+  ]
+}
