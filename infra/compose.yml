@@ -1,0 +1,61 @@
+name: snu-ieum
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ieum
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a dedicated database password}
+      POSTGRES_DB: ieum
+    ports: ['127.0.0.1:${DB_PORT:-55431}:5432']
+    volumes:
+      - database:/var/lib/postgresql/data
+      - ./migrations:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ieum -d ieum']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    logging:
+      driver: json-file
+      options: {max-size: '10m', max-file: '3'}
+  api:
+    build: {context: '..', dockerfile: infra/Dockerfile}
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 4100
+      DATABASE_URL: postgres://ieum:${POSTGRES_PASSWORD}@db:5432/ieum
+    ports: ['127.0.0.1:${API_PORT:-4100}:4100']
+    depends_on: {db: {condition: service_healthy}}
+    read_only: true
+    tmpfs: ['/tmp']
+    cap_drop: [ALL]
+    security_opt: ['no-new-privileges:true']
+    logging:
+      driver: json-file
+      options: {max-size: '10m', max-file: '3'}
+  worker:
+    build: {context: '..', dockerfile: infra/Dockerfile}
+    restart: unless-stopped
+    # Linux home server: binds 127.0.0.1 on the host; never published through Funnel.
+    network_mode: host
+    env_file: .env
+    environment:
+      DATABASE_URL: postgres://ieum:${POSTGRES_PASSWORD}@127.0.0.1:${DB_PORT:-55431}/ieum
+      ADMIN_PORT: ${ADMIN_PORT:-4101}
+    command: ['npm', 'run', 'start', '-w', '@ieum/worker']
+    depends_on: {db: {condition: service_healthy}}
+    volumes: ['raw_artifacts:/var/lib/ieum/raw', '../data:/app/data']
+    read_only: true
+    tmpfs: ['/tmp']
+    cap_drop: [ALL]
+    security_opt: ['no-new-privileges:true']
+    logging:
+      driver: json-file
+      options: {max-size: '10m', max-file: '3'}
+volumes:
+  database:
+  raw_artifacts:
