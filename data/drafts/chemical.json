@@ -1,0 +1,281 @@
+{
+  "manifest": {
+    "version": "chemical-draft-20261026",
+    "generatedAt": "2026-10-26T11:20:39Z",
+    "publication": "prototype",
+    "selectionReason": "공식 교수 목록과 상세의 연구실명·연구 분야를 대조하고 소프트전자·촉매공정·재생바이오 분야를 골랐다. 상세 보기 form의 공개 GET URL을 사용했고 수정·신청 요청은 수행하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-chemical-flextronics",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3489",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김대형 · 플렉트로닉스 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "src-chemical-catalysis",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3481",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김도희 · 에너지 및 환경촉매 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "src-chemical-regenerative",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3473",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김병수 · 재생 바이오 의공학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-chemical-flextronics",
+      "kind": "researcher",
+      "name": "김대형",
+      "summary": "나노소재와 소프트 전자소자를 융합한 헬스케어·디스플레이·이미징·로보틱스·에너지 응용을 연구한다. 공식 교수 상세에 연구실명이 명시되어 있다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "나노소재",
+        "소프트 일렉트로닉스",
+        "디스플레이",
+        "로보틱스"
+      ],
+      "sourceIds": [
+        "src-chemical-flextronics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-chemical-flextronics",
+      "kind": "lab",
+      "name": "플렉트로닉스 연구실",
+      "summary": "나노소재와 소프트 전자소자를 융합한 헬스케어·디스플레이·이미징·로보틱스·에너지 응용을 연구한다. 공식 교수 상세에 연구실명이 명시되어 있다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "나노소재",
+        "소프트 일렉트로닉스",
+        "디스플레이",
+        "로보틱스"
+      ],
+      "sourceIds": [
+        "src-chemical-flextronics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-chemical-catalysis",
+      "kind": "researcher",
+      "name": "김도희",
+      "summary": "온실가스 및 대기오염물 저감, 폐자원 전환, 청정에너지 생산을 위한 촉매와 반응 공정을 연구한다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "촉매",
+        "반응공학",
+        "온실가스",
+        "수소",
+        "폐자원 전환"
+      ],
+      "sourceIds": [
+        "src-chemical-catalysis"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-chemical-catalysis",
+      "kind": "lab",
+      "name": "에너지 및 환경촉매 연구실",
+      "summary": "온실가스 및 대기오염물 저감, 폐자원 전환, 청정에너지 생산을 위한 촉매와 반응 공정을 연구한다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "촉매",
+        "반응공학",
+        "온실가스",
+        "수소",
+        "폐자원 전환"
+      ],
+      "sourceIds": [
+        "src-chemical-catalysis"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-chemical-regenerative",
+      "kind": "researcher",
+      "name": "김병수",
+      "summary": "생체재료·면역학·세포공학·유전자치료 기법을 결합한 치료 기술을 연구한다. 연구 주제 소개이며 치료 효과나 실제 이용 가능성을 뜻하지 않는다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "생체재료",
+        "면역학",
+        "세포공학",
+        "유전자치료"
+      ],
+      "sourceIds": [
+        "src-chemical-regenerative"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-chemical-regenerative",
+      "kind": "lab",
+      "name": "재생 바이오 의공학 연구실",
+      "summary": "생체재료·면역학·세포공학·유전자치료 기법을 결합한 치료 기술을 연구한다. 연구 주제 소개이며 치료 효과나 실제 이용 가능성을 뜻하지 않는다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "생체재료",
+        "면역학",
+        "세포공학",
+        "유전자치료"
+      ],
+      "sourceIds": [
+        "src-chemical-regenerative"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-chemical-flextronics",
+      "from": "prof-chemical-flextronics",
+      "to": "lab-chemical-flextronics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-chemical-flextronics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "leads-chemical-catalysis",
+      "from": "prof-chemical-catalysis",
+      "to": "lab-chemical-catalysis",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-chemical-catalysis"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "leads-chemical-regenerative",
+      "from": "prof-chemical-regenerative",
+      "to": "lab-chemical-regenerative",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-chemical-regenerative"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    }
+  ],
+  "evidence": []
+}

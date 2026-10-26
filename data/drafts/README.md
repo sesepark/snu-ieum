@@ -56,3 +56,14 @@
 | ece | `44df15bb3a4b70f26a98dd0d2de5b256068f726636c8a0e83a7dd846a9461f82` | `841cbf3a-2fb4-43ad-8f7f-1a45a23a55c6` |
 | naval | `41a4fb6ba164ee4d48b923958aef8a07d17ef22f41e5ce8fc269ca1be32ea81a` | `51710656-7bb0-4c23-8bcc-73d081e51287` |
 | aerospace | `dbc0a3438a48e8fa4be69a3ed4e8eb064e9e666165c2331b2705289c4e68e336` | `453e2fa1-a65f-4003-83b2-eaf29fb4f95a` |
+
+## 화학생물·컴퓨터
+
+`chemical.json`은 공식 교수 목록에서 연결되는 상세 보기의 교수명·연구실명·연구 분야를 대조한 3쌍이다. 목록의 JavaScript/form에 있는 공개 `updtView.do` GET 경로를 읽었으며, 수정·신청 요청을 하지 않았다. 소프트전자·촉매·재생바이오를 선정했다.
+
+`cse.json`은 처음 확인한 표본을 날짜·공식 상세 ID·출처를 유지해 Raw/Staging으로 반입한 것이다. robots 응답을 확인하지 못해 추가 네트워크 수집은 하지 않았다. 수동 payload 보관은 자동 수집 허가를 의미하지 않는다.
+
+| 초안 | Raw ID | pending Staging ID |
+| --- | --- | --- |
+| chemical | `e77119aa5213ba86af4418ca4875d0f834372d5cb78398efb3a1e43ed9db4e1e` | `189e86ef-db3c-432d-ba45-367a26e39d6a` |
+| cse | `c32d62da34e256d8ab02975b7c583fe36b0179111c9d830fd985490c6076da6a` | `3daf71bf-8e4d-447d-8733-35fc55a94965` |

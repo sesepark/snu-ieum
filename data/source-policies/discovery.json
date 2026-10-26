@@ -144,7 +144,7 @@
         "labName": null
       },
       "selectorStatus": "manual-or-adapter-review-required",
-      "note": "robots 조회 실패. 기존 수동 확인 표본은 유지하되 자동 수집 정책을 활성화하지 않는다. 연구실 공식 목록 /en/research/labs."
+      "note": "기존 공식 상세 ID로 확인한 표본 3쌍을 최소 사실 수동 payload로 Raw/Staging에 반입했다. robots 조회 실패 상태를 유지하며 추가 자동 수집은 하지 않았다."
     },
     {
       "departmentId": "aerospace",
@@ -166,11 +166,11 @@
       "robotsUrl": "https://cbe.snu.ac.kr/robots.txt",
       "robotsStatus": "allow-public-except-private",
       "selectors": {
-        "facultyName": ".name",
-        "labName": null
+        "facultyName": "공식 상세 .name",
+        "labName": "공식 상세의 주소/연구실 필드"
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "목록은 8명씩 페이지 조회된다. javascript:modify 링크는 출처 URL로 저장하지 않는다. /WEB-INF/ 제외."
+      "selectorStatus": "three-public-profile-details-confirmed-manual-facts",
+      "note": "목록의 modify 함수와 공개 상세 보기 form에서 확인한 updtView.do GET 경로의 profId=3489,3481,3473을 읽었다. 이름과 달리 공개 프로필 보기이며 수정 요청은 수행하지 않았다. 교수명·연구실명·연구 분야를 대조했다."
     }
   ],
   "shared": [
