@@ -19,13 +19,13 @@ export class PostgresBudget implements Budget {
       for (const request of requests) for (const window of windows) {
         const limit = this.limits[request.model];
         if (!limit) throw new Error('Unverified quota');
-        await client.query('INSERT INTO ai_usage(model,window) VALUES($1,$2) ON CONFLICT DO NOTHING', [request.model, window.key]);
-        const result = await client.query('SELECT requests,tokens FROM ai_usage WHERE model=$1 AND window=$2 FOR UPDATE', [request.model, window.key]);
+        await client.query('INSERT INTO ai_usage(model,"window") VALUES($1,$2) ON CONFLICT DO NOTHING', [request.model, window.key]);
+        const result = await client.query('SELECT requests,tokens FROM ai_usage WHERE model=$1 AND "window"=$2 FOR UPDATE', [request.model, window.key]);
         const usage = result.rows[0];
         if (usage.requests + 1 > Math.floor(fraction * (window.minute ? limit.rpm : limit.rpd)) || (window.minute && usage.tokens + request.tokens > Math.floor(fraction * limit.tpm))) {
           await client.query('ROLLBACK'); return false;
         }
-        await client.query('UPDATE ai_usage SET requests=requests+1,tokens=tokens+$3 WHERE model=$1 AND window=$2', [request.model, window.key, request.tokens]);
+        await client.query('UPDATE ai_usage SET requests=requests+1,tokens=tokens+$3 WHERE model=$1 AND "window"=$2', [request.model, window.key, request.tokens]);
       }
       await client.query('COMMIT'); return true;
     } catch (error) { await client.query('ROLLBACK'); throw error; }
