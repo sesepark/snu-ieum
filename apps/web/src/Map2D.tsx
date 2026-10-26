@@ -34,5 +34,9 @@ export default function Map2D(p: ViewProps) {
     if (scale > 1.05 || emphasis) { ctx.fillStyle = '#1d2838'; ctx.font = `${11 / scale}px sans-serif`; ctx.textAlign = 'center'; ctx.fillText(n.name, x, y + 18 / scale); }
     ctx.restore();
   };
-  return <ForceGraph2D<DisplayNode, DisplayEdge> ref={ref} graphData={graphData} width={p.width} height={p.height} backgroundColor="#f6f7f9" nodeCanvasObject={draw} nodeLabel={n => escapeHtml(n.name)} linkLabel={e => escapeHtml(e.label)} linkColor={e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected) ? '#2458d3' : '#cbd3df'} linkWidth={1} onNodeClick={n => n.kind !== 'department' && p.onSelect(n.id)} enableNodeDrag={false} cooldownTicks={0} onEngineStop={() => {}} />;
+  return <ForceGraph2D<DisplayNode, DisplayEdge> ref={ref} graphData={graphData} width={p.width} height={p.height} backgroundColor="#f6f7f9" nodeCanvasObject={draw} nodeLabel={n => escapeHtml(n.name)} linkLabel={e => escapeHtml(e.label)} linkColor={e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected) ? '#2458d3' : '#cbd3df'} linkWidth={1} linkCanvasObjectMode={() => 'after'} linkCanvasObject={(edge, ctx, scale) => {
+    if (!p.selected || (endpointId(edge.source) !== p.selected && endpointId(edge.target) !== p.selected) || typeof edge.source === 'string' || typeof edge.target === 'string') return;
+    ctx.save(); ctx.font = `${10 / scale}px sans-serif`; ctx.fillStyle = '#2458d3'; ctx.textAlign = 'center';
+    ctx.fillText(edge.label, ((edge.source.x ?? 0) + (edge.target.x ?? 0)) / 2, ((edge.source.y ?? 0) + (edge.target.y ?? 0)) / 2 - 6 / scale); ctx.restore();
+  }} onNodeClick={n => n.kind !== 'department' && p.onSelect(n.id)} enableNodeDrag={false} cooldownTicks={0} onEngineStop={() => {}} />;
 }

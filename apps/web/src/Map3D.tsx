@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef } from 'react';
 import ForceGraph3D, { type ForceGraphMethods } from 'react-force-graph-3d';
-import { BoxGeometry, CanvasTexture, CylinderGeometry, DoubleSide, Group, Mesh, MeshStandardMaterial, OctahedronGeometry, RingGeometry, SphereGeometry, Sprite, SpriteMaterial, AmbientLight, DirectionalLight, Vector3, type BufferGeometry } from 'three';
+import { BoxGeometry, CanvasTexture, CylinderGeometry, DoubleSide, Group, Mesh, MeshStandardMaterial, MeshBasicMaterial, OctahedronGeometry, RingGeometry, SphereGeometry, Sprite, SpriteMaterial, AmbientLight, DirectionalLight, Vector3, type BufferGeometry } from 'three';
 import { colors, endpointId, escapeHtml, related, type DisplayNode, type DisplayEdge, type ViewProps } from './map-model';
 function label(text: string) {
   const canvas = document.createElement('canvas'); canvas.width = 1024; canvas.height = 100;
@@ -16,7 +16,7 @@ export default function Map3D(p: ViewProps) {
     for (const n of p.nodes) {
       const group = new Group();
       if (n.kind === 'department') {
-        group.add(new Mesh(new RingGeometry(74, 74.5, 64), new MeshStandardMaterial({ color: '#dbe1e9', side: DoubleSide, transparent: true, opacity: .8 })));
+        group.add(new Mesh(new RingGeometry(74, 74.5, 64), new MeshBasicMaterial({ color: '#c7d0dc', side: DoubleSide, transparent: true, opacity: .8 })));
         const text = label(`${n.name}  ·  ${n.count}개`); text.position.y = 94; group.add(text);
       } else {
         const emphasis = n.id === p.selected || (p.searching && p.highlighted.has(n.id));
@@ -62,5 +62,5 @@ export default function Map3D(p: ViewProps) {
     controls.addEventListener('change', update); update();
     return () => controls.removeEventListener('change', update);
   }, [objects, p.nodes, p.selected, p.searching, p.highlighted]);
-  return <ForceGraph3D<DisplayNode, DisplayEdge> ref={ref} graphData={graphData} width={p.width} height={p.height} backgroundColor="#f6f7f9" showNavInfo={false} nodeThreeObject={n => objects.get(n.id)!} nodeLabel={n => escapeHtml(n.name)} linkLabel={e => escapeHtml(e.label)} linkColor={e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected) ? '#2458d3' : '#b7c2d1'} linkOpacity={.5} linkWidth={.5} onNodeClick={n => n.kind !== 'department' && p.onSelect(n.id)} enableNodeDrag={false} cooldownTicks={0} />;
+  return <ForceGraph3D<DisplayNode, DisplayEdge> ref={ref} graphData={graphData} width={p.width} height={p.height} backgroundColor="#f6f7f9" showNavInfo={false} nodeThreeObject={n => objects.get(n.id)!} nodeLabel={n => escapeHtml(n.name)} linkLabel={e => escapeHtml(e.label)} linkColor={e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected) ? '#2458d3' : '#b7c2d1'} linkOpacity={.5} linkWidth={.8} onNodeClick={n => n.kind !== 'department' && p.onSelect(n.id)} enableNodeDrag={false} cooldownTicks={0} />;
 }
