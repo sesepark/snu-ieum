@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
-export const Id = z.string().regex(/^[a-zA-Z0-9][a-zA-Z0-9._:-]{0,127}$/);
+import { Id, ManifestSchema } from './base';
+export { Id, ManifestSchema } from './base';
 const Text = z.string().trim().min(1).max(2000);
 const DateTime = z.iso.datetime({ offset: true });
 const HttpsUrl = z.url().refine(value => new URL(value).protocol === 'https:' && !new URL(value).username && !new URL(value).password, 'HTTPS source required');
@@ -28,13 +29,6 @@ export const DepartmentSchema = z.strictObject({ id: Id, name: Text, sourceIds: 
 export const GoalProfileSchema = z.strictObject({
   problemDomains: z.array(Text).max(15), coreTechnologies: z.array(Text).max(15),
   requiredCapabilities: z.array(Text).max(15), expectedOutputs: z.array(Text).max(15), keywords: z.array(Text).max(30)
-});
-export const ManifestSchema = z.strictObject({
-  version: Id, generatedAt: DateTime, publication: z.enum(['prototype', 'approved']),
-  reviewedBy: Text.optional(), reviewedAt: DateTime.optional(), selectionReason: Text,
-  schemaVersion: z.literal(1)
-}).superRefine((m, ctx) => {
-  if (m.publication === 'approved' && (!m.reviewedBy || !m.reviewedAt)) ctx.addIssue({ code: 'custom', message: 'Human review required for publication' });
 });
 export const SnapshotSchema = z.strictObject({
   manifest: ManifestSchema, departments: z.array(DepartmentSchema).min(1),
@@ -90,3 +84,5 @@ export type GraphEdge = z.infer<typeof GraphEdgeSchema>;
 export type Graph = { nodes: GraphNode[]; edges: GraphEdge[]; hiddenNodes: number; hiddenEdges: number };
 export type SearchResponse = { results: Recommendation[]; mode: 'ordinary' | 'ai' | 'fallback'; message?: string };
 export type Catalog = { manifest: Snapshot['manifest']; departments: (Department & { counts: Record<Resource['kind'], number>; lastVerifiedAt: string | null })[]; sharedGroups: (Department & { counts: Record<Resource['kind'], number>; lastVerifiedAt: string | null })[]; totals: Record<Resource['kind'], number>; launchReady: boolean; gaps: string[] };
+
+export * from './campus';
