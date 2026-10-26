@@ -1,9 +1,9 @@
 {
   "manifest": {
-    "version": "chemical-draft-20261026",
-    "generatedAt": "2026-10-26T11:20:39Z",
+    "version": "chemical-evidence-draft-20261026",
+    "generatedAt": "2026-10-26T11:30:50.557Z",
     "publication": "prototype",
-    "selectionReason": "공식 교수 목록과 상세의 연구실명·연구 분야를 대조하고 소프트전자·촉매공정·재생바이오 분야를 골랐다. 상세 보기 form의 공개 GET URL을 사용했고 수정·신청 요청은 수행하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "selectionReason": "공식 교수 목록과 상세의 연구실명·연구 분야를 대조하고 소프트전자·촉매공정·재생바이오 분야를 골랐다. 상세 보기 form의 공개 GET URL을 사용했고 수정·신청 요청은 수행하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
   },
   "departments": [
@@ -128,6 +128,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:20:39Z",
       "lastVerifiedAt": "2026-10-26T11:20:39Z"
+    },
+    {
+      "id": "src-chemical-paper",
+      "url": "https://eecat.snu.ac.kr/publications/journal/index.jsp",
+      "title": "공식 논문 목록·게재 안내 (Do Heui Kim, 2026)",
+      "organization": "서울대학교 화학생물공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
     }
   ],
   "resources": [
@@ -277,5 +286,19 @@
       "lastVerifiedAt": "2026-10-26T11:20:39Z"
     }
   ],
-  "evidence": []
+  "evidence": [
+    {
+      "id": "paper-chemical-example",
+      "kind": "paper",
+      "title": "Unraveling the promotional roles of Ce in Cu-Ce/ZSM-5 catalyst for the selective catalytic oxidation of ammonia",
+      "resourceIds": [
+        "lab-chemical-catalysis",
+        "prof-chemical-catalysis"
+      ],
+      "sourceIds": [
+        "src-chemical-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "manifest": {
-    "version": "cse-draft-20261026",
+    "version": "cse-evidence-draft-20261026",
     "schemaVersion": 1,
-    "generatedAt": "2026-10-26T11:20:39Z",
+    "generatedAt": "2026-10-26T11:30:50.557Z",
     "publication": "prototype",
-    "selectionReason": "기존 공식 확인 CSE 표본의 알고리즘·생물정보·인지 연구실 3곳과 교수를 그대로 반입했다. 각 연구실·교수의 공식 상세 ID로 식별했다. robots 조회 실패로 추가 자동 수집을 수행하지 않았으며 사람 승인 전 검수 초안이다."
+    "selectionReason": "기존 공식 확인 CSE 표본의 알고리즘·생물정보·인지 연구실 3곳과 교수를 그대로 반입했다. 각 연구실·교수의 공식 상세 ID로 식별했다. robots 조회 실패로 추가 자동 수집을 수행하지 않았으며 사람 승인 전 검수 초안이다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다."
   },
   "departments": [
     {
@@ -155,6 +155,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T06:30:00Z",
       "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-cse-paper",
+      "url": "https://sites.google.com/snu.ac.kr/afdlabsnu/publications",
+      "title": "공식 논문 목록·게재 안내 (Chenglin Fan, 2026)",
+      "organization": "서울대학교 컴퓨터공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
     }
   ],
   "resources": [
@@ -303,5 +312,19 @@
       "lastVerifiedAt": "2026-10-26T06:30:00Z"
     }
   ],
-  "evidence": []
+  "evidence": [
+    {
+      "id": "paper-cse-example",
+      "kind": "paper",
+      "title": "Learning-Augmented Ski Rental with Discrete Distribution: A Bayesian Approach",
+      "resourceIds": [
+        "lab-afds",
+        "prof-afds"
+      ],
+      "sourceIds": [
+        "src-cse-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    }
+  ]
 }

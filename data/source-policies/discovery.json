@@ -142,13 +142,13 @@
       "officialHome": "https://cse.snu.ac.kr/",
       "facultyUrl": "https://cse.snu.ac.kr/en/people/faculty",
       "robotsUrl": "https://cse.snu.ac.kr/robots.txt",
-      "robotsStatus": "unavailable",
+      "robotsStatus": "allow-public-except-edit-create-admin",
       "selectors": {
         "facultyName": null,
         "labName": null
       },
-      "selectorStatus": "manual-or-adapter-review-required",
-      "note": "기존 공식 상세 ID로 확인한 표본 3쌍을 최소 사실 수동 payload로 Raw/Staging에 반입했다. robots 조회 실패 상태를 유지하며 추가 자동 수집은 하지 않았다."
+      "selectorStatus": "official-details-and-linked-publications-confirmed-manual-facts",
+      "note": "2026-10-26 curl의 정상 TLS 검증으로 robots 200과 공식 상세 200을 확인했다. /edit, /create, /admin 제외. Node fetch 실패 시 인증서 검증을 끄지 않았다. 공식 연구실이 연결한 Google Sites Publications 200에서 Chenglin Fan 논문을 확인했다. 연결된 옛 한글 홈 URL은 404로 재검수 대상이다."
     },
     {
       "departmentId": "aerospace",
@@ -240,6 +240,134 @@
       "host": "bielab.snu.ac.kr",
       "robotsStatus": "unavailable",
       "note": "TLS/접근 확인 실패. 우회하지 않았다."
+    },
+    {
+      "host": "wqe.snu.ac.kr",
+      "robotsStatus": "allow-public",
+      "note": "공식 CEE 교수 카드가 연결한 수질환경실험실의 International Articles."
+    },
+    {
+      "host": "nuthel.com",
+      "robotsStatus": "no-disallow-rule",
+      "note": "공식 원자핵 연구실 카드가 연결한 열수력계통연구실 Publications."
+    },
+    {
+      "host": "sydlab.snu.ac.kr",
+      "robotsStatus": "allow-public",
+      "note": "공식 조선해양 교수 카드가 연결한 시스템설계연구실의 출판 논문."
+    },
+    {
+      "host": "mana.snu.ac.kr",
+      "robotsStatus": "allow-public-except-webdata",
+      "note": "공식 항공우주 연구실 표가 연결한 학술지 목록. /webdata 미접근."
+    },
+    {
+      "host": "eecat.snu.ac.kr",
+      "robotsStatus": "robots-404",
+      "note": "공식 화학생물 교수 소개가 연결한 에너지 및 환경촉매 연구실 Journal Publications의 최소 사실만 작성. 자동 정책 활성화나 원문 보관 허가를 뜻하지 않음."
+    },
+    {
+      "host": "sites.google.com",
+      "robotsStatus": "allow-public-except-internal-feeds",
+      "note": "공식 CSE 연구실이 연결한 /snu.ac.kr/afdlabsnu/publications. /feeds 및 /*/_/ 미접근."
+    }
+  ],
+  "evidenceChecks": [
+    {
+      "departmentId": "cee",
+      "url": "https://wqe.snu.ac.kr/international-articles/",
+      "title": "Recovery of solid-phase diammonium citrate and diammonium oxalate from wastewater by integrated membrane contactor and solvent-driven fractional crystallization system",
+      "identityInOfficialRecord": "Yongju Choi",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "architecture",
+      "url": "https://eng.snu.ac.kr/communication/promotion/news?bbsidx=5755&md=v",
+      "title": "Seismic Behavior of Monolithic Exterior Beam-Column Connections with Unbonded Post-Tensioning",
+      "identityInOfficialRecord": "강현구",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "mechanical",
+      "url": "https://me.snu.ac.kr/학부뉴스/document/11263/?mod=document&pageid=18&uid=11385",
+      "title": "Elastic hoops jumping water",
+      "identityInOfficialRecord": "김호영",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+      "identityInOfficialRecord": "Pilsung Kang",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "energy",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=17",
+      "title": "Development of deoxidation process for off-grade titanium sponge using magnesium metal with wire mesh strainer type of crucible",
+      "identityInOfficialRecord": "Jungshin Kang",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "nuclear",
+      "url": "https://nuthel.com/publications",
+      "title": "Improvement of Sodium Heat Pipe Analysis Code Considering Effect of Liquid Pool under Overfilled Condition",
+      "identityInOfficialRecord": "Cho, H. K.",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "materials",
+      "url": "https://mse.snu.ac.kr/nam-ki-tae/",
+      "title": "Redox-neutral electrochemical conversion of CO2 to dimethyl carbonate",
+      "identityInOfficialRecord": "남기태",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "ece",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=130",
+      "title": "A site-selective integration strategy for microdevices on conformable substrates",
+      "identityInOfficialRecord": "홍용택",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "naval",
+      "url": "https://sydlab.snu.ac.kr/",
+      "title": "A Method of Intentional Derating Operation for Rotor Sails to Enhance Overall Energy Efficiency of Ships",
+      "identityInOfficialRecord": "Myung-Il Roh",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "cse",
+      "url": "https://sites.google.com/snu.ac.kr/afdlabsnu/publications",
+      "title": "Learning-Augmented Ski Rental with Discrete Distribution: A Bayesian Approach",
+      "identityInOfficialRecord": "Chenglin Fan",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "aerospace",
+      "url": "https://mana.snu.ac.kr/publications/journal",
+      "title": "Computational Investigation of Aero-Optic Aberrations in a Supersonic Interceptor with Lateral Jets",
+      "identityInOfficialRecord": "Chongam Kim",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
+    },
+    {
+      "departmentId": "chemical",
+      "url": "https://eecat.snu.ac.kr/publications/journal/index.jsp",
+      "title": "Unraveling the promotional roles of Ce in Cu-Ce/ZSM-5 catalyst for the selective catalytic oxidation of ammonia",
+      "identityInOfficialRecord": "Do Heui Kim",
+      "httpStatus": 200,
+      "note": "논문 목록/게재 안내에서 직접 대조. 원문 전체와 개인정보는 저장하지 않음."
     }
   ]
 }

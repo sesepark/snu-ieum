@@ -1,9 +1,9 @@
 {
   "manifest": {
-    "version": "industrial-draft-20261026",
-    "generatedAt": "2026-10-26T11:11:58Z",
+    "version": "industrial-evidence-draft-20261026",
+    "generatedAt": "2026-10-26T11:30:50.557Z",
     "publication": "prototype",
-    "selectionReason": "공식 연구실 소개에서 경영과학·산업 데이터 분석·인간공학의 서로 다른 방법론을 골랐다. 이름만으로 연결하지 않고 각 소개의 지도교수 필드를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "selectionReason": "공식 연구실 소개에서 경영과학·산업 데이터 분석·인간공학의 서로 다른 방법론을 골랐다. 이름만으로 연결하지 않고 각 소개의 지도교수 필드를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
   },
   "departments": [
@@ -275,5 +275,19 @@
       "lastVerifiedAt": "2026-10-26T11:11:58Z"
     }
   ],
-  "evidence": []
+  "evidence": [
+    {
+      "id": "paper-industrial-example",
+      "kind": "paper",
+      "title": "A Gradient Accumulation Method for Dense Retriever under Memory Constraint",
+      "resourceIds": [
+        "lab-industrial-dsba",
+        "prof-industrial-dsba"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    }
+  ]
 }

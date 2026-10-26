@@ -1,9 +1,9 @@
 {
   "manifest": {
-    "version": "architecture-draft-20261026",
-    "generatedAt": "2026-10-26T11:24:21Z",
+    "version": "architecture-evidence-draft-20261026",
+    "generatedAt": "2026-10-26T11:30:50.557Z",
     "publication": "prototype",
-    "selectionReason": "학과 호스트의 자동 접근 제한을 준수하고 별도의 공대 공식 목록을 사용했다. 연구실은 역사·도시공간·구조공학의 서로 다른 분야를 골랐다. 교수는 공개 목록에서 식별 가능한 3명을 우선 수록한 임시 선정으로, 연구 분야 대표성과 지도 연구실은 사람이 재검수해야 한다. 교수와 연구실을 짝짓거나 지도 관계를 추정하지 않았다.",
+    "selectionReason": "학과 호스트의 자동 접근 제한을 준수하고 별도의 공대 공식 목록을 사용했다. 연구실은 역사·도시공간·구조공학의 서로 다른 분야를 골랐다. 교수는 공개 목록에서 식별 가능한 3명을 우선 수록한 임시 선정으로, 연구 분야 대표성과 지도 연구실은 사람이 재검수해야 한다. 교수와 연구실을 짝짓거나 지도 관계를 추정하지 않았다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
   },
   "departments": [
@@ -119,6 +119,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:24:21Z",
       "lastVerifiedAt": "2026-10-26T11:24:21Z"
+    },
+    {
+      "id": "src-architecture-paper",
+      "url": "https://eng.snu.ac.kr/communication/promotion/news?bbsidx=5755&md=v",
+      "title": "공대 공식 2025년 T.Y. Lin Award 수상 안내",
+      "organization": "서울대학교 건축학과 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
     }
   ],
   "resources": [
@@ -221,5 +230,18 @@
     }
   ],
   "relations": [],
-  "evidence": []
+  "evidence": [
+    {
+      "id": "paper-architecture-example",
+      "kind": "paper",
+      "title": "Seismic Behavior of Monolithic Exterior Beam-Column Connections with Unbonded Post-Tensioning",
+      "resourceIds": [
+        "prof-architecture-hyungoo"
+      ],
+      "sourceIds": [
+        "src-architecture-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    }
+  ]
 }

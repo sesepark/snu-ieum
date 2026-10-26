@@ -73,3 +73,26 @@
 `architecture.json`은 학과 호스트에 접근하지 않고 공대 본부의 별도 공식 교수검색 목록과 건축학과 대학원 안내를 사용했다. 교수 3명과 역사·도시공간·구조공학 연구실 3곳을 수록했다. 교수별 연구 분야·선정의 대표성·지도 연구실은 확인하지 못했으며, 교수와 연구실을 짝짓거나 관계를 만들지 않았다. 따라서 수량 확보가 공개 데이터 검수 완료를 의미하지 않는다. 이 검수는 #33에 남긴다.
 
 Raw ID는 `986ddaa2e6043aa572534eff2fc78f56cb2849cbdce45f7809bb3bdaffc32ad2`, pending Staging ID는 `28de2c38-61d2-4bea-a604-e1fbf5b5fee7`이다. 모든 자원의 verificationRequired는 true이고 사람 승인 배치는 없다.
+
+## 논문 근거 추가 후 현재 검수 대상
+
+12개 학과에 근거 논문을 1건씩 추가했다. 공식 교수/연구실 목록 또는 공식 게재·수상 안내에서 **제목과 해당 연구자 이름이 함께 있는지** 다시 확인했다. 건축학과는 강현구 교수에만 논문을 연결하고 미확인 연구실 관계는 만들지 않았다. 논문 유사도는 사용하지 않았다. 학과별 title·source·resource ID는 각 evidence 필드에 있다. 논문의 출판 연도와 source의 확인일은 다르며 확인일을 출판일로 취급하지 않는다.
+
+이전 교수·연구실 초안 12건은 내용이 보존된 채 `needs_revision`으로 이동했다. 에이전트가 기록한 사유는 논문 근거를 추가한 새 초안으로 교체한다는 운영 기록이다. 사람 승인 기록이 아니다. 이전 Raw는 변경하지 않았다. 현재 검수 대상은 아래 12건과 shared 초안 1건이며, 승인/active 배치는 0이다.
+
+| 학과 | 최신 Raw ID | pending Staging ID |
+| --- | --- | --- |
+| cee | `22d644accef2113ec88955c285599b4d4978b32ef14b2f8c950a27c3d54bbaee` | `39abc2a6-8385-467b-9d48-e70706ebaf5c` |
+| architecture | `bd8093126578036fb3098eb59ba15e41c0b89e5c40380d98b64f3bd4d22ac6af` | `1aadff07-2f8d-431f-a54c-77068492c3ca` |
+| mechanical | `ef2464760dfd918451a2045bcbb025753a6dd393587f11bb55b891e2dcc99a55` | `a1530d27-4c7a-4da1-8530-615f23c934dd` |
+| industrial | `b532124678ca732bc516de0263c58b78e0174c358818adcbaaa0250e3f268cc2` | `fd4fd48b-2b57-4700-8e99-f908900c9655` |
+| energy | `55bd91976a014852c575ef398bf610617315124928f6e9ff3c644aff593ee8e5` | `5f4acaa6-b044-4b53-b4b1-d880b0610655` |
+| nuclear | `c5c38524c237cb2f931c1faae6e976a27cd4dd2590881511e51f52f379ad87af` | `84b61c32-e0fa-4658-b4b3-6256f01af477` |
+| materials | `23f6d01890f126b8b1b7aed4b77b14ef5f4f42b557ebc798dba51496b93aaa49` | `2c4738d9-797c-41a0-8729-2601d4aa3eca` |
+| ece | `4b1ea47cae96074f1da20e8e74721bd8d05e36445bdea0b45716f86c7f53d45b` | `2aa4add9-18e6-48ff-ac4e-110e007a7835` |
+| naval | `36c64f7e87f11aef34339951a791f3d29a7ea9012843c7739b8c66928c98065f` | `1ead2e0a-70be-492a-a1b7-a57cce24e572` |
+| cse | `1792b93cb385193bb11d9dce90d3818a04b03f05367161960777af0e8f25e0f0` | `c2ad7847-ba59-48ec-9a7f-feb205ed6b04` |
+| aerospace | `4bc7be648469d421164584d77bd469079ff444d3298acfb95fb5c8811fc50d1e` | `c832b6d7-7fe5-4c9a-9d80-1a42413de374` |
+| chemical | `89e3340703600b25cb6ed938026f67493e9e55163c692e7cf5133593e2d745dd` | `3e95674b-f32c-42b0-82ad-ac9b789287da` |
+
+실제 DB에서 각 최신 Raw payload와 검수 JSON의 모든 필드가 같은지 대조했다. 원문 HTML/PDF/개인 연락처는 보관하지 않았다. CSE robots는 curl의 정상 TLS 검증으로 재확인했고, 공식 연결 Publications URL에서 200 응답과 Chenglin Fan의 논문을 확인했다. 원래 한글 홈 링크는 404로 검수 기록에 남겼다.

@@ -1,9 +1,9 @@
 {
   "manifest": {
-    "version": "materials-draft-20261026",
-    "generatedAt": "2026-10-26T11:17:08Z",
+    "version": "materials-evidence-draft-20261026",
+    "generatedAt": "2026-10-26T11:30:50.557Z",
     "publication": "prototype",
-    "selectionReason": "공식 학과 교수 소개에서 연결한 연구실 홈페이지와 PI를 대조했다. 재료역학·생체모사 에너지소재·핵산 기반 기능소재를 골랐다. 자동 접근 제한/실패한 다른 연구실의 명칭은 추정하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "selectionReason": "공식 학과 교수 소개에서 연결한 연구실 홈페이지와 PI를 대조했다. 재료역학·생체모사 에너지소재·핵산 기반 기능소재를 골랐다. 자동 접근 제한/실패한 다른 연구실의 명칭은 추정하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
   },
   "departments": [
@@ -347,5 +347,19 @@
       "lastVerifiedAt": "2026-10-26T11:17:08Z"
     }
   ],
-  "evidence": []
+  "evidence": [
+    {
+      "id": "paper-materials-example",
+      "kind": "paper",
+      "title": "Redox-neutral electrochemical conversion of CO2 to dimethyl carbonate",
+      "resourceIds": [
+        "lab-materials-bioinspired",
+        "prof-materials-bioinspired"
+      ],
+      "sourceIds": [
+        "src-materials-bioinspired-profile"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    }
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "manifest": {
-    "version": "mechanical-draft-20261026",
-    "generatedAt": "2026-10-26T11:11:58Z",
+    "version": "mechanical-evidence-draft-20261026",
+    "generatedAt": "2026-10-26T11:30:50.557Z",
     "publication": "prototype",
-    "selectionReason": "공식 전임교수 명단에서 로보틱스·유체/소프트물질·설계생산의 서로 다른 분야를 골랐다. 교수 이름과 같은 카드의 연구실 항목을 대조했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "selectionReason": "공식 전임교수 명단에서 로보틱스·유체/소프트물질·설계생산의 서로 다른 분야를 골랐다. 교수 이름과 같은 카드의 연구실 항목을 대조했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
   },
   "departments": [
@@ -128,6 +128,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:11:58Z",
       "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "src-mechanical-paper",
+      "url": "https://me.snu.ac.kr/학부뉴스/document/11263/?mod=document&pageid=18&uid=11385",
+      "title": "공식 논문 목록·게재 안내 (김호영, 2023)",
+      "organization": "서울대학교 기계공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:30:50.557Z",
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
     }
   ],
   "resources": [
@@ -267,5 +276,19 @@
       "lastVerifiedAt": "2026-10-26T11:11:58Z"
     }
   ],
-  "evidence": []
+  "evidence": [
+    {
+      "id": "paper-mechanical-example",
+      "kind": "paper",
+      "title": "Elastic hoops jumping water",
+      "resourceIds": [
+        "lab-mechanical-fluids",
+        "prof-mechanical-fluids"
+      ],
+      "sourceIds": [
+        "src-mechanical-paper"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    }
+  ]
 }
