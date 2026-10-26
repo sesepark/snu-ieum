@@ -5,6 +5,7 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     services:
       postgres:
         image: pgvector/pgvector:pg17
@@ -29,7 +30,9 @@ jobs:
       - run: npm test
       - run: npm run test:db
       - run: npm run build
-      - run: npx playwright install --with-deps chromium
+      - name: Install headless Chromium
+        timeout-minutes: 8
+        run: npx playwright install --with-deps --only-shell chromium
       - run: npm run test:e2e
       - uses: actions/upload-artifact@v4
         if: failure()
