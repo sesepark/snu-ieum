@@ -10,7 +10,7 @@ if ((await readdir(target)).length) throw new Error('Review workspace must be em
 if ((await realpath(target)).startsWith(await realpath(root))) throw new Error('Symlink target must be outside checkout');
 const exclude = new Set(['node_modules', 'dist', '.env', '.git', 'test-results', 'playwright-report']);
 const filter = async path => !exclude.has(path.split('/').at(-1)) && !(await lstat(path)).isSymbolicLink();
-for (const name of ['apps', 'infra', 'data']) {
+for (const name of ['apps', 'packages', 'infra', 'data']) {
   try { await cp(join(root, name), join(target, name), { recursive: true, filter }); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
 }
