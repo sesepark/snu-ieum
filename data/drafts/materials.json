@@ -1,0 +1,351 @@
+{
+  "manifest": {
+    "version": "materials-draft-20261026",
+    "generatedAt": "2026-10-26T11:17:08Z",
+    "publication": "prototype",
+    "selectionReason": "공식 학과 교수 소개에서 연결한 연구실 홈페이지와 PI를 대조했다. 재료역학·생체모사 에너지소재·핵산 기반 기능소재를 골랐다. 자동 접근 제한/실패한 다른 연구실의 명칭은 추정하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-materials-mechanics",
+      "url": "https://mamel.snu.ac.kr/professor-2/",
+      "organization": "서울대학교 재료공학부",
+      "title": "이명규 · 재료역학연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-bioinspired",
+      "url": "https://www.nkitae.org/",
+      "organization": "서울대학교 재료공학부",
+      "title": "남기태 · 생체분자나노재료연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-dna",
+      "url": "https://kimgroup-snu.wixsite.com/home/principal-investigator",
+      "organization": "서울대학교 재료공학부",
+      "title": "김영은 · THE KIM RESEARCH GROUP 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-mechanics-profile",
+      "url": "https://mse.snu.ac.kr/lee-myoung-gyu/",
+      "title": "이명규 공식 교수 소개",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-mechanics-home",
+      "url": "https://mamel.snu.ac.kr/",
+      "title": "재료역학연구실 공식 연구 소개",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-bioinspired-profile",
+      "url": "https://mse.snu.ac.kr/nam-ki-tae/",
+      "title": "남기태 공식 교수 소개",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-bioinspired-pi",
+      "url": "https://www.nkitae.org/professor/",
+      "title": "BMNL 공식 Professor 소개",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-dna-profile",
+      "url": "https://mse.snu.ac.kr/김영은/",
+      "title": "김영은 공식 교수 소개",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-materials-dna-research",
+      "url": "https://kimgroup-snu.wixsite.com/home/research",
+      "title": "THE KIM RESEARCH GROUP 공식 연구 소개",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-materials-mechanics",
+      "kind": "researcher",
+      "name": "이명규",
+      "summary": "재료의 변형·손상과 다중스케일·다중물리 모델링을 연구한다. 공식 연구실의 Professor 페이지에서 이명규 교수와 재료공학부 소속을 확인했다.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료역학",
+        "다중스케일",
+        "다중물리",
+        "구조재료"
+      ],
+      "sourceIds": [
+        "src-materials-mechanics",
+        "src-materials-mechanics-profile",
+        "src-materials-mechanics-home"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-materials-mechanics",
+      "kind": "lab",
+      "name": "재료역학연구실",
+      "summary": "재료의 변형·손상과 다중스케일·다중물리 모델링을 연구한다. 공식 연구실의 Professor 페이지에서 이명규 교수와 재료공학부 소속을 확인했다.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료역학",
+        "다중스케일",
+        "다중물리",
+        "구조재료"
+      ],
+      "sourceIds": [
+        "src-materials-mechanics",
+        "src-materials-mechanics-profile",
+        "src-materials-mechanics-home"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-materials-bioinspired",
+      "kind": "researcher",
+      "name": "남기태",
+      "summary": "생체모사 소재와 에너지·광학 응용을 연구한다. 공식 연구실 홈페이지에 생체분자나노재료연구실과 Ki Tae Nam Research Lab이 명시되어 있다.",
+      "departmentId": "materials",
+      "keywords": [
+        "생체모사",
+        "나노재료",
+        "에너지 소재",
+        "광학"
+      ],
+      "sourceIds": [
+        "src-materials-bioinspired",
+        "src-materials-bioinspired-profile",
+        "src-materials-bioinspired-pi"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-materials-bioinspired",
+      "kind": "lab",
+      "name": "생체분자나노재료연구실",
+      "summary": "생체모사 소재와 에너지·광학 응용을 연구한다. 공식 연구실 홈페이지에 생체분자나노재료연구실과 Ki Tae Nam Research Lab이 명시되어 있다.",
+      "departmentId": "materials",
+      "keywords": [
+        "생체모사",
+        "나노재료",
+        "에너지 소재",
+        "광학"
+      ],
+      "sourceIds": [
+        "src-materials-bioinspired",
+        "src-materials-bioinspired-profile",
+        "src-materials-bioinspired-pi"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-materials-dna",
+      "kind": "researcher",
+      "name": "김영은",
+      "summary": "핵산 기반 소재를 활용한 바이오센서·동적 소재·진단 기술을 연구한다. 공식 학과 소개에서 연결한 연구실의 Principal Investigator는 김영은 교수다.",
+      "departmentId": "materials",
+      "keywords": [
+        "핵산",
+        "DNA",
+        "바이오센서",
+        "동적 소재"
+      ],
+      "sourceIds": [
+        "src-materials-dna",
+        "src-materials-dna-profile",
+        "src-materials-dna-research"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-materials-dna",
+      "kind": "lab",
+      "name": "THE KIM RESEARCH GROUP",
+      "summary": "핵산 기반 소재를 활용한 바이오센서·동적 소재·진단 기술을 연구한다. 공식 학과 소개에서 연결한 연구실의 Principal Investigator는 김영은 교수다.",
+      "departmentId": "materials",
+      "keywords": [
+        "핵산",
+        "DNA",
+        "바이오센서",
+        "동적 소재"
+      ],
+      "sourceIds": [
+        "src-materials-dna",
+        "src-materials-dna-profile",
+        "src-materials-dna-research"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-materials-mechanics",
+      "from": "prof-materials-mechanics",
+      "to": "lab-materials-mechanics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-materials-mechanics",
+        "src-materials-mechanics-profile",
+        "src-materials-mechanics-home"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-materials-bioinspired",
+      "from": "prof-materials-bioinspired",
+      "to": "lab-materials-bioinspired",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-materials-bioinspired",
+        "src-materials-bioinspired-profile",
+        "src-materials-bioinspired-pi"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-materials-dna",
+      "from": "prof-materials-dna",
+      "to": "lab-materials-dna",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-materials-dna",
+        "src-materials-dna-profile",
+        "src-materials-dna-research"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    }
+  ],
+  "evidence": []
+}

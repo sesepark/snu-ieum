@@ -1,0 +1,277 @@
+{
+  "manifest": {
+    "version": "energy-draft-20261026",
+    "generatedAt": "2026-10-26T11:17:08Z",
+    "publication": "prototype",
+    "selectionReason": "공식 전임교수 목록과 상세를 대조하고 금속순환·지하암반·환경지구화학의 서로 다른 분야를 골랐다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-energy-recycling",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=17",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "강정신 · 제련 및 리사이클링 공정 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-energy-rock",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=15",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "민기복 · 암반공학 민기복 교수 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "src-energy-geochemistry",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1&wr_id=10",
+      "organization": "서울대학교 에너지자원공학과",
+      "title": "정은혜 · 에너지환경지구화학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-energy-recycling",
+      "kind": "researcher",
+      "name": "강정신",
+      "summary": "희소금속의 제련과 폐자원 리사이클링 공정을 연구한다. 공식 교수 소개에 해당 연구실과 금속 회수·제조 주제가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "희소금속",
+        "제련",
+        "리사이클링",
+        "자원회수"
+      ],
+      "sourceIds": [
+        "src-energy-recycling"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-energy-recycling",
+      "kind": "lab",
+      "name": "제련 및 리사이클링 공정 연구실",
+      "summary": "희소금속의 제련과 폐자원 리사이클링 공정을 연구한다. 공식 교수 소개에 해당 연구실과 금속 회수·제조 주제가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "희소금속",
+        "제련",
+        "리사이클링",
+        "자원회수"
+      ],
+      "sourceIds": [
+        "src-energy-recycling"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-energy-rock",
+      "kind": "researcher",
+      "name": "민기복",
+      "summary": "열·수리·역학이 결합된 지하암반 거동을 연구하며 지열에너지·이산화탄소 지하저장·폐기물 지하처분을 응용 분야로 다룬다.",
+      "departmentId": "energy",
+      "keywords": [
+        "암반공학",
+        "지열",
+        "이산화탄소 저장",
+        "지하처분"
+      ],
+      "sourceIds": [
+        "src-energy-rock"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-energy-rock",
+      "kind": "lab",
+      "name": "암반공학 민기복 교수 연구실",
+      "summary": "열·수리·역학이 결합된 지하암반 거동을 연구하며 지열에너지·이산화탄소 지하저장·폐기물 지하처분을 응용 분야로 다룬다.",
+      "departmentId": "energy",
+      "keywords": [
+        "암반공학",
+        "지열",
+        "이산화탄소 저장",
+        "지하처분"
+      ],
+      "sourceIds": [
+        "src-energy-rock"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-energy-geochemistry",
+      "kind": "researcher",
+      "name": "정은혜",
+      "summary": "에너지 및 자원 생산 과정의 환경 문제와 유용자원 회수를 연구한다. 공식 소개에 환경지구화학과 오염수 내 자원 회수가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "환경지구화학",
+        "자원회수",
+        "환경오염"
+      ],
+      "sourceIds": [
+        "src-energy-geochemistry"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-energy-geochemistry",
+      "kind": "lab",
+      "name": "에너지환경지구화학 연구실",
+      "summary": "에너지 및 자원 생산 과정의 환경 문제와 유용자원 회수를 연구한다. 공식 소개에 환경지구화학과 오염수 내 자원 회수가 명시되어 있다.",
+      "departmentId": "energy",
+      "keywords": [
+        "환경지구화학",
+        "자원회수",
+        "환경오염"
+      ],
+      "sourceIds": [
+        "src-energy-geochemistry"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-energy-recycling",
+      "from": "prof-energy-recycling",
+      "to": "lab-energy-recycling",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-energy-recycling"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-energy-rock",
+      "from": "prof-energy-rock",
+      "to": "lab-energy-rock",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-energy-rock"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "leads-energy-geochemistry",
+      "from": "prof-energy-geochemistry",
+      "to": "lab-energy-geochemistry",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-energy-geochemistry"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    }
+  ],
+  "evidence": []
+}

@@ -34,3 +34,15 @@
 | industrial | `0a6cfdcc1fe5e5b2dae5dc4192b80f70901948ceeb6ee5ce9c35914833f6b797` | `0992e407-aaa4-47ae-bbdc-8c7e5b8da841` |
 
 세 초안 모두 해당 학과 호스트·공식 목록/상세 경로로 한정한 `manual-facts-1` Policy를 DB run에 기록했다. 개인 연락처·전체 원문은 반입하지 않았다. 논문 근거는 후속 검수에서 추가한다.
+
+## 에너지·원자핵·재료
+
+`energy.json`, `nuclear.json`, `materials.json`은 각각 교수 3명·연구실 3곳과 공식 지도교수 관계 3개를 수록한다. 에너지는 전임교수 상세 소개에서 연구실명과 주제를 확인했다. 원자핵은 연구실 카드와 [전임교수 명단](https://nucleng.snu.ac.kr/about/people/faculty)을 대조했다. 재료는 학과의 공식 교수 소개에서 연결한 연구실 홈페이지·Professor/PI 페이지를 대조했다. 학과 페이지에 없는 연구실 고유명이나 동명이인 식별을 추정하지 않았다.
+
+| 초안 | Raw ID | pending Staging ID |
+| --- | --- | --- |
+| energy | `f664b4668be894db14a70a2835543a346b0e3329b4740910c61b57746ebd83c0` | `a1a9565b-de9f-4bf4-b9ec-68bf668ff970` |
+| nuclear | `07a04cdc54a8c69a6294a7c2056361d2db04042d8aa9b87c76548cdf8b21761c` | `bc19349e-87e7-4952-826a-04a8268e4e7b` |
+| materials | `1a020697e86a932f847443ce4e386e07b54f98aca72ee62164d488b8b8338467` | `5cbc951f-20ed-4b0c-bce1-0dd89e862d13` |
+
+공식 링크를 통해 확인한 외부 호스트도 원문 보관·재배포 허가로 취급하지 않는다. robots 제한·접근 실패한 연구실은 우회하지 않고 선정에서 제외했으며, 기록은 source-policies에 남겼다. 수동 사실 payload만 Raw/Staging에 반입하고 사람 승인 전 상태를 유지했다.

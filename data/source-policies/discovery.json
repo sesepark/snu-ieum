@@ -78,8 +78,8 @@
         "facultyName": "h2.name",
         "labName": null
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "robots는 Yeti만 지정한다. 교수별 상세/연구실 항목을 별도 검수한다."
+      "selectorStatus": "three-profile-introductions-confirmed-manual-facts",
+      "note": "전임교수 상세 wr_id=17,15,10의 소개 본문에서 교수·연구실·주요 연구 분야를 함께 확인했다."
     },
     {
       "departmentId": "nuclear",
@@ -88,11 +88,11 @@
       "robotsUrl": "https://nucleng.snu.ac.kr/robots.txt",
       "robotsStatus": "allow-public",
       "selectors": {
-        "facultyName": null,
-        "labName": "#zcmscontent h3"
+        "facultyName": "교수진 h3",
+        "labName": ".edu-info h3"
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "연구실 /research/lab의 h3/h4는 국·영문 연구실명이다. 교수 연결은 같은 카드 또는 교수 프로필에서 확인한다."
+      "selectorStatus": "three-lab-cards-and-faculty-confirmed-manual-facts",
+      "note": "연구실 카드 .edu-info에 교수와 연구실이 명시된다. 전임교수 명단에서 조형규·주한규·김은희를 대조했다. #zcmscontent만으로 범위를 제한하면 일부 카드가 누락되어 사용하지 않는다."
     },
     {
       "departmentId": "materials",
@@ -104,8 +104,8 @@
         "facultyName": "h3.elementor-post__title",
         "labName": null
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "분야 탭에 같은 교수가 반복된다. 공식 상세 URL로 중복 제거하고 이름만으로 병합하지 않는다."
+      "selectorStatus": "three-linked-lab-identities-confirmed-manual-facts",
+      "note": "공식 교수 소개와 연결 연구실의 PI를 교차 확인했다. 이명규–MAMEL, 남기태–BMNL, 김영은–THE KIM RESEARCH GROUP. 분야 탭의 반복 항목은 단일 교수로 유지한다."
     },
     {
       "departmentId": "ece",
@@ -203,6 +203,39 @@
       "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y",
       "status": "list-only",
       "note": "개별 상세 URL이 개인 이메일을 키로 사용한다. 해당 상세 URL은 저장하지 않고 개인 연락처 없는 학과 목록 URL을 출처로 사용한다."
+    }
+  ],
+  "linkedLabChecks": [
+    {
+      "host": "www.nkitae.org",
+      "robotsStatus": "allow-public",
+      "crawlDelaySeconds": 3,
+      "note": "공식 MSE 교수 소개에서 연결된 BMNL. Professor와 홈페이지의 소속·이름·연구실명 대조."
+    },
+    {
+      "host": "mamel.snu.ac.kr",
+      "robotsStatus": "allow-public",
+      "note": "공식 MSE 이명규 소개에서 연결된 재료역학연구실. Professor 페이지와 연구 분야 확인."
+    },
+    {
+      "host": "kimgroup-snu.wixsite.com",
+      "robotsStatus": "allow-public-except-lightbox",
+      "note": "공식 MSE 김영은 소개에서 연결됨. /home/principal-investigator와 /home/research의 최소 사실만 작성."
+    },
+    {
+      "host": "energylab.snu.ac.kr",
+      "robotsStatus": "disallow-all",
+      "note": "자동 접근 제외. 명칭을 추정하지 않고 다른 공식 확인 가능한 분야 사례를 선정했다."
+    },
+    {
+      "host": "mmmpdl.snu.ac.kr",
+      "robotsStatus": "unavailable",
+      "note": "TLS/접근 확인 실패. 우회하지 않았다."
+    },
+    {
+      "host": "bielab.snu.ac.kr",
+      "robotsStatus": "unavailable",
+      "note": "TLS/접근 확인 실패. 우회하지 않았다."
     }
   ]
 }
