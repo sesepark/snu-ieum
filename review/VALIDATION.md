@@ -18,11 +18,13 @@
 | `npm run build` | Vite production 빌드 성공 |
 | `npm run schemas` | Zod에서 JSON Schema 생성 성공 |
 | Compose 파일 | 공식 compose-spec JSON Schema 검증 통과 |
-| CI·Pages workflow | YAML 파싱 통과; 실제 GitHub 실행은 미수행 |
+| CI·Pages workflow | GitHub verify 성공; 공개 Pages workflow는 미실행 |
 | 백업·복구 shell | shellcheck 통과 |
 | 개발 API 실기동 | `/health`, `/v1/catalog`, `/v1/graph` 200 |
 | 공용 패치 | 반영 전 apply check, 반영 후 reverse check 성공 |
 | 출시 게이트 | 미승인·수량 미달·검증 미완료 시 의도대로 실패 |
+
+GitHub Actions의 [verify 실행](https://github.com/sesepark/snu-ieum/actions/runs/40292086102)에서도 타입·단위 39개·PostgreSQL 6개·브라우저 5개·빌드가 성공했다. CI는 headless Chromium shell만 설치하고 설치 8분/전체 20분 제한을 둔다.
 
 브라우저는 설치된 Chrome을 `PLAYWRIGHT_CHANNEL=chrome`으로 사용했다. CI에서는 Playwright Chromium을 설치하도록 준비했다. iab가 제공되지 않아 Chrome으로 화면을 확인했다.
 
