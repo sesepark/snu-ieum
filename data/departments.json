@@ -1,0 +1,57 @@
+{
+  "sourceUrl": "https://eng.snu.ac.kr/",
+  "organization": "서울대학교 공과대학",
+  "retrievedAt": "2026-10-26T08:39:48Z",
+  "scope": "공식 학과/학부 목록",
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부"
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "officialName": "건축학과(건축학,건축공학)"
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부"
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과"
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과"
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과"
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부"
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부"
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과"
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부"
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과"
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부"
+    }
+  ]
+}

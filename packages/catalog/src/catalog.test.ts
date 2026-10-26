@@ -60,3 +60,10 @@ it('treats shared infrastructure as a display group without inventing a departme
   expect(summary.gaps.some(gap => gap.includes('공용시설: 교수'))).toBe(false);
   expect(graph(shared, base).nodes.some(node => node.id === 'fixture-equipment')).toBe(true);
 });
+
+it('rejects a release that omits official departments or introduces an unchecked department', () => {
+  const missing = {...s,departments:s.departments.filter(d=>d.id==='cse')};
+  expect(catalog(missing).gaps.some(gap=>gap.includes('공식 학과 목록에서 누락'))).toBe(true);
+  const unchecked = parseSnapshot({...s,departments:[...s.departments,{id:'unchecked',name:'검수 전 학과',sourceIds:['s-departments']}]});
+  expect(catalog(unchecked).gaps.some(gap=>gap.includes('공식 학과 목록과 대조 필요'))).toBe(true);
+});

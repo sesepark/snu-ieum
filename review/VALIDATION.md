@@ -12,7 +12,7 @@
 | --- | --- |
 | 새 작업공간 `npm ci` | 성공, 감사 결과 알려진 취약점 0 |
 | `npm run check` | TypeScript 통과 |
-| `npm test` | 39개 단위·API 검사 통과 |
+| `npm test` | 41개 단위·API 검사 통과 |
 | 실제 PostgreSQL `npm run test:db` | 6개 통합 검사 통과 |
 | Chrome `npm run test:e2e` | 5개 브라우저 흐름 통과 |
 | `npm run build` | Vite production 빌드 성공 |
@@ -62,3 +62,5 @@ pg_dump custom format → DB+원문 tar → 임시 GPG 키로 암호화
 개별 수집 후보는 Staging에 쌓이고, 운영자가 이 후보를 공식 근거로 연결한 전체 배치 초안을 검수·반입한다. 현재 후보 자동 병합이나 자동 관계 추론은 없다. 검수는 CSV/JSONL로 내보낼 수 있고 전체 배치는 JSON으로 반입한다. 일반 CSV 임의 편집을 자동 승인·공개로 연결하지 않는다.
 
 실제 공개에는 `infra/launch-evidence.example.json`을 실제 측정값으로 채운 별도 기록이 필요하다. 예시의 빈 값·false는 출시를 차단한다. 출시 기본 뷰는 실험 결과로 정해 `VITE_DEFAULT_VIEW`에 적용한다.
+
+공용 인프라를 학과 소속으로 추정하지 않는 additive 그룹 계약과 공식 12개 학과 레지스트리를 추가했다. 출시 검사는 학과 누락·미등록 학과를 차단하고, 공용시설을 교수/연구실 최소 수량의 학과 분모에 넣지 않는다.

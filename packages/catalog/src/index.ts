@@ -1,3 +1,4 @@
+import officialDepartments from '../../../data/departments.json' with { type: 'json' };
 import { RecommendationSchema, SnapshotSchema, type Snapshot, type Filters, type Catalog, type Graph, type Resource, type Recommendation } from '@ieum/contracts';
 
 export const normalize = (text: string) => text.normalize('NFKC').toLocaleLowerCase('ko').replace(/[^\p{L}\p{N}]/gu, '');
@@ -24,6 +25,9 @@ export function catalog(s: Snapshot): Catalog {
   const sharedGroups = groups.filter(d => d.groupType === 'shared');
   const totals = counts(s.resources);
   const gaps: string[] = [];
+  const expected = new Set(officialDepartments.departments.map(d => d.id));
+  for (const d of officialDepartments.departments) if (!departments.some(found => found.id === d.id)) gaps.push(`${d.name}: 공식 학과 목록에서 누락`);
+  for (const d of departments) if (!expected.has(d.id)) gaps.push(`${d.name}: 공식 학과 목록과 대조 필요`);
   for (const d of departments) {
     if (d.counts.researcher < 3 || d.counts.lab < 3) gaps.push(`${d.name}: 교수 ${d.counts.researcher}/3 · 연구실 ${d.counts.lab}/3`);
     if (!s.evidence.some(e => e.resourceIds.some(id => s.resources.some(r => r.id === id && r.departmentId === d.id)))) gaps.push(`${d.name}: 논문 근거 미확보`);
