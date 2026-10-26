@@ -1,0 +1,475 @@
+{
+  "manifest": {
+    "version": "labs-nuclear-20261027",
+    "generatedAt": "2026-10-26T16:57:48.882Z",
+    "publication": "prototype",
+    "schemaVersion": 1,
+    "selectionReason": "공식 연구실 전체 목록의 명칭·지도교수·주소 최소 사실. 명시된 연구실 주소만 수록하고 개인 연락처·사진·HTML 제외. 분야·홈페이지·현재 소속 교차 대조와 사람 승인 대기."
+  },
+  "departments": [
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 학과/학부 목록",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "official-lab-inventory-nuclear",
+      "url": "https://nucleng.snu.ac.kr/research/lab",
+      "organization": "서울대학교 원자핵공학과",
+      "title": "공식 연구실 전체 목록·위치",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:57:48.882Z",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "source-eng-directory-19",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=19",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 19페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-22",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=22",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 22페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-18",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=18",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 18페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-11",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=11",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 11페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-8",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=8",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 8페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-2",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=2",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 2페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-6",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=6",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 6페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-15",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=15",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 15페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "lab-list-nuclear-a",
+      "kind": "lab",
+      "name": "3차원 스텔라레이터 및 토카막 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-b",
+      "kind": "lab",
+      "name": "고성능 플라즈마 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-c",
+      "kind": "lab",
+      "name": "몬테칼로 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-d",
+      "kind": "lab",
+      "name": "방사선 공학 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-g",
+      "kind": "lab",
+      "name": "원자력 시스템 및 응용 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-i",
+      "kind": "lab",
+      "name": "전산 핵재료 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-j",
+      "kind": "lab",
+      "name": "플라즈마 및 방사선 공학 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-k",
+      "kind": "lab",
+      "name": "플라즈마 및 양자빔 공학 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-l",
+      "kind": "lab",
+      "name": "플라즈마 응용 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-m",
+      "kind": "lab",
+      "name": "핵연료재료 및 안전 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-list-nuclear-n",
+      "kind": "lab",
+      "name": "핵연료주기 및 핵비확산 연구실",
+      "summary": "공식 학과 연구실 목록에 수록된 연구실입니다. 연구 분야·성과·이용 조건은 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [],
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-plibkhmkmkpj",
+      "kind": "researcher",
+      "name": "나용수",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-jgofoampeoik",
+      "kind": "researcher",
+      "name": "심형진",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-cbdenbojboga",
+      "kind": "researcher",
+      "name": "최성열",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-eaophadchiib",
+      "kind": "researcher",
+      "name": "황용석",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-cpafkbbgbepi",
+      "kind": "researcher",
+      "name": "정경재",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-olnhpapekfib",
+      "kind": "researcher",
+      "name": "박설혜",
+      "summary": "공대 공식 교수검색에 원자핵공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-jpdihpiddmcb",
+      "kind": "researcher",
+      "name": "김기현",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-deflpkghlnhp",
+      "kind": "researcher",
+      "name": "이유호",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-list-nuclear-b",
+      "from": "prof-dir-nuclear-plibkhmkmkpj",
+      "to": "lab-list-nuclear-b",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-list-nuclear-c",
+      "from": "prof-dir-nuclear-jgofoampeoik",
+      "to": "lab-list-nuclear-c",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-list-nuclear-d",
+      "from": "prof-dir-nuclear-jpdihpiddmcb",
+      "to": "lab-list-nuclear-d",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-list-nuclear-j",
+      "from": "prof-dir-nuclear-cpafkbbgbepi",
+      "to": "lab-list-nuclear-j",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-list-nuclear-k",
+      "from": "prof-dir-nuclear-eaophadchiib",
+      "to": "lab-list-nuclear-k",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-list-nuclear-l",
+      "from": "prof-dir-nuclear-olnhpapekfib",
+      "to": "lab-list-nuclear-l",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-list-nuclear-m",
+      "from": "prof-dir-nuclear-deflpkghlnhp",
+      "to": "lab-list-nuclear-m",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    },
+    {
+      "id": "leads-list-nuclear-n",
+      "from": "prof-dir-nuclear-cbdenbojboga",
+      "to": "lab-list-nuclear-n",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+    }
+  ],
+  "evidence": []
+}

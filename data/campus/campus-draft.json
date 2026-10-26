@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "campus-20261027",
-    "generatedAt": "2026-10-26T16:28:15.666Z",
+    "generatedAt": "2026-10-26T16:59:28.548Z",
     "publication": "prototype",
     "selectionReason": "OSM 실제 건물·도로와 공식 지도 최소 사실의 미승인 공간 초안. 공식 전수 목록·위치·윤곽 대조 검수 진행 중.",
     "schemaVersion": 1
@@ -319,6 +319,378 @@
       "license": "직접 작성한 최소 사실 · 원문 복제 허가 미확인",
       "attribution": "서울대학교 공과대학",
       "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-1",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=1",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 1페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-2",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=2",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 2페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-3",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=3",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 3페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-4",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=4",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 4페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-5",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=5",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 5페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-6",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=6",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 6페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-7",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=7",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 7페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-8",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=8",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 8페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-9",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=9",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 9페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-10",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=10",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 10페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-11",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=11",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 11페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-12",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=12",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 12페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-13",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=13",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 13페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-14",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=14",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 14페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-15",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=15",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 15페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-16",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=16",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 16페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-17",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=17",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 17페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-18",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=18",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 18페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-19",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=19",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 19페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-20",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=20",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 20페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-21",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=21",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 21페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-22",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=22",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 22페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "source-eng-directory-23",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=23",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 23페이지",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록 최소 사실 · 원문 보관 허가 미확인",
+      "attribution": "서울대학교 공과대학",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "src-industrial-or",
+      "url": "https://ie.snu.ac.kr/or_lab/",
+      "title": "박명주 · 경영과학 연구실 공식 안내",
+      "organization": "서울대학교 산업공학과",
+      "license": "직접 작성한 최소 위치 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 공식 학과",
+      "retrievedAt": "2026-10-26T16:55:25.544Z",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "contentUpdatedAt": null,
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "src-industrial-dsba",
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "title": "강필성 · 데이터과학 및 비즈니스 애널리틱스 연구실 공식 안내",
+      "organization": "서울대학교 산업공학과",
+      "license": "직접 작성한 최소 위치 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 공식 학과",
+      "retrievedAt": "2026-10-26T16:55:25.544Z",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "contentUpdatedAt": null,
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "src-industrial-his",
+      "url": "https://ie.snu.ac.kr/his_lab/",
+      "title": "윤명환 · 휴먼인터페이스시스템 연구실 공식 안내",
+      "organization": "서울대학교 산업공학과",
+      "license": "직접 작성한 최소 위치 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 공식 학과",
+      "retrievedAt": "2026-10-26T16:55:25.544Z",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "contentUpdatedAt": null,
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "src-nuclear-thermal",
+      "url": "https://nucleng.snu.ac.kr/research/lab",
+      "title": "조형규 · 열수력계통연구실 공식 안내",
+      "organization": "서울대학교 원자핵공학과",
+      "license": "직접 작성한 최소 위치 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 공식 학과",
+      "retrievedAt": "2026-10-26T16:55:25.544Z",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "contentUpdatedAt": null,
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "src-aerospace-aerodynamics",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "title": "김종암 · 공력 시뮬레이션 및 디자인 연구실 공식 안내",
+      "organization": "서울대학교 항공우주공학과",
+      "license": "직접 작성한 최소 위치 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 공식 학과",
+      "retrievedAt": "2026-10-26T16:55:25.544Z",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "contentUpdatedAt": null,
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "official-address-ie-faculty",
+      "url": "https://ie.snu.ac.kr/professor/",
+      "title": "공식 현직교수 주소",
+      "organization": "서울대학교 산업공학과",
+      "license": "직접 작성한 최소 위치 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 공식 학과",
+      "retrievedAt": "2026-10-26T16:55:25.544Z",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "contentUpdatedAt": null,
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "official-lab-inventory-nuclear",
+      "url": "https://nucleng.snu.ac.kr/research/lab",
+      "organization": "서울대학교 원자핵공학과",
+      "title": "공식 연구실 전체 목록·위치",
+      "retrievedAt": "2026-10-26T16:57:48.882Z",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록·위치 최소 사실",
+      "attribution": "서울대학교 원자핵공학과",
+      "redistribution": "metadata-only"
+    },
+    {
+      "id": "official-lab-inventory-aerospace",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "공식 연구실 전체 목록·위치",
+      "retrievedAt": "2026-10-26T16:57:48.882Z",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "contentUpdatedAt": null,
+      "license": "직접 작성한 목록·위치 최소 사실",
+      "attribution": "서울대학교 항공우주공학과",
+      "redistribution": "metadata-only"
     }
   ],
   "colleges": [
@@ -388,7 +760,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-11",
@@ -441,7 +813,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-9",
@@ -502,7 +874,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-148286730",
@@ -582,7 +954,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-161950628",
@@ -646,7 +1018,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-161957771",
@@ -702,7 +1074,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-25",
@@ -767,7 +1139,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-43-1",
@@ -832,7 +1204,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-56",
@@ -933,7 +1305,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-21",
@@ -994,7 +1366,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-20",
@@ -1071,7 +1443,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-22",
@@ -1144,7 +1516,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-129",
@@ -1253,7 +1625,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-167607356",
@@ -1337,7 +1709,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-167608115",
@@ -1413,7 +1785,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-14",
@@ -1462,7 +1834,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-167609409",
@@ -1514,7 +1886,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-25-1",
@@ -1591,7 +1963,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-167659979",
@@ -1679,7 +2051,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-75-1",
@@ -1744,7 +2116,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-83",
@@ -1833,11 +2205,11 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-167663930",
-      "number": null,
+      "id": "snu-113",
+      "number": "113",
       "name": "동원생활관",
       "footprint": {
         "type": "Polygon",
@@ -1898,18 +2270,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95175,
+        37.46504
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-167665986",
@@ -1973,7 +2350,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-4",
@@ -2038,7 +2415,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-2",
@@ -2123,7 +2500,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-3",
@@ -2184,7 +2561,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-5",
@@ -2257,7 +2634,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-167983986",
@@ -2309,7 +2686,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-1",
@@ -2366,7 +2743,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-200",
@@ -2451,7 +2828,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-179742150",
@@ -2495,7 +2872,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-26",
@@ -2548,7 +2925,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-179742153",
@@ -2596,7 +2973,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-39",
@@ -2745,7 +3122,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-500",
@@ -2798,7 +3175,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-10",
@@ -2859,7 +3236,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-15",
@@ -2920,7 +3297,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-58",
@@ -3037,7 +3414,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-193893586",
@@ -3121,7 +3498,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-102",
@@ -3198,7 +3575,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-193893591",
@@ -3278,7 +3655,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-301",
@@ -3385,7 +3762,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-230089557",
@@ -3481,7 +3858,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-16",
@@ -3594,7 +3971,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-101",
@@ -3659,7 +4036,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-231168242",
@@ -3743,7 +4120,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-16-1",
@@ -3808,7 +4185,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-238935744",
@@ -3856,7 +4233,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-84",
@@ -3949,7 +4326,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-238935852",
@@ -4029,7 +4406,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-17",
@@ -4102,7 +4479,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-12",
@@ -4199,7 +4576,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-6",
@@ -4264,7 +4641,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-7",
@@ -4337,7 +4714,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-8",
@@ -4394,7 +4771,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-10-1",
@@ -4479,7 +4856,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-24",
@@ -4544,7 +4921,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-85",
@@ -4657,7 +5034,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-13",
@@ -4722,7 +5099,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-252233408",
@@ -4766,7 +5143,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-252282916",
@@ -4810,7 +5187,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-252282917",
@@ -4854,7 +5231,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-37",
@@ -4921,7 +5298,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-64",
@@ -4990,7 +5367,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-220",
@@ -5115,7 +5492,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-221",
@@ -5180,7 +5557,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-82",
@@ -5249,7 +5626,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-297047750",
@@ -5329,7 +5706,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-300587512",
@@ -5373,7 +5750,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-310022287",
@@ -5453,7 +5830,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-313338192",
@@ -5513,12 +5890,12 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-320669392",
-      "number": null,
-      "name": "해동학술관",
+      "id": "snu-32-1",
+      "number": "32-1",
+      "name": "해동학술문화관",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -5574,18 +5951,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.94976,
+        37.45619
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-320674219",
@@ -5629,7 +6011,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-329398175",
@@ -5681,7 +6063,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-329398248",
@@ -5765,7 +6147,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-337498781",
@@ -5869,7 +6251,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-33",
@@ -5936,7 +6318,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-36",
@@ -5999,7 +6381,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-34",
@@ -6066,7 +6448,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-44-1",
@@ -6121,7 +6503,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-347806723",
@@ -6189,7 +6571,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-347806730",
@@ -6233,7 +6615,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-347806732",
@@ -6277,7 +6659,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-347806733",
@@ -6329,7 +6711,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-377154957",
@@ -6405,7 +6787,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-140-1",
@@ -6494,7 +6876,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-386890380",
@@ -6662,7 +7044,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-310",
@@ -6749,7 +7131,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-222",
@@ -6826,7 +7208,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-57-1",
@@ -6907,12 +7289,12 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-386890918",
-      "number": null,
-      "name": "폐기물보관소",
+      "id": "snu-43",
+      "number": "43",
+      "name": "데이터사이언스대학원 및 공과대학 강의동 1",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -6952,18 +7334,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95173,
+        37.45722
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-386891006",
@@ -7043,12 +7430,12 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-386891016",
-      "number": null,
-      "name": "입학본부",
+      "id": "snu-150",
+      "number": "150",
+      "name": "명예교수연구동",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -7084,18 +7471,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95031,
+        37.46704
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": 15,
       "heightStatus": "levels-derived",
       "levels": 5,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-30",
@@ -7154,7 +7546,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-31",
@@ -7233,7 +7625,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-391747018",
@@ -7317,7 +7709,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-409030550",
@@ -7377,7 +7769,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-424324200",
@@ -7453,7 +7845,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-424946985",
@@ -7497,7 +7889,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-424949442",
@@ -7557,7 +7949,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-424950825",
@@ -7629,7 +8021,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-424950826",
@@ -7681,11 +8073,11 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-430040354",
-      "number": null,
+      "id": "snu-104",
+      "number": "104",
       "name": "반도체공동연구소",
       "footprint": {
         "type": "Polygon",
@@ -7726,23 +8118,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95301,
+        37.45477
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-430040355",
-      "number": null,
-      "name": "선형수조실험공장동",
+      "id": "snu-42",
+      "number": "42",
+      "name": "선형수조실험동",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -7790,23 +8187,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95254,
+        37.4553
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-430040357",
-      "number": null,
-      "name": "선박실험공장동",
+      "id": "snu-41",
+      "number": "41",
+      "name": "선체구조실험동",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -7834,22 +8236,27 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95264,
+        37.45563
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-430040359",
-      "number": null,
+      "id": "snu-132",
+      "number": "132",
       "name": "뉴미디어통신공동연구소",
       "footprint": {
         "type": "Polygon",
@@ -7886,18 +8293,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95407,
+        37.45487
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-430163191",
@@ -7957,12 +8369,12 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-430289140",
-      "number": null,
-      "name": "정밀기계설계공동연구소",
+      "id": "snu-313",
+      "number": "313",
+      "name": "정밀기계공동연구소",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -7998,23 +8410,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95197,
+        37.45123
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-430289533",
-      "number": null,
-      "name": "차세대자동차기술연구센터",
+      "id": "snu-314",
+      "number": "314",
+      "name": "차세대자동차신기술연구소",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -8070,23 +8487,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95243,
+        37.45178
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-430289534",
-      "number": null,
-      "name": "유회진학술정보관 (300동)",
+      "id": "snu-300",
+      "number": "300",
+      "name": "관악 300동[유회진 학술정보관]",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -8170,18 +8592,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.9527,
+        37.45095
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-430291668",
@@ -8233,7 +8660,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-430291669",
@@ -8285,7 +8712,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-430291671",
@@ -8353,7 +8780,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-430291672",
@@ -8401,7 +8828,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-434754623",
@@ -8489,7 +8916,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-435329614",
@@ -8533,7 +8960,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-435330210",
@@ -8585,7 +9012,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-435330211",
@@ -8629,7 +9056,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-436516327",
@@ -8705,7 +9132,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-436516328",
@@ -8757,7 +9184,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-436516329",
@@ -8801,7 +9228,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-436516336",
@@ -8861,7 +9288,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-139",
@@ -8946,7 +9373,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-29",
@@ -8995,7 +9422,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-19",
@@ -9056,7 +9483,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-18",
@@ -9117,7 +9544,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-436516341",
@@ -9161,7 +9588,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439687807",
@@ -9229,7 +9656,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439687808",
@@ -9273,7 +9700,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-152-1",
@@ -9338,7 +9765,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439687810",
@@ -9382,7 +9809,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439687811",
@@ -9426,7 +9853,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439687812",
@@ -9478,7 +9905,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439687813",
@@ -9522,7 +9949,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-81",
@@ -9587,7 +10014,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439687815",
@@ -9631,7 +10058,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-59",
@@ -9740,7 +10167,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-57",
@@ -9813,7 +10240,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439693757",
@@ -9917,7 +10344,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-74",
@@ -9994,7 +10421,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-50",
@@ -10095,7 +10522,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439693760",
@@ -10155,7 +10582,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-51",
@@ -10252,7 +10679,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-52",
@@ -10393,7 +10820,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-52-1",
@@ -10482,7 +10909,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-53",
@@ -10583,7 +11010,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-54",
@@ -10688,7 +11115,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-55",
@@ -10857,7 +11284,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-203",
@@ -10918,7 +11345,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-201",
@@ -10995,12 +11422,12 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-439703621",
-      "number": null,
-      "name": "공과대학",
+      "id": "snu-40",
+      "number": "40",
+      "name": "풍동실험동1",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -11032,23 +11459,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95158,
+        37.45425
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-439703622",
-      "number": null,
-      "name": "신소재공동연구소",
+      "id": "snu-133",
+      "number": "133",
+      "name": "자동화연구소",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -11088,18 +11520,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95043,
+        37.45439
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439703623",
@@ -11147,11 +11584,11 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-439703625",
-      "number": null,
+      "id": "snu-44",
+      "number": "44",
       "name": "풍동실험동2",
       "footprint": {
         "type": "Polygon",
@@ -11184,18 +11621,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95209,
+        37.45478
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439703626",
@@ -11247,11 +11689,11 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-439703629",
-      "number": null,
+      "id": "snu-131",
+      "number": "131",
       "name": "신소재공동연구소",
       "footprint": {
         "type": "Polygon",
@@ -11312,18 +11754,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95085,
+        37.45359
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439703632",
@@ -11367,7 +11814,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439703635",
@@ -11419,7 +11866,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439703636",
@@ -11463,11 +11910,11 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-439703637",
-      "number": null,
+      "id": "snu-316",
+      "number": "316",
       "name": "대형구조실험동",
       "footprint": {
         "type": "Polygon",
@@ -11520,18 +11967,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95031,
+        37.44738
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439704946",
@@ -11619,7 +12071,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439704947",
@@ -11663,7 +12115,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-139-1",
@@ -11720,7 +12172,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439704949",
@@ -11796,7 +12248,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439704950",
@@ -11840,7 +12292,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439704951",
@@ -11892,7 +12344,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707874",
@@ -11940,7 +12392,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707875",
@@ -12000,7 +12452,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-942",
@@ -12065,7 +12517,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707877",
@@ -12145,7 +12597,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707878",
@@ -12205,7 +12657,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707880",
@@ -12249,7 +12701,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707881",
@@ -12293,7 +12745,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707882",
@@ -12345,7 +12797,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707883",
@@ -12405,11 +12857,11 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-439707884",
-      "number": null,
+      "id": "snu-126",
+      "number": "126",
       "name": "호암동관",
       "footprint": {
         "type": "Polygon",
@@ -12438,18 +12890,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95945,
+        37.46763
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707885",
@@ -12493,7 +12950,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707886",
@@ -12537,7 +12994,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707887",
@@ -12581,7 +13038,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707888",
@@ -12625,7 +13082,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707889",
@@ -12669,7 +13126,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707890",
@@ -12713,7 +13170,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707891",
@@ -12757,7 +13214,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707892",
@@ -12801,7 +13258,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707893",
@@ -12845,7 +13302,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707894",
@@ -12889,7 +13346,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-439707895",
@@ -12933,7 +13390,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-455025059",
@@ -12977,7 +13434,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-456300256",
@@ -13029,7 +13486,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-153",
@@ -13094,7 +13551,7 @@
       "collegeIds": [],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-456356713",
@@ -13138,12 +13595,12 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-460919054",
-      "number": null,
-      "name": "42-1동",
+      "id": "snu-42-1",
+      "number": "42-1",
+      "name": "슬로싱실험동",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -13175,18 +13632,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95232,
+        37.45495
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-460919056",
@@ -13234,7 +13696,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-302",
@@ -13325,7 +13787,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220667",
@@ -13393,7 +13855,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220668",
@@ -13453,7 +13915,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220670",
@@ -13513,7 +13975,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220671",
@@ -13561,7 +14023,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220672",
@@ -13625,7 +14087,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220673",
@@ -13685,7 +14147,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220675",
@@ -13769,7 +14231,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220678",
@@ -13845,7 +14307,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220679",
@@ -13889,7 +14351,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220680",
@@ -13965,7 +14427,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220682",
@@ -14041,7 +14503,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482220683",
@@ -14101,7 +14563,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482425583",
@@ -14157,7 +14619,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482425584",
@@ -14209,7 +14671,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482425585",
@@ -14269,7 +14731,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482425586",
@@ -14313,7 +14775,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-482425587",
@@ -14409,7 +14871,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-539770454",
@@ -14453,7 +14915,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-567075028",
@@ -14509,7 +14971,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-567075029",
@@ -14569,7 +15031,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-567075030",
@@ -14709,7 +15171,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-605434649",
@@ -14761,7 +15223,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-605436086",
@@ -14833,7 +15295,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-606880347",
@@ -14877,7 +15339,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-626116411",
@@ -14929,7 +15391,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-626116412",
@@ -14973,7 +15435,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-700872151",
@@ -15033,12 +15495,12 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-777502176",
-      "number": null,
-      "name": "312 정밀기계설계 실험동",
+      "id": "snu-312",
+      "number": "312",
+      "name": "정밀기계연구소실험연구동",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -15094,23 +15556,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95188,
+        37.45091
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-778417387",
-      "number": null,
-      "name": "글로벌학생생활관(917)",
+      "id": "snu-917",
+      "number": "917",
+      "name": "관악 917동[외국인학생기숙사]",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -15146,23 +15613,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.957455,
+        37.465821
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-778417388",
-      "number": null,
-      "name": "글로벌학생생활관(916)",
+      "id": "snu-916",
+      "number": "916",
+      "name": "관악 916동[외국인학생기숙사]",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -15190,23 +15662,28 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.957139,
+        37.4654
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-778417389",
-      "number": null,
-      "name": "글로벌학생생활관(915)",
+      "id": "snu-915",
+      "number": "915",
+      "name": "관악 915동[외국인학생기숙사]",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -15234,18 +15711,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.957503,
+        37.465012
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-35",
@@ -15376,7 +15858,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-899293369",
@@ -15420,7 +15902,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-899293370",
@@ -15464,7 +15946,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-899293371",
@@ -15508,7 +15990,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-901776473",
@@ -15556,11 +16038,11 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-905718842",
-      "number": null,
+      "id": "snu-69",
+      "number": "69",
       "name": "실험동물자원관리원",
       "footprint": {
         "type": "Polygon",
@@ -15605,18 +16087,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95278,
+        37.45728
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1138173337",
@@ -15704,7 +16191,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1138174384",
@@ -15748,7 +16235,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339715",
@@ -15824,7 +16311,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339716",
@@ -15900,7 +16387,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339717",
@@ -15976,7 +16463,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339718",
@@ -16084,7 +16571,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339719",
@@ -16192,7 +16679,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339720",
@@ -16300,7 +16787,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339721",
@@ -16408,7 +16895,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1172339722",
@@ -16516,7 +17003,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1230228951",
@@ -16560,7 +17047,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1437075581",
@@ -16612,7 +17099,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1437075584",
@@ -16656,7 +17143,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1437075585",
@@ -16716,7 +17203,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1437075586",
@@ -16760,7 +17247,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1437075587",
@@ -16804,7 +17291,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1437075588",
@@ -16848,7 +17335,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1469808348",
@@ -16916,7 +17403,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1469808353",
@@ -17008,7 +17495,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1469808354",
@@ -17052,12 +17539,12 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-1485386282",
-      "number": null,
-      "name": "데이터사이언스대학원",
+      "id": "snu-43-2",
+      "number": "43-2",
+      "name": "관악 43-2동[데이터사이언스대학원 및 공과대학 강의동 2]",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -17085,18 +17572,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.95126,
+        37.45701
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": 12,
       "heightStatus": "levels-derived",
       "levels": 4,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1497541779",
@@ -17140,7 +17632,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1511791907",
@@ -17192,7 +17684,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1530313056",
@@ -17260,7 +17752,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1530313057",
@@ -17304,7 +17796,7 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-32",
@@ -17359,7 +17851,7 @@
       ],
       "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "osm-way-1537839925",
@@ -17407,12 +17899,12 @@
       "collegeIds": [],
       "matchStatus": "unmatched",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
-      "id": "osm-way-1542788687",
-      "number": null,
-      "name": "우석경제관",
+      "id": "snu-223",
+      "number": "223",
+      "name": "관악 223동[우석경제관]",
       "footprint": {
         "type": "Polygon",
         "coordinates": [
@@ -17488,18 +17980,23 @@
           ]
         ]
       },
-      "point": null,
+      "point": [
+        126.955673,
+        37.465509
+      ],
       "geometrySourceIds": [
         "osm"
       ],
-      "identitySourceIds": [],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
       "heightMeters": null,
       "heightStatus": "unknown",
       "levels": null,
       "collegeIds": [],
-      "matchStatus": "unmatched",
+      "matchStatus": "candidate",
       "omissionReason": null,
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-49",
@@ -17522,7 +18019,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-85-1",
@@ -17545,7 +18042,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-52-2",
@@ -17568,7 +18065,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-207",
@@ -17591,7 +18088,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-105-2",
@@ -17614,7 +18111,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-143",
@@ -17637,7 +18134,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-15-1",
@@ -17660,7 +18157,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-86",
@@ -17683,7 +18180,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-73",
@@ -17706,7 +18203,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-140-2",
@@ -17729,7 +18226,7 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     },
     {
       "id": "snu-140",
@@ -17752,7 +18249,283 @@
       "collegeIds": [],
       "matchStatus": "verified",
       "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
-      "lastVerifiedAt": "2026-10-26T16:28:15.666Z"
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-56-1",
+      "number": "56-1",
+      "name": "관악 56-1동[김철수물리관]",
+      "footprint": null,
+      "point": [
+        126.951594,
+        37.458209
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-59-1",
+      "number": "59-1",
+      "name": "관악 59-1동[매니지먼트센터]",
+      "footprint": null,
+      "point": [
+        126.952318,
+        37.464916
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-252",
+      "number": "252",
+      "name": "교육관연결동(10동-11동)",
+      "footprint": null,
+      "point": [
+        126.95543,
+        37.4601
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-254",
+      "number": "254",
+      "name": "물리관연결동(25동-27동)",
+      "footprint": null,
+      "point": [
+        126.94999,
+        37.45844
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-251",
+      "number": "251",
+      "name": "사회관연결동(6동-7동)",
+      "footprint": null,
+      "point": [
+        126.95462,
+        37.46059
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-80",
+      "number": "80",
+      "name": "수의대부속동물병원",
+      "footprint": null,
+      "point": [
+        126.95324,
+        37.46822
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-135",
+      "number": "135",
+      "name": "에너지신기술연구동",
+      "footprint": null,
+      "point": [
+        126.95227,
+        37.45439
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-255",
+      "number": "255",
+      "name": "예능관연결동(51동-52동)",
+      "footprint": null,
+      "point": [
+        126.9529,
+        37.46356
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-250",
+      "number": "250",
+      "name": "인문관연결동(1동-2동)",
+      "footprint": null,
+      "point": [
+        126.95265,
+        37.46038
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-149",
+      "number": "149",
+      "name": "종합운동장본부석",
+      "footprint": null,
+      "point": [
+        126.9507,
+        37.46447
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-253",
+      "number": "253",
+      "name": "화학관연결동(22동-23동)",
+      "footprint": null,
+      "point": [
+        126.95118,
+        37.45839
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
+    },
+    {
+      "id": "snu-31-1",
+      "number": "31-1",
+      "name": "가속기제작실",
+      "footprint": null,
+      "point": [
+        126.94998,
+        37.45723
+      ],
+      "geometrySourceIds": [
+        "snu-buildings"
+      ],
+      "identitySourceIds": [
+        "snu-buildings"
+      ],
+      "heightMeters": null,
+      "heightStatus": "unknown",
+      "levels": null,
+      "collegeIds": [],
+      "matchStatus": "verified",
+      "omissionReason": "공식 좌표만 확보 · 일치하는 건물 윤곽 검수 필요",
+      "lastVerifiedAt": "2026-10-26T16:59:28.548Z"
     }
   ],
   "locations": [
@@ -17973,78 +18746,6 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-prof-industrial-or",
-      "resourceId": "prof-industrial-or",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-industrial-or",
-      "resourceId": "lab-industrial-or",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-industrial-dsba",
-      "resourceId": "prof-industrial-dsba",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-industrial-dsba",
-      "resourceId": "lab-industrial-dsba",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-industrial-his",
-      "resourceId": "prof-industrial-his",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-industrial-his",
-      "resourceId": "lab-industrial-his",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-prof-energy-recycling",
       "resourceId": "prof-energy-recycling",
       "buildingId": null,
@@ -18129,18 +18830,6 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-lab-nuclear-thermal",
-      "resourceId": "lab-nuclear-thermal",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-prof-nuclear-reactor",
       "resourceId": "prof-nuclear-reactor",
       "buildingId": null,
@@ -18153,34 +18842,10 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-lab-nuclear-reactor",
-      "resourceId": "lab-nuclear-reactor",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-prof-nuclear-radiation",
       "resourceId": "prof-nuclear-radiation",
       "buildingId": null,
       "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-nuclear-radiation",
-      "resourceId": "lab-nuclear-radiation",
-      "buildingId": null,
-      "purpose": "lab",
       "room": null,
       "status": "unknown",
       "sourceIds": [],
@@ -18489,18 +19154,6 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-lab-aerospace-aerodynamics",
-      "resourceId": "lab-aerospace-aerodynamics",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-prof-aerospace-rocket",
       "resourceId": "prof-aerospace-rocket",
       "buildingId": null,
@@ -18513,34 +19166,10 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-lab-aerospace-rocket",
-      "resourceId": "lab-aerospace-rocket",
-      "buildingId": null,
-      "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-prof-aerospace-navigation",
       "resourceId": "prof-aerospace-navigation",
       "buildingId": null,
       "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-lab-aerospace-navigation",
-      "resourceId": "lab-aerospace-navigation",
-      "buildingId": null,
-      "purpose": "lab",
       "room": null,
       "status": "unknown",
       "sourceIds": [],
@@ -19065,6 +19694,846 @@
       ],
       "addressText": "중앙도서관",
       "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-industrial-or-39",
+      "resourceId": "lab-industrial-or",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "310호",
+      "status": "verified",
+      "sourceIds": [
+        "src-industrial-or"
+      ],
+      "addressText": "39동 310호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-industrial-dsba-39",
+      "resourceId": "lab-industrial-dsba",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "411호",
+      "status": "verified",
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "addressText": "39동 411호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-industrial-his-39",
+      "resourceId": "lab-industrial-his",
+      "buildingId": "snu-39",
+      "purpose": "lab",
+      "room": "338호",
+      "status": "verified",
+      "sourceIds": [
+        "src-industrial-his"
+      ],
+      "addressText": "39동 338호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-nuclear-thermal-31",
+      "resourceId": "lab-nuclear-thermal",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "205호 / 207호",
+      "status": "verified",
+      "sourceIds": [
+        "src-nuclear-thermal"
+      ],
+      "addressText": "31동 205호 / 207호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-nuclear-reactor-32",
+      "resourceId": "lab-nuclear-reactor",
+      "buildingId": "snu-32",
+      "purpose": "lab",
+      "room": "102호",
+      "status": "verified",
+      "sourceIds": [
+        "src-nuclear-thermal"
+      ],
+      "addressText": "32동 102호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-nuclear-radiation-31",
+      "resourceId": "lab-nuclear-radiation",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "118호 / 414호 / 414-1호",
+      "status": "verified",
+      "sourceIds": [
+        "src-nuclear-thermal"
+      ],
+      "addressText": "31동 118호 / 414호 / 414-1호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-aerospace-aerodynamics-301",
+      "resourceId": "lab-aerospace-aerodynamics",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "1256호",
+      "status": "verified",
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "addressText": "301동 1256호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-aerospace-aerodynamics-40",
+      "resourceId": "lab-aerospace-aerodynamics",
+      "buildingId": "snu-40",
+      "purpose": "lab",
+      "room": "110호",
+      "status": "verified",
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "addressText": "40동 110호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-aerospace-rocket-301",
+      "resourceId": "lab-aerospace-rocket",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "216호",
+      "status": "verified",
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "addressText": "301동 216호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-aerospace-rocket-30",
+      "resourceId": "lab-aerospace-rocket",
+      "buildingId": "snu-30",
+      "purpose": "lab",
+      "room": "112호",
+      "status": "verified",
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "addressText": "30동 112호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-aerospace-navigation-133",
+      "resourceId": "lab-aerospace-navigation",
+      "buildingId": "snu-133",
+      "purpose": "lab",
+      "room": "607호",
+      "status": "verified",
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "addressText": "133동 607호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-prof-industrial-dsba-39",
+      "resourceId": "prof-industrial-dsba",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "301호",
+      "status": "verified",
+      "sourceIds": [
+        "official-address-ie-faculty"
+      ],
+      "addressText": "39동 301호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-prof-industrial-or-39",
+      "resourceId": "prof-industrial-or",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "302호",
+      "status": "verified",
+      "sourceIds": [
+        "official-address-ie-faculty"
+      ],
+      "addressText": "39동 302호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "location-prof-industrial-his-39",
+      "resourceId": "prof-industrial-his",
+      "buildingId": "snu-39",
+      "purpose": "office",
+      "room": "303호",
+      "status": "verified",
+      "sourceIds": [
+        "official-address-ie-faculty"
+      ],
+      "addressText": "39동 303호",
+      "lastVerifiedAt": "2026-10-26T16:55:25.544Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-a-36-201",
+      "resourceId": "lab-list-nuclear-a",
+      "buildingId": "snu-36",
+      "purpose": "lab",
+      "room": "201호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "36동 201호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-a-36-205",
+      "resourceId": "lab-list-nuclear-a",
+      "buildingId": "snu-36",
+      "purpose": "lab",
+      "room": "205호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "36동 205호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-b-30-103",
+      "resourceId": "lab-list-nuclear-b",
+      "buildingId": "snu-30",
+      "purpose": "lab",
+      "room": "103호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "30동 103호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-b-30-104",
+      "resourceId": "lab-list-nuclear-b",
+      "buildingId": "snu-30",
+      "purpose": "lab",
+      "room": "104호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "30동 104호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-c-32-209",
+      "resourceId": "lab-list-nuclear-c",
+      "buildingId": "snu-32",
+      "purpose": "lab",
+      "room": "209호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "32동 209호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-d-31-113",
+      "resourceId": "lab-list-nuclear-d",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "113호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 113호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-d-31-114",
+      "resourceId": "lab-list-nuclear-d",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "114호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 114호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-d-31-115",
+      "resourceId": "lab-list-nuclear-d",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "115호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 115호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-e-31-118",
+      "resourceId": "lab-nuclear-radiation",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "118호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 118호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-e-31-414",
+      "resourceId": "lab-nuclear-radiation",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "414호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 414호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-e-31-414-1",
+      "resourceId": "lab-nuclear-radiation",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": "1호",
+      "status": "needs-review",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31-414동 1호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": "공식 연구실 주소 확인 · 건물 식별 대조 대기"
+    },
+    {
+      "id": "loc-list-nuclear-f-31-205",
+      "resourceId": "lab-nuclear-thermal",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "205호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 205호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-f-31-207",
+      "resourceId": "lab-nuclear-thermal",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "207호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 207호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-g-31-105",
+      "resourceId": "lab-list-nuclear-g",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "105호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 105호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-i-31-1-404",
+      "resourceId": "lab-list-nuclear-i",
+      "buildingId": "snu-31-1",
+      "purpose": "lab",
+      "room": "404호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31-1동 404호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-j-31-108",
+      "resourceId": "lab-list-nuclear-j",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "108호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 108호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-j-31-112",
+      "resourceId": "lab-list-nuclear-j",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "112호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 112호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-j-31-405",
+      "resourceId": "lab-list-nuclear-j",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "405호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 405호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-k-31-102",
+      "resourceId": "lab-list-nuclear-k",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "102호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 102호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-k-31-117",
+      "resourceId": "lab-list-nuclear-k",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "117호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 117호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-k-31-121",
+      "resourceId": "lab-list-nuclear-k",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "121호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 121호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-l-30-101",
+      "resourceId": "lab-list-nuclear-l",
+      "buildingId": "snu-30",
+      "purpose": "lab",
+      "room": "101호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "30동 101호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-l-30-102",
+      "resourceId": "lab-list-nuclear-l",
+      "buildingId": "snu-30",
+      "purpose": "lab",
+      "room": "102호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "30동 102호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-l-30-119",
+      "resourceId": "lab-list-nuclear-l",
+      "buildingId": "snu-30",
+      "purpose": "lab",
+      "room": "119호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "30동 119호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-l-31-104",
+      "resourceId": "lab-list-nuclear-l",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "104호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 104호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-l-31-105",
+      "resourceId": "lab-list-nuclear-l",
+      "buildingId": "snu-31",
+      "purpose": "lab",
+      "room": "105호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31동 105호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-m-31-1-1",
+      "resourceId": "lab-list-nuclear-m",
+      "buildingId": "snu-31-1",
+      "purpose": "lab",
+      "room": "1호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31-1동 1호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-m-31-1-402",
+      "resourceId": "lab-list-nuclear-m",
+      "buildingId": "snu-31-1",
+      "purpose": "lab",
+      "room": "402호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "31-1동 402호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-n-36-304",
+      "resourceId": "lab-list-nuclear-n",
+      "buildingId": "snu-36",
+      "purpose": "lab",
+      "room": "304호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "36동 304호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-n-36-306",
+      "resourceId": "lab-list-nuclear-n",
+      "buildingId": "snu-36",
+      "purpose": "lab",
+      "room": "306호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "36동 306호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-n-32-109",
+      "resourceId": "lab-list-nuclear-n",
+      "buildingId": "snu-32",
+      "purpose": "lab",
+      "room": "109호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "32동 109호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-nuclear-n-36-305",
+      "resourceId": "lab-list-nuclear-n",
+      "buildingId": "snu-36",
+      "purpose": "lab",
+      "room": "305호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-nuclear"
+      ],
+      "addressText": "36동 305호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-a-302-213",
+      "resourceId": "lab-list-aerospace-a",
+      "buildingId": "snu-302",
+      "purpose": "lab",
+      "room": "213호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "302동 213호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-b-40-110",
+      "resourceId": "lab-aerospace-aerodynamics",
+      "buildingId": "snu-40",
+      "purpose": "lab",
+      "room": "110호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "40동 110호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-c-40-112",
+      "resourceId": "lab-list-aerospace-c",
+      "buildingId": "snu-40",
+      "purpose": "lab",
+      "room": "112호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "40동 112호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-d-301-1410",
+      "resourceId": "lab-list-aerospace-d",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "1410호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "301동 1410호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-f-302-318-1A",
+      "resourceId": "lab-list-aerospace-f",
+      "buildingId": "snu-302",
+      "purpose": "lab",
+      "room": "318-1A호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "302동 318-1A호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-g-302-418-2",
+      "resourceId": "lab-list-aerospace-g",
+      "buildingId": "snu-302",
+      "purpose": "lab",
+      "room": "418-2호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "302동 418-2호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-g-312-501",
+      "resourceId": "lab-list-aerospace-g",
+      "buildingId": "snu-312",
+      "purpose": "lab",
+      "room": "501호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "312동 501호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-h-300-504",
+      "resourceId": "lab-list-aerospace-h",
+      "buildingId": "snu-300",
+      "purpose": "lab",
+      "room": "504호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "300동 504호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-i-301-1357",
+      "resourceId": "lab-list-aerospace-i",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "1357호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "301동 1357호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-j-300-503",
+      "resourceId": "lab-list-aerospace-j",
+      "buildingId": "snu-300",
+      "purpose": "lab",
+      "room": "503호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "300동 503호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-k-301-1213",
+      "resourceId": "lab-list-aerospace-k",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "1213호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "301동 1213호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-l-302-318-2",
+      "resourceId": "lab-list-aerospace-l",
+      "buildingId": "snu-302",
+      "purpose": "lab",
+      "room": "318-2호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "302동 318-2호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-m-302-518-2",
+      "resourceId": "lab-list-aerospace-m",
+      "buildingId": "snu-302",
+      "purpose": "lab",
+      "room": "518-2호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "302동 518-2호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
+      "reason": null
+    },
+    {
+      "id": "loc-list-aerospace-n-133-607",
+      "resourceId": "lab-aerospace-navigation",
+      "buildingId": "snu-133",
+      "purpose": "lab",
+      "room": "607호",
+      "status": "verified",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ],
+      "addressText": "133동 607호",
+      "lastVerifiedAt": "2026-10-26T16:57:48.882Z",
       "reason": null
     }
   ],

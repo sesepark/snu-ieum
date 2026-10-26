@@ -10,6 +10,6 @@ test('real buildings group resources and restore a bounded map viewpoint',async(
  await page.getByLabel('선택 건물 상세').getByRole('button',{name:/300MHz NMR/}).click();await expect(page.getByLabel('선택 자원 상세')).toBeVisible();await expect(page.getByLabel('선택 자원 상세').getByText(/장비 설치 위치/)).toBeVisible();expect(errors).toEqual([]);
 });
 test('unlocated lab remains discoverable without a fabricated map location',async({page})=>{
- await page.goto('#/?view=2d&selected=lab-industrial-dsba');await expect(page.getByLabel('선택 자원 상세')).toBeVisible();await expect(page.getByLabel('선택 자원 상세').getByText(/공식 상세 주소·건물 연결 확인 필요/)).toBeVisible();
+ await page.goto('#/?view=2d&selected=lab-cee-urban');await expect(page.getByLabel('선택 자원 상세')).toBeVisible();await expect(page.getByLabel('선택 자원 상세').getByText(/공식 상세 주소·건물 연결 확인 필요/)).toBeVisible();
  await expect(page.getByText(/위치 확인 필요 \d+개 · 목록에서 탐색/)).toBeVisible();expect(page.url()).not.toContain('building=');
 });

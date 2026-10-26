@@ -100,3 +100,13 @@ Raw ID는 `986ddaa2e6043aa572534eff2fc78f56cb2849cbdce45f7809bb3bdaffc32ad2`, pe
 | chemical | `89e3340703600b25cb6ed938026f67493e9e55163c692e7cf5133593e2d745dd` | `3e95674b-f32c-42b0-82ad-ac9b789287da` |
 
 실제 DB에서 각 최신 Raw payload와 검수 JSON의 모든 필드가 같은지 대조했다. 원문 HTML/PDF/개인 연락처는 보관하지 않았다. CSE robots는 curl의 정상 TLS 검증으로 재확인했고, 공식 연결 Publications URL에서 200 응답과 Chenglin Fan의 논문을 확인했다. 원래 한글 홈 링크는 404로 검수 기록에 남겼다.
+
+## 공식 교수검색 전체 후보 · 2026-10-27
+
+`faculty-inventory.json`은 공대 공식 교수검색 전체 23페이지의 이름·소속·직위 333행 중 대상 12개 학과 319행에서 기존 교수와 일치하는 34건을 제외하고, 영문 신원 미확인 두 건을 자동 병합하지 않아 추가한 283개 후보다. 기존 교수 36명과 합쳐 총 319개이며 현직 전임 319명이 검증됐다는 뜻이 아니다. 같은 학과의 이종호 두 행은 별도 ID로 유지했다. 교수별 분야·홈페이지·주소·논문은 추정하지 않았다.
+
+공식 검색과 학과 목록은 수량 차이가 있어 전체 분모를 미확정으로 유지한다. CSE의 기존 영문 이름 두 건과 한글 명단 연결은 검수 대기다. source별 Raw는 data/coverage/directory-ingestion.json에, 추가 교수 초안 Raw `e4e53ba88d41374dfdf5e28ee072fd0f58e27b7f3b64fde3e24c8989e475b6cf`·pending Staging `0c126c4a-f71b-409d-bc42-4acdd5d28408`은 전용 로컬 DB에 있다. 원문 HTML·개인 연락처·사진·CSRF 값은 보관하지 않았다.
+
+## 원자핵·항공우주 전체 연구실 목록
+
+`nuclear-inventory.json`, `aerospace-inventory.json`은 공식 연구실 목록 각 14곳에서 기존 3곳을 제외한 연구실 11곳씩을 추가했다. 공식 카드의 지도교수 이름과 같은 학과의 유일한 연구자 후보가 일치하는 경우에만 관계를 추가했다. 동명이인이 있거나 일치하지 않으면 관계를 만들지 않았다. `campus-sources.ts`는 연구실별 섹션/행에서 주소를 읽고 전화·이메일을 제외한다. Raw/Staging ID는 data/campus/lab-inventory-ingestion.json에 있다. 원문 전체는 보관하지 않았다. 교수 현재 소속은 여전히 학과 명단과 교차 검수 대상이다.

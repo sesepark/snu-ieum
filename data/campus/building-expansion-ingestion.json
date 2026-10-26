@@ -1,0 +1,10 @@
+{
+  "runId": "9d4f9bb1-8a3b-4ae2-906b-c7353475d90d",
+  "rawId": "1db8d784d5e6b5ff07bf439a90cf9429dd2d916d2a5157c7fb170e6f66b99c01",
+  "stagingId": "3d701d3c-0b31-491a-9be9-b6c4c4b025b2",
+  "checkedAt": "2026-10-26T16:59:28.548Z",
+  "officialBuildings": 128,
+  "buildings": 282,
+  "officialInventoryComplete": false,
+  "status": "pending-human-review"
+}

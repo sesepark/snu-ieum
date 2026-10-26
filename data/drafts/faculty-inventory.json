@@ -1,0 +1,4857 @@
+{
+  "manifest": {
+    "version": "faculty-directory-draft-20261027",
+    "generatedAt": "2026-10-26T16:43:51.267Z",
+    "publication": "prototype",
+    "schemaVersion": 1,
+    "selectionReason": "공대 공식 교수검색 전체 페이지의 최소 이름·소속·직위. 학과별 현직 검수·분야·홈페이지·주소·논문은 후속 확인. 불명확한 영문 이름 두 건은 자동 병합하지 않음."
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ],
+      "groupType": "department"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 학과/학부 목록",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "source-eng-directory-1",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=1",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 1페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-2",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=2",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 2페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-3",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=3",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 3페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-4",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=4",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 4페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-5",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=5",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 5페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-6",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=6",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 6페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-7",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=7",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 7페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-8",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=8",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 8페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-9",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=9",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 9페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-10",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=10",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 10페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-11",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=11",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 11페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-12",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=12",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 12페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-13",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=13",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 13페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-14",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=14",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 14페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-15",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=15",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 15페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-16",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=16",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 16페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-17",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=17",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 17페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-18",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=18",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 18페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-19",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=19",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 19페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-20",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=20",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 20페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-21",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=21",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 21페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-22",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=22",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 22페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    },
+    {
+      "id": "source-eng-directory-23",
+      "url": "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=23",
+      "organization": "서울대학교 공과대학",
+      "title": "공대 공식 교수검색 23페이지",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-dir-cee-nkgdakldgjea",
+      "kind": "researcher",
+      "name": "고희동",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-dogleejefkka",
+      "kind": "researcher",
+      "name": "김동규",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-jpkckadkadgg",
+      "kind": "researcher",
+      "name": "김성렬",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-gpdgjgjikfbg",
+      "kind": "researcher",
+      "name": "김영오",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-djnhcjkfchmm",
+      "kind": "researcher",
+      "name": "김용일",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-dfbddkfiedfk",
+      "kind": "researcher",
+      "name": "김재영",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-cpapibemkajl",
+      "kind": "researcher",
+      "name": "김희철",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-hafjdgbbdacg",
+      "kind": "researcher",
+      "name": "남경필",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-nedlfeehnllo",
+      "kind": "researcher",
+      "name": "문주혁",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-ndflhlanmfol",
+      "kind": "researcher",
+      "name": "박용성",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-hajffoiipcfa",
+      "kind": "researcher",
+      "name": "박윤미",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-fmepjamfhian",
+      "kind": "researcher",
+      "name": "박주영",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-gofjfblbhogd",
+      "kind": "researcher",
+      "name": "박준범",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-jehjakehmbof",
+      "kind": "researcher",
+      "name": "양수현",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-fodcoeojmnag",
+      "kind": "researcher",
+      "name": "유기윤",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-djncbngmecaj",
+      "kind": "researcher",
+      "name": "윤규근",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-oghhliecplbm",
+      "kind": "researcher",
+      "name": "이청원",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-nakklooefebh",
+      "kind": "researcher",
+      "name": "조재열",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-eemfnopkoiha",
+      "kind": "researcher",
+      "name": "주진현",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-ebpbpfmfbjlf",
+      "kind": "researcher",
+      "name": "지석호",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-dekgcclcjdki",
+      "kind": "researcher",
+      "name": "채윤병",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-geklhilakbnc",
+      "kind": "researcher",
+      "name": "함영집",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-bhmnomjalcgg",
+      "kind": "researcher",
+      "name": "황진환",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-impklbnnhlff",
+      "kind": "researcher",
+      "name": "CHOE JONG KWON",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cee-gegfangnlpho",
+      "kind": "researcher",
+      "name": "Van Thinh Nguyen",
+      "summary": "공대 공식 교수검색에 건설환경도시공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cee",
+      "keywords": [
+        "건설환경도시공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-23"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-fbfmampkjnle",
+      "kind": "researcher",
+      "name": "김은주",
+      "summary": "공대 공식 교수검색에 건축학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-gpcnpajeljbh",
+      "kind": "researcher",
+      "name": "맹필수",
+      "summary": "공대 공식 교수검색에 건축학과 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-mnkfdnnlmgmd",
+      "kind": "researcher",
+      "name": "박문서",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-dojogciefcej",
+      "kind": "researcher",
+      "name": "박철수",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-lcmgpgakbmkp",
+      "kind": "researcher",
+      "name": "박홍근",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-fikbfkbhmglb",
+      "kind": "researcher",
+      "name": "백진",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-ehafdpbcphlo",
+      "kind": "researcher",
+      "name": "서현",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-jemgnhgfjbjg",
+      "kind": "researcher",
+      "name": "안창범",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-dcbbpiebpmkj",
+      "kind": "researcher",
+      "name": "여명석",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-obbajcebnnnh",
+      "kind": "researcher",
+      "name": "이경아",
+      "summary": "공대 공식 교수검색에 건축학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-ooclanoecdnp",
+      "kind": "researcher",
+      "name": "전봉희",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-dljnjppfgnml",
+      "kind": "researcher",
+      "name": "조인호",
+      "summary": "공대 공식 교수검색에 건축학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-dcjkkgimcadp",
+      "kind": "researcher",
+      "name": "조항만",
+      "summary": "공대 공식 교수검색에 건축학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-fjlodhcdmddl",
+      "kind": "researcher",
+      "name": "황현종",
+      "summary": "공대 공식 교수검색에 건축학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-monfpfpmnoao",
+      "kind": "researcher",
+      "name": "Choon Woong Choi",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-architecture-lkkkmnaigiih",
+      "kind": "researcher",
+      "name": "Hong John Sangki",
+      "summary": "공대 공식 교수검색에 건축학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "architecture",
+      "keywords": [
+        "건축학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-hbhnoejfhnfb",
+      "kind": "researcher",
+      "name": "강연준",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-efohajinancd",
+      "kind": "researcher",
+      "name": "강준호",
+      "summary": "공대 공식 교수검색에 기계공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-jjgojaobmggj",
+      "kind": "researcher",
+      "name": "고승환",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-lfcbaokejoda",
+      "kind": "researcher",
+      "name": "김도년",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-ckkpgdapomcf",
+      "kind": "researcher",
+      "name": "김민수",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-fafifdkcnfkp",
+      "kind": "researcher",
+      "name": "김수용",
+      "summary": "공대 공식 교수검색에 기계공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-depeeclngokl",
+      "kind": "researcher",
+      "name": "김태용",
+      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-kbpbjkelfpng",
+      "kind": "researcher",
+      "name": "도형록",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-lghfmnccihee",
+      "kind": "researcher",
+      "name": "민경덕",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-nacfmhgcdflm",
+      "kind": "researcher",
+      "name": "박상욱",
+      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-mgcheidjnjpm",
+      "kind": "researcher",
+      "name": "박용래",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-khpnnkgklfdh",
+      "kind": "researcher",
+      "name": "박종우",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-fgeedhjdnhlj",
+      "kind": "researcher",
+      "name": "박형민",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-dgbmgmdkokge",
+      "kind": "researcher",
+      "name": "송성진",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-dimipdphpjkb",
+      "kind": "researcher",
+      "name": "송한호",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-lhdekenakhpo",
+      "kind": "researcher",
+      "name": "신용대",
+      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-kmighfkjiffo",
+      "kind": "researcher",
+      "name": "양진규",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-kjdpccmjkcdn",
+      "kind": "researcher",
+      "name": "오주환",
+      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-cidpmbpejhkm",
+      "kind": "researcher",
+      "name": "윤병동",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-ghfkdbiiafme",
+      "kind": "researcher",
+      "name": "이동준",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-cndijmhlogfk",
+      "kind": "researcher",
+      "name": "이승아",
+      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-aknkmcpeifol",
+      "kind": "researcher",
+      "name": "이윤석",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-ehojmmfldceb",
+      "kind": "researcher",
+      "name": "이호원",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-anoiojnfhhji",
+      "kind": "researcher",
+      "name": "임종우",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-ihnlkmeilmdd",
+      "kind": "researcher",
+      "name": "전누리",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-pdbjgfbpddmf",
+      "kind": "researcher",
+      "name": "조규진",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-ikfeppabfhnb",
+      "kind": "researcher",
+      "name": "좌은혁",
+      "summary": "공대 공식 교수검색에 기계공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-effklgeidobl",
+      "kind": "researcher",
+      "name": "차석원",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-neicdcmeakif",
+      "kind": "researcher",
+      "name": "최해천",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-oohlkjodmhio",
+      "kind": "researcher",
+      "name": "한경원",
+      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-mechanical-kaokjfoikbjn",
+      "kind": "researcher",
+      "name": "황원태",
+      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [
+        "기계공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-ofpanjencloh",
+      "kind": "researcher",
+      "name": "금영정",
+      "summary": "공대 공식 교수검색에 산업공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-pohilfgakejb",
+      "kind": "researcher",
+      "name": "문일경",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-dolbcmikjdfl",
+      "kind": "researcher",
+      "name": "박건수",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-ikbdfplkcici",
+      "kind": "researcher",
+      "name": "박우진",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-lpkepmdnfhlf",
+      "kind": "researcher",
+      "name": "박종헌",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-jbljnjdfecda",
+      "kind": "researcher",
+      "name": "이경식",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-olabcknbecgo",
+      "kind": "researcher",
+      "name": "이덕주",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-kganfepnehig",
+      "kind": "researcher",
+      "name": "이성주",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-acbjeidoanfd",
+      "kind": "researcher",
+      "name": "이재욱",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-mebgpdgakfbi",
+      "kind": "researcher",
+      "name": "장우진",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-industrial-hlcjgfikjkbl",
+      "kind": "researcher",
+      "name": "홍유석",
+      "summary": "공대 공식 교수검색에 산업공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "industrial",
+      "keywords": [
+        "산업공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-energy-kcianenjjcld",
+      "kind": "researcher",
+      "name": "강진수",
+      "summary": "공대 공식 교수검색에 에너지자원공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "energy",
+      "keywords": [
+        "에너지자원공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-energy-khmhhoedfjaj",
+      "kind": "researcher",
+      "name": "민동주",
+      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "energy",
+      "keywords": [
+        "에너지자원공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-energy-gldniokddaib",
+      "kind": "researcher",
+      "name": "박형동",
+      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "energy",
+      "keywords": [
+        "에너지자원공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-energy-emjemdkaompl",
+      "kind": "researcher",
+      "name": "송재준",
+      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "energy",
+      "keywords": [
+        "에너지자원공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-energy-anpalkbiakec",
+      "kind": "researcher",
+      "name": "전석원",
+      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "energy",
+      "keywords": [
+        "에너지자원공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-energy-pfhhnngalknn",
+      "kind": "researcher",
+      "name": "정훈영",
+      "summary": "공대 공식 교수검색에 에너지자원공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "energy",
+      "keywords": [
+        "에너지자원공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-energy-cjdheeiaiapa",
+      "kind": "researcher",
+      "name": "최종근",
+      "summary": "공대 공식 교수검색에 에너지자원공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "energy",
+      "keywords": [
+        "에너지자원공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-jpdihpiddmcb",
+      "kind": "researcher",
+      "name": "김기현",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-plibkhmkmkpj",
+      "kind": "researcher",
+      "name": "나용수",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-olnhpapekfib",
+      "kind": "researcher",
+      "name": "박설혜",
+      "summary": "공대 공식 교수검색에 원자핵공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-jgofoampeoik",
+      "kind": "researcher",
+      "name": "심형진",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-deflpkghlnhp",
+      "kind": "researcher",
+      "name": "이유호",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-cpafkbbgbepi",
+      "kind": "researcher",
+      "name": "정경재",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-cbdenbojboga",
+      "kind": "researcher",
+      "name": "최성열",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-nuclear-eaophadchiib",
+      "kind": "researcher",
+      "name": "황용석",
+      "summary": "공대 공식 교수검색에 원자핵공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "nuclear",
+      "keywords": [
+        "원자핵공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-kgifccccmbnh",
+      "kind": "researcher",
+      "name": "강기석",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-inhgopgbfmge",
+      "kind": "researcher",
+      "name": "강기훈",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-fopaompjfelf",
+      "kind": "researcher",
+      "name": "강동민",
+      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-kmlmbicmepll",
+      "kind": "researcher",
+      "name": "강승균",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-hhfhnfeknibh",
+      "kind": "researcher",
+      "name": "곽승엽",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-fejnbehedioa",
+      "kind": "researcher",
+      "name": "권민상",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ecphfndhciac",
+      "kind": "researcher",
+      "name": "김미영",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-chiiddomappd",
+      "kind": "researcher",
+      "name": "김상국",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-nenapolmkmdo",
+      "kind": "researcher",
+      "name": "김상범",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-fimfkjejhjao",
+      "kind": "researcher",
+      "name": "김진영",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-poolddepbiec",
+      "kind": "researcher",
+      "name": "김창규",
+      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ioeemmgjfkbi",
+      "kind": "researcher",
+      "name": "도준상",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-amebehmbimok",
+      "kind": "researcher",
+      "name": "류일",
+      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ajhnaojkddaf",
+      "kind": "researcher",
+      "name": "박민혁",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-knkbeakiknab",
+      "kind": "researcher",
+      "name": "박은수",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-flimnfmhnbeo",
+      "kind": "researcher",
+      "name": "박주혁",
+      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-cddehgdecgim",
+      "kind": "researcher",
+      "name": "박찬",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-llielnajgkja",
+      "kind": "researcher",
+      "name": "선정윤",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-onolkaaelbji",
+      "kind": "researcher",
+      "name": "손준우",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-eaafgmdmkfgm",
+      "kind": "researcher",
+      "name": "안철희",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ipiilbmkfall",
+      "kind": "researcher",
+      "name": "양승재",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ehmbinmoekec",
+      "kind": "researcher",
+      "name": "유웅열",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-fpghfoeidgkp",
+      "kind": "researcher",
+      "name": "유효빈",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-bdkghppnnbie",
+      "kind": "researcher",
+      "name": "이경우",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-agoomkambokf",
+      "kind": "researcher",
+      "name": "이관형",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-bjdhiokdnigc",
+      "kind": "researcher",
+      "name": "이명재",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-mjgmgfgmcpdj",
+      "kind": "researcher",
+      "name": "이태우",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-hpjkdpldpjcc",
+      "kind": "researcher",
+      "name": "장혜진",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-bbfhmchcmomd",
+      "kind": "researcher",
+      "name": "장호원",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-lkaconllkpnj",
+      "kind": "researcher",
+      "name": "정우철",
+      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ijpkpjacpolb",
+      "kind": "researcher",
+      "name": "정인호",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-jjhnaahoppma",
+      "kind": "researcher",
+      "name": "주영창",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-dhlkamionpmg",
+      "kind": "researcher",
+      "name": "최인석",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ccnjknejbhee",
+      "kind": "researcher",
+      "name": "한승우",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-iblfiehajlme",
+      "kind": "researcher",
+      "name": "한정우",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-ndhelkglpljn",
+      "kind": "researcher",
+      "name": "한준규",
+      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-kfdgjnnfjcpb",
+      "kind": "researcher",
+      "name": "한흥남",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-dnndnnbikpne",
+      "kind": "researcher",
+      "name": "홍성현",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-materials-mlhmgnmcjjcd",
+      "kind": "researcher",
+      "name": "황철성",
+      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "materials",
+      "keywords": [
+        "재료공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-dhcfclllaomo",
+      "kind": "researcher",
+      "name": "고형석",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-cldplhiofelf",
+      "kind": "researcher",
+      "name": "곽정훈",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ecmhlobklkea",
+      "kind": "researcher",
+      "name": "권성훈",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-cbnjmbplpjcn",
+      "kind": "researcher",
+      "name": "김남수",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-abeckbgfjhjg",
+      "kind": "researcher",
+      "name": "김성재",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-gdlggmgikjao",
+      "kind": "researcher",
+      "name": "김영민",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-iocciicbmfii",
+      "kind": "researcher",
+      "name": "김장우",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-bpfbemmpgefo",
+      "kind": "researcher",
+      "name": "김재준",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-pblajcdokhil",
+      "kind": "researcher",
+      "name": "김재하",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-laacoklffmom",
+      "kind": "researcher",
+      "name": "김진수",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ldbbkhagfbej",
+      "kind": "researcher",
+      "name": "김태환",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-pmnohcjdigod",
+      "kind": "researcher",
+      "name": "남동욱",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-pbkiglggkjhm",
+      "kind": "researcher",
+      "name": "도재영",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-pkegfgboihfo",
+      "kind": "researcher",
+      "name": "문수묵",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-odmajfjjbmed",
+      "kind": "researcher",
+      "name": "박남규",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-enffdgmfmlmh",
+      "kind": "researcher",
+      "name": "박세웅",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-fjlldkeccfah",
+      "kind": "researcher",
+      "name": "백윤흥",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-mgggfjeonkbd",
+      "kind": "researcher",
+      "name": "서승우",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ghoagdpmcopl",
+      "kind": "researcher",
+      "name": "서종모",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-oojnipgfhpmn",
+      "kind": "researcher",
+      "name": "신종원",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-kcgfgpiccppa",
+      "kind": "researcher",
+      "name": "신형철",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-kcopobhklgoe",
+      "kind": "researcher",
+      "name": "심규석",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-nodiokgkdejn",
+      "kind": "researcher",
+      "name": "심병효",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-blighleokhdk",
+      "kind": "researcher",
+      "name": "심재웅",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ciiaoihbecdm",
+      "kind": "researcher",
+      "name": "심형보",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-oednmdnkffai",
+      "kind": "researcher",
+      "name": "양인순",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-hgeleppolglm",
+      "kind": "researcher",
+      "name": "양현종",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-lbocojhccloh",
+      "kind": "researcher",
+      "name": "오성회",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-lhghonikgohk",
+      "kind": "researcher",
+      "name": "오정석",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ommhaklpinak",
+      "kind": "researcher",
+      "name": "유담",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-mgkmjmcehjjk",
+      "kind": "researcher",
+      "name": "유선규",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ckcilennhkba",
+      "kind": "researcher",
+      "name": "윤상원",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-pghokbneicgn",
+      "kind": "researcher",
+      "name": "윤성로",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-fejfelalhokl",
+      "kind": "researcher",
+      "name": "윤용태",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-fobeageoidck",
+      "kind": "researcher",
+      "name": "이경무",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-cbjmlnahnedk",
+      "kind": "researcher",
+      "name": "이경한",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ceifpapadlik",
+      "kind": "researcher",
+      "name": "이규섭",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-cpckogakbcmh",
+      "kind": "researcher",
+      "name": "이병영",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-gaahominkndp",
+      "kind": "researcher",
+      "name": "이성욱",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-plkmmdkhfomj",
+      "kind": "researcher",
+      "name": "이수연",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-mdlofdfodaig",
+      "kind": "researcher",
+      "name": "이재상",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-mnnieaipdbka",
+      "kind": "researcher",
+      "name": "이정우",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-dmggagjoigge",
+      "kind": "researcher",
+      "name": "이종호",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-edpidjmbagll",
+      "kind": "researcher",
+      "name": "이종호",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-jgmmpldlmjnj",
+      "kind": "researcher",
+      "name": "이진규",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-hgakfiahoeon",
+      "kind": "researcher",
+      "name": "이진호",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-bjbjibokefnb",
+      "kind": "researcher",
+      "name": "이철호",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-bnmgkkefjjif",
+      "kind": "researcher",
+      "name": "이혁재",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-aihicgflkkkk",
+      "kind": "researcher",
+      "name": "이현주",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-aanpbhibbljc",
+      "kind": "researcher",
+      "name": "전세영",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-efpmndefgdjd",
+      "kind": "researcher",
+      "name": "정교민",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-mklgbefljbpj",
+      "kind": "researcher",
+      "name": "정윤찬",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-lmbieacandlf",
+      "kind": "researcher",
+      "name": "조남익",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-dcibghhidjil",
+      "kind": "researcher",
+      "name": "최성휘",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-ahpaokahoagg",
+      "kind": "researcher",
+      "name": "최완",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-nepmddjbbcbg",
+      "kind": "researcher",
+      "name": "최우석",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-jomnkiliibim",
+      "kind": "researcher",
+      "name": "최우열",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-mfafcokeoked",
+      "kind": "researcher",
+      "name": "최우영",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-bemjkgojgjjp",
+      "kind": "researcher",
+      "name": "최재혁",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-efenflcagibm",
+      "kind": "researcher",
+      "name": "최종현",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-fpgohbfpgphn",
+      "kind": "researcher",
+      "name": "하정익",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-lgmpldbefeco",
+      "kind": "researcher",
+      "name": "한보형",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-apjoiplmbadj",
+      "kind": "researcher",
+      "name": "한승용",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-ece-heodohneheom",
+      "kind": "researcher",
+      "name": "홍성수",
+      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "ece",
+      "keywords": [
+        "전기·정보공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-ggnnpflocfjb",
+      "kind": "researcher",
+      "name": "강상규",
+      "summary": "공대 공식 교수검색에 조선해양공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-gpeipclipdjo",
+      "kind": "researcher",
+      "name": "김도균",
+      "summary": "공대 공식 교수검색에 조선해양공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-pmhaiiijegii",
+      "kind": "researcher",
+      "name": "김태완",
+      "summary": "공대 공식 교수검색에 조선해양공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-njlcdlebdplh",
+      "kind": "researcher",
+      "name": "남보우",
+      "summary": "공대 공식 교수검색에 조선해양공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-ielahgkhgaik",
+      "kind": "researcher",
+      "name": "신재정",
+      "summary": "공대 공식 교수검색에 조선해양공학과 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-kbbpfkibnabo",
+      "kind": "researcher",
+      "name": "오민재",
+      "summary": "공대 공식 교수검색에 조선해양공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-bkbajbgibllh",
+      "kind": "researcher",
+      "name": "우종훈",
+      "summary": "공대 공식 교수검색에 조선해양공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-kigjfjdognkm",
+      "kind": "researcher",
+      "name": "이신형",
+      "summary": "공대 공식 교수검색에 조선해양공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-gdmopbocdkio",
+      "kind": "researcher",
+      "name": "임영섭",
+      "summary": "공대 공식 교수검색에 조선해양공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-jhhjopmmomgo",
+      "kind": "researcher",
+      "name": "조선호",
+      "summary": "공대 공식 교수검색에 조선해양공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-naval-jflocpkoobcd",
+      "kind": "researcher",
+      "name": "추영민",
+      "summary": "공대 공식 교수검색에 조선해양공학과 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "naval",
+      "keywords": [
+        "조선해양공학과",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-kbncplhgfpfl",
+      "kind": "researcher",
+      "name": "강유",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-hjdbkmpkenpn",
+      "kind": "researcher",
+      "name": "권태경",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-pclkcmcacoia",
+      "kind": "researcher",
+      "name": "김건희",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-acgfmjohdalh",
+      "kind": "researcher",
+      "name": "김지홍",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-obdcbhcmelae",
+      "kind": "researcher",
+      "name": "김진수",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-llpechnidmac",
+      "kind": "researcher",
+      "name": "김태현",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-chbphkibefhc",
+      "kind": "researcher",
+      "name": "박경수",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-lgobhkialnci",
+      "kind": "researcher",
+      "name": "박재식",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-oepodggianob",
+      "kind": "researcher",
+      "name": "서진욱",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-enoaahlnhlok",
+      "kind": "researcher",
+      "name": "송용수",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-opmckplfbllk",
+      "kind": "researcher",
+      "name": "송현오",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-blfcgepgoigj",
+      "kind": "researcher",
+      "name": "엄현상",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-jkmemnpnnkoe",
+      "kind": "researcher",
+      "name": "에거버나드",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-ikfkkagiacal",
+      "kind": "researcher",
+      "name": "원정담",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-pppdocgoicgb",
+      "kind": "researcher",
+      "name": "유승주",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-dijjffaagomb",
+      "kind": "researcher",
+      "name": "유재민",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-heicmpnpdahc",
+      "kind": "researcher",
+      "name": "이광근",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-loccgehabjco",
+      "kind": "researcher",
+      "name": "이상구",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-jjblclajaail",
+      "kind": "researcher",
+      "name": "이영기",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-ddocmegoaopn",
+      "kind": "researcher",
+      "name": "이영운",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-aoeccdnipjij",
+      "kind": "researcher",
+      "name": "이재욱",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-bjdgpionefhe",
+      "kind": "researcher",
+      "name": "이제희",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-hfkilnobdncm",
+      "kind": "researcher",
+      "name": "이창건",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-phclkilflncm",
+      "kind": "researcher",
+      "name": "전병곤",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-17"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-leaainagbeeo",
+      "kind": "researcher",
+      "name": "정대룡",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-kepeheehmcbb",
+      "kind": "researcher",
+      "name": "주한별",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-dblkbkkiggji",
+      "kind": "researcher",
+      "name": "최수연",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-bifhgbklddfn",
+      "kind": "researcher",
+      "name": "하순회",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-pidlhjoimjpl",
+      "kind": "researcher",
+      "name": "허충길",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-ojennanofjne",
+      "kind": "researcher",
+      "name": "황승원",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-cse-allblkccmhgd",
+      "kind": "researcher",
+      "name": "Cui Minhao",
+      "summary": "공대 공식 교수검색에 컴퓨터공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "cse",
+      "keywords": [
+        "컴퓨터공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-gaefkmhffhem",
+      "kind": "researcher",
+      "name": "김규홍",
+      "summary": "공대 공식 교수검색에 항공우주공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-2"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-piednglijhic",
+      "kind": "researcher",
+      "name": "김윤호",
+      "summary": "공대 공식 교수검색에 항공우주공학과 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-mbbpgahfndao",
+      "kind": "researcher",
+      "name": "김현진",
+      "summary": "공대 공식 교수검색에 항공우주공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-lhigidmdclgo",
+      "kind": "researcher",
+      "name": "박형준",
+      "summary": "공대 공식 교수검색에 항공우주공학과 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-ggdbnhbejecn",
+      "kind": "researcher",
+      "name": "신상준",
+      "summary": "공대 공식 교수검색에 항공우주공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-lfhgjdfahege",
+      "kind": "researcher",
+      "name": "여재익",
+      "summary": "공대 공식 교수검색에 항공우주공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-plleclfggfkp",
+      "kind": "researcher",
+      "name": "윤군진",
+      "summary": "공대 공식 교수검색에 항공우주공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-lpliopomchpl",
+      "kind": "researcher",
+      "name": "이관중",
+      "summary": "공대 공식 교수검색에 항공우주공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-ihljlklhldfg",
+      "kind": "researcher",
+      "name": "이복직",
+      "summary": "공대 공식 교수검색에 항공우주공학과 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-aerospace-pkcechgjodfo",
+      "kind": "researcher",
+      "name": "조남훈",
+      "summary": "공대 공식 교수검색에 항공우주공학과 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항공우주공학과",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-hglmglnkdjkn",
+      "kind": "researcher",
+      "name": "강종헌",
+      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-1"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-gpfeedhibanb",
+      "kind": "researcher",
+      "name": "김소연",
+      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-fmmdeghodmih",
+      "kind": "researcher",
+      "name": "김연상",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-hfiagdiieneh",
+      "kind": "researcher",
+      "name": "김정욱",
+      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-jojpoefollld",
+      "kind": "researcher",
+      "name": "김준원",
+      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-badjnilpkmic",
+      "kind": "researcher",
+      "name": "김지현",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-5"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-bdefhdfndaef",
+      "kind": "researcher",
+      "name": "남재욱",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-6"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-kkphfnijiajb",
+      "kind": "researcher",
+      "name": "류재윤",
+      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-7"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-fjnooonjmcfd",
+      "kind": "researcher",
+      "name": "박정원",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-oeoelnchmick",
+      "kind": "researcher",
+      "name": "백승렬",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-aboddijonhlp",
+      "kind": "researcher",
+      "name": "서상우",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-kpnagflllbnc",
+      "kind": "researcher",
+      "name": "성영은",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-kalpdfmfjbli",
+      "kind": "researcher",
+      "name": "안경현",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-11"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-ghmegjammojo",
+      "kind": "researcher",
+      "name": "오준학",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-bbanabodlkdl",
+      "kind": "researcher",
+      "name": "유동원",
+      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-oheopdcmjgha",
+      "kind": "researcher",
+      "name": "윤제용",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-hgggplljjfpf",
+      "kind": "researcher",
+      "name": "이건희",
+      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-hdmlicjggmnp",
+      "kind": "researcher",
+      "name": "이규태",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-14"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-lcchnigemjjp",
+      "kind": "researcher",
+      "name": "이원보",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-ogblmofblpkk",
+      "kind": "researcher",
+      "name": "이종민",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-lkinakgbdipo",
+      "kind": "researcher",
+      "name": "이종찬",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-kndjfipdkkog",
+      "kind": "researcher",
+      "name": "이창하",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-alloppanmflk",
+      "kind": "researcher",
+      "name": "정상택",
+      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "부교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-aojnnjndnojp",
+      "kind": "researcher",
+      "name": "정유성",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-liphbpepebcg",
+      "kind": "researcher",
+      "name": "정인",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-18"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-kbbnhlnodahk",
+      "kind": "researcher",
+      "name": "최장욱",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-omnnefdpgcmo",
+      "kind": "researcher",
+      "name": "한지숙",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-fboihlchiogc",
+      "kind": "researcher",
+      "name": "현택환",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-kfkfdokojkhg",
+      "kind": "researcher",
+      "name": "홍무선",
+      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "조교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-dir-chemical-ibemencgcoam",
+      "kind": "researcher",
+      "name": "Nathaniel Suk-Yeon Hwang",
+      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "화학생물공학부",
+        "교수"
+      ],
+      "sourceIds": [
+        "source-eng-directory-22"
+      ],
+      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [],
+  "evidence": []
+}

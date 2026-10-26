@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
 test('explores official equipment and its installation room in the full college draft', async ({ page }) => {
   const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
   await page.goto('#/?view=2d');
-  await expect(page.locator('.resource-card')).toHaveCount(104);
+  await expect(page.locator('.resource-card')).toHaveCount(draft.resources.length);
   await expect(page.getByLabel('학과 필터').locator('option')).toHaveCount(15);
   await page.getByLabel('자원명·연구 분야 검색').fill('Krios');
   await expect(page.locator('.resource-card')).toHaveCount(1);
@@ -25,13 +25,13 @@ test('explores official equipment and its installation room in the full college 
 
 test('keeps paper evidence separate from resources and preserves its expansion across views', async ({ page }) => {
   await page.goto('#/?view=2d&department=industrial&selected=lab-industrial-dsba');
-  await expect(page.locator('.resource-card')).toHaveCount(6);
+  await expect(page.locator('.resource-card')).toHaveCount(draft.resources.filter(r=>r.departmentId==='industrial').length);
   await expect(page.locator('.evidence-list strong')).toHaveText('A Gradient Accumulation Method for Dense Retriever under Memory Constraint');
   await expect(page.locator('.evidence-list a')).toHaveAttribute('href', 'https://ie.snu.ac.kr/dsba_lab/');
   await page.getByRole('button', { name: '지도에 논문 근거 펼치기', exact: true }).click();
   await page.getByRole('button', { name: '3D', exact: true }).click();
   await expect(page.getByRole('button', { name: '지도에서 논문 근거 접기', exact: true })).toHaveAttribute('aria-pressed', 'true');
   await expect(page.getByTestId('map-stage')).toHaveAttribute('aria-label', /3D.*자원·근거 3개, 연결 3개/);
-  await expect(page.locator('.resource-card')).toHaveCount(6);
+  await expect(page.locator('.resource-card')).toHaveCount(draft.resources.filter(r=>r.departmentId==='industrial').length);
   await expect(page).toHaveURL(/selected=lab-industrial-dsba/);
 });

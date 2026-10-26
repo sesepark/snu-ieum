@@ -1,0 +1,13 @@
+{
+  "runId": "6783848b-e0e5-49d1-babd-ccd3f104a521",
+  "rawId": "d44eeb043839e9ef11feb977a39d944108ae26ab80bffee0bd7e3b7cc646f871",
+  "stagingId": "47b6a277-b6ea-4837-b263-926f8fa8a72b",
+  "checkedAt": "2026-10-26T16:55:25.544Z",
+  "locationFacts": 14,
+  "fullLabLists": {
+    "industrial": 15,
+    "aerospace": 14,
+    "nuclear": 14
+  },
+  "status": "pending-human-review"
+}

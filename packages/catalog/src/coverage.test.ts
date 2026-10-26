@@ -8,13 +8,14 @@ const s=SnapshotSchema.parse(snapshotData),c=CampusSchema.parse(campusData);
 it('never treats a sample count as the official denominator or launch completion',()=>{
  const r=coverageReport(s,c,inputData,Date.parse('2026-10-27T01:00:00Z'));
  expect(r.ready).toBe(false);expect(r.byDepartment).toHaveLength(12);
- expect(r.byDepartment.every(d=>d.researchers.total===null&&d.labs.total===null)).toBe(true);
+ expect(r.byDepartment.every(d=>d.researchers.total===null)).toBe(true);
+ expect(r.byDepartment.find(d=>d.id==='industrial')!.labs.total).toBe(15);
  expect(r.gaps).toContain('관악 공식 건물 전체 목록 대조 대기');
 });
 it('rejects duplicate official identities and cross-department matches',()=>{
- const input=structuredClone(inputData);input.rosters[0].entries.push(input.rosters[0].entries[0]);
+ const input=CoverageSchema.parse(inputData);input.rosters[0].entries.push(input.rosters[0].entries[0]);
  expect(CoverageSchema.safeParse(input).success).toBe(false);
- const wrong=structuredClone(inputData);wrong.rosters[0].entries[0].resourceId=s.resources.find(r=>r.departmentId!==wrong.rosters[0].departmentId)!.id;
+ const wrong=CoverageSchema.parse(inputData);wrong.rosters[0].entries[0].resourceId=s.resources.find(r=>r.departmentId!==wrong.rosters[0].departmentId)!.id;
  expect(()=>coverageReport(s,c,wrong)).toThrow('identity');
 });
 it('deduplicates DOI variants and excludes unverified and retracted papers',()=>{

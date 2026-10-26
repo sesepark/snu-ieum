@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-26T16:57:48.882Z",
+  "records": [
+    {
+      "departmentId": "nuclear",
+      "runId": "27787b20-4a9e-4864-a521-fedb88bfa66a",
+      "rawId": "db28b9be2666efa7b37c0122d55da7ea63a49805495646ef82216fcb485dfc47",
+      "stagingId": "cef96eba-1b75-4904-904d-17afb7b32207",
+      "labs": 14,
+      "newLabs": 11
+    },
+    {
+      "departmentId": "aerospace",
+      "runId": "2ef364b0-c985-4d8a-b3bf-64abea0039eb",
+      "rawId": "c5e1e8ac6df047a283ab0e09d6684fad16174ad2fff6d6085d0545919829979c",
+      "stagingId": "f79697bb-3d9d-4b4f-9126-6db16bded3ce",
+      "labs": 14,
+      "newLabs": 11
+    }
+  ],
+  "status": "pending-human-review"
+}

@@ -1,0 +1,24 @@
+{
+  "runId": "26a37c48-d6b4-4320-b8d3-311e5b588fbe",
+  "rawId": "7eaa1f827cefdcd09bcefaad63653dbcc2dab4239b2a35660a77d5b5b50dccb0",
+  "researchRawId": "59a1f6c9f4849aebed601f5a273395ed388f7bec5830bb1f1c38c3c9ea7cfe22",
+  "researchStagingId": "e18b0973-1009-4d42-9292-884cd2164342",
+  "spatialStagingId": "5bb8c2e1-7a9b-476d-9128-66267987c695",
+  "checkedAt": "2026-10-26T17:00:42.371Z",
+  "status": "pending-human-review",
+  "resources": 409,
+  "relations": 54,
+  "spatial": {
+    "buildings": 282,
+    "officialIdentified": 128,
+    "footprintMatched": 105,
+    "officialInventoryComplete": false,
+    "mappedResources": 61,
+    "unlocatedResources": 348,
+    "pendingFootprints": 259,
+    "labs": {
+      "mapped": 31,
+      "total": 58
+    }
+  }
+}

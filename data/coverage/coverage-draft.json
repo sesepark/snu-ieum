@@ -7,31 +7,228 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-cee-urban",
+          "externalId": "directory-cee-nkgdakldgjea",
+          "name": "고희동",
+          "resourceId": "prof-dir-cee-nkgdakldgjea",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-ddlpdlgloena",
           "name": "권영상",
           "resourceId": "prof-cee-urban",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-cee-structural",
+          "externalId": "directory-cee-dogleejefkka",
+          "name": "김동규",
+          "resourceId": "prof-dir-cee-dogleejefkka",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-jpkckadkadgg",
+          "name": "김성렬",
+          "resourceId": "prof-dir-cee-jpkckadkadgg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-gpdgjgjikfbg",
+          "name": "김영오",
+          "resourceId": "prof-dir-cee-gpdgjgjikfbg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-djnhcjkfchmm",
+          "name": "김용일",
+          "resourceId": "prof-dir-cee-djnhcjkfchmm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-dfbddkfiedfk",
+          "name": "김재영",
+          "resourceId": "prof-dir-cee-dfbddkfiedfk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-nfeogjamgmhk",
           "name": "김호경",
           "resourceId": "prof-cee-structural",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-cee-water",
+          "externalId": "directory-cee-cpapibemkajl",
+          "name": "김희철",
+          "resourceId": "prof-dir-cee-cpapibemkajl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-hafjdgbbdacg",
+          "name": "남경필",
+          "resourceId": "prof-dir-cee-hafjdgbbdacg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-nedlfeehnllo",
+          "name": "문주혁",
+          "resourceId": "prof-dir-cee-nedlfeehnllo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-ndflhlanmfol",
+          "name": "박용성",
+          "resourceId": "prof-dir-cee-ndflhlanmfol",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-hajffoiipcfa",
+          "name": "박윤미",
+          "resourceId": "prof-dir-cee-hajffoiipcfa",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-fmepjamfhian",
+          "name": "박주영",
+          "resourceId": "prof-dir-cee-fmepjamfhian",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-gofjfblbhogd",
+          "name": "박준범",
+          "resourceId": "prof-dir-cee-gofjfblbhogd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-jehjakehmbof",
+          "name": "양수현",
+          "resourceId": "prof-dir-cee-jehjakehmbof",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-fodcoeojmnag",
+          "name": "유기윤",
+          "resourceId": "prof-dir-cee-fodcoeojmnag",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-djncbngmecaj",
+          "name": "윤규근",
+          "resourceId": "prof-dir-cee-djncbngmecaj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-oghhliecplbm",
+          "name": "이청원",
+          "resourceId": "prof-dir-cee-oghhliecplbm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-nakklooefebh",
+          "name": "조재열",
+          "resourceId": "prof-dir-cee-nakklooefebh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-eemfnopkoiha",
+          "name": "주진현",
+          "resourceId": "prof-dir-cee-eemfnopkoiha",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-ebpbpfmfbjlf",
+          "name": "지석호",
+          "resourceId": "prof-dir-cee-ebpbpfmfbjlf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-dekgcclcjdki",
+          "name": "채윤병",
+          "resourceId": "prof-dir-cee-dekgcclcjdki",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-pijmocggohgg",
           "name": "최용주",
           "resourceId": "prof-cee-water",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-geklhilakbnc",
+          "name": "함영집",
+          "resourceId": "prof-dir-cee-geklhilakbnc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-bhmnomjalcgg",
+          "name": "황진환",
+          "resourceId": "prof-dir-cee-bhmnomjalcgg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-impklbnnhlff",
+          "name": "CHOE JONG KWON",
+          "resourceId": "prof-dir-cee-impklbnnhlff",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cee-gegfangnlpho",
+          "name": "Van Thinh Nguyen",
+          "resourceId": "prof-dir-cee-gegfangnlpho",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -73,31 +270,165 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-architecture-bumjoon",
+          "externalId": "directory-architecture-kammccdamake",
           "name": "강범준",
           "resourceId": "prof-architecture-bumjoon",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-architecture-yerin",
+          "externalId": "directory-architecture-idgnnbkdihfb",
           "name": "강예린",
           "resourceId": "prof-architecture-yerin",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-architecture-hyungoo",
+          "externalId": "directory-architecture-appafpdlklgl",
           "name": "강현구",
           "resourceId": "prof-architecture-hyungoo",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-fbfmampkjnle",
+          "name": "김은주",
+          "resourceId": "prof-dir-architecture-fbfmampkjnle",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-gpcnpajeljbh",
+          "name": "맹필수",
+          "resourceId": "prof-dir-architecture-gpcnpajeljbh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-mnkfdnnlmgmd",
+          "name": "박문서",
+          "resourceId": "prof-dir-architecture-mnkfdnnlmgmd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-dojogciefcej",
+          "name": "박철수",
+          "resourceId": "prof-dir-architecture-dojogciefcej",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-lcmgpgakbmkp",
+          "name": "박홍근",
+          "resourceId": "prof-dir-architecture-lcmgpgakbmkp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-fikbfkbhmglb",
+          "name": "백진",
+          "resourceId": "prof-dir-architecture-fikbfkbhmglb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-ehafdpbcphlo",
+          "name": "서현",
+          "resourceId": "prof-dir-architecture-ehafdpbcphlo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-jemgnhgfjbjg",
+          "name": "안창범",
+          "resourceId": "prof-dir-architecture-jemgnhgfjbjg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-dcbbpiebpmkj",
+          "name": "여명석",
+          "resourceId": "prof-dir-architecture-dcbbpiebpmkj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-obbajcebnnnh",
+          "name": "이경아",
+          "resourceId": "prof-dir-architecture-obbajcebnnnh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-ooclanoecdnp",
+          "name": "전봉희",
+          "resourceId": "prof-dir-architecture-ooclanoecdnp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-dljnjppfgnml",
+          "name": "조인호",
+          "resourceId": "prof-dir-architecture-dljnjppfgnml",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-dcjkkgimcadp",
+          "name": "조항만",
+          "resourceId": "prof-dir-architecture-dcjkkgimcadp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-fjlodhcdmddl",
+          "name": "황현종",
+          "resourceId": "prof-dir-architecture-fjlodhcdmddl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-monfpfpmnoao",
+          "name": "Choon Woong Choi",
+          "resourceId": "prof-dir-architecture-monfpfpmnoao",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-architecture-lkkkmnaigiih",
+          "name": "Hong John Sangki",
+          "resourceId": "prof-dir-architecture-lkkkmnaigiih",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -139,31 +470,270 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-mechanical-robot",
+          "externalId": "directory-mechanical-hbhnoejfhnfb",
+          "name": "강연준",
+          "resourceId": "prof-dir-mechanical-hbhnoejfhnfb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-efohajinancd",
+          "name": "강준호",
+          "resourceId": "prof-dir-mechanical-efohajinancd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-jjgojaobmggj",
+          "name": "고승환",
+          "resourceId": "prof-dir-mechanical-jjgojaobmggj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-lfcbaokejoda",
+          "name": "김도년",
+          "resourceId": "prof-dir-mechanical-lfcbaokejoda",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-ckkpgdapomcf",
+          "name": "김민수",
+          "resourceId": "prof-dir-mechanical-ckkpgdapomcf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-fafifdkcnfkp",
+          "name": "김수용",
+          "resourceId": "prof-dir-mechanical-fafifdkcnfkp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-lhjhajcfddke",
           "name": "김아영",
           "resourceId": "prof-mechanical-robot",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-mechanical-fluids",
+          "externalId": "directory-mechanical-depeeclngokl",
+          "name": "김태용",
+          "resourceId": "prof-dir-mechanical-depeeclngokl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-dabnldbgilah",
           "name": "김호영",
           "resourceId": "prof-mechanical-fluids",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-mechanical-manufacturing",
+          "externalId": "directory-mechanical-kbpbjkelfpng",
+          "name": "도형록",
+          "resourceId": "prof-dir-mechanical-kbpbjkelfpng",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-lghfmnccihee",
+          "name": "민경덕",
+          "resourceId": "prof-dir-mechanical-lghfmnccihee",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-nacfmhgcdflm",
+          "name": "박상욱",
+          "resourceId": "prof-dir-mechanical-nacfmhgcdflm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-mgcheidjnjpm",
+          "name": "박용래",
+          "resourceId": "prof-dir-mechanical-mgcheidjnjpm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-khpnnkgklfdh",
+          "name": "박종우",
+          "resourceId": "prof-dir-mechanical-khpnnkgklfdh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-fgeedhjdnhlj",
+          "name": "박형민",
+          "resourceId": "prof-dir-mechanical-fgeedhjdnhlj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-dgbmgmdkokge",
+          "name": "송성진",
+          "resourceId": "prof-dir-mechanical-dgbmgmdkokge",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-dimipdphpjkb",
+          "name": "송한호",
+          "resourceId": "prof-dir-mechanical-dimipdphpjkb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-lhdekenakhpo",
+          "name": "신용대",
+          "resourceId": "prof-dir-mechanical-lhdekenakhpo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-ppjikcpmalkn",
           "name": "안성훈",
           "resourceId": "prof-mechanical-manufacturing",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-kmighfkjiffo",
+          "name": "양진규",
+          "resourceId": "prof-dir-mechanical-kmighfkjiffo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-kjdpccmjkcdn",
+          "name": "오주환",
+          "resourceId": "prof-dir-mechanical-kjdpccmjkcdn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-cidpmbpejhkm",
+          "name": "윤병동",
+          "resourceId": "prof-dir-mechanical-cidpmbpejhkm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-ghfkdbiiafme",
+          "name": "이동준",
+          "resourceId": "prof-dir-mechanical-ghfkdbiiafme",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-cndijmhlogfk",
+          "name": "이승아",
+          "resourceId": "prof-dir-mechanical-cndijmhlogfk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-aknkmcpeifol",
+          "name": "이윤석",
+          "resourceId": "prof-dir-mechanical-aknkmcpeifol",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-ehojmmfldceb",
+          "name": "이호원",
+          "resourceId": "prof-dir-mechanical-ehojmmfldceb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-anoiojnfhhji",
+          "name": "임종우",
+          "resourceId": "prof-dir-mechanical-anoiojnfhhji",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-ihnlkmeilmdd",
+          "name": "전누리",
+          "resourceId": "prof-dir-mechanical-ihnlkmeilmdd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-pdbjgfbpddmf",
+          "name": "조규진",
+          "resourceId": "prof-dir-mechanical-pdbjgfbpddmf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-ikfeppabfhnb",
+          "name": "좌은혁",
+          "resourceId": "prof-dir-mechanical-ikfeppabfhnb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-effklgeidobl",
+          "name": "차석원",
+          "resourceId": "prof-dir-mechanical-effklgeidobl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-neicdcmeakif",
+          "name": "최해천",
+          "resourceId": "prof-dir-mechanical-neicdcmeakif",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-oohlkjodmhio",
+          "name": "한경원",
+          "resourceId": "prof-dir-mechanical-oohlkjodmhio",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-mechanical-kaokjfoikbjn",
+          "name": "황원태",
+          "resourceId": "prof-dir-mechanical-kaokjfoikbjn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -205,64 +775,247 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-industrial-or",
-          "name": "박명주",
-          "resourceId": "prof-industrial-or",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
-        },
-        {
-          "externalId": "prof-industrial-dsba",
+          "externalId": "directory-industrial-pohhobncobce",
           "name": "강필성",
           "resourceId": "prof-industrial-dsba",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-industrial-his",
+          "externalId": "directory-industrial-ofpanjencloh",
+          "name": "금영정",
+          "resourceId": "prof-dir-industrial-ofpanjencloh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-pohilfgakejb",
+          "name": "문일경",
+          "resourceId": "prof-dir-industrial-pohilfgakejb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-dolbcmikjdfl",
+          "name": "박건수",
+          "resourceId": "prof-dir-industrial-dolbcmikjdfl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-iichgmhjbkbn",
+          "name": "박명주",
+          "resourceId": "prof-industrial-or",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-ikbdfplkcici",
+          "name": "박우진",
+          "resourceId": "prof-dir-industrial-ikbdfplkcici",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-lpkepmdnfhlf",
+          "name": "박종헌",
+          "resourceId": "prof-dir-industrial-lpkepmdnfhlf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-hoeonmkcgkjk",
           "name": "윤명환",
           "resourceId": "prof-industrial-his",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-jbljnjdfecda",
+          "name": "이경식",
+          "resourceId": "prof-dir-industrial-jbljnjdfecda",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-olabcknbecgo",
+          "name": "이덕주",
+          "resourceId": "prof-dir-industrial-olabcknbecgo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-kganfepnehig",
+          "name": "이성주",
+          "resourceId": "prof-dir-industrial-kganfepnehig",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-acbjeidoanfd",
+          "name": "이재욱",
+          "resourceId": "prof-dir-industrial-acbjeidoanfd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-mebgpdgakfbi",
+          "name": "장우진",
+          "resourceId": "prof-dir-industrial-mebgpdgakfbi",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-industrial-hlcjgfikjkbl",
+          "name": "홍유석",
+          "resourceId": "prof-dir-industrial-hlcjgfikjkbl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
     {
       "departmentId": "industrial",
       "kind": "lab",
-      "complete": false,
+      "complete": true,
       "sourceIds": [
         "s-departments"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:55:25.544Z",
+      "reason": "공식 연구실 메뉴/목록 전체 명칭 대조 · 미수록 연구실을 분모에 보존. 사람 공개 검수 대기",
       "entries": [
         {
-          "externalId": "lab-industrial-or",
+          "externalId": "official-lab-industrial-1",
           "name": "경영과학 연구실",
           "resourceId": "lab-industrial-or",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "lab-industrial-dsba",
+          "externalId": "official-lab-industrial-2",
+          "name": "경제성분석 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-3",
+          "name": "공급망관리 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-4",
+          "name": "금융리스크공학 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-5",
+          "name": "기술 인텔리전스 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-6",
           "name": "데이터과학 및 비즈니스 애널리틱스 연구실",
           "resourceId": "lab-industrial-dsba",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "lab-industrial-his",
+          "externalId": "official-lab-industrial-7",
+          "name": "빅데이터 AI 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-8",
+          "name": "삶향상기술 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-9",
+          "name": "서비스혁신 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-10",
+          "name": "시스템최적화 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-11",
+          "name": "운영관리 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-12",
+          "name": "정보경영 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-13",
+          "name": "제품서비스공학 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-14",
+          "name": "통계학습 및 계산금융 연구실",
+          "resourceId": null,
+          "status": "missing",
+          "reason": "공식 목록에 있으나 연구 상세 수록 대기"
+        },
+        {
+          "externalId": "official-lab-industrial-15",
           "name": "휴먼인터페이스시스템 연구실",
           "resourceId": "lab-industrial-his",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "status": "matched",
+          "reason": null
         }
       ]
     },
@@ -271,31 +1024,102 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-energy-recycling",
+          "externalId": "directory-energy-ajhgaifjhipp",
           "name": "강정신",
           "resourceId": "prof-energy-recycling",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-energy-rock",
+          "externalId": "directory-energy-kcianenjjcld",
+          "name": "강진수",
+          "resourceId": "prof-dir-energy-kcianenjjcld",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-energy-aafaobjfhfgi",
           "name": "민기복",
           "resourceId": "prof-energy-rock",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-energy-geochemistry",
+          "externalId": "directory-energy-khmhhoedfjaj",
+          "name": "민동주",
+          "resourceId": "prof-dir-energy-khmhhoedfjaj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-energy-gldniokddaib",
+          "name": "박형동",
+          "resourceId": "prof-dir-energy-gldniokddaib",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-energy-emjemdkaompl",
+          "name": "송재준",
+          "resourceId": "prof-dir-energy-emjemdkaompl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-energy-anpalkbiakec",
+          "name": "전석원",
+          "resourceId": "prof-dir-energy-anpalkbiakec",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-energy-cmgamlldheak",
           "name": "정은혜",
           "resourceId": "prof-energy-geochemistry",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-energy-pfhhnngalknn",
+          "name": "정훈영",
+          "resourceId": "prof-dir-energy-pfhhnngalknn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-energy-cjdheeiaiapa",
+          "name": "최종근",
+          "resourceId": "prof-dir-energy-cjdheeiaiapa",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -337,64 +1161,219 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-nuclear-thermal",
-          "name": "조형규",
-          "resourceId": "prof-nuclear-thermal",
+          "externalId": "directory-nuclear-jpdihpiddmcb",
+          "name": "김기현",
+          "resourceId": "prof-dir-nuclear-jpdihpiddmcb",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-nuclear-reactor",
-          "name": "주한규",
-          "resourceId": "prof-nuclear-reactor",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
-        },
-        {
-          "externalId": "prof-nuclear-radiation",
+          "externalId": "directory-nuclear-fnlaggoijcje",
           "name": "김은희",
           "resourceId": "prof-nuclear-radiation",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-plibkhmkmkpj",
+          "name": "나용수",
+          "resourceId": "prof-dir-nuclear-plibkhmkmkpj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-olnhpapekfib",
+          "name": "박설혜",
+          "resourceId": "prof-dir-nuclear-olnhpapekfib",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-jgofoampeoik",
+          "name": "심형진",
+          "resourceId": "prof-dir-nuclear-jgofoampeoik",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-deflpkghlnhp",
+          "name": "이유호",
+          "resourceId": "prof-dir-nuclear-deflpkghlnhp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-cpafkbbgbepi",
+          "name": "정경재",
+          "resourceId": "prof-dir-nuclear-cpafkbbgbepi",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-lhlheamlephk",
+          "name": "조형규",
+          "resourceId": "prof-nuclear-thermal",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-aokdljmmajnc",
+          "name": "주한규",
+          "resourceId": "prof-nuclear-reactor",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-cbdenbojboga",
+          "name": "최성열",
+          "resourceId": "prof-dir-nuclear-cbdenbojboga",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-nuclear-eaophadchiib",
+          "name": "황용석",
+          "resourceId": "prof-dir-nuclear-eaophadchiib",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
     {
       "departmentId": "nuclear",
       "kind": "lab",
-      "complete": false,
+      "complete": true,
       "sourceIds": [
-        "s-departments"
+        "official-lab-inventory-nuclear"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:55:25.544Z",
+      "reason": "공식 연구실 메뉴/목록 전체 명칭 대조 · 미수록 연구실을 분모에 보존. 사람 공개 검수 대기",
       "entries": [
         {
-          "externalId": "lab-nuclear-thermal",
-          "name": "열수력계통연구실",
-          "resourceId": "lab-nuclear-thermal",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "externalId": "official-lab-nuclear-1",
+          "name": "3차원 스텔라레이터 및 토카막 연구실",
+          "resourceId": "lab-list-nuclear-a",
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "lab-nuclear-reactor",
-          "name": "원자로물리연구실",
-          "resourceId": "lab-nuclear-reactor",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "externalId": "official-lab-nuclear-2",
+          "name": "고성능 플라즈마 연구실",
+          "resourceId": "lab-list-nuclear-b",
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "lab-nuclear-radiation",
+          "externalId": "official-lab-nuclear-3",
+          "name": "몬테칼로 연구실",
+          "resourceId": "lab-list-nuclear-c",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-4",
+          "name": "방사선 공학 연구실",
+          "resourceId": "lab-list-nuclear-d",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-5",
           "name": "방사선 생명공학 연구실",
           "resourceId": "lab-nuclear-radiation",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-6",
+          "name": "열수력계통연구실",
+          "resourceId": "lab-nuclear-thermal",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-7",
+          "name": "원자력 시스템 및 응용 연구실",
+          "resourceId": "lab-list-nuclear-g",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-8",
+          "name": "원자로물리연구실",
+          "resourceId": "lab-nuclear-reactor",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-9",
+          "name": "전산 핵재료 연구실",
+          "resourceId": "lab-list-nuclear-i",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-10",
+          "name": "플라즈마 및 방사선 공학 연구실",
+          "resourceId": "lab-list-nuclear-j",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-11",
+          "name": "플라즈마 및 양자빔 공학 연구실",
+          "resourceId": "lab-list-nuclear-k",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-12",
+          "name": "플라즈마 응용 연구실",
+          "resourceId": "lab-list-nuclear-l",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-13",
+          "name": "핵연료재료 및 안전 연구실",
+          "resourceId": "lab-list-nuclear-m",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-nuclear-14",
+          "name": "핵연료주기 및 핵비확산 연구실",
+          "resourceId": "lab-list-nuclear-n",
+          "status": "matched",
+          "reason": null
         }
       ]
     },
@@ -403,31 +1382,326 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-materials-mechanics",
-          "name": "이명규",
-          "resourceId": "prof-materials-mechanics",
+          "externalId": "directory-materials-kgifccccmbnh",
+          "name": "강기석",
+          "resourceId": "prof-dir-materials-kgifccccmbnh",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-materials-bioinspired",
-          "name": "남기태",
-          "resourceId": "prof-materials-bioinspired",
+          "externalId": "directory-materials-inhgopgbfmge",
+          "name": "강기훈",
+          "resourceId": "prof-dir-materials-inhgopgbfmge",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-materials-dna",
+          "externalId": "directory-materials-fopaompjfelf",
+          "name": "강동민",
+          "resourceId": "prof-dir-materials-fopaompjfelf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-kmlmbicmepll",
+          "name": "강승균",
+          "resourceId": "prof-dir-materials-kmlmbicmepll",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-hhfhnfeknibh",
+          "name": "곽승엽",
+          "resourceId": "prof-dir-materials-hhfhnfeknibh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-fejnbehedioa",
+          "name": "권민상",
+          "resourceId": "prof-dir-materials-fejnbehedioa",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ecphfndhciac",
+          "name": "김미영",
+          "resourceId": "prof-dir-materials-ecphfndhciac",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-chiiddomappd",
+          "name": "김상국",
+          "resourceId": "prof-dir-materials-chiiddomappd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-nenapolmkmdo",
+          "name": "김상범",
+          "resourceId": "prof-dir-materials-nenapolmkmdo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-jplkgoideeda",
           "name": "김영은",
           "resourceId": "prof-materials-dna",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-fimfkjejhjao",
+          "name": "김진영",
+          "resourceId": "prof-dir-materials-fimfkjejhjao",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-poolddepbiec",
+          "name": "김창규",
+          "resourceId": "prof-dir-materials-poolddepbiec",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-galggfcncbbn",
+          "name": "남기태",
+          "resourceId": "prof-materials-bioinspired",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ioeemmgjfkbi",
+          "name": "도준상",
+          "resourceId": "prof-dir-materials-ioeemmgjfkbi",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-amebehmbimok",
+          "name": "류일",
+          "resourceId": "prof-dir-materials-amebehmbimok",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ajhnaojkddaf",
+          "name": "박민혁",
+          "resourceId": "prof-dir-materials-ajhnaojkddaf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-knkbeakiknab",
+          "name": "박은수",
+          "resourceId": "prof-dir-materials-knkbeakiknab",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-flimnfmhnbeo",
+          "name": "박주혁",
+          "resourceId": "prof-dir-materials-flimnfmhnbeo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-cddehgdecgim",
+          "name": "박찬",
+          "resourceId": "prof-dir-materials-cddehgdecgim",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-llielnajgkja",
+          "name": "선정윤",
+          "resourceId": "prof-dir-materials-llielnajgkja",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-onolkaaelbji",
+          "name": "손준우",
+          "resourceId": "prof-dir-materials-onolkaaelbji",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-eaafgmdmkfgm",
+          "name": "안철희",
+          "resourceId": "prof-dir-materials-eaafgmdmkfgm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ipiilbmkfall",
+          "name": "양승재",
+          "resourceId": "prof-dir-materials-ipiilbmkfall",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ehmbinmoekec",
+          "name": "유웅열",
+          "resourceId": "prof-dir-materials-ehmbinmoekec",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-fpghfoeidgkp",
+          "name": "유효빈",
+          "resourceId": "prof-dir-materials-fpghfoeidgkp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-bdkghppnnbie",
+          "name": "이경우",
+          "resourceId": "prof-dir-materials-bdkghppnnbie",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-agoomkambokf",
+          "name": "이관형",
+          "resourceId": "prof-dir-materials-agoomkambokf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-kmjngflnmofb",
+          "name": "이명규",
+          "resourceId": "prof-materials-mechanics",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-bjdhiokdnigc",
+          "name": "이명재",
+          "resourceId": "prof-dir-materials-bjdhiokdnigc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-mjgmgfgmcpdj",
+          "name": "이태우",
+          "resourceId": "prof-dir-materials-mjgmgfgmcpdj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-hpjkdpldpjcc",
+          "name": "장혜진",
+          "resourceId": "prof-dir-materials-hpjkdpldpjcc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-bbfhmchcmomd",
+          "name": "장호원",
+          "resourceId": "prof-dir-materials-bbfhmchcmomd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-lkaconllkpnj",
+          "name": "정우철",
+          "resourceId": "prof-dir-materials-lkaconllkpnj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ijpkpjacpolb",
+          "name": "정인호",
+          "resourceId": "prof-dir-materials-ijpkpjacpolb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-jjhnaahoppma",
+          "name": "주영창",
+          "resourceId": "prof-dir-materials-jjhnaahoppma",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-dhlkamionpmg",
+          "name": "최인석",
+          "resourceId": "prof-dir-materials-dhlkamionpmg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ccnjknejbhee",
+          "name": "한승우",
+          "resourceId": "prof-dir-materials-ccnjknejbhee",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-iblfiehajlme",
+          "name": "한정우",
+          "resourceId": "prof-dir-materials-iblfiehajlme",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-ndhelkglpljn",
+          "name": "한준규",
+          "resourceId": "prof-dir-materials-ndhelkglpljn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-kfdgjnnfjcpb",
+          "name": "한흥남",
+          "resourceId": "prof-dir-materials-kfdgjnnfjcpb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-dnndnnbikpne",
+          "name": "홍성현",
+          "resourceId": "prof-dir-materials-dnndnnbikpne",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-materials-mlhmgnmcjjcd",
+          "name": "황철성",
+          "resourceId": "prof-dir-materials-mlhmgnmcjjcd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -469,31 +1743,501 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-ece-optics",
-          "name": "박재형",
-          "resourceId": "prof-ece-optics",
+          "externalId": "directory-ece-dhcfclllaomo",
+          "name": "고형석",
+          "resourceId": "prof-dir-ece-dhcfclllaomo",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-ece-flexible",
-          "name": "홍용택",
-          "resourceId": "prof-ece-flexible",
+          "externalId": "directory-ece-cldplhiofelf",
+          "name": "곽정훈",
+          "resourceId": "prof-dir-ece-cldplhiofelf",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-ece-mind",
+          "externalId": "directory-ece-ecmhlobklkea",
+          "name": "권성훈",
+          "resourceId": "prof-dir-ece-ecmhlobklkea",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-cbnjmbplpjcn",
+          "name": "김남수",
+          "resourceId": "prof-dir-ece-cbnjmbplpjcn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-abeckbgfjhjg",
+          "name": "김성재",
+          "resourceId": "prof-dir-ece-abeckbgfjhjg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-gdlggmgikjao",
+          "name": "김영민",
+          "resourceId": "prof-dir-ece-gdlggmgikjao",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-iocciicbmfii",
+          "name": "김장우",
+          "resourceId": "prof-dir-ece-iocciicbmfii",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-bpfbemmpgefo",
+          "name": "김재준",
+          "resourceId": "prof-dir-ece-bpfbemmpgefo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-pblajcdokhil",
+          "name": "김재하",
+          "resourceId": "prof-dir-ece-pblajcdokhil",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-laacoklffmom",
+          "name": "김진수",
+          "resourceId": "prof-dir-ece-laacoklffmom",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ldbbkhagfbej",
+          "name": "김태환",
+          "resourceId": "prof-dir-ece-ldbbkhagfbej",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-pmnohcjdigod",
+          "name": "남동욱",
+          "resourceId": "prof-dir-ece-pmnohcjdigod",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-pbkiglggkjhm",
+          "name": "도재영",
+          "resourceId": "prof-dir-ece-pbkiglggkjhm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-pkegfgboihfo",
+          "name": "문수묵",
+          "resourceId": "prof-dir-ece-pkegfgboihfo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-fgakcpipcfgh",
           "name": "문태섭",
           "resourceId": "prof-ece-mind",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-odmajfjjbmed",
+          "name": "박남규",
+          "resourceId": "prof-dir-ece-odmajfjjbmed",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-enffdgmfmlmh",
+          "name": "박세웅",
+          "resourceId": "prof-dir-ece-enffdgmfmlmh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ahhcepklakab",
+          "name": "박재형",
+          "resourceId": "prof-ece-optics",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-fjlldkeccfah",
+          "name": "백윤흥",
+          "resourceId": "prof-dir-ece-fjlldkeccfah",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-mgggfjeonkbd",
+          "name": "서승우",
+          "resourceId": "prof-dir-ece-mgggfjeonkbd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ghoagdpmcopl",
+          "name": "서종모",
+          "resourceId": "prof-dir-ece-ghoagdpmcopl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-oojnipgfhpmn",
+          "name": "신종원",
+          "resourceId": "prof-dir-ece-oojnipgfhpmn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-kcgfgpiccppa",
+          "name": "신형철",
+          "resourceId": "prof-dir-ece-kcgfgpiccppa",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-kcopobhklgoe",
+          "name": "심규석",
+          "resourceId": "prof-dir-ece-kcopobhklgoe",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-nodiokgkdejn",
+          "name": "심병효",
+          "resourceId": "prof-dir-ece-nodiokgkdejn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-blighleokhdk",
+          "name": "심재웅",
+          "resourceId": "prof-dir-ece-blighleokhdk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ciiaoihbecdm",
+          "name": "심형보",
+          "resourceId": "prof-dir-ece-ciiaoihbecdm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-oednmdnkffai",
+          "name": "양인순",
+          "resourceId": "prof-dir-ece-oednmdnkffai",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-hgeleppolglm",
+          "name": "양현종",
+          "resourceId": "prof-dir-ece-hgeleppolglm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-lbocojhccloh",
+          "name": "오성회",
+          "resourceId": "prof-dir-ece-lbocojhccloh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-lhghonikgohk",
+          "name": "오정석",
+          "resourceId": "prof-dir-ece-lhghonikgohk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ommhaklpinak",
+          "name": "유담",
+          "resourceId": "prof-dir-ece-ommhaklpinak",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-mgkmjmcehjjk",
+          "name": "유선규",
+          "resourceId": "prof-dir-ece-mgkmjmcehjjk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ckcilennhkba",
+          "name": "윤상원",
+          "resourceId": "prof-dir-ece-ckcilennhkba",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-pghokbneicgn",
+          "name": "윤성로",
+          "resourceId": "prof-dir-ece-pghokbneicgn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-fejfelalhokl",
+          "name": "윤용태",
+          "resourceId": "prof-dir-ece-fejfelalhokl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-fobeageoidck",
+          "name": "이경무",
+          "resourceId": "prof-dir-ece-fobeageoidck",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-cbjmlnahnedk",
+          "name": "이경한",
+          "resourceId": "prof-dir-ece-cbjmlnahnedk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ceifpapadlik",
+          "name": "이규섭",
+          "resourceId": "prof-dir-ece-ceifpapadlik",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-cpckogakbcmh",
+          "name": "이병영",
+          "resourceId": "prof-dir-ece-cpckogakbcmh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-gaahominkndp",
+          "name": "이성욱",
+          "resourceId": "prof-dir-ece-gaahominkndp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-plkmmdkhfomj",
+          "name": "이수연",
+          "resourceId": "prof-dir-ece-plkmmdkhfomj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-mdlofdfodaig",
+          "name": "이재상",
+          "resourceId": "prof-dir-ece-mdlofdfodaig",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-mnnieaipdbka",
+          "name": "이정우",
+          "resourceId": "prof-dir-ece-mnnieaipdbka",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-dmggagjoigge",
+          "name": "이종호",
+          "resourceId": "prof-dir-ece-dmggagjoigge",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-edpidjmbagll",
+          "name": "이종호",
+          "resourceId": "prof-dir-ece-edpidjmbagll",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-jgmmpldlmjnj",
+          "name": "이진규",
+          "resourceId": "prof-dir-ece-jgmmpldlmjnj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-hgakfiahoeon",
+          "name": "이진호",
+          "resourceId": "prof-dir-ece-hgakfiahoeon",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-bjbjibokefnb",
+          "name": "이철호",
+          "resourceId": "prof-dir-ece-bjbjibokefnb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-bnmgkkefjjif",
+          "name": "이혁재",
+          "resourceId": "prof-dir-ece-bnmgkkefjjif",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-aihicgflkkkk",
+          "name": "이현주",
+          "resourceId": "prof-dir-ece-aihicgflkkkk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-aanpbhibbljc",
+          "name": "전세영",
+          "resourceId": "prof-dir-ece-aanpbhibbljc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-efpmndefgdjd",
+          "name": "정교민",
+          "resourceId": "prof-dir-ece-efpmndefgdjd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-mklgbefljbpj",
+          "name": "정윤찬",
+          "resourceId": "prof-dir-ece-mklgbefljbpj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-lmbieacandlf",
+          "name": "조남익",
+          "resourceId": "prof-dir-ece-lmbieacandlf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-dcibghhidjil",
+          "name": "최성휘",
+          "resourceId": "prof-dir-ece-dcibghhidjil",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-ahpaokahoagg",
+          "name": "최완",
+          "resourceId": "prof-dir-ece-ahpaokahoagg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-nepmddjbbcbg",
+          "name": "최우석",
+          "resourceId": "prof-dir-ece-nepmddjbbcbg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-jomnkiliibim",
+          "name": "최우열",
+          "resourceId": "prof-dir-ece-jomnkiliibim",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-mfafcokeoked",
+          "name": "최우영",
+          "resourceId": "prof-dir-ece-mfafcokeoked",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-bemjkgojgjjp",
+          "name": "최재혁",
+          "resourceId": "prof-dir-ece-bemjkgojgjjp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-efenflcagibm",
+          "name": "최종현",
+          "resourceId": "prof-dir-ece-efenflcagibm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-fpgohbfpgphn",
+          "name": "하정익",
+          "resourceId": "prof-dir-ece-fpgohbfpgphn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-lgmpldbefeco",
+          "name": "한보형",
+          "resourceId": "prof-dir-ece-lgmpldbefeco",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-apjoiplmbadj",
+          "name": "한승용",
+          "resourceId": "prof-dir-ece-apjoiplmbadj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-heodohneheom",
+          "name": "홍성수",
+          "resourceId": "prof-dir-ece-heodohneheom",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-ece-gfhabeojoaja",
+          "name": "홍용택",
+          "resourceId": "prof-ece-flexible",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -535,31 +2279,130 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-naval-fluids",
+          "externalId": "directory-naval-ggnnpflocfjb",
+          "name": "강상규",
+          "resourceId": "prof-dir-naval-ggnnpflocfjb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-gpeipclipdjo",
+          "name": "김도균",
+          "resourceId": "prof-dir-naval-gpeipclipdjo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-dmpoodimhajo",
           "name": "김용환",
           "resourceId": "prof-naval-fluids",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-naval-systems",
+          "externalId": "directory-naval-pmhaiiijegii",
+          "name": "김태완",
+          "resourceId": "prof-dir-naval-pmhaiiijegii",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-njlcdlebdplh",
+          "name": "남보우",
+          "resourceId": "prof-dir-naval-njlcdlebdplh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-gfjdgloikloo",
           "name": "노명일",
           "resourceId": "prof-naval-systems",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-naval-energy",
+          "externalId": "directory-naval-jligdkfghddp",
           "name": "서유택",
           "resourceId": "prof-naval-energy",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-ielahgkhgaik",
+          "name": "신재정",
+          "resourceId": "prof-dir-naval-ielahgkhgaik",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-kbbpfkibnabo",
+          "name": "오민재",
+          "resourceId": "prof-dir-naval-kbbpfkibnabo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-bkbajbgibllh",
+          "name": "우종훈",
+          "resourceId": "prof-dir-naval-bkbajbgibllh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-kigjfjdognkm",
+          "name": "이신형",
+          "resourceId": "prof-dir-naval-kigjfjdognkm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-gdmopbocdkio",
+          "name": "임영섭",
+          "resourceId": "prof-dir-naval-gdmopbocdkio",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-jhhjopmmomgo",
+          "name": "조선호",
+          "resourceId": "prof-dir-naval-jhhjopmmomgo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-naval-jflocpkoobcd",
+          "name": "추영민",
+          "resourceId": "prof-dir-naval-jflocpkoobcd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -601,31 +2444,270 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-afds",
+          "externalId": "directory-cse-kbncplhgfpfl",
+          "name": "강유",
+          "resourceId": "prof-dir-cse-kbncplhgfpfl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-hjdbkmpkenpn",
+          "name": "권태경",
+          "resourceId": "prof-dir-cse-hjdbkmpkenpn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-pclkcmcacoia",
+          "name": "김건희",
+          "resourceId": "prof-dir-cse-pclkcmcacoia",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-fcajfgomnjhp",
+          "name": "김선",
+          "resourceId": null,
+          "status": "needs-review",
+          "reason": "기존 영문 이름 자원과 공식 신원 연결 대조 필요"
+        },
+        {
+          "externalId": "directory-cse-acgfmjohdalh",
+          "name": "김지홍",
+          "resourceId": "prof-dir-cse-acgfmjohdalh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-obdcbhcmelae",
+          "name": "김진수",
+          "resourceId": "prof-dir-cse-obdcbhcmelae",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-llpechnidmac",
+          "name": "김태현",
+          "resourceId": "prof-dir-cse-llpechnidmac",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-chbphkibefhc",
+          "name": "박경수",
+          "resourceId": "prof-dir-cse-chbphkibefhc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-lgobhkialnci",
+          "name": "박재식",
+          "resourceId": "prof-dir-cse-lgobhkialnci",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-oepodggianob",
+          "name": "서진욱",
+          "resourceId": "prof-dir-cse-oepodggianob",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-enoaahlnhlok",
+          "name": "송용수",
+          "resourceId": "prof-dir-cse-enoaahlnhlok",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-opmckplfbllk",
+          "name": "송현오",
+          "resourceId": "prof-dir-cse-opmckplfbllk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-blfcgepgoigj",
+          "name": "엄현상",
+          "resourceId": "prof-dir-cse-blfcgepgoigj",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-jkmemnpnnkoe",
+          "name": "에거버나드",
+          "resourceId": "prof-dir-cse-jkmemnpnnkoe",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-ikfkkagiacal",
+          "name": "원정담",
+          "resourceId": "prof-dir-cse-ikfkkagiacal",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-pppdocgoicgb",
+          "name": "유승주",
+          "resourceId": "prof-dir-cse-pppdocgoicgb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-dijjffaagomb",
+          "name": "유재민",
+          "resourceId": "prof-dir-cse-dijjffaagomb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-heicmpnpdahc",
+          "name": "이광근",
+          "resourceId": "prof-dir-cse-heicmpnpdahc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-loccgehabjco",
+          "name": "이상구",
+          "resourceId": "prof-dir-cse-loccgehabjco",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-jjblclajaail",
+          "name": "이영기",
+          "resourceId": "prof-dir-cse-jjblclajaail",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-ddocmegoaopn",
+          "name": "이영운",
+          "resourceId": "prof-dir-cse-ddocmegoaopn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-aoeccdnipjij",
+          "name": "이재욱",
+          "resourceId": "prof-dir-cse-aoeccdnipjij",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-bjdgpionefhe",
+          "name": "이제희",
+          "resourceId": "prof-dir-cse-bjdgpionefhe",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-hfkilnobdncm",
+          "name": "이창건",
+          "resourceId": "prof-dir-cse-hfkilnobdncm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-nhmdoniipbbf",
+          "name": "장병탁",
+          "resourceId": null,
+          "status": "needs-review",
+          "reason": "기존 영문 이름 자원과 공식 신원 연결 대조 필요"
+        },
+        {
+          "externalId": "directory-cse-phclkilflncm",
+          "name": "전병곤",
+          "resourceId": "prof-dir-cse-phclkilflncm",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-leaainagbeeo",
+          "name": "정대룡",
+          "resourceId": "prof-dir-cse-leaainagbeeo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-kepeheehmcbb",
+          "name": "주한별",
+          "resourceId": "prof-dir-cse-kepeheehmcbb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-dblkbkkiggji",
+          "name": "최수연",
+          "resourceId": "prof-dir-cse-dblkbkkiggji",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-bifhgbklddfn",
+          "name": "하순회",
+          "resourceId": "prof-dir-cse-bifhgbklddfn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-pidlhjoimjpl",
+          "name": "허충길",
+          "resourceId": "prof-dir-cse-pidlhjoimjpl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-ojennanofjne",
+          "name": "황승원",
+          "resourceId": "prof-dir-cse-ojennanofjne",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-cse-fhpighppmaep",
           "name": "Chenglin Fan",
           "resourceId": "prof-afds",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-bhi",
-          "name": "Sun Kim",
-          "resourceId": "prof-bhi",
+          "externalId": "directory-cse-allblkccmhgd",
+          "name": "Cui Minhao",
+          "resourceId": "prof-dir-cse-allblkccmhgd",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
-        },
-        {
-          "externalId": "prof-bi",
-          "name": "Byoung-Tak Zhang",
-          "resourceId": "prof-bi",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
@@ -667,64 +2749,233 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-aerospace-aerodynamics",
+          "externalId": "directory-aerospace-gaefkmhffhem",
+          "name": "김규홍",
+          "resourceId": "prof-dir-aerospace-gaefkmhffhem",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-piednglijhic",
+          "name": "김윤호",
+          "resourceId": "prof-dir-aerospace-piednglijhic",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-ibdajfjepjpe",
           "name": "김종암",
           "resourceId": "prof-aerospace-aerodynamics",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-aerospace-rocket",
-          "name": "윤영빈",
-          "resourceId": "prof-aerospace-rocket",
+          "externalId": "directory-aerospace-mbbpgahfndao",
+          "name": "김현진",
+          "resourceId": "prof-dir-aerospace-mbbpgahfndao",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-aerospace-navigation",
+          "externalId": "directory-aerospace-ofleljlbmoie",
           "name": "박찬국",
           "resourceId": "prof-aerospace-navigation",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-lhigidmdclgo",
+          "name": "박형준",
+          "resourceId": "prof-dir-aerospace-lhigidmdclgo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-ggdbnhbejecn",
+          "name": "신상준",
+          "resourceId": "prof-dir-aerospace-ggdbnhbejecn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-lfhgjdfahege",
+          "name": "여재익",
+          "resourceId": "prof-dir-aerospace-lfhgjdfahege",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-plleclfggfkp",
+          "name": "윤군진",
+          "resourceId": "prof-dir-aerospace-plleclfggfkp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-foimgmpmpjch",
+          "name": "윤영빈",
+          "resourceId": "prof-aerospace-rocket",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-lpliopomchpl",
+          "name": "이관중",
+          "resourceId": "prof-dir-aerospace-lpliopomchpl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-ihljlklhldfg",
+          "name": "이복직",
+          "resourceId": "prof-dir-aerospace-ihljlklhldfg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-aerospace-pkcechgjodfo",
+          "name": "조남훈",
+          "resourceId": "prof-dir-aerospace-pkcechgjodfo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
     {
       "departmentId": "aerospace",
       "kind": "lab",
-      "complete": false,
+      "complete": true,
       "sourceIds": [
-        "s-departments"
+        "official-lab-inventory-aerospace"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:55:25.544Z",
+      "reason": "공식 연구실 메뉴/목록 전체 명칭 대조 · 미수록 연구실을 분모에 보존. 사람 공개 검수 대기",
       "entries": [
         {
-          "externalId": "lab-aerospace-aerodynamics",
+          "externalId": "official-lab-aerospace-1",
+          "name": "고에너지 응용연구실",
+          "resourceId": "lab-list-aerospace-a",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-2",
           "name": "공력 시뮬레이션 및 디자인 연구실",
           "resourceId": "lab-aerospace-aerodynamics",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "lab-aerospace-rocket",
+          "externalId": "official-lab-aerospace-3",
+          "name": "극초음속 유동 연구실",
+          "resourceId": "lab-list-aerospace-c",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-4",
+          "name": "극한환경 및 충돌 연구실",
+          "resourceId": "lab-list-aerospace-d",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-5",
           "name": "로켓추진연구실",
           "resourceId": "lab-aerospace-rocket",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "status": "matched",
+          "reason": null
         },
         {
-          "externalId": "lab-aerospace-navigation",
+          "externalId": "official-lab-aerospace-6",
+          "name": "우주 모빌리티 및 로보틱스 연구실",
+          "resourceId": "lab-list-aerospace-f",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-7",
+          "name": "위성항법 연구실",
+          "resourceId": "lab-list-aerospace-g",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-8",
+          "name": "자율로봇연구실",
+          "resourceId": "lab-list-aerospace-h",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-9",
+          "name": "지능형공탄성 및 헬리콥터 연구실",
+          "resourceId": "lab-list-aerospace-i",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-10",
+          "name": "항공우주 구조 및 재료 연구실",
+          "resourceId": "lab-list-aerospace-j",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-11",
+          "name": "항공우주 비행체 설계 연구실",
+          "resourceId": "lab-list-aerospace-k",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-12",
+          "name": "항공우주 자율지능 연구실",
+          "resourceId": "lab-list-aerospace-l",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-13",
+          "name": "항공우주추진연구실",
+          "resourceId": "lab-list-aerospace-m",
+          "status": "matched",
+          "reason": null
+        },
+        {
+          "externalId": "official-lab-aerospace-14",
           "name": "항법전자시스템 연구실",
           "resourceId": "lab-aerospace-navigation",
-          "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "status": "matched",
+          "reason": null
         }
       ]
     },
@@ -733,31 +2984,263 @@
       "kind": "researcher",
       "complete": false,
       "sourceIds": [
-        "s-departments"
+        "source-eng-directory-1",
+        "source-eng-directory-2",
+        "source-eng-directory-3",
+        "source-eng-directory-4",
+        "source-eng-directory-5",
+        "source-eng-directory-6",
+        "source-eng-directory-7",
+        "source-eng-directory-8",
+        "source-eng-directory-9",
+        "source-eng-directory-10",
+        "source-eng-directory-11",
+        "source-eng-directory-12",
+        "source-eng-directory-13",
+        "source-eng-directory-14",
+        "source-eng-directory-15",
+        "source-eng-directory-16",
+        "source-eng-directory-17",
+        "source-eng-directory-18",
+        "source-eng-directory-19",
+        "source-eng-directory-20",
+        "source-eng-directory-21",
+        "source-eng-directory-22",
+        "source-eng-directory-23"
       ],
-      "checkedAt": null,
-      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "checkedAt": "2026-10-26T16:43:51.267Z",
+      "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
       "entries": [
         {
-          "externalId": "prof-chemical-flextronics",
+          "externalId": "directory-chemical-hglmglnkdjkn",
+          "name": "강종헌",
+          "resourceId": "prof-dir-chemical-hglmglnkdjkn",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-eiekcnnajhai",
           "name": "김대형",
           "resourceId": "prof-chemical-flextronics",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-chemical-catalysis",
+          "externalId": "directory-chemical-hlknbocenibc",
           "name": "김도희",
           "resourceId": "prof-chemical-catalysis",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         },
         {
-          "externalId": "prof-chemical-regenerative",
+          "externalId": "directory-chemical-gblgghdcenop",
           "name": "김병수",
           "resourceId": "prof-chemical-regenerative",
           "status": "needs-review",
-          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-gpfeedhibanb",
+          "name": "김소연",
+          "resourceId": "prof-dir-chemical-gpfeedhibanb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-fmmdeghodmih",
+          "name": "김연상",
+          "resourceId": "prof-dir-chemical-fmmdeghodmih",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-hfiagdiieneh",
+          "name": "김정욱",
+          "resourceId": "prof-dir-chemical-hfiagdiieneh",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-jojpoefollld",
+          "name": "김준원",
+          "resourceId": "prof-dir-chemical-jojpoefollld",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-badjnilpkmic",
+          "name": "김지현",
+          "resourceId": "prof-dir-chemical-badjnilpkmic",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-bdefhdfndaef",
+          "name": "남재욱",
+          "resourceId": "prof-dir-chemical-bdefhdfndaef",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-kkphfnijiajb",
+          "name": "류재윤",
+          "resourceId": "prof-dir-chemical-kkphfnijiajb",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-fjnooonjmcfd",
+          "name": "박정원",
+          "resourceId": "prof-dir-chemical-fjnooonjmcfd",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-oeoelnchmick",
+          "name": "백승렬",
+          "resourceId": "prof-dir-chemical-oeoelnchmick",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-aboddijonhlp",
+          "name": "서상우",
+          "resourceId": "prof-dir-chemical-aboddijonhlp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-kpnagflllbnc",
+          "name": "성영은",
+          "resourceId": "prof-dir-chemical-kpnagflllbnc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-kalpdfmfjbli",
+          "name": "안경현",
+          "resourceId": "prof-dir-chemical-kalpdfmfjbli",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-ghmegjammojo",
+          "name": "오준학",
+          "resourceId": "prof-dir-chemical-ghmegjammojo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-bbanabodlkdl",
+          "name": "유동원",
+          "resourceId": "prof-dir-chemical-bbanabodlkdl",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-oheopdcmjgha",
+          "name": "윤제용",
+          "resourceId": "prof-dir-chemical-oheopdcmjgha",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-hgggplljjfpf",
+          "name": "이건희",
+          "resourceId": "prof-dir-chemical-hgggplljjfpf",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-hdmlicjggmnp",
+          "name": "이규태",
+          "resourceId": "prof-dir-chemical-hdmlicjggmnp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-lcchnigemjjp",
+          "name": "이원보",
+          "resourceId": "prof-dir-chemical-lcchnigemjjp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-ogblmofblpkk",
+          "name": "이종민",
+          "resourceId": "prof-dir-chemical-ogblmofblpkk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-lkinakgbdipo",
+          "name": "이종찬",
+          "resourceId": "prof-dir-chemical-lkinakgbdipo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-kndjfipdkkog",
+          "name": "이창하",
+          "resourceId": "prof-dir-chemical-kndjfipdkkog",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-alloppanmflk",
+          "name": "정상택",
+          "resourceId": "prof-dir-chemical-alloppanmflk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-aojnnjndnojp",
+          "name": "정유성",
+          "resourceId": "prof-dir-chemical-aojnnjndnojp",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-liphbpepebcg",
+          "name": "정인",
+          "resourceId": "prof-dir-chemical-liphbpepebcg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-kbbnhlnodahk",
+          "name": "최장욱",
+          "resourceId": "prof-dir-chemical-kbbnhlnodahk",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-omnnefdpgcmo",
+          "name": "한지숙",
+          "resourceId": "prof-dir-chemical-omnnefdpgcmo",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-fboihlchiogc",
+          "name": "현택환",
+          "resourceId": "prof-dir-chemical-fboihlchiogc",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-kfkfdokojkhg",
+          "name": "홍무선",
+          "resourceId": "prof-dir-chemical-kfkfdokojkhg",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
+        },
+        {
+          "externalId": "directory-chemical-ibemencgcoam",
+          "name": "Nathaniel Suk-Yeon Hwang",
+          "resourceId": "prof-dir-chemical-ibemencgcoam",
+          "status": "needs-review",
+          "reason": "학과 현직 전임 목록 교차 대조 대기"
         }
       ]
     },
