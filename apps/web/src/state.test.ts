@@ -16,3 +16,9 @@ it('validates URL filters and selected ids', () => {
   expect(parseUrl('view=unknown&kind=paper&selected=%3Cscript%3E').selected).toBeUndefined();
   expect(parseUrl('kind=paper').kinds).toEqual([]);
 });
+it('restores bounded building and camera state while rejecting malformed or excessive views',()=>{
+ const state={view:'3d' as const,kinds:[],departmentIds:[],building:'snu-301',viewpoint:{x:10,y:20,zoom:4,bearing:35,pitch:55}};
+ expect(parseUrl(shareUrl(state))).toEqual({...state,selected:undefined});
+ for(const camera of ['0,0,Infinity,0,45','0,0,0,0,45','90000,0,1,0,45','0,0,1,0,100','0,0,1,0'])expect(parseUrl(`camera=${camera}`).viewpoint).toBeUndefined();
+ useExplore.getState().restore(state);useExplore.getState().restore({view:'2d',kinds:[],departmentIds:[]});expect(useExplore.getState().building).toBeUndefined();expect(useExplore.getState().viewpoint).toBeUndefined();
+});

@@ -1,4 +1,4 @@
-import { SnapshotSchema, RecommendationSchema, GoalProfileSchema, type Snapshot, type SearchRequest, type SearchResponse, type GoalProfile } from '@ieum/contracts';
+import { CampusSchema, type Campus, SnapshotSchema, RecommendationSchema, GoalProfileSchema, type Snapshot, type SearchRequest, type SearchResponse, type GoalProfile } from '@ieum/contracts';
 import { recommend } from '@ieum/catalog';
 export type LoadedCatalog = { snapshot: Snapshot; source: 'api' | 'snapshot'; aiAvailable: boolean };
 const defaultApi = import.meta.env.VITE_API_URL || '';
@@ -36,4 +36,10 @@ export async function interpret(goal: string, consent: boolean, api = defaultApi
   const response = await request(`${api}/v1/goals/interpret`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ goal, aiConsent: true }), signal: AbortSignal.timeout(10000), cache: 'no-store' });
   if (!response.ok) throw new Error('AI 해석을 사용할 수 없습니다. 일반 검색을 이용해주세요.');
   return GoalProfileSchema.parse((await response.json()).profile);
+}
+
+export async function loadCampus(snapshot:Snapshot, api=defaultApi,request:typeof fetch=fetch):Promise<Campus>{
+  const urls=[...(api?[`${api}/v1/campus`]:[]),`${import.meta.env.BASE_URL}campus.json`];
+  for(const url of urls)try{const response=await request(url,{signal:AbortSignal.timeout(6000),cache:'no-cache'});if(!response.ok)continue;const c=CampusSchema.parse(await response.json());if(snapshot.manifest.publication==='approved'&&(c.manifest.publication!=='approved'||c.resourceVersion!==snapshot.manifest.version))continue;return c;}catch{/* Keep ordinary resource exploration available. */}
+  throw new Error('공간 배치를 사용할 수 없습니다.');
 }
