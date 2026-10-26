@@ -1,0 +1,20 @@
+{
+  "name": "snu-ieum", "private": true, "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev -w @ieum/web --",
+    "dev:api": "npm run dev -w @ieum/api",
+    "dev:worker": "npm run dev -w @ieum/worker",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:db": "vitest run --config vitest.db.config.ts",
+    "test:e2e": "playwright test",
+    "build": "npm run build -w @ieum/web",
+    "schemas": "tsx packages/contracts/src/export.ts"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3", "tsx": "^4.20.6", "vitest": "^4.0.3",
+    "@playwright/test": "^1.56.1", "@types/node": "^24.9.1", "@types/pg": "^8.15.5"
+  }
+}

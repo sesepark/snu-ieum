@@ -1,20 +1,19 @@
-# 첫 출시 구현 검토
+# 첫 출시 기반의 반영·검증 기록
 
-`shared/`는 **실제 공용 경로에 아직 반영하지 않은 변경안**이다. AGENTS.md §6·§8.4와 사용자 계획에 따라 사람이 decision 이슈 #4에서 합의하고 PR로 반영한다. 앱·수집·운영 코드는 저장소의 실제 경로에 둔다.
+2026-10-26 사용자가 **이번 작업에 한해 에이전트의 공용 파일 직접 반영**을 명시적으로 허용했다. 이에 #4의 검증된 `foundation.patch`를 실제 루트 설정·계약·DB 스키마·락파일·디자인 토큰·CI 경로에 반영했다. 기존 협업 규칙은 바꾸지 않았다.
 
-검증용으로 공용 변경안과 앱을 빈 외부 디렉터리에 조립한다. 원본 저장소나 기존 파일을 수정하지 않는다.
+일반 실행은 이제 저장소 루트에서 한다. Node.js 24를 사용한다.
 
 ```bash
-node review/workspace.mjs /tmp/ieum-review
-cd /tmp/ieum-review
-# Node.js 24
-npm install
+npm ci
 npm run check
 npm test
 npm run build
 npm run dev
 ```
 
-공용 변경안의 각 파일은 `shared/`를 제거한 경로로 PR 반영한다. 락파일은 격리 공간에서 실제 설치로 생성한 제안본이다. 실제 반영 전 앱 커밋과 함께 검증한다. 공용 파일 승인 전 root에서 npm 명령을 실행하지 않는다.
+`shared/`와 `foundation.patch`는 초기 검토 원본이다. **이미 적용했으므로 패치를 다시 적용하지 않는다.** `node review/make-patch.mjs`는 초기 제안 파일을 재생성하는 기록용 도구다. 이후 공용 파일의 단일 기준은 실제 경로다.
 
-데이터는 시제품 표본이다. 공개 배치의 승인·공대 전체 최소 수량·실제 무료 계정·집 서버 공개·사용자 8명 비교·복원 실험은 구현 검사와 별도의 출시 조건이다. 완료 여부는 VALIDATION.md에 기록한다.
+격리 검증을 재현할 때는 `node review/workspace.mjs /tmp/ieum-review`로 빈 외부 디렉터리에 앱과 초기 공용 제안을 조립할 수 있다. 실제 계약이 이후 변경되면 초기 제안을 덮어 쓰는 이 도구 대신 현재 checkout을 기준으로 검증한다.
+
+구현·검증 결과와 아직 달성하지 않은 출시 조건은 [VALIDATION.md](VALIDATION.md), 집 서버 운영은 [OPERATIONS.md](../infra/OPERATIONS.md)에 기록했다. 시제품은 사람의 공개 승인이나 공대 전체 데이터 목표 달성을 뜻하지 않는다.

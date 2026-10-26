@@ -3,7 +3,7 @@ import { z } from 'zod';
 export const Id = z.string().regex(/^[a-zA-Z0-9][a-zA-Z0-9._:-]{0,127}$/);
 const Text = z.string().trim().min(1).max(2000);
 const DateTime = z.iso.datetime({ offset: true });
-const HttpsUrl = z.url().refine(value => new URL(value).protocol === 'https:', 'HTTPS source required');
+const HttpsUrl = z.url().refine(value => new URL(value).protocol === 'https:' && !new URL(value).username && !new URL(value).password, 'HTTPS source required');
 export const ResourceKind = z.enum(['researcher', 'lab', 'equipment', 'space']);
 export const CollectionKind = z.enum(['researcher', 'lab', 'equipment', 'space', 'paper', 'thesis', 'course', 'club', 'competition', 'program']);
 export const SourceSchema = z.strictObject({

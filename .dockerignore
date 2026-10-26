@@ -1,0 +1,10 @@
+.git
+.serena
+review
+**/node_modules
+**/dist
+**/.env
+**/.env.*
+**/test-results
+**/playwright-report
+**/*.log

@@ -13,6 +13,7 @@ describe('public evidence boundary', () => {
     expect(ResourceSchema.safeParse({ ...resource, kind: 'paper' }).success).toBe(false);
     expect(ResourceSchema.safeParse({ ...resource, email: 'private@example.com' }).success).toBe(false);
     expect(SourceSchema.safeParse({ ...source, url: 'javascript:alert(1)' }).success).toBe(false);
+    expect(SourceSchema.safeParse({ ...source, url: 'https://user:password@example.org/' }).success).toBe(false);
   });
   it('checks cross references and duplicate identities', () => {
     expect(SnapshotSchema.parse(snapshot).resources).toHaveLength(1);

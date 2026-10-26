@@ -1,0 +1,40 @@
+name: publish-approved-catalog
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      IEUM_SNAPSHOT_PATH: ${{ github.workspace }}/data/public-snapshot.json
+      IEUM_EVIDENCE_PATH: ${{ github.workspace }}/data/launch-evidence.json
+      VITE_API_URL: ${{ vars.VITE_API_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - run: npm test
+      - name: Require approved launch data and verification
+        run: |
+          npm exec -- tsx infra/release.ts "$IEUM_SNAPSHOT_PATH" "$IEUM_EVIDENCE_PATH"
+          node --import tsx --input-type=module -e 'import {readFileSync} from "node:fs"; import {defaultView,LaunchEvidenceSchema} from "./infra/launch.ts"; console.log("VITE_DEFAULT_VIEW="+defaultView(LaunchEvidenceSchema.parse(JSON.parse(readFileSync(process.env.IEUM_EVIDENCE_PATH,"utf8")))))' >> "$GITHUB_ENV"
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/web/dist
+      - uses: actions/deploy-pages@v4
+        id: deploy

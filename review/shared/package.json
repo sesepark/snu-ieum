@@ -3,7 +3,7 @@
   "engines": { "node": ">=24 <25" },
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
-    "dev": "npm run dev -w @ieum/web",
+    "dev": "npm run dev -w @ieum/web --",
     "dev:api": "npm run dev -w @ieum/api",
     "dev:worker": "npm run dev -w @ieum/worker",
     "check": "tsc --noEmit",
