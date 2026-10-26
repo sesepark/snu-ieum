@@ -46,3 +46,13 @@
 | materials | `1a020697e86a932f847443ce4e386e07b54f98aca72ee62164d488b8b8338467` | `5cbc951f-20ed-4b0c-bce1-0dd89e862d13` |
 
 공식 링크를 통해 확인한 외부 호스트도 원문 보관·재배포 허가로 취급하지 않는다. robots 제한·접근 실패한 연구실은 우회하지 않고 선정에서 제외했으며, 기록은 source-policies에 남겼다. 수동 사실 payload만 Raw/Staging에 반입하고 사람 승인 전 상태를 유지했다.
+
+## 전기정보·조선해양·항공우주
+
+세 파일은 각각 교수 3명·연구실 3곳·명시된 교수 관계 3개를 수록한다. `ece.json`은 개별 labidx 상세의 지도 필드를 사용해 연구그룹과 개별 연구실을 구별했다. `naval.json`은 전임교수 카드의 연구실명, `aerospace.json`은 같은 표 행의 교수와 연구실명을 확인했다. 학과 공식 자료와 다른 데이터원의 같은 이름을 자동 병합하지 않았다.
+
+| 초안 | Raw ID | pending Staging ID |
+| --- | --- | --- |
+| ece | `44df15bb3a4b70f26a98dd0d2de5b256068f726636c8a0e83a7dd846a9461f82` | `841cbf3a-2fb4-43ad-8f7f-1a45a23a55c6` |
+| naval | `41a4fb6ba164ee4d48b923958aef8a07d17ef22f41e5ce8fc269ca1be32ea81a` | `51710656-7bb0-4c23-8bcc-73d081e51287` |
+| aerospace | `dbc0a3438a48e8fa4be69a3ed4e8eb064e9e666165c2331b2705289c4e68e336` | `453e2fa1-a65f-4003-83b2-eaf29fb4f95a` |

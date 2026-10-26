@@ -1,0 +1,269 @@
+{
+  "manifest": {
+    "version": "aerospace-draft-20261026",
+    "generatedAt": "2026-10-26T11:19:15Z",
+    "publication": "prototype",
+    "selectionReason": "공식 연구실 표에서 공기역학·로켓추진·항법전자의 서로 다른 분야를 골랐다. 같은 표 행의 교수와 연구실을 대조하고 포스터 파일은 수집하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-aerospace-aerodynamics",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "김종암 · 공력 시뮬레이션 및 디자인 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-aerospace-rocket",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "윤영빈 · 로켓추진연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-aerospace-navigation",
+      "url": "https://aerospace.snu.ac.kr/research/laboratories",
+      "organization": "서울대학교 항공우주공학과",
+      "title": "박찬국 · 항법전자시스템 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-aerospace-aerodynamics",
+      "kind": "researcher",
+      "name": "김종암",
+      "summary": "공식 연구실 표의 같은 행에 김종암 교수와 Aerodynamic Simulation & Design Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "공력",
+        "시뮬레이션",
+        "디자인"
+      ],
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-aerospace-aerodynamics",
+      "kind": "lab",
+      "name": "공력 시뮬레이션 및 디자인 연구실",
+      "summary": "공식 연구실 표의 같은 행에 김종암 교수와 Aerodynamic Simulation & Design Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "공력",
+        "시뮬레이션",
+        "디자인"
+      ],
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-aerospace-rocket",
+      "kind": "researcher",
+      "name": "윤영빈",
+      "summary": "공식 연구실 표의 같은 행에 윤영빈 교수와 Rocket Propulsion Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "로켓",
+        "추진"
+      ],
+      "sourceIds": [
+        "src-aerospace-rocket"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-aerospace-rocket",
+      "kind": "lab",
+      "name": "로켓추진연구실",
+      "summary": "공식 연구실 표의 같은 행에 윤영빈 교수와 Rocket Propulsion Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "로켓",
+        "추진"
+      ],
+      "sourceIds": [
+        "src-aerospace-rocket"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-aerospace-navigation",
+      "kind": "researcher",
+      "name": "박찬국",
+      "summary": "공식 연구실 표의 같은 행에 박찬국 교수와 Navigation & Electronic System Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항법",
+        "전자시스템"
+      ],
+      "sourceIds": [
+        "src-aerospace-navigation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-aerospace-navigation",
+      "kind": "lab",
+      "name": "항법전자시스템 연구실",
+      "summary": "공식 연구실 표의 같은 행에 박찬국 교수와 Navigation & Electronic System Laboratory가 명시되어 있다.",
+      "departmentId": "aerospace",
+      "keywords": [
+        "항법",
+        "전자시스템"
+      ],
+      "sourceIds": [
+        "src-aerospace-navigation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-aerospace-aerodynamics",
+      "from": "prof-aerospace-aerodynamics",
+      "to": "lab-aerospace-aerodynamics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-aerospace-aerodynamics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-aerospace-rocket",
+      "from": "prof-aerospace-rocket",
+      "to": "lab-aerospace-rocket",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-aerospace-rocket"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-aerospace-navigation",
+      "from": "prof-aerospace-navigation",
+      "to": "lab-aerospace-navigation",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-aerospace-navigation"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    }
+  ],
+  "evidence": []
+}

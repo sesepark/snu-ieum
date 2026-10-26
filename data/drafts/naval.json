@@ -1,0 +1,267 @@
+{
+  "manifest": {
+    "version": "naval-draft-20261026",
+    "generatedAt": "2026-10-26T11:19:15Z",
+    "publication": "prototype",
+    "selectionReason": "공식 전임교수 영역에서 해양유체·시스템설계·에너지의 서로 다른 분야를 골랐다. 같은 교수 카드의 연구실명으로 관계를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-naval-fluids",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "김용환 · 해양유체역학연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-naval-systems",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "노명일 · 시스템설계연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-naval-energy",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "organization": "서울대학교 조선해양공학과",
+      "title": "서유택 · 지속가능 에너지 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-naval-fluids",
+      "kind": "researcher",
+      "name": "김용환",
+      "summary": "조선해양공학과 공식 교수진 카드에 김용환 교수와 해양유체역학연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "해양유체역학",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-naval-fluids",
+      "kind": "lab",
+      "name": "해양유체역학연구실",
+      "summary": "조선해양공학과 공식 교수진 카드에 김용환 교수와 해양유체역학연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "해양유체역학",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-naval-systems",
+      "kind": "researcher",
+      "name": "노명일",
+      "summary": "조선해양공학과 공식 교수진 카드에 노명일 교수와 시스템설계연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "시스템설계",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-systems"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-naval-systems",
+      "kind": "lab",
+      "name": "시스템설계연구실",
+      "summary": "조선해양공학과 공식 교수진 카드에 노명일 교수와 시스템설계연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "시스템설계",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-systems"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-naval-energy",
+      "kind": "researcher",
+      "name": "서유택",
+      "summary": "조선해양공학과 공식 교수진 카드에 서유택 교수와 지속가능 에너지 연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "지속가능 에너지",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-energy"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-naval-energy",
+      "kind": "lab",
+      "name": "지속가능 에너지 연구실",
+      "summary": "조선해양공학과 공식 교수진 카드에 서유택 교수와 지속가능 에너지 연구실이 함께 명시되어 있다.",
+      "departmentId": "naval",
+      "keywords": [
+        "지속가능 에너지",
+        "조선해양"
+      ],
+      "sourceIds": [
+        "src-naval-energy"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-naval-fluids",
+      "from": "prof-naval-fluids",
+      "to": "lab-naval-fluids",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-naval-fluids"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-naval-systems",
+      "from": "prof-naval-systems",
+      "to": "lab-naval-systems",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-naval-systems"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-naval-energy",
+      "from": "prof-naval-energy",
+      "to": "lab-naval-energy",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-naval-energy"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    }
+  ],
+  "evidence": []
+}

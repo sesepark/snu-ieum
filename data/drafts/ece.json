@@ -1,0 +1,283 @@
+{
+  "manifest": {
+    "version": "ece-draft-20261026",
+    "generatedAt": "2026-10-26T11:19:15Z",
+    "publication": "prototype",
+    "selectionReason": "공식 상세에서 광학/AR·VR, 유연전자, 기계학습 분야를 골랐다. 연구그룹 제목을 연구실로 바꾸지 않고 고유 labidx 상세의 지도교수와 개별 연구실명을 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다.",
+    "schemaVersion": 1
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "src-ece-optics",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=138",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "박재형 · 3차원 광공학 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-ece-flexible",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=130",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "홍용택 · 차세대 유연·신축성 전자소자 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "src-ece-mind",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=37",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "문태섭 · 기계지능 및 데이터사이언스 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "prof-ece-optics",
+      "kind": "researcher",
+      "name": "박재형",
+      "summary": "공식 연구실 상세에 Advanced Optical Engineering, AR/VR Display와 박재형 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "광공학",
+        "AR",
+        "VR",
+        "디스플레이"
+      ],
+      "sourceIds": [
+        "src-ece-optics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-ece-optics",
+      "kind": "lab",
+      "name": "3차원 광공학 연구실",
+      "summary": "공식 연구실 상세에 Advanced Optical Engineering, AR/VR Display와 박재형 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "광공학",
+        "AR",
+        "VR",
+        "디스플레이"
+      ],
+      "sourceIds": [
+        "src-ece-optics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-ece-flexible",
+      "kind": "researcher",
+      "name": "홍용택",
+      "summary": "유연·신축성 전자소자와 회로, 인쇄 공정 기반 디스플레이·전자피부를 연구한다. 공식 상세에 홍용택 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "유연전자",
+        "신축성 소자",
+        "전자피부",
+        "디스플레이",
+        "인쇄 공정"
+      ],
+      "sourceIds": [
+        "src-ece-flexible"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-ece-flexible",
+      "kind": "lab",
+      "name": "차세대 유연·신축성 전자소자 연구실",
+      "summary": "유연·신축성 전자소자와 회로, 인쇄 공정 기반 디스플레이·전자피부를 연구한다. 공식 상세에 홍용택 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "유연전자",
+        "신축성 소자",
+        "전자피부",
+        "디스플레이",
+        "인쇄 공정"
+      ],
+      "sourceIds": [
+        "src-ece-flexible"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-ece-mind",
+      "kind": "researcher",
+      "name": "문태섭",
+      "summary": "디노이징·연속학습·메타학습·설명가능 인공지능·공정한 알고리즘을 연구한다. 공식 상세에 문태섭 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "기계학습",
+        "연속학습",
+        "메타학습",
+        "디노이징",
+        "설명가능 인공지능"
+      ],
+      "sourceIds": [
+        "src-ece-mind"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-ece-mind",
+      "kind": "lab",
+      "name": "기계지능 및 데이터사이언스 연구실",
+      "summary": "디노이징·연속학습·메타학습·설명가능 인공지능·공정한 알고리즘을 연구한다. 공식 상세에 문태섭 지도교수가 명시되어 있다.",
+      "departmentId": "ece",
+      "keywords": [
+        "기계학습",
+        "연속학습",
+        "메타학습",
+        "디노이징",
+        "설명가능 인공지능"
+      ],
+      "sourceIds": [
+        "src-ece-mind"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-ece-optics",
+      "from": "prof-ece-optics",
+      "to": "lab-ece-optics",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-ece-optics"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-ece-flexible",
+      "from": "prof-ece-flexible",
+      "to": "lab-ece-flexible",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-ece-flexible"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    },
+    {
+      "id": "leads-ece-mind",
+      "from": "prof-ece-mind",
+      "to": "lab-ece-mind",
+      "type": "LEADS",
+      "label": "공식 지도교수",
+      "sourceIds": [
+        "src-ece-mind"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:19:15Z"
+    }
+  ],
+  "evidence": []
+}

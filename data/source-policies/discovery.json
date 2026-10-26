@@ -114,11 +114,11 @@
       "robotsUrl": "https://ece.snu.ac.kr/robots.txt",
       "robotsStatus": "allow-public-except-private",
       "selectors": {
-        "facultyName": null,
-        "labName": "#zcmscontent .professor"
+        "facultyName": "개별 labidx 상세의 지도 필드",
+        "labName": "개별 labidx 상세의 h2"
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "/research-faculty/research/lab의 h4는 연구그룹이다. 그룹을 개별 연구실로 오인하지 않고 하위 연구실 항목을 확인한다. /webdata 제외."
+      "selectorStatus": "three-lab-details-confirmed-manual-facts",
+      "note": "labidx=138,130,37의 박재형·홍용택·문태섭 지도와 연구 분야를 확인했다. 그룹 반복은 단일 연구실 ID로 처리한다."
     },
     {
       "departmentId": "naval",
@@ -127,11 +127,11 @@
       "robotsUrl": "https://naoe.snu.ac.kr/robots.txt",
       "robotsStatus": "allow-public",
       "selectors": {
-        "facultyName": "#zcmscontent h3",
-        "labName": null
+        "facultyName": ".prof-wrap .cont h3",
+        "labName": ".prof-wrap .cont 연구실 항목"
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "전임교수와 비전임교수 영역을 구별한다. 연구실 이름·관계는 프로필에 명시된 것만 수록한다."
+      "selectorStatus": "three-faculty-cards-confirmed-manual-facts",
+      "note": "김용환·노명일·서유택의 교수 카드에서 연구실명을 대조했다. 전임교수 영역만 사용했다."
     },
     {
       "departmentId": "cse",
@@ -153,11 +153,11 @@
       "robotsUrl": "https://aerospace.snu.ac.kr/robots.txt",
       "robotsStatus": "allow-public",
       "selectors": {
-        "facultyName": null,
+        "facultyName": ".lablist-tit의 closest tr 교수 열",
         "labName": ".lablist-tit"
       },
-      "selectorStatus": "partial-observed-not-an-adapter",
-      "note": "연구실 /research/laboratories의 .lablist-tit에서 이름을 확인한다. 같은 카드의 교수와 연결한다."
+      "selectorStatus": "three-table-rows-confirmed-manual-facts",
+      "note": "공력 시뮬레이션·로켓추진·항법전자 표의 같은 행에 교수명이 명시된다. 포스터 PDF는 다운로드하지 않았다."
     },
     {
       "departmentId": "chemical",
