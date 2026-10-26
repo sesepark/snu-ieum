@@ -43,7 +43,7 @@ export default function Map3D(p: ViewProps) {
     }
   }); }, [objects, edgeObjects]);
   useEffect(() => {
-    const home = () => ref.current?.cameraPosition({ x: 0, y: 0, z: 1000 }, { x: 0, y: 0, z: 0 }, p.reducedMotion ? 0 : 500);
+    const home = () => ref.current?.zoomToFit(p.reducedMotion ? 0 : 500, 100);
     p.onReady({ home, zoom: factor => { const graph = ref.current; if (!graph) return; const position = graph.camera().position; graph.cameraPosition({ x: position.x / factor, y: position.y / factor, z: position.z / factor }, undefined, p.reducedMotion ? 0 : 250); }, focus: id => { const n = p.nodes.find(n => n.id === id); if (n) ref.current?.cameraPosition({ x: n.fx, y: n.fy, z: n.fz + 230 }, { x: n.fx, y: n.fy, z: n.fz }, p.reducedMotion ? 0 : 450); } });
     const graph = ref.current;
     if (graph) { const scene = graph.scene(); const ambient = new AmbientLight(0xffffff, 2); const light = new DirectionalLight(0xffffff, 3); light.position.set(-200, 400, 700); scene.add(ambient, light);
