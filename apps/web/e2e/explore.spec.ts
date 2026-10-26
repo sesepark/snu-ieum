@@ -1,0 +1,46 @@
+import { test, expect } from '@playwright/test';
+test('selection, filters, 2D/3D and history share state without goal text', async ({ page }) => {
+  const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+  await page.goto('#/?view=2d');
+  await page.getByLabel('자원명·연구 분야 검색').fill('AI');
+  await expect(page.locator('.resource-card')).toHaveCount(2);
+  await page.locator('.resource-card').filter({ hasText: 'Biointelligence Lab' }).first().click();
+  await expect(page.getByRole('heading', { name: 'Biointelligence Lab', exact: true })).toBeVisible();
+  await expect(page.locator('.detail-panel a').first()).toHaveAttribute('href', 'https://cse.snu.ac.kr/en/research/labs/4');
+  await page.getByRole('button', { name: '2단계 확장', exact: true }).click();
+  await page.getByRole('button', { name: '3D', exact: true }).click();
+  await expect(page).toHaveURL(/view=3d.*selected=lab-bi/);
+  await expect(page.getByRole('button', { name: '2단계 확장', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  expect(page.url()).not.toContain('AI');
+  await page.goBack();
+  await expect(page.getByRole('button', { name: '2D', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await page.getByLabel('학과 필터').selectOption('industrial');
+  await expect(page.getByText('수록된 결과가 없습니다.')).toBeVisible();
+  expect(errors).toEqual([]);
+});
+test('restores a shared resource and closes details with Escape', async ({ page }) => {
+  await page.goto('#/?view=2d&kind=lab&department=cse&selected=lab-bi');
+  await expect(page.getByRole('heading', { name: 'Biointelligence Lab', exact: true })).toBeVisible();
+  await expect(page.locator('.resource-card')).toHaveCount(3);
+  await page.keyboard.press('Escape');
+  await expect(page.getByLabel('선택 자원 상세')).toHaveCount(0);
+});
+test('mobile defaults to 2D with an accessible list and bottom detail sheet', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto('');
+  await expect(page.getByRole('button', { name: '2D', exact: true })).toHaveAttribute('aria-pressed', 'true');
+  await page.getByRole('button', { name: '검색 · 자원 목록', exact: true }).click();
+  await page.getByLabel('자원명·연구 분야 검색').fill('데이터과학');
+  await expect(page.locator('.resource-card')).toHaveCount(2);
+  await page.locator('.resource-card').first().focus();
+  await page.keyboard.press('Enter');
+  await expect(page.getByLabel('선택 자원 상세')).toBeVisible();
+  const box = await page.getByLabel('선택 자원 상세').boundingBox();
+  expect(box!.y).toBeGreaterThan(300); expect(box!.width).toBeLessThanOrEqual(390);
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
+  expect(overflow).toBe(false);
+  await page.getByRole('button', { name: '상세 닫기', exact: true }).click();
+  await expect(page.getByRole('button', { name: '검색 · 자원 목록', exact: true })).toBeFocused();
+  await page.screenshot({ path: 'test-results/mobile.png' });
+});
