@@ -1,0 +1,307 @@
+{
+  "manifest": {
+    "version": "prototype-20261026",
+    "schemaVersion": 1,
+    "generatedAt": "2026-10-26T06:30:00Z",
+    "publication": "prototype",
+    "selectionReason": "공식 학과 페이지의 알고리즘·생물정보·인지 분야 표본. 에이전트의 원문 확인이며 사람의 공개 승인이 아님. 장비·공간·타 학과·논문 근거는 미확보."
+  },
+  "departments": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "sourceIds": [
+        "s-departments"
+      ]
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "sourceIds": [
+        "s-departments"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-departments",
+      "url": "https://eng.snu.ac.kr/",
+      "title": "공대 학과/학부 목록",
+      "organization": "서울대학교 공과대학",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-afds",
+      "url": "https://cse.snu.ac.kr/en/research/labs/69",
+      "title": "Algorithmic Foundations of Data Science Lab",
+      "organization": "서울대학교 컴퓨터공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-prof-afds",
+      "url": "https://cse.snu.ac.kr/en/people/faculty/161",
+      "title": "Chenglin Fan",
+      "organization": "서울대학교 컴퓨터공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-bhi",
+      "url": "https://cse.snu.ac.kr/en/research/labs/8",
+      "title": "Bio and Health Informatics Lab",
+      "organization": "서울대학교 컴퓨터공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-prof-bhi",
+      "url": "https://cse.snu.ac.kr/en/people/faculty/4",
+      "title": "Sun Kim",
+      "organization": "서울대학교 컴퓨터공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-bi",
+      "url": "https://cse.snu.ac.kr/en/research/labs/4",
+      "title": "Biointelligence Lab",
+      "organization": "서울대학교 컴퓨터공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "s-prof-bi",
+      "url": "https://cse.snu.ac.kr/en/people/faculty/55",
+      "title": "Byoung-Tak Zhang",
+      "organization": "서울대학교 컴퓨터공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T06:30:00Z",
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    }
+  ],
+  "resources": [
+    {
+      "id": "lab-afds",
+      "kind": "lab",
+      "name": "Algorithmic Foundations of Data Science Lab",
+      "summary": "데이터 과학 문제를 위한 알고리즘의 설계·분석·구현을 연구합니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "알고리즘",
+        "데이터 과학",
+        "data science"
+      ],
+      "sourceIds": [
+        "s-afds"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-afds",
+      "kind": "researcher",
+      "name": "Chenglin Fan",
+      "summary": "컴퓨터공학부 공식 연구실 페이지에 Algorithmic Foundations of Data Science Lab의 교수로 기재되어 있습니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "알고리즘",
+        "데이터 과학",
+        "data science"
+      ],
+      "sourceIds": [
+        "s-prof-afds",
+        "s-afds"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-bhi",
+      "kind": "lab",
+      "name": "Bio and Health Informatics Lab",
+      "summary": "생물·건강 정보 분석을 위한 계산·데이터 마이닝·기계학습 방법을 연구합니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "생물정보학",
+        "기계학습",
+        "헬스케어",
+        "machine learning"
+      ],
+      "sourceIds": [
+        "s-bhi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-bhi",
+      "kind": "researcher",
+      "name": "Sun Kim",
+      "summary": "컴퓨터공학부 공식 연구실 페이지에 Bio and Health Informatics Lab의 교수로 기재되어 있습니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "생물정보학",
+        "기계학습",
+        "헬스케어",
+        "machine learning"
+      ],
+      "sourceIds": [
+        "s-prof-bhi",
+        "s-bhi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-bi",
+      "kind": "lab",
+      "name": "Biointelligence Lab",
+      "summary": "뇌와 인지의 정보 처리 원리, 지각하고 행동하고 학습하는 인공 지능을 연구합니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "인공지능",
+        "인지",
+        "학습",
+        "artificial intelligence"
+      ],
+      "sourceIds": [
+        "s-bi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "prof-bi",
+      "kind": "researcher",
+      "name": "Byoung-Tak Zhang",
+      "summary": "컴퓨터공학부 공식 연구실 페이지에 Biointelligence Lab의 교수로 기재되어 있습니다.",
+      "departmentId": "cse",
+      "keywords": [
+        "인공지능",
+        "인지",
+        "학습",
+        "artificial intelligence"
+      ],
+      "sourceIds": [
+        "s-prof-bi",
+        "s-bi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z",
+      "verificationRequired": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "leads-afds",
+      "from": "prof-afds",
+      "to": "lab-afds",
+      "type": "LEADS",
+      "label": "연구실 교수",
+      "sourceIds": [
+        "s-afds"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "leads-bhi",
+      "from": "prof-bhi",
+      "to": "lab-bhi",
+      "type": "LEADS",
+      "label": "연구실 교수",
+      "sourceIds": [
+        "s-bhi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    },
+    {
+      "id": "leads-bi",
+      "from": "prof-bi",
+      "to": "lab-bi",
+      "type": "LEADS",
+      "label": "연구실 교수",
+      "sourceIds": [
+        "s-bi"
+      ],
+      "lastVerifiedAt": "2026-10-26T06:30:00Z"
+    }
+  ],
+  "evidence": []
+}
