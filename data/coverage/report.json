@@ -1,0 +1,547 @@
+{
+  "resourceVersion": "college-draft-20261026",
+  "generatedAt": "2026-10-27T00:00:00Z",
+  "byDepartment": [
+    {
+      "id": "cee",
+      "name": "건설환경도시공학부",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "architecture",
+      "name": "건축학과",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "mechanical",
+      "name": "기계공학부",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "industrial",
+      "name": "산업공학과",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "energy",
+      "name": "에너지자원공학과",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "nuclear",
+      "name": "원자핵공학과",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "materials",
+      "name": "재료공학부",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "ece",
+      "name": "전기·정보공학부",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "naval",
+      "name": "조선해양공학과",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "cse",
+      "name": "컴퓨터공학부",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주공학과",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    },
+    {
+      "id": "chemical",
+      "name": "화학생물공학부",
+      "researchers": {
+        "kind": "researcher",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      },
+      "labs": {
+        "kind": "lab",
+        "total": null,
+        "observed": 3,
+        "matched": 0,
+        "missing": 0,
+        "pending": 3,
+        "detailed": 0,
+        "mapped": 0,
+        "recentEvidence": 0,
+        "detailRatio": null,
+        "locationRatio": null,
+        "recentRatio": null,
+        "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+        "sourceIds": [
+          "s-departments"
+        ]
+      }
+    }
+  ],
+  "papers": 0,
+  "pendingWorks": 0,
+  "duplicateWorks": [],
+  "equipment": 0,
+  "spaces": 0,
+  "gaps": [
+    "건설환경도시공학부 researcher: 공식 전체 분모 대조 대기",
+    "건설환경도시공학부 lab: 공식 전체 분모 대조 대기",
+    "건설환경도시공학부: 연구실 위치 90% 미달",
+    "건설환경도시공학부: 현직 교수 최근 논문 80% 미달",
+    "건축학과 researcher: 공식 전체 분모 대조 대기",
+    "건축학과 lab: 공식 전체 분모 대조 대기",
+    "건축학과: 연구실 위치 90% 미달",
+    "건축학과: 현직 교수 최근 논문 80% 미달",
+    "기계공학부 researcher: 공식 전체 분모 대조 대기",
+    "기계공학부 lab: 공식 전체 분모 대조 대기",
+    "기계공학부: 연구실 위치 90% 미달",
+    "기계공학부: 현직 교수 최근 논문 80% 미달",
+    "산업공학과 researcher: 공식 전체 분모 대조 대기",
+    "산업공학과 lab: 공식 전체 분모 대조 대기",
+    "산업공학과: 연구실 위치 90% 미달",
+    "산업공학과: 현직 교수 최근 논문 80% 미달",
+    "에너지자원공학과 researcher: 공식 전체 분모 대조 대기",
+    "에너지자원공학과 lab: 공식 전체 분모 대조 대기",
+    "에너지자원공학과: 연구실 위치 90% 미달",
+    "에너지자원공학과: 현직 교수 최근 논문 80% 미달",
+    "원자핵공학과 researcher: 공식 전체 분모 대조 대기",
+    "원자핵공학과 lab: 공식 전체 분모 대조 대기",
+    "원자핵공학과: 연구실 위치 90% 미달",
+    "원자핵공학과: 현직 교수 최근 논문 80% 미달",
+    "재료공학부 researcher: 공식 전체 분모 대조 대기",
+    "재료공학부 lab: 공식 전체 분모 대조 대기",
+    "재료공학부: 연구실 위치 90% 미달",
+    "재료공학부: 현직 교수 최근 논문 80% 미달",
+    "전기·정보공학부 researcher: 공식 전체 분모 대조 대기",
+    "전기·정보공학부 lab: 공식 전체 분모 대조 대기",
+    "전기·정보공학부: 연구실 위치 90% 미달",
+    "전기·정보공학부: 현직 교수 최근 논문 80% 미달",
+    "조선해양공학과 researcher: 공식 전체 분모 대조 대기",
+    "조선해양공학과 lab: 공식 전체 분모 대조 대기",
+    "조선해양공학과: 연구실 위치 90% 미달",
+    "조선해양공학과: 현직 교수 최근 논문 80% 미달",
+    "컴퓨터공학부 researcher: 공식 전체 분모 대조 대기",
+    "컴퓨터공학부 lab: 공식 전체 분모 대조 대기",
+    "컴퓨터공학부: 연구실 위치 90% 미달",
+    "컴퓨터공학부: 현직 교수 최근 논문 80% 미달",
+    "항공우주공학과 researcher: 공식 전체 분모 대조 대기",
+    "항공우주공학과 lab: 공식 전체 분모 대조 대기",
+    "항공우주공학과: 연구실 위치 90% 미달",
+    "항공우주공학과: 현직 교수 최근 논문 80% 미달",
+    "화학생물공학부 researcher: 공식 전체 분모 대조 대기",
+    "화학생물공학부 lab: 공식 전체 분모 대조 대기",
+    "화학생물공학부: 연구실 위치 90% 미달",
+    "화학생물공학부: 현직 교수 최근 논문 80% 미달",
+    "검수·중복 제거 논문 0/1000",
+    "필수 정보·위치 갖춘 장비 0/100",
+    "용도·공식 이용 안내·위치 갖춘 공간 0/20",
+    "관악 공식 건물 전체 목록 대조 대기",
+    "사람의 연구·공간 공개 배치 승인 대기"
+  ],
+  "ready": false
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N37_00_E126_00_DEM/Copernicus_DSM_COG_10_N37_00_E126_00_DEM.tif",
+  "path": "/Users/sehwan/.local/share/snu-ieum/campus-raw/Copernicus_DSM_COG_10_N37_00_E126_00_DEM.tif",
+  "sha256": "f530dd28308ecd6c5ceb0405dc1ffb7113bcafdec30d023de50f16dc433a274f",
+  "bytes": 29862574,
+  "sourceCrs": "EPSG:4326",
+  "window": [
+    3395,
+    1905,
+    79,
+    97
+  ],
+  "method": "rasterio read native pixel window, north-to-south rows; no invented nodata heights",
+  "runId": "43b8703b-0d42-499f-ac5a-a0fcdc20ac0e",
+  "rawId": "930307aa7d32d32211efbb62772f9e283fca48c37786e789a6cd6502cbd1eb40"
+}

@@ -1,0 +1,800 @@
+{
+  "resourceVersion": "college-draft-20261026",
+  "generatedAt": "2026-10-27T00:00:00Z",
+  "rosters": [
+    {
+      "departmentId": "cee",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-cee-urban",
+          "name": "권영상",
+          "resourceId": "prof-cee-urban",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-cee-structural",
+          "name": "김호경",
+          "resourceId": "prof-cee-structural",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-cee-water",
+          "name": "최용주",
+          "resourceId": "prof-cee-water",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "cee",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-cee-urban",
+          "name": "도시설계연구실",
+          "resourceId": "lab-cee-urban",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-cee-structural",
+          "name": "구조설계연구실",
+          "resourceId": "lab-cee-structural",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-cee-water",
+          "name": "수질환경실험실",
+          "resourceId": "lab-cee-water",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "architecture",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-architecture-bumjoon",
+          "name": "강범준",
+          "resourceId": "prof-architecture-bumjoon",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-architecture-yerin",
+          "name": "강예린",
+          "resourceId": "prof-architecture-yerin",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-architecture-hyungoo",
+          "name": "강현구",
+          "resourceId": "prof-architecture-hyungoo",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "architecture",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-architecture-history",
+          "name": "건축사연구실",
+          "resourceId": "lab-architecture-history",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-architecture-urban",
+          "name": "건축도시공간연구실",
+          "resourceId": "lab-architecture-urban",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-architecture-structures",
+          "name": "고성능구조공학연구실",
+          "resourceId": "lab-architecture-structures",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "mechanical",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-mechanical-robot",
+          "name": "김아영",
+          "resourceId": "prof-mechanical-robot",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-mechanical-fluids",
+          "name": "김호영",
+          "resourceId": "prof-mechanical-fluids",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-mechanical-manufacturing",
+          "name": "안성훈",
+          "resourceId": "prof-mechanical-manufacturing",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "mechanical",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-mechanical-robot",
+          "name": "로봇 인식 및 공간 지능 연구실",
+          "resourceId": "lab-mechanical-robot",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-mechanical-fluids",
+          "name": "마이크로유체 및 소프트물질 연구실",
+          "resourceId": "lab-mechanical-fluids",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-mechanical-manufacturing",
+          "name": "혁신설계 및 통합생산 연구실",
+          "resourceId": "lab-mechanical-manufacturing",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "industrial",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-industrial-or",
+          "name": "박명주",
+          "resourceId": "prof-industrial-or",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-industrial-dsba",
+          "name": "강필성",
+          "resourceId": "prof-industrial-dsba",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-industrial-his",
+          "name": "윤명환",
+          "resourceId": "prof-industrial-his",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "industrial",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-industrial-or",
+          "name": "경영과학 연구실",
+          "resourceId": "lab-industrial-or",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-industrial-dsba",
+          "name": "데이터과학 및 비즈니스 애널리틱스 연구실",
+          "resourceId": "lab-industrial-dsba",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-industrial-his",
+          "name": "휴먼인터페이스시스템 연구실",
+          "resourceId": "lab-industrial-his",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "energy",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-energy-recycling",
+          "name": "강정신",
+          "resourceId": "prof-energy-recycling",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-energy-rock",
+          "name": "민기복",
+          "resourceId": "prof-energy-rock",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-energy-geochemistry",
+          "name": "정은혜",
+          "resourceId": "prof-energy-geochemistry",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "energy",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-energy-recycling",
+          "name": "제련 및 리사이클링 공정 연구실",
+          "resourceId": "lab-energy-recycling",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-energy-rock",
+          "name": "암반공학 민기복 교수 연구실",
+          "resourceId": "lab-energy-rock",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-energy-geochemistry",
+          "name": "에너지환경지구화학 연구실",
+          "resourceId": "lab-energy-geochemistry",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "nuclear",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-nuclear-thermal",
+          "name": "조형규",
+          "resourceId": "prof-nuclear-thermal",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-nuclear-reactor",
+          "name": "주한규",
+          "resourceId": "prof-nuclear-reactor",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-nuclear-radiation",
+          "name": "김은희",
+          "resourceId": "prof-nuclear-radiation",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "nuclear",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-nuclear-thermal",
+          "name": "열수력계통연구실",
+          "resourceId": "lab-nuclear-thermal",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-nuclear-reactor",
+          "name": "원자로물리연구실",
+          "resourceId": "lab-nuclear-reactor",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-nuclear-radiation",
+          "name": "방사선 생명공학 연구실",
+          "resourceId": "lab-nuclear-radiation",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "materials",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-materials-mechanics",
+          "name": "이명규",
+          "resourceId": "prof-materials-mechanics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-materials-bioinspired",
+          "name": "남기태",
+          "resourceId": "prof-materials-bioinspired",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-materials-dna",
+          "name": "김영은",
+          "resourceId": "prof-materials-dna",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "materials",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-materials-mechanics",
+          "name": "재료역학연구실",
+          "resourceId": "lab-materials-mechanics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-materials-bioinspired",
+          "name": "생체분자나노재료연구실",
+          "resourceId": "lab-materials-bioinspired",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-materials-dna",
+          "name": "THE KIM RESEARCH GROUP",
+          "resourceId": "lab-materials-dna",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "ece",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-ece-optics",
+          "name": "박재형",
+          "resourceId": "prof-ece-optics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-ece-flexible",
+          "name": "홍용택",
+          "resourceId": "prof-ece-flexible",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-ece-mind",
+          "name": "문태섭",
+          "resourceId": "prof-ece-mind",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "ece",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-ece-optics",
+          "name": "3차원 광공학 연구실",
+          "resourceId": "lab-ece-optics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-ece-flexible",
+          "name": "차세대 유연·신축성 전자소자 연구실",
+          "resourceId": "lab-ece-flexible",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-ece-mind",
+          "name": "기계지능 및 데이터사이언스 연구실",
+          "resourceId": "lab-ece-mind",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "naval",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-naval-fluids",
+          "name": "김용환",
+          "resourceId": "prof-naval-fluids",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-naval-systems",
+          "name": "노명일",
+          "resourceId": "prof-naval-systems",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-naval-energy",
+          "name": "서유택",
+          "resourceId": "prof-naval-energy",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "naval",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-naval-fluids",
+          "name": "해양유체역학연구실",
+          "resourceId": "lab-naval-fluids",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-naval-systems",
+          "name": "시스템설계연구실",
+          "resourceId": "lab-naval-systems",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-naval-energy",
+          "name": "지속가능 에너지 연구실",
+          "resourceId": "lab-naval-energy",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "cse",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-afds",
+          "name": "Chenglin Fan",
+          "resourceId": "prof-afds",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-bhi",
+          "name": "Sun Kim",
+          "resourceId": "prof-bhi",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-bi",
+          "name": "Byoung-Tak Zhang",
+          "resourceId": "prof-bi",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "cse",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-afds",
+          "name": "Algorithmic Foundations of Data Science Lab",
+          "resourceId": "lab-afds",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-bhi",
+          "name": "Bio and Health Informatics Lab",
+          "resourceId": "lab-bhi",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-bi",
+          "name": "Biointelligence Lab",
+          "resourceId": "lab-bi",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "aerospace",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-aerospace-aerodynamics",
+          "name": "김종암",
+          "resourceId": "prof-aerospace-aerodynamics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-aerospace-rocket",
+          "name": "윤영빈",
+          "resourceId": "prof-aerospace-rocket",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-aerospace-navigation",
+          "name": "박찬국",
+          "resourceId": "prof-aerospace-navigation",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "aerospace",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-aerospace-aerodynamics",
+          "name": "공력 시뮬레이션 및 디자인 연구실",
+          "resourceId": "lab-aerospace-aerodynamics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-aerospace-rocket",
+          "name": "로켓추진연구실",
+          "resourceId": "lab-aerospace-rocket",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-aerospace-navigation",
+          "name": "항법전자시스템 연구실",
+          "resourceId": "lab-aerospace-navigation",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "chemical",
+      "kind": "researcher",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "prof-chemical-flextronics",
+          "name": "김대형",
+          "resourceId": "prof-chemical-flextronics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-chemical-catalysis",
+          "name": "김도희",
+          "resourceId": "prof-chemical-catalysis",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "prof-chemical-regenerative",
+          "name": "김병수",
+          "resourceId": "prof-chemical-regenerative",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    },
+    {
+      "departmentId": "chemical",
+      "kind": "lab",
+      "complete": false,
+      "sourceIds": [
+        "s-departments"
+      ],
+      "checkedAt": null,
+      "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+      "entries": [
+        {
+          "externalId": "lab-chemical-flextronics",
+          "name": "플렉트로닉스 연구실",
+          "resourceId": "lab-chemical-flextronics",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-chemical-catalysis",
+          "name": "에너지 및 환경촉매 연구실",
+          "resourceId": "lab-chemical-catalysis",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        },
+        {
+          "externalId": "lab-chemical-regenerative",
+          "name": "재생 바이오 의공학 연구실",
+          "resourceId": "lab-chemical-regenerative",
+          "status": "needs-review",
+          "reason": "공식 전체 명단의 현직/현행 여부와 식별 대조 필요"
+        }
+      ]
+    }
+  ],
+  "profiles": [],
+  "works": []
+}

@@ -1,0 +1,14 @@
+{
+  "runId": "7bac4a33-6de9-454d-8b00-703e93715512",
+  "rawId": "cdb29709d26a8f1cb49e5903e93fd6baa17813a6bb0afd70b9b4fd26475e38ed",
+  "stagingId": "ee3e153c-363c-450b-9f8f-40fd0f51ad05",
+  "checkedAt": "2026-10-26T16:28:15.666Z",
+  "status": "pending-human-review",
+  "locatedResources": 31,
+  "notes": [
+    "building number extracted only from existing officially sourced equipment/space facts",
+    "researcher office address never propagated to lab",
+    "504 office is not mapped to aggregate 500 building without explicit alias review",
+    "geometry candidate status retained"
+  ]
+}

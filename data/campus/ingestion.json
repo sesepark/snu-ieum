@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-10-26T16:26:03.798Z",
+  "records": [
+    {
+      "name": "osm",
+      "runId": "77f0321d-13a4-4660-b919-6861abc7d293",
+      "rawId": "f0e9f2144603701c6b7f28fe35ef7ac201133fdc503b8bedb9d824e4bd1169df"
+    },
+    {
+      "name": "snu-building-facts",
+      "runId": "0db7604a-33e7-496b-a01e-9459b47f925d",
+      "rawId": "2a1a91db5d8ec2f46588fd04a3d1ef376ee87e458a6f870703aee24e0139f68d"
+    }
+  ],
+  "stagingId": "373d4247-cc89-442a-ad9f-21be9e3c12f1",
+  "status": "pending-human-review",
+  "omissions": [
+    "OSM editing user identifiers and contacts excluded before raw storage",
+    "Official endpoint response stored only as directly selected building number, name and coordinates; original payload and private room fields excluded"
+  ],
+  "officialInventoryComplete": false
+}
