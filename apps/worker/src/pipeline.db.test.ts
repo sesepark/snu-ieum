@@ -58,6 +58,11 @@ describe.sequential('real PostgreSQL approval and batch boundary', () => {
     await pipeline.export(join(directory, 'snapshot.json'));
     expect(JSON.parse(await readFile(join(directory, 'snapshot.json'), 'utf8')).manifest.version).toBe('test-v1');
   });
+  it('queues a failed official source and its evidenced resources immediately', async () => {
+    await pipeline.sourceFailed('https://cse.snu.ac.kr/en/research/labs/4');
+    const result=await pool.query("SELECT resource_id FROM revalidation_queue WHERE reason='수집 실패' AND due_at<=now() ORDER BY resource_id");
+    expect(result.rows.map(row=>row.resource_id)).toEqual(['lab-bi','prof-bi']);
+  });
   it('stores 768-dimensional approved resource vectors and isolates model and batch versions', async () => {
     const vector = [1, ...Array.from({ length: 767 }, () => 0)];
     const ai = { embeddingModel: 'fixture-model', embed: async () => vector, interpret: async () => ({ problemDomains: [], coreTechnologies: [], requiredCapabilities: [], expectedOutputs: [], keywords: [] }) };

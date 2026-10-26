@@ -3,11 +3,12 @@ import { mkdir, rename, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import type { Pool, PoolClient } from 'pg';
 import { z } from 'zod';
-import { SnapshotSchema, CollectionKind, type Snapshot } from '@ieum/contracts';
+import { SnapshotSchema, CollectionKind, Id, type Snapshot } from '@ieum/contracts';
 import { resourceText } from '@ieum/catalog';
 import { hash, sanitize } from './privacy.ts';
+const OperatorId = Id.refine(value => sanitize(value).exclusions.length === 0, 'Use an operator account ID');
 export const PolicySchema = z.strictObject({
-  reviewedBy: z.string().min(1), termsCheckedAt: z.iso.datetime(), robotsCheckedAt: z.iso.datetime(),
+  reviewedBy: OperatorId, termsCheckedAt: z.iso.datetime(), robotsCheckedAt: z.iso.datetime(),
   allowedHosts: z.array(z.string().min(1)).min(1), allowedPathPrefixes: z.array(z.string().startsWith('/')).min(1),
   storage: z.enum(['sanitized-payload', 'metadata-only']), artifactsAllowed: z.boolean().default(false), parserVersion: z.string().min(1)
 });
@@ -22,7 +23,7 @@ async function transaction<T>(pool: Pool, fn: (client: PoolClient) => Promise<T>
   try { await client.query('BEGIN'); const result = await fn(client); await client.query('COMMIT'); return result; }
   catch (error) { await client.query('ROLLBACK'); throw error; } finally { client.release(); }
 }
-const audit = (c: PoolClient, actor: string, action: string, id: string, reason: string) => c.query('INSERT INTO change_log(actor,action,record_id,reason) VALUES($1,$2,$3,$4)', [actor, action, id, reason]);
+const audit = (c: PoolClient, actor: string, action: string, id: string, reason: string) => c.query('INSERT INTO change_log(actor,action,record_id,reason) VALUES($1,$2,$3,$4)', [OperatorId.parse(actor), action, id, sanitize(reason).payload]);
 export class Pipeline {
   constructor(readonly pool: Pool) {}
   async start(source: string, input: Policy) {
@@ -42,19 +43,26 @@ export class Pipeline {
       const prior = await client.query('SELECT sha256 FROM raw_records WHERE source_url=$1 ORDER BY retrieved_at DESC LIMIT 1', [sourceUrl]);
       const sha256 = hash(JSON.stringify(stored)); const id = hash(`${runId}:${externalId}:${sha256}`);
       await client.query('INSERT INTO raw_records(id,run_id,external_id,source_url,payload,sha256,exclusions) VALUES($1,$2,$3,$4,$5,$6,$7) ON CONFLICT DO NOTHING', [id, runId, externalId, sourceUrl, stored, sha256, { fields: cleaned.exclusions, originalSha256 }]);
-      if (prior.rowCount && prior.rows[0].sha256 !== sha256) {
-        const active = await client.query('SELECT b.snapshot FROM approved_batches b JOIN active_batch a ON a.version=b.version');
-        if (active.rowCount) {
-          const snapshot = SnapshotSchema.parse(active.rows[0].snapshot);
-          const sourceIds = new Set(snapshot.sources.filter(s => s.url === sourceUrl).map(s => s.id));
-          for (const resource of snapshot.resources.filter(r => r.sourceIds.some(id => sourceIds.has(id)))) await client.query("INSERT INTO revalidation_queue(resource_id,version,reason,due_at) VALUES($1,$2,'원문 변경',now()) ON CONFLICT(resource_id) DO UPDATE SET reason='원문 변경',due_at=now(),status='pending',version=excluded.version", [resource.id, snapshot.manifest.version]);
-        }
-      }
+      if (prior.rowCount && prior.rows[0].sha256 !== sha256) await this.queueSource(client, sourceUrl, '원문 변경');
       // Checkpoints are allowed transport cursors only, never unfiltered source payload or credentials.
       const safeCheckpoint = z.object({ cursor: z.string().max(4096).optional(), page: z.number().int().nonnegative().optional() }).strict().parse(checkpoint);
       await client.query('UPDATE ingestion_runs SET checkpoint=$2 WHERE id=$1', [runId, safeCheckpoint]);
       return id;
     });
+  }
+  private async queueSource(client: PoolClient, url: string, reason: string) {
+    await client.query("SELECT pg_advisory_xact_lock(hashtext('ieum-batch'))");
+    const active = await client.query('SELECT b.snapshot FROM approved_batches b JOIN active_batch a ON a.version=b.version');
+    if (!active.rowCount) return;
+    const snapshot = SnapshotSchema.parse(active.rows[0].snapshot);
+    const sources = new Set(snapshot.sources.filter(source => source.url === url).map(source => source.id));
+    const affected = new Set(snapshot.resources.filter(resource => resource.sourceIds.some(id => sources.has(id))).map(resource => resource.id));
+    for (const edge of snapshot.relations) if (edge.sourceIds.some(id => sources.has(id))) { affected.add(edge.from); affected.add(edge.to); }
+    for (const document of snapshot.evidence) if (document.sourceIds.some(id => sources.has(id))) document.resourceIds.forEach(id => affected.add(id));
+    for (const id of affected) await client.query("INSERT INTO revalidation_queue(resource_id,version,reason,due_at) VALUES($1,$2,$3,now()) ON CONFLICT(resource_id) DO UPDATE SET reason=excluded.reason,due_at=now(),status='pending',version=excluded.version", [id, snapshot.manifest.version, reason]);
+  }
+  async sourceFailed(url: string) {
+    await transaction(this.pool, client => this.queueSource(client, url, '수집 실패'));
   }
   async finish(runId: string, status: 'complete' | 'failed') { await this.pool.query('UPDATE ingestion_runs SET status=$2 WHERE id=$1', [runId, status]); }
   async run(runId: string) {
@@ -63,6 +71,7 @@ export class Pipeline {
     return result.rows[0] as { status: string; checkpoint: { cursor?: string }; policy: Policy };
   }
   async resume(runId: string, actor: string, reason: string) {
+    OperatorId.parse(actor);
     if (!actor.trim() || !reason.trim()) throw new Error('Resume reason required');
     await transaction(this.pool, async client => {
       const result = await client.query("UPDATE ingestion_runs SET status='running' WHERE id=$1 AND status IN ('failed','running') RETURNING id", [runId]);
@@ -97,6 +106,7 @@ export class Pipeline {
     return id;
   }
   async review(id: string, status: 'approved' | 'needs_revision' | 'rejected' | 'expired', actor: string, reason: string) {
+    OperatorId.parse(actor);
     if (!actor.trim() || !reason.trim()) throw new Error('Reviewer and reason required');
     return transaction(this.pool, async client => {
       const result = await client.query('UPDATE staging_records SET status=$2,reviewed_by=$3,reviewed_at=now(),reason=$4 WHERE id=$1 RETURNING id', [id, status, actor, reason]);
@@ -105,6 +115,7 @@ export class Pipeline {
     });
   }
   async publish(id: string, version: string, actor: string, reason: string) {
+    OperatorId.parse(actor);
     if (!actor.trim() || !reason.trim()) throw new Error('Actor and release reason required');
     return transaction(this.pool, async client => {
       await client.query("SELECT pg_advisory_xact_lock(hashtext('ieum-batch'))");
@@ -128,6 +139,7 @@ export class Pipeline {
     }
   }
   async rollback(version: string, actor: string, reason: string) {
+    OperatorId.parse(actor);
     if (!actor.trim() || !reason.trim()) throw new Error('Rollback reason required');
     return transaction(this.pool, async client => {
       await client.query("SELECT pg_advisory_xact_lock(hashtext('ieum-batch'))");

@@ -12,8 +12,8 @@
 | --- | --- |
 | 새 작업공간 `npm ci` | 성공, 감사 결과 알려진 취약점 0 |
 | `npm run check` | TypeScript 통과 |
-| `npm test` | 44개 단위·API 검사 통과 |
-| 실제 PostgreSQL `npm run test:db` | 6개 통합 검사 통과 |
+| `npm test` | 46개 단위·API 검사 통과 |
+| 실제 PostgreSQL `npm run test:db` | 7개 통합 검사 통과 |
 | Chrome `npm run test:e2e` | 5개 브라우저 흐름 통과 |
 | `npm run build` | Vite production 빌드 성공 |
 | `npm run schemas` | Zod에서 JSON Schema 생성 성공 |
@@ -66,3 +66,5 @@ pg_dump custom format → DB+원문 tar → 임시 GPG 키로 암호화
 공용 인프라를 학과 소속으로 추정하지 않는 additive 그룹 계약과 공식 12개 학과 레지스트리를 추가했다. 출시 검사는 학과 누락·미등록 학과를 차단하고, 공용시설을 교수/연구실 최소 수량의 학과 분모에 넣지 않는다.
 
 CSV 반입 파서는 알려진 prototype replacement 문제가 수정된 csv-parse 7.0.3을 사용하며 설치 후 npm audit은 취약점 0건이다.
+
+공식 원문 수집 실패도 직접 자원뿐 아니라 그 원문을 사용하는 관계·논문 근거의 자원까지 재검수 큐에 등록한다. 공개 manifest 검수자는 개인 연락처 대신 계정 ID로 검증하며, 승인/반영 전에 거부하는 검사를 포함한다.

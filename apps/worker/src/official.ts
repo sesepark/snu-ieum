@@ -44,5 +44,5 @@ export async function collectOfficial(pipeline: Pipeline, runId: string, url: st
     }
     const stagingId = await pipeline.stageCandidate(runId, rawId, { kind: config.kind, name: parsed.name, sourceUrl: fetched.url, externalId: fetched.url, parserVersion: policy.parserVersion, facts: { summary: parsed.summary } });
     return { rawId, stagingId };
-  } catch (error) { await pipeline.finish(runId, 'failed'); throw error; }
+  } catch (error) { await pipeline.sourceFailed(url); await pipeline.finish(runId, 'failed'); throw error; }
 }
