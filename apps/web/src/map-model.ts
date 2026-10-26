@@ -6,11 +6,12 @@ export type ViewProps = { nodes: DisplayNode[]; links: DisplayEdge[]; width: num
 export const colors: Record<DisplayNode['kind'], string> = { department: '#8d98a8', researcher: '#795a99', lab: '#367b68', equipment: '#986324', space: '#456e8a', paper: '#757b85', thesis: '#757b85' };
 export const endpointId = (value: string | DisplayNode) => typeof value === 'string' ? value : value.id;
 export const escapeHtml = (text: string) => text.replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]!);
-export function model(data: Graph, departments: Department[]) {
+export function model(data: Graph, departments: Department[], focused = false) {
   const nodes: DisplayNode[] = [];
   for (const [i, d] of departments.entries()) {
     const x = (i % 4 - 1.5) * 230, y = (Math.floor(i / 4) - 1) * 190, z = Math.sin(i * 1.7) * 20;
     const resources = data.nodes.filter(n => n.departmentId === d.id);
+    if (focused && !resources.length) continue;
     nodes.push({ id: `__group__:${d.id}`, name: d.name, departmentId: d.id, kind: 'department', count: resources.length, fx: x, fy: y, fz: z });
     for (const [j, r] of resources.entries()) {
       const angle = j * 2.399963;

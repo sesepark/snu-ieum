@@ -14,7 +14,7 @@
 | --- | --- |
 | 새 작업공간 `npm ci` | 성공, 감사 결과 알려진 취약점 0 |
 | `npm run check` | TypeScript 통과 |
-| `npm test` | 48개 단위·API 검사 통과 |
+| `npm test` | 49개 단위·API 검사 통과 |
 | 실제 PostgreSQL `npm run test:db` | 7개 통합 검사 통과 |
 | Chrome `npm run test:e2e` | 7개 브라우저 흐름 통과 |
 | `npm run build` | Vite production 빌드 성공 |
@@ -26,7 +26,7 @@
 | 공용 패치 | 반영 전 apply check, 반영 후 reverse check 성공 |
 | 출시 게이트 | 수록 수량을 충족한 통합 초안도 사람 승인·실사용자/운영 검증 미완료로 실패 |
 
-GitHub Actions의 [verify 실행](https://github.com/sesepark/snu-ieum/actions/runs/40309901045)에서도 타입·단위 47개·PostgreSQL 7개·브라우저 5개·빌드가 성공했다. 이후 브라우저 다운로드가 간헐적으로 8분 제한에 도달한 실행을 확인해, Ubuntu 24.04의 사전 설치 Chrome으로 변경했다. 전체 job 20분 제한을 유지하며 별도 브라우저 다운로드는 하지 않는다.
+GitHub Actions의 [verify 실행](https://github.com/sesepark/snu-ieum/actions/runs/40317701289)에서는 전체 카탈로그 통합의 타입·단위 48개·PostgreSQL 7개·브라우저 7개·빌드가 성공했다. 이후 선택 관계·라벨 수정은 루트의 단위 49개와 전체 브라우저 7개를 통과했고, 마지막 표시 보완 후 해당 전체 데이터 흐름 2개를 다시 확인했다. 이후 브라우저 다운로드가 간헐적으로 8분 제한에 도달한 실행을 확인해, Ubuntu 24.04의 사전 설치 Chrome으로 변경했다. 전체 job 20분 제한을 유지하며 별도 브라우저 다운로드는 하지 않는다.
 
 브라우저는 설치된 Chrome을 `PLAYWRIGHT_CHANNEL=chrome`으로 사용했다. CI도 사전 설치 Chrome을 사용한다. iab가 제공되지 않아 Chrome으로 화면을 확인했다.
 
@@ -76,3 +76,5 @@ CSV 반입 파서는 알려진 prototype replacement 문제가 수정된 csv-par
 실제 출시의 후속 작업은 [공식 수집 정책 #27](https://github.com/sesepark/snu-ieum/issues/27), [무료 계정 #28](https://github.com/sesepark/snu-ieum/issues/28), [집 서버·복구 #29](https://github.com/sesepark/snu-ieum/issues/29), [사용자·검색 평가 #30](https://github.com/sesepark/snu-ieum/issues/30)에 분리했다.
 
 소스별 selector가 실패해도 개인정보와 비밀 필드를 제외한 허용 Raw를 먼저 기록하고 원문 content SHA-256을 별도 추적한다. 실패한 변환을 새 네트워크 수집 없이 재처리할 근거를 보관한다.
+
+104개 실데이터의 시각 검수에서 발견한 모바일 라벨 겹침과 관계 보기의 빈 학과 군집을 수정했다. 2D/3D 모두 선택 자원·직접 연결의 라벨을 남기고, 긴 3D 이름은 말줄임으로 잘림을 방지한다. 선택 관계 보기에는 실제 노드가 있는 군집만 남기며 학과 기준 위치를 유지한다. 2D 관계 이름을 선 옆으로 옮겼고 3D 확대·축소는 현재 보고 있는 지점을 중심으로 한다. 자원·근거와 연결 수는 지도 접근성 안내에 포함한다.

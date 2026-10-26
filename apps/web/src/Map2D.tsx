@@ -26,7 +26,7 @@ export default function Map2D(p: ViewProps) {
     }
     const selected = n.id === p.selected;
     const emphasis = selected || (p.searching && p.highlighted.has(n.id));
-    ctx.globalAlpha = p.selected && !neighbors.has(n.id) ? .22 : p.searching && !p.highlighted.has(n.id) ? .35 : 1;
+    ctx.globalAlpha = p.selected ? (neighbors.has(n.id) ? 1 : .22) : p.searching && !p.highlighted.has(n.id) ? .35 : 1;
     ctx.fillStyle = emphasis ? '#2458d3' : colors[n.kind];
     ctx.beginPath();
     if (n.kind === 'lab') ctx.roundRect(x - 6, y - 6, 12, 12, 2);
@@ -35,12 +35,19 @@ export default function Map2D(p: ViewProps) {
     else ctx.arc(x, y, 6, 0, Math.PI * 2);
     ctx.fill();
     if (emphasis) { ctx.strokeStyle = '#2458d3'; ctx.lineWidth = 1.5 / scale; ctx.beginPath(); ctx.arc(x, y, 12, 0, Math.PI * 2); ctx.stroke(); }
-    if (scale > 1.05 || emphasis) { ctx.fillStyle = '#1d2838'; ctx.font = `${11 / scale}px sans-serif`; ctx.textAlign = 'center'; ctx.fillText(n.name, x, y + 18 / scale); }
+    if ((scale > 1.05 || emphasis) && (!p.selected || neighbors.has(n.id))) { ctx.fillStyle = '#1d2838'; ctx.font = `${11 / scale}px sans-serif`; ctx.textAlign = 'center'; ctx.fillText(n.name, x, y + 18 / scale); }
     ctx.restore();
   };
   return <ForceGraph2D<DisplayNode, DisplayEdge> ref={ref} graphData={graphData} width={p.width} height={p.height} backgroundColor="#f6f7f9" nodeCanvasObject={draw} nodeLabel={n => escapeHtml(n.name)} linkLabel={e => escapeHtml(e.label)} linkColor={e => p.selected && (endpointId(e.source) === p.selected || endpointId(e.target) === p.selected) ? '#2458d3' : '#cbd3df'} linkWidth={1} linkCanvasObjectMode={() => 'after'} linkCanvasObject={(edge, ctx, scale) => {
     if (!p.selected || (endpointId(edge.source) !== p.selected && endpointId(edge.target) !== p.selected) || typeof edge.source === 'string' || typeof edge.target === 'string') return;
-    ctx.save(); ctx.font = `${10 / scale}px sans-serif`; ctx.fillStyle = '#2458d3'; ctx.textAlign = 'center';
-    ctx.fillText(edge.label, ((edge.source.x ?? 0) + (edge.target.x ?? 0)) / 2, ((edge.source.y ?? 0) + (edge.target.y ?? 0)) / 2 - 6 / scale); ctx.restore();
+    const sx = edge.source.x ?? 0, sy = edge.source.y ?? 0, tx = edge.target.x ?? 0, ty = edge.target.y ?? 0;
+    const length = Math.hypot(tx - sx, ty - sy) || 1;
+    let nx = -(ty - sy) / length, ny = (tx - sx) / length;
+    if (ny > 0) { nx = -nx; ny = -ny; }
+    const x = (sx + tx) / 2 + nx * 24 / scale, y = (sy + ty) / 2 + ny * 24 / scale;
+    ctx.save(); ctx.font = `${10 / scale}px sans-serif`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    const width = ctx.measureText(edge.label).width;
+    ctx.fillStyle = '#f6f7f9'; ctx.fillRect(x - width / 2 - 3 / scale, y - 7 / scale, width + 6 / scale, 14 / scale);
+    ctx.fillStyle = '#2458d3'; ctx.fillText(edge.label, x, y); ctx.restore();
   }} onNodeClick={n => n.kind !== 'department' && p.onSelect(n.id)} enableNodeDrag={false} cooldownTicks={0} onEngineStop={() => {}} />;
 }
