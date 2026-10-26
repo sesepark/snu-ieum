@@ -8,7 +8,7 @@
 **서울대 이음** — 자연어로 프로젝트 목표를 입력하면 서울대 안의 논문·연구실·교수·장비·공간을 **공식 출처와 함께** 찾아주고, 실행 보드로 이어주는 서비스.
 
 - 제품 명세의 유일한 기준은 **[IMPLEMENTATION.md](IMPLEMENTATION.md)** 다. 충돌하면 그쪽이 우선.
-- 기술 스택은 **아직 미정**(명세 §4). 에이전트가 임의로 프레임워크·DB·호스팅을 정하지 않는다.
+- 기술 스택은 **IMPLEMENTATION.md §4에 확정**되어 있다. 에이전트가 임의로 프레임워크·DB·호스팅을 바꾸지 않는다.
 - 개발 인원 2명(`chlgkals07`, `sesepark`), 같은 `main` 브랜치에서 작업.
 
 ---
@@ -260,41 +260,48 @@ Closes #7
 4. **공용 파일(§6)을 직접 수정하지 않는다.** 변경이 필요하면 제안만 하고 사람에게 넘긴다.
 5. **새 공통 유틸·컴포넌트를 만들기 전에 먼저 찾아본다.** 있으면 그걸 쓴다. 없다고 단정하고 새로 만들지 않는다.
 6. **중복을 발견하면 그 자리에서 합치고**, 합쳤다는 사실을 커밋이나 이슈에 남긴다.
-7. **스택을 임의로 정하지 않는다.** 명세 §4가 미정으로 남긴 항목(프레임워크·DB·호스팅·모델)은 사람이 결정한다.
+7. **스택을 임의로 정하지 않는다.** 명세 §4의 확정 선택을 따른다. 미정 항목이나 프레임워크·DB·호스팅·모델 변경은 사람이 결정한다.
 8. **생성한 코드가 §2 제품 제약을 지키는지 확인한다.** 특히 출처 없는 추천, SHAPE 흔적, 개인 연락처.
 9. `git push --force`, 브랜치 삭제, 히스토리 재작성은 **하지 않는다.**
 
 ---
 
-## 9. 저장소 구조 (예정)
+## 9. 저장소 구조
 
-명세 §14 기준. 아직 만들지 않았다.
+명세 §14 기준. 공용 기반은 2026-10-26 사용자의 이번 작업 한정 예외 승인으로 반영했다(#4). 일반 협업 규칙은 그대로 유지한다.
 
 ```
-apps/web/           웹 클라이언트
-apps/api/           서비스 API
-packages/contracts/ 공용 타입·API 계약   ← 공용 파일
-infra/              배포·인프라
-IMPLEMENTATION.md   제품 명세 (기준 문서)
-AGENTS.md           이 파일 (= CLAUDE.md)
-CONTRIBUTING.md     사람용 실행 가이드
+apps/web/            웹 클라이언트·2D/3D 지도
+apps/api/            공개 탐색 API
+apps/worker/         수집·검수·운영 전용 localhost API
+packages/catalog/    API·스냅샷의 공통 검색·관계 처리
+packages/contracts/  공용 Zod 타입·API 계약   ← 공용 파일
+infra/               Compose·DB 마이그레이션·백업·운영 가이드
+review/              초기 공용 검토본·검증 기록·화면
+IMPLEMENTATION.md    제품 명세 (기준 문서)
+AGENTS.md            이 파일 (= CLAUDE.md)
+CONTRIBUTING.md      사람용 실행 가이드
 ```
-
-수집·처리 파이프라인의 위치는 스택 확정 시 함께 정한다.
-
----
 
 ## 10. 빌드 · 테스트 명령
 
-> **미정.** 명세 §4의 스택이 확정되면 이 절을 채운다. 그 전까지 에이전트는 빌드/테스트 명령을 추측해서 실행하지 않는다.
+**Node.js 24**를 사용한다(`.nvmrc`). 로컬 기본 화면은 공식 소표본 스냅샷으로 실행되며 DB·AI 키가 없어도 탐색할 수 있다. 자세한 설정은 CONTRIBUTING.md §12, 운영은 infra/OPERATIONS.md를 따른다.
 
 | 목적 | 명령 |
 | --- | --- |
-| 설치 | _TBD_ |
-| 개발 서버 | _TBD_ |
-| 타입 검사 | _TBD_ |
-| 린트 | _TBD_ |
-| 테스트 | _TBD_ |
+| 설치 | `npm ci` |
+| 웹 개발 | `npm run dev` |
+| API 개발 | `npm run dev:api` |
+| 운영 API 개발 | `npm run dev:worker` (전용 DB·운영 토큰 필요) |
+| 타입 검사 | `npm run check` |
+| 린트 | 별도 도구 미설정; 타입 검사·테스트·`git diff --check` 실행 |
+| 단위·API 검사 | `npm test` |
+| 실제 PostgreSQL 통합 검사 | `TEST_DATABASE_URL=... npm run test:db` (별도 임시 DB) |
+| 브라우저 검사 | `PLAYWRIGHT_CHANNEL=chrome npm run test:e2e` (설치된 Chrome) |
+| 빌드 | `npm run build` |
+| JSON Schema 생성 | `npm run schemas` |
+
+프로덕션 API는 승인된 PostgreSQL 배치가 필요하다. 시제품 빌드 성공을 데이터 수량·사람 검수·실사용자 비교·실제 서버 복구를 포함한 출시 완료로 표시하지 않는다.
 
 ---
 

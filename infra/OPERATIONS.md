@@ -1,6 +1,6 @@
 # 집 서버·Pages 운영
 
-아직 서버 설정과 공개 배포는 수행하지 않았다. 먼저 #4의 공용 변경안을 사람이 PR로 반영하고, 실제 서버 주소·전용 포트·데이터 정책·무료 계정을 확인한다. 이 실행 구성은 **Linux 집 서버** 대상이다. 기존 Compose 프로젝트·Funnel 라우트·볼륨을 덮어쓰지 않는다.
+아직 서버 설정과 공개 배포는 수행하지 않았다. #4의 공용 기반은 사용자의 이번 작업 한정 예외 승인으로 반영했다. 실제 서버 주소·전용 포트·데이터 정책·무료 계정은 배포 전에 확인한다. 이 실행 구성은 **Linux 집 서버** 대상이다. 기존 Compose 프로젝트·Funnel 라우트·볼륨을 덮어쓰지 않는다.
 
 ## 실행
 
@@ -48,7 +48,7 @@ Node.js 24 작업공간에서 `npm run cli -w @ieum/worker -- <명령>` 또는 `
 15 * * * * cd /srv/snu-ieum && docker compose -f infra/compose.yml --env-file infra/.env exec -T worker npm run cli -w @ieum/worker -- health >> /srv/ieum-logs/health.log 2>&1
 ```
 
-cron에는 별도의 권한 제한 환경 파일에서 `BACKUP_RECIPIENT`, `BACKUP_DIR`, `BACKUP_MIRROR_DIR`를 주입한다. `.env`를 무심코 shell source하지 않는다. 파일은 Compose 형식이며 shell 코드가 아니다. `health`는 디스크·수집 실패·재검수·한도를 기록한다. 백업 성공 파일을 읽기 전용 마운트하고 `BACKUP_STATUS_FILE`을 지정하면 마지막 백업도 출력한다. 목표 원문은 기록하지 않는다.
+cron에는 별도의 권한 제한 환경 파일에서 `BACKUP_RECIPIENT`, `BACKUP_DIR`, `BACKUP_MIRROR_DIR`를 주입한다. `.env`를 무심코 shell source하지 않는다. 파일은 Compose 형식이며 shell 코드가 아니다. 서로 다른 파일시스템도 같은 물리 디스크의 파티션일 수 있으므로 운영자는 사본 대상이 실제 별도 기기인지 확인한다. `health`는 디스크·수집 실패·재검수·한도를 기록한다. 백업 성공 파일을 읽기 전용 마운트하고 `BACKUP_STATUS_FILE`을 지정하면 마지막 백업도 출력한다. 목표 원문은 기록하지 않는다.
 
 복구 기기에서 암호화 파일을 복호화해 `database.dump`, `raw.tar`를 얻는다. 신뢰한 백업만 별도 빈 경로에 추출한다. 새 빈 DB에 `RESTORE_DATABASE_URL=... IEUM_RESTORE_DISPOSABLE=true ./infra/restore.sh database.dump`를 실행한다. 기존 테이블이 있는 목적지는 거부한다. 복구 후 활성 배치·자원 수·출처 해시를 비교하고, raw.tar는 별도 빈 원문 볼륨에 복원해 해시·DB의 artifact 경로를 확인한다. 운영 DB를 직접 덮어쓰지 않는다.
 
@@ -58,4 +58,4 @@ cron에는 별도의 권한 제한 환경 파일에서 `BACKUP_RECIPIENT`, `BACK
 
 `npm exec -- tsx infra/release.ts data/public-snapshot.json data/launch-evidence.json`이 성공해야 공개한다. 데이터 최소 수량·사람 승인·동일 배치의 실제 사용자/성능/장애/복구 증거가 없으면 실패한다. 예시 증거 파일은 미완료 값이며 그대로 통과하지 않는다.
 
-#4의 Pages workflow는 수동 실행만 지원한다. 승인 스냅샷과 검증 증거를 커밋하고 검사한 후 실행한다. 시제품 빌드 성공을 첫 출시 완료로 표시하지 않는다.
+Pages workflow는 수동 실행만 지원한다. 승인 스냅샷과 검증 증거를 커밋하고 검사한 후 실행한다. 시제품 빌드 성공을 첫 출시 완료로 표시하지 않는다.
