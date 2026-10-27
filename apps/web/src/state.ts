@@ -25,12 +25,14 @@ const initialView = import.meta.env.VITE_DEFAULT_VIEW === '2d' ? '2d' : import.m
 export const useExplore = create<SharedState & {
   q: string; depth: 1 | 2; focusOnly: boolean; evidence: boolean; notice: string;
   restore(shared: SharedState): void; setView(view: View): void; select(id?: string): void; selectBuilding(id?:string): void; selectCollege(id?:string):void; setViewpoint(v:Viewpoint): void;
+  reset(): void;
   setQuery(q: string): void; setKinds(kinds: Filters['kinds']): void; setDepartments(ids: string[]): void;
   expand(): void; setFocusOnly(value: boolean): void; setEvidence(value: boolean): void; fallback(): void;
 }>(set => ({
   view: initialView, building: undefined, viewpoint: undefined, kinds: [], departmentIds: [], q: '', selected: undefined, depth: 1, focusOnly: false, evidence: false, notice: '',
   restore: shared => set({building:undefined,college:undefined,viewpoint:undefined,...shared}), selectCollege:college=>set({college,building:undefined,selected:undefined}), selectBuilding: building => set({building,selected:undefined,focusOnly:false}), setViewpoint: viewpoint=>set({viewpoint}), setView: view => set({ view, notice: '' }), select: selected => set({ selected, depth: 1, evidence: false }),
-  setQuery: q => set({ q }), setKinds: kinds => set({ kinds }), setDepartments: departmentIds => set({ departmentIds }),
+  reset: () => set({ view: initialView, q: '', kinds: [], departmentIds: [], selected: undefined, building: undefined, college: undefined, viewpoint: undefined, depth: 1, focusOnly: false, evidence: false, notice: '' }),
+  setQuery: q => set({ q, selected: undefined, building: undefined, depth: 1, focusOnly: false, evidence: false }), setKinds: kinds => set({ kinds, selected: undefined, building: undefined, depth: 1, focusOnly: false, evidence: false }), setDepartments: departmentIds => set({ departmentIds, selected: undefined, building: undefined, depth: 1, focusOnly: false, evidence: false }),
   expand: () => set({ depth: 2, focusOnly: true }), setFocusOnly: focusOnly => set({ focusOnly }), setEvidence: evidence => set({ evidence }),
   fallback: () => set({ view: '2d', notice: '3D를 사용할 수 없어 2D로 전환했습니다. 자원 목록에서도 탐색할 수 있습니다.' })
 }));

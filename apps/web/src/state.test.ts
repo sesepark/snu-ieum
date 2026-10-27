@@ -26,3 +26,15 @@ it('shares college background without adding user text or altering the selected 
  const s={view:'2d' as const,kinds:[],departmentIds:[],college:'engineering',building:'snu-301'};
  expect(parseUrl(shareUrl(s)).college).toBe('engineering');expect(parseUrl(shareUrl(s)).building).toBe('snu-301');
 });
+it('clears stale selections and relation expansion when search filters change',()=>{
+ for(const change of [()=>useExplore.getState().setQuery('전자현미경'),()=>useExplore.getState().setKinds(['equipment']),()=>useExplore.getState().setDepartments(['industrial'])]){
+  useExplore.getState().restore({view:'2d',kinds:[],departmentIds:[],selected:'lab-industrial-dsba',building:'snu-039'});
+  useExplore.getState().expand();useExplore.getState().setEvidence(true);change();
+  const state=useExplore.getState();expect(state.selected).toBeUndefined();expect(state.building).toBeUndefined();expect(state.focusOnly).toBe(false);expect(state.evidence).toBe(false);expect(state.depth).toBe(1);
+ }
+});
+it('returns to the initial exploration without retaining a previous camera or college',()=>{
+ useExplore.getState().restore({view:'2d',kinds:['lab'],departmentIds:['industrial'],selected:'lab-industrial-dsba',building:'snu-039',college:'engineering',viewpoint:{x:50,y:100,zoom:4,bearing:30,pitch:55}});
+ useExplore.getState().setQuery('private');useExplore.getState().expand();useExplore.getState().reset();
+ const state=useExplore.getState();expect(state.q).toBe('');expect(state.kinds).toEqual([]);expect(state.departmentIds).toEqual([]);expect(state.selected).toBeUndefined();expect(state.building).toBeUndefined();expect(state.college).toBeUndefined();expect(state.viewpoint).toBeUndefined();expect(state.focusOnly).toBe(false);
+});

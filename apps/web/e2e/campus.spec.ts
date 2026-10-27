@@ -30,3 +30,13 @@ test('same-building official relations open their evidence without a fabricated 
  await page.getByLabel('지도에 표시한 공식 관계').getByRole('button',{name:/같은 건물/}).first().click();
  const evidence=page.getByLabel('선택 관계 근거');await expect(evidence).toBeVisible();await expect(evidence.getByText('같은 건물에 있는 자원의 확인된 관계입니다.')).toBeVisible();await expect(evidence.getByRole('link')).toHaveCount(1);
 });
+test('new searches dismiss old details and the wordmark restores the whole campus',async({page})=>{
+ await page.goto('#/?view=2d&selected=eq-irf-105&building=snu-139&college=engineering&camera=20,30,4,0,45');
+ await expect(page.getByLabel('선택 자원 상세')).toBeVisible();
+ await page.getByRole('searchbox',{name:'자원명·연구 분야 검색'}).fill('전자현미경');
+ await expect(page.getByLabel('선택 자원 상세')).toHaveCount(0);await expect(page.getByRole('heading',{name:'검색 결과',exact:true})).toBeVisible();
+ await expect(page).not.toHaveURL(/selected=|building=/);
+ await page.getByRole('link',{name:'서울대 이음',exact:true}).click();
+ await expect(page.getByRole('searchbox',{name:'자원명·연구 분야 검색'})).toHaveValue('');await expect(page.getByRole('heading',{name:'수록 자원',exact:true})).toBeVisible();
+ await expect(page.getByLabel('단과대 건물 배경')).toHaveValue('');await expect(page).not.toHaveURL(/college=|selected=|building=/);
+});
