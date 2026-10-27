@@ -1,23 +1,23 @@
 {
-  "checkedAt": "2026-10-26T17:30:50.006Z",
+  "checkedAt": "2026-10-27T01:55:52.812Z",
   "scope": "local development only; not release, student evaluation, production measurements or GPU frame completion proof",
-  "browser": "155.0.8059.86",
+  "browser": "156.0.8078.48",
   "viewport": {
     "width": 1440,
     "height": 1000
   },
-  "initialInteractionMs": 1591.15825,
+  "initialInteractionMs": 2001.9126660000002,
   "rafProxy": {
-    "durationMs": 3009.4000000476835,
+    "durationMs": 3011.7999999523163,
     "frames": 181,
-    "averageFps": 60.14487937699611,
+    "averageFps": 60.09695198979535,
     "p95FrameMs": 16.700000000000728
   },
   "search": {
     "transport": "real localhost HTTP API, 50 sequential fixed queries",
     "samples": 50,
-    "p95ms": 10.016333999999915,
-    "medianMs": 6.612290999999459
+    "p95ms": 18.540040999998382,
+    "medianMs": 13.56958300000042
   },
   "mobileOverflow": false,
   "pageErrors": []

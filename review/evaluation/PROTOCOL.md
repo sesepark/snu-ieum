@@ -52,3 +52,21 @@
 연구 `batchVersion`과 `spatialBatchVersion`을 함께 기록하고 과제에 사용한 건물 ID, 위치 근거 source ID, 관계 source ID를 남긴다. 개인 연락처 노출·미확인 동명이인 병합·출처 없는 관계 건수는 실제 점검 결과가 0인 경우만 각각 0으로 제출한다. 점검 전 빈 값을 0으로 채우지 않는다.
 
 공식 건물 목록의 각 건물은 표시·좌표만 표시·윤곽 미확인·미수록과 그 사유를 대조한다. 정밀 지면고도·실측 건물 높이·실내 좌표를 개략 표현과 혼동하는지도 관찰한다. 모바일은 같은 공간 배치의 2D를 기본 제공하고 3D 전환과 뷰·건물·자원·지도 시점 공유 복원을 검증한다.
+
+## 실제 결과 묶음과 판정 검증 도구
+
+2026-10-27 초안의 실제 일반 검색 상위 10개와 자원·정보별 출처·확인된 위치·관계는 `campus-search-candidates-20261027.json`에 고정했다. `campus-reviews.pending.json`에는 사람 판정이 없으므로 `campus-search-pending-report.json`의 `evaluationConducted`는 false다. 후보 수가 3개 미만인 과제는 데이터·검색 보강 대상으로 남긴다. 실제 관련도나 학생 성공률은 이 후보 수로 계산하지 않는다.
+
+Node.js 24에서 새 묶음은 다음과 같이 생성한다. 출력 파일은 이미 존재하면 덮어쓰지 않는다.
+
+```sh
+node --import tsx infra/search-evaluation-cli.ts export data/college-draft.json data/campus/campus-draft.json data/coverage/coverage-draft.json review/evaluation/search-cases.json /tmp/new-candidates.json
+```
+
+검수 파일은 `{ "exportedAt": "내보낸 checkedAt", "reviews": { "candidateSha256": "내보낸 해시", "batchVersion": "연구 버전", "spatialBatchVersion": "공간 버전", "reviews": [] } }` 구조다. 각 검수는 `caseId`, 개인 연락처가 아닌 `reviewerId`, `checkedAt`, `judgments`를 담는다. 각 판정에는 실제 상위 결과의 `resourceId`, `relevant`, 해당 결과에 딸린 `sourceIds`, `reason`이 필요하다. 실제 반환한 결과를 빠짐없이 한 번씩 판정한다. 과제마다 서로 다른 두 검수자가 필요하며, 의견이 다르면 관련으로 세지 않는다. 빈 결과도 두 검수자가 확인할 수 있으며 통과로 세지 않는다.
+
+```sh
+node --import tsx infra/search-evaluation-cli.ts score data/college-draft.json data/campus/campus-draft.json data/coverage/coverage-draft.json review/evaluation/search-cases.json /tmp/new-score.json /tmp/completed-reviews.json
+```
+
+집계 시 현재 코드로 같은 시점·과제의 결과를 재생성하고 내용 해시를 대조한다. 같은 일자 버전이라도 결과·출처·관계·위치·과제가 달라졌으면 과거 판정을 재사용하지 않는다. 동일 검수자 중복, 누락 판정, 모르는 자원·출처, 시점 역전, 다른 배치는 거부한다. 이 도구는 출시 승인이나 8명 학생 평가를 대신하지 않는다.
