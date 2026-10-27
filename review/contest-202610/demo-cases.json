@@ -1,0 +1,230 @@
+{
+  "publication": "prototype",
+  "humanReviewed": false,
+  "studentEvaluationConducted": false,
+  "cases": [
+    {
+      "query": "시계열",
+      "count": 5,
+      "departmentIds": [
+        "industrial"
+      ],
+      "results": [
+        {
+          "id": "prof-industrial-dsba",
+          "name": "강필성",
+          "sourceIds": [
+            "src-industrial-dsba",
+            "profile-source-industrial-1"
+          ]
+        },
+        {
+          "id": "lab-current-industrial-d",
+          "name": "금융리스크공학 연구실",
+          "sourceIds": [
+            "profile-source-industrial-4"
+          ]
+        },
+        {
+          "id": "lab-industrial-dsba",
+          "name": "데이터과학 및 비즈니스 애널리틱스 연구실",
+          "sourceIds": [
+            "src-industrial-dsba"
+          ]
+        },
+        {
+          "id": "lab-current-industrial-l",
+          "name": "정보경영 연구실",
+          "sourceIds": [
+            "profile-source-industrial-11"
+          ]
+        },
+        {
+          "id": "lab-current-industrial-n",
+          "name": "통계학습 및 계산금융 연구실",
+          "sourceIds": [
+            "profile-source-industrial-13"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "초저온",
+      "count": 3,
+      "departmentIds": [
+        "shared-irf"
+      ],
+      "results": [
+        {
+          "id": "eq-irf-105",
+          "name": "300kV 초저온 전자현미경 · 300kV Cryo-EM",
+          "sourceIds": [
+            "src-irf-105",
+            "irf-applications-105"
+          ]
+        },
+        {
+          "id": "eq-irf-108",
+          "name": "초저온 시편제조기 · Cryo Sample Prep_Vitrobot",
+          "sourceIds": [
+            "src-irf-108",
+            "irf-applications-108"
+          ]
+        },
+        {
+          "id": "space-irf-b112",
+          "name": "기초과학공동기기원 139-1동 B112호",
+          "sourceIds": [
+            "src-irf-105",
+            "src-irf-108"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "로봇",
+      "count": 18,
+      "departmentIds": [
+        "mechanical",
+        "ece",
+        "naval",
+        "aerospace"
+      ],
+      "results": [
+        {
+          "id": "prof-mechanical-robot",
+          "name": "김아영",
+          "sourceIds": [
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "prof-dir-ece-laacoklffmom",
+          "name": "김진수",
+          "sourceIds": [
+            "source-eng-directory-5",
+            "profile-four-source-ece-54"
+          ]
+        },
+        {
+          "id": "lab-four-mechanical-n",
+          "name": "로봇 자동화 연구실",
+          "sourceIds": [
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "lab-four-mechanical-aa",
+          "name": "로봇비전 연구실",
+          "sourceIds": [
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "lab-four-ece-bb",
+          "name": "로봇학습 연구실",
+          "sourceIds": [
+            "profile-four-source-ece-200"
+          ]
+        },
+        {
+          "id": "prof-dir-mechanical-mgcheidjnjpm",
+          "name": "박용래",
+          "sourceIds": [
+            "source-eng-directory-8",
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "lab-four-mechanical-m",
+          "name": "소프트 로봇 및 바이오닉스 연구실",
+          "sourceIds": [
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "prof-dir-ece-lbocojhccloh",
+          "name": "오성회",
+          "sourceIds": [
+            "source-eng-directory-12",
+            "profile-four-source-ece-76"
+          ]
+        },
+        {
+          "id": "lab-four-ece-ao",
+          "name": "웨어러블 로봇 연구실",
+          "sourceIds": [
+            "profile-four-source-ece-187"
+          ]
+        },
+        {
+          "id": "prof-dir-mechanical-ghfkdbiiafme",
+          "name": "이동준",
+          "sourceIds": [
+            "source-eng-directory-14",
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "prof-dir-mechanical-pdbjgfbpddmf",
+          "name": "조규진",
+          "sourceIds": [
+            "source-eng-directory-18",
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "lab-four-ece-s",
+          "name": "지능형자동차 연구실",
+          "sourceIds": [
+            "profile-four-source-ece-165"
+          ]
+        },
+        {
+          "id": "prof-four-ece-bn",
+          "name": "최준원",
+          "sourceIds": [
+            "profile-four-source-ece-44",
+            "profile-four-source-ece-110"
+          ]
+        },
+        {
+          "id": "lab-four-ece-u",
+          "name": "피지컬 인공지능 연구실",
+          "sourceIds": [
+            "profile-four-source-ece-167"
+          ]
+        },
+        {
+          "id": "prof-dir-mechanical-oohlkjodmhio",
+          "name": "한경원",
+          "sourceIds": [
+            "source-eng-directory-21",
+            "src-mechanical-robot"
+          ]
+        },
+        {
+          "id": "lab-cards-naval-h",
+          "name": "능동인지 및 로봇지능 연구실",
+          "sourceIds": [
+            "src-naval-fluids"
+          ]
+        },
+        {
+          "id": "lab-list-aerospace-h",
+          "name": "자율로봇연구실",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ]
+        },
+        {
+          "id": "lab-mechanical-robot",
+          "name": "로봇 인식 및 공간 지능 연구실",
+          "sourceIds": [
+            "src-mechanical-robot"
+          ]
+        }
+      ]
+    }
+  ]
+}

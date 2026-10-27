@@ -1,0 +1,154 @@
+{
+  "asOf": "2026-10-27T08:31:40.621290+00:00",
+  "codeCommit": "64eda2fc52624a82710b514da5e3c18919056b05",
+  "batchVersion": "college-draft-20261027",
+  "spatialBatchVersion": "campus-20261027",
+  "publication": "prototype",
+  "humanApproved": false,
+  "studentEvaluationConducted": false,
+  "studentParticipants": 0,
+  "studentEvaluationPreparationOnly": true,
+  "liveAIAccountValidated": false,
+  "publicReleaseReady": false,
+  "coverageGapCount": 51,
+  "resources": {
+    "researcher": 341,
+    "lab": 237,
+    "equipment": 209,
+    "space": 20
+  },
+  "totalResources": 807,
+  "relations": 230,
+  "validatedPapers": 0,
+  "completeEquipment": 37,
+  "completeSpaces": 8,
+  "files": {
+    "data/college-draft.json": "c01fbdeadb7c8aba178493b2ddc82bbbac9d70c4b2cf05832c1729e0608e00d9",
+    "data/campus/campus-draft.json": "577e64128f78bab637cf82865f1b25e8a42d261fff6fc3af58f18e45c6beaedf",
+    "data/coverage/coverage-draft.json": "4caa191d08496b35d5c189c1e52663547b02bbf159daf843eb3a33064359fba2"
+  },
+  "checks": {
+    "typescript": "passed",
+    "unitAndAPI": {
+      "passed": 96,
+      "files": 25
+    },
+    "browser": {
+      "passed": 13
+    },
+    "productionBuild": "passed",
+    "diffCheck": "passed",
+    "scope": "local development verification; not student outcome or release approval"
+  },
+  "searchCandidateCounts": [
+    {
+      "id": "search-cee",
+      "query": "수질 환경",
+      "returned": 3,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-architecture",
+      "query": "구조",
+      "returned": 10,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-mechanical",
+      "query": "로봇",
+      "returned": 10,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-industrial",
+      "query": "이상치",
+      "returned": 3,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-energy",
+      "query": "자원회수",
+      "returned": 4,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-nuclear",
+      "query": "열수력",
+      "returned": 2,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-materials",
+      "query": "재료역학",
+      "returned": 2,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-ece",
+      "query": "유연",
+      "returned": 5,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-naval",
+      "query": "설계",
+      "returned": 10,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-cse",
+      "query": "데이터",
+      "returned": 10,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-aerospace",
+      "query": "추진",
+      "returned": 3,
+      "relevanceReviewed": false
+    },
+    {
+      "id": "search-chemical",
+      "query": "촉매",
+      "returned": 10,
+      "relevanceReviewed": false
+    }
+  ],
+  "sourceChecks": [
+    {
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-27T08:31:40.621290+00:00",
+      "sha256": "93e0f68ae559188f47f3d69f500a489893f408b054192087c76b9de02751dd35",
+      "expectedTextPresent": {
+        "시계열": true,
+        "411": true,
+        "강필성": true
+      },
+      "method": "agent HTTP source comparison; not human approval; raw body not retained"
+    },
+    {
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-27T08:31:40.621290+00:00",
+      "sha256": "bb1437d9f380caeeefef5ee1e927f9e9aae2acd694b26754a891ac35bcde03b4",
+      "expectedTextPresent": {
+        "B112": true,
+        "139": true,
+        "Krios": true
+      },
+      "method": "agent HTTP source comparison; not human approval; raw body not retained"
+    },
+    {
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=105",
+      "httpStatus": 200,
+      "checkedAt": "2026-10-27T08:31:40.621290+00:00",
+      "sha256": "72e9518d142b7231729431d3e5bbcf72e20509e61ca8ded7944898defedbae83",
+      "expectedTextPresent": {
+        "단백질": true,
+        "3차원": true
+      },
+      "method": "agent HTTP source comparison; not human approval; raw body not retained"
+    }
+  ]
+}
