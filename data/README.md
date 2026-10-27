@@ -25,3 +25,5 @@ node --import tsx data/compile-draft.ts
 ## 학과별 공식 상세 수집
 
 `apps/worker/src/department-profiles-cli.ts`는 정책 검수 설정과 전용 `DATABASE_URL`을 받아 명단·연구 분야·홈페이지·명시 주소의 최소 사실만 Raw/Staging에 수집한다. `cohort`는 `industrial-nuclear-aerospace`, `civil-naval-energy`, `mechanical-materials-electrical-chemical`을 지원한다. 재료는 반복 분야 카드의 공식 상세 주소를 중복 제거하고, 화학생물은 끝 페이지까지 조회하며 반복 페이지를 거부한다. 재실행은 카탈로그를 덮어쓰거나 승인하지 않는다. 원문 HTML·사진·개인 연락처는 보관하지 않는다.
+
+IRF 보유기기 55개와 각 `pop_detail.php`의 명시 `기기활용` 항목을 다시 대조해 43개에 용도를 추가했다. `apps/worker/src/equipment-cli.ts`는 검수 정책과 `outputDirectory` 설정을 받아 같은 최소 사실을 새 Raw/Staging 후보로 수집한다. 현재 필수 정보·위치를 갖춘 장비는 37개이며, 후보 209개를 완료 수로 세지 않는다. ISRC 공식 장비배치 화면에는 1·2층 배치가 있지만 건물 연결이 명확하지 않아 개별 설치 위치로 채택하지 않았다. 예약 현황·신청자·실내 도면은 수집하지 않았다.

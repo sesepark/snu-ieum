@@ -1,6 +1,6 @@
 {
   "resourceVersion": "college-draft-20261027",
-  "generatedAt": "2026-10-27T01:42:18.189Z",
+  "generatedAt": "2026-10-27T01:50:01.150Z",
   "rosters": [
     {
       "departmentId": "cee",
@@ -4398,6 +4398,13 @@
             "src-irf-105"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "단백질의 3차원 구조 분석; 단백질 간 상호 작용 규명; 발병기작의 이해와 신약 개발에 기여; 초저온 전자토모그래피 분석; 초저온 Micro-ED 분석",
+          "sourceIds": [
+            "irf-applications-105"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4424,6 +4431,13 @@
             "src-irf-1"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "본 기관의 300MHz NMR은 매년 개최하는 Workshop을 통한 교육을 이수한 사람에 한하여 본인이 직접 기기를 사용할 수 있습니다.; 현재 1차원 실험(PROTON-1H, CARBON-13C) 위주로 운영하고 있으며 간단한 2차원 실험도 할 수 있습니다.; 어떤 종류의 핵을 관찰할 수 있을 지 결정하는 것은 자기장 내부에 있는 Probehead 인데, 본 기기가 가지고 있는 Probehead 는 5 mm QNP ( 1H/ 13C/ 19F/ 31P ), 5 mm Dual( 1H / 13C ), 10 mm Dual(1H / 13C) 이기 때문; 온도 제어장치가 완비되어 있기 때문에 -100℃ ∼ +100℃ 사이에서 온도 변화를 주면서 실험을 할 수도 있습니다.",
+          "sourceIds": [
+            "irf-applications-1"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4450,6 +4464,13 @@
             "source-irf-equipment-4"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1) 기기구성; 공동기기원 Solid 500MHz NMR 은 위에서 소개한 방법들을 다양한 시료에 대해 적용하기 위해 0.7mm, 2.5mm, 4mm, 7mm 등 4가지 probe head (1H,19F~15N)와 확산계수 측정용 pulse field gradient probe (1H)를 갖추고 있으며; 2) 이용분야; 화학, 생물, 재료, 의학, 천연물 분야에서의 구조분석; 물리학 및 재료 공학 분야에서 물성 연구; 다공성 물질의 기공크기 분포 연구; 고체시료의 결정상태 연구; 액체시료의 확산계수 측정",
+          "sourceIds": [
+            "irf-applications-4"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4476,6 +4497,13 @@
             "source-irf-equipment-3"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "본 기관의 600MHz NMR은 Cryoprobe (z-gradient, 5mm TCI : 1H /13C /15N)를 설치 운영하고 있습니다. Cryoprobe는 insert coil을 극저온(-243℃, 시료측정온도와 별개)에서 작동시켜, 기존의 Probehead 보다 1D, 2D 및; ※ 분석 및 연구에 관하여 상담을 원하시는 분은 자세한 사항을 메일을 통해 문의 해주십시오.",
+          "sourceIds": [
+            "irf-applications-3"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4502,6 +4530,13 @@
             "source-irf-equipment-60"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "본 기관의 850MHz NMRM.은 Cryoprobe (z-gradient, 5mm TCI : 1H /13C /15N)를 설치 운영하고 있습니다. Cryoprobe는 insert coil을 극저온(-243℃, 시료측정온도와 별개)에서 작동시켜, 기존의 Probehead 보다 1D, 2D; ※ 분석 및 연구에 관하여 상담을 원하시는 분은 자세한 사항을 이메일을 통해 문의 해주십시오.",
+          "sourceIds": [
+            "irf-applications-60"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4528,6 +4563,13 @@
             "source-irf-equipment-72"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "CPU기반 마이크로 프로세서나 GPU기반의 Co-processor등을 네트워크로 연결, 분산처리 메커니즘에 의해 병렬 프로세싱을 구현,; CAE작업 즉, 유한요소해석(FEA), 전산유체역학(CFD), 다물체동력학(MBD), 최적화등 과학연산시뮬레이션 수행",
+          "sourceIds": [
+            "irf-applications-72"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4554,6 +4596,13 @@
             "src-irf-109"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "원형 이색성 분광편광계는 단백질 이차구조분석 및 polypeptide, 핵산 등 생명과학 분야에서 주로 사용되었으나, 최근들어 디스플레이, 태양광, 반도체, 인체 공학 등 첨단 재료 소재 분야에서도 사용된다.; 생명공학 뿐 아니라 chiral 물질 분석이 필요한 다양한 분야에서의 활용이 가능하다.; 특히, MCD(가변)을 장착하여 자기장을 이용한 분석이 가능하다.",
+          "sourceIds": [
+            "irf-applications-109"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4606,6 +4655,13 @@
             "src-irf-84"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "세포, 조직 혹은 개체의 section된 형광 이미지 관찰; 생체조직의 손상을 최소화하며 3차원적 세포 및 조직 단면의 정보 획득; 시료의 3차원 형상 재구축; 형광물질의 정량 분석 및 분자 간의 상호작용 분석 가능; 고정된 조직 혹은 live cell의 실시간 관찰 가능; 다형광 표지를 통한 단백질 분포 양상 관찰 및 단백질의 화학적 변화 감지 가능; 의학, 생물학, 환경 미생물학, 식물학, 동물학, 유전학 등 광범위한 분야에서 활용 가능",
+          "sourceIds": [
+            "irf-applications-84"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4632,6 +4688,13 @@
             "source-irf-equipment-85"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1. 의약품, 약물, 합성 유기체 정성분석; 2. 반응 중간체 구조 분석; 3. 대기압 상태에서 실시간 정성분석",
+          "sourceIds": [
+            "irf-applications-85"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4658,6 +4721,13 @@
             "src-irf-108"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "Vitrobot 시스템은 Cryo-TEM 전용 시료 준비 장치로서 세포 생물학 및 분자 이미징 같은 까다로운 과학 분야에서 매우 가치가 높다.; 분석 물질의 진정한 콜로이달(colloidal) 구조가 중요시되는 식품, 산업계, 제약 및 나노 기술 응용 분야에도 동일하게 적용될 수 있다.",
+          "sourceIds": [
+            "irf-applications-108"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4684,6 +4754,13 @@
             "src-irf-53"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "(1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰; (2) 내부구조 (결함,전위), 결정구조, 원자배열; (3) 화학조성, 원소분석 (정량, 정성, Mapping), 전자결합상태분석",
+          "sourceIds": [
+            "irf-applications-53"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4710,6 +4787,13 @@
             "source-irf-equipment-52"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "(1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰; (2) 내부구조 (결함, 전위), 결정구조, 원자배열; (3) 화학조성, 원소분석 (정량, 정성, Mapping)",
+          "sourceIds": [
+            "irf-applications-52"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4762,6 +4846,13 @@
             "src-irf-106"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1. 유·무기 재료, 금속 및 고분자 재료의 화학적 특성 연구와 상대정량 분석; 2. 재료 개발 분야의 신뢰성 평가; 3. 표면의 산화물, 오염물 분석; 4. 깊이에 따른 분석; 5. ARXPS, Depth Profile, XPS Imaging, UPS, AES",
+          "sourceIds": [
+            "irf-applications-106"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4788,6 +4879,13 @@
             "source-irf-equipment-64"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1. 유·무기 재료, 금속 및 고분자 재료의 화학적 특성 연구와 상대정량 분석; 2. 재료 개발 분야의 신뢰성 평가; 3. 표면의 산화물, 오염물 분석; 4. 깊이에 따른 분석; 5. ARXPS, Depth Profile, XPS Imaging, UPS",
+          "sourceIds": [
+            "irf-applications-64"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4814,6 +4912,13 @@
             "src-irf-100"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "물질 내부의 미세 또는 초미세 상호 작용력을 통한 전자 상태 연구; 유기 고분자 물질의 자유 라디칼의 평형 또는 동적 기하학 연구; 생명체 내의 활성 산소 라디칼의 상태 연구; 격자 결함을 통한 화석 연령 및 지질학적 특성 연구; 전자 스핀의 들뜬 상태로의 전이 과정을 통한 스핀 동역학 연구",
+          "sourceIds": [
+            "irf-applications-100"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4866,6 +4971,13 @@
             "source-irf-equipment-112"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "단일 세포의 면역적인 기능과 변화, 종류와 수량 측정이 가능하며 DNA 분화 주기와 분화 과정의 이상 여부, 세포 내 특이 단백 발현 실험과 칼슘이온 측정 실험, 세포의 괴사(소멸)과정에서의 특이 효소와 단백질의 역할과 기능, 악성종양 발현에 대한 실험, 유전자 변이 등을 측정함으로써 ",
+          "sourceIds": [
+            "irf-applications-112"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4892,6 +5004,13 @@
             "src-irf-54"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "금속, 반도체, 암석, 광물 등 각종 고체물질의 미세영역에서; (1) 고도 정밀 화학조성 분석; (2) 극 미량 조성, 원소분석(정량, 정성, mapping)을 한다.",
+          "sourceIds": [
+            "irf-applications-54"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4918,6 +5037,13 @@
             "source-irf-equipment-55"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "(1) Hard, Soft, Hybrid materials 등 각종 물질의 미세 영역 표면 관찰; (2) Electron channeling contrast; (3) 화학조성 및 원소분석 (정량, 정성, mapping)",
+          "sourceIds": [
+            "irf-applications-55"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4944,6 +5070,13 @@
             "source-irf-equipment-102"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "Chemical powder morphology 및 Non coating 시료의 정밀 표면 관찰; Material Channeling Contrast; Beam damage 최소화하여 이차전지 분리막 등 soft material 관찰; 자기장시료의 관찰; 야금분말 및 세라믹 시료의 EBSD 분석",
+          "sourceIds": [
+            "irf-applications-102"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4970,6 +5103,13 @@
             "source-irf-equipment-82"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "(1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰; (2) 내부구조 (결함, 전위), 결정구조, 원자배열; (3) 화학조성, 원소분석 (정량, 정성, mapping); (4) 3차원 TEM, STEM image 및 3차원 EDS mapping",
+          "sourceIds": [
+            "irf-applications-82"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -4996,6 +5136,13 @@
             "source-irf-equipment-48"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1) 재료 내부 구조 분석 : 금속 석출상, 개재물 등 분포 분석; 2) 금속/세라믹/전자/분말 소재의 투과전자현미경(TEM) 샘플 제작; 3) 품질 문제 대응 및 신소재, 신기술 분야 재료 미세 구조 분석",
+          "sourceIds": [
+            "irf-applications-48"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5022,6 +5169,13 @@
             "src-irf-89"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1) 재료 내부 구조 분석 : 금속 석출상, 개재물 등 분포 분석; 2) 금속/세라믹/전자/분말 소재의 투과전자현미경(TEM) 샘플 제작; 3) 품질 문제 대응 및 신소재, 신기술 분야 재료 미세 구조 분석",
+          "sourceIds": [
+            "irf-applications-89"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5126,6 +5280,13 @@
             "src-irf-74"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "유기 합성 물질들의 분리 및 합성물의 분자량, 동위 원소량, 분자 구조 및 형태 파악.; 동위 원소의 분리 및 정량 분석. 신물질 및 고분자 물질의 분자 구조 결정",
+          "sourceIds": [
+            "irf-applications-74"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5152,6 +5313,13 @@
             "source-irf-equipment-61"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "고분자, 식품, 바이오/생명과학, 나노/신소재, 약물 대사연구, 신약개발, 환경 등 휘발성 유기화합물의 정성 및 정량",
+          "sourceIds": [
+            "irf-applications-61"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5178,6 +5346,13 @@
             "src-irf-19"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "격자상수 변화에 대한 분포 - ω/2theta scan; 결정의 배향성, 결정성 -ω scan; X-선 반사를 이용한 박막의 두께, 거칠기 및 밀도 측정",
+          "sourceIds": [
+            "irf-applications-19"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5204,6 +5379,13 @@
             "source-irf-equipment-20"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "용액 상태의 주성분 원소, 미량원소의 분석; 수질오염에 따른 중금속 원소 분석; 생체, 생물 시료의 중금속 원소 분석; 환경, 화학시료의 무기원소 분석; 금속, 광물, 암석시료의 무기원소 분석; 식품 및 토양시료의 무기원소 분석",
+          "sourceIds": [
+            "irf-applications-20"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5230,6 +5412,13 @@
             "src-irf-21"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "분석대상; AAS나 ICP-AES로 분석하기 어려운 음용수 또는 폐수중의 중금속 분석; 순수 무기 물질내의 불순물 측정; 무기 및 유기화합물내의 미량, 희토류원소의 정량적 분석; 암석 및 퇴적물중의 미량 및 희토류 원소 분석; 강우, 담수 등 자연수중의 미량원소 분석; 생물체내 중금속 분석",
+          "sourceIds": [
+            "irf-applications-21"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5256,6 +5445,13 @@
             "source-irf-equipment-92"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "(1) Laser(193nm)를 활용해 고체표면을 Ablation하여 고체시료를 대상으로 ppb 수준에 이르는 미량원소 함량 분석; (2) 암석시료를 기존 습식 전처리 방식 대신 비드, 펠렛으로 전처리하여 미량원소(희토류원소) 정량 분석; (3) 지질, 광물, 재료, 금속 등 다양한 분야에서 활용; (4) 각종 환경 시료 등 비파괴 미량원소 함량 분석",
+          "sourceIds": [
+            "irf-applications-92"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5334,6 +5530,13 @@
             "source-irf-equipment-65"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "분석대상 : 지구과학 및 환경시료중 Li, Mg, Sr, Pb등 동위원소 분석",
+          "sourceIds": [
+            "irf-applications-65"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5360,6 +5563,13 @@
             "src-irf-114"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1.방사성탄소 연대측정, 환경·지구과학 분야의 탄소순환 및 탄소 기원 추적; 2.바이오매스/화석탄소 기여율 분석, 탄산염 및 초미량 탄소 시료 분석; 3.고고학·법과학 등의 14C 분석에 활용",
+          "sourceIds": [
+            "irf-applications-114"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5386,6 +5596,13 @@
             "source-irf-equipment-56"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "화학 작용기의 확인; 고분자 물질의 종류 확인; 다층 필름, 고분자 블렌드, 비드 등의 분석; 산업체에서 제품의 품질 향상(이물 분석, 마이크로 영역의 불량 원인 분석)",
+          "sourceIds": [
+            "irf-applications-56"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5412,6 +5629,13 @@
             "source-irf-equipment-90"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1. 분석 샘플: 전도성 & 비전도성 샘플(Low Vacuum mode) 분석 가능.; 2. High Vacuum mode에서 SEI & BEI 이미지.; : SEI: 샘플 표면의 선명한 이미지 확인.; : BEI 이미지에 입체감 구현 가능.",
+          "sourceIds": [
+            "irf-applications-90"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5438,6 +5662,13 @@
             "source-irf-equipment-86"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "(1) 전자현미경용 마운팅 시료 제작; (2) 미세구조 관찰을 위한 전처리(폴리싱)",
+          "sourceIds": [
+            "irf-applications-86"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5464,6 +5695,13 @@
             "src-irf-113"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "첨단 뇌신경과학 연구; 인간 커넥톰 (Human Connectome) 매핑 및 분석; 고해상도 확산 MRI(dMRI)및 기능적 MRI(fMRI) 연구; 신경 및 정신 질환의 병태생리 기전 및 바이오마커 연구; 뇌의 구조적, 기능적 재조직화 과정에 대한 심층 연구",
+          "sourceIds": [
+            "irf-applications-113"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5490,6 +5728,13 @@
             "source-irf-equipment-57"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "1. FIB시료의 Ar 초 저 에너지 이온빔으로 시편 추가밀링; 2. FIB작업중 발생되는 Ga damage 제거",
+          "sourceIds": [
+            "irf-applications-57"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5516,6 +5761,13 @@
             "source-irf-equipment-62"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "분말 시료의 결정 상 분석; 분말 시료의 정량 분석; 분말 시료의 결정화도 분석",
+          "sourceIds": [
+            "irf-applications-62"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5542,6 +5794,13 @@
             "source-irf-equipment-67"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "재료 표면의 화학적 조성 분포 확인을 위한 Chemical 이미징 및 박막 시료의 confocal depth profile 측정; 그래핀(Graphene), Graphite, 탄소나노소재 등의 카본 소재의 특성 분석; 조직 및 세포의 주요 특성 성분 확인 및 Chemical 이미징.; 리튬 이온 베터리에 사용되는 양극, 음극, 전해질, 분리막 성분 분석.",
+          "sourceIds": [
+            "irf-applications-67"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5568,6 +5827,13 @@
             "source-irf-equipment-83"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "Micro scale에서의 계면평가, 구조제어 및 기능 발현기구의 해석; 적층박막에 대한 정확한 계면에서의 물성평가 & 박막에 대한 다양한 응용지원; 깊이방향에 대해 물리화학적 3차원 해석이 가능 : Depth Profiling, Micro Sampling (시료표면으로부터 내부, 적층 계면에 걸쳐 연속적인 물성분포 및 화학구조의 평가가 가능); 내부구조를 상세하게 해석 가능 : 대각선 절삭에 의한 관찰면 확대 (화학구조해석이 불가능했던 수 µm 이하의 박막구조를 수 백배로 분석영역을 확대시켜 구조해석 가능); 이종 재료의 계면상태 관찰; 도막이나 혼합재의 깊이 방향의 관찰에 의한 균일, 불 균일 등의 분산 상태의 해석; 내후성 시험 후의 표층으로부터의 내면까지의 열화 상태의 추적",
+          "sourceIds": [
+            "irf-applications-83"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5620,6 +5886,13 @@
             "source-irf-equipment-70"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "(1) Ar 이온빔으로 시편 Milling",
+          "sourceIds": [
+            "irf-applications-70"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5646,6 +5919,13 @@
             "source-irf-equipment-49"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "Multi fluorescence 3D SR-SIM; Multi fluorescence 4D(3D+time) SR-SIM; Tile scan with 3D SR-SIM; PALM and dSTORM",
+          "sourceIds": [
+            "irf-applications-49"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5672,6 +5952,13 @@
             "source-irf-equipment-97"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "태양 전지, 필름, 반도체, 안과, 의료 기기, 및 MEMS 시료 등 모든 고체 재료의 단차 측정에 활용; TOF-SIMS의 depth profile 분석 후 etching time을 두께로 변환한 결과 제공",
+          "sourceIds": [
+            "irf-applications-97"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5750,6 +6037,13 @@
             "source-irf-equipment-63"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "원소 및 분자 분석; 분자 구조 분석; 미량 원소 분석(H 포함); 화학 매핑(SIMS 이미지); 깊이 분포도 분석 및 3차원 분석",
+          "sourceIds": [
+            "irf-applications-63"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },
@@ -5802,6 +6096,13 @@
             "src-irf-91"
           ],
           "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+        },
+        "purpose": {
+          "value": "XRM장비는 비파괴 방식으로 내부구조, 기공, 결함영역 등의 3D 가시화 또는 2차원 단면상을 볼 수 있고, 이를 재구성하여 고분해능 3D 구조를 분석 할 수 있다.; 특히, 시료에서 관심 영역을 고분해능(Voxel resolution) 기반에서 Overview 뿐만 아니라 특정 ROI로 확대하여 2차원 및 3차원 내부 구조 분석이 가능하다.; 분석대상은 재료과학분야, 자연과학분야 및 생명과학분야 뿐만 아니라 다양한 산업, 과학 연구 분야에 대한 불특정 다수 시료의 분석 및 연구에 활용할 수 있다.; Energy Materials, Soft Materials & Biomaterials, Metals, Nanomaterials, Ceramics, Glass, Building Materials, Thin Films/Coatings, Catalyst/Nuclear, Electronics,; 다방면의 연구에 공동 활용이 가능하다.; 반도체 부품 소재/제품 등의 구조; 시멘트 등의 굳을 때의 pore 크기; Polymer의 기공 size",
+          "sourceIds": [
+            "irf-applications-91"
+          ],
+          "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
         }
       }
     },

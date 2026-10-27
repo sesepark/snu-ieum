@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "shared-draft-20261026",
-    "generatedAt": "2026-10-26T11:09:09Z",
+    "generatedAt": "2026-10-27T01:50:01.150Z",
     "publication": "prototype",
     "selectionReason": "기기원 보유기기의 서로 다른 분석 방식과 공대 공식 지원시설의 학술 공간을 골랐다. 장비 20개·공간 12곳의 사실 메타데이터 검수 초안으로 사람 승인 전이다. 전수 조사나 이용 가능 보장이 아니다.",
     "schemaVersion": 1
@@ -326,6 +326,150 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:09:09Z",
       "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "irf-applications-105",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=105",
+      "title": "300kV Cryo-EM 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-1",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=1",
+      "title": "300MHz NMR 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-109",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=109",
+      "title": "CD 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-84",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=84",
+      "title": "CLSM LSM980 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-108",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=108",
+      "title": "Cryo Sample Prep_Vitrobot 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-53",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=53",
+      "title": "Cs-STEM 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-106",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=106",
+      "title": "ESCA Axis Supra+ 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-100",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=100",
+      "title": "ESR 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-54",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=54",
+      "title": "FE-EPMA 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-89",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=89",
+      "title": "FIB II 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-74",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=74",
+      "title": "GC-HRTOFMS 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-19",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=19",
+      "title": "HRXRD 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-21",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=21",
+      "title": "ICP-MS 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-114",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=114",
+      "title": "MICADAS 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-113",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=113",
+      "title": "MRI 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-91",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=91",
+      "title": "XRM 공식 상세 · 기기활용",
+      "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
     }
   ],
   "resources": [
@@ -333,102 +477,130 @@
       "id": "eq-irf-105",
       "kind": "equipment",
       "name": "300kV 초저온 전자현미경 · 300kV Cryo-EM",
-      "summary": "300kV 초저온 전자현미경. 공식 상세에 모델 Krios G4 Cryo-EM, 호실 139-1동 B112호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 단백질의 3차원 구조 분석; 단백질 간 상호 작용 규명; 발병기작의 이해와 신약 개발에 기여; 초저온 전자토모그래피 분석; 초저온 Micro-ED 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "300kV 초저온 전자현미경",
         "300kV Cryo-EM",
-        "Krios G4 Cryo-EM"
+        "Krios G4 Cryo-EM",
+        "단백질의 3차원 구조 분석",
+        "단백질 간 상호 작용 규명",
+        "발병기작의 이해와 신약 개발에 기여",
+        "초저온 전자토모그래피 분석",
+        "초저온 Micro-ED 분석"
       ],
       "sourceIds": [
-        "src-irf-105"
+        "src-irf-105",
+        "irf-applications-105"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-1",
       "kind": "equipment",
       "name": "핵자기 공명 분광기 300MHz · 300MHz NMR",
-      "summary": "핵자기 공명 분광기 300MHz. 공식 상세에 모델 AvanceIII HD, 호실 139동 103호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 본 기관의 300MHz NMR은 매년 개최하는 Workshop을 통한 교육을 이수한 사람에 한하여 본인이 직접 기기를 사용할 수 있습니다.; 현재 1차원 실험(PROTON-1H, CARBON-13C) 위주로 운영하고 있으며 간단한 2차원 실험도 할 수 있습니다.; 어떤 종류의 핵을 관찰할 수 있을 지 결정하는 것은 자기장 내부에 있는 Probehead 인데, 본 기기가 가지고 있는 Probehead 는 5 mm QNP ( 1H/ 13C/ 19F/ 31P ), 5 mm Dual( 1H / 13C ), 10 mm Dual(1H / 13C) 이기 때문; 온도 제어장치가 완비되어 있기 때문에 -100℃ ∼ +100℃ 사이에서 온도 변화를 주면서 실험을 할 수도 있습니다. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "핵자기 공명 분광기 300MHz",
         "300MHz NMR",
-        "AvanceIII HD"
+        "AvanceIII HD",
+        "본 기관의 300MHz NMR은 매년 개최하는 Workshop을 통한 교육을 이수한 사람에 한하여 본인이 직접 기기를 사용할 수 있습니다.",
+        "현재 1차원 실험(PROTON-1H, CARBON-13C) 위주로 운영하고 있으며 간단한 2차원 실험도 할 수 있습니다.",
+        "온도 제어장치가 완비되어 있기 때문에 -100℃ ∼ +100℃ 사이에서 온도 변화를 주면서 실험을 할 수도 있습니다."
       ],
       "sourceIds": [
-        "src-irf-1"
+        "src-irf-1",
+        "irf-applications-1"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-109",
       "kind": "equipment",
       "name": "원편광 이색성 분광광도계 · CD",
-      "summary": "원편광 이색성 분광광도계. 공식 상세에 모델 J-1700, 호실 407호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 원형 이색성 분광편광계는 단백질 이차구조분석 및 polypeptide, 핵산 등 생명과학 분야에서 주로 사용되었으나, 최근들어 디스플레이, 태양광, 반도체, 인체 공학 등 첨단 재료 소재 분야에서도 사용된다.; 생명공학 뿐 아니라 chiral 물질 분석이 필요한 다양한 분야에서의 활용이 가능하다.; 특히, MCD(가변)을 장착하여 자기장을 이용한 분석이 가능하다. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "원편광 이색성 분광광도계",
         "CD",
-        "J-1700"
+        "J-1700",
+        "생명공학 뿐 아니라 chiral 물질 분석이 필요한 다양한 분야에서의 활용이 가능하다.",
+        "특히, MCD(가변)을 장착하여 자기장을 이용한 분석이 가능하다."
       ],
       "sourceIds": [
-        "src-irf-109"
+        "src-irf-109",
+        "irf-applications-109"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-84",
       "kind": "equipment",
       "name": "공초점 레이저 주사 현미경 · CLSM LSM980",
-      "summary": "공초점 레이저 주사 현미경. 공식 상세에 모델 LSM980, 호실 504동 206호_수요자중심서비스센터으로 안내되어 있다.",
+      "summary": "공식 기기활용: 세포, 조직 혹은 개체의 section된 형광 이미지 관찰; 생체조직의 손상을 최소화하며 3차원적 세포 및 조직 단면의 정보 획득; 시료의 3차원 형상 재구축; 형광물질의 정량 분석 및 분자 간의 상호작용 분석 가능; 고정된 조직 혹은 live cell의 실시간 관찰 가능; 다형광 표지를 통한 단백질 분포 양상 관찰 및 단백질의 화학적 변화 감지 가능; 의학, 생물학, 환경 미생물학, 식물학, 동물학, 유전학 등 광범위한 분야에서 활용 가능 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "공초점 레이저 주사 현미경",
         "CLSM LSM980",
-        "LSM980"
+        "LSM980",
+        "세포, 조직 혹은 개체의 section된 형광 이미지 관찰",
+        "생체조직의 손상을 최소화하며 3차원적 세포 및 조직 단면의 정보 획득",
+        "시료의 3차원 형상 재구축",
+        "형광물질의 정량 분석 및 분자 간의 상호작용 분석 가능",
+        "고정된 조직 혹은 live cell의 실시간 관찰 가능",
+        "다형광 표지를 통한 단백질 분포 양상 관찰 및 단백질의 화학적 변화 감지 가능",
+        "의학, 생물학, 환경 미생물학, 식물학, 동물학, 유전학 등 광범위한 분야에서 활용 가능"
       ],
       "sourceIds": [
-        "src-irf-84"
+        "src-irf-84",
+        "irf-applications-84"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-108",
       "kind": "equipment",
       "name": "초저온 시편제조기 · Cryo Sample Prep_Vitrobot",
-      "summary": "초저온 시편제조기. 공식 상세에 모델 Vitrobot, 호실 139-1동 B112호으로 안내되어 있다.",
+      "summary": "공식 기기활용: Vitrobot 시스템은 Cryo-TEM 전용 시료 준비 장치로서 세포 생물학 및 분자 이미징 같은 까다로운 과학 분야에서 매우 가치가 높다.; 분석 물질의 진정한 콜로이달(colloidal) 구조가 중요시되는 식품, 산업계, 제약 및 나노 기술 응용 분야에도 동일하게 적용될 수 있다. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "초저온 시편제조기",
         "Cryo Sample Prep_Vitrobot",
-        "Vitrobot"
+        "Vitrobot",
+        "Vitrobot 시스템은 Cryo-TEM 전용 시료 준비 장치로서 세포 생물학 및 분자 이미징 같은 까다로운 과학 분야에서 매우 가치가 높다.",
+        "분석 물질의 진정한 콜로이달(colloidal) 구조가 중요시되는 식품, 산업계, 제약 및 나노 기술 응용 분야에도 동일하게 적용될 수 있다."
       ],
       "sourceIds": [
-        "src-irf-108"
+        "src-irf-108",
+        "irf-applications-108"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-53",
       "kind": "equipment",
       "name": "구면수차보정 주사투과전자현미경 · Cs-STEM",
-      "summary": "구면수차보정 주사투과전자현미경. 공식 상세에 모델 JEM-ARM200F, 호실 139동 101호으로 안내되어 있다.",
+      "summary": "공식 기기활용: (1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰; (2) 내부구조 (결함,전위), 결정구조, 원자배열; (3) 화학조성, 원소분석 (정량, 정성, Mapping), 전자결합상태분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "구면수차보정 주사투과전자현미경",
         "Cs-STEM",
-        "JEM-ARM200F"
+        "JEM-ARM200F",
+        "(1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰",
+        "(2) 내부구조 (결함,전위), 결정구조, 원자배열",
+        "(3) 화학조성, 원소분석 (정량, 정성, Mapping), 전자결합상태분석"
       ],
       "sourceIds": [
-        "src-irf-53"
+        "src-irf-53",
+        "irf-applications-53"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
@@ -452,34 +624,46 @@
       "id": "eq-irf-106",
       "kind": "equipment",
       "name": "표면분석장치 · ESCA Axis Supra+",
-      "summary": "표면분석장치. 공식 상세에 모델 AXIS SUPRA+, 호실 139-1동 254호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 1. 유·무기 재료, 금속 및 고분자 재료의 화학적 특성 연구와 상대정량 분석; 2. 재료 개발 분야의 신뢰성 평가; 3. 표면의 산화물, 오염물 분석; 4. 깊이에 따른 분석; 5. ARXPS, Depth Profile, XPS Imaging, UPS, AES 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "표면분석장치",
         "ESCA Axis Supra+",
-        "AXIS SUPRA+"
+        "AXIS SUPRA+",
+        "1. 유·무기 재료, 금속 및 고분자 재료의 화학적 특성 연구와 상대정량 분석",
+        "2. 재료 개발 분야의 신뢰성 평가",
+        "3. 표면의 산화물, 오염물 분석",
+        "4. 깊이에 따른 분석",
+        "5. ARXPS, Depth Profile, XPS Imaging, UPS, AES"
       ],
       "sourceIds": [
-        "src-irf-106"
+        "src-irf-106",
+        "irf-applications-106"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-100",
       "kind": "equipment",
       "name": "전자스핀공명 분광기 · ESR",
-      "summary": "전자스핀공명 분광기. 공식 상세에 모델 EMXplus-9.5/12/P/L System, 호실 139동 108호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 물질 내부의 미세 또는 초미세 상호 작용력을 통한 전자 상태 연구; 유기 고분자 물질의 자유 라디칼의 평형 또는 동적 기하학 연구; 생명체 내의 활성 산소 라디칼의 상태 연구; 격자 결함을 통한 화석 연령 및 지질학적 특성 연구; 전자 스핀의 들뜬 상태로의 전이 과정을 통한 스핀 동역학 연구 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "전자스핀공명 분광기",
         "ESR",
-        "EMXplus-9.5/12/P/L System"
+        "EMXplus-9.5/12/P/L System",
+        "물질 내부의 미세 또는 초미세 상호 작용력을 통한 전자 상태 연구",
+        "유기 고분자 물질의 자유 라디칼의 평형 또는 동적 기하학 연구",
+        "생명체 내의 활성 산소 라디칼의 상태 연구",
+        "격자 결함을 통한 화석 연령 및 지질학적 특성 연구",
+        "전자 스핀의 들뜬 상태로의 전이 과정을 통한 스핀 동역학 연구"
       ],
       "sourceIds": [
-        "src-irf-100"
+        "src-irf-100",
+        "irf-applications-100"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
@@ -503,34 +687,42 @@
       "id": "eq-irf-54",
       "kind": "equipment",
       "name": "전계방사 전자현미분석기 · FE-EPMA",
-      "summary": "전계방사 전자현미분석기. 공식 상세에 모델 JXA-8530F, 호실 139동 130호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 금속, 반도체, 암석, 광물 등 각종 고체물질의 미세영역에서; (1) 고도 정밀 화학조성 분석; (2) 극 미량 조성, 원소분석(정량, 정성, mapping)을 한다. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "전계방사 전자현미분석기",
         "FE-EPMA",
-        "JXA-8530F"
+        "JXA-8530F",
+        "금속, 반도체, 암석, 광물 등 각종 고체물질의 미세영역에서",
+        "(1) 고도 정밀 화학조성 분석",
+        "(2) 극 미량 조성, 원소분석(정량, 정성, mapping)을 한다."
       ],
       "sourceIds": [
-        "src-irf-54"
+        "src-irf-54",
+        "irf-applications-54"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-89",
       "kind": "equipment",
       "name": "이온빔집속장치 · FIB II",
-      "summary": "이온빔집속장치. 공식 상세에 모델 Helios G4, 호실 139동 130호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 1) 재료 내부 구조 분석 : 금속 석출상, 개재물 등 분포 분석; 2) 금속/세라믹/전자/분말 소재의 투과전자현미경(TEM) 샘플 제작; 3) 품질 문제 대응 및 신소재, 신기술 분야 재료 미세 구조 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "이온빔집속장치",
         "FIB II",
-        "Helios G4"
+        "Helios G4",
+        "1) 재료 내부 구조 분석 : 금속 석출상, 개재물 등 분포 분석",
+        "2) 금속/세라믹/전자/분말 소재의 투과전자현미경(TEM) 샘플 제작",
+        "3) 품질 문제 대응 및 신소재, 신기술 분야 재료 미세 구조 분석"
       ],
       "sourceIds": [
-        "src-irf-89"
+        "src-irf-89",
+        "irf-applications-89"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
@@ -571,102 +763,132 @@
       "id": "eq-irf-74",
       "kind": "equipment",
       "name": "기체크로마토그래피 고분해능 비행시간형 질량분석기 · GC-HRTOFMS",
-      "summary": "기체크로마토그래피 고분해능 비행시간형 질량분석기. 공식 상세에 모델 JMS-T2000GC, 호실 139동 306호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 유기 합성 물질들의 분리 및 합성물의 분자량, 동위 원소량, 분자 구조 및 형태 파악.; 동위 원소의 분리 및 정량 분석. 신물질 및 고분자 물질의 분자 구조 결정 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "기체크로마토그래피 고분해능 비행시간형 질량분석기",
         "GC-HRTOFMS",
-        "JMS-T2000GC"
+        "JMS-T2000GC",
+        "유기 합성 물질들의 분리 및 합성물의 분자량, 동위 원소량, 분자 구조 및 형태 파악.",
+        "동위 원소의 분리 및 정량 분석. 신물질 및 고분자 물질의 분자 구조 결정"
       ],
       "sourceIds": [
-        "src-irf-74"
+        "src-irf-74",
+        "irf-applications-74"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-19",
       "kind": "equipment",
       "name": "고분해능 X-선 회절분석기 · HRXRD",
-      "summary": "고분해능 X-선 회절분석기. 공식 상세에 모델 SmartLab, 호실 139-1동 254호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 격자상수 변화에 대한 분포 - ω/2theta scan; 결정의 배향성, 결정성 -ω scan; X-선 반사를 이용한 박막의 두께, 거칠기 및 밀도 측정 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "고분해능 X-선 회절분석기",
         "HRXRD",
-        "SmartLab"
+        "SmartLab",
+        "격자상수 변화에 대한 분포 - ω/2theta scan",
+        "결정의 배향성, 결정성 -ω scan",
+        "X-선 반사를 이용한 박막의 두께, 거칠기 및 밀도 측정"
       ],
       "sourceIds": [
-        "src-irf-19"
+        "src-irf-19",
+        "irf-applications-19"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-21",
       "kind": "equipment",
       "name": "유도결합 플라즈마 질량분석기 · ICP-MS",
-      "summary": "유도결합 플라즈마 질량분석기. 공식 상세에 모델 NexION 350D, 호실 139동 207호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 분석대상; AAS나 ICP-AES로 분석하기 어려운 음용수 또는 폐수중의 중금속 분석; 순수 무기 물질내의 불순물 측정; 무기 및 유기화합물내의 미량, 희토류원소의 정량적 분석; 암석 및 퇴적물중의 미량 및 희토류 원소 분석; 강우, 담수 등 자연수중의 미량원소 분석; 생물체내 중금속 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "유도결합 플라즈마 질량분석기",
         "ICP-MS",
-        "NexION 350D"
+        "NexION 350D",
+        "분석대상",
+        "AAS나 ICP-AES로 분석하기 어려운 음용수 또는 폐수중의 중금속 분석",
+        "순수 무기 물질내의 불순물 측정",
+        "무기 및 유기화합물내의 미량, 희토류원소의 정량적 분석",
+        "암석 및 퇴적물중의 미량 및 희토류 원소 분석",
+        "강우, 담수 등 자연수중의 미량원소 분석",
+        "생물체내 중금속 분석"
       ],
       "sourceIds": [
-        "src-irf-21"
+        "src-irf-21",
+        "irf-applications-21"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-114",
       "kind": "equipment",
       "name": "소형탄소연대측정시스템 · MICADAS",
-      "summary": "소형탄소연대측정시스템. 공식 상세에 모델 MICADAS, 호실 152호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 1.방사성탄소 연대측정, 환경·지구과학 분야의 탄소순환 및 탄소 기원 추적; 2.바이오매스/화석탄소 기여율 분석, 탄산염 및 초미량 탄소 시료 분석; 3.고고학·법과학 등의 14C 분석에 활용 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "소형탄소연대측정시스템",
         "MICADAS",
-        "MICADAS"
+        "1.방사성탄소 연대측정, 환경·지구과학 분야의 탄소순환 및 탄소 기원 추적",
+        "2.바이오매스/화석탄소 기여율 분석, 탄산염 및 초미량 탄소 시료 분석",
+        "3.고고학·법과학 등의 14C 분석에 활용"
       ],
       "sourceIds": [
-        "src-irf-114"
+        "src-irf-114",
+        "irf-applications-114"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-113",
       "kind": "equipment",
       "name": "차세대 뇌과학 연구용 3T 자기공명영상장치 · MRI",
-      "summary": "차세대 뇌과학 연구용 3T 자기공명영상장치. 공식 상세에 모델 Siemens MAGNETOM Cima.X, 호실 139-1동 151호으로 안내되어 있다.",
+      "summary": "공식 기기활용: 첨단 뇌신경과학 연구; 인간 커넥톰 (Human Connectome) 매핑 및 분석; 고해상도 확산 MRI(dMRI)및 기능적 MRI(fMRI) 연구; 신경 및 정신 질환의 병태생리 기전 및 바이오마커 연구; 뇌의 구조적, 기능적 재조직화 과정에 대한 심층 연구 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "차세대 뇌과학 연구용 3T 자기공명영상장치",
         "MRI",
-        "Siemens MAGNETOM Cima.X"
+        "Siemens MAGNETOM Cima.X",
+        "첨단 뇌신경과학 연구",
+        "인간 커넥톰 (Human Connectome) 매핑 및 분석",
+        "고해상도 확산 MRI(dMRI)및 기능적 MRI(fMRI) 연구",
+        "신경 및 정신 질환의 병태생리 기전 및 바이오마커 연구",
+        "뇌의 구조적, 기능적 재조직화 과정에 대한 심층 연구"
       ],
       "sourceIds": [
-        "src-irf-113"
+        "src-irf-113",
+        "irf-applications-113"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
       "id": "eq-irf-91",
       "kind": "equipment",
       "name": "고분해능 3차원 X선 이미징 시스템 · XRM",
-      "summary": "고분해능 3차원 X선 이미징 시스템. 공식 상세에 모델 Xradia 620 Versa, 호실 139동 209호으로 안내되어 있다.",
+      "summary": "공식 기기활용: XRM장비는 비파괴 방식으로 내부구조, 기공, 결함영역 등의 3D 가시화 또는 2차원 단면상을 볼 수 있고, 이를 재구성하여 고분해능 3D 구조를 분석 할 수 있다.; 특히, 시료에서 관심 영역을 고분해능(Voxel resolution) 기반에서 Overview 뿐만 아니라 특정 ROI로 확대하여 2차원 및 3차원 내부 구조 분석이 가능하다.; 분석대상은 재료과학분야, 자연과학분야 및 생명과학분야 뿐만 아니라 다양한 산업, 과학 연구 분야에 대한 불특정 다수 시료의 분석 및 연구에 활용할 수 있다.; Energy Materials, Soft Materials & Biomaterials, Metals, Nanomaterials, Ceramics, Glass, Building Materials, Thin Films/Coatings, Catalyst/Nuclear, Electronics,; 다방면의 연구에 공동 활용이 가능하다.; 반도체 부품 소재/제품 등의 구조; 시멘트 등의 굳을 때의 pore 크기; Polymer의 기공 size 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
       "departmentId": "shared-irf",
       "keywords": [
         "고분해능 3차원 X선 이미징 시스템",
         "XRM",
-        "Xradia 620 Versa"
+        "Xradia 620 Versa",
+        "분석대상은 재료과학분야, 자연과학분야 및 생명과학분야 뿐만 아니라 다양한 산업, 과학 연구 분야에 대한 불특정 다수 시료의 분석 및 연구에 활용할 수 있다.",
+        "다방면의 연구에 공동 활용이 가능하다.",
+        "반도체 부품 소재/제품 등의 구조",
+        "시멘트 등의 굳을 때의 pore 크기",
+        "Polymer의 기공 size"
       ],
       "sourceIds": [
-        "src-irf-91"
+        "src-irf-91",
+        "irf-applications-91"
       ],
-      "lastVerifiedAt": "2026-10-26T11:09:09Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "verificationRequired": true
     },
     {
