@@ -67,3 +67,12 @@ it('rejects a release that omits official departments or introduces an unchecked
   const unchecked = parseSnapshot({...s,departments:[...s.departments,{id:'unchecked',name:'검수 전 학과',sourceIds:['s-departments']}]});
   expect(catalog(unchecked).gaps.some(gap=>gap.includes('공식 학과 목록과 대조 필요'))).toBe(true);
 });
+it('finds explicit Korean variants and English flexible while preferring literal source text',()=>{
+ const clone=structuredClone(s),original=clone.resources[0];
+ clone.resources=[{...original,id:'literal-resource',name:'가나다',summary:'유연 전자 소자',keywords:[]},{...original,id:'variant-resource',name:'나라마',summary:'Flexible electronic devices',keywords:[]},{...original,id:'excluded-resource',name:'다라마',summary:'Inflexible production constraints',keywords:[]}];clone.relations=[];clone.evidence=[];
+ const results=recommend(clone,{...base,q:'유연'});expect(results.map(r=>r.resource.id)).toEqual(['literal-resource','variant-resource']);expect(results[1].reason).toContain('다른 표현');
+ expect(recommend(clone,{...base,q:'유연',departmentIds:['industrial']})).toEqual([]);
+ expect(recommend(clone,{...base,q:'유연 우주'})).toEqual([]);
+ clone.resources[1].summary='시계열 이상 탐지 및 원인 분석';expect(recommend(clone,{...base,q:'이상치'}).map(r=>r.resource.id)).toEqual(['variant-resource']);
+ expect(clone.relations).toEqual([]);
+});

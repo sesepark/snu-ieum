@@ -70,3 +70,5 @@ node --import tsx infra/search-evaluation-cli.ts score data/college-draft.json d
 ```
 
 집계 시 현재 코드로 같은 시점·과제의 결과를 재생성하고 내용 해시를 대조한다. 같은 일자 버전이라도 결과·출처·관계·위치·과제가 달라졌으면 과거 판정을 재사용하지 않는다. 동일 검수자 중복, 누락 판정, 모르는 자원·출처, 시점 역전, 다른 배치는 거부한다. 이 도구는 출시 승인이나 8명 학생 평가를 대신하지 않는다.
+
+2026-10-27 표현 보완 후의 최신 후보 묶음은 `campus-search-candidates-variants-20261027.json`, 빈 검수 양식은 `campus-variant-reviews.pending.json`, 미수행 집계는 `campus-variant-search-pending-report.json`이다. 앞선 파일은 보완 전 기준 기록으로 보존한다. 기존 명시 검색 표현 목록에 이상치/이상 탐지와 유연/flexible을 추가하고 원문 일치를 우선했다. flexible은 영어 단어 경계를 확인한다. 10개 과제에서 후보 3개 이상이 반환되지만 실제 관련도 통과가 아니다. 검색 결과 내용 해시가 달라지므로 이전 묶음의 판정을 새 결과에 재사용할 수 없다.

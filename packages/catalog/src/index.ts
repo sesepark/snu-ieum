@@ -3,17 +3,19 @@ import { RecommendationSchema, SnapshotSchema, type Snapshot, type Filters, type
 
 export const normalize = (text: string) => text.normalize('NFKC').toLocaleLowerCase('ko').replace(/[^\p{L}\p{N}]/gu, '');
 // Only reviewed equivalents; never infer eligibility, relationships or identities.
-const equivalents = [['인공지능', 'ai', 'artificialintelligence'], ['기계학습', '머신러닝', 'machinelearning'], ['데이터과학', '데이터사이언스', 'datascience']];
+const equivalents = [['인공지능', 'ai', 'artificialintelligence'], ['기계학습', '머신러닝', 'machinelearning'], ['데이터과학', '데이터사이언스', 'datascience'], ['이상치', '이상탐지'], ['유연', 'flexible']];
 export function queryTerms(text: string) {
   return text.trim().split(/\s+/u).filter(Boolean).map(token => {
     const n = normalize(token);
     return equivalents.find(group => group.includes(n)) ?? [n];
   });
 }
-export const resourceText = (r: Resource, s: Snapshot) => normalize([r.name, r.summary, ...r.keywords, s.departments.find(d => d.id === r.departmentId)?.name ?? ''].join(' '));
+const rawResourceText = (r: Resource, s: Snapshot) => [r.name, r.summary, ...r.keywords, s.departments.find(d => d.id === r.departmentId)?.name ?? ''].join(' ');
+export const resourceText = (r: Resource, s: Snapshot) => normalize(rawResourceText(r, s));
+const containsTerm = (r:Resource,s:Snapshot,term:string) => term==='flexible' ? /(?:^|[^a-z])flexible(?:$|[^a-z])/i.test(rawResourceText(r,s).normalize('NFKC')) : resourceText(r,s).includes(term);
 export function filteredResources(s: Snapshot, f: Filters) {
   const terms = queryTerms(f.q);
-  return s.resources.filter(r => (!f.kinds.length || f.kinds.includes(r.kind)) && (!f.departmentIds.length || f.departmentIds.includes(r.departmentId)) && terms.every(group => group.some(term => resourceText(r, s).includes(term))));
+  return s.resources.filter(r => (!f.kinds.length || f.kinds.includes(r.kind)) && (!f.departmentIds.length || f.departmentIds.includes(r.departmentId)) && terms.every(group => group.some(term => containsTerm(r,s,term))));
 }
 export function catalog(s: Snapshot, quality?:{ready:boolean;gaps:string[]}): Catalog {
   const counts = (resources: Resource[]) => Object.fromEntries(['researcher', 'lab', 'equipment', 'space'].map(kind => [kind, resources.filter(r => r.kind === kind).length])) as Catalog['totals'];
@@ -42,6 +44,8 @@ export function catalog(s: Snapshot, quality?:{ready:boolean;gaps:string[]}): Ca
 export function recommend(s: Snapshot, f: Filters, semantic: Map<string, number> = new Map(), now = Date.now()): Recommendation[] {
   const ordinary = filteredResources(s, f);
   const candidates = semantic.size ? filteredResources(s, { ...f, q: '' }).filter(r => (Boolean(f.q) && ordinary.includes(r)) || semantic.has(r.id)) : ordinary;
+  const literalTerms=f.q.trim().split(/\s+/u).filter(Boolean).map(normalize);
+  const literal=new Set(ordinary.filter(r=>literalTerms.every(term=>containsTerm(r,s,term))).map(r=>r.id));
   const direct = new Set(semantic.keys());
   const proximity = new Map<string, number>();
   let frontier = direct;
@@ -57,10 +61,10 @@ export function recommend(s: Snapshot, f: Filters, semantic: Map<string, number>
     const source = s.sources.filter(source => r.sourceIds.includes(source.id));
     const age = Math.max(0, (now - Date.parse(r.lastVerifiedAt)) / 86400000);
     const ttl = r.kind === 'equipment' || r.kind === 'space' ? 7 : 30;
-    const score = .45 * (semantic.get(r.id) ?? ((Boolean(f.q) || !semantic.size) && ordinary.includes(r) ? 1 : 0)) + .25 * (direct.has(r.id) ? 1 : proximity.get(r.id) ?? 0) + .2 * (source.some(s => s.sourceType === 'official-page') ? 1 : .5) + .1 * Math.max(0, 1 - age / 365);
+    const score = .45 * (semantic.get(r.id) ?? ((Boolean(f.q) || !semantic.size) && ordinary.includes(r) ? (literal.has(r.id)?1:.9) : 0)) + .25 * (direct.has(r.id) ? 1 : proximity.get(r.id) ?? 0) + .2 * (source.some(s => s.sourceType === 'official-page') ? 1 : .5) + .1 * Math.max(0, 1 - age / 365);
     const relationIds = s.relations.filter(e => (e.from === r.id && (direct.has(e.to) || proximity.has(e.to))) || (e.to === r.id && (direct.has(e.from) || proximity.has(e.from)))).map(e => e.id);
     const result = RecommendationSchema.safeParse({ resource: r, source, score,
-      reason: proximity.has(r.id) ? '공식 출처가 있는 관계로 검색 후보와 연결됩니다.' : semantic.has(r.id) && !ordinary.includes(r) ? '목표 해석과 승인된 연구 소개의 의미 유사도로 찾은 후보입니다.' : f.q ? `공식 소개의 이름·연구 분야·소속에서 검색어와 일치합니다.` : '공식 출처에서 확인한 수록 자원입니다.',
+      reason: proximity.has(r.id) ? '공식 출처가 있는 관계로 검색 후보와 연결됩니다.' : semantic.has(r.id) && !ordinary.includes(r) ? '목표 해석과 승인된 연구 소개의 의미 유사도로 찾은 후보입니다.' : f.q ? literal.has(r.id) ? `공식 소개의 이름·연구 분야·소속에서 검색어와 일치합니다.` : '공식 소개에서 검색어의 다른 표현과 일치합니다.' : '공식 출처에서 확인한 수록 자원입니다.',
       lastVerifiedAt: r.lastVerifiedAt, verificationRequired: r.verificationRequired || age > ttl, relationIds });
     return result.success ? result.data : null;
   }).filter((r): r is Recommendation => r !== null).sort((a, b) => b.score - a.score || a.resource.name.localeCompare(b.resource.name, 'ko'));

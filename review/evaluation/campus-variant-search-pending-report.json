@@ -1,0 +1,109 @@
+{
+  "candidateSha256": "d68f03c37b8ccaf7c56b6b16e9253a4abc0d3ab541bb66fa459a5eb63f9db953",
+  "batchVersion": "college-draft-20261027",
+  "spatialBatchVersion": "campus-20261027",
+  "evaluationConducted": false,
+  "searchTargets": 12,
+  "relevantTopTenPass": 0,
+  "passRatio": null,
+  "targetMet": false,
+  "approvedBatch": false,
+  "cases": [
+    {
+      "caseId": "search-cee",
+      "targetDepartmentId": "cee",
+      "reviewers": [],
+      "candidates": 3,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-architecture",
+      "targetDepartmentId": "architecture",
+      "reviewers": [],
+      "candidates": 10,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-mechanical",
+      "targetDepartmentId": "mechanical",
+      "reviewers": [],
+      "candidates": 10,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-industrial",
+      "targetDepartmentId": "industrial",
+      "reviewers": [],
+      "candidates": 3,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-energy",
+      "targetDepartmentId": "energy",
+      "reviewers": [],
+      "candidates": 4,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-nuclear",
+      "targetDepartmentId": "nuclear",
+      "reviewers": [],
+      "candidates": 2,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-materials",
+      "targetDepartmentId": "materials",
+      "reviewers": [],
+      "candidates": 2,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-ece",
+      "targetDepartmentId": "ece",
+      "reviewers": [],
+      "candidates": 5,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-naval",
+      "targetDepartmentId": "naval",
+      "reviewers": [],
+      "candidates": 10,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-cse",
+      "targetDepartmentId": "cse",
+      "reviewers": [],
+      "candidates": 10,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-aerospace",
+      "targetDepartmentId": "aerospace",
+      "reviewers": [],
+      "candidates": 3,
+      "relevantResourceIds": [],
+      "passed": null
+    },
+    {
+      "caseId": "search-chemical",
+      "targetDepartmentId": "chemical",
+      "reviewers": [],
+      "candidates": 10,
+      "relevantResourceIds": [],
+      "passed": null
+    }
+  ]
+}
