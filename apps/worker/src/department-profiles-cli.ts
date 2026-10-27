@@ -1,7 +1,7 @@
 import{readFile,writeFile,mkdir}from'node:fs/promises';import{join}from'node:path';
 import{Pool}from'pg';import{z}from'zod';import{load}from'cheerio';
 import{Pipeline,PolicySchema,assertAllowed}from'./pipeline.ts';import{fetchAllowed,readLimited}from'./official.ts';
-import{parseIEFaculty,parseNuclearFaculty,parseAerospaceFaculty,parseIELab,parseCEEFaculty,parseNavalFaculty,parseEnergyFaculty,parseEnergyDetail,parseNavalLabs,parseMechanicalFaculty,parseMaterialsFacultyLinks,parseMaterialsDetail,parseECEFaculty,parseChemicalFaculty,parseChemicalDetail,parseECELabLinks,parseECELab}from'./department-profiles.ts';
+import{type FacultyFact,parseIEFaculty,parseNuclearFaculty,parseAerospaceFaculty,parseIELab,parseCEEFaculty,parseNavalFaculty,parseEnergyFaculty,parseEnergyDetail,parseNavalLabs,parseMechanicalFaculty,parseMaterialsFacultyLinks,parseMaterialsDetail,parseECEFaculty,parseChemicalFaculty,parseChemicalDetail,parseECELabLinks,parseECELab}from'./department-profiles.ts';
 // Source collection only: repeated runs never mutate canonical drafts or grant approval.
 if(!process.env.DATABASE_URL||!process.argv[2])throw new Error('DATABASE_URL and reviewed source policy config path required');
 const config=z.strictObject({policies:z.array(PolicySchema).min(1),outputDirectory:z.string().min(1),cohort:z.enum(['industrial-nuclear-aerospace','civil-naval-energy','mechanical-materials-electrical-chemical']).default('industrial-nuclear-aerospace')}).parse(JSON.parse(await readFile(process.argv[2],'utf8')));
@@ -19,7 +19,7 @@ try{
  for(const[departmentId,url,parser]of cohort){
   const policy=policyFor(url),runId=await pipeline.start('official-faculty-field-candidates',policy);
   try{
-   const html=await sourceHtml(url),facts=parser(html);
+   const html=await sourceHtml(url),facts:(FacultyFact&{profileUrl?:string|null})[]=parser(html);
    if(departmentId==='chemical'){
     let complete=false;for(let page=2;page<=10;page++){const rows=parseChemicalFaculty(await sourceHtml(`${url}&pageIndex=${page}`));if(!rows.length){complete=true;break;}if(rows.some(f=>facts.some(x=>'profileUrl'in x&&x.profileUrl===f.profileUrl)))throw new Error('Repeated chemical faculty page');facts.push(...rows);if(rows.length<8){complete=true;break;}}if(!complete)throw new Error('Faculty paging limit reached');
    }
@@ -28,7 +28,7 @@ try{
    if(facts.length<10)throw new Error('Faculty selector incomplete');
    const rawId=await pipeline.record(runId,departmentId,url,{facts,excluded:['contact details, original HTML, images, guest and emeritus sections omitted']});
    const stagingIds=[];
-   for(const[i,fact]of facts.entries())stagingIds.push(await pipeline.stageCandidate(runId,rawId,{kind:'researcher',name:fact.name,sourceUrl:url,externalId:`${url}#official-card-${i+1}`,parserVersion:policy.parserVersion,facts:{departmentId,rank:fact.rank,researchFields:fact.researchFields??'',officialHomepage:fact.homepage??'',officeAddress:fact.officeAddress??'',labLabel:fact.labName??''}}));
+   for(const[i,fact]of facts.entries())stagingIds.push(await pipeline.stageCandidate(runId,rawId,{kind:'researcher',name:fact.name,sourceUrl:url,externalId:`${url}#official-card-${i+1}`,parserVersion:policy.parserVersion,facts:{departmentId,rank:fact.rank,researchFields:fact.researchFields??'',officialHomepage:fact.homepage??'',officeAddress:fact.officeAddress??'',labLabel:fact.labName??'',labLabels:('labNames'in fact?fact.labNames:undefined)?.join(' | ')??''}}));
    await pipeline.finish(runId,'complete');records.push({departmentId,url,runId,rawId,stagingIds,count:facts.length});
    if(departmentId==='ece'){
     const labUrl='https://ece.snu.ac.kr/research-faculty/research/lab',labPolicy=policyFor(labUrl),links=parseECELabLinks(await sourceHtml(labUrl));

@@ -1,24 +1,24 @@
 {
-  "runId": "b0afce74-607f-4761-acae-b0f59525a2fb",
-  "rawId": "4a1825359704ac3b00a20f7fb640f35612e5ead5c1e2317b43cf4e67419c20de",
-  "researchRawId": "6970dd3f2811671971d9b783cb4ac2d3a31da16f62c752ad7c50a846247a09ea",
-  "researchStagingId": "3f1d004a-eae0-4193-bb80-3043082a06e8",
-  "spatialStagingId": "cc251ce8-bd2b-46eb-8d48-2d2c31eba253",
-  "checkedAt": "2026-10-27T01:51:06.571Z",
+  "runId": "91cd14df-18cc-4a6c-a3e7-b9ef420e6fcd",
+  "rawId": "e78c546e01dfca73a32ddf2ac97e0d83e7c912c0240ae6d58e9acdfcb1c633c9",
+  "researchRawId": "3cde75f08e510ebed19116ee4c5639a4cebf2b2c4dc154e0bb99af09a40b4048",
+  "researchStagingId": "4a4a75d7-aa18-40bb-806a-ab739fd76205",
+  "spatialStagingId": "5418baa8-621a-47e2-bc94-0ea528ab89ae",
+  "checkedAt": "2026-10-27T02:08:30.078Z",
   "status": "pending-human-review",
-  "resources": 806,
-  "relations": 229,
+  "resources": 807,
+  "relations": 230,
   "spatial": {
     "buildings": 284,
     "officialIdentified": 137,
     "footprintMatched": 112,
     "officialInventoryComplete": false,
     "mappedResources": 281,
-    "unlocatedResources": 525,
+    "unlocatedResources": 526,
     "pendingFootprints": 259,
     "labs": {
       "mapped": 57,
-      "total": 236
+      "total": 237
     }
   }
 }

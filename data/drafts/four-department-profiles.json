@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "department-profile-draft-20261027",
-    "generatedAt": "2026-10-27T01:42:18.189Z",
+    "generatedAt": "2026-10-27T02:07:40.329Z",
     "publication": "prototype",
     "schemaVersion": 1,
     "selectionReason": "기계·재료·전기정보·화학생물 공식 현직 교수 목록과 전기정보 연구실 전체 소개를 대조한 최소 사실. 공대 목록과 차이는 검수 대기, 교수실을 연구실로 전파하지 않음. 사람 승인 대기."
@@ -1880,14 +1880,14 @@
     {
       "id": "lab-four-mechanical-e",
       "kind": "lab",
-      "name": "냉동시스템 및 컨트롤 연구실연료전지시스템 연구실",
-      "summary": "공식 교수 소개에 김민수 교수와 함께 명시된 연구실. 연구실의 개별 주소·연구 분야 확인 필요.",
+      "name": "냉동시스템 및 컨트롤 연구실",
+      "summary": "공식 기계공학부 김민수 교수 카드에 명시된 연구실. 같은 카드의 다른 연구실과 구별하며 개별 연구실 주소·홈페이지 확인 필요.",
       "departmentId": "mechanical",
       "keywords": [],
       "sourceIds": [
         "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T02:07:40.329Z",
       "verificationRequired": true
     },
     {
@@ -6154,6 +6154,19 @@
       ],
       "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
+    },
+    {
+      "id": "lab-mechanical-fuel-cell",
+      "kind": "lab",
+      "name": "연료전지시스템 연구실",
+      "summary": "공식 기계공학부 김민수 교수 카드에 명시된 연구실. 같은 카드의 다른 연구실과 구별하며 개별 연구실 주소·홈페이지 확인 필요.",
+      "departmentId": "mechanical",
+      "keywords": [],
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-27T02:07:40.329Z",
+      "verificationRequired": true
     }
   ],
   "relations": [
@@ -7575,6 +7588,17 @@
         "profile-four-source-ece-218"
       ],
       "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "leads-mechanical-fuel-cell",
+      "from": "prof-dir-mechanical-ckkpgdapomcf",
+      "to": "lab-mechanical-fuel-cell",
+      "type": "LEADS",
+      "label": "지도교수",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "lastVerifiedAt": "2026-10-27T02:07:40.329Z"
     }
   ],
   "evidence": []

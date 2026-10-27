@@ -45,3 +45,9 @@ it('preserves separately identified electrical labs with equal names and reads t
  const links=parseECELabLinks('<a href="?labidx=1">제어 연구실</a><a href="?labidx=2">제어 연구실</a><a href="?labidx=1">제어 연구실</a>');expect(links).toHaveLength(2);
  const fact=parseECELab('<div class="prof-name-bm"><h2>제어 연구실</h2></div><div class="info-wrap"><div><strong>지도</strong> 김교수 교수</div><div><strong>연구</strong> 동역학</div></div>');expect(fact.advisor).toBe('김교수');expect(fact.address).toBeNull();
 });
+
+it('keeps separately listed mechanical labs without concatenating them into a fabricated name',async()=>{
+ const{parseMechanicalFaculty}=await import('./department-profiles');
+ const html='<div class="elementor-widget-wrap"><h2 class="jet-headline"><span class="jet-headline__first"><span class="jet-headline__label">김교수</span></span></h2><div class="field-meta"><strong>연구실</strong><span>냉동 연구실<br>연료전지 연구실</span></div><div class="field-meta"><strong>주소</strong>301동 1호</div></div>';
+ const fact=parseMechanicalFaculty(html)[0];expect(fact.labName).toBeNull();expect(fact.labNames).toEqual(['냉동 연구실','연료전지 연구실']);expect(fact.officeAddress).toBe('301동 1호');
+});

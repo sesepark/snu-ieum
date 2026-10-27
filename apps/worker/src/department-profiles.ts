@@ -1,5 +1,5 @@
 import{load}from'cheerio';
-export type FacultyFact={name:string;rank:string;researchFields:string|null;homepage:string|null;officeAddress:string|null;labName:string|null};
+export type FacultyFact={name:string;rank:string;researchFields:string|null;homepage:string|null;officeAddress:string|null;labName:string|null;labNames?:string[]};
 const clean=(text:string)=>text.replace(/\s+/g,' ').trim();
 export function parseIEFaculty(html:string):FacultyFact[]{
  const $=load(html),facts:FacultyFact[]=[];let stopped=false;
@@ -82,8 +82,9 @@ export function parseMechanicalFaculty(html:string):FacultyFact[]{
  const $=load(html);
  return $('h2.jet-headline').toArray().map(h=>{
   const e=$(h).closest('.elementor-widget-wrap'),values=e.find('.field-meta').toArray().map(x=>clean($(x).text()));
+  const labCell=e.find('.field-meta').filter((_,m)=>clean($(m).text()).startsWith('연구실')).first().clone();labCell.find('strong').remove();labCell.find('br').replaceWith('\n');const labNames=labCell.text().split(/\n/).map(clean).filter(Boolean);
   const value=(label:string)=>values.find(t=>t.startsWith(label))?.slice(label.length).trim()||null;
-  return{name:clean($(h).find('.jet-headline__first .jet-headline__label').text()),rank:clean(e.find('h2.elementor-heading-title').first().text()),researchFields:value('전공'),officeAddress:value('주소'),labName:value('연구실'),homepage:e.find('a[href]').toArray().map(a=>$(a).attr('href')!).find(u=>/^https?:\/\//.test(u))??null};
+  return{name:clean($(h).find('.jet-headline__first .jet-headline__label').text()),rank:clean(e.find('h2.elementor-heading-title').first().text()),researchFields:value('전공'),officeAddress:value('주소'),labName:labNames.length===1?labNames[0]:null,labNames,homepage:e.find('a[href]').toArray().map(a=>$(a).attr('href')!).find(u=>/^https?:\/\//.test(u))??null};
  }).filter(f=>f.name);
 }
 export function parseMaterialsFacultyLinks(html:string){
