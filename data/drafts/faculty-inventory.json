@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "faculty-directory-draft-20261027",
-    "generatedAt": "2026-10-26T17:57:49.731Z",
+    "generatedAt": "2026-10-27T01:42:18.189Z",
     "publication": "prototype",
     "schemaVersion": 1,
     "selectionReason": "공대 공식 교수검색 전체 페이지의 최소 이름·소속·직위. 학과별 현직 검수·분야·홈페이지·주소·논문은 후속 확인. 불명확한 영문 이름 두 건은 자동 병합하지 않음."
@@ -410,6 +410,1167 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T17:57:49.731Z",
       "lastVerifiedAt": "2026-10-26T17:57:49.731Z"
+    },
+    {
+      "id": "src-mechanical-robot",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "김아영 · 로봇 인식 및 공간 지능 연구실 공식 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z"
+    },
+    {
+      "id": "profile-four-source-materials-20",
+      "url": "https://mse.snu.ac.kr/kang-kisuk/",
+      "title": "강기석 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-19",
+      "url": "https://mse.snu.ac.kr/kang-keehoon/",
+      "title": "강기훈 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-38",
+      "url": "https://mse.snu.ac.kr/stephen-dongmin-kang/",
+      "title": "강동민 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-21",
+      "url": "https://mse.snu.ac.kr/kang-seung-kyun/",
+      "title": "강승균 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-27",
+      "url": "https://mse.snu.ac.kr/%ea%b3%bd%ec%8a%b9%ec%97%bd/",
+      "title": "곽승엽 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-28",
+      "url": "https://mse.snu.ac.kr/kwon-min-sang/",
+      "title": "권민상 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-23",
+      "url": "https://mse.snu.ac.kr/kim-miyoung/",
+      "title": "김미영 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-24",
+      "url": "https://mse.snu.ac.kr/kim-sang-koog/",
+      "title": "김상국 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-22",
+      "url": "https://mse.snu.ac.kr/kim-jin-young/",
+      "title": "김진영 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-2",
+      "url": "https://mse.snu.ac.kr/kim-changkyu/",
+      "title": "김창규 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-6",
+      "url": "https://mse.snu.ac.kr/doh-jun-sang/",
+      "title": "도준상 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-36",
+      "url": "https://mse.snu.ac.kr/ryu-ill/",
+      "title": "류일 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-35",
+      "url": "https://mse.snu.ac.kr/park-min-hyuk/",
+      "title": "박민혁 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-33",
+      "url": "https://mse.snu.ac.kr/park-eun-soo/",
+      "title": "박은수 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-34",
+      "url": "https://mse.snu.ac.kr/park-juhyuk/",
+      "title": "박주혁 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-32",
+      "url": "https://mse.snu.ac.kr/park-chan/",
+      "title": "박찬 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-39",
+      "url": "https://mse.snu.ac.kr/sun-jeong-yun/",
+      "title": "선정윤 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-37",
+      "url": "https://mse.snu.ac.kr/son-junwoo/",
+      "title": "손준우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-4",
+      "url": "https://mse.snu.ac.kr/ahn-cheol-hee/",
+      "title": "안철희 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-3",
+      "url": "https://mse.snu.ac.kr/seung-jae-yang/",
+      "title": "양승재 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-12",
+      "url": "https://mse.snu.ac.kr/hyobin-yoo/",
+      "title": "유효빈 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-42",
+      "url": "https://mse.snu.ac.kr/yi-kyung-woo/",
+      "title": "이경우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-29",
+      "url": "https://mse.snu.ac.kr/%ec%9d%b4%ea%b4%80%ed%98%95/",
+      "title": "이관형 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-30",
+      "url": "https://mse.snu.ac.kr/lee-myungjae/",
+      "title": "이명재 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-31",
+      "url": "https://mse.snu.ac.kr/lee-tae-woo/",
+      "title": "이태우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-14",
+      "url": "https://mse.snu.ac.kr/jang-hyejin/",
+      "title": "장혜진 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-13",
+      "url": "https://mse.snu.ac.kr/jang-ho-won/",
+      "title": "장호원 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-41",
+      "url": "https://mse.snu.ac.kr/woochul-jung/",
+      "title": "정우철 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-18",
+      "url": "https://mse.snu.ac.kr/jung-in-ho/",
+      "title": "정인호 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-15",
+      "url": "https://mse.snu.ac.kr/joo-young-chang/",
+      "title": "주영창 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-5",
+      "url": "https://mse.snu.ac.kr/choi-in-suk/",
+      "title": "최인석 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-9",
+      "url": "https://mse.snu.ac.kr/han-seungwu/",
+      "title": "한승우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-8",
+      "url": "https://mse.snu.ac.kr/han-jeong-woo/",
+      "title": "한정우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-16",
+      "url": "https://mse.snu.ac.kr/joon-kyu-han/",
+      "title": "한준규 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-7",
+      "url": "https://mse.snu.ac.kr/han-heung-nam/",
+      "title": "한흥남 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-10",
+      "url": "https://mse.snu.ac.kr/hong-seong-hyeon/",
+      "title": "홍성현 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-materials-11",
+      "url": "https://mse.snu.ac.kr/hwang-cheol-seong/",
+      "title": "황철성 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-45",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p001",
+      "title": "고형석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-46",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p834",
+      "title": "곽정훈 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-47",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p067",
+      "title": "권성훈 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-48",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p004",
+      "title": "김남수 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-49",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p074",
+      "title": "김성재 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-50",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p833",
+      "title": "김영민 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-51",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p817",
+      "title": "김장우 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-52",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p872",
+      "title": "김재준 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-53",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p071",
+      "title": "김재하 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-54",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p896",
+      "title": "김진수 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-55",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p062",
+      "title": "김태환 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-56",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p919",
+      "title": "남동욱 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-57",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p901",
+      "title": "도재영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-58",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p012",
+      "title": "문수묵 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-60",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p015",
+      "title": "박남규 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-61",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p017",
+      "title": "박세웅 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-64",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p058",
+      "title": "백윤흥 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-65",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p022",
+      "title": "서승우 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-66",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p068",
+      "title": "서종모 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-68",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p899",
+      "title": "신종원 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-69",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p059",
+      "title": "신형철 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-70",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p055",
+      "title": "심규석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-71",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p078",
+      "title": "심병효 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-72",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p867",
+      "title": "심재웅 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-73",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p060",
+      "title": "심형보 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-74",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p824",
+      "title": "양인순 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-75",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p903",
+      "title": "양현종 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-76",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p070",
+      "title": "오성회 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-77",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p823",
+      "title": "오정석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-78",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p895",
+      "title": "유담 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-79",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p828",
+      "title": "유선규 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-80",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p893",
+      "title": "윤상원 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-81",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p075",
+      "title": "윤성로 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-82",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p064",
+      "title": "윤용태 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-83",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p061",
+      "title": "이경무 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-84",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p841",
+      "title": "이경한 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-85",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p898",
+      "title": "이규섭 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-86",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p826",
+      "title": "이병영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-87",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p922",
+      "title": "이성욱 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-88",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p835",
+      "title": "이수연 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-89",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p831",
+      "title": "이재상 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-90",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p057",
+      "title": "이정우 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-93",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p904",
+      "title": "이진규 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-94",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p877",
+      "title": "이진호 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-95",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p881",
+      "title": "이철호 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-96",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p054",
+      "title": "이혁재 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-97",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p923",
+      "title": "이현주 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-98",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p869",
+      "title": "전세영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-99",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p805",
+      "title": "정교민 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-101",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p073",
+      "title": "정윤찬 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-102",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p041",
+      "title": "조남익 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-103",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p871",
+      "title": "최성휘 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-104",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p839",
+      "title": "최완 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-105",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p840",
+      "title": "최우석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-106",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p892",
+      "title": "최우열 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-107",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p874",
+      "title": "최우영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-108",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p894",
+      "title": "최재혁 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-109",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p900",
+      "title": "최종현 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-111",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p072",
+      "title": "하정익 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-112",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p825",
+      "title": "한보형 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-113",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
+      "title": "한승용 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-ece-114",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p052",
+      "title": "홍성수 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-118",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3497",
+      "title": "강종헌 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-119",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3465",
+      "title": "김소연 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-120",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3457",
+      "title": "김연상 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-121",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=83300",
+      "title": "김정욱 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-122",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=85207",
+      "title": "김준원 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-123",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3442",
+      "title": "김지현 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-124",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3434",
+      "title": "남재욱 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-125",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3426",
+      "title": "류재윤 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-126",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3418",
+      "title": "박정원 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-127",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3410",
+      "title": "백승렬 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-128",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3402",
+      "title": "서상우 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-129",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3394",
+      "title": "성영은 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-130",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3386",
+      "title": "안경현 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-131",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3379",
+      "title": "오준학 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-132",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3371",
+      "title": "유동원 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-133",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3363",
+      "title": "윤제용 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-135",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=85208",
+      "title": "이건희 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-136",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3355",
+      "title": "이규태 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-137",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3347",
+      "title": "이원보 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-138",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3339",
+      "title": "이종민 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-139",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3328",
+      "title": "이종찬 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-140",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3324",
+      "title": "이창하 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-141",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=84376",
+      "title": "정상택 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-142",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3317",
+      "title": "정유성 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-143",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3309",
+      "title": "정인 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-144",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3293",
+      "title": "최장욱 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-145",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3285",
+      "title": "한지숙 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-146",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3277",
+      "title": "현택환 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "profile-four-source-chemical-147",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3269",
+      "title": "홍무선 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
     }
   ],
   "resources": [
@@ -1121,496 +2282,562 @@
       "id": "prof-dir-mechanical-hbhnoejfhnfb",
       "kind": "researcher",
       "name": "강연준",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 음향공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "음향공학"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-efohajinancd",
       "kind": "researcher",
       "name": "강준호",
-      "summary": "공대 공식 교수검색에 기계공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 바이오공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "조교수"
+        "조교수",
+        "바이오공학"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-jjgojaobmggj",
       "kind": "researcher",
       "name": "고승환",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "열공학"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-lfcbaokejoda",
       "kind": "researcher",
       "name": "김도년",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전산역학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "전산역학"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-ckkpgdapomcf",
       "kind": "researcher",
       "name": "김민수",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "열공학"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-fafifdkcnfkp",
       "kind": "researcher",
       "name": "김수용",
-      "summary": "공대 공식 교수검색에 기계공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "조교수"
+        "조교수",
+        "열공학"
       ],
       "sourceIds": [
-        "source-eng-directory-4"
+        "source-eng-directory-4",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-depeeclngokl",
       "kind": "researcher",
       "name": "김태용",
-      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "부교수"
+        "부교수",
+        "열공학"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-kbpbjkelfpng",
       "kind": "researcher",
       "name": "도형록",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기계공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "기계공학"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-lghfmnccihee",
       "kind": "researcher",
       "name": "민경덕",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 자동차 동력원",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "자동차 동력원"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-nacfmhgcdflm",
       "kind": "researcher",
       "name": "박상욱",
-      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열 및 에너지 공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "부교수"
+        "부교수",
+        "열 및 에너지 공학"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-mgcheidjnjpm",
       "kind": "researcher",
       "name": "박용래",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 로봇공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "로봇공학"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-khpnnkgklfdh",
       "kind": "researcher",
       "name": "박종우",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: Robotics",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "Robotics"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-fgeedhjdnhlj",
       "kind": "researcher",
       "name": "박형민",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 유체역학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "유체역학"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-dgbmgmdkokge",
       "kind": "researcher",
       "name": "송성진",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 유체공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "유체공학"
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-dimipdphpjkb",
       "kind": "researcher",
       "name": "송한호",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 열공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "열공학"
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-lhdekenakhpo",
       "kind": "researcher",
       "name": "신용대",
-      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 바이오공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "부교수"
+        "부교수",
+        "바이오공학"
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-kmighfkjiffo",
       "kind": "researcher",
       "name": "양진규",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기계/항공우주공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "기계/항공우주공학"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-kjdpccmjkcdn",
       "kind": "researcher",
       "name": "오주환",
-      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 고체역학 및 설계",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "부교수"
+        "부교수",
+        "고체역학 및 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-cidpmbpejhkm",
       "kind": "researcher",
       "name": "윤병동",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기계공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "기계공학"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-ghfkdbiiafme",
       "kind": "researcher",
       "name": "이동준",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 로봇공학, 제어",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "로봇공학",
+        "제어"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-cndijmhlogfk",
       "kind": "researcher",
       "name": "이승아",
-      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 광학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "부교수"
+        "부교수",
+        "광학"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-aknkmcpeifol",
       "kind": "researcher",
       "name": "이윤석",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 에너지공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "에너지공학"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-ehojmmfldceb",
       "kind": "researcher",
       "name": "이호원",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 생산공학, 3D 프린팅",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "생산공학",
+        "3D 프린팅"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-anoiojnfhhji",
       "kind": "researcher",
       "name": "임종우",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터비전",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "컴퓨터비전"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-ihnlkmeilmdd",
       "kind": "researcher",
       "name": "전누리",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: Biomedical engineering",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "Biomedical engineering"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-pdbjgfbpddmf",
       "kind": "researcher",
       "name": "조규진",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 로봇공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "로봇공학"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-ikfeppabfhnb",
       "kind": "researcher",
       "name": "좌은혁",
-      "summary": "공대 공식 교수검색에 기계공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 자율주행, 제어공학, 차량동역학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "조교수"
+        "조교수",
+        "자율주행",
+        "제어공학",
+        "차량동역학"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-effklgeidobl",
       "kind": "researcher",
       "name": "차석원",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기계공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "기계공학"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-neicdcmeakif",
       "kind": "researcher",
       "name": "최해천",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 유체역학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "유체역학"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-oohlkjodmhio",
       "kind": "researcher",
       "name": "한경원",
-      "summary": "공대 공식 교수검색에 기계공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 로봇공학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "부교수"
+        "부교수",
+        "로봇공학"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-mechanical-kaokjfoikbjn",
       "kind": "researcher",
       "name": "황원태",
-      "summary": "공대 공식 교수검색에 기계공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 유체역학",
       "departmentId": "mechanical",
       "keywords": [
         "기계공학부",
-        "교수"
+        "교수",
+        "유체역학"
       ],
       "sourceIds": [
-        "source-eng-directory-22"
+        "source-eng-directory-22",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -2115,128 +3342,164 @@
       "id": "prof-dir-materials-kgifccccmbnh",
       "kind": "researcher",
       "name": "강기석",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Lithium Rechargeable Batteries – Electrode materials design2. Alternative Electrochemical Energy Storage including Na, Mg, metal-air Batteries3. Materials design through combined efforts of Experiments and Ab Initio calculations4. Synthesis of Hybrid materials using intercalation compounds, Synthesis of Graphene and Graphene basedcomposite/Nanostructured Materials (Wet Chemistry, Physical and Bio-template base) for energy applications",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "Mg",
+        "Synthesis of Graphene and Graphene basedcomposite/Nanostructured Materials (Wet Chemistry",
+        "Physical and Bio-template base) for energy applications"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "profile-four-source-materials-20"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-inhgopgbfmge",
       "kind": "researcher",
       "name": "강기훈",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Emerging semiconductor materials & devices– Organic mixed conductors (OMIECs), Halide perovskites, CMOS-compatible MIECs– Electrochemical/optoelectrochemical transistors and memory devices2. Materials & device physics– Chemical and electrochemical doping– Transport physics and ionic-electronic coupling3. Intelligent electronics & optoelectronics– In-sensor processors for intelligent sensing– Bio-interfaced electrochemical synapses and neurons– Analogue in-memory computing devices",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "부교수"
+        "부교수",
+        "1. Emerging semiconductor materials & devices– Organic mixed conductors (OMIECs)",
+        "Halide perovskites"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "profile-four-source-materials-19"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-fopaompjfelf",
       "kind": "researcher",
       "name": "강동민",
-      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Mixed ionic-electronic conductors– Elecrtrochemically active materials for energy storage such as in Li-ion batteries– Kinetics: Charge-transfer reactions, chemical diffusion– Fundamental transport phenomena, ion-electron coupling2. Concentrated electrolytes (Liquid & Solid)– Non-ideal behavior of Li+ and counter ions in concentrated electrolytes– Minority carriers and chemical potential profiles in electrolytes (battery reliability)3. Heavily doped semiconductors– Materials for thermoelectric energy generation and solid-state cooling– Conduction mechanism studies (scattering, grain boundaries, etc)",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "조교수"
+        "조교수",
+        "chemical diffusion– Fundamental transport phenomena",
+        "grain boundaries",
+        "etc)"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "profile-four-source-materials-38"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-kmlmbicmepll",
       "kind": "researcher",
       "name": "강승균",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Multi-dimensional Biodegradable Electronics for Minimally Invasive ImplantationBiodegradable electronics, Resorbable medical implants, Biointerfaced electrodes, 3D/4D shape transformation materials2. Zero-Waste/Eco-Friendly Electronic MaterialsBiodegradable conductive materials, Sustainable energy harvesting, Triboelectric and thermoelectric power generation, Eco-friendly electronic packaging3. Hardware-Security MaterialsSelf-destructing electronics, Transient electronics, UV/heat-triggered degradation, Secure and covert technology materials4. Reliability of Structural Nanomaterials and Safety Diagnosis TechnologyStructural nanomaterial durability, Predictive failure diagnostics, Smart safety monitoring, Next-generation encapsulation and packaging",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "Resorbable medical implants",
+        "Biointerfaced electrodes",
+        "Sustainable energy harvesting",
+        "Triboelectric and thermoelectric power generation",
+        "Eco-friendly electronic packaging3. Hardware-Security MaterialsSelf-destructing electronics",
+        "Transient electronics",
+        "UV/heat-triggered degradation",
+        "Predictive failure diagnostics",
+        "Smart safety monitoring",
+        "Next-generation encapsulation and packaging"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "profile-four-source-materials-21"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-hhfhnfeknibh",
       "kind": "researcher",
       "name": "곽승엽",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Eco-Materials1) Water filtration membrane technology* Ultra-filtration and nano-filtration membranes to prevent hazardous substance* Low-energy forward osmosis (FO) desalination technology* Application: Water tank, Water purifier filter2) Functional textile with nanoparticles* Metal nanoparticle surface treatment textile for antimicrobial and aesthetics purpose* Organic/Inorganic implanted textile for preventing hazardous chemicals (i.e. VOC)* Application: Antimicrobial textile, Fashion material, Filtration material for hazardous chemicals (i.e. filters and masks)3) Nanoparticle-encapsulating organic/inorganic hybrid materials free of dioxins emission* Organic molecular nanotube for sensing and eliminating radionuclide* Hyperbranched polymers for replacement of endocrine disruptor plasticizer* Application: Polymer with weak environmental load, Soft PVC without endocrine disruptors4) Porous ferrite for high decomposition of CO2* Mesoporous anoxia ferrite for high decomposition of CO2* Application: Large/Small sized Incinerator, Exhaust pipe from automobiles2. Clean Energy Materials1) Development of hybrid gel-solid polymer electrolytes for rechargeable lithium batteries* Viscous impregnated porous polymer electrolyte oligomer: excellent ionic conductivity and electrochemical safety* Application: Lithium batteries (Laptop, Cell phone, Electronic Vehicle, etc.)2) Nanoparticle induced membrane for methanol fuel cell* Organic/Inorganic hybrid membrane: Improving proton conductivity and methanol crossover* Application: Fuel cell driven automobiles, Portable minute sized electr",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "Fashion material",
+        "Cell phone",
+        "Electronic Vehicle",
+        "Portable minute sized electronics (Laptop",
+        "PDA",
+        "MP3"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-four-source-materials-27"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-fejnbehedioa",
       "kind": "researcher",
       "name": "권민상",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. The Green Synthesis of Sustainable Polymers2. Organocatalyzed visible-light driven polymerizations3. Catalyst-free, Extremely mild organic reactions and polymerizations4. Recyclable networks polymers",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "부교수"
+        "부교수",
+        "Extremely mild organic reactions and polymerizations4. Recyclable networks polymers"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-four-source-materials-28"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-ecphfndhciac",
       "kind": "researcher",
       "name": "김미영",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Crystal structures* Structural analysis through (scanning) transmission electron microscopy ((S)TEM), convergent beam electron diffraction (CBED) and nano-area electron diffraction (NED)* Atomic configurations at surfaces, interfaces, and defect structures2. Electronic structures* Analyzing electronic structure of functional materials through electron energy loss spectroscopy (EELS) and density functional theory (DFT) calculations* Electronic structures of interfaces, grain boundaries, and defects3. Nano scale measurements of charge distribution and strain fields* Charge distribution in nanostructures using CBED or STEM images* Measuring strain field in semiconductor/optical devices or in multilayered thin films4. In-situ I-V measurements in TEM* I-V measurements in TEM with an in-situ scanning tunneling microscopy (STM)/TEM double tilt holder* Direct measurements of local conductivity in nanomaterials, interfaces, grain boundaries, and defects",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "interfaces",
+        "grain boundaries",
+        "and defects"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "profile-four-source-materials-23"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-chiiddomappd",
       "kind": "researcher",
       "name": "김상국",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Spin-wave dynamics and applications2. Magnetic vortex dynamics and applications3. Information storage and logic devices based on nanomagnetism4. Energy harvesting based on nanomagnets",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "profile-four-source-materials-24"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -2259,192 +3522,247 @@
       "id": "prof-dir-materials-fimfkjejhjao",
       "kind": "researcher",
       "name": "김진영",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: Next-generation solar cells: Record efficiencies for p-i-n perovskite, perovskite/Si tandem, CZTSSe, perovskite/CZTSe tandem, perovskite/perovskite/Si tandem, and perovskite/CIGS tandemGreen electrocatalysts: PV-EC and PV-PEC for HER, OER, and CERElectronic materials: Multi-layered ceramic capacitors (MLCCs) and dielectric thin films",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "Next-generation solar cells: Record efficiencies for p-i-n perovskite",
+        "perovskite/Si tandem",
+        "CZTSSe",
+        "perovskite/CZTSe tandem",
+        "perovskite/perovskite/Si tandem",
+        "and perovskite/CIGS tandemGreen electrocatalysts: PV-EC and PV-PEC for HER",
+        "OER",
+        "and CERElectronic materials: Multi-layered ceramic capacitors (MLCCs) and dielectric thin films"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-materials-22"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-poolddepbiec",
       "kind": "researcher",
       "name": "김창규",
-      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Corrosion and Electrochemistry of Materials– Corrosion, passivity, and localized corrosion– Multi-factor materials degradation under corrosive environments– Electrochemistry from ambient to extreme environments, including high-temperature aqueous and molten-salt systems2. Critical Materials Recovery and Separation– Electrochemical extraction and recovery of critical materials– Selective separation of rare-earth elements– Sustainable recycling and resource recovery3. Advanced Electrochemical Characterization– Localized electrochemical measurements and microelectrodes– Electrochemical probing of microstructure-dependent degradation– In-situ and operando electrochemical characterization under extreme environments",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "조교수"
+        "조교수",
+        "1. Corrosion and Electrochemistry of Materials– Corrosion",
+        "passivity"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-materials-2"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-ioeemmgjfkbi",
       "kind": "researcher",
       "name": "도준상",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Biomaterials for cancer immunotherapy* Biomaterials controlling immune cell functions* Immune-responsive biomaterials2. Ex vivo model systems mimicking tumor-immune microenvironment* Reconstruction of 3D tumor-immune microenvironments using microfabrication* Monitoring tumor-immune interactions using biomaterial-based sensors and live cell imaging",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-four-source-materials-6"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-amebehmbimok",
       "kind": "researcher",
       "name": "류일",
-      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Fundamental deformation mechanisms (plasticity, fracture)– Size-dependent dislocation plasticity at small scale– Dislocation dynamics simulations in a confined volume– Dislocaiton interaction with grain boundaries/crack.– Multiscale defect dynamics modeling– Dislocation-based continuum damage model– Deformation and failure of metals under extreme environments– Material genome approach integrated with machine learning2. Optimal desing in nanostructures– Enhanced Mechanical properties of nanolattices– Dislocation plasticity in porous micropillars3. Reliability Analysis in Nanostructures– Failure mechanisms in thin (multilayered) metallic film in Microelectronics.– Ratcheting failure in Electronic chips– Microscopic model for fracture of Si anode in lithium ion batteries– Plastic deformation due to swelling of a Si anode in lithium ion batteries during battery cycles",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "조교수"
+        "조교수",
+        "1. Fundamental deformation mechanisms (plasticity"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-four-source-materials-36"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-ajhnaojkddaf",
       "kind": "researcher",
       "name": "박민혁",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Materials/Devices for Neuromorphic Computing2. Materials/Devices for Processing-in-Memory3. Materials/Devices for Classical Memory Devices4. Energy Harvesting/Storing Using Ferroelectrics/Antiferroelectrics",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "부교수"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-four-source-materials-35"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-knkbeakiknab",
       "kind": "researcher",
       "name": "박은수",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Tailor-made design and process optimization of advanced engineering materials: Non-crystalline (amorphous, quasicrystals) / nano-crystalline alloys, Bulk metallic glasses and their composites, Light-weight metals / alloys, Autonomous structure tailoring materials2. Physics, chemistry and metallurgy related to the above-mentioned materials3. Atomic/nano-granular microstructure characterizations using intensive structural analysis techniques: AFM, SAXS, EXAFS, SANS, HRND, HRTEM, 3DAP-FIM, etc.4. Dynamic research on correlation between phase transformation and property changes",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "quasicrystals) / nano-crystalline alloys",
+        "Bulk metallic glasses and their composites",
+        "Light-weight metals / alloys",
+        "Autonomous structure tailoring materials2. Physics",
+        "SAXS",
+        "EXAFS",
+        "SANS",
+        "HRND",
+        "HRTEM",
+        "3DAP-FIM",
+        "etc.4. Dynamic research on correlation between phase transformation and property changes"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-four-source-materials-33"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-flimnfmhnbeo",
       "kind": "researcher",
       "name": "박주혁",
-      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Smart polymers processing– Micro/nanostructures made of shape memory polymers– Multi-functional biomimic architecture processing2. Polymer foams processing– Foams for superior sound absorption– Eco-friendly composite foams for thermal insulation3. Polymeric metamaterials processing– Hydrodynamic metamaterials for flow control– Smart metamaterials4. Bioprocessing with polymers– Tissue-hydrogel hybrids– Scalable, high-throughput tissue imaging and phenotyping",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "조교수"
+        "조교수",
+        "high-throughput tissue imaging and phenotyping"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-four-source-materials-34"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-cddehgdecgim",
       "kind": "researcher",
       "name": "박찬",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Thermoelectric materials with high efficiencies* Oxide thermoelectric materials with high efficiencies at temperatures higher than 600K* Tellirides and silicides thermoelectric materials with high efficiencies at low and mid temperature ranges* Energy harvesting with thermoelectric micro power devices* Thermoelectric devices with improved efficiencies in wide temperature range using thermal/interface engineering* Applications: power generation (large-scale and micro), cooling (refrigerator, chip-cooling device, etc.)2. Thermochromic smart windows* Oxide coating which can automatically control window glass IR transmittance in different temperatures* Anti-reflection coating which can improve the luminous transparency* Applications: energy saving windows for buildings and automobiles3. Multi layer oxide films for high temperature superconducting wires* Epitaxial growth and characterization of multi layer oxide films* Continuous film deposition for the fabrication of long wires* Applications: Superconducting electric devices with negligible loss for energy efficient power systems (Electrictransmission cables, motors, transformers, power generators, fault current limiters, etc.)4. Transparent conductive oxide thin films* Indium-free transparent conductive oxide electrode materials* Applications: flat panel displays, solar cells, etc.",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "cooling (refrigerator",
+        "chip-cooling device",
+        "motors",
+        "transformers",
+        "power generators",
+        "fault current limiters",
+        "solar cells",
+        "etc."
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-four-source-materials-32"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-llielnajgkja",
       "kind": "researcher",
       "name": "선정윤",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Multi-Functional Soft materials.2. Bio-inspired ionic brain and nerve system.3. Solid state ionic devices for bio-medical uses.4. Materials for tissue replacements and medical aids.5. Stretchable ionics.6. Hydro-gels, Organo-gels and Iono-gels.",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "Organo-gels and Iono-gels."
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "profile-four-source-materials-39"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-onolkaaelbji",
       "kind": "researcher",
       "name": "손준우",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Emerging Oxide and Quantum Materials– Oxide Materials with Phase Transition– Oxide Semiconductors with High Electron Mobility– Oxide Heterostructures and Quantum Wells2. Emerging Devices and Sensors– Next-generation Electronic Devices– Ultrasensitive Gas and Bio Sensors– Threshold Mott Switches and Memory Devices3. Thin Film Growth and Characterization– Epitaxial Thin Film Growth– Atomically Controlled Oxide Heterostructures– Synchrotron-based Characterization",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "profile-four-source-materials-37"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-eaafgmdmkfgm",
       "kind": "researcher",
       "name": "안철희",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Systemic Drug Delivery Systems for Curing Cancer * Carrier design : The nano-scaling of bio-compatible, bio-degradable polymers * Applications : Drug delivery for chemical cancer treatments and other medical2. Polymeric Gene Delivery Carrier* Carrier design : Cationic polymers with biocompatibility and biodegradability * Applications : Can be used as a plasmid carrier for gene therapy in diabetes and cancer patients3. Nano-Materials for Cancer Diagnosis using Real-Time Molecular Images* Near infrared imaging technology for the early diagnosis of cancer * Applications : Nano-materials for the early diagnosis of cancer4. Cell-Delivery System* Carrier design : Dendrimer-shaped polymer with antifouling effect * Applications : Surface modification for cell delivery",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-materials-4"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-ipiilbmkfall",
       "kind": "researcher",
       "name": "양승재",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: – Research interest: 1. Ultra-Lightweight, High-Strength Carbon Materials for AerospaceCNT fibers and yarns, Carbon fiber composites, EMI shielding materials, Extreme-environment structural materials, Lightweight multifunctional composites2. Carbon Materials for Future EnergyAnode-free all-solid-state batteries, Functional carbon interlayers, Zero-swelling 3D carbon hosts, Highly conductive CNT wires, Lightweight electrification materials3. Carbon Materials for Semiconductor Manufacturing and PackagingEUV pellicles, Anisotropic heat-spreading films, Advanced packaging (HBM) thermal management materials4. Carbon Frontier Platform: Multiscale Integrated Design of Carbon MaterialsScale-up synthesis, Percolation and load-transfer engineering, Carbon hybridization and all-carbon composites",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "부교수"
+        "부교수",
+        "– Research interest: 1. Ultra-Lightweight",
+        "High-Strength Carbon Materials for AerospaceCNT fibers and yarns",
+        "Carbon fiber composites",
+        "EMI shielding materials",
+        "Extreme-environment structural materials",
+        "Functional carbon interlayers",
+        "Zero-swelling 3D carbon hosts",
+        "Highly conductive CNT wires",
+        "Anisotropic heat-spreading films",
+        "Percolation and load-transfer engineering",
+        "Carbon hybridization and all-carbon composites"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-materials-3"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -2467,944 +3785,1139 @@
       "id": "prof-dir-materials-fpghfoeidgkp",
       "kind": "researcher",
       "name": "유효빈",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Operando transmission electron microscopy– Integration of MEMS technique with transmission electron microscopy– Atomic structural dynamics in working electronic and electrochemical devices– Functional domain dynamics in unconventional ferroic materials and devices2. Cryo transmission electron microscopy– Atomic scale structural and chemical characterization of quantum materials at low temperatures– Non-invasive structural characterization of beam-sensitive soft materials3. Electrical measurements and functional characterization– Electrical characterization of functional materials and devices– Investigation of charge transport phenomena and quantum effects in mesoscopic devices",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "부교수"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-four-source-materials-12"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-bdkghppnnbie",
       "kind": "researcher",
       "name": "이경우",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Steel manufacturing and characterization* Flow and mass/heat transfer analysis for fabrication of low-carbon steels* Impurity analysis and control for clean steel* LF and RH refining technology* Analysis of Initial solidification behavior and liquid flux layer shape in continuous casting processing* Inclusion dynamics in continuous casting processing2. Single crystal growth* Controlling melt behavior during silicon and sapphire crystal growth* Global modeling for silicon and sapphire single crystal growth by Czochralski method* Global modeling for silicon quasi-single crystal growth by Bridgman method3. Hydrogen storage device* Numerical analysis for hydrogen storage device design* Development of a thermal model for discharge behavior of MH hydrogen storage vessels4. Electrochemical process studies* Ti electrowinning : direct electro-reduction of titanium dioxide* Numerical analysis of electroplating system",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-materials-42"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-agoomkambokf",
       "kind": "researcher",
       "name": "이관형",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Characterization of 2D materialsWe specialize in the comprehensive characterization of 2D materials, encompassing electrical, optical, and mechanical properties. This includes precise measurements using Atomic Force Microscopy (AFM) for mechanical analysis and charge transport studies. We also employ photoluminescence measurements to observe exciton complexes and analyze the band structure in both pristine 2D materials and their heterostructures. Additionally, we investigate the influence of electrostatic and magnetic fields on the properties of these materials. The characterization of 2D materials elucidates fundamental physical phenomena, advancing knowledge in condensed matter physics and nanotechnology. Our precise measurements and analyses pave the way for tailored applications in electronics, photonics, and quantum computing, promising high-performance devices and innovative technologies.2. Investigation of 2D crystal structuresWe delve into the structural aspects of 2D materials, including surface functionalization, phase transitions, and defect analysis. Recently, we explore methods to modulate twisted van der Waals heterostructures and control interlayer interactions to tailor the properties of 2D materials for specific applications. By investigating structural intricacies and modulation techniques, our research not only expands our understanding of 2D materials but also lays the foundation for developing customizable materials with enhanced functionalities, driving innovation across various technological domains.3. Growth of 2D materials and fabrication process",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "encompassing electrical",
+        "optical",
+        "photonics",
+        "and quantum computing",
+        "including surface functionalization",
+        "phase transitions",
+        "and defect analysis. Recently"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-materials-29"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-bjdhiokdnigc",
       "kind": "researcher",
       "name": "이명재",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Optical structure engineering of materials• Design and fabrication of nanostructures to control flow of light• Engineering of light-matter interactions and strong coupling of light with materials2. Electrodynamics and optoelectronics in materials• Optical microscopy of light transport and optoelectronic conversions• Characterization of linear and nonlinear processes in nanostructured materials3. Next-generation devices for optics and photonics• Miniaturization of optical functionalities on integrated photonics platforms• Development of next-generation functionalities by optical structure engineering",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "부교수"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-materials-30"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-mjgmgfgmcpdj",
       "kind": "researcher",
       "name": "이태우",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: Flexible Organic OptoelectronicsPerovskite ElectronicsNeuromorphic BioelectronicsPrinted Nano-electronicsGraphene ElectronicsConducting PolymersNew Printing Technology:Electro-hydrodynamic Nanowire/Nozzle Printing (ENP)Organic Solar CellsStretchable Light-Emitting Devices",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-four-source-materials-31"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-hpjkdpldpjcc",
       "kind": "researcher",
       "name": "장혜진",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Thermal transport properties of materials– Thermal conductivity of various materials (e.g., metals, inroganic, organic materials, composites)– Thermal management of small electronics2. Thermally-induced charge and spin dynamics– Ultrafast spin dynamics in magnetic memory– Nonequilibrium carrier dynamics in optoelectronic devices3. Advanced metrology– Time-domain thermoreflectance– Time-resolved magneto-optic Kerr effect",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "부교수"
+        "부교수",
+        "1. Thermal transport properties of materials– Thermal conductivity of various materials (e.g.",
+        "metals",
+        "inroganic",
+        "organic materials"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-four-source-materials-14"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-bbfhmchcmomd",
       "kind": "researcher",
       "name": "장호원",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Synthesis of oxide thin film nanostructures2. Heteroepitaxy of oxide thin films by atomic layer control3. Chemical sensors based on oxide nanostructures4. Oxide interfaces of metal-insulator transition for nanoelectronics5. Nanoporous oxide electrodes for energy conversion and storage devices6. Self-cleaning and antireflective surface layers for photovolatics and light-emitting diodes",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-four-source-materials-13"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-lkaconllkpnj",
       "kind": "researcher",
       "name": "정우철",
-      "summary": "공대 공식 교수검색에 재료공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Stabilization of (Electro-)Chemical Catalysts– Ex-solution dynamics/energetics– Advanced processes of ex-solution– Surface cation segregation in perovskite oxides– Physical protection by inorganic scaffolds2. Design and Fabrication of Highly Active (Electro-)Chemical Catalysts– Exploration of highly-active novel electrode materials– Surface acid/base engineering– Advanced surface modification techniques including infiltration, amorphization, and surface reconstruction3. Advancing High-performance Hydrogen Energy Devices through Material Insight– Reversible fuel cells– Direct ammonia fuel cells– Electrochemical high-value fuel syntheses– Novel plastic upcycling processes",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "부교수"
+        "부교수",
+        "amorphization"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-materials-41"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-ijpkpjacpolb",
       "kind": "researcher",
       "name": "정인호",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1) Computational Thermodynamics2) Development of Kinetic Simulation tools for pyrometallurgical process3) Development of solidification, diffusion and precipitation model for metals4) Application of the Thermodynamic database for Materials Design and Process Optimization",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-materials-18"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-jjhnaahoppma",
       "kind": "researcher",
       "name": "주영창",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Reliability of Interconnects and Packaging for Integrated Circuits* Electromigration, stress-migration, and TDDB of Cu/low-k interconnects* Mechanical and electrical reliability of 3-dimensional IC using Through Si Via (TSV)2. New materials for next generation memory and display devices* Atomic migration and mechanical stress of phase-change RAM* Characterization of the doping effect on the memory and display device* Interconnects and electrodes for InGaZnO TFT and OLED3. Flexible and Printable Electronic and Energy devices* Materials and processing of inkjet printing* Fatigue free electrode and transistor for flexible/stretchable devices* Nano-hybird composite electrode for solar water splitting and super capacitor4. Transparent Conducting Electrode* Nono particle based soluble ITO* Metal nanofiber using electro-spinning* Electrical and mechanical properties of PEDOT:PSS",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "1. Reliability of Interconnects and Packaging for Integrated Circuits* Electromigration",
+        "stress-migration"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "profile-four-source-materials-15"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-dhlkamionpmg",
       "kind": "researcher",
       "name": "최인석",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. High Strength / High Temperature Alloys2. Nano Mechanics and Nano Structure Design for Ultra Strong Materials3. Shape and Pattern Design for Engineering Materials4. Flexible and Stretchable Devices5. Algorithmic Kirigami for Structure Design",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-materials-5"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-ccnjknejbhee",
       "kind": "researcher",
       "name": "한승우",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Memory devices* PRAM : Modeling of PRAM resistance drift based on first principles* ReRAM : Quantum simulations to enhance ReRAM reliability* DRAM : Simulations on gate stacked structures for next generation DRAM2. Materials for display* Microscopic characterization of In-Ga-Zn-O using first principles calculations3. Energy materials for fuel cell* First principles study of catalytic materials (LaMnO3 , CeO2, etc) as cathode and electrolyte4. Industrial utilization of advanced materials* Computational simulations on the large scale atomic/molecular deposition of graphene* Research on the correlation between mechanical stress and carrier transport in graphene surface layers",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "CeO2"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-materials-9"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-iblfiehajlme",
       "kind": "researcher",
       "name": "한정우",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Energy materials– Proton/Anion-exchange water electrolyzer and fuel cell (P(A)EMFC/WE)– Solid oxide fuel cell (SOFC)– Development of new Li-based battery– Liquid organic hydrogen carrier (LOHC)2. Rational design of novel catalyst– Perovskite phase engineering and exsolution control– Highly active and stable single atom catalyst design– Electronic structure tunning of materials in atomic level3. Machine learning and data-driven multiscale design– Data-driven high-throughput screening– AI-prediction of activity and stability of material– Multiscale design of catalytic materials",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-materials-8"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-ndhelkglpljn",
       "kind": "researcher",
       "name": "한준규",
-      "summary": "공대 공식 교수검색에 재료공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. 3D integration– Complementary FET– 3D/4D DRAM– 3D/4D NAND2. Semiconductor devices for next-generation computing– Neuromorphic computing hardware– Probabilistic computing hardware3. AI for semiconductor technology– Machine learning to optimize processes and device designs",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "조교수"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-materials-16"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-kfdgjnnfjcpb",
       "kind": "researcher",
       "name": "한흥남",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Material properties prediction through multi-scale modeling* Simulation of crystal orientation & deformation by Crystal Plasticity Finite Element Method (CP-FEM)* Micro-deformation simulation by Dislocation Dynamics (DD)* Real image based viscoplastic analysis using Fast Fourier Transformation(FFT)2. Phase transformation analysis in steel* Integrated analysis of temperature-phase transformation-stress-strain using Finite Element Method* Development of program linking Phase Field Method (PFM) and FEM to characterize phase transformation3. Micromechanical properties analysis of materials using Nano-indentation* Measurement & simulation of micro deformations using Nano-indentation and Dislocation Dynamics* Measuring Nano-indentation behavior of multiphase steels4. Dual-scale analysis of 3D periodic nano-architectures* Development of the frame work for 3D periodic nanostructures* Structural stability analysis of nanostructure by Micro-scale indentation/Dual-scale Finite Element Method5. Numerical simulation during Friction Stir Welding process of ferritic Stainless Steel* Crystallographic microstructure analysis of binders using EBSD* Friction Stir Welding process simulation by using the 3D Eulerian finite volume model",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
         "교수"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-materials-7"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-dnndnnbikpne",
       "kind": "researcher",
       "name": "홍성현",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Gas sensor material with high sensitivity* Fabrication and characterization of oriented metal oxide thin film gas sensor.* Hetero-structure gas sensor for H2, noxious gas, VOCs, and warfare agent.2. Phosphor material* Development and characterization of red, green, yellow phosphor for white LEDs.* Synthesis of oxide, oxy-nitride, and nitride phosphors3. Nano-structured materials* Synthesis of metal oxide nanowires through thermal evaporation, sol-gel, and hydrothermal methods.* Morphology control of hierarchical nanostructures for energy applications.4. Surface treatment of metal for enhanced corrosion properties* Improvement of corrosion behavior through plasma electrolytic oxidation coating and aerosol deposition.5. Structural nano-ceramics* Sintering and characterization of metal oxide ceramics containing CNT or graphene.",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "noxious gas",
+        "VOCs",
+        "and warfare agent.2. Phosphor material* Development and characterization of red",
+        "green",
+        "yellow phosphor for white LEDs.* Synthesis of oxide",
+        "oxy-nitride",
+        "sol-gel"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-materials-10"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-materials-mlhmgnmcjjcd",
       "kind": "researcher",
       "name": "황철성",
-      "summary": "공대 공식 교수검색에 재료공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Thin films technology for next-generation nonvolatile memory applications* Ferroelectric memory materials: Research of Pb(Zr,Ti)O3, BiFeO3 thin films.* Resistive memory materials: Research of transition metal oxide TiO2, NiO,TaOx, HfO2 thin films.* Phase change memory materials: Research of phase change material (GeSbTe) thin films.* Charge trap flash memory materials: Research of ZnSnOx, and InGaZnOx thin films and application to 3D structure.2. Thin films technology for DRAM and Logic device applications* High-k materials: Research of TiO2, SrTiO3, (Ba, Sr)TiO3, Al-doped TiO2, TiO2/HfO2 stack, ZrO2, HfO2, and Hfsilicate thin films.* Metal electrodes materials: Research of RuO2, Ru, SrRuO3, Hf, and Ti, TiN, and La thin films.* High mobility channel materials: Characterizations of high-k materials on Ge or III-V compound semiconductor materials.3. Thin films technology for display device applications* Transparent conducting oxides materials: Research of ZnO, In-Ga-Zn-O, SnO, ZTO and ITO thin films",
       "departmentId": "materials",
       "keywords": [
         "재료공학부",
-        "교수"
+        "교수",
+        "Ti)O3",
+        "BiFeO3 thin films.* Resistive memory materials: Research of transition metal oxide TiO2",
+        "NiO",
+        "TaOx",
+        "SrTiO3",
+        "(Ba",
+        "Sr)TiO3",
+        "Al-doped TiO2",
+        "TiO2/HfO2 stack",
+        "ZrO2",
+        "HfO2",
+        "and Hfsilicate thin films.* Metal electrodes materials: Research of RuO2",
+        "Ru",
+        "SrRuO3",
+        "Hf",
+        "and Ti",
+        "TiN",
+        "In-Ga-Zn-O",
+        "SnO",
+        "ZTO and ITO thin films"
       ],
       "sourceIds": [
-        "source-eng-directory-22"
+        "source-eng-directory-22",
+        "profile-four-source-materials-11"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-dhcfclllaomo",
       "kind": "researcher",
       "name": "고형석",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터 애니메이션 , 디지털액터",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "컴퓨터 애니메이션",
+        "디지털액터"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-four-source-ece-45"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-cldplhiofelf",
       "kind": "researcher",
       "name": "곽정훈",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 퀀텀닷 디스플레이, 유기반도체소자(열전소자, 뉴로몰픽), 소자물리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "퀀텀닷 디스플레이",
+        "유기반도체소자(열전소자",
+        "뉴로몰픽)",
+        "소자물리"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-four-source-ece-46"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ecmhlobklkea",
       "kind": "researcher",
       "name": "권성훈",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 면역 데이터 분석, 생체분자정보 생산 및 분석, 딥러닝",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "면역 데이터 분석",
+        "생체분자정보 생산 및 분석",
+        "딥러닝"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-four-source-ece-47"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-cbnjmbplpjcn",
       "kind": "researcher",
       "name": "김남수",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 인공지능, 음성음향신호처리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "인공지능",
+        "음성음향신호처리"
       ],
       "sourceIds": [
-        "source-eng-directory-2"
+        "source-eng-directory-2",
+        "profile-four-source-ece-48"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-abeckbgfjhjg",
       "kind": "researcher",
       "name": "김성재",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 액체 반도체, 바이오센서, MEMS/NEMS",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "액체 반도체",
+        "바이오센서",
+        "MEMS/NEMS"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "profile-four-source-ece-49"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-gdlggmgikjao",
       "kind": "researcher",
       "name": "김영민",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 3차원 비전",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "3차원 비전"
       ],
       "sourceIds": [
-        "source-eng-directory-4"
+        "source-eng-directory-4",
+        "profile-four-source-ece-50"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-iocciicbmfii",
       "kind": "researcher",
       "name": "김장우",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터 구조, 시스템 설계",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "컴퓨터 구조",
+        "시스템 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-4"
+        "source-eng-directory-4",
+        "profile-four-source-ece-51"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-bpfbemmpgefo",
       "kind": "researcher",
       "name": "김재준",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 디지털 집적 회로 및 시스템 설계",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "디지털 집적 회로 및 시스템 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-ece-52"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-pblajcdokhil",
       "kind": "researcher",
       "name": "김재하",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 집적회로 설계 및 검증",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "집적회로 설계 및 검증"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-ece-53"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-laacoklffmom",
       "kind": "researcher",
       "name": "김진수",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 웨어러블 로봇",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "조교수"
+        "조교수",
+        "웨어러블 로봇"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-ece-54"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ldbbkhagfbej",
       "kind": "researcher",
       "name": "김태환",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 임베디드 시스템 설계",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "임베디드 시스템 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-ece-55"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-pmnohcjdigod",
       "kind": "researcher",
       "name": "남동욱",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 광집적회로 및 양자기술",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "광집적회로 및 양자기술"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-four-source-ece-56"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-pbkiglggkjhm",
       "kind": "researcher",
       "name": "도재영",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 생성형 AI, 머신러닝, 자연어 처리, 빅데이터/AI 시스템, 차세대 메모리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "조교수"
+        "조교수",
+        "생성형 AI",
+        "머신러닝",
+        "자연어 처리",
+        "빅데이터/AI 시스템",
+        "차세대 메모리"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-four-source-ece-57"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-pkegfgboihfo",
       "kind": "researcher",
       "name": "문수묵",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴파일러, 가상머신, 블록체인, 연합학습",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "컴파일러",
+        "가상머신",
+        "블록체인",
+        "연합학습"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-four-source-ece-58"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-odmajfjjbmed",
       "kind": "researcher",
       "name": "박남규",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 나노광학, 메타물질",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "나노광학",
+        "메타물질"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-four-source-ece-60"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-enffdgmfmlmh",
       "kind": "researcher",
       "name": "박세웅",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 네트워크 디자인 및 성능분석",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "네트워크 디자인 및 성능분석"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-four-source-ece-61"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-fjlldkeccfah",
       "kind": "researcher",
       "name": "백윤흥",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 소프트웨어와 시스템의 보안, 보안을 위한 하드웨어, 지능형 보안, AI의 보안",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "소프트웨어와 시스템의 보안",
+        "보안을 위한 하드웨어",
+        "지능형 보안",
+        "AI의 보안"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-four-source-ece-64"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-mgggfjeonkbd",
       "kind": "researcher",
       "name": "서승우",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 지능형 자동차, 정보보안, 로보틱스",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "지능형 자동차",
+        "정보보안",
+        "로보틱스"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-four-source-ece-65"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ghoagdpmcopl",
       "kind": "researcher",
       "name": "서종모",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 신경접속, 의공학",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "신경접속",
+        "의공학"
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "profile-four-source-ece-66"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-oojnipgfhpmn",
       "kind": "researcher",
       "name": "신종원",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전력전자 및 전력변환 시스템",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "전력전자 및 전력변환 시스템"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-ece-68"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-kcgfgpiccppa",
       "kind": "researcher",
       "name": "신형철",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 반도체 소자 및 회로",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "반도체 소자 및 회로"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-ece-69"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-kcopobhklgoe",
       "kind": "researcher",
       "name": "심규석",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 데이타마이닝 및 데이터베이스",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "데이타마이닝 및 데이터베이스"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-ece-70"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-nodiokgkdejn",
       "kind": "researcher",
       "name": "심병효",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 이동통신, 인공지능, 신호처리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "이동통신",
+        "인공지능",
+        "신호처리"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-ece-71"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-blighleokhdk",
       "kind": "researcher",
       "name": "심재웅",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터 구조 및 시스템",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "컴퓨터 구조 및 시스템"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-ece-72"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ciiaoihbecdm",
       "kind": "researcher",
       "name": "심형보",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 제어이론, 동적시스템",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "제어이론",
+        "동적시스템"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-ece-73"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-oednmdnkffai",
       "kind": "researcher",
       "name": "양인순",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 학습 및 의사결정 시스템",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "학습 및 의사결정 시스템"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-ece-74"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-hgeleppolglm",
       "kind": "researcher",
       "name": "양현종",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 통신 시스템, 분산 학습 시스템, 커넥티드 로보틱스",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "통신 시스템",
+        "분산 학습 시스템",
+        "커넥티드 로보틱스"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "profile-four-source-ece-75"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-lbocojhccloh",
       "kind": "researcher",
       "name": "오성회",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 로봇학습",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "로봇학습"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "profile-four-source-ece-76"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-lhghonikgohk",
       "kind": "researcher",
       "name": "오정석",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 메타표면, 안테나, RF회로 및 시스템",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "메타표면",
+        "안테나",
+        "RF회로 및 시스템"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "profile-four-source-ece-77"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ommhaklpinak",
       "kind": "researcher",
       "name": "유담",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 집적회로, 바이오메디컬 및 초음파 시스템, 머신러닝",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "집적회로",
+        "바이오메디컬 및 초음파 시스템",
+        "머신러닝"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "profile-four-source-ece-78"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-mgkmjmcehjjk",
       "kind": "researcher",
       "name": "유선규",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 광자 컴퓨팅/AI, 무질서 광학, 양자 광학",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "광자 컴퓨팅/AI",
+        "무질서 광학",
+        "양자 광학"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-four-source-ece-79"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ckcilennhkba",
       "kind": "researcher",
       "name": "윤상원",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 반도체 패키지, 모빌리티 전자부품",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "반도체 패키지",
+        "모빌리티 전자부품"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-four-source-ece-80"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-pghokbneicgn",
       "kind": "researcher",
       "name": "윤성로",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 인공지능 (Physical AI, 생성형 AI, LLM, AGI)",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "인공지능 (Physical AI",
+        "생성형 AI",
+        "LLM",
+        "AGI)"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-four-source-ece-81"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-fejfelalhokl",
       "kind": "researcher",
       "name": "윤용태",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전력경제",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "전력경제"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-four-source-ece-82"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-fobeageoidck",
       "kind": "researcher",
       "name": "이경무",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터 비젼, 인공지능, 머신러닝, 영상처리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "컴퓨터 비젼",
+        "인공지능",
+        "머신러닝",
+        "영상처리"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-ece-83"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-cbjmlnahnedk",
       "kind": "researcher",
       "name": "이경한",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 네트워크 시스템, 네트워크 컴퓨팅 아키텍처, Connected AI, AI-RAN, 6G",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "네트워크 시스템",
+        "네트워크 컴퓨팅 아키텍처",
+        "Connected AI",
+        "AI-RAN",
+        "6G"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-ece-84"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ceifpapadlik",
       "kind": "researcher",
       "name": "이규섭",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전력계통",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "전력계통"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-ece-85"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-cpckogakbcmh",
       "kind": "researcher",
       "name": "이병영",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터 보안, 소프트웨어 및 운영체제 보안",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "컴퓨터 보안",
+        "소프트웨어 및 운영체제 보안"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-ece-86"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-gaahominkndp",
       "kind": "researcher",
       "name": "이성욱",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 무선 통신, 전파 신호 처리, 인공지능, 차량용 센서",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "조교수"
+        "조교수",
+        "무선 통신",
+        "전파 신호 처리",
+        "인공지능",
+        "차량용 센서"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "profile-four-source-ece-87"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-plkmmdkhfomj",
       "kind": "researcher",
       "name": "이수연",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 차세대 박막소자 및 회로 연구실",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "차세대 박막소자 및 회로 연구실"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "profile-four-source-ece-88"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-mdlofdfodaig",
       "kind": "researcher",
       "name": "이재상",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 반도체 광전소자 물리 및 공정, 생성형 AI 기반 설계",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "반도체 광전소자 물리 및 공정",
+        "생성형 AI 기반 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "profile-four-source-ece-89"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-mnnieaipdbka",
       "kind": "researcher",
       "name": "이정우",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 머신러닝, 통신이론",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "머신러닝",
+        "통신이론"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-four-source-ece-90"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -3443,320 +4956,377 @@
       "id": "prof-dir-ece-jgmmpldlmjnj",
       "kind": "researcher",
       "name": "이진규",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 제어이론 / 동적시스템",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "조교수"
+        "조교수",
+        "제어이론 / 동적시스템"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-four-source-ece-93"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-hgakfiahoeon",
       "kind": "researcher",
       "name": "이진호",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 인공지능 시스템 및 최적화, 컴퓨터 구조",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "인공지능 시스템 및 최적화",
+        "컴퓨터 구조"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-four-source-ece-94"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-bjbjibokefnb",
       "kind": "researcher",
       "name": "이철호",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 차세대 반도체 소자 및 재료",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "차세대 반도체 소자 및 재료"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-four-source-ece-95"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-bnmgkkefjjif",
       "kind": "researcher",
       "name": "이혁재",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터구조 및 병렬처리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "컴퓨터구조 및 병렬처리"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-four-source-ece-96"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-aihicgflkkkk",
       "kind": "researcher",
       "name": "이현주",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 바이오메디컬 소자, MEMS, 뇌기계인터페이스",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "바이오메디컬 소자",
+        "MEMS",
+        "뇌기계인터페이스"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-four-source-ece-97"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-aanpbhibbljc",
       "kind": "researcher",
       "name": "전세영",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: AI 신호처리, 계산영상, 딥러닝",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "AI 신호처리",
+        "계산영상",
+        "딥러닝"
       ],
       "sourceIds": [
-        "source-eng-directory-17"
+        "source-eng-directory-17",
+        "profile-four-source-ece-98"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-efpmndefgdjd",
       "kind": "researcher",
       "name": "정교민",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 머신러닝, 딥 러닝, 자연어 처리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "머신러닝",
+        "딥 러닝",
+        "자연어 처리"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-ece-99"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-mklgbefljbpj",
       "kind": "researcher",
       "name": "정윤찬",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 레이저 및 양자전자",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "레이저 및 양자전자"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-ece-101"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-lmbieacandlf",
       "kind": "researcher",
       "name": "조남익",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 디지털신호, 영상/비디오",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "디지털신호",
+        "영상/비디오"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-ece-102"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-dcibghhidjil",
       "kind": "researcher",
       "name": "최성휘",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전력변환시스템",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "전력변환시스템"
       ],
       "sourceIds": [
-        "source-eng-directory-19"
+        "source-eng-directory-19",
+        "profile-four-source-ece-103"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-ahpaokahoagg",
       "kind": "researcher",
       "name": "최완",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 무선통신, 기계학습, 신호처리, 정보이론",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "무선통신",
+        "기계학습",
+        "신호처리",
+        "정보이론"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-ece-104"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-nepmddjbbcbg",
       "kind": "researcher",
       "name": "최우석",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 집적회로 및 시스템 설계",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "집적회로 및 시스템 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-ece-105"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-jomnkiliibim",
       "kind": "researcher",
       "name": "최우열",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 초고주파 집적 회로 설계 및 계측",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "초고주파 집적 회로 설계 및 계측"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-ece-106"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-mfafcokeoked",
       "kind": "researcher",
       "name": "최우영",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 반도체 소자",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "반도체 소자"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-ece-107"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-bemjkgojgjjp",
       "kind": "researcher",
       "name": "최재혁",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 반도체회로 및 시스템 설계",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "반도체회로 및 시스템 설계"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-ece-108"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-efenflcagibm",
       "kind": "researcher",
       "name": "최종현",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 컴퓨터 비전, 머신러닝, 멀티모달 AI, 자연어 처리",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "부교수"
+        "부교수",
+        "컴퓨터 비전",
+        "머신러닝",
+        "멀티모달 AI",
+        "자연어 처리"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-ece-109"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-fpgohbfpgphn",
       "kind": "researcher",
       "name": "하정익",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전력 전자 및 전기에너지 변환",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "전력 전자 및 전기에너지 변환"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-ece-111"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-lgmpldbefeco",
       "kind": "researcher",
       "name": "한보형",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: Computer Vision, Machine Learning, Deep Learning",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "Computer Vision",
+        "Machine Learning",
+        "Deep Learning"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-ece-112"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-apjoiplmbadj",
       "kind": "researcher",
       "name": "한승용",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 초전도 응용 기기",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "초전도 응용 기기"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-ece-113"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-ece-heodohneheom",
       "kind": "researcher",
       "name": "홍성수",
-      "summary": "공대 공식 교수검색에 전기·정보공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 실시간시스템, 미들웨어",
       "departmentId": "ece",
       "keywords": [
         "전기·정보공학부",
-        "교수"
+        "교수",
+        "실시간시스템",
+        "미들웨어"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-ece-114"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -4595,464 +6165,522 @@
       "id": "prof-dir-chemical-hglmglnkdjkn",
       "kind": "researcher",
       "name": "강종헌",
-      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 다공성소재 및 불균일촉매 합성 및 평가",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "부교수"
+        "부교수",
+        "다공성소재 및 불균일촉매 합성 및 평가"
       ],
       "sourceIds": [
-        "source-eng-directory-1"
+        "source-eng-directory-1",
+        "profile-four-source-chemical-118"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-gpfeedhibanb",
       "kind": "researcher",
       "name": "김소연",
-      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 고분자 및 콜로이드",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "부교수"
+        "부교수",
+        "고분자 및 콜로이드"
       ],
       "sourceIds": [
-        "source-eng-directory-3"
+        "source-eng-directory-3",
+        "profile-four-source-chemical-119"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-fmmdeghodmih",
       "kind": "researcher",
       "name": "김연상",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 나노계면소재공정",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "나노계면소재공정"
       ],
       "sourceIds": [
-        "source-eng-directory-4"
+        "source-eng-directory-4",
+        "profile-four-source-chemical-120"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-hfiagdiieneh",
       "kind": "researcher",
       "name": "김정욱",
-      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 고분자 의생명공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "부교수"
+        "부교수",
+        "고분자 의생명공학"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-chemical-121"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-jojpoefollld",
       "kind": "researcher",
       "name": "김준원",
-      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 단백질/효소 공학 및 대사공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "조교수"
+        "조교수",
+        "단백질/효소 공학 및 대사공학"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-chemical-122"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-badjnilpkmic",
       "kind": "researcher",
       "name": "김지현",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 반도체 공정",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "반도체 공정"
       ],
       "sourceIds": [
-        "source-eng-directory-5"
+        "source-eng-directory-5",
+        "profile-four-source-chemical-123"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-bdefhdfndaef",
       "kind": "researcher",
       "name": "남재욱",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 미세유체 및 코팅공정",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "미세유체 및 코팅공정"
       ],
       "sourceIds": [
-        "source-eng-directory-6"
+        "source-eng-directory-6",
+        "profile-four-source-chemical-124"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-kkphfnijiajb",
       "kind": "researcher",
       "name": "류재윤",
-      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 물리전기화학 및 무기화학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "조교수"
+        "조교수",
+        "물리전기화학 및 무기화학"
       ],
       "sourceIds": [
-        "source-eng-directory-7"
+        "source-eng-directory-7",
+        "profile-four-source-chemical-125"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-fjnooonjmcfd",
       "kind": "researcher",
       "name": "박정원",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 물리화학 및 재료 물리",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "물리화학 및 재료 물리"
       ],
       "sourceIds": [
-        "source-eng-directory-8"
+        "source-eng-directory-8",
+        "profile-four-source-chemical-126"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-oeoelnchmick",
       "kind": "researcher",
       "name": "백승렬",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 생화학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "생화학"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-four-source-chemical-127"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-aboddijonhlp",
       "kind": "researcher",
       "name": "서상우",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 시스템 및 합성생물학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "시스템 및 합성생물학"
       ],
       "sourceIds": [
-        "source-eng-directory-9"
+        "source-eng-directory-9",
+        "profile-four-source-chemical-128"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-kpnagflllbnc",
       "kind": "researcher",
       "name": "성영은",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전기화학에너지",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "전기화학에너지"
       ],
       "sourceIds": [
-        "source-eng-directory-10"
+        "source-eng-directory-10",
+        "profile-four-source-chemical-129"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-kalpdfmfjbli",
       "kind": "researcher",
       "name": "안경현",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 미세유변학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "미세유변학"
       ],
       "sourceIds": [
-        "source-eng-directory-11"
+        "source-eng-directory-11",
+        "profile-four-source-chemical-130"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-ghmegjammojo",
       "kind": "researcher",
       "name": "오준학",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 고분자 재료 및 유기전자",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "고분자 재료 및 유기전자"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "profile-four-source-chemical-131"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-bbanabodlkdl",
       "kind": "researcher",
       "name": "유동원",
-      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 유기합성 및 분자공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "부교수"
+        "부교수",
+        "유기합성 및 분자공학"
       ],
       "sourceIds": [
-        "source-eng-directory-12"
+        "source-eng-directory-12",
+        "profile-four-source-chemical-132"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-oheopdcmjgha",
       "kind": "researcher",
       "name": "윤제용",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 물환경에너지공학 및 기후에너지정책",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "물환경에너지공학 및 기후에너지정책"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-four-source-chemical-133"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-hgggplljjfpf",
       "kind": "researcher",
       "name": "이건희",
-      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전기화학적 이산화탄소포집 및 전환",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "조교수"
+        "조교수",
+        "전기화학적 이산화탄소포집 및 전환"
       ],
       "sourceIds": [
-        "source-eng-directory-13"
+        "source-eng-directory-13",
+        "profile-four-source-chemical-135"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-hdmlicjggmnp",
       "kind": "researcher",
       "name": "이규태",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전기화학공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "전기화학공학"
       ],
       "sourceIds": [
-        "source-eng-directory-14"
+        "source-eng-directory-14",
+        "profile-four-source-chemical-136"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-lcchnigemjjp",
       "kind": "researcher",
       "name": "이원보",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 나노재료이론 및 컴퓨터시뮬레이션",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "나노재료이론 및 컴퓨터시뮬레이션"
       ],
       "sourceIds": [
-        "source-eng-directory-15"
+        "source-eng-directory-15",
+        "profile-four-source-chemical-137"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-ogblmofblpkk",
       "kind": "researcher",
       "name": "이종민",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 공정시스템 및 에너지공정공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "공정시스템 및 에너지공정공학"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-four-source-chemical-138"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-lkinakgbdipo",
       "kind": "researcher",
       "name": "이종찬",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 고분자화학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "고분자화학"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-four-source-chemical-139"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-kndjfipdkkog",
       "kind": "researcher",
       "name": "이창하",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 환경공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "환경공학"
       ],
       "sourceIds": [
-        "source-eng-directory-16"
+        "source-eng-directory-16",
+        "profile-four-source-chemical-140"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-alloppanmflk",
       "kind": "researcher",
       "name": "정상택",
-      "summary": "공대 공식 교수검색에 화학생물공학부 부교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 항체 및 단백질 공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "부교수"
+        "부교수",
+        "항체 및 단백질 공학"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-chemical-141"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-aojnnjndnojp",
       "kind": "researcher",
       "name": "정유성",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: AI 및 계산 화학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "AI 및 계산 화학"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-chemical-142"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-liphbpepebcg",
       "kind": "researcher",
       "name": "정인",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 무기화학 및 소재 디자인",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "무기화학 및 소재 디자인"
       ],
       "sourceIds": [
-        "source-eng-directory-18"
+        "source-eng-directory-18",
+        "profile-four-source-chemical-143"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-kbbnhlnodahk",
       "kind": "researcher",
       "name": "최장욱",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 전기화학 및 에너지공학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "전기화학 및 에너지공학"
       ],
       "sourceIds": [
-        "source-eng-directory-20"
+        "source-eng-directory-20",
+        "profile-four-source-chemical-144"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-omnnefdpgcmo",
       "kind": "researcher",
       "name": "한지숙",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 미생물공학 및 합성생물학",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "미생물공학 및 합성생물학"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-chemical-145"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-fboihlchiogc",
       "kind": "researcher",
       "name": "현택환",
-      "summary": "공대 공식 교수검색에 화학생물공학부 교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 기능성 무기 나노 소재",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "교수"
+        "교수",
+        "기능성 무기 나노 소재"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-chemical-146"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
       "id": "prof-dir-chemical-kfkfdokojkhg",
       "kind": "researcher",
       "name": "홍무선",
-      "summary": "공대 공식 교수검색에 화학생물공학부 조교수로 수록되어 있습니다. 연구 분야·연구실·주소는 공식 상세 확인 필요.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 공정시스템 및 첨단제조공정",
       "departmentId": "chemical",
       "keywords": [
         "화학생물공학부",
-        "조교수"
+        "조교수",
+        "공정시스템 및 첨단제조공정"
       ],
       "sourceIds": [
-        "source-eng-directory-21"
+        "source-eng-directory-21",
+        "profile-four-source-chemical-147"
       ],
-      "lastVerifiedAt": "2026-10-26T16:43:51.267Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {

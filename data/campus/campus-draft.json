@@ -1,12 +1,12 @@
 {
   "manifest": {
     "version": "campus-20261027",
-    "generatedAt": "2026-10-26T17:24:25.947Z",
+    "generatedAt": "2026-10-27T01:42:18.189Z",
     "publication": "prototype",
     "selectionReason": "OSM 실제 건물·도로와 공식 지도 최소 사실의 미승인 공간 초안. 공식 전수 목록·위치·윤곽 대조 검수 진행 중.",
     "schemaVersion": 1
   },
-  "resourceVersion": "college-draft-20261026",
+  "resourceVersion": "college-draft-20261027",
   "sources": [
     {
       "id": "osm",
@@ -3245,6 +3245,2730 @@
       "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
       "license": "직접 작성한 목록·주소 최소 사실",
       "attribution": "서울대학교 조선해양공학과",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-mechanical-robot",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "organization": "서울대학교 기계공학부",
+      "title": "김아영 · 로봇 인식 및 공간 지능 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 기계공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-1",
+      "url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+      "title": "공식 현직 교수 전체 목록·연구 분야",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-2",
+      "url": "https://mse.snu.ac.kr/kim-changkyu/",
+      "title": "김창규 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-3",
+      "url": "https://mse.snu.ac.kr/seung-jae-yang/",
+      "title": "양승재 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-4",
+      "url": "https://mse.snu.ac.kr/ahn-cheol-hee/",
+      "title": "안철희 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-5",
+      "url": "https://mse.snu.ac.kr/choi-in-suk/",
+      "title": "최인석 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-6",
+      "url": "https://mse.snu.ac.kr/doh-jun-sang/",
+      "title": "도준상 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-7",
+      "url": "https://mse.snu.ac.kr/han-heung-nam/",
+      "title": "한흥남 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-8",
+      "url": "https://mse.snu.ac.kr/han-jeong-woo/",
+      "title": "한정우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-9",
+      "url": "https://mse.snu.ac.kr/han-seungwu/",
+      "title": "한승우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-10",
+      "url": "https://mse.snu.ac.kr/hong-seong-hyeon/",
+      "title": "홍성현 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-11",
+      "url": "https://mse.snu.ac.kr/hwang-cheol-seong/",
+      "title": "황철성 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-12",
+      "url": "https://mse.snu.ac.kr/hyobin-yoo/",
+      "title": "유효빈 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-13",
+      "url": "https://mse.snu.ac.kr/jang-ho-won/",
+      "title": "장호원 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-14",
+      "url": "https://mse.snu.ac.kr/jang-hyejin/",
+      "title": "장혜진 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-15",
+      "url": "https://mse.snu.ac.kr/joo-young-chang/",
+      "title": "주영창 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-16",
+      "url": "https://mse.snu.ac.kr/joon-kyu-han/",
+      "title": "한준규 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-17",
+      "url": "https://mse.snu.ac.kr/jun-min-suh/",
+      "title": "서준민 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-18",
+      "url": "https://mse.snu.ac.kr/jung-in-ho/",
+      "title": "정인호 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-19",
+      "url": "https://mse.snu.ac.kr/kang-keehoon/",
+      "title": "강기훈 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-20",
+      "url": "https://mse.snu.ac.kr/kang-kisuk/",
+      "title": "강기석 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-21",
+      "url": "https://mse.snu.ac.kr/kang-seung-kyun/",
+      "title": "강승균 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-22",
+      "url": "https://mse.snu.ac.kr/kim-jin-young/",
+      "title": "김진영 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-23",
+      "url": "https://mse.snu.ac.kr/kim-miyoung/",
+      "title": "김미영 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-24",
+      "url": "https://mse.snu.ac.kr/kim-sang-koog/",
+      "title": "김상국 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-25",
+      "url": "https://mse.snu.ac.kr/kim-sangbum/",
+      "title": "김상범 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-26",
+      "url": "https://mse.snu.ac.kr/%ea%b9%80%ec%98%81%ec%9d%80/",
+      "title": "김영은 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-27",
+      "url": "https://mse.snu.ac.kr/%ea%b3%bd%ec%8a%b9%ec%97%bd/",
+      "title": "곽승엽 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-28",
+      "url": "https://mse.snu.ac.kr/kwon-min-sang/",
+      "title": "권민상 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-29",
+      "url": "https://mse.snu.ac.kr/%ec%9d%b4%ea%b4%80%ed%98%95/",
+      "title": "이관형 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-materials-mechanics-profile",
+      "url": "https://mse.snu.ac.kr/lee-myoung-gyu/",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "이명규 공식 교수 소개",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-30",
+      "url": "https://mse.snu.ac.kr/lee-myungjae/",
+      "title": "이명재 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-31",
+      "url": "https://mse.snu.ac.kr/lee-tae-woo/",
+      "title": "이태우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-materials-bioinspired-profile",
+      "url": "https://mse.snu.ac.kr/nam-ki-tae/",
+      "organization": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "title": "남기태 공식 교수 소개",
+      "retrievedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부 및 공식 연결 연구실",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-32",
+      "url": "https://mse.snu.ac.kr/park-chan/",
+      "title": "박찬 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-33",
+      "url": "https://mse.snu.ac.kr/park-eun-soo/",
+      "title": "박은수 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-34",
+      "url": "https://mse.snu.ac.kr/park-juhyuk/",
+      "title": "박주혁 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-35",
+      "url": "https://mse.snu.ac.kr/park-min-hyuk/",
+      "title": "박민혁 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-36",
+      "url": "https://mse.snu.ac.kr/ryu-ill/",
+      "title": "류일 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-37",
+      "url": "https://mse.snu.ac.kr/son-junwoo/",
+      "title": "손준우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-38",
+      "url": "https://mse.snu.ac.kr/stephen-dongmin-kang/",
+      "title": "강동민 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-39",
+      "url": "https://mse.snu.ac.kr/sun-jeong-yun/",
+      "title": "선정윤 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-40",
+      "url": "https://mse.snu.ac.kr/sung-kyun-jung/",
+      "title": "정성균 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-41",
+      "url": "https://mse.snu.ac.kr/woochul-jung/",
+      "title": "정우철 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-42",
+      "url": "https://mse.snu.ac.kr/yi-kyung-woo/",
+      "title": "이경우 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-materials-43",
+      "url": "https://mse.snu.ac.kr/yu-woong-ryeol/",
+      "title": "유웅렬 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 재료공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-44",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+      "title": "공식 현직 교수 전체 목록·연구 분야",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-45",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p001",
+      "title": "고형석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-46",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p834",
+      "title": "곽정훈 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-47",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p067",
+      "title": "권성훈 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-48",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p004",
+      "title": "김남수 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-49",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p074",
+      "title": "김성재 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-50",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p833",
+      "title": "김영민 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-51",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p817",
+      "title": "김장우 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-52",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p872",
+      "title": "김재준 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-53",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p071",
+      "title": "김재하 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-54",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p896",
+      "title": "김진수 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-55",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p062",
+      "title": "김태환 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-56",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p919",
+      "title": "남동욱 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-57",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p901",
+      "title": "도재영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-58",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p012",
+      "title": "문수묵 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-59",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p870",
+      "title": "문태섭 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-60",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p015",
+      "title": "박남규 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-61",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p017",
+      "title": "박세웅 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-62",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p897",
+      "title": "박재형 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-63",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p920",
+      "title": "박준석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-64",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p058",
+      "title": "백윤흥 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-65",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p022",
+      "title": "서승우 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-66",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p068",
+      "title": "서종모 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-67",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p915",
+      "title": "서지원 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-68",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p899",
+      "title": "신종원 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-69",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p059",
+      "title": "신형철 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-70",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p055",
+      "title": "심규석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-71",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p078",
+      "title": "심병효 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-72",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p867",
+      "title": "심재웅 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-73",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p060",
+      "title": "심형보 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-74",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p824",
+      "title": "양인순 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-75",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p903",
+      "title": "양현종 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-76",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p070",
+      "title": "오성회 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-77",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p823",
+      "title": "오정석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-78",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p895",
+      "title": "유담 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-79",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p828",
+      "title": "유선규 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-80",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p893",
+      "title": "윤상원 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-81",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p075",
+      "title": "윤성로 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-82",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p064",
+      "title": "윤용태 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-83",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p061",
+      "title": "이경무 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-84",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p841",
+      "title": "이경한 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-85",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p898",
+      "title": "이규섭 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-86",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p826",
+      "title": "이병영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-87",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p922",
+      "title": "이성욱 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-88",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p835",
+      "title": "이수연 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-89",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p831",
+      "title": "이재상 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-90",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p057",
+      "title": "이정우 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-91",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p077",
+      "title": "이종호 (B) 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-92",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p069",
+      "title": "이종호 (S) 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-93",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p904",
+      "title": "이진규 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-94",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p877",
+      "title": "이진호 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-95",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p881",
+      "title": "이철호 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-96",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p054",
+      "title": "이혁재 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-97",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p923",
+      "title": "이현주 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-98",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p869",
+      "title": "전세영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-99",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p805",
+      "title": "정교민 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-100",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p905",
+      "title": "정규원 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-101",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p073",
+      "title": "정윤찬 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-102",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p041",
+      "title": "조남익 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-103",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p871",
+      "title": "최성휘 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-104",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p839",
+      "title": "최완 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-105",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p840",
+      "title": "최우석 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-106",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p892",
+      "title": "최우열 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-107",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p874",
+      "title": "최우영 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-108",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p894",
+      "title": "최재혁 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-109",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p900",
+      "title": "최종현 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-110",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p902",
+      "title": "최준원 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-111",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p072",
+      "title": "하정익 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-112",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p825",
+      "title": "한보형 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-113",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p818",
+      "title": "한승용 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-114",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p052",
+      "title": "홍성수 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-115",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p918",
+      "title": "홍성완 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-116",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time?md=view&profid=p066",
+      "title": "홍용택 공식 교수 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-117",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?profCate=66&menuNo=300015",
+      "title": "공식 현직 교수 전체 목록·연구 분야",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-118",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3497",
+      "title": "강종헌 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-chemical-flextronics",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3489",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김대형 · 플렉트로닉스 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-chemical-catalysis",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3481",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김도희 · 에너지 및 환경촉매 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-chemical-regenerative",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3473",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "김병수 · 재생 바이오 의공학 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-119",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3465",
+      "title": "김소연 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-120",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3457",
+      "title": "김연상 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-121",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=83300",
+      "title": "김정욱 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-122",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=85207",
+      "title": "김준원 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-123",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3442",
+      "title": "김지현 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-124",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3434",
+      "title": "남재욱 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-125",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3426",
+      "title": "류재윤 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-126",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3418",
+      "title": "박정원 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-127",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3410",
+      "title": "백승렬 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-128",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3402",
+      "title": "서상우 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-129",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3394",
+      "title": "성영은 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-130",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3386",
+      "title": "안경현 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-131",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3379",
+      "title": "오준학 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-132",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3371",
+      "title": "유동원 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-133",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3363",
+      "title": "윤제용 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-134",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=83313",
+      "title": "윤태준 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-135",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=85208",
+      "title": "이건희 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-136",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3355",
+      "title": "이규태 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-137",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3347",
+      "title": "이원보 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-138",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3339",
+      "title": "이종민 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-139",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3328",
+      "title": "이종찬 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-140",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3324",
+      "title": "이창하 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-141",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=84376",
+      "title": "정상택 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-142",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3317",
+      "title": "정유성 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-143",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3309",
+      "title": "정인 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-144",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3293",
+      "title": "최장욱 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-145",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3285",
+      "title": "한지숙 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-146",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3277",
+      "title": "현택환 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-147",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3269",
+      "title": "홍무선 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-chemical-148",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=3225",
+      "title": "황석연 공식 교수 상세",
+      "organization": "서울대학교 화학생물공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 화학생물공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-149",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab",
+      "title": "공식 현행 연구실 전체 목록",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-ece-optics",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=138",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "박재형 · 3차원 광공학 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-150",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=4",
+      "title": "광·나노 전자소자 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-151",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=38",
+      "title": "광자 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-152",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=106",
+      "title": "레이저 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-153",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=90",
+      "title": "지능형 디스플레이 및 센서 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-154",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=69",
+      "title": "지능형 파동 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-155",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=84",
+      "title": "차세대 박막소자 및 회로 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-ece-flexible",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=130",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "홍용택 · 차세대 유연·신축성 전자소자 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-156",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=18",
+      "title": "3차원 비쥬얼 컴퓨팅 및 기하학적 처리 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-157",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=141",
+      "title": "기계 인지 및 추론 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-ece-mind",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=37",
+      "organization": "서울대학교 전기·정보공학부",
+      "title": "문태섭 · 기계지능 및 데이터사이언스 연구실 공식 안내",
+      "retrievedAt": "2026-10-26T11:19:15Z",
+      "lastVerifiedAt": "2026-10-26T11:19:15Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-158",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=75",
+      "title": "네트워크 컴퓨팅 및 Connected AI 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-159",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=116",
+      "title": "무선통신 및 정보시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-160",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=94",
+      "title": "영상과학 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-161",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=70",
+      "title": "인공지능 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-162",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=60",
+      "title": "정보시스템연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-163",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=110",
+      "title": "정보신호처리연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-164",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=101",
+      "title": "지능형 계산영상 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-165",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=48",
+      "title": "지능형자동차 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-166",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=74",
+      "title": "컴퓨터비젼 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-167",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=144",
+      "title": "피지컬 인공지능 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-168",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=8",
+      "title": "휴먼인터페이스연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-169",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=68",
+      "title": "전자파융합 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-170",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=154",
+      "title": "전파 및 무선 통신 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-171",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=14",
+      "title": "전파 및 무선통신연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-172",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=132",
+      "title": "초고주파집적시스템연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-173",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=2",
+      "title": "그래픽스 및 미디어 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-174",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=61",
+      "title": "컴퓨터 구조 및 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-175",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=100",
+      "title": "컴퓨터구조 및 병렬처리연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-176",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=56",
+      "title": "반도체 소자 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-177",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=40",
+      "title": "반도체 재료 및 소자연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-178",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=134",
+      "title": "반도체 패키지 모듈 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-179",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=118",
+      "title": "삼차원 집적 및 소자 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-180",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=151",
+      "title": "양자 반도체 집적광학 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-181",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=10",
+      "title": "에너지환경융합연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-182",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=147",
+      "title": "인공지능향 반도체 소자 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-183",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=99",
+      "title": "차세대 반도체 소자 및 재료 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-184",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=135",
+      "title": "고성능 집적마이크로시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-185",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=155",
+      "title": "뇌·바이오의료 마이크로시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-186",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=6",
+      "title": "생체광학 및 나노공학 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-187",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=137",
+      "title": "웨어러블 로봇 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-188",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=50",
+      "title": "전기-의학 융합 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-189",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=34",
+      "title": "가상머신 및 최적화 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-190",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=98",
+      "title": "가속화지능형시스템연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-191",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=42",
+      "title": "네트워크 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-192",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=44",
+      "title": "보안 최적화 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-193",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=80",
+      "title": "시스템 보안 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-194",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=128",
+      "title": "실시간운영체제연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-195",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=64",
+      "title": "학습 및 의사결정 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-196",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=145",
+      "title": "고급지능시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-197",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=22",
+      "title": "고성능 컴퓨터 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-198",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=23",
+      "title": "대규모 회로 및 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-199",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=58",
+      "title": "데이타마이닝 및 데이터베이스 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-200",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=66",
+      "title": "로봇학습 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-201",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=102",
+      "title": "머신 인텔리전스 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-202",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=149",
+      "title": "머신러닝 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-203",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=143",
+      "title": "인공지능 및 빅데이터 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-204",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=92",
+      "title": "인지머신러닝 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-205",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=26",
+      "title": "컴퓨터이용설계 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-206",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=20",
+      "title": "마이크로머신 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-207",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=152",
+      "title": "반도체 집적회로 및 시스템 설계 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-208",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=122",
+      "title": "전기 에너지 변환 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-209",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=115",
+      "title": "전력변환시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-210",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=72",
+      "title": "전력시스템 및 경제 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-211",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=139",
+      "title": "전력시스템연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-212",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=140",
+      "title": "전력전자시스템연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-213",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=126",
+      "title": "초전도 응용 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-214",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=62",
+      "title": "제어 및 동역학 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-215",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=146",
+      "title": "제어 및 동역학 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-216",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=133",
+      "title": "반도체회로 및 시스템 설계 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-217",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=24",
+      "title": "혼합신호IC 및 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "profile-four-source-ece-218",
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=117",
+      "title": "집적회로 및 시스템 연구실 공식 연구실 상세",
+      "organization": "서울대학교 전기·정보공학부",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "license": "직접 작성한 공식 명단·분야·주소 최소 사실 · 원문 복제 허가 미확인",
+      "attribution": "서울대학교 전기·정보공학부",
       "redistribution": "metadata-only",
       "contentUpdatedAt": null
     }
@@ -21460,18 +24184,6 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-prof-mechanical-robot",
-      "resourceId": "prof-mechanical-robot",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-lab-mechanical-robot",
       "resourceId": "lab-mechanical-robot",
       "buildingId": null,
@@ -21500,18 +24212,6 @@
       "resourceId": "lab-mechanical-fluids",
       "buildingId": null,
       "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-mechanical-manufacturing",
-      "resourceId": "prof-mechanical-manufacturing",
-      "buildingId": null,
-      "purpose": "office",
       "room": null,
       "status": "unknown",
       "sourceIds": [],
@@ -21856,18 +24556,6 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-prof-chemical-flextronics",
-      "resourceId": "prof-chemical-flextronics",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-lab-chemical-flextronics",
       "resourceId": "lab-chemical-flextronics",
       "buildingId": null,
@@ -21880,34 +24568,10 @@
       "reason": "공식 상세 주소·건물 연결 확인 필요"
     },
     {
-      "id": "location-prof-chemical-catalysis",
-      "resourceId": "prof-chemical-catalysis",
-      "buildingId": null,
-      "purpose": "office",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
       "id": "location-lab-chemical-catalysis",
       "resourceId": "lab-chemical-catalysis",
       "buildingId": null,
       "purpose": "lab",
-      "room": null,
-      "status": "unknown",
-      "sourceIds": [],
-      "addressText": null,
-      "lastVerifiedAt": null,
-      "reason": "공식 상세 주소·건물 연결 확인 필요"
-    },
-    {
-      "id": "location-prof-chemical-regenerative",
-      "resourceId": "prof-chemical-regenerative",
-      "buildingId": null,
-      "purpose": "office",
       "room": null,
       "status": "unknown",
       "sourceIds": [],
@@ -27639,6 +30303,2750 @@
       "addressText": "34-411",
       "lastVerifiedAt": "2026-10-26T18:04:47.802Z",
       "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-hbhnoejfhnfb-301",
+      "resourceId": "prof-dir-mechanical-hbhnoejfhnfb",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1519호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1519호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-efohajinancd-301",
+      "resourceId": "prof-dir-mechanical-efohajinancd",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1506호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1506호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-jjgojaobmggj-301",
+      "resourceId": "prof-dir-mechanical-jjgojaobmggj",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1512호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1512호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-lfcbaokejoda-301",
+      "resourceId": "prof-dir-mechanical-lfcbaokejoda",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1516호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1516호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-ckkpgdapomcf-301",
+      "resourceId": "prof-dir-mechanical-ckkpgdapomcf",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1507호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1507호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-fafifdkcnfkp-301",
+      "resourceId": "prof-dir-mechanical-fafifdkcnfkp",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1524호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1524호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-mechanical-robot-301",
+      "resourceId": "prof-mechanical-robot",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1515호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1515호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-kbpbjkelfpng-301",
+      "resourceId": "prof-dir-mechanical-kbpbjkelfpng",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1518호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1518호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-lghfmnccihee-301",
+      "resourceId": "prof-dir-mechanical-lghfmnccihee",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1422호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1422호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-nacfmhgcdflm-301",
+      "resourceId": "prof-dir-mechanical-nacfmhgcdflm",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1508호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1508호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-mgcheidjnjpm-301",
+      "resourceId": "prof-dir-mechanical-mgcheidjnjpm",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1501호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1501호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-khpnnkgklfdh-301",
+      "resourceId": "prof-dir-mechanical-khpnnkgklfdh",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1408호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1408호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-fgeedhjdnhlj-301",
+      "resourceId": "prof-dir-mechanical-fgeedhjdnhlj",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1405호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1405호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-dgbmgmdkokge-301",
+      "resourceId": "prof-dir-mechanical-dgbmgmdkokge",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1417호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1417호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-dimipdphpjkb-301",
+      "resourceId": "prof-dir-mechanical-dimipdphpjkb",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1409호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1409호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-lhdekenakhpo-301",
+      "resourceId": "prof-dir-mechanical-lhdekenakhpo",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1504호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1504호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-mechanical-manufacturing-301",
+      "resourceId": "prof-mechanical-manufacturing",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1404호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1404호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-kmighfkjiffo-301",
+      "resourceId": "prof-dir-mechanical-kmighfkjiffo",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1424호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1424호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-kjdpccmjkcdn-301",
+      "resourceId": "prof-dir-mechanical-kjdpccmjkcdn",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1502호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1502호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-cidpmbpejhkm-301",
+      "resourceId": "prof-dir-mechanical-cidpmbpejhkm",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1514호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1514호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-cndijmhlogfk-301",
+      "resourceId": "prof-dir-mechanical-cndijmhlogfk",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1503호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1503호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-aknkmcpeifol-301",
+      "resourceId": "prof-dir-mechanical-aknkmcpeifol",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1505호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1505호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-ehojmmfldceb-301",
+      "resourceId": "prof-dir-mechanical-ehojmmfldceb",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1520호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1520호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-anoiojnfhhji-301",
+      "resourceId": "prof-dir-mechanical-anoiojnfhhji",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1402호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1402호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-ihnlkmeilmdd-301",
+      "resourceId": "prof-dir-mechanical-ihnlkmeilmdd",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1416호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1416호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-pdbjgfbpddmf-301",
+      "resourceId": "prof-dir-mechanical-pdbjgfbpddmf",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1401호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1401호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-ikfeppabfhnb-301",
+      "resourceId": "prof-dir-mechanical-ikfeppabfhnb",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1407호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1407호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-effklgeidobl-301",
+      "resourceId": "prof-dir-mechanical-effklgeidobl",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1403호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1403호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-neicdcmeakif-301",
+      "resourceId": "prof-dir-mechanical-neicdcmeakif",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1511호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1511호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-oohlkjodmhio-301",
+      "resourceId": "prof-dir-mechanical-oohlkjodmhio",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1406호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1406호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-mechanical-kaokjfoikbjn-301",
+      "resourceId": "prof-dir-mechanical-kaokjfoikbjn",
+      "buildingId": "snu-301",
+      "purpose": "office",
+      "room": "1510호",
+      "status": "verified",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": "301동 1510호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-four-mechanical-a",
+      "resourceId": "lab-four-mechanical-a",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-b",
+      "resourceId": "lab-four-mechanical-b",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-c",
+      "resourceId": "lab-four-mechanical-c",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-d",
+      "resourceId": "lab-four-mechanical-d",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-e",
+      "resourceId": "lab-four-mechanical-e",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-f",
+      "resourceId": "lab-four-mechanical-f",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-h",
+      "resourceId": "lab-four-mechanical-h",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-j",
+      "resourceId": "lab-four-mechanical-j",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-k",
+      "resourceId": "lab-four-mechanical-k",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-l",
+      "resourceId": "lab-four-mechanical-l",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-m",
+      "resourceId": "lab-four-mechanical-m",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-n",
+      "resourceId": "lab-four-mechanical-n",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-o",
+      "resourceId": "lab-four-mechanical-o",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-p",
+      "resourceId": "lab-four-mechanical-p",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-q",
+      "resourceId": "lab-four-mechanical-q",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-r",
+      "resourceId": "lab-four-mechanical-r",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-t",
+      "resourceId": "lab-four-mechanical-t",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-u",
+      "resourceId": "lab-four-mechanical-u",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-v",
+      "resourceId": "lab-four-mechanical-v",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-w",
+      "resourceId": "lab-four-mechanical-w",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-x",
+      "resourceId": "lab-four-mechanical-x",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-y",
+      "resourceId": "lab-four-mechanical-y",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-z",
+      "resourceId": "lab-four-mechanical-z",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-aa",
+      "resourceId": "lab-four-mechanical-aa",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-ab",
+      "resourceId": "lab-four-mechanical-ab",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-ac",
+      "resourceId": "lab-four-mechanical-ac",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-ad",
+      "resourceId": "lab-four-mechanical-ad",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-ae",
+      "resourceId": "lab-four-mechanical-ae",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-af",
+      "resourceId": "lab-four-mechanical-af",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-ag",
+      "resourceId": "lab-four-mechanical-ag",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-mechanical-ah",
+      "resourceId": "lab-four-mechanical-ah",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "src-mechanical-robot"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-hglmglnkdjkn-302",
+      "resourceId": "prof-dir-chemical-hglmglnkdjkn",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "729호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-118"
+      ],
+      "addressText": "302동 729호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-chemical-flextronics-302",
+      "resourceId": "prof-chemical-flextronics",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "816호",
+      "status": "verified",
+      "sourceIds": [
+        "src-chemical-flextronics"
+      ],
+      "addressText": "302동 816호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-chemical-catalysis-302",
+      "resourceId": "prof-chemical-catalysis",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "817호",
+      "status": "verified",
+      "sourceIds": [
+        "src-chemical-catalysis"
+      ],
+      "addressText": "302동 817호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-chemical-regenerative-302",
+      "resourceId": "prof-chemical-regenerative",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "910호",
+      "status": "verified",
+      "sourceIds": [
+        "src-chemical-regenerative"
+      ],
+      "addressText": "302동 910호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-gpfeedhibanb-302",
+      "resourceId": "prof-dir-chemical-gpfeedhibanb",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "811호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-119"
+      ],
+      "addressText": "302동 811호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-fmmdeghodmih-302",
+      "resourceId": "prof-dir-chemical-fmmdeghodmih",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "818호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-120"
+      ],
+      "addressText": "302동 818호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-hfiagdiieneh-302",
+      "resourceId": "prof-dir-chemical-hfiagdiieneh",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "728호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-121"
+      ],
+      "addressText": "302동 728호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-jojpoefollld-302",
+      "resourceId": "prof-dir-chemical-jojpoefollld",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "625호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-122"
+      ],
+      "addressText": "302동 625호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-badjnilpkmic-302",
+      "resourceId": "prof-dir-chemical-badjnilpkmic",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "726호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-123"
+      ],
+      "addressText": "302동 726호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-bdefhdfndaef-302",
+      "resourceId": "prof-dir-chemical-bdefhdfndaef",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "917호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-124"
+      ],
+      "addressText": "302동 917호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-kkphfnijiajb-302",
+      "resourceId": "prof-dir-chemical-kkphfnijiajb",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "730호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-125"
+      ],
+      "addressText": "302동 730호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-fjnooonjmcfd-302",
+      "resourceId": "prof-dir-chemical-fjnooonjmcfd",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "813호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-126"
+      ],
+      "addressText": "단백질 신소재 연구실302동 813호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-oeoelnchmick-302",
+      "resourceId": "prof-dir-chemical-oeoelnchmick",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "911호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-127"
+      ],
+      "addressText": "302동 911호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-aboddijonhlp-302",
+      "resourceId": "prof-dir-chemical-aboddijonhlp",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "727호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-128"
+      ],
+      "addressText": "302동 727호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-kpnagflllbnc-302",
+      "resourceId": "prof-dir-chemical-kpnagflllbnc",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "721호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-129"
+      ],
+      "addressText": "302동 721호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-kalpdfmfjbli-302",
+      "resourceId": "prof-dir-chemical-kalpdfmfjbli",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "820호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-130"
+      ],
+      "addressText": "302동 820호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-ghmegjammojo-302",
+      "resourceId": "prof-dir-chemical-ghmegjammojo",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "815호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-131"
+      ],
+      "addressText": "302동 815호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-bbanabodlkdl-302",
+      "resourceId": "prof-dir-chemical-bbanabodlkdl",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "722호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-132"
+      ],
+      "addressText": "302동 722호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-oheopdcmjgha-302",
+      "resourceId": "prof-dir-chemical-oheopdcmjgha",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "810호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-133"
+      ],
+      "addressText": "302동 810호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-four-chemical-t-18",
+      "resourceId": "prof-four-chemical-t",
+      "buildingId": "snu-18",
+      "purpose": "office",
+      "room": "408호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-134"
+      ],
+      "addressText": "18동 408호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-hgggplljjfpf-302",
+      "resourceId": "prof-dir-chemical-hgggplljjfpf",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "712호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-135"
+      ],
+      "addressText": "302동 712호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-hdmlicjggmnp-302",
+      "resourceId": "prof-dir-chemical-hdmlicjggmnp",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "812호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-136"
+      ],
+      "addressText": "302동 812호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-lcchnigemjjp-302",
+      "resourceId": "prof-dir-chemical-lcchnigemjjp",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "814호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-137"
+      ],
+      "addressText": "302동 814호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-ogblmofblpkk-302",
+      "resourceId": "prof-dir-chemical-ogblmofblpkk",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "723호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-138"
+      ],
+      "addressText": "302동 723호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-lkinakgbdipo-302",
+      "resourceId": "prof-dir-chemical-lkinakgbdipo",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "731호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-139"
+      ],
+      "addressText": "302동 731호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-kndjfipdkkog-302",
+      "resourceId": "prof-dir-chemical-kndjfipdkkog",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "916호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-140"
+      ],
+      "addressText": "302동 916호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-alloppanmflk-302",
+      "resourceId": "prof-dir-chemical-alloppanmflk",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "918호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-141"
+      ],
+      "addressText": "302동 918호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-aojnnjndnojp-302",
+      "resourceId": "prof-dir-chemical-aojnnjndnojp",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "725호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-142"
+      ],
+      "addressText": "302동 725호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-liphbpepebcg-302",
+      "resourceId": "prof-dir-chemical-liphbpepebcg",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "919호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-143"
+      ],
+      "addressText": "302동 919호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-kbbnhlnodahk-302",
+      "resourceId": "prof-dir-chemical-kbbnhlnodahk",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "724호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-144"
+      ],
+      "addressText": "302동 724호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-omnnefdpgcmo-302",
+      "resourceId": "prof-dir-chemical-omnnefdpgcmo",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "920호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-145"
+      ],
+      "addressText": "302동 920호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-fboihlchiogc-302",
+      "resourceId": "prof-dir-chemical-fboihlchiogc",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "819호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-146"
+      ],
+      "addressText": "302동 819호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-dir-chemical-kfkfdokojkhg-302",
+      "resourceId": "prof-dir-chemical-kfkfdokojkhg",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "914호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-147"
+      ],
+      "addressText": "302동 914호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "profile-location-prof-four-chemical-ah-302",
+      "resourceId": "prof-four-chemical-ah",
+      "buildingId": "snu-302",
+      "purpose": "office",
+      "room": "913호",
+      "status": "verified",
+      "sourceIds": [
+        "profile-four-source-chemical-148"
+      ],
+      "addressText": "302동 913호",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "reason": null
+    },
+    {
+      "id": "location-lab-four-chemical-a",
+      "resourceId": "lab-four-chemical-a",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-118"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-e",
+      "resourceId": "lab-four-chemical-e",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-119"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-f",
+      "resourceId": "lab-four-chemical-f",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-120"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-g",
+      "resourceId": "lab-four-chemical-g",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-121"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-h",
+      "resourceId": "lab-four-chemical-h",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-122"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-i",
+      "resourceId": "lab-four-chemical-i",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-123"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-j",
+      "resourceId": "lab-four-chemical-j",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-124"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-k",
+      "resourceId": "lab-four-chemical-k",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-125"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-l",
+      "resourceId": "lab-four-chemical-l",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-126"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-m",
+      "resourceId": "lab-four-chemical-m",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-127"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-n",
+      "resourceId": "lab-four-chemical-n",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-128"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-o",
+      "resourceId": "lab-four-chemical-o",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-129"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-p",
+      "resourceId": "lab-four-chemical-p",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-130"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-q",
+      "resourceId": "lab-four-chemical-q",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-131"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-r",
+      "resourceId": "lab-four-chemical-r",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-132"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-s",
+      "resourceId": "lab-four-chemical-s",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-133"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-t",
+      "resourceId": "lab-four-chemical-t",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-134"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-u",
+      "resourceId": "lab-four-chemical-u",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-135"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-v",
+      "resourceId": "lab-four-chemical-v",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-136"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-w",
+      "resourceId": "lab-four-chemical-w",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-137"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-x",
+      "resourceId": "lab-four-chemical-x",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-138"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-y",
+      "resourceId": "lab-four-chemical-y",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-139"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-z",
+      "resourceId": "lab-four-chemical-z",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-140"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-aa",
+      "resourceId": "lab-four-chemical-aa",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-141"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-ab",
+      "resourceId": "lab-four-chemical-ab",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-142"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-ac",
+      "resourceId": "lab-four-chemical-ac",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-143"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-ad",
+      "resourceId": "lab-four-chemical-ad",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-144"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-ae",
+      "resourceId": "lab-four-chemical-ae",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-145"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-af",
+      "resourceId": "lab-four-chemical-af",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-146"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-ag",
+      "resourceId": "lab-four-chemical-ag",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-147"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-chemical-ah",
+      "resourceId": "lab-four-chemical-ah",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-chemical-148"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "교수 소개의 주소를 연구실 위치로 추정하지 않음 · 공식 연구실 주소 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-b",
+      "resourceId": "lab-four-ece-b",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-150"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-c",
+      "resourceId": "lab-four-ece-c",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-151"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-d",
+      "resourceId": "lab-four-ece-d",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-152"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-e",
+      "resourceId": "lab-four-ece-e",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-153"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-f",
+      "resourceId": "lab-four-ece-f",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-154"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-g",
+      "resourceId": "lab-four-ece-g",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-155"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-i",
+      "resourceId": "lab-four-ece-i",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-156"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-j",
+      "resourceId": "lab-four-ece-j",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-157"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-l",
+      "resourceId": "lab-four-ece-l",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-158"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-m",
+      "resourceId": "lab-four-ece-m",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-159"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-n",
+      "resourceId": "lab-four-ece-n",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-160"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-o",
+      "resourceId": "lab-four-ece-o",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-161"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-p",
+      "resourceId": "lab-four-ece-p",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-162"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-q",
+      "resourceId": "lab-four-ece-q",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-163"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-r",
+      "resourceId": "lab-four-ece-r",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-164"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-s",
+      "resourceId": "lab-four-ece-s",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-165"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-t",
+      "resourceId": "lab-four-ece-t",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-166"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-u",
+      "resourceId": "lab-four-ece-u",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-167"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-v",
+      "resourceId": "lab-four-ece-v",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-168"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-w",
+      "resourceId": "lab-four-ece-w",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-169"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-x",
+      "resourceId": "lab-four-ece-x",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-170"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-z",
+      "resourceId": "lab-four-ece-z",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-172"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-aa",
+      "resourceId": "lab-four-ece-aa",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-173"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ab",
+      "resourceId": "lab-four-ece-ab",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-174"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ac",
+      "resourceId": "lab-four-ece-ac",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-175"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ad",
+      "resourceId": "lab-four-ece-ad",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-176"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ae",
+      "resourceId": "lab-four-ece-ae",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-177"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-af",
+      "resourceId": "lab-four-ece-af",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-178"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ag",
+      "resourceId": "lab-four-ece-ag",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-179"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ah",
+      "resourceId": "lab-four-ece-ah",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-180"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ai",
+      "resourceId": "lab-four-ece-ai",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-181"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-aj",
+      "resourceId": "lab-four-ece-aj",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-182"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ak",
+      "resourceId": "lab-four-ece-ak",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-183"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-al",
+      "resourceId": "lab-four-ece-al",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-184"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-am",
+      "resourceId": "lab-four-ece-am",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-185"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-an",
+      "resourceId": "lab-four-ece-an",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-186"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ao",
+      "resourceId": "lab-four-ece-ao",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-187"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ap",
+      "resourceId": "lab-four-ece-ap",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-188"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-aq",
+      "resourceId": "lab-four-ece-aq",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-189"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ar",
+      "resourceId": "lab-four-ece-ar",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-190"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-as",
+      "resourceId": "lab-four-ece-as",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-191"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-at",
+      "resourceId": "lab-four-ece-at",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-192"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-au",
+      "resourceId": "lab-four-ece-au",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-193"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-av",
+      "resourceId": "lab-four-ece-av",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-194"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-aw",
+      "resourceId": "lab-four-ece-aw",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-195"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ax",
+      "resourceId": "lab-four-ece-ax",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-196"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ay",
+      "resourceId": "lab-four-ece-ay",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-197"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-az",
+      "resourceId": "lab-four-ece-az",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-198"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-ba",
+      "resourceId": "lab-four-ece-ba",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-199"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bb",
+      "resourceId": "lab-four-ece-bb",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-200"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bc",
+      "resourceId": "lab-four-ece-bc",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-201"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bd",
+      "resourceId": "lab-four-ece-bd",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-202"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-be",
+      "resourceId": "lab-four-ece-be",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-203"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bf",
+      "resourceId": "lab-four-ece-bf",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-204"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bg",
+      "resourceId": "lab-four-ece-bg",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-205"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bh",
+      "resourceId": "lab-four-ece-bh",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-206"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bi",
+      "resourceId": "lab-four-ece-bi",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-207"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bj",
+      "resourceId": "lab-four-ece-bj",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-208"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bk",
+      "resourceId": "lab-four-ece-bk",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-209"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bl",
+      "resourceId": "lab-four-ece-bl",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-210"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bm",
+      "resourceId": "lab-four-ece-bm",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-211"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bn",
+      "resourceId": "lab-four-ece-bn",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-212"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bo",
+      "resourceId": "lab-four-ece-bo",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-213"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bp",
+      "resourceId": "lab-four-ece-bp",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-214"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-br",
+      "resourceId": "lab-four-ece-br",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-216"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bs",
+      "resourceId": "lab-four-ece-bs",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-217"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-four-ece-bt",
+      "resourceId": "lab-four-ece-bt",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-218"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 연구실 상세에 실제 주소가 없어 위치 확인 필요"
+    },
+    {
+      "id": "location-lab-ece-detail-14",
+      "resourceId": "lab-ece-detail-14",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-171"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 상세의 동명 연구실 신원·위치 확인 필요"
+    },
+    {
+      "id": "location-lab-ece-detail-146",
+      "resourceId": "lab-ece-detail-146",
+      "buildingId": null,
+      "purpose": "lab",
+      "room": null,
+      "status": "unknown",
+      "sourceIds": [
+        "profile-four-source-ece-215"
+      ],
+      "addressText": null,
+      "lastVerifiedAt": null,
+      "reason": "공식 상세의 동명 연구실 신원·위치 확인 필요"
     }
   ],
   "paths": [

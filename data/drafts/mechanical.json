@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "mechanical-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "generatedAt": "2026-10-27T01:42:18.189Z",
     "publication": "prototype",
     "selectionReason": "공식 전임교수 명단에서 로보틱스·유체/소프트물질·설계생산의 서로 다른 분야를 골랐다. 교수 이름과 같은 카드의 연구실 항목을 대조했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -144,7 +144,7 @@
       "id": "prof-mechanical-robot",
       "kind": "researcher",
       "name": "김아영",
-      "summary": "공식 전임교수 안내에 로보틱스 전공과 로봇 인식 및 공간 지능 연구실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 로보틱스",
       "departmentId": "mechanical",
       "keywords": [
         "로보틱스",
@@ -154,7 +154,7 @@
       "sourceIds": [
         "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -178,16 +178,18 @@
       "id": "prof-mechanical-fluids",
       "kind": "researcher",
       "name": "김호영",
-      "summary": "공식 전임교수 안내에 마이크로유체 및 소프트물질 전공과 연구실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 마이크로유체 및 소프트물질",
       "departmentId": "mechanical",
       "keywords": [
         "마이크로유체",
-        "소프트물질"
+        "소프트물질",
+        "마이크로유체 및 소프트물질"
       ],
       "sourceIds": [
-        "src-mechanical-fluids"
+        "src-mechanical-fluids",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -210,17 +212,19 @@
       "id": "prof-mechanical-manufacturing",
       "kind": "researcher",
       "name": "안성훈",
-      "summary": "공식 전임교수 안내에 설계 생산 전공과 혁신설계 및 통합생산 연구실이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 설계 생산",
       "departmentId": "mechanical",
       "keywords": [
         "설계",
         "생산",
-        "제조"
+        "제조",
+        "설계 생산"
       ],
       "sourceIds": [
-        "src-mechanical-manufacturing"
+        "src-mechanical-manufacturing",
+        "src-mechanical-robot"
       ],
-      "lastVerifiedAt": "2026-10-26T11:11:58Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {

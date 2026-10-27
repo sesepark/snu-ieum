@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "materials-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "generatedAt": "2026-10-27T01:42:18.189Z",
     "publication": "prototype",
     "selectionReason": "공식 학과 교수 소개에서 연결한 연구실 홈페이지와 PI를 대조했다. 재료역학·생체모사 에너지소재·핵산 기반 기능소재를 골랐다. 자동 접근 제한/실패한 다른 연구실의 명칭은 추정하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -182,6 +182,15 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T11:17:08Z",
       "lastVerifiedAt": "2026-10-26T11:17:08Z"
+    },
+    {
+      "id": "profile-four-source-materials-26",
+      "url": "https://mse.snu.ac.kr/%ea%b9%80%ec%98%81%ec%9d%80/",
+      "title": "김영은 공식 교수 상세",
+      "organization": "서울대학교 재료공학부",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
     }
   ],
   "resources": [
@@ -189,20 +198,30 @@
       "id": "prof-materials-mechanics",
       "kind": "researcher",
       "name": "이명규",
-      "summary": "재료의 변형·손상과 다중스케일·다중물리 모델링을 연구한다. 공식 연구실의 Professor 페이지에서 이명규 교수와 재료공학부 소속을 확인했다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: ∎ Mechanics of materials, mechanical behavior of materials and fracture∎ Multiscale, Multiphysics simulations of metal, Li-ion battery, and semi-conductor components∎ Experimental mechanics including virtual fields method, and new material testing methods∎ Finite element modeling, crystal plasticity, phase fields and cellular automaton∎ Forming & shaping of advanced steels, light weight alloys∎ Micro-mechanics based friction, contact fatigue modeling∎ Data-driven modeling and simulations",
       "departmentId": "materials",
       "keywords": [
         "재료역학",
         "다중스케일",
         "다중물리",
-        "구조재료"
+        "구조재료",
+        "∎ Mechanics of materials",
+        "mechanical behavior of materials and fracture∎ Multiscale",
+        "Multiphysics simulations of metal",
+        "Li-ion battery",
+        "and semi-conductor components∎ Experimental mechanics including virtual fields method",
+        "and new material testing methods∎ Finite element modeling",
+        "crystal plasticity",
+        "phase fields and cellular automaton∎ Forming & shaping of advanced steels",
+        "light weight alloys∎ Micro-mechanics based friction",
+        "contact fatigue modeling∎ Data-driven modeling and simulations"
       ],
       "sourceIds": [
         "src-materials-mechanics",
         "src-materials-mechanics-profile",
         "src-materials-mechanics-home"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -229,20 +248,28 @@
       "id": "prof-materials-bioinspired",
       "kind": "researcher",
       "name": "남기태",
-      "summary": "생체모사 소재와 에너지·광학 응용을 연구한다. 공식 연구실 홈페이지에 생체분자나노재료연구실과 Ki Tae Nam Research Lab이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: Dr. Ki Tae Nam is a Professor of Materials Science and Engineering at Seoul National University and serves as a member of the Presidential Advisory Council on Science and Technology. He received the Outstanding PhD Thesis Award from MIT in 2007 and was honored with prestigious awards such as the Presidential Young Scientist Award in 2018, the POSCO TJ Park Prize in 2022, and the Order of Science and Technology Merit in 2023.His PhD thesis was about the “virus-based battery” that has been highlighted as the first demonstration of virus based electrochemical devices. During his postdoc (2007-2010) at Lawrence Berkeley National Lab, he studied peptide mimetic polymer to assemble two dimensional structures. Since 2010, His group at SNU continue to pioneer the research area of bioinspired material science to make new functional materials for energy and optical applications. Recent innovations include the development of CO2 utilization chemistry and the peptide based synthesis of chiral nanomaterials.In addition to his academic pursuits, Dr. Nam plays a significant role in shaping science and technology policy. He contributed to R&D strategy and policy development as part of the Presidential Transition Committee in 2022 and has since served on the Presidential Advisory Council and special committees on carbon neutrality and strategic technologies.Dr. Nam also promotes international collaboration in science and technology. He is a member of the Fulbright Foundation, Korean American Educational Commission, supporting bilateral exchange programs, and the SKERIC Science Diplomacy Aca",
       "departmentId": "materials",
       "keywords": [
         "생체모사",
         "나노재료",
         "에너지 소재",
-        "광학"
+        "광학",
+        "the POSCO TJ Park Prize in 2022",
+        "he studied peptide mimetic polymer to assemble two dimensional structures. Since 2010",
+        "Korean American Educational Commission",
+        "supporting bilateral exchange programs",
+        "and the SKERIC Science Diplomacy Academy",
+        "fostering cooperation between Sweden and Korea in education",
+        "research",
+        "and innovation."
       ],
       "sourceIds": [
         "src-materials-bioinspired",
         "src-materials-bioinspired-profile",
         "src-materials-bioinspired-pi"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -269,20 +296,28 @@
       "id": "prof-materials-dna",
       "kind": "researcher",
       "name": "김영은",
-      "summary": "핵산 기반 소재를 활용한 바이오센서·동적 소재·진단 기술을 연구한다. 공식 학과 소개에서 연결한 연구실의 Principal Investigator는 김영은 교수다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 1. Rapid & accessible diagnostics– Seek to develop nucleic acid-based, rapid diagnostics that can be readily available and distributed at low-cost2. Stimuli-responsive hybrid materials– Aim to design, develop, and synthesize stimuli-responsive materials– May incorporate nanoparticles, polymers, small molecules, etc.3. Development of novel biosensors– Incorporate nucleic acid-based technology (e.g., DNA nanotechnology) to create novel types of biosensors",
       "departmentId": "materials",
       "keywords": [
         "핵산",
         "DNA",
         "바이오센서",
-        "동적 소재"
+        "동적 소재",
+        "1. Rapid & accessible diagnostics– Seek to develop nucleic acid-based",
+        "develop",
+        "and synthesize stimuli-responsive materials– May incorporate nanoparticles",
+        "polymers",
+        "small molecules",
+        "etc.3. Development of novel biosensors– Incorporate nucleic acid-based technology (e.g.",
+        "DNA nanotechnology) to create novel types of biosensors"
       ],
       "sourceIds": [
         "src-materials-dna",
         "src-materials-dna-profile",
-        "src-materials-dna-research"
+        "src-materials-dna-research",
+        "profile-four-source-materials-26"
       ],
-      "lastVerifiedAt": "2026-10-26T11:17:08Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {

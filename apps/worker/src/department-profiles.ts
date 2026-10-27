@@ -78,3 +78,57 @@ export function parseNavalLabs(html:string){
   return[{name,address,homepage}];
  });
 }
+export function parseMechanicalFaculty(html:string):FacultyFact[]{
+ const $=load(html);
+ return $('h2.jet-headline').toArray().map(h=>{
+  const e=$(h).closest('.elementor-widget-wrap'),values=e.find('.field-meta').toArray().map(x=>clean($(x).text()));
+  const value=(label:string)=>values.find(t=>t.startsWith(label))?.slice(label.length).trim()||null;
+  return{name:clean($(h).find('.jet-headline__first .jet-headline__label').text()),rank:clean(e.find('h2.elementor-heading-title').first().text()),researchFields:value('전공'),officeAddress:value('주소'),labName:value('연구실'),homepage:e.find('a[href]').toArray().map(a=>$(a).attr('href')!).find(u=>/^https?:\/\//.test(u))??null};
+ }).filter(f=>f.name);
+}
+export function parseMaterialsFacultyLinks(html:string){
+ const $=load(html),links=new Map<string,{name:string;profileUrl:string}>();
+ for(const a of $('h3.elementor-post__title a[href]').toArray()){
+  const profileUrl=$(a).attr('href')!,name=clean($(a).text());if(name&&/^https:\/\/mse\.snu\.ac\.kr\//.test(profileUrl))links.set(profileUrl,{name,profileUrl});
+ }
+ return[...links.values()];
+}
+export function parseMaterialsDetail(html:string){
+ const $=load(html),h=$('h3').filter((_,h)=>clean($(h).text())==='Research Interests').first();
+ const researchFields=clean(h.closest('.elementor-widget').next().text()).slice(0,1800)||null;
+ const homepage=$('a[href]').filter((_,a)=>/Homepage|홈페이지/i.test($(a).text())).first().attr('href')??null;
+ // Mailstop is a postal address, not evidence for an office or laboratory location.
+ return{researchFields,homepage};
+}
+export function parseECEFaculty(html:string):(FacultyFact&{profileUrl:string|null})[]{
+ const $=load(html);
+ return $('.cont').has('h3').toArray().map(card=>{
+  const e=$(card),a=e.find('h3 a[href]').first();
+  return{name:clean(a.clone().children().remove().end().text()),rank:clean(a.find('.nocolor').text()),researchFields:clean(e.find('.info>.research').text())||null,homepage:e.find('.info>.homepage a[href]').first().attr('href')??null,officeAddress:null,labName:null,profileUrl:a.attr('href')??null};
+ }).filter(f=>f.name);
+}
+export function parseChemicalFaculty(html:string):(FacultyFact&{profileUrl:string})[]{
+ const $=load(html);
+ return $('.bbs-prof-list>li').toArray().flatMap(card=>{
+  const e=$(card),id=e.find('a[href]').first().attr('href')?.match(/modify\(['"](\d+)['"]\)/)?.[1];if(!id)return[];
+  return[{name:clean(e.find('.name p').text()),rank:clean(e.find('.name span').text()),researchFields:clean(e.find('p.desc').text())||null,homepage:null,officeAddress:null,labName:null,profileUrl:`https://cbe.snu.ac.kr/cbe/pgm/professorMng/updtView.do?menuNo=300015&profCate=66&profId=${id}`}];
+ });
+}
+export function parseChemicalDetail(html:string){
+ const $=load(html),rows=$('.prof-visual .info li'),row=(label:string)=>rows.filter((_,li)=>clean($(li).find('p').first().text())===label).first();
+ const address=clean(row('주소').find('span').text()),parts=address.split(/[|ㅣ｜]/).map(clean);
+ return{researchFields:clean(row('연구 분야').find('span').text())||null,homepage:row('웹사이트').find('a[href]').first().attr('href')??null,officeAddress:parts[0]||null,labName:parts[1]||null};
+}
+export function parseECELabLinks(html:string){
+ const $=load(html),links=new Map<string,{name:string;profileUrl:string}>();
+ for(const a of $('a[href*="labidx="]').toArray()){
+  const profileUrl=new URL($(a).attr('href')!,'https://ece.snu.ac.kr').href,name=clean($(a).text());if(name)links.set(profileUrl,{name,profileUrl});
+ }
+ return[...links.values()];
+}
+export function parseECELab(html:string){
+ const $=load(html),read=(label:string)=>$('.info-wrap strong').filter((_,s)=>clean($(s).text())===label).first().parent();
+ const title=clean($('.prof-name-bm h2').text());if(!title)throw new Error('Electrical lab selector changed');
+ const value=(label:string)=>clean(read(label).clone().children('strong').remove().end().text())||null;
+ return{title,advisor:value('지도')?.replace(/\s*교수$/,'')??null,researchFields:value('연구'),homepage:read('WEBSITE').find('a[href]').attr('href')??null,address:null};
+}

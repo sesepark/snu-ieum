@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "chemical-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T11:30:50.557Z",
+    "generatedAt": "2026-10-27T01:42:18.189Z",
     "publication": "prototype",
     "selectionReason": "공식 교수 목록과 상세의 연구실명·연구 분야를 대조하고 소프트전자·촉매공정·재생바이오 분야를 골랐다. 상세 보기 form의 공개 GET URL을 사용했고 수정·신청 요청은 수행하지 않았다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -144,7 +144,7 @@
       "id": "prof-chemical-flextronics",
       "kind": "researcher",
       "name": "김대형",
-      "summary": "나노소재와 소프트 전자소자를 융합한 헬스케어·디스플레이·이미징·로보틱스·에너지 응용을 연구한다. 공식 교수 상세에 연구실명이 명시되어 있다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 소프트 일렉트로닉스",
       "departmentId": "chemical",
       "keywords": [
         "나노소재",
@@ -155,7 +155,7 @@
       "sourceIds": [
         "src-chemical-flextronics"
       ],
-      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -180,19 +180,20 @@
       "id": "prof-chemical-catalysis",
       "kind": "researcher",
       "name": "김도희",
-      "summary": "온실가스 및 대기오염물 저감, 폐자원 전환, 청정에너지 생산을 위한 촉매와 반응 공정을 연구한다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 촉매 및 반응공학",
       "departmentId": "chemical",
       "keywords": [
         "촉매",
         "반응공학",
         "온실가스",
         "수소",
-        "폐자원 전환"
+        "폐자원 전환",
+        "촉매 및 반응공학"
       ],
       "sourceIds": [
         "src-chemical-catalysis"
       ],
-      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {
@@ -218,18 +219,19 @@
       "id": "prof-chemical-regenerative",
       "kind": "researcher",
       "name": "김병수",
-      "summary": "생체재료·면역학·세포공학·유전자치료 기법을 결합한 치료 기술을 연구한다. 연구 주제 소개이며 치료 효과나 실제 이용 가능성을 뜻하지 않는다.",
+      "summary": "공식 현직 교수 소개의 연구 분야: 재생 바이오 의공학",
       "departmentId": "chemical",
       "keywords": [
         "생체재료",
         "면역학",
         "세포공학",
-        "유전자치료"
+        "유전자치료",
+        "재생 바이오 의공학"
       ],
       "sourceIds": [
         "src-chemical-regenerative"
       ],
-      "lastVerifiedAt": "2026-10-26T11:20:39Z",
+      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
       "verificationRequired": true
     },
     {

@@ -24,3 +24,24 @@ it('uses the building icon on CEE faculty cards and never a phone or footer as t
 it('excludes visiting naval faculty and labels their official address as an office rather than a lab',async()=>{
  const{parseNavalFaculty}=await import('./department-profiles');const html='<div class="cont"><h3>김용환 / 교수</h3><ul><li><a href="https://example.org">해양유체역학연구실</a></li><li>private@example.org</li><li>34-411</li></ul></div><div class="cont"><h3>다른사람 / 객원교수</h3></div>';const facts=parseNavalFaculty(html);expect(facts).toHaveLength(1);expect(facts[0].officeAddress).toBe('34동 411호');expect(facts[0].researchFields).toBeNull();
 });
+it('deduplicates materials category cards by official profile and never treats mailstop as office evidence',async()=>{
+ const{parseMaterialsFacultyLinks,parseMaterialsDetail}=await import('./department-profiles');
+ const card='<h3 class="elementor-post__title"><a href="https://mse.snu.ac.kr/example/">김교수</a></h3>';
+ expect(parseMaterialsFacultyLinks(card+card)).toHaveLength(1);
+ expect(parseMaterialsDetail('<span>Mailstop : 33-208</span><div class="elementor-widget"><h3>Research Interests</h3></div><div>반도체 소재</div><a href="https://example.org">Homepage</a>')).toEqual({researchFields:'반도체 소재',homepage:'https://example.org'});
+});
+it('extracts chemical profile labels without contacts or the department footer address',async()=>{
+ const{parseChemicalDetail}=await import('./department-profiles');
+ const html='<div class="prof-visual"><ul class="info"><li><p>연구 분야</p><span>촉매</span></li><li><p>주소</p><span>302동 729호 | 촉매 연구실</span></li><li><p>이메일</p><span>private@example.org</span></li></ul></div><footer>302동 909호</footer>';
+ expect(parseChemicalDetail(html)).toEqual({researchFields:'촉매',homepage:null,officeAddress:'302동 729호',labName:'촉매 연구실'});
+});
+it('keeps electrical profile identifiers while excluding phone and email rows',async()=>{
+ const{parseECEFaculty}=await import('./department-profiles');
+ const fact=parseECEFaculty('<div class="cont"><h3><a href="?profid=p001">이종호<span class="nocolor">교수</span></a></h3><div class="info"><div class="research">반도체</div><div class="dept">private@example.org</div><div class="dept">02-880-0000</div></div></div>')[0];
+ expect(fact.name).toBe('이종호');expect(fact.profileUrl).toBe('?profid=p001');expect(fact.officeAddress).toBeNull();expect(JSON.stringify(fact)).not.toContain('private');
+});
+it('preserves separately identified electrical labs with equal names and reads their own advisor fields',async()=>{
+ const{parseECELabLinks,parseECELab}=await import('./department-profiles');
+ const links=parseECELabLinks('<a href="?labidx=1">제어 연구실</a><a href="?labidx=2">제어 연구실</a><a href="?labidx=1">제어 연구실</a>');expect(links).toHaveLength(2);
+ const fact=parseECELab('<div class="prof-name-bm"><h2>제어 연구실</h2></div><div class="info-wrap"><div><strong>지도</strong> 김교수 교수</div><div><strong>연구</strong> 동역학</div></div>');expect(fact.advisor).toBe('김교수');expect(fact.address).toBeNull();
+});

@@ -8,7 +8,7 @@ const s=SnapshotSchema.parse(snapshotData),c=CampusSchema.parse(campusData);
 it('never treats a sample count as the official denominator or launch completion',()=>{
  const r=coverageReport(s,c,inputData,Date.parse('2026-10-27T01:00:00Z'));
  expect(r.ready).toBe(false);expect(r.byDepartment).toHaveLength(12);
- expect(r.byDepartment.filter(d=>d.researchers.total===null)).toHaveLength(7);
+ expect(r.byDepartment.filter(d=>d.researchers.total===null)).toHaveLength(3);
  expect(r.byDepartment.find(d=>d.id==='industrial')!.researchers.total).toBe(14);
  expect(r.byDepartment.find(d=>d.id==='industrial')!.labs.total).toBe(15);
  expect(r.gaps).toContain('관악 공식 건물 전체 목록 대조 대기');
