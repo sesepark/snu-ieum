@@ -1,0 +1,54 @@
+/* Competition preview: self-hosted type and presentation, with no club assets. */
+@font-face{font-family:Pretendard;src:url('/snu-ieum/fonts/Pretendard-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Pretendard;src:url('/snu-ieum/fonts/Pretendard-Bold.woff2') format('woff2');font-weight:600 800;font-display:swap}
+@font-face{font-family:Pretendard;src:url('/snu-ieum/fonts/Pretendard-Black.woff2') format('woff2');font-weight:900;font-display:swap}
+body{font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#111111;background:#ffffff}
+.site-header{padding:0 30px;border-color:#e2e6ee;gap:20px;position:relative;z-index:12}
+.wordmark{font-weight:900;font-size:25px;letter-spacing:-1.3px;color:#111111}
+.header-subtitle{color:#69717f}.header-right{color:#4c5360}.header-right>.live-dot{background:#2855f3}
+.prototype-label{border:0;border-radius:999px;background:#e8efff;color:#1b4bc4;font-weight:700;padding:7px 12px;margin-left:10px}
+.intro{padding:28px 26px 20px}.intro .eyebrow{color:#2855f3;font-weight:900;font-size:10px;letter-spacing:1.3px;margin-bottom:15px}
+.intro h1{font-size:32px;font-weight:900;letter-spacing:-1.8px;line-height:1.18;color:#111111;margin-bottom:16px}
+.intro-copy{font-size:12px;color:#69717f;line-height:1.7}
+.search-box{border-color:#d6dce6;background:#f7f8fb;border-radius:999px;margin:0 20px 12px;padding:0 15px}
+.search-box:focus-within{border-color:#2855f3;box-shadow:0 0 0 3px #e8efff;background:#ffffff}
+.search-box input{font-size:13px;min-height:48px}.search-box input:focus{outline:none}.search-box>span{color:#2855f3}
+.example-queries{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:0 20px 20px}
+.example-queries>span{width:100%;font-size:10px;color:#69717f;margin-bottom:1px}
+.example-queries button{display:flex;align-items:center;gap:13px;border:1px solid #e2e6ee;border-radius:999px;padding:0 12px;min-height:34px;color:#39404d;font-size:11px;font-weight:700;background:#ffffff}
+.example-queries button:hover{background:#f4f7ff;border-color:#90afff;color:#2855f3}.example-queries button>span{font-size:11px;color:#2855f3}
+.filters{padding:0 20px 16px}.filters fieldset{gap:3px}.filters fieldset button{border-radius:999px;padding:0 8px;font-size:11px;font-weight:700}
+.filters fieldset button[aria-pressed=true]{background:#2855f3;color:#ffffff}
+.department-filter select{border-color:#e2e6ee;border-radius:999px;color:#4c5360;font-size:12px;padding:0 13px}
+.ai-panel{margin-left:20px;margin-right:20px;border-color:#e2e6ee;border-radius:16px}.ai-panel summary{font-size:11px;color:#69717f}.ai-panel[open]{background:#f7f8fb}
+.list-heading{padding:14px 24px;border-color:#eef0f4}.list-heading h2{font-weight:900;color:#111111}
+.resource-list{padding:0 10px}.resource-card{border-radius:18px;padding:16px 13px;gap:11px;margin-bottom:6px}
+.resource-card:hover{background:#f7f8fb}.resource-card.selected{background:#f4f7ff;border-color:#90afff;box-shadow:0 3px 12px #172d5810}
+.resource-card strong{font-size:13px;font-weight:700;letter-spacing:-.2px;color:#111111}.card-summary{color:#69717f;font-size:11px}.card-meta{color:#69717f}.card-provenance{font-size:10px;color:#69717f}.card-reason{color:#1b4bc4}
+.data-note{background:#f7f8fb;border-color:#eef0f4;padding:14px 18px}.data-note>.live-dot{background:#2855f3}
+.map-panel{background:#f4f6fa}.map-heading>div:first-child{background:#ffffffed;padding:10px 14px;border-radius:18px;box-shadow:0 3px 12px #172d5810}
+.map-heading .eyebrow{color:#2855f3;font-weight:900;font-size:9px}.map-heading h2{font-weight:900;color:#111111;margin:4px 0 0;font-size:18px}
+.view-switch{border-color:#e2e6ee;border-radius:999px;padding:4px;box-shadow:0 3px 12px #172d5812}.view-switch button{border-radius:999px;font-weight:700}
+.view-switch button[aria-pressed=true]{background:#2855f3;border-radius:999px}
+.campus-search{top:107px;border-color:#e2e6ee;border-radius:999px;padding:3px 13px;box-shadow:0 3px 12px #172d5810}
+.campus-search select{color:#39404d}.campus-search #college-select{border-color:#e2e6ee}.campus-unlocated{top:164px;color:#69717f;border-radius:999px;background:#ffffffeb;font-size:10px}
+.campus-relations{top:204px}.campus-relations button,.campus-relation-label{border-color:#cbd3e2;border-radius:999px;color:#1b4bc4}
+.campus-relation-detail{top:258px;border-radius:18px;border-color:#d6dce6;box-shadow:0 12px 38px #1228501f}
+.campus-map-label,.campus-college-label{border-color:#d6dce6;border-radius:12px;color:#39404d;box-shadow:0 3px 12px #172d5812}
+.campus-map-label.selected{color:#1b4bc4;border-color:#2855f3}.campus-college-label.selected{background:#e8efff;border-color:#2855f3;color:#1b4bc4}
+.map-controls button{border-color:#e2e6ee;border-radius:999px;box-shadow:0 3px 12px #172d5812}
+.coverage summary{border-color:#e2e6ee;border-radius:999px;font-weight:700}.coverage-content,.building-detail{border-radius:18px;border-color:#e2e6ee;box-shadow:0 12px 38px #1228501f}
+.legend{border-color:#e2e6ee;border-radius:18px}.legend>p{color:#69717f}.graph-limit,.status-notice{border-radius:12px;border-color:#e2e6ee;color:#4c5360}
+.detail-panel{padding:25px 24px;border-color:#e2e6ee}.detail-panel h2{font-weight:900;font-size:24px;line-height:1.24;letter-spacing:-1px;color:#111111}
+.detail-panel h3{font-weight:900;font-size:12px;color:#111111}.detail-panel section{border-color:#eef0f4}.detail-panel .resource-summary{line-height:1.8;color:#39404d}
+.kind-pill{border-radius:999px;background:#f4f7ff;color:#1b4bc4;font-weight:700}.keywords span{border-radius:999px;border-color:#e2e6ee;padding:6px 9px;color:#4c5360}
+.source-list li>a,.detail-panel a{color:#1b4bc4}.related-list button{border-radius:16px;border-color:#e2e6ee;padding:14px;background:#f7f8fb}.related-list button:hover{border-color:#90afff;background:#f4f7ff}
+.verification-note{background:#fdf1d8;color:#7a5405;border:0;border-radius:12px}.detail-panel .icon-button:hover{background:#f4f7ff;border-radius:999px;color:#2855f3}
+.demo-info{position:relative;font-size:11px}.demo-info summary{display:flex;align-items:center;min-height:44px;list-style:none;cursor:pointer;padding:0 12px;border-radius:999px;color:#39404d;font-weight:700}.demo-info summary::-webkit-details-marker{display:none}.demo-info summary:hover,.demo-info[open] summary{background:#f4f7ff;color:#1b4bc4}
+.demo-info>div{position:absolute;right:0;top:50px;width:315px;padding:24px;border:1px solid #e2e6ee;border-radius:22px;background:white;box-shadow:0 18px 44px #16254b21;line-height:1.8;color:#4c5360;font-size:12px}.demo-info strong{font-size:16px;display:block;color:#111111;margin-bottom:12px}.demo-info p:last-of-type{font-size:11px}.demo-info a{color:#2855f3;font-weight:700}
+@media(max-width:1200px) and (min-width:901px){.workspace.has-detail{grid-template-columns:280px minmax(0,1fr)}.intro h1{font-size:29px}.has-detail .detail-panel{width:340px}.example-queries{gap:4px}}
+@media(max-width:900px){.site-header{padding:0 16px;gap:9px}.wordmark{font-size:23px}.header-right{gap:2px}.prototype-label{font-size:10px;padding:6px 9px;margin-left:3px}.demo-info summary{font-size:10px;padding:0 8px}.header-right>.live-dot{display:none}.header-right{font-size:0}.demo-info>div{width:min(315px,calc(100vw - 32px));top:48px}
+.intro{padding:22px 22px 16px}.intro h1{font-size:28px;letter-spacing:-1.4px}.intro h1 br{display:block}.intro-copy{font-size:12px}.example-queries{margin-bottom:14px}.example-queries button{min-height:44px;padding:0 16px}.search-panel{border-color:#e2e6ee;border-radius:22px;box-shadow:0 18px 44px #16254b21}.search-panel.mobile-open{inset:70px 12px 12px}.mobile-controls button{border-color:#e2e6ee;border-radius:999px;font-weight:700;color:#1b4bc4;box-shadow:0 3px 12px #172d5812}.mobile-controls>span{border-radius:999px}
+.map-heading{top:78px;left:22px}.map-heading>div:first-child{padding:8px 12px}.map-heading h2{font-size:15px}.campus-search{top:143px;left:12px;padding:3px 9px;gap:3px}.campus-unlocated{top:199px;left:14px;max-width:calc(100% - 28px);font-size:9px}.campus-relations{top:240px;left:12px}.campus-relation-detail{top:287px;left:12px}.has-detail .campus-relations{top:202px}.has-detail .campus-relation-detail{top:250px}
+.detail-panel{padding:20px 22px 24px;border-radius:24px 24px 0 0;box-shadow:0 -12px 38px #1228501f}.detail-panel h2{font-size:22px}.map-controls button{min-height:44px}.map-footer .legend{border-radius:16px}.map-controls{bottom:135px}}
+@media(max-width:430px){.wordmark{font-size:22px}.header-right{gap:0}.intro-copy{display:block}.map-heading h2 span{font-size:9px}.campus-search #building-select{max-width:175px}.campus-search #college-select{max-width:115px}.legend{max-width:181px}}

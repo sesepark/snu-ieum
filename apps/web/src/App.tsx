@@ -15,6 +15,7 @@ import type { SearchResponse } from '@ieum/contracts';
 import Detail, { kindLabels } from './Detail';
 import './tokens.css';
 import './styles.css';
+import './contest.css';
 export default function App() {
   const state = useExplore();
   const [ordinaryResult, setOrdinaryResult] = useState<SearchResponse | null>(null);
@@ -63,11 +64,12 @@ export default function App() {
   if (error || !snapshot || !counts) return <main className="loading-screen"><h1>지식지도를 불러오지 못했습니다.</h1><p>연결 상태를 확인하고 다시 시도해주세요.</p><button onClick={() => refetch()}>다시 불러오기</button></main>;
   return <div className="explorer">
     <a className="skip-link" href="#resource-list" onClick={event => { event.preventDefault(); list.current?.focus(); }}>자원 목록으로 바로가기</a>
-    <header className="site-header"><a className="wordmark" href="#/" onClick={event => { event.preventDefault(); state.reset(); setAIResult(null); setMobileListOpen(false); }}>서울대 이음</a><span className="header-divider" /><span className="header-subtitle">관악 연구지도</span><div className="header-right"><span className="live-dot" />공식 출처 기반 <span className="prototype-label">{snapshot.manifest.publication === 'prototype' ? '시제품' : '공개 배치'}</span></div></header>
+    <header className="site-header"><a className="wordmark" href="#/" onClick={event => { event.preventDefault(); state.reset(); setAIResult(null); setMobileListOpen(false); }}>서울대 이음</a><span className="header-divider" /><span className="header-subtitle">관악 연구지도</span><div className="header-right"><span className="live-dot" />공식 출처 기반 <span className="prototype-label">{snapshot.manifest.publication === 'prototype' ? '공모전 시연' : '공개 배치'}</span><details className="demo-info"><summary>시연 안내</summary><div><strong>직접 탐색해 보세요</strong><p>검색·지도·상세·공식 출처는 로그인 없이 사용할 수 있습니다. 현재 자료는 사람 승인 전 검수 초안이며, 장비·공간의 이용 조건은 공식 안내에서 확인해 주세요.</p><p>AI 목표 해석·저장·예약 기능은 이 시연에서 제공하지 않습니다.</p><a href="https://github.com/sesepark/snu-ieum" target="_blank" rel="noreferrer">개발 기록 보기 ↗</a></div></details></div></header>
     <div className="mobile-controls"><button ref={listToggle} onClick={() => setMobileListOpen(!mobileListOpen)} aria-expanded={mobileListOpen} aria-controls="search-panel">{mobileListOpen ? '지도로 돌아가기' : '검색 · 자원 목록'}</button><span>{results.length}개 자원</span></div>
     <main className={`workspace ${resource ? 'has-detail' : ''}`}>
-      <aside id="search-panel" className={`search-panel ${mobileListOpen ? 'mobile-open' : ''}`} aria-label="검색과 자원 목록"><div className="intro"><p className="eyebrow">SNU ENGINEERING · KNOWLEDGE MAP</p><h1>연구가 있는<br />장소를 찾아보세요.</h1><p className="intro-copy">연구실, 교수, 장비, 공간.<br />실제 캠퍼스에서 발견하는 공대의 자원.</p></div>
+      <aside id="search-panel" className={`search-panel ${mobileListOpen ? 'mobile-open' : ''}`} aria-label="검색과 자원 목록"><div className="intro"><p className="eyebrow">SNU IEUM · RESEARCH MAP</p><h1>연구가 있는<br />장소를 찾아보세요.</h1><p className="intro-copy">연구실, 교수, 장비, 공간.<br />실제 캠퍼스에서 발견하는 공대의 자원.</p></div>
         <form className="search-box" onSubmit={event => event.preventDefault()}><label className="sr-only" htmlFor="search">자원명·연구 분야 검색</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="이름, 연구 분야, 키워드" value={state.q} maxLength={300} onChange={event => state.setQuery(event.target.value)} /><kbd aria-hidden="true">↵</kbd></form>
+        <div className="example-queries" aria-label="검색 예시"><span>이렇게 찾아보세요</span>{['시계열', '로봇', '초저온'].map(query=><button key={query} onClick={()=>{state.reset();state.setQuery(query);}}>{query}<span aria-hidden="true">↗</span></button>)}</div>
         <Filters catalog={counts} />
         <AI available={data.aiAvailable} snapshot={snapshot} filters={filters} onResult={setAIResult} />
         <div className="list-heading"><h2>{state.q || aiResult ? '검색 결과' : '수록 자원'}</h2><span aria-live="polite">{results.length}개</span></div>

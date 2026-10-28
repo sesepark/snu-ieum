@@ -1,5 +1,6 @@
 import { expect, it, vi } from 'vitest';
 import seed from '../../../data/prototype.json';
+import college from '../../../data/college-draft.json';
 import { parseSnapshot, recommend } from '@ieum/catalog';
 import { loadCatalog, search, interpret } from './client';
 const snapshot = parseSnapshot(seed);
@@ -18,4 +19,12 @@ it('rejects invented sources and missing card provenance from an API', async () 
   const request = vi.fn().mockResolvedValue(new Response(JSON.stringify({ mode: 'ordinary', results: [{ ...card, source: [{ ...card.source[0], url: 'https://invented.example' }] }, { ...card, reason: undefined }] })));
   const result = await search({ q: '', kinds: [], departmentIds: [], aiConsent: false }, snapshot, 'https://api.example', request);
   expect(result.results).toHaveLength(0);
+});
+
+it('keeps all matching local candidates when no server is configured', async () => {
+  const request = vi.fn();
+  const result = await search({ q: '로봇', kinds: [], departmentIds: [], aiConsent: false }, parseSnapshot(college), '', request);
+  expect(result.results).toHaveLength(18);
+  expect(request).not.toHaveBeenCalled();
+  expect(new Set(result.results.map(card => card.resource.departmentId)).size).toBe(4);
 });

@@ -29,7 +29,7 @@ export async function search(input: SearchRequest, s: Snapshot, api = defaultApi
     });
     return { results, mode: body.mode, message: typeof body.message === 'string' ? body.message : undefined };
   } catch { /* Do not cache or log user goals. */ }
-  return { results: recommend(s, input).slice(0, 12), mode: input.aiConsent ? 'fallback' : 'ordinary', message: input.aiConsent ? 'AI를 사용할 수 없어 스냅샷 일반 검색으로 전환했습니다.' : undefined };
+  return { results: input.aiConsent ? recommend(s, input).slice(0, 12) : recommend(s, input), mode: input.aiConsent ? 'fallback' : 'ordinary', message: input.aiConsent ? 'AI를 사용할 수 없어 스냅샷 일반 검색으로 전환했습니다.' : undefined };
 }
 export async function interpret(goal: string, consent: boolean, api = defaultApi, request: typeof fetch = fetch): Promise<GoalProfile> {
   if (!consent || !api) throw new Error('AI 동의와 연결된 API가 필요합니다.');
