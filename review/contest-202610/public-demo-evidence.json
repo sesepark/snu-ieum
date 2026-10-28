@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-10-29",
+  "publicDemoUrl": "https://sesepark.github.io/snu-ieum/",
+  "githubVisibility": "PUBLIC",
+  "hosting": "GitHub Pages main/docs",
+  "snapshotStatus": "prototype",
+  "resources": 807,
+  "unitApiTests": 97,
+  "browserTests": 13,
+  "humanDataApproved": false,
+  "studentEvaluationConducted": false,
+  "onlineSubmitted": false,
+  "anonymousHttpChecks": [
+    {
+      "path": "snapshot.json",
+      "http": 200,
+      "bytes": 793243,
+      "sha256": "c01fbdeadb7c8aba178493b2ddc82bbbac9d70c4b2cf05832c1729e0608e00d9"
+    },
+    {
+      "path": "campus.json",
+      "http": 200,
+      "bytes": 1795184,
+      "sha256": "577e64128f78bab637cf82865f1b25e8a42d261fff6fc3af58f18e45c6beaedf"
+    },
+    {
+      "path": "coverage.json",
+      "http": 200,
+      "bytes": 728923,
+      "sha256": "4caa191d08496b35d5c189c1e52663547b02bbf159daf843eb3a33064359fba2"
+    },
+    {
+      "path": "fonts/Pretendard-Regular.woff2",
+      "http": 200,
+      "bytes": 765892,
+      "sha256": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63"
+    }
+  ],
+  "codeCommit": "80d4298",
+  "publicBrowserChecks": [
+    "timeseries 5 candidates; lab official location 39-411; source link",
+    "equipment official installation 139-1 B112 and room relation",
+    "robotics 18 candidates preserved across ordinary search",
+    "2D/3D selection retained",
+    "390px mobile search and detail; no horizontal overflow"
+  ]
+}
