@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
+ <title id="title">서울대 이음</title>
+ <desc id="desc">관심 분야에서 연구실 교수 장비 공간을 찾고 실제 위치와 공식 출처까지 확인하는 연구자원 지도</desc>
+ <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#d6dce6" stroke-opacity=".28"/></pattern></defs>
+ <rect width="1280" height="330" rx="24" fill="#ffffff"/>
+ <rect width="1280" height="330" rx="24" fill="url(#grid)"/>
+ <g font-family="Pretendard, Noto Sans KR, Apple SD Gothic Neo, sans-serif">
+  <rect x="48" y="36" width="340" height="32" rx="16" fill="#f4f7ff"/>
+  <text x="66" y="58" font-size="15" font-weight="700" fill="#2855f3">SNU IEUM · RESEARCH RESOURCE MAP</text>
+  <text x="48" y="151" font-size="72" font-weight="900" letter-spacing="-4" fill="#111111">서울대 이음</text>
+  <text x="51" y="202" font-size="28" font-weight="700" letter-spacing="-1" fill="#39404d">관심 분야에서 연구자원까지</text>
+  <text x="51" y="237" font-size="20" fill="#4c5360">실제 캠퍼스 위에서 찾고, 위치와 공식 근거로 확인합니다.</text>
+  <g font-size="16" font-weight="700" text-anchor="middle" fill="#1b4bc4">
+   <rect x="51" y="267" width="92" height="30" rx="15" fill="#e8efff"/><text x="97" y="288">연구실</text>
+   <rect x="151" y="267" width="76" height="30" rx="15" fill="#e8efff"/><text x="189" y="288">교수</text>
+   <rect x="235" y="267" width="76" height="30" rx="15" fill="#e8efff"/><text x="273" y="288">장비</text>
+   <rect x="319" y="267" width="76" height="30" rx="15" fill="#e8efff"/><text x="357" y="288">공간</text>
+  </g>
+  <rect x="809" y="67" width="405" height="195" rx="22" fill="#f4f7ff"/>
+  <text x="838" y="104" font-size="14" font-weight="700" fill="#2855f3">EXPLORE WITH EVIDENCE</text>
+  <text x="838" y="145" font-size="28" font-weight="800" fill="#111111">주제 검색</text>
+  <path d="M846 162v22m-6-6 6 6 6-6" stroke="#2855f3" stroke-width="2" fill="none"/>
+  <text x="838" y="218" font-size="28" font-weight="800" fill="#111111">위치와 공식 출처 확인</text>
+  <text x="838" y="244" font-size="14" fill="#4c5360">공대 12개 학과와 공용시설부터</text>
+ </g>
+</svg>
