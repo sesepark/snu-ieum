@@ -29,3 +29,26 @@ it('persists permitted Raw before a source-specific selector failure', async () 
   expect(pipeline.record.mock.calls[0][3].contentSha256).toMatch(/^[a-f0-9]{64}$/);
   expect(pipeline.finish).toHaveBeenCalledWith('run','failed');
 });
+
+
+it('cancels oversized streams instead of continuing to download', async () => {
+  const cancel = vi.fn();
+  const stream = new ReadableStream({pull(controller) { controller.enqueue(new Uint8Array(20)); }, cancel});
+  await expect(readLimited(new Response(stream), 10)).rejects.toThrow('limit');
+  expect(cancel).toHaveBeenCalledOnce();
+});
+
+it('reports throttling without following or retrying the source immediately', async () => {
+  const request=vi.fn().mockResolvedValue(new Response('busy',{status:429,headers:{'Retry-After':'120'}}));
+  await expect(fetchAllowed('https://cse.snu.ac.kr/en/research/labs/4',policy,request)).rejects.toThrow('HTTP 429); retry-after=120');
+  expect(request).toHaveBeenCalledOnce();
+});
+
+it('does not stage an empty description after a site layout change', async () => {
+  const pipeline={record:vi.fn().mockResolvedValue('raw'),stageCandidate:vi.fn(),sourceFailed:vi.fn(),finish:vi.fn()};
+  const request=vi.fn().mockResolvedValue(new Response('<h1>Official Lab</h1>',{headers:{'content-type':'text/html'}}));
+  await expect(collectOfficial(pipeline as unknown as Pipeline,'run','https://cse.snu.ac.kr/en/research/labs/4',policy,{kind:'lab',name:'h1',summary:'main'},request)).rejects.toThrow('selector');
+  expect(pipeline.record).toHaveBeenCalledOnce();
+  expect(pipeline.stageCandidate).not.toHaveBeenCalled();
+  expect(pipeline.sourceFailed).toHaveBeenCalledOnce();
+});

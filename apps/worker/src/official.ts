@@ -8,7 +8,7 @@ import { hash, sanitize } from './privacy.ts';
 export async function readLimited(response: Response, maxBytes = 2_000_000) {
   const reader = response.body?.getReader(); if (!reader) return '';
   const chunks: Uint8Array[] = []; let total = 0;
-  try { while (true) { const { value, done } = await reader.read(); if (done) break; total += value.length; if (total > maxBytes) throw new Error('Source response exceeds limit'); chunks.push(value); } }
+  try { while (true) { const { value, done } = await reader.read(); if (done) break; total += value.length; if (total > maxBytes) { await reader.cancel(); throw new Error('Source response exceeds limit'); } chunks.push(value); } }
   finally { reader.releaseLock(); }
   const bytes = new Uint8Array(total); let offset = 0; for (const chunk of chunks) { bytes.set(chunk, offset); offset += chunk.length; }
   return new TextDecoder().decode(bytes);
@@ -19,7 +19,12 @@ export async function fetchAllowed(url: string, policy: Policy, request: typeof 
     assertAllowed(current, policy);
     const response = await request(current, { redirect: 'manual', signal: AbortSignal.timeout(10000), headers: { 'User-Agent': 'snu-ieum/0.1 (https://github.com/sesepark/snu-ieum)' } });
     if ([301, 302, 303, 307, 308].includes(response.status)) { const next = response.headers.get('location'); if (!next) throw new Error('Redirect without location'); await response.body?.cancel(); current = new URL(next, current).href; continue; }
-    if (!response.ok) throw new Error('Official source unavailable');
+    if (!response.ok) {
+      const status = response.status;
+      const retryAfter = response.headers.get('retry-after');
+      await response.body?.cancel();
+      throw new Error(`Official source unavailable (HTTP ${status})${retryAfter ? '; retry-after=' + retryAfter.slice(0, 128) : ''}`);
+    }
     return { response, url: current };
   }
   throw new Error('Too many redirects');
@@ -45,7 +50,7 @@ export async function collectOfficial(pipeline: Pipeline, runId: string, url: st
       await mkdir(config.artifactRoot, { recursive: true }); await writeFile(path, safe.html, { mode: 0o600 }); await pipeline.artifact(rawId, path, sha256, policy);
     }
     const parsed = parseOfficial(safe.html, config);
-    if (!parsed.name) throw new Error('Source-specific name selector did not match');
+    if (!parsed.name || !parsed.summary) throw new Error('Source-specific name or summary selector did not match');
     const stagingId = await pipeline.stageCandidate(runId, rawId, { kind: config.kind, name: parsed.name, sourceUrl: fetched.url, externalId: fetched.url, parserVersion: policy.parserVersion, facts: { summary: parsed.summary } });
     return { rawId, stagingId };
   } catch (error) { await pipeline.sourceFailed(url); await pipeline.finish(runId, 'failed'); throw error; }
