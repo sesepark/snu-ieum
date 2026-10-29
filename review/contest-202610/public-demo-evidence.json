@@ -38,10 +38,17 @@
   ],
   "codeCommit": "80d4298",
   "publicBrowserChecks": [
-    "timeseries 5 candidates; lab official location 39-411; source link",
-    "equipment official installation 139-1 B112 and room relation",
-    "robotics 18 candidates preserved across ordinary search",
-    "2D/3D selection retained",
-    "390px mobile search and detail; no horizontal overflow"
-  ]
+    "public Pages shows purpose buttons and 832 candidates",
+    "timeseries 5 candidates, DSBA 39-411, 3 official paper references",
+    "Cryo-EM 139-1 B112 official installation room",
+    "robotics 18 candidates, 4 departments with 9/7/1/1 distribution",
+    "390px mobile width equals document scroll width 390",
+    "2D/3D preserved selected resource"
+  ],
+  "revision": "2026-10-29-final-improved",
+  "totalResources": 832,
+  "relations": 294,
+  "officialPagePaperEvidence": 16,
+  "unitTestsPassed": 102,
+  "browserTestsPassed": 14
 }

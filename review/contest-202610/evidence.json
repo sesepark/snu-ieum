@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-10-27T08:31:40.621290+00:00",
-  "codeCommit": "64eda2fc52624a82710b514da5e3c18919056b05",
-  "batchVersion": "college-draft-20261027",
-  "spatialBatchVersion": "campus-20261027",
+  "asOf": "2026-10-29",
+  "codeCommit": "05e47df",
+  "batchVersion": "college-draft-20261029",
+  "spatialBatchVersion": "campus-20261029",
   "publication": "prototype",
   "humanApproved": false,
   "studentEvaluationConducted": false,
@@ -15,26 +15,26 @@
     "researcher": 341,
     "lab": 237,
     "equipment": 209,
-    "space": 20
+    "space": 45
   },
-  "totalResources": 807,
-  "relations": 230,
+  "totalResources": 832,
+  "relations": 294,
   "validatedPapers": 0,
   "completeEquipment": 37,
   "completeSpaces": 8,
   "files": {
-    "data/college-draft.json": "c01fbdeadb7c8aba178493b2ddc82bbbac9d70c4b2cf05832c1729e0608e00d9",
-    "data/campus/campus-draft.json": "577e64128f78bab637cf82865f1b25e8a42d261fff6fc3af58f18e45c6beaedf",
-    "data/coverage/coverage-draft.json": "4caa191d08496b35d5c189c1e52663547b02bbf159daf843eb3a33064359fba2"
+    "data/college-draft.json": "f8f6919face4e5fea0321f8f2cbb98523f70b852411c278afc3dd0f668ef4061",
+    "data/campus/campus-draft.json": "b4f4054058cabd7435110b34ed879c058370b7d25f23c8a2848a4016a9460018",
+    "data/coverage/coverage-draft.json": "c09e344ff58dc773130b72658f00899b460d74ae49316d07a0d824e8ee5ec51e"
   },
   "checks": {
     "typescript": "passed",
     "unitAndAPI": {
-      "passed": 96,
-      "files": 25
+      "passed": 102,
+      "files": 26
     },
     "browser": {
-      "passed": 13
+      "passed": 14
     },
     "productionBuild": "passed",
     "diffCheck": "passed",
@@ -150,5 +150,8 @@
       },
       "method": "agent HTTP source comparison; not human approval; raw body not retained"
     }
-  ]
+  ],
+  "officialPagePaperEvidence": 16,
+  "newInstallationPlaces": 25,
+  "equipmentConnected": 67
 }
