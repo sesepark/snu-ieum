@@ -3,11 +3,11 @@ import { useQuery } from '@tanstack/react-query';
 import { catalog, graph, recommend } from '@ieum/catalog';
 import { loadCatalog, loadCampus, loadCoverage, search } from './client';
 import { parseUrl, shareUrl, useExplore } from './state';
-import Map from './Map';
+import CampusMap from './Map';
 import BuildingDetail, { ResourcePosition } from './BuildingDetail';
 import CampusCoverage from './CampusCoverage';
 import ResourceFacts from './ResourceFacts';
-import { mappedLocations } from '../../../packages/catalog/src/campus';
+import { mappedLocations, locationLabel } from '../../../packages/catalog/src/campus';
 import Filters from './Filters';
 import Relations from './Relations';
 import AI from './AI';
@@ -20,6 +20,7 @@ export default function App() {
   const state = useExplore();
   const [ordinaryResult, setOrdinaryResult] = useState<SearchResponse | null>(null);
   const [aiResult, setAIResult] = useState<SearchResponse | null>(null);
+  const [visibleCount, setVisibleCount] = useState(30);
   const [mobileListOpen, setMobileListOpen] = useState(false);
   const listToggle = useRef<HTMLButtonElement>(null);
   const select = (id: string) => { const l=campus&&snapshot?mappedLocations(campus,snapshot).find(l=>l.resourceId===id):undefined;state.selectBuilding(l?.buildingId??undefined);state.select(id);setMobileListOpen(false); };
@@ -54,6 +55,14 @@ export default function App() {
     return () => { active = false; clearTimeout(timer); };
   }, [snapshot, filters]);
   const results = useMemo(() => aiResult?.results ?? ordinaryResult?.results ?? (snapshot ? recommend(snapshot, filters) : []), [snapshot, filters, aiResult, ordinaryResult]);
+  useEffect(() => { setVisibleCount(30); list.current?.scrollTo(0, 0); }, [state.q, state.kinds, state.departmentIds]);
+  const distribution = useMemo(() => {
+    const totals = new Map<string, number>();
+    for (const card of results) totals.set(card.resource.departmentId, (totals.get(card.resource.departmentId) ?? 0) + 1);
+    return [...totals].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
+  }, [results]);
+  const positions = useMemo(() => new Map(campus && snapshot ? mappedLocations(campus,snapshot).map(l => [l.resourceId, locationLabel(l)]) : []), [campus,snapshot]);
+  const orderedResults = useMemo(() => state.q || aiResult ? results : [...results].sort((a,b) => Number(mappedIds.has(b.resource.id))-Number(mappedIds.has(a.resource.id))), [results,state.q,aiResult,mappedIds]);
   const graphData = useMemo(() => snapshot ? graph(snapshot, filters, { focus: state.focusOnly ? state.selected : undefined, selected:state.selected, depth: state.depth, evidence: state.evidence, expanded: state.focusOnly }) : { nodes: [], edges: [], hiddenNodes: 0, hiddenEdges: 0 }, [snapshot, filters, state.selected, state.focusOnly, state.depth, state.evidence]);
   const highlighted = useMemo(() => new Set(results.map(r => r.resource.id)), [results]);
   const counts = useMemo(() => snapshot ? catalog(snapshot) : null, [snapshot]);
@@ -67,17 +76,20 @@ export default function App() {
     <header className="site-header"><a className="wordmark" href="#/" onClick={event => { event.preventDefault(); state.reset(); setAIResult(null); setMobileListOpen(false); }}>서울대 이음</a><span className="header-divider" /><span className="header-subtitle">관악 연구지도</span><div className="header-right"><span className="live-dot" />공식 출처 기반 <span className="prototype-label">{snapshot.manifest.publication === 'prototype' ? '공모전 시연' : '공개 배치'}</span><details className="demo-info"><summary>시연 안내</summary><div><strong>직접 탐색해 보세요</strong><p>검색·지도·상세·공식 출처는 로그인 없이 사용할 수 있습니다. 현재 자료는 사람 승인 전 검수 초안이며, 장비·공간의 이용 조건은 공식 안내에서 확인해 주세요.</p><p>AI 목표 해석·저장·예약 기능은 이 시연에서 제공하지 않습니다.</p><a href="https://github.com/sesepark/snu-ieum" target="_blank" rel="noreferrer">개발 기록 보기 ↗</a></div></details></div></header>
     <div className="mobile-controls"><button ref={listToggle} onClick={() => setMobileListOpen(!mobileListOpen)} aria-expanded={mobileListOpen} aria-controls="search-panel">{mobileListOpen ? '지도로 돌아가기' : '검색 · 자원 목록'}</button><span>{results.length}개 자원</span></div>
     <main className={`workspace ${resource ? 'has-detail' : ''}`}>
-      <aside id="search-panel" className={`search-panel ${mobileListOpen ? 'mobile-open' : ''}`} aria-label="검색과 자원 목록"><div className="intro"><p className="eyebrow">SNU IEUM · RESEARCH MAP</p><h1>연구가 있는<br />장소를 찾아보세요.</h1><p className="intro-copy">연구실, 교수, 장비, 공간.<br />실제 캠퍼스에서 발견하는 공대의 자원.</p></div>
+      <aside id="search-panel" className={`search-panel ${mobileListOpen ? 'mobile-open' : ''}`} aria-label="검색과 자원 목록"><div className="intro"><p className="eyebrow">SNU IEUM · RESEARCH MAP</p><h1>내 연구에 필요한 곳,<br />어디에 있을까요?</h1><p className="intro-copy">관심 분야로 찾고, 위치와 공식 안내까지.<br />연구실 이름을 몰라도 시작할 수 있습니다.</p></div>
         <form className="search-box" onSubmit={event => event.preventDefault()}><label className="sr-only" htmlFor="search">자원명·연구 분야 검색</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="이름, 연구 분야, 키워드" value={state.q} maxLength={300} onChange={event => state.setQuery(event.target.value)} /><kbd aria-hidden="true">↵</kbd></form>
         <div className="example-queries" aria-label="검색 예시"><span>이렇게 찾아보세요</span>{['시계열', '로봇', '초저온'].map(query=><button key={query} onClick={()=>{state.reset();state.setQuery(query);}}>{query}<span aria-hidden="true">↗</span></button>)}</div>
+        <div className="intent-start" aria-label="목적별 탐색">{([['lab','연구실 찾기'],['equipment','장비 찾기'],['space','공간 찾기']] as const).map(([kind,label])=><button key={kind} aria-pressed={state.kinds.length===1&&state.kinds[0]===kind} onClick={()=>state.setKinds([kind])}>{label}</button>)}</div>
         <Filters catalog={counts} />
-        <AI available={data.aiAvailable} snapshot={snapshot} filters={filters} onResult={setAIResult} />
+        {(state.q || state.kinds.length>0 || state.departmentIds.length>0) && <div className="active-search"><span>{state.q ? `“${state.q}”` : '전체 분야'} · {state.kinds.length ? state.kinds.map(k=>kindLabels[k]).join('·') : '모든 유형'}</span><button onClick={()=>{state.setQuery('');state.setKinds([]);state.setDepartments([]);}}>조건 지우기</button></div>}
+        {state.q && distribution.length>0 && <details className="result-distribution"><summary>{distribution.length}개 학과·기관에서 찾았습니다</summary><p>현재 수록 자료의 검색 결과입니다.</p>{distribution.map(([id,total])=><button key={id} onClick={()=>state.setDepartments([id])}><span>{snapshot.departments.find(d=>d.id===id)?.name ?? id}</span><meter min={0} max={results.length} value={total} aria-label={`${snapshot.departments.find(d=>d.id===id)?.name ?? id} 검색 결과 비중`}/><strong>{total}</strong></button>)}</details>}
+        {data.aiAvailable && <AI available={data.aiAvailable} snapshot={snapshot} filters={filters} onResult={setAIResult} />}
         <div className="list-heading"><h2>{state.q || aiResult ? '검색 결과' : '수록 자원'}</h2><span aria-live="polite">{results.length}개</span></div>
-        <div className="resource-list" id="resource-list" tabIndex={-1} ref={list} aria-label="키보드로 탐색 가능한 자원 목록">{results.length ? results.map(card => <button className={`resource-card ${card.resource.id === state.selected ? 'selected' : ''}`} key={card.resource.id} onClick={() => select(card.resource.id)} aria-pressed={card.resource.id === state.selected}><span className={`kind-mark ${card.resource.kind}`} aria-hidden="true" /><span className="resource-card-body"><span className="card-meta">{kindLabels[card.resource.kind]} · {snapshot.departments.find(d => d.id === card.resource.departmentId)?.name}</span><strong>{card.resource.name}</strong><span className="card-summary">{card.resource.summary}</span>{(state.q || aiResult) && <span className="card-reason">{card.reason}</span>}<span className="card-provenance">{campus && !mappedIds.has(card.resource.id) ? '위치 확인 필요 · ' : ''}공식 출처 {card.source.length} · {card.lastVerifiedAt.slice(0, 10)}{card.verificationRequired ? ' · 재확인 필요' : ''}</span></span><span className="card-arrow" aria-hidden="true">↗</span></button>) : <div className="empty-state"><strong>수록된 결과가 없습니다.</strong><p>검색어나 필터를 바꿔보세요. 아직 수집되지 않은 자원이 있을 수 있습니다.</p>{state.q && <button className="text-button" onClick={() => state.setQuery('')}>검색어 지우기</button>}</div>}</div>
+        <div className="resource-list" id="resource-list" tabIndex={-1} ref={list} aria-label="키보드로 탐색 가능한 자원 목록">{results.length ? orderedResults.slice(0,visibleCount).map(card => <button className={`resource-card ${card.resource.id === state.selected ? 'selected' : ''}`} key={card.resource.id} onClick={() => select(card.resource.id)} aria-pressed={card.resource.id === state.selected}><span className={`kind-mark ${card.resource.kind}`} aria-hidden="true" /><span className="resource-card-body"><span className="card-meta">{kindLabels[card.resource.kind]} · {snapshot.departments.find(d => d.id === card.resource.departmentId)?.name}</span><strong>{card.resource.name}</strong><span className="card-summary">{card.resource.summary}</span>{(state.q || aiResult) && <span className="card-reason">{card.reason}</span>}<span className="card-location">{positions.get(card.resource.id) || '위치 확인 필요'}</span><span className="card-provenance">{campus && !mappedIds.has(card.resource.id) ? '위치 확인 필요 · ' : ''}공식 출처 {card.source.length} · {card.lastVerifiedAt.slice(0, 10)}{card.verificationRequired ? ' · 재확인 필요' : ''}</span></span><span className="card-arrow" aria-hidden="true">↗</span></button>) : <div className="empty-state"><strong>수록된 결과가 없습니다.</strong><p>검색어나 필터를 바꿔보세요. 아직 수집되지 않은 자원이 있을 수 있습니다.</p>{state.q && <button className="text-button" onClick={() => state.setQuery('')}>검색어 지우기</button>}<div className="empty-suggestions">{['로봇','시계열','초저온'].map(q=><button key={q} onClick={()=>{state.setKinds([]);state.setDepartments([]);state.setQuery(q);}}>{q} 살펴보기</button>)}</div></div>}{results.length>visibleCount && <button className="load-more" onClick={()=>setVisibleCount(n=>n+30)}>30개 더 보기 · {Math.min(visibleCount,results.length)}/{results.length}</button>}</div>
         <div className="data-note"><span className="live-dot" /><span>{data.source === 'snapshot' ? '스냅샷으로 탐색 중' : 'API 연결됨'} · {snapshot.manifest.generatedAt.slice(0, 10)}<small>수록 자원 {snapshot.resources.length}개 · 사람 승인 전 검수 초안</small></span><button className="text-button" onClick={() => refetch()}>갱신</button></div>
       </aside>
       <section className="map-panel" aria-label="전체 지식지도"><div className="map-heading"><div><span className="eyebrow">EXPLORE CONNECTIONS</span><h2>관악캠퍼스 <span>공대 {departments.filter(d => d.groupType === 'department').length}개 학과{departments.some(d => d.groupType === 'shared') ? ' · 공용시설' : ''}</span></h2></div><div className="view-switch" aria-label="지도 뷰"><button aria-pressed={state.view === '2d'} onClick={() => state.setView('2d')}>2D</button><button aria-pressed={state.view === '3d'} onClick={() => state.setView('3d')}>3D</button></div></div>
-        <Map campus={campus} snapshot={snapshot} graph={graphData} filters={filters} view={state.view} selected={state.selected} building={state.building} college={state.college} onCollege={state.selectCollege} viewpoint={state.viewpoint} highlighted={highlighted} searching={Boolean(state.q || aiResult)} onBuilding={state.selectBuilding} onViewpoint={state.setViewpoint} onFallback={state.fallback} />
+        <CampusMap campus={campus} snapshot={snapshot} graph={graphData} filters={filters} view={state.view} selected={state.selected} building={state.building} college={state.college} onCollege={state.selectCollege} viewpoint={state.viewpoint} highlighted={highlighted} searching={Boolean(state.q || aiResult)} onBuilding={state.selectBuilding} onViewpoint={state.setViewpoint} onFallback={state.fallback} />
         {campusQuery.error && <p className="campus-load-error">공간 자료를 열지 못했습니다. 검색과 자원 목록은 계속 사용할 수 있습니다.</p>}
         {campus && state.building && !resource && <BuildingDetail campus={campus} snapshot={snapshot} id={state.building} filterIds={highlighted} onSelect={select} onClose={()=>state.selectBuilding(undefined)}/>}
 

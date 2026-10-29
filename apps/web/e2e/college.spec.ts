@@ -8,7 +8,9 @@ test.beforeEach(async ({ page }) => {
 test('explores official equipment and its installation room in the full college draft', async ({ page }) => {
   const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
   await page.goto('#/?view=2d');
-  await expect(page.locator('.resource-card')).toHaveCount(draft.resources.length);
+  await expect(page.locator('.resource-card')).toHaveCount(30);
+  await page.getByRole('button', { name: '30개 더 보기', exact: false }).click();
+  await expect(page.locator('.resource-card')).toHaveCount(60);
   await expect(page.getByLabel('학과 필터').locator('option')).toHaveCount(15);
   await page.getByLabel('자원명·연구 분야 검색').fill('Krios');
   await expect(page.locator('.resource-card')).toHaveCount(1);
@@ -34,4 +36,20 @@ test('keeps paper evidence separate from resources and preserves its expansion a
   await expect(page.getByTestId('map-stage')).toHaveAttribute('aria-label', /3D.*자원·근거 3개, 연결 3개/);
   await expect(page.locator('.resource-card')).toHaveCount(draft.resources.filter(r=>r.departmentId==='industrial').length);
   await expect(page).toHaveURL(/selected=lab-industrial-dsba/);
+});
+
+
+test('purpose filters, distribution and recovery keep all candidates reachable', async ({ page }) => {
+  await page.goto('#/?view=2d');
+  await page.getByRole('button', { name: '장비 찾기', exact: true }).click();
+  await expect(page.locator('.resource-card .card-meta')).toContainText(Array(30).fill('장비'));
+  await page.getByRole('button', { name: '조건 지우기', exact: true }).click();
+  await page.getByLabel('자원명·연구 분야 검색').fill('로봇');
+  await expect(page.locator('.resource-card')).toHaveCount(18);
+  await page.getByText('4개 학과·기관에서 찾았습니다', {exact:true}).click();
+  await expect(page.locator('.result-distribution meter')).toHaveCount(4);
+  await page.getByLabel('자원명·연구 분야 검색').fill('없는검색어-xyz');
+  await expect(page.getByText('수록된 결과가 없습니다.', {exact:true})).toBeVisible();
+  await page.getByRole('button', {name:'시계열 살펴보기',exact:true}).click();
+  await expect(page.locator('.resource-card')).toHaveCount(5);
 });
