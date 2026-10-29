@@ -61,8 +61,8 @@ export default function App() {
     for (const card of results) totals.set(card.resource.departmentId, (totals.get(card.resource.departmentId) ?? 0) + 1);
     return [...totals].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
   }, [results]);
-  const positions = useMemo(() => new Map(campus && snapshot ? mappedLocations(campus,snapshot).map(l => [l.resourceId, locationLabel(l)]) : []), [campus,snapshot]);
-  const orderedResults = useMemo(() => state.q || aiResult ? results : [...results].sort((a,b) => Number(mappedIds.has(b.resource.id))-Number(mappedIds.has(a.resource.id))), [results,state.q,aiResult,mappedIds]);
+  const positions = useMemo(() => new Map(campus && snapshot ? mappedLocations(campus,snapshot).map(l => [l.resourceId, `${campus.buildings.find(b=>b.id===l.buildingId)?.number ?? ''}동 ${l.room ?? ''} · ${locationLabel(l)}`]) : []), [campus,snapshot]);
+  const orderedResults = useMemo(() => state.q || aiResult ? results : [...results].sort((a,b) => Number(mappedIds.has(b.resource.id))-Number(mappedIds.has(a.resource.id)) || ({lab:0,researcher:1,equipment:2,space:3}[a.resource.kind]-{lab:0,researcher:1,equipment:2,space:3}[b.resource.kind])), [results,state.q,aiResult,mappedIds]);
   const graphData = useMemo(() => snapshot ? graph(snapshot, filters, { focus: state.focusOnly ? state.selected : undefined, selected:state.selected, depth: state.depth, evidence: state.evidence, expanded: state.focusOnly }) : { nodes: [], edges: [], hiddenNodes: 0, hiddenEdges: 0 }, [snapshot, filters, state.selected, state.focusOnly, state.depth, state.evidence]);
   const highlighted = useMemo(() => new Set(results.map(r => r.resource.id)), [results]);
   const counts = useMemo(() => snapshot ? catalog(snapshot) : null, [snapshot]);
