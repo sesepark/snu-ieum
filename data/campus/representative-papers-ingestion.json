@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-10-29T05:17:11.500Z",
+  "added": 7,
+  "records": [
+    {
+      "labId": "lab-industrial-or",
+      "url": "https://ie.snu.ac.kr/or_lab/",
+      "runId": "e75199c2-242e-45be-be1a-c48847483ee4",
+      "rawId": "8d1974695e7eaa085d3c1dced134a242bd33241021ee4d4bf72fc714fb0ddd51",
+      "stagingId": "fc1f8cef-5675-4b46-8ad8-33fdca75d9d4",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-industrial-dsba",
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "runId": "71595d6b-7e78-4af8-9f5a-731250073689",
+      "rawId": "3c2784f258cac9ad5893f9e499f83aa50e9156a4ca1707a221e2efb344c78d31",
+      "stagingId": "dbfa96fa-01d8-4a06-8761-68f244ef99c0",
+      "citations": 3,
+      "added": 2
+    },
+    {
+      "labId": "lab-industrial-his",
+      "url": "https://ie.snu.ac.kr/his_lab/",
+      "runId": "deb3b125-90bb-4c63-beb5-24e00a889910",
+      "rawId": "83fe7050a4dc27739ea6a8d72a16e2f873e8705f19ba150d054f7291f357e390",
+      "stagingId": "33c26fdd-57bc-43f1-8801-0bc8963602dd",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-b",
+      "url": "https://ie.snu.ac.kr/leesa/",
+      "runId": "d7a24d80-2b88-409e-a1a4-2244fa6603ff",
+      "rawId": "0b127b37dc022e7cb536faa69145cbd65485302cc2bf8b697cae7532e7e9a224",
+      "stagingId": "1f637811-d0a2-415b-a6d4-7b9a44ca2ad4",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-c",
+      "url": "https://ie.snu.ac.kr/scm_lab/",
+      "runId": "c54f0233-5f82-45c0-9d78-db762dbe7535",
+      "rawId": "b89bc3f03b723c836c02cd92ade85a34aae1eb6e2171f061fc2993a5c872a6cf",
+      "stagingId": "8fb6df96-b222-4521-a5d2-5be8ec160263",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-d",
+      "url": "https://ie.snu.ac.kr/fre_lab/",
+      "runId": "a783c3cb-572e-4e51-bd0e-94d49a30de15",
+      "rawId": "ed9283e452eec611bf33d6d8fc92b032379f96ef5a7012b36c086a8f50974191",
+      "stagingId": "f8630a4b-0693-43fb-abd0-f104472e803b",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-e",
+      "url": "https://ie.snu.ac.kr/ti_lab/",
+      "runId": "09463e0a-ba53-4b59-a679-4d3ae655c28e",
+      "rawId": "891bdb9addc1c8f54077cf57a474e42a965030d8bfbcfdbf2b693172e41f908b",
+      "stagingId": "a152fd76-5783-4c13-9327-eaa3882b3eb7",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-g",
+      "url": "https://ie.snu.ac.kr/bdai_lab/",
+      "runId": "77ef8d2d-c094-4b49-83e2-76adf6396f26",
+      "rawId": "b5b12999163f76487c0548b8abe40c3371b6e492fc240335e2cb53129cf54795",
+      "stagingId": "82b6af42-35d3-4d9b-8036-43433ebad36b",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-h",
+      "url": "https://ie.snu.ac.kr/let_lab/",
+      "runId": "e3a9f6a2-0712-40ac-8948-ce747d3bbd23",
+      "rawId": "a5452acee37a7c4d2b419f76f4265e47cd6af9f9623eee1623cd8ae5a8a16a3c",
+      "stagingId": "5bea2137-0f5f-45e7-b59c-d5183b051295",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-i",
+      "url": "https://ie.snu.ac.kr/service_inno_lab/",
+      "runId": "954c1b0e-5bea-4bc3-8206-2b0462d51310",
+      "rawId": "1562e102406befa1f9adab56037dcb3290a5b977865e9efe8b0b51b8edd99def",
+      "stagingId": "4d08617f-eca8-43cb-be75-a01f3ebf4661",
+      "citations": 3,
+      "added": 2
+    },
+    {
+      "labId": "lab-current-industrial-j",
+      "url": "https://ie.snu.ac.kr/optimize_lab/",
+      "runId": "59d42e76-cb74-4d5f-907b-1a366941a798",
+      "rawId": "8b13cca1ef8637135f7432f8006b4b23067770f89905b3474a3d06505f662c1d",
+      "stagingId": "51976efe-687f-4f0f-9f26-fa9c04c2e43b",
+      "citations": 1,
+      "added": 1
+    },
+    {
+      "labId": "lab-current-industrial-k",
+      "url": "https://ie.snu.ac.kr/om_lab/",
+      "runId": "8b4ef17b-62a8-47fc-a714-1dc498de8624",
+      "rawId": "ec826137b829c61695d1eead1f7a98119391b8e4319a7569b502e43c743ecb93",
+      "stagingId": "da41d9c9-50ce-457c-9d54-c1cd58bb7c17",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-l",
+      "url": "https://ie.snu.ac.kr/im_lab/",
+      "runId": "67f4530f-16d2-481d-94bb-01618f124645",
+      "rawId": "14fdefbf72fd0c0438244d67459d0617c44ec3081795b7895941eb24aed718ca",
+      "stagingId": "c5f84d7c-8177-473e-83c0-d6f2895d07e2",
+      "citations": 0,
+      "added": 0
+    },
+    {
+      "labId": "lab-current-industrial-m",
+      "url": "https://ie.snu.ac.kr/pse_lab/",
+      "runId": "78fa0e82-f982-4bd5-bdd6-a8fae6b4ace8",
+      "rawId": "dff9211604c2e7714d3f34cf8916db792b5eb8bd528168cbc9dbbf5f9f1f1ffb",
+      "stagingId": "e521a9a5-d214-4772-bd51-5321c7f20a76",
+      "citations": 1,
+      "added": 1
+    },
+    {
+      "labId": "lab-current-industrial-n",
+      "url": "https://ie.snu.ac.kr/slcf_lab/",
+      "runId": "9eb50e83-632d-4fdd-9038-cbc2160ae2a0",
+      "rawId": "d75e983e39b1c392fc4217bf8061d345c350577a300466da9445014ff99b5f71",
+      "stagingId": "c8f045af-e0c5-4cec-b7c9-2d983325d60c",
+      "citations": 1,
+      "added": 1
+    }
+  ],
+  "status": "pending-human-bibliographic-review",
+  "note": "Official lab representative citations; not independently validated OpenAlex author identities or full texts; three truncated title parses excluded before publication, source citations retained in immutable Raw",
+  "acceptedAfterNormalization": 4,
+  "rejectedAfterNormalization": [
+    "paper-official-e7bb7e27bde98c1e",
+    "paper-official-a65be6678d8375a0",
+    "paper-official-282c94b8dcf02b1f"
+  ]
+}

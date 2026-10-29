@@ -6,7 +6,7 @@ import{buildingModel,project,surface}from'./campus-model';
 const s=SnapshotSchema.parse(sdata),c=CampusSchema.parse(cdata),f={q:'',kinds:[],departmentIds:[]};
 it('groups co-located resources by the actual building instead of assigning artificial internal coordinates',()=>{
  const m=buildingModel(c,s,f,new Set(s.resources.map(r=>r.id)),{nodes:[],edges:[],hiddenNodes:0,hiddenEdges:0});
- expect(m.markers.find(m=>m.building.id==='snu-139')!.resourceIds.length).toBe(35);
+ expect(m.markers.find(m=>m.building.id==='snu-139')!.resourceIds.length).toBe(51);
  const lab=s.resources.find(r=>r.kind==='lab')!;
  expect(m.markers.some(m=>m.resourceIds.includes(lab.id))).toBe(false);
  expect(m.unlocated).toBeGreaterThan(0);expect(project([126.954,37.4575])).toEqual([0,-0]);

@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "shared-draft-20261026",
-    "generatedAt": "2026-10-27T01:50:01.150Z",
+    "generatedAt": "2026-10-29T05:15:24.974Z",
     "publication": "prototype",
     "selectionReason": "기기원 보유기기의 서로 다른 분석 방식과 공대 공식 지원시설의 학술 공간을 골랐다. 장비 20개·공간 12곳의 사실 메타데이터 검수 초안으로 사람 승인 전이다. 전수 조사나 이용 가능 보장이 아니다.",
     "schemaVersion": 1
@@ -467,6 +467,501 @@
       "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=91",
       "title": "XRM 공식 상세 · 기기활용",
       "organization": "서울대학교 기초과학공동기기원",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "source-irf-equipment-52",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=52",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Cs-TEM 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-82",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=82",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-TEM 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-57",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=57",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "NANO MILL 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-69",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=69",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "WD-XRF(S8 TIGER) 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-64",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=64",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ESCA II 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-62",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=62",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Powder XRD 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-66",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=66",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "SC-XRD 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-97",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=97",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Surface Profiler 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-63",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=63",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "TOF-SIMS 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-48",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=48",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FIB 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-55",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=55",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-SEM 7800F Prime 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-90",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=90",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Mini SEM 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-86",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=86",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Mounting and Polishing 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-85",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=85",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ColdSpray-LC-TOF-MS 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-16",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=16",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "GC-HRMS 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-61",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=61",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "GC-MS/MS 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-56",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=56",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Microscope IR 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-20",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=20",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ICP-AES 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-4",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=4",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "500MHz Solid NMR 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-60",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=60",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "850MHz Cryo NMR 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-72",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=72",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "CAE-Simulator 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-102",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=102",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-SEM GeminiSEM 560 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-92",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=92",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "LA-ICP-MS 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-24",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=24",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MALDI-TOF 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-68",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=68",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MALDI-TOFTOF 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-65",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=65",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MC-ICP-MS 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-67",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=67",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Raman (DXR2xi) 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-83",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=83",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "SAICAS 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-irf-equipment-42",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=42",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "TEM(200kV) (구 TEM II) 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "source-cbe-shared-equipment",
+      "url": "https://cbe.snu.ac.kr/cbe/main/contents.do?menuNo=300033",
+      "organization": "서울대학교 화학생물공학부",
+      "title": "화학생물공학부 공동기기실 주요 기기 현황",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:08:08.684Z",
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z"
+    },
+    {
+      "id": "source-irf-equipment-3",
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=3",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "600MHz-NMR 공식 보유기기 안내",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:03:13.722Z",
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "irf-applications-3",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=3",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "600MHz-NMR 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-52",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=52",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Cs-TEM 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-82",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=82",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-TEM 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-57",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=57",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "NANO MILL 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-64",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=64",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ESCA II 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-62",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=62",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Powder XRD 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-97",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=97",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Surface Profiler 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-63",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=63",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "TOF-SIMS 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-48",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=48",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FIB 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-55",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=55",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-SEM 7800F Prime 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-90",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=90",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Mini SEM 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-86",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=86",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Mounting and Polishing 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-85",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=85",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ColdSpray-LC-TOF-MS 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-61",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=61",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "GC-MS/MS 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-56",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=56",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Microscope IR 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-20",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=20",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "ICP-AES 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-4",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=4",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "500MHz Solid NMR 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-60",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=60",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "850MHz Cryo NMR 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-72",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=72",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "CAE-Simulator 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-102",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=102",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "FE-SEM GeminiSEM 560 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-92",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=92",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "LA-ICP-MS 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-65",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=65",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "MC-ICP-MS 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-67",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=67",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "Raman (DXR2xi) 공식 상세 · 기기활용",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-27T01:50:01.150Z",
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
+    },
+    {
+      "id": "irf-applications-83",
+      "url": "https://irf.snu.ac.kr/possessed_device/pop_detail.php?idx=83",
+      "organization": "서울대학교 기초과학공동기기원",
+      "title": "SAICAS 공식 상세 · 기기활용",
       "sourceType": "official-page",
       "retrievedAt": "2026-10-27T01:50:01.150Z",
       "lastVerifiedAt": "2026-10-27T01:50:01.150Z"
@@ -1094,6 +1589,1337 @@
       ],
       "lastVerifiedAt": "2026-10-26T11:09:09Z",
       "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-101",
+      "kind": "space",
+      "name": "139동 101호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 구면수차보정 주사투과전자현미경 · Cs-STEM, 구면수차보정 투과전자현미경 · Cs-TEM, 전계방사 투과전자현미경 · FE-TEM, 나노밀 · NANO MILL. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "101호"
+      ],
+      "sourceIds": [
+        "src-irf-53",
+        "source-irf-equipment-52",
+        "source-irf-equipment-82",
+        "source-irf-equipment-57"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-402",
+      "kind": "space",
+      "name": "139동 402호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 원소 분석기 · Elemental Analyzer, 파장분산형 X선 형광 분석기 · WD-XRF(S8 TIGER). 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "402호"
+      ],
+      "sourceIds": [
+        "src-irf-10",
+        "source-irf-equipment-69"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-1-254",
+      "kind": "space",
+      "name": "139-1동 254호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 표면분석장치 · ESCA Axis Supra+, 고분해능 X-선 회절분석기 · HRXRD, 표면분석장치 II · ESCA II, 분말 X-선 회절 분석기 · Powder XRD, 단결정 X-선 회절분석기 · SC-XRD, 접촉식 단차 측정기 · Surface Profiler, 비행시간형 이차이온질량분석기 · TOF-SIMS. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139-1동",
+        "254호"
+      ],
+      "sourceIds": [
+        "src-irf-106",
+        "src-irf-19",
+        "source-irf-equipment-64",
+        "source-irf-equipment-62",
+        "source-irf-equipment-66",
+        "source-irf-equipment-97",
+        "source-irf-equipment-63"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-108",
+      "kind": "space",
+      "name": "139동 108호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 전자스핀공명 분광기 · ESR, 이온빔집속장치 · FIB. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "108호"
+      ],
+      "sourceIds": [
+        "src-irf-100",
+        "source-irf-equipment-48"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-408",
+      "kind": "space",
+      "name": "139동 408호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 초고속 유세포 분리기 · FACS AriaII. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "408호"
+      ],
+      "sourceIds": [
+        "src-irf-35"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-130",
+      "kind": "space",
+      "name": "139동 130호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 전계방사 전자현미분석기 · FE-EPMA, 이온빔집속장치 · FIB II, 전계방사 주사전자현미경 · FE-SEM 7800F Prime, 미니  주사전자현미경 · Mini SEM, 전자현미경전처리장비 · Mounting and Polishing. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "130호"
+      ],
+      "sourceIds": [
+        "src-irf-54",
+        "src-irf-89",
+        "source-irf-equipment-55",
+        "source-irf-equipment-90",
+        "source-irf-equipment-86"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-306",
+      "kind": "space",
+      "name": "139동 306호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 푸리에 변환 적외선 분광기 · FT-IR, 기체크로마토그래피 고분해능 비행시간형 질량분석기 · GC-HRTOFMS, 액체 크로마토그래피 비행시간차 질량분석기 · ColdSpray-LC-TOF-MS, 기체 크로마토그래피 고분해능 질량분석기 · GC-HRMS, 기체 크로마토그래피 탠덤 질량분석기 · GC-MS/MS, 현미경 적외선 분광기 · Microscope IR. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "306호"
+      ],
+      "sourceIds": [
+        "src-irf-50",
+        "src-irf-74",
+        "source-irf-equipment-85",
+        "source-irf-equipment-16",
+        "source-irf-equipment-61",
+        "source-irf-equipment-56"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-401",
+      "kind": "space",
+      "name": "139동 401호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 감마선 조사기 · GAMMA 조사기. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "401호"
+      ],
+      "sourceIds": [
+        "src-irf-15"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-207",
+      "kind": "space",
+      "name": "139동 207호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 유도결합 플라즈마 질량분석기 · ICP-MS, 유도결합 플라즈마 방출 분광기 · ICP-AES. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "207호"
+      ],
+      "sourceIds": [
+        "src-irf-21",
+        "source-irf-equipment-20"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-1-151",
+      "kind": "space",
+      "name": "139-1동 151호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 차세대 뇌과학 연구용 3T 자기공명영상장치 · MRI. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139-1동",
+        "151호"
+      ],
+      "sourceIds": [
+        "src-irf-113"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-209",
+      "kind": "space",
+      "name": "139동 209호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 고분해능 3차원 X선 이미징 시스템 · XRM. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "209호"
+      ],
+      "sourceIds": [
+        "src-irf-91"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-106",
+      "kind": "space",
+      "name": "139동 106호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 고체상 핵자기공명 분광기 · 500MHz Solid NMR. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "106호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-4"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-1-120",
+      "kind": "space",
+      "name": "139-1동 120호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 핵자기 공명 분광기 850MHz · 850MHz Cryo NMR. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139-1동",
+        "120호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-60"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-307-1",
+      "kind": "space",
+      "name": "139동 307-1호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 이미지 분석 시뮬레이터 · CAE-Simulator. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "307-1호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-72"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-1-130",
+      "kind": "space",
+      "name": "139-1동 130호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 전계방사 주사전자현미경 · FE-SEM GeminiSEM 560. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139-1동",
+        "130호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-102"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-207-1",
+      "kind": "space",
+      "name": "139동 207-1호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 레이저 삭마 유도결합 플라즈마 질량 분석기 · LA-ICP-MS. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "207-1호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-92"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-412",
+      "kind": "space",
+      "name": "139동 412호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 고분해능 거대질량 분석기 · MALDI-TOF, 고분해능 거대질량 분석기 · MALDI-TOFTOF. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "412호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-24",
+        "source-irf-equipment-68"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-208",
+      "kind": "space",
+      "name": "139동 208호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 다중검출 유도결합플라즈마 질량분석기 · MC-ICP-MS. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "208호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-65"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-404",
+      "kind": "space",
+      "name": "139동 404호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 라만분광기 · Raman (DXR2xi). 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "404호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-67"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-413",
+      "kind": "space",
+      "name": "139동 413호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 계면 특성 분석 시스템 · SAICAS. 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139동",
+        "413호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-83"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-139-1-251",
+      "kind": "space",
+      "name": "139-1동 251호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 투과전자현미경 · TEM(200kV) (구 TEM II). 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "장비 설치실",
+        "139-1동",
+        "251호"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-42"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-302-214",
+      "kind": "space",
+      "name": "302동 214호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 가스크로마토그래프/질량분석기(GC/MS), 고성능 액체크로마토그래피(HPLC), 공초점레이저현미경(CLSM), 시차열량주사계(DSC)/열중량분석기(TGA), 적외선분광기(Cary600), 적외선분광기(PerkinElmer), 전계 방사형 주사 전자 현미경(FE-SEM), 전자스핀자기공명분광기(EPR), 주사탐침현미경(AFM), 태양전지 성능평가 시스템(IPCE), 핵자기 공명 분광기(NMR), 헤드스페이스 가스크로마토그래피/질량분석기 (Headspace GC/MS), 유도결합플라즈마 분광분석기(ICPS), 원소분석기(EA), X-ray 회절 분석기(XRD)(D/Max), X-ray 회절 분석기(XRD)(SmartLab). 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "장비 설치실",
+        "302동",
+        "214호"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-302-714",
+      "kind": "space",
+      "name": "302동 714호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 겔투과크로마토그래피(GPC). 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "장비 설치실",
+        "302동",
+        "714호"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-302-716",
+      "kind": "space",
+      "name": "302동 716호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: 미생물유세포분석기(FACS). 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "장비 설치실",
+        "302동",
+        "716호"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "space-installation-37-204",
+      "kind": "space",
+      "name": "37동 204호 · 장비 설치실",
+      "summary": "공식 장비 설치 안내에 명시된 장소입니다. 설치 장비: X-ray 광전자 분석기(XPS), X-ray 회절 분석기(XRD). 학생 자유 이용·예약 가능 여부는 운영기관 안내에서 확인해야 합니다.",
+      "departmentId": "chemical",
+      "keywords": [
+        "장비 설치실",
+        "37동",
+        "204호"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-3",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기 600MHz · 600MHz-NMR",
+      "summary": "공식 기기활용: 본 기관의 600MHz NMR은 Cryoprobe (z-gradient, 5mm TCI : 1H /13C /15N)를 설치 운영하고 있습니다. Cryoprobe는 insert coil을 극저온(-243℃, 시료측정온도와 별개)에서 작동시켜, 기존의 Probehead 보다 1D, 2D 및; ※ 분석 및 연구에 관하여 상담을 원하시는 분은 자세한 사항을 메일을 통해 문의 해주십시오. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "600MHz-NMR",
+        "AvanceIII-600",
+        "※ 분석 및 연구에 관하여 상담을 원하시는 분은 자세한 사항을 메일을 통해 문의 해주십시오."
+      ],
+      "sourceIds": [
+        "source-irf-equipment-3",
+        "irf-applications-3"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-52",
+      "kind": "equipment",
+      "name": "구면수차보정 투과전자현미경 · Cs-TEM",
+      "summary": "공식 기기활용: (1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰; (2) 내부구조 (결함, 전위), 결정구조, 원자배열; (3) 화학조성, 원소분석 (정량, 정성, Mapping) 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Cs-TEM",
+        "JEM-ARM200F",
+        "(1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰",
+        "(2) 내부구조 (결함, 전위), 결정구조, 원자배열",
+        "(3) 화학조성, 원소분석 (정량, 정성, Mapping)"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-52",
+        "irf-applications-52"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-82",
+      "kind": "equipment",
+      "name": "전계방사 투과전자현미경 · FE-TEM",
+      "summary": "공식 기기활용: (1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰; (2) 내부구조 (결함, 전위), 결정구조, 원자배열; (3) 화학조성, 원소분석 (정량, 정성, mapping); (4) 3차원 TEM, STEM image 및 3차원 EDS mapping 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-TEM",
+        "JEM-F200(TFEG)",
+        "(1) 각종물질 (Hard, Soft & Hybrid materials) 의 미세영역에서 형상, 형태관찰",
+        "(2) 내부구조 (결함, 전위), 결정구조, 원자배열",
+        "(3) 화학조성, 원소분석 (정량, 정성, mapping)",
+        "(4) 3차원 TEM, STEM image 및 3차원 EDS mapping"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-82",
+        "irf-applications-82"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-57",
+      "kind": "equipment",
+      "name": "나노밀 · NANO MILL",
+      "summary": "공식 기기활용: 1. FIB시료의 Ar 초 저 에너지 이온빔으로 시편 추가밀링; 2. FIB작업중 발생되는 Ga damage 제거 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "NANO MILL",
+        "M1040",
+        "1. FIB시료의 Ar 초 저 에너지 이온빔으로 시편 추가밀링",
+        "2. FIB작업중 발생되는 Ga damage 제거"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-57",
+        "irf-applications-57"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-69",
+      "kind": "equipment",
+      "name": "파장분산형 X선 형광 분석기 · WD-XRF(S8 TIGER)",
+      "summary": "공식 장비 안내의 모델 S8 TIGER, 설치 호실 139동 402호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "WD-XRF(S8 TIGER)",
+        "S8 TIGER"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-69"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-64",
+      "kind": "equipment",
+      "name": "표면분석장치 II · ESCA II",
+      "summary": "공식 기기활용: 1. 유·무기 재료, 금속 및 고분자 재료의 화학적 특성 연구와 상대정량 분석; 2. 재료 개발 분야의 신뢰성 평가; 3. 표면의 산화물, 오염물 분석; 4. 깊이에 따른 분석; 5. ARXPS, Depth Profile, XPS Imaging, UPS 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ESCA II",
+        "AXIS SUPRA",
+        "1. 유·무기 재료, 금속 및 고분자 재료의 화학적 특성 연구와 상대정량 분석",
+        "2. 재료 개발 분야의 신뢰성 평가",
+        "3. 표면의 산화물, 오염물 분석",
+        "4. 깊이에 따른 분석",
+        "5. ARXPS, Depth Profile, XPS Imaging, UPS"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-64",
+        "irf-applications-64"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-62",
+      "kind": "equipment",
+      "name": "분말 X-선 회절 분석기 · Powder XRD",
+      "summary": "공식 기기활용: 분말 시료의 결정 상 분석; 분말 시료의 정량 분석; 분말 시료의 결정화도 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Powder XRD",
+        "SmartLab",
+        "분말 시료의 결정 상 분석",
+        "분말 시료의 정량 분석",
+        "분말 시료의 결정화도 분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-62",
+        "irf-applications-62"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-66",
+      "kind": "equipment",
+      "name": "단결정 X-선 회절분석기 · SC-XRD",
+      "summary": "공식 장비 안내의 모델 XtaLAB PRO, 설치 호실 139-1동 254호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SC-XRD",
+        "XtaLAB PRO"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-66"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-97",
+      "kind": "equipment",
+      "name": "접촉식 단차 측정기 · Surface Profiler",
+      "summary": "공식 기기활용: 태양 전지, 필름, 반도체, 안과, 의료 기기, 및 MEMS 시료 등 모든 고체 재료의 단차 측정에 활용; TOF-SIMS의 depth profile 분석 후 etching time을 두께로 변환한 결과 제공 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Surface Profiler",
+        "ET200",
+        "태양 전지, 필름, 반도체, 안과, 의료 기기, 및 MEMS 시료 등 모든 고체 재료의 단차 측정에 활용",
+        "TOF-SIMS의 depth profile 분석 후 etching time을 두께로 변환한 결과 제공"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-97",
+        "irf-applications-97"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-63",
+      "kind": "equipment",
+      "name": "비행시간형 이차이온질량분석기 · TOF-SIMS",
+      "summary": "공식 기기활용: 원소 및 분자 분석; 분자 구조 분석; 미량 원소 분석(H 포함); 화학 매핑(SIMS 이미지); 깊이 분포도 분석 및 3차원 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "TOF-SIMS",
+        "TOF.SIMS-5",
+        "원소 및 분자 분석",
+        "분자 구조 분석",
+        "미량 원소 분석(H 포함)",
+        "화학 매핑(SIMS 이미지)",
+        "깊이 분포도 분석 및 3차원 분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-63",
+        "irf-applications-63"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-48",
+      "kind": "equipment",
+      "name": "이온빔집속장치 · FIB",
+      "summary": "공식 기기활용: 1) 재료 내부 구조 분석 : 금속 석출상, 개재물 등 분포 분석; 2) 금속/세라믹/전자/분말 소재의 투과전자현미경(TEM) 샘플 제작; 3) 품질 문제 대응 및 신소재, 신기술 분야 재료 미세 구조 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FIB",
+        "Helios 650",
+        "1) 재료 내부 구조 분석 : 금속 석출상, 개재물 등 분포 분석",
+        "2) 금속/세라믹/전자/분말 소재의 투과전자현미경(TEM) 샘플 제작",
+        "3) 품질 문제 대응 및 신소재, 신기술 분야 재료 미세 구조 분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-48",
+        "irf-applications-48"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-55",
+      "kind": "equipment",
+      "name": "전계방사 주사전자현미경 · FE-SEM 7800F Prime",
+      "summary": "공식 기기활용: (1) Hard, Soft, Hybrid materials 등 각종 물질의 미세 영역 표면 관찰; (2) Electron channeling contrast; (3) 화학조성 및 원소분석 (정량, 정성, mapping) 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-SEM 7800F Prime",
+        "JSM-7800F Prime",
+        "(1) Hard, Soft, Hybrid materials 등 각종 물질의 미세 영역 표면 관찰",
+        "(2) Electron channeling contrast",
+        "(3) 화학조성 및 원소분석 (정량, 정성, mapping)"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-55",
+        "irf-applications-55"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-90",
+      "kind": "equipment",
+      "name": "미니  주사전자현미경 · Mini SEM",
+      "summary": "공식 기기활용: 1. 분석 샘플: 전도성 & 비전도성 샘플(Low Vacuum mode) 분석 가능.; 2. High Vacuum mode에서 SEI & BEI 이미지.; : SEI: 샘플 표면의 선명한 이미지 확인.; : BEI 이미지에 입체감 구현 가능. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Mini SEM",
+        "JCM-6000",
+        "1. 분석 샘플: 전도성 & 비전도성 샘플(Low Vacuum mode) 분석 가능.",
+        "2. High Vacuum mode에서 SEI & BEI 이미지.",
+        ": SEI: 샘플 표면의 선명한 이미지 확인.",
+        ": BEI 이미지에 입체감 구현 가능."
+      ],
+      "sourceIds": [
+        "source-irf-equipment-90",
+        "irf-applications-90"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-86",
+      "kind": "equipment",
+      "name": "전자현미경전처리장비 · Mounting and Polishing",
+      "summary": "공식 기기활용: (1) 전자현미경용 마운팅 시료 제작; (2) 미세구조 관찰을 위한 전처리(폴리싱) 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Mounting and Polishing",
+        "LaboPol-30",
+        "(1) 전자현미경용 마운팅 시료 제작",
+        "(2) 미세구조 관찰을 위한 전처리(폴리싱)"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-86",
+        "irf-applications-86"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-85",
+      "kind": "equipment",
+      "name": "액체 크로마토그래피 비행시간차 질량분석기 · ColdSpray-LC-TOF-MS",
+      "summary": "공식 기기활용: 1. 의약품, 약물, 합성 유기체 정성분석; 2. 반응 중간체 구조 분석; 3. 대기압 상태에서 실시간 정성분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ColdSpray-LC-TOF-MS",
+        "JMS-T100LP 4G",
+        "1. 의약품, 약물, 합성 유기체 정성분석",
+        "2. 반응 중간체 구조 분석",
+        "3. 대기압 상태에서 실시간 정성분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-85",
+        "irf-applications-85"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-16",
+      "kind": "equipment",
+      "name": "기체 크로마토그래피 고분해능 질량분석기 · GC-HRMS",
+      "summary": "공식 장비 안내의 모델 JMS-700(JEOL, Japan), 6890 Series, 설치 호실 139동 306호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "GC-HRMS",
+        "JMS-700(JEOL, Japan), 6890 Series"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-61",
+      "kind": "equipment",
+      "name": "기체 크로마토그래피 탠덤 질량분석기 · GC-MS/MS",
+      "summary": "공식 기기활용: 고분자, 식품, 바이오/생명과학, 나노/신소재, 약물 대사연구, 신약개발, 환경 등 휘발성 유기화합물의 정성 및 정량 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "GC-MS/MS",
+        "TSQ 8000 Evo / TRACE 1310",
+        "고분자, 식품, 바이오/생명과학, 나노/신소재, 약물 대사연구, 신약개발, 환경 등 휘발성 유기화합물의 정성 및 정량"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-61",
+        "irf-applications-61"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-56",
+      "kind": "equipment",
+      "name": "현미경 적외선 분광기 · Microscope IR",
+      "summary": "공식 기기활용: 화학 작용기의 확인; 고분자 물질의 종류 확인; 다층 필름, 고분자 블렌드, 비드 등의 분석; 산업체에서 제품의 품질 향상(이물 분석, 마이크로 영역의 불량 원인 분석) 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Microscope IR",
+        "Spotlight 400",
+        "화학 작용기의 확인",
+        "고분자 물질의 종류 확인",
+        "다층 필름, 고분자 블렌드, 비드 등의 분석",
+        "산업체에서 제품의 품질 향상(이물 분석, 마이크로 영역의 불량 원인 분석)"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-56",
+        "irf-applications-56"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-20",
+      "kind": "equipment",
+      "name": "유도결합 플라즈마 방출 분광기 · ICP-AES",
+      "summary": "공식 기기활용: 용액 상태의 주성분 원소, 미량원소의 분석; 수질오염에 따른 중금속 원소 분석; 생체, 생물 시료의 중금속 원소 분석; 환경, 화학시료의 무기원소 분석; 금속, 광물, 암석시료의 무기원소 분석; 식품 및 토양시료의 무기원소 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "ICP-AES",
+        "OPTIMA 8300",
+        "용액 상태의 주성분 원소, 미량원소의 분석",
+        "수질오염에 따른 중금속 원소 분석",
+        "생체, 생물 시료의 중금속 원소 분석",
+        "환경, 화학시료의 무기원소 분석",
+        "금속, 광물, 암석시료의 무기원소 분석",
+        "식품 및 토양시료의 무기원소 분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-20",
+        "irf-applications-20"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-4",
+      "kind": "equipment",
+      "name": "고체상 핵자기공명 분광기 · 500MHz Solid NMR",
+      "summary": "공식 기기활용: 1) 기기구성; 공동기기원 Solid 500MHz NMR 은 위에서 소개한 방법들을 다양한 시료에 대해 적용하기 위해 0.7mm, 2.5mm, 4mm, 7mm 등 4가지 probe head (1H,19F~15N)와 확산계수 측정용 pulse field gradient probe (1H)를 갖추고 있으며; 2) 이용분야; 화학, 생물, 재료, 의학, 천연물 분야에서의 구조분석; 물리학 및 재료 공학 분야에서 물성 연구; 다공성 물질의 기공크기 분포 연구; 고체시료의 결정상태 연구; 액체시료의 확산계수 측정 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "500MHz Solid NMR",
+        "Bruker Avance III HD",
+        "1) 기기구성",
+        "2) 이용분야",
+        "화학, 생물, 재료, 의학, 천연물 분야에서의 구조분석",
+        "물리학 및 재료 공학 분야에서 물성 연구",
+        "다공성 물질의 기공크기 분포 연구",
+        "고체시료의 결정상태 연구",
+        "액체시료의 확산계수 측정"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-4",
+        "irf-applications-4"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-60",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기 850MHz · 850MHz Cryo NMR",
+      "summary": "공식 기기활용: 본 기관의 850MHz NMRM.은 Cryoprobe (z-gradient, 5mm TCI : 1H /13C /15N)를 설치 운영하고 있습니다. Cryoprobe는 insert coil을 극저온(-243℃, 시료측정온도와 별개)에서 작동시켜, 기존의 Probehead 보다 1D, 2D; ※ 분석 및 연구에 관하여 상담을 원하시는 분은 자세한 사항을 이메일을 통해 문의 해주십시오. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "850MHz Cryo NMR",
+        "AVNACE III HD",
+        "※ 분석 및 연구에 관하여 상담을 원하시는 분은 자세한 사항을 이메일을 통해 문의 해주십시오."
+      ],
+      "sourceIds": [
+        "source-irf-equipment-60",
+        "irf-applications-60"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-72",
+      "kind": "equipment",
+      "name": "이미지 분석 시뮬레이터 · CAE-Simulator",
+      "summary": "공식 기기활용: CPU기반 마이크로 프로세서나 GPU기반의 Co-processor등을 네트워크로 연결, 분산처리 메커니즘에 의해 병렬 프로세싱을 구현,; CAE작업 즉, 유한요소해석(FEA), 전산유체역학(CFD), 다물체동력학(MBD), 최적화등 과학연산시뮬레이션 수행 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "CAE-Simulator",
+        "CAE-Simulator ThunderBolt/ R2N24C4V48G/10g",
+        "CPU기반 마이크로 프로세서나 GPU기반의 Co-processor등을 네트워크로 연결, 분산처리 메커니즘에 의해 병렬 프로세싱을 구현,",
+        "CAE작업 즉, 유한요소해석(FEA), 전산유체역학(CFD), 다물체동력학(MBD), 최적화등 과학연산시뮬레이션 수행"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-72",
+        "irf-applications-72"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-102",
+      "kind": "equipment",
+      "name": "전계방사 주사전자현미경 · FE-SEM GeminiSEM 560",
+      "summary": "공식 기기활용: Chemical powder morphology 및 Non coating 시료의 정밀 표면 관찰; Material Channeling Contrast; Beam damage 최소화하여 이차전지 분리막 등 soft material 관찰; 자기장시료의 관찰; 야금분말 및 세라믹 시료의 EBSD 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "FE-SEM GeminiSEM 560",
+        "ZEISS GeminiSEM 560",
+        "Chemical powder morphology 및 Non coating 시료의 정밀 표면 관찰",
+        "Material Channeling Contrast",
+        "Beam damage 최소화하여 이차전지 분리막 등 soft material 관찰",
+        "자기장시료의 관찰",
+        "야금분말 및 세라믹 시료의 EBSD 분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-102",
+        "irf-applications-102"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-92",
+      "kind": "equipment",
+      "name": "레이저 삭마 유도결합 플라즈마 질량 분석기 · LA-ICP-MS",
+      "summary": "공식 기기활용: (1) Laser(193nm)를 활용해 고체표면을 Ablation하여 고체시료를 대상으로 ppb 수준에 이르는 미량원소 함량 분석; (2) 암석시료를 기존 습식 전처리 방식 대신 비드, 펠렛으로 전처리하여 미량원소(희토류원소) 정량 분석; (3) 지질, 광물, 재료, 금속 등 다양한 분야에서 활용; (4) 각종 환경 시료 등 비파괴 미량원소 함량 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "LA-ICP-MS",
+        "ICP-MS iCAP RQ, Laser NWR 193",
+        "(1) Laser(193nm)를 활용해 고체표면을 Ablation하여 고체시료를 대상으로 ppb 수준에 이르는 미량원소 함량 분석",
+        "(2) 암석시료를 기존 습식 전처리 방식 대신 비드, 펠렛으로 전처리하여 미량원소(희토류원소) 정량 분석",
+        "(3) 지질, 광물, 재료, 금속 등 다양한 분야에서 활용",
+        "(4) 각종 환경 시료 등 비파괴 미량원소 함량 분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-92",
+        "irf-applications-92"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-24",
+      "kind": "equipment",
+      "name": "고분해능 거대질량 분석기 · MALDI-TOF",
+      "summary": "공식 장비 안내의 모델 MALDI TOF Voyager DE-STR, 설치 호실 139동 412호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "MALDI-TOF",
+        "MALDI TOF Voyager DE-STR"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-24"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-68",
+      "kind": "equipment",
+      "name": "고분해능 거대질량 분석기 · MALDI-TOFTOF",
+      "summary": "공식 장비 안내의 모델 MALDI TOF-TOF 5800 System, 설치 호실 139동 412호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "MALDI-TOFTOF",
+        "MALDI TOF-TOF 5800 System"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-68"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-65",
+      "kind": "equipment",
+      "name": "다중검출 유도결합플라즈마 질량분석기 · MC-ICP-MS",
+      "summary": "공식 기기활용: 분석대상 : 지구과학 및 환경시료중 Li, Mg, Sr, Pb등 동위원소 분석 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "MC-ICP-MS",
+        "Plasma 3",
+        "분석대상 : 지구과학 및 환경시료중 Li, Mg, Sr, Pb등 동위원소 분석"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-65",
+        "irf-applications-65"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-67",
+      "kind": "equipment",
+      "name": "라만분광기 · Raman (DXR2xi)",
+      "summary": "공식 기기활용: 재료 표면의 화학적 조성 분포 확인을 위한 Chemical 이미징 및 박막 시료의 confocal depth profile 측정; 그래핀(Graphene), Graphite, 탄소나노소재 등의 카본 소재의 특성 분석; 조직 및 세포의 주요 특성 성분 확인 및 Chemical 이미징.; 리튬 이온 베터리에 사용되는 양극, 음극, 전해질, 분리막 성분 분석. 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "Raman (DXR2xi)",
+        "DXR2xi",
+        "재료 표면의 화학적 조성 분포 확인을 위한 Chemical 이미징 및 박막 시료의 confocal depth profile 측정",
+        "그래핀(Graphene), Graphite, 탄소나노소재 등의 카본 소재의 특성 분석",
+        "조직 및 세포의 주요 특성 성분 확인 및 Chemical 이미징.",
+        "리튬 이온 베터리에 사용되는 양극, 음극, 전해질, 분리막 성분 분석."
+      ],
+      "sourceIds": [
+        "source-irf-equipment-67",
+        "irf-applications-67"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-83",
+      "kind": "equipment",
+      "name": "계면 특성 분석 시스템 · SAICAS",
+      "summary": "공식 기기활용: Micro scale에서의 계면평가, 구조제어 및 기능 발현기구의 해석; 적층박막에 대한 정확한 계면에서의 물성평가 & 박막에 대한 다양한 응용지원; 깊이방향에 대해 물리화학적 3차원 해석이 가능 : Depth Profiling, Micro Sampling (시료표면으로부터 내부, 적층 계면에 걸쳐 연속적인 물성분포 및 화학구조의 평가가 가능); 내부구조를 상세하게 해석 가능 : 대각선 절삭에 의한 관찰면 확대 (화학구조해석이 불가능했던 수 µm 이하의 박막구조를 수 백배로 분석영역을 확대시켜 구조해석 가능); 이종 재료의 계면상태 관찰; 도막이나 혼합재의 깊이 방향의 관찰에 의한 균일, 불 균일 등의 분산 상태의 해석; 내후성 시험 후의 표층으로부터의 내면까지의 열화 상태의 추적 모델과 설치 위치·이용 조건은 아래 공식 정보와 출처 확인.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "SAICAS",
+        "SAICAS EN-EX",
+        "Micro scale에서의 계면평가, 구조제어 및 기능 발현기구의 해석",
+        "적층박막에 대한 정확한 계면에서의 물성평가 & 박막에 대한 다양한 응용지원",
+        "이종 재료의 계면상태 관찰",
+        "도막이나 혼합재의 깊이 방향의 관찰에 의한 균일, 불 균일 등의 분산 상태의 해석",
+        "내후성 시험 후의 표층으로부터의 내면까지의 열화 상태의 추적"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-83",
+        "irf-applications-83"
+      ],
+      "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-irf-42",
+      "kind": "equipment",
+      "name": "투과전자현미경 · TEM(200kV) (구 TEM II)",
+      "summary": "공식 장비 안내의 모델 JEM-2100, 설치 호실 139-1동 251호. 이용 조건·장비 상태는 원문 확인 필요.",
+      "departmentId": "shared-irf",
+      "keywords": [
+        "TEM(200kV) (구 TEM II)",
+        "JEM-2100"
+      ],
+      "sourceIds": [
+        "source-irf-equipment-42"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-a",
+      "kind": "equipment",
+      "name": "가스크로마토그래프/질량분석기(GC/MS)",
+      "summary": "공식 기기 현황의 규격 Agilent 7890A Gas chromatograph and 5977A Mass selective detector, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Agilent 7890A Gas chromatograph and 5977A Mass selective detector"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-c",
+      "kind": "equipment",
+      "name": "고성능 액체크로마토그래피(HPLC)",
+      "summary": "공식 기기 현황의 규격 Agilent technologies 1260 infinity Ⅱ, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Agilent technologies 1260 infinity Ⅱ"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-d",
+      "kind": "equipment",
+      "name": "공초점레이저현미경(CLSM)",
+      "summary": "공식 기기 현황의 규격 ECLIPSE C1 plus confocal microscope system, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "ECLIPSE C1 plus confocal microscope system"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-f",
+      "kind": "equipment",
+      "name": "시차열량주사계(DSC)/열중량분석기(TGA)",
+      "summary": "공식 기기 현황의 규격 DSC25 / TGA55, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "DSC25 / TGA55"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-h",
+      "kind": "equipment",
+      "name": "적외선분광기(Cary600)",
+      "summary": "공식 기기 현황의 규격 Cary 600 Series FT-IR Spectrometer, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Cary 600 Series FT-IR Spectrometer"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-i",
+      "kind": "equipment",
+      "name": "적외선분광기(PerkinElmer)",
+      "summary": "공식 기기 현황의 규격 Frontier, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Frontier"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-j",
+      "kind": "equipment",
+      "name": "전계 방사형 주사 전자 현미경(FE-SEM)",
+      "summary": "공식 기기 현황의 규격 JSM-6701F, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "JSM-6701F"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-k",
+      "kind": "equipment",
+      "name": "전자스핀자기공명분광기(EPR)",
+      "summary": "공식 기기 현황의 규격 EMXmicro-9.5/2.7, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "EMXmicro-9.5/2.7"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-l",
+      "kind": "equipment",
+      "name": "주사탐침현미경(AFM)",
+      "summary": "공식 기기 현황의 규격 INNV-BASE, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "INNV-BASE"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-m",
+      "kind": "equipment",
+      "name": "태양전지 성능평가 시스템(IPCE)",
+      "summary": "공식 기기 현황의 규격 QEX7, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "QEX7"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-n",
+      "kind": "equipment",
+      "name": "핵자기 공명 분광기(NMR)",
+      "summary": "공식 기기 현황의 규격 Bruker Avance III 400 FT-NMR, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Bruker Avance III 400 FT-NMR"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-o",
+      "kind": "equipment",
+      "name": "헤드스페이스 가스크로마토그래피/질량분석기 (Headspace GC/MS)",
+      "summary": "공식 기기 현황의 규격 7697A Headspace / 8890 Mainframe MS / 5977B HES MSD Turbo EI Mainframe, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "7697A Headspace / 8890 Mainframe MS / 5977B HES MSD Turbo EI Mainframe"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-q",
+      "kind": "equipment",
+      "name": "유도결합플라즈마 분광분석기(ICPS)",
+      "summary": "공식 기기 현황의 규격 ICPS-8100, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "ICPS-8100"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-r",
+      "kind": "equipment",
+      "name": "원소분석기(EA)",
+      "summary": "공식 기기 현황의 규격 TruSpec® Micro CHNS, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "TruSpec® Micro CHNS"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-u",
+      "kind": "equipment",
+      "name": "X-ray 회절 분석기(XRD)(D/Max)",
+      "summary": "공식 기기 현황의 규격 JP/D/MAX-2500H, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "JP/D/MAX-2500H"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-v",
+      "kind": "equipment",
+      "name": "X-ray 회절 분석기(XRD)(SmartLab)",
+      "summary": "공식 기기 현황의 규격 RIGAKU Mode 1 Smart Lab, 설치장소 302-214. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "RIGAKU Mode 1 Smart Lab"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-b",
+      "kind": "equipment",
+      "name": "겔투과크로마토그래피(GPC)",
+      "summary": "공식 기기 현황의 규격 Spectra System P1000, 설치장소 302-714. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Spectra System P1000"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-e",
+      "kind": "equipment",
+      "name": "미생물유세포분석기(FACS)",
+      "summary": "공식 기기 현황의 규격 S3e™ Cell Sorter, 설치장소 302-716. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "S3e™ Cell Sorter"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-s",
+      "kind": "equipment",
+      "name": "X-ray 광전자 분석기(XPS)",
+      "summary": "공식 기기 현황의 규격 Sigma probe, 설치장소 37-204. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "Sigma probe"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "eq-cbe-t",
+      "kind": "equipment",
+      "name": "X-ray 회절 분석기(XRD)",
+      "summary": "공식 기기 현황의 규격 JP/D/MAX-2500H, 설치장소 37-204. 최신 운영 상태·개별 이용 절차는 공식 안내 확인 필요.",
+      "departmentId": "chemical",
+      "keywords": [
+        "JP/D/MAX-2500H"
+      ],
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:08:08.684Z",
+      "verificationRequired": true
     }
   ],
   "relations": [
@@ -1129,6 +2955,710 @@
         "src-irf-1"
       ],
       "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-3",
+      "from": "eq-irf-3",
+      "to": "space-irf-103",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-3"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-53",
+      "from": "eq-irf-53",
+      "to": "space-installation-139-101",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-53"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-52",
+      "from": "eq-irf-52",
+      "to": "space-installation-139-101",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-52"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-82",
+      "from": "eq-irf-82",
+      "to": "space-installation-139-101",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-82"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-57",
+      "from": "eq-irf-57",
+      "to": "space-installation-139-101",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-57"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-10",
+      "from": "eq-irf-10",
+      "to": "space-installation-139-402",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-10"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-69",
+      "from": "eq-irf-69",
+      "to": "space-installation-139-402",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-69"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-106",
+      "from": "eq-irf-106",
+      "to": "space-installation-139-1-254",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-106"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-19",
+      "from": "eq-irf-19",
+      "to": "space-installation-139-1-254",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-19"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-64",
+      "from": "eq-irf-64",
+      "to": "space-installation-139-1-254",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-64"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-62",
+      "from": "eq-irf-62",
+      "to": "space-installation-139-1-254",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-62"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-66",
+      "from": "eq-irf-66",
+      "to": "space-installation-139-1-254",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-66"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-97",
+      "from": "eq-irf-97",
+      "to": "space-installation-139-1-254",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-97"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-63",
+      "from": "eq-irf-63",
+      "to": "space-installation-139-1-254",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-63"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-100",
+      "from": "eq-irf-100",
+      "to": "space-installation-139-108",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-100"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-48",
+      "from": "eq-irf-48",
+      "to": "space-installation-139-108",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-48"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-35",
+      "from": "eq-irf-35",
+      "to": "space-installation-139-408",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-35"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-54",
+      "from": "eq-irf-54",
+      "to": "space-installation-139-130",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-54"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-89",
+      "from": "eq-irf-89",
+      "to": "space-installation-139-130",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-89"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-55",
+      "from": "eq-irf-55",
+      "to": "space-installation-139-130",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-55"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-90",
+      "from": "eq-irf-90",
+      "to": "space-installation-139-130",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-90"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-86",
+      "from": "eq-irf-86",
+      "to": "space-installation-139-130",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-86"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-50",
+      "from": "eq-irf-50",
+      "to": "space-installation-139-306",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-50"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-74",
+      "from": "eq-irf-74",
+      "to": "space-installation-139-306",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-74"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-85",
+      "from": "eq-irf-85",
+      "to": "space-installation-139-306",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-85"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-16",
+      "from": "eq-irf-16",
+      "to": "space-installation-139-306",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-16"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-61",
+      "from": "eq-irf-61",
+      "to": "space-installation-139-306",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-61"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-56",
+      "from": "eq-irf-56",
+      "to": "space-installation-139-306",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-56"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-15",
+      "from": "eq-irf-15",
+      "to": "space-installation-139-401",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-15"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-21",
+      "from": "eq-irf-21",
+      "to": "space-installation-139-207",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-21"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-20",
+      "from": "eq-irf-20",
+      "to": "space-installation-139-207",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-20"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-113",
+      "from": "eq-irf-113",
+      "to": "space-installation-139-1-151",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-113"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-91",
+      "from": "eq-irf-91",
+      "to": "space-installation-139-209",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "src-irf-91"
+      ],
+      "lastVerifiedAt": "2026-10-26T11:09:09Z"
+    },
+    {
+      "id": "installation-eq-irf-4",
+      "from": "eq-irf-4",
+      "to": "space-installation-139-106",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-4"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-60",
+      "from": "eq-irf-60",
+      "to": "space-installation-139-1-120",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-60"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-72",
+      "from": "eq-irf-72",
+      "to": "space-installation-139-307-1",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-72"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-102",
+      "from": "eq-irf-102",
+      "to": "space-installation-139-1-130",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-102"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-92",
+      "from": "eq-irf-92",
+      "to": "space-installation-139-207-1",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-92"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-24",
+      "from": "eq-irf-24",
+      "to": "space-installation-139-412",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-24"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-68",
+      "from": "eq-irf-68",
+      "to": "space-installation-139-412",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-68"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-65",
+      "from": "eq-irf-65",
+      "to": "space-installation-139-208",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-65"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-67",
+      "from": "eq-irf-67",
+      "to": "space-installation-139-404",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-67"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-83",
+      "from": "eq-irf-83",
+      "to": "space-installation-139-413",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-83"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-irf-42",
+      "from": "eq-irf-42",
+      "to": "space-installation-139-1-251",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-irf-equipment-42"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:03:13.722Z"
+    },
+    {
+      "id": "installation-eq-cbe-a",
+      "from": "eq-cbe-a",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-c",
+      "from": "eq-cbe-c",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-d",
+      "from": "eq-cbe-d",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-f",
+      "from": "eq-cbe-f",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-h",
+      "from": "eq-cbe-h",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-i",
+      "from": "eq-cbe-i",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-j",
+      "from": "eq-cbe-j",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-k",
+      "from": "eq-cbe-k",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-l",
+      "from": "eq-cbe-l",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-m",
+      "from": "eq-cbe-m",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-n",
+      "from": "eq-cbe-n",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-o",
+      "from": "eq-cbe-o",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-q",
+      "from": "eq-cbe-q",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-r",
+      "from": "eq-cbe-r",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-u",
+      "from": "eq-cbe-u",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-v",
+      "from": "eq-cbe-v",
+      "to": "space-installation-302-214",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-b",
+      "from": "eq-cbe-b",
+      "to": "space-installation-302-714",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-e",
+      "from": "eq-cbe-e",
+      "to": "space-installation-302-716",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-s",
+      "from": "eq-cbe-s",
+      "to": "space-installation-37-204",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
+    },
+    {
+      "id": "installation-eq-cbe-t",
+      "from": "eq-cbe-t",
+      "to": "space-installation-37-204",
+      "type": "LOCATED_AT",
+      "label": "공식 설치 호실",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:10:25.544Z"
     }
   ],
   "evidence": []

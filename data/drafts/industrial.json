@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "industrial-evidence-draft-20261026",
-    "generatedAt": "2026-10-26T17:46:17.279Z",
+    "generatedAt": "2026-10-29T05:17:11.500Z",
     "publication": "prototype",
     "selectionReason": "공식 연구실 소개에서 경영과학·산업 데이터 분석·인간공학의 서로 다른 방법론을 골랐다. 이름만으로 연결하지 않고 각 소개의 지도교수 필드를 확인했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -134,6 +134,42 @@
       "url": "https://ie.snu.ac.kr/professor/",
       "title": "공식 현직 교수 전체 목록·연구 분야·교수실",
       "organization": "서울대학교 산업공학과",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-8",
+      "url": "https://ie.snu.ac.kr/service_inno_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "서비스 혁신 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-9",
+      "url": "https://ie.snu.ac.kr/optimize_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "시스템최적화 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-12",
+      "url": "https://ie.snu.ac.kr/pse_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "제품서비스공학 연구실 공식 소개",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-26T17:46:17.279Z",
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
+    },
+    {
+      "id": "profile-source-industrial-13",
+      "url": "https://ie.snu.ac.kr/slcf_lab/",
+      "organization": "서울대학교 산업공학과",
+      "title": "통계학습 및 계산금융 연구실 공식 소개",
       "sourceType": "official-page",
       "retrievedAt": "2026-10-26T17:46:17.279Z",
       "lastVerifiedAt": "2026-10-26T17:46:17.279Z"
@@ -274,6 +310,58 @@
       ],
       "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
       "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-i",
+      "kind": "lab",
+      "name": "서비스 혁신 연구실",
+      "summary": "공식 연구 분야: ▪ 데이터 기반 기술 및 서비스 혁신, 비즈니스 모델 혁신▪ 서비스 운영관리 및 데이터 기반 서비스 애널리틱스▪ 데이터 기반 로드매핑 및 연구개발관리",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-8"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-j",
+      "kind": "lab",
+      "name": "시스템최적화 연구실",
+      "summary": "공식 연구 분야: ▪ 최적화 이론 및 알고리듬: 정수최적화, 네트워크최적화, 동적최적화, 강건최적화, 확률적최적화 등▪ 최적화 기술의 산업 응용: 하이테크(반도체, 디스플레이), 물류/수송, 전력산업 (전력시장, 스마트그리드 등), 생산물류IT시스템(SCM, MES 등)",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-9"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-m",
+      "kind": "lab",
+      "name": "제품서비스공학 연구실",
+      "summary": "공식 연구 분야: ▪ 아키텍처 기반의 시스템 분석 및 개발▪ 제품/서비스 융합을 통한 가치혁신▪ 개발 프로세스의 효율, 위험, 품질 관리",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-12"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
+    },
+    {
+      "id": "lab-current-industrial-n",
+      "kind": "lab",
+      "name": "통계학습 및 계산금융 연구실",
+      "summary": "공식 연구 분야: ▪ 데이터 프라이버시▪ 딥러닝 기반 시계열 예측▪ 금융 및 블록체인 도메인 연구",
+      "departmentId": "industrial",
+      "keywords": [],
+      "sourceIds": [
+        "profile-source-industrial-13"
+      ],
+      "lastVerifiedAt": "2026-10-26T17:46:17.279Z",
+      "verificationRequired": true
     }
   ],
   "relations": [
@@ -324,6 +412,54 @@
         "src-industrial-dsba"
       ],
       "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
+    },
+    {
+      "id": "paper-official-a73a5212481d0d88",
+      "kind": "paper",
+      "title": "Transformer-based Multivariate Time Series Anomaly Detection using Inter-Variable Attention Mechanism. Knowledge-Based Systems, 290, 111507.",
+      "resourceIds": [
+        "lab-industrial-dsba"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:17:11.500Z"
+    },
+    {
+      "id": "paper-official-578ecce69b154c7b",
+      "kind": "paper",
+      "title": "Exploring the Differences in Adversarial Robustness Between ViT- and CNN-Based Models Using Novel Metrics. Computer Vision and Image Understanding. 235, 103800. (+: Equally contributed)",
+      "resourceIds": [
+        "lab-industrial-dsba"
+      ],
+      "sourceIds": [
+        "src-industrial-dsba"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:17:11.500Z"
+    },
+    {
+      "id": "paper-official-4c8aa2be0c5aa013",
+      "kind": "paper",
+      "title": "How to succeed in the market? Predicting startup success using a machine learning approach, Technological Forecasting and Social Change (2023)",
+      "resourceIds": [
+        "lab-current-industrial-i"
+      ],
+      "sourceIds": [
+        "profile-source-industrial-8"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:17:11.500Z"
+    },
+    {
+      "id": "paper-official-213385680fbd255e",
+      "kind": "paper",
+      "title": "Graddiv: Adversarial robustness of randomized neural networks via gradient diversity regularization. IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(2), 2645-2651",
+      "resourceIds": [
+        "lab-current-industrial-n"
+      ],
+      "sourceIds": [
+        "profile-source-industrial-13"
+      ],
+      "lastVerifiedAt": "2026-10-29T05:17:11.500Z"
     }
   ]
 }

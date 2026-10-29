@@ -4,7 +4,7 @@ test.beforeEach(async({page})=>{await page.route('**/snapshot.json',route=>route
 test('real buildings group resources and restore a bounded map viewpoint',async({page})=>{
  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto('#/?view=2d');await page.getByLabel('건물 선택',{exact:true}).selectOption('snu-139');
- await expect(page.getByLabel('선택 건물 상세')).toBeVisible();await expect(page.getByLabel('선택 건물 상세').getByText(/수록 자원 35개/)).toBeVisible();
+ await expect(page.getByLabel('선택 건물 상세')).toBeVisible();await expect(page.getByLabel('선택 건물 상세').getByText(/수록 자원 51개/)).toBeVisible();
  await expect(page.getByLabel('선택 건물 상세').getByRole('link',{name:/서울대학교 캠퍼스맵/})).toHaveAttribute('href','https://map.snu.ac.kr/web/main.action');
  await expect(page).toHaveURL(/building=snu-139.*camera=/);const url=page.url();await page.reload();await expect(page.getByLabel('건물 선택',{exact:true})).toHaveValue('snu-139');expect(page.url()).toBe(url);
  await page.getByLabel('선택 건물 상세').getByRole('button',{name:/300MHz NMR/}).click();await expect(page.getByLabel('선택 자원 상세')).toBeVisible();await expect(page.getByLabel('선택 자원 상세').getByText(/장비 설치 위치/)).toBeVisible();expect(errors).toEqual([]);

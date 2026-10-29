@@ -1,6 +1,6 @@
 {
-  "resourceVersion": "college-draft-20261027",
-  "generatedAt": "2026-10-27T02:07:40.329Z",
+  "resourceVersion": "college-draft-20261029",
+  "generatedAt": "2026-10-29T05:15:24.974Z",
   "rosters": [
     {
       "departmentId": "cee",
@@ -23068,6 +23068,328 @@
             "src-mechanical-robot"
           ],
           "lastVerifiedAt": "2026-10-27T02:07:40.329Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-101",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-53",
+            "source-irf-equipment-52",
+            "source-irf-equipment-82",
+            "source-irf-equipment-57"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-402",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-10",
+            "source-irf-equipment-69"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-1-254",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-106",
+            "src-irf-19",
+            "source-irf-equipment-64",
+            "source-irf-equipment-62",
+            "source-irf-equipment-66",
+            "source-irf-equipment-97",
+            "source-irf-equipment-63"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-108",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-100",
+            "source-irf-equipment-48"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-408",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-35"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-130",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-54",
+            "src-irf-89",
+            "source-irf-equipment-55",
+            "source-irf-equipment-90",
+            "source-irf-equipment-86"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-306",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-50",
+            "src-irf-74",
+            "source-irf-equipment-85",
+            "source-irf-equipment-16",
+            "source-irf-equipment-61",
+            "source-irf-equipment-56"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-401",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-15"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-207",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-21",
+            "source-irf-equipment-20"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-1-151",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-113"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-209",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "src-irf-91"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-106",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-4"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-1-120",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-60"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-307-1",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-72"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-1-130",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-102"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-207-1",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-92"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-412",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-24",
+            "source-irf-equipment-68"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-208",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-65"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-404",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-67"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-413",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-83"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-139-1-251",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-irf-equipment-42"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-302-214",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-cbe-shared-equipment"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-302-714",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-cbe-shared-equipment"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-302-716",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-cbe-shared-equipment"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "space-installation-37-204",
+      "fields": {
+        "purpose": {
+          "value": "장비 설치 장소 · 자유 이용 여부 확인 필요",
+          "sourceIds": [
+            "source-cbe-shared-equipment"
+          ],
+          "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
         }
       }
     }
