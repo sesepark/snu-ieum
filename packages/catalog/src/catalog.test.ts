@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import college from '../../../data/college-draft.json' with { type: 'json' };
 import seed from '../../../data/prototype.json' with { type: 'json' };
 import { parseSnapshot, recommend, graph, catalog } from './index.ts';
 const s = parseSnapshot(seed);
@@ -75,4 +76,12 @@ it('finds explicit Korean variants and English flexible while preferring literal
  expect(recommend(clone,{...base,q:'유연 우주'})).toEqual([]);
  clone.resources[1].summary='시계열 이상 탐지 및 원인 분석';expect(recommend(clone,{...base,q:'이상치'}).map(r=>r.resource.id)).toEqual(['variant-resource']);
  expect(clone.relations).toEqual([]);
+});
+
+it('finds explicitly described battery equipment using everyday Korean terminology', () => {
+ const snapshot=parseSnapshot(college);
+ const results=recommend(snapshot,{...base,q:'배터리'});
+ expect(results.length).toBeGreaterThan(0);
+ expect(results.every(c=>/배터리|베터리|batter(?:y|ies)|이차전지/i.test([c.resource.summary,...c.resource.keywords,c.resource.name].join(' ')))).toBe(true);
+ expect(results.every(c=>c.source.length>0)).toBe(true);
 });

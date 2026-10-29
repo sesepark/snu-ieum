@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-29T05:18:46.047Z",
+  "checkedAt": "2026-10-29T05:20:23.717Z",
   "resourceVersion": "college-draft-20261029",
   "kind": "deterministic-functional-audit-not-human-relevance-or-student-evaluation",
   "queries": 30,
-  "nonempty": 28,
+  "nonempty": 29,
   "rows": [
     {
       "query": "시계열",
@@ -371,11 +371,23 @@
     },
     {
       "query": "배터리",
-      "returned": 0,
-      "mapped": 0,
-      "departments": 0,
+      "returned": 11,
+      "mapped": 2,
+      "departments": 2,
       "allCardsHaveSources": true,
-      "resultIds": [],
+      "resultIds": [
+        "eq-irf-67",
+        "eq-irf-102",
+        "prof-dir-materials-kgifccccmbnh",
+        "prof-dir-materials-fopaompjfelf",
+        "prof-dir-materials-hhfhnfeknibh",
+        "prof-materials-bioinspired",
+        "prof-dir-materials-amebehmbimok",
+        "prof-dir-materials-ipiilbmkfall",
+        "prof-materials-mechanics",
+        "prof-four-materials-ao",
+        "prof-dir-materials-iblfiehajlme"
+      ],
       "relevanceReviewed": false
     },
     {

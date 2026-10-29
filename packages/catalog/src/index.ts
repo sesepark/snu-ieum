@@ -3,7 +3,7 @@ import { RecommendationSchema, SnapshotSchema, type Snapshot, type Filters, type
 
 export const normalize = (text: string) => text.normalize('NFKC').toLocaleLowerCase('ko').replace(/[^\p{L}\p{N}]/gu, '');
 // Only reviewed equivalents; never infer eligibility, relationships or identities.
-const equivalents = [['인공지능', 'ai', 'artificialintelligence'], ['기계학습', '머신러닝', 'machinelearning'], ['데이터과학', '데이터사이언스', 'datascience'], ['이상치', '이상탐지'], ['유연', 'flexible']];
+const equivalents = [['인공지능', 'ai', 'artificialintelligence'], ['기계학습', '머신러닝', 'machinelearning'], ['데이터과학', '데이터사이언스', 'datascience'], ['이상치', '이상탐지'], ['유연', 'flexible'], ['배터리', '베터리', 'battery', 'batteries', '이차전지']];
 export function queryTerms(text: string) {
   return text.trim().split(/\s+/u).filter(Boolean).map(token => {
     const n = normalize(token);

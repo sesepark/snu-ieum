@@ -1,12 +1,12 @@
 {
   "manifest": {
-    "version": "campus-20261027",
-    "generatedAt": "2026-10-27T02:07:40.329Z",
+    "version": "campus-20261029",
+    "generatedAt": "2026-10-29T05:15:24.974Z",
     "publication": "prototype",
     "selectionReason": "OSM 실제 건물·도로와 공식 지도 최소 사실의 미승인 공간 초안. 공식 전수 목록·위치·윤곽 대조 검수 진행 중.",
     "schemaVersion": 1
   },
-  "resourceVersion": "college-draft-20261027",
+  "resourceVersion": "college-draft-20261029",
   "sources": [
     {
       "id": "osm",
@@ -33577,6 +33577,378 @@
       "addressText": null,
       "lastVerifiedAt": null,
       "reason": "공식 교수 카드의 연구실 명칭만 확인. 교수실 주소를 연구실 위치로 전파하지 않음"
+    },
+    {
+      "id": "location-space-installation-139-101",
+      "resourceId": "space-installation-139-101",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "101호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-53",
+        "source-irf-equipment-52",
+        "source-irf-equipment-82",
+        "source-irf-equipment-57"
+      ],
+      "addressText": "139동 101호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-402",
+      "resourceId": "space-installation-139-402",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "402호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-10",
+        "source-irf-equipment-69"
+      ],
+      "addressText": "139동 402호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-1-254",
+      "resourceId": "space-installation-139-1-254",
+      "buildingId": "snu-139-1",
+      "purpose": "space",
+      "room": "254호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-106",
+        "src-irf-19",
+        "source-irf-equipment-64",
+        "source-irf-equipment-62",
+        "source-irf-equipment-66",
+        "source-irf-equipment-97",
+        "source-irf-equipment-63"
+      ],
+      "addressText": "139-1동 254호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-108",
+      "resourceId": "space-installation-139-108",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "108호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-100",
+        "source-irf-equipment-48"
+      ],
+      "addressText": "139동 108호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-408",
+      "resourceId": "space-installation-139-408",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "408호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-35"
+      ],
+      "addressText": "139동 408호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-130",
+      "resourceId": "space-installation-139-130",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "130호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-54",
+        "src-irf-89",
+        "source-irf-equipment-55",
+        "source-irf-equipment-90",
+        "source-irf-equipment-86"
+      ],
+      "addressText": "139동 130호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-306",
+      "resourceId": "space-installation-139-306",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "306호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-50",
+        "src-irf-74",
+        "source-irf-equipment-85",
+        "source-irf-equipment-16",
+        "source-irf-equipment-61",
+        "source-irf-equipment-56"
+      ],
+      "addressText": "139동 306호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-401",
+      "resourceId": "space-installation-139-401",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "401호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-15"
+      ],
+      "addressText": "139동 401호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-207",
+      "resourceId": "space-installation-139-207",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "207호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-21",
+        "source-irf-equipment-20"
+      ],
+      "addressText": "139동 207호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-1-151",
+      "resourceId": "space-installation-139-1-151",
+      "buildingId": "snu-139-1",
+      "purpose": "space",
+      "room": "151호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-113"
+      ],
+      "addressText": "139-1동 151호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-209",
+      "resourceId": "space-installation-139-209",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "209호",
+      "status": "verified",
+      "sourceIds": [
+        "src-irf-91"
+      ],
+      "addressText": "139동 209호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-106",
+      "resourceId": "space-installation-139-106",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "106호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-4"
+      ],
+      "addressText": "139동 106호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-1-120",
+      "resourceId": "space-installation-139-1-120",
+      "buildingId": "snu-139-1",
+      "purpose": "space",
+      "room": "120호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-60"
+      ],
+      "addressText": "139-1동 120호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-307-1",
+      "resourceId": "space-installation-139-307-1",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "307-1호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-72"
+      ],
+      "addressText": "139동 307-1호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-1-130",
+      "resourceId": "space-installation-139-1-130",
+      "buildingId": "snu-139-1",
+      "purpose": "space",
+      "room": "130호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-102"
+      ],
+      "addressText": "139-1동 130호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-207-1",
+      "resourceId": "space-installation-139-207-1",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "207-1호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-92"
+      ],
+      "addressText": "139동 207-1호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-412",
+      "resourceId": "space-installation-139-412",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "412호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-24",
+        "source-irf-equipment-68"
+      ],
+      "addressText": "139동 412호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-208",
+      "resourceId": "space-installation-139-208",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "208호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-65"
+      ],
+      "addressText": "139동 208호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-404",
+      "resourceId": "space-installation-139-404",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "404호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-67"
+      ],
+      "addressText": "139동 404호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-413",
+      "resourceId": "space-installation-139-413",
+      "buildingId": "snu-139",
+      "purpose": "space",
+      "room": "413호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-83"
+      ],
+      "addressText": "139동 413호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-139-1-251",
+      "resourceId": "space-installation-139-1-251",
+      "buildingId": "snu-139-1",
+      "purpose": "space",
+      "room": "251호",
+      "status": "verified",
+      "sourceIds": [
+        "source-irf-equipment-42"
+      ],
+      "addressText": "139-1동 251호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-302-214",
+      "resourceId": "space-installation-302-214",
+      "buildingId": "snu-302",
+      "purpose": "space",
+      "room": "214호",
+      "status": "verified",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "addressText": "302동 214호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-302-714",
+      "resourceId": "space-installation-302-714",
+      "buildingId": "snu-302",
+      "purpose": "space",
+      "room": "714호",
+      "status": "verified",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "addressText": "302동 714호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-302-716",
+      "resourceId": "space-installation-302-716",
+      "buildingId": "snu-302",
+      "purpose": "space",
+      "room": "716호",
+      "status": "verified",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "addressText": "302동 716호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-space-installation-37-204",
+      "resourceId": "space-installation-37-204",
+      "buildingId": "snu-37",
+      "purpose": "space",
+      "room": "204호",
+      "status": "verified",
+      "sourceIds": [
+        "source-cbe-shared-equipment"
+      ],
+      "addressText": "37동 204호",
+      "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
+      "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
     }
   ],
   "paths": [
