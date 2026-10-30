@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-30T01:24:24.244Z",
+  "generatedAt": "2026-10-30T01:31:41.466Z",
   "researchVersion": "college-draft-20261029",
   "spatialVersion": "campus-20261029",
   "publication": "prototype",
   "inputs": {
     "data/college-draft.json": "f8f6919face4e5fea0321f8f2cbb98523f70b852411c278afc3dd0f668ef4061",
     "data/campus/campus-draft.json": "b4f4054058cabd7435110b34ed879c058370b7d25f23c8a2848a4016a9460018",
-    "data/coverage/coverage-draft.json": "c09e344ff58dc773130b72658f00899b460d74ae49316d07a0d824e8ee5ec51e"
+    "data/coverage/coverage-draft.json": "a7be416852cd2909c01f579cb18f7e715bffc4133f43e7c25c6a6307e5cf2143"
   },
   "counts": {
     "researcher": 341,
@@ -204,8 +204,7 @@
       "name": "제련 및 리사이클링 공정 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -217,8 +216,7 @@
       "name": "암반공학 민기복 교수 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -230,8 +228,7 @@
       "name": "에너지환경지구화학 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -243,8 +240,7 @@
       "name": "열수력계통연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 3
@@ -256,8 +252,7 @@
       "name": "원자로물리연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -280,8 +275,7 @@
       "name": "방사선 생명공학 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 4
@@ -293,8 +287,7 @@
       "name": "재료역학연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -306,8 +299,7 @@
       "name": "생체분자나노재료연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -319,8 +311,7 @@
       "name": "THE KIM RESEARCH GROUP",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -398,8 +389,7 @@
       "name": "Algorithmic Foundations of Data Science Lab",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -411,8 +401,7 @@
       "name": "Chenglin Fan",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -424,8 +413,7 @@
       "name": "Bio and Health Informatics Lab",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -437,8 +425,7 @@
       "name": "Sun Kim",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -450,8 +437,7 @@
       "name": "Biointelligence Lab",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -463,8 +449,7 @@
       "name": "Byoung-Tak Zhang",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -488,8 +473,7 @@
       "name": "공력 시뮬레이션 및 디자인 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 3
@@ -513,8 +497,7 @@
       "name": "로켓추진연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 2
@@ -538,8 +521,7 @@
       "name": "항법전자시스템 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 2
@@ -3262,8 +3244,7 @@
       "name": "3차원 스텔라레이터 및 토카막 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 2
@@ -3275,8 +3256,7 @@
       "name": "고성능 플라즈마 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 2
@@ -3288,8 +3268,7 @@
       "name": "몬테칼로 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3301,8 +3280,7 @@
       "name": "방사선 공학 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 3
@@ -3314,8 +3292,7 @@
       "name": "원자력 시스템 및 응용 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3327,8 +3304,7 @@
       "name": "전산 핵재료 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3340,8 +3316,7 @@
       "name": "플라즈마 및 방사선 공학 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 3
@@ -3353,8 +3328,7 @@
       "name": "플라즈마 및 양자빔 공학 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 3
@@ -3366,8 +3340,7 @@
       "name": "플라즈마 응용 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 5
@@ -3379,8 +3352,7 @@
       "name": "핵연료재료 및 안전 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 2
@@ -3392,8 +3364,7 @@
       "name": "핵연료주기 및 핵비확산 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 4
@@ -3405,8 +3376,7 @@
       "name": "고에너지 응용연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3418,8 +3388,7 @@
       "name": "극초음속 유동 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3431,8 +3400,7 @@
       "name": "극한환경 및 충돌 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3444,8 +3412,7 @@
       "name": "우주 모빌리티 및 로보틱스 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3457,8 +3424,7 @@
       "name": "위성항법 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 2
@@ -3470,8 +3436,7 @@
       "name": "자율로봇연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3483,8 +3448,7 @@
       "name": "지능형공탄성 및 헬리콥터 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3496,8 +3460,7 @@
       "name": "항공우주 구조 및 재료 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3509,8 +3472,7 @@
       "name": "항공우주 비행체 설계 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3522,8 +3484,7 @@
       "name": "항공우주 자율지능 연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3535,8 +3496,7 @@
       "name": "항공우주추진연구실",
       "missingFields": [
         "researchFields",
-        "officialHomepage",
-        "affiliation"
+        "officialHomepage"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
