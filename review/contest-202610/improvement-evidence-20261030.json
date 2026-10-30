@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-30",
+  "codeCommit": "fc3cc09",
+  "publicDemoUrl": "https://sesepark.github.io/snu-ieum/",
+  "publicAssetsHashMatched": true,
+  "publication": "prototype",
+  "humanApproved": false,
+  "studentEvaluationConducted": false,
+  "checks": {
+    "node": "24.22.1",
+    "unitApi": 102,
+    "browser": 16,
+    "postgresql": 7,
+    "typecheck": true,
+    "build": true,
+    "staticGateRejectsUnapprovedBatch": true
+  },
+  "artifacts": [
+    {
+      "role": "official-form",
+      "sha256": "7538f375ad881c5c61809861fd8f69d7a7c9d052ca26f5ab25472d0c9a03e7f3",
+      "bytes": 60098
+    },
+    {
+      "role": "report",
+      "sha256": "30f6a59758700a285654c13c0976b44009bbb34cc5e3a477eb8bc97b14677edb",
+      "bytes": 4312509,
+      "pages": 5
+    },
+    {
+      "role": "visual-supplement",
+      "sha256": "530eab94f301775f04d1b1aef68c50adf3f4f360ee87a3a11d7c9c91be61c751",
+      "bytes": 5812565,
+      "pages": 4
+    },
+    {
+      "role": "actual-screen-guide",
+      "sha256": "629756ae63b899996e378fab68d367661a0db44de0c24be197424abeaf5291a1",
+      "bytes": 2017530,
+      "seconds": 64.0
+    }
+  ],
+  "submission": "submitted",
+  "remaining": [
+    "human data approval",
+    "actual student evaluation",
+    "restricted source permissions",
+    "shared release workflow review #72"
+  ],
+  "submittedAt": "2026-10-30",
+  "serverMessage": "신청되었습니다.",
+  "serverAttachmentHashMatches": 4,
+  "savedBodyAndPublicUrlVerified": true
+}
