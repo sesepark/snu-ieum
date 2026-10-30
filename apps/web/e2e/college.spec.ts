@@ -65,3 +65,17 @@ test('search counts and quality meters use their stated denominators', async ({ 
   await expect(page.getByRole('meter', {name:/지도 위치 근거/})).toBeVisible();
   await expect(page.getByRole('meter', {name:/저자 검수 논문/})).toHaveAttribute('value','0');
 });
+
+test('map distribution counts located results and focuses them without losing search state', async ({ page }) => {
+  await page.goto('#/?view=2d');
+  await page.getByLabel('자원명·연구 분야 검색').fill('로봇');
+  const summary=page.getByLabel('검색 위치 분포');
+  await expect(summary).toContainText('18개 검색 결과 · 3개 건물');
+  await expect(summary.getByRole('img')).toHaveAttribute('aria-label','위치 확인 6개, 위치 미확인 12개');
+  await summary.getByRole('button').click();
+  await expect(page).toHaveURL(/camera=/);
+  await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('로봇');
+  await expect(page.locator('.resource-card')).toHaveCount(18);
+  await page.getByRole('button',{name:'3D',exact:true}).click();
+  await expect(summary).toContainText('18개 검색 결과 · 3개 건물');
+});

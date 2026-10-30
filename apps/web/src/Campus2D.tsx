@@ -32,7 +32,7 @@ export default function Campus2D(p:CampusViewProps){
    ctx.textAlign='center';ctx.textBaseline='middle';
    for(const m of pickLabels(q.model,q.selectedBuilding,q.searching,v.zoom)){
     const [x,y]=to(...m.center),selected=m.building.id===q.selectedBuilding;
-    const text=`${m.building.number?m.building.number+'동 ':''}${m.building.name}${m.resourceIds.length?' · '+m.resourceIds.length:''}`;
+    const text=`${m.building.number?m.building.number+'동 ':''}${m.building.name}${q.searching?' · 검색 '+m.matched:m.resourceIds.length?' · '+m.resourceIds.length:''}`;
     ctx.font=`${selected?'600':'500'} 11px sans-serif`;const w=ctx.measureText(text).width+14,h=24;
     if(!selected&&(x<0||x>q.width||y<0||y>q.height||occupied.some(r=>Math.abs(x-r.x)<(w+r.w)/2+4&&Math.abs(y-r.y)<(h+r.h)/2+4)))continue;
     occupied.push({x,y,w,h});ctx.fillStyle=selected?'#fff':'#fffffff0';ctx.beginPath();ctx.roundRect(x-w/2,y-h/2,w,h,5);ctx.fill();ctx.fillStyle=selected?'#1b459a':'#30403a';ctx.fillText(text,x,y);

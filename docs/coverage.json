@@ -1,6 +1,6 @@
 {
   "resourceVersion": "college-draft-20261029",
-  "generatedAt": "2026-10-29T05:15:24.974Z",
+  "generatedAt": "2026-10-30T01:31:41.383Z",
   "rosters": [
     {
       "departmentId": "cee",
@@ -23390,6 +23390,727 @@
             "source-cbe-shared-equipment"
           ],
           "lastVerifiedAt": "2026-10-29T05:15:24.974Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-architecture-bumjoon",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-architecture-yerin",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-architecture-hyungoo",
+      "fields": {}
+    },
+    {
+      "resourceId": "lab-architecture-history",
+      "fields": {}
+    },
+    {
+      "resourceId": "lab-architecture-urban",
+      "fields": {}
+    },
+    {
+      "resourceId": "lab-architecture-structures",
+      "fields": {}
+    },
+    {
+      "resourceId": "lab-energy-recycling",
+      "fields": {
+        "affiliation": {
+          "value": "에너지자원공학과",
+          "sourceIds": [
+            "src-energy-recycling"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-energy-rock",
+      "fields": {
+        "affiliation": {
+          "value": "에너지자원공학과",
+          "sourceIds": [
+            "src-energy-rock"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-energy-geochemistry",
+      "fields": {
+        "affiliation": {
+          "value": "에너지자원공학과",
+          "sourceIds": [
+            "src-energy-geochemistry"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-nuclear-thermal",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "src-nuclear-thermal"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-nuclear-reactor",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "src-nuclear-reactor"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-nuclear-radiation",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "src-nuclear-radiation"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-materials-mechanics",
+      "fields": {
+        "affiliation": {
+          "value": "재료공학부",
+          "sourceIds": [
+            "src-materials-mechanics",
+            "src-materials-mechanics-profile",
+            "src-materials-mechanics-home"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-materials-bioinspired",
+      "fields": {
+        "affiliation": {
+          "value": "재료공학부",
+          "sourceIds": [
+            "src-materials-bioinspired",
+            "src-materials-bioinspired-profile",
+            "src-materials-bioinspired-pi"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-materials-dna",
+      "fields": {
+        "affiliation": {
+          "value": "재료공학부",
+          "sourceIds": [
+            "src-materials-dna",
+            "src-materials-dna-profile",
+            "src-materials-dna-research"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:17:08Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-afds",
+      "fields": {
+        "affiliation": {
+          "value": "컴퓨터공학부",
+          "sourceIds": [
+            "s-afds"
+          ],
+          "lastVerifiedAt": "2026-10-26T06:30:00Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-afds",
+      "fields": {
+        "affiliation": {
+          "value": "컴퓨터공학부",
+          "sourceIds": [
+            "s-prof-afds",
+            "s-afds"
+          ],
+          "lastVerifiedAt": "2026-10-26T06:30:00Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-bhi",
+      "fields": {
+        "affiliation": {
+          "value": "컴퓨터공학부",
+          "sourceIds": [
+            "s-bhi"
+          ],
+          "lastVerifiedAt": "2026-10-26T06:30:00Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-bhi",
+      "fields": {
+        "affiliation": {
+          "value": "컴퓨터공학부",
+          "sourceIds": [
+            "s-prof-bhi",
+            "s-bhi"
+          ],
+          "lastVerifiedAt": "2026-10-26T06:30:00Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-bi",
+      "fields": {
+        "affiliation": {
+          "value": "컴퓨터공학부",
+          "sourceIds": [
+            "s-bi"
+          ],
+          "lastVerifiedAt": "2026-10-26T06:30:00Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-bi",
+      "fields": {
+        "affiliation": {
+          "value": "컴퓨터공학부",
+          "sourceIds": [
+            "s-prof-bi",
+            "s-bi"
+          ],
+          "lastVerifiedAt": "2026-10-26T06:30:00Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-aerospace-aerodynamics",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "src-aerospace-aerodynamics"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:19:15Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-aerospace-rocket",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "src-aerospace-rocket"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:19:15Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-aerospace-navigation",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "src-aerospace-navigation"
+          ],
+          "lastVerifiedAt": "2026-10-26T11:19:15Z"
+        }
+      }
+    },
+    {
+      "resourceId": "prof-dir-cee-gegfangnlpho",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-fbfmampkjnle",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-gpcnpajeljbh",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-mnkfdnnlmgmd",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-dojogciefcej",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-lcmgpgakbmkp",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-fikbfkbhmglb",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-ehafdpbcphlo",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-jemgnhgfjbjg",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-dcbbpiebpmkj",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-obbajcebnnnh",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-ooclanoecdnp",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-dljnjppfgnml",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-dcjkkgimcadp",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-fjlodhcdmddl",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-monfpfpmnoao",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-architecture-lkkkmnaigiih",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-materials-ehmbinmoekec",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-ece-dmggagjoigge",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-ece-edpidjmbagll",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-kbncplhgfpfl",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-hjdbkmpkenpn",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-pclkcmcacoia",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-acgfmjohdalh",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-obdcbhcmelae",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-llpechnidmac",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-chbphkibefhc",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-lgobhkialnci",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-oepodggianob",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-enoaahlnhlok",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-opmckplfbllk",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-blfcgepgoigj",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-jkmemnpnnkoe",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-ikfkkagiacal",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-pppdocgoicgb",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-dijjffaagomb",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-heicmpnpdahc",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-loccgehabjco",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-jjblclajaail",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-ddocmegoaopn",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-aoeccdnipjij",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-bjdgpionefhe",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-hfkilnobdncm",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-phclkilflncm",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-leaainagbeeo",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-kepeheehmcbb",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-dblkbkkiggji",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-bifhgbklddfn",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-pidlhjoimjpl",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-ojennanofjne",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-cse-allblkccmhgd",
+      "fields": {}
+    },
+    {
+      "resourceId": "prof-dir-chemical-ibemencgcoam",
+      "fields": {}
+    },
+    {
+      "resourceId": "lab-list-nuclear-a",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-b",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-c",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-d",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-g",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-i",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-j",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-k",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-l",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-m",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-nuclear-n",
+      "fields": {
+        "affiliation": {
+          "value": "원자핵공학과",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-a",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-c",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-d",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-f",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-g",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-h",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-i",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-j",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-k",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-l",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
+        }
+      }
+    },
+    {
+      "resourceId": "lab-list-aerospace-m",
+      "fields": {
+        "affiliation": {
+          "value": "항공우주공학과",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ],
+          "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
         }
       }
     }
