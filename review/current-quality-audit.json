@@ -1,0 +1,5056 @@
+{
+  "generatedAt": "2026-10-30T01:24:24.244Z",
+  "researchVersion": "college-draft-20261029",
+  "spatialVersion": "campus-20261029",
+  "publication": "prototype",
+  "inputs": {
+    "data/college-draft.json": "f8f6919face4e5fea0321f8f2cbb98523f70b852411c278afc3dd0f668ef4061",
+    "data/campus/campus-draft.json": "b4f4054058cabd7435110b34ed879c058370b7d25f23c8a2848a4016a9460018",
+    "data/coverage/coverage-draft.json": "c09e344ff58dc773130b72658f00899b460d74ae49316d07a0d824e8ee5ec51e"
+  },
+  "counts": {
+    "researcher": 341,
+    "lab": 237,
+    "equipment": 209,
+    "space": 45
+  },
+  "relations": 294,
+  "displayEvidence": 16,
+  "verifiedPapers": 0,
+  "duplicateNameCandidates": [
+    [
+      "prof-dir-ece-dmggagjoigge",
+      "prof-dir-ece-edpidjmbagll"
+    ],
+    [
+      "eq-isrc-1121",
+      "eq-isrc-264"
+    ],
+    [
+      "eq-isrc-216",
+      "eq-isrc-1201"
+    ],
+    [
+      "eq-isrc-242",
+      "eq-isrc-243"
+    ],
+    [
+      "eq-isrc-922",
+      "eq-isrc-214"
+    ],
+    [
+      "eq-isrc-644",
+      "eq-isrc-643",
+      "eq-isrc-642"
+    ],
+    [
+      "lab-four-ece-x",
+      "lab-ece-detail-14"
+    ],
+    [
+      "lab-four-ece-bp",
+      "lab-ece-detail-146"
+    ]
+  ],
+  "issues": [
+    {
+      "id": "lab-cee-urban",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "도시설계연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cee-structural",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "구조설계연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cee-water",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "수질환경실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-architecture-bumjoon",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "강범준",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-architecture-yerin",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "강예린",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-architecture-hyungoo",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "강현구",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-architecture-history",
+      "kind": "lab",
+      "departmentId": "architecture",
+      "name": "건축사연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-architecture-urban",
+      "kind": "lab",
+      "departmentId": "architecture",
+      "name": "건축도시공간연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-architecture-structures",
+      "kind": "lab",
+      "departmentId": "architecture",
+      "name": "고성능구조공학연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-mechanical-robot",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "로봇 인식 및 공간 지능 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-mechanical-fluids",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "마이크로유체 및 소프트물질 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-mechanical-manufacturing",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "혁신설계 및 통합생산 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-energy-recycling",
+      "kind": "lab",
+      "departmentId": "energy",
+      "name": "제련 및 리사이클링 공정 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-energy-rock",
+      "kind": "lab",
+      "departmentId": "energy",
+      "name": "암반공학 민기복 교수 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-energy-geochemistry",
+      "kind": "lab",
+      "departmentId": "energy",
+      "name": "에너지환경지구화학 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-nuclear-thermal",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "열수력계통연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 3
+    },
+    {
+      "id": "lab-nuclear-reactor",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "원자로물리연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-nuclear-radiation",
+      "kind": "researcher",
+      "departmentId": "nuclear",
+      "name": "김은희",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-nuclear-radiation",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "방사선 생명공학 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 4
+    },
+    {
+      "id": "lab-materials-mechanics",
+      "kind": "lab",
+      "departmentId": "materials",
+      "name": "재료역학연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-materials-bioinspired",
+      "kind": "lab",
+      "departmentId": "materials",
+      "name": "생체분자나노재료연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-materials-dna",
+      "kind": "lab",
+      "departmentId": "materials",
+      "name": "THE KIM RESEARCH GROUP",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-naval-fluids",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "김용환",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-naval-fluids",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "해양유체역학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-naval-systems",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "노명일",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-naval-systems",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "시스템설계연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-naval-energy",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "서유택",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-naval-energy",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "지속가능 에너지 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-afds",
+      "kind": "lab",
+      "departmentId": "cse",
+      "name": "Algorithmic Foundations of Data Science Lab",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-afds",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "Chenglin Fan",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-bhi",
+      "kind": "lab",
+      "departmentId": "cse",
+      "name": "Bio and Health Informatics Lab",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-bhi",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "Sun Kim",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-bi",
+      "kind": "lab",
+      "departmentId": "cse",
+      "name": "Biointelligence Lab",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-bi",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "Byoung-Tak Zhang",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-aerospace-aerodynamics",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "김종암",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-aerospace-aerodynamics",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "공력 시뮬레이션 및 디자인 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 3
+    },
+    {
+      "id": "prof-aerospace-rocket",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "윤영빈",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-aerospace-rocket",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "로켓추진연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 2
+    },
+    {
+      "id": "prof-aerospace-navigation",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "박찬국",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-aerospace-navigation",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "항법전자시스템 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 2
+    },
+    {
+      "id": "lab-chemical-flextronics",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "플렉트로닉스 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-chemical-catalysis",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "에너지 및 환경촉매 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-chemical-regenerative",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "재생 바이오 의공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-10",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "원소 분석기 · Elemental Analyzer",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-35",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "초고속 유세포 분리기 · FACS AriaII",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-50",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "푸리에 변환 적외선 분광기 · FT-IR",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-15",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "감마선 조사기 · GAMMA 조사기",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-sinyang-info",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "신양학술정보관 정보화 열람실",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-sinyang-pc206",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "신양학술정보관 PC 실습실 1",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-sinyang-pc207",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "신양학술정보관 PC 실습실 2",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-sinyang-reading306",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "신양학술정보관 자유열람실",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-sinyang-seminar302",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "신양학술정보관 세미나실",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-sinyang-group4",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "신양학술정보관 그룹 스터디실",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-sinyang-print201",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "신양학술정보관 대형출력실",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-engineer-auditorium101",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "엔지니어하우스 대강당",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-engineer-lectureb106",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "엔지니어하우스 산학강의실",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-gece-media",
+      "kind": "space",
+      "departmentId": "shared-engineering",
+      "name": "글로벌공학교육센터 개방형 미디어 창작소",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-irf-b112",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "기초과학공동기기원 139-1동 B112호",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-irf-103",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "기초과학공동기기원 139동 103호",
+      "missingFields": [
+        "purpose",
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-101",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 101호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-402",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 402호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-1-254",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139-1동 254호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-108",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 108호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-408",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 408호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-130",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 130호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-306",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 306호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-401",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 401호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-207",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 207호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-1-151",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139-1동 151호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-209",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 209호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-106",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 106호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-1-120",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139-1동 120호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-307-1",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 307-1호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-1-130",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139-1동 130호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-207-1",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 207-1호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-412",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 412호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-208",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 208호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-404",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 404호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-413",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139동 413호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-139-1-251",
+      "kind": "space",
+      "departmentId": "shared-irf",
+      "name": "139-1동 251호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-302-214",
+      "kind": "space",
+      "departmentId": "chemical",
+      "name": "302동 214호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-302-714",
+      "kind": "space",
+      "departmentId": "chemical",
+      "name": "302동 714호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-302-716",
+      "kind": "space",
+      "departmentId": "chemical",
+      "name": "302동 716호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "space-installation-37-204",
+      "kind": "space",
+      "departmentId": "chemical",
+      "name": "37동 204호 · 장비 설치실",
+      "missingFields": [
+        "usageUrl"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-69",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "파장분산형 X선 형광 분석기 · WD-XRF(S8 TIGER)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-66",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "단결정 X-선 회절분석기 · SC-XRD",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-16",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "기체 크로마토그래피 고분해능 질량분석기 · GC-HRMS",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-24",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "고분해능 거대질량 분석기 · MALDI-TOF",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-68",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "고분해능 거대질량 분석기 · MALDI-TOFTOF",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-42",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "투과전자현미경 · TEM(200kV) (구 TEM II)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-a",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "가스크로마토그래프/질량분석기(GC/MS)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-c",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "고성능 액체크로마토그래피(HPLC)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-d",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "공초점레이저현미경(CLSM)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-f",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "시차열량주사계(DSC)/열중량분석기(TGA)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-h",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "적외선분광기(Cary600)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-i",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "적외선분광기(PerkinElmer)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-j",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "전계 방사형 주사 전자 현미경(FE-SEM)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-k",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "전자스핀자기공명분광기(EPR)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-l",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "주사탐침현미경(AFM)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-m",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "태양전지 성능평가 시스템(IPCE)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-n",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "핵자기 공명 분광기(NMR)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-o",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "헤드스페이스 가스크로마토그래피/질량분석기 (Headspace GC/MS)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-q",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "유도결합플라즈마 분광분석기(ICPS)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-r",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "원소분석기(EA)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-u",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "X-ray 회절 분석기(XRD)(D/Max)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-v",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "X-ray 회절 분석기(XRD)(SmartLab)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-b",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "겔투과크로마토그래피(GPC)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-e",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "미생물유세포분석기(FACS)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-s",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "X-ray 광전자 분석기(XPS)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-t",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "X-ray 회절 분석기(XRD)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-cee-cpapibemkajl",
+      "kind": "researcher",
+      "departmentId": "cee",
+      "name": "김희철",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-cee-gegfangnlpho",
+      "kind": "researcher",
+      "departmentId": "cee",
+      "name": "Van Thinh Nguyen",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-fbfmampkjnle",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "김은주",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-gpcnpajeljbh",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "맹필수",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-mnkfdnnlmgmd",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "박문서",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-dojogciefcej",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "박철수",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-lcmgpgakbmkp",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "박홍근",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-fikbfkbhmglb",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "백진",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-ehafdpbcphlo",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "서현",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-jemgnhgfjbjg",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "안창범",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-dcbbpiebpmkj",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "여명석",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-obbajcebnnnh",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "이경아",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-ooclanoecdnp",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "전봉희",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-dljnjppfgnml",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "조인호",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-dcjkkgimcadp",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "조항만",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-fjlodhcdmddl",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "황현종",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-monfpfpmnoao",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "Choon Woong Choi",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-architecture-lkkkmnaigiih",
+      "kind": "researcher",
+      "departmentId": "architecture",
+      "name": "Hong John Sangki",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-mechanical-depeeclngokl",
+      "kind": "researcher",
+      "departmentId": "mechanical",
+      "name": "김태용",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-mechanical-ghfkdbiiafme",
+      "kind": "researcher",
+      "departmentId": "mechanical",
+      "name": "이동준",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-energy-kcianenjjcld",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "강진수",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-energy-khmhhoedfjaj",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "민동주",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-energy-gldniokddaib",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "박형동",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-energy-emjemdkaompl",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "송재준",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-energy-anpalkbiakec",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "전석원",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-energy-pfhhnngalknn",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "정훈영",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-energy-cjdheeiaiapa",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "최종근",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-kgifccccmbnh",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "강기석",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-inhgopgbfmge",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "강기훈",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-fopaompjfelf",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "강동민",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-kmlmbicmepll",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "강승균",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-hhfhnfeknibh",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "곽승엽",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-fejnbehedioa",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "권민상",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ecphfndhciac",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "김미영",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-chiiddomappd",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "김상국",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-nenapolmkmdo",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "김상범",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-fimfkjejhjao",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "김진영",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-poolddepbiec",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "김창규",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ioeemmgjfkbi",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "도준상",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-amebehmbimok",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "류일",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ajhnaojkddaf",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "박민혁",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-knkbeakiknab",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "박은수",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-flimnfmhnbeo",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "박주혁",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-cddehgdecgim",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "박찬",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-llielnajgkja",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "선정윤",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-onolkaaelbji",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "손준우",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-eaafgmdmkfgm",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "안철희",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ipiilbmkfall",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "양승재",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ehmbinmoekec",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "유웅열",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-fpghfoeidgkp",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "유효빈",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-bdkghppnnbie",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "이경우",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-agoomkambokf",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "이관형",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-bjdhiokdnigc",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "이명재",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-mjgmgfgmcpdj",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "이태우",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-hpjkdpldpjcc",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "장혜진",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-bbfhmchcmomd",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "장호원",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-lkaconllkpnj",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "정우철",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ijpkpjacpolb",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "정인호",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-jjhnaahoppma",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "주영창",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-dhlkamionpmg",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "최인석",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ccnjknejbhee",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "한승우",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-iblfiehajlme",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "한정우",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-ndhelkglpljn",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "한준규",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-kfdgjnnfjcpb",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "한흥남",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-dnndnnbikpne",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "홍성현",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-materials-mlhmgnmcjjcd",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "황철성",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-dhcfclllaomo",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "고형석",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-cldplhiofelf",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "곽정훈",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ecmhlobklkea",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "권성훈",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-cbnjmbplpjcn",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김남수",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-abeckbgfjhjg",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김성재",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-gdlggmgikjao",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김영민",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-iocciicbmfii",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김장우",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-bpfbemmpgefo",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김재준",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-pblajcdokhil",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김재하",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-laacoklffmom",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김진수",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ldbbkhagfbej",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "김태환",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-pmnohcjdigod",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "남동욱",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-pbkiglggkjhm",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "도재영",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-pkegfgboihfo",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "문수묵",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-odmajfjjbmed",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "박남규",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-enffdgmfmlmh",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "박세웅",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-fjlldkeccfah",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "백윤흥",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-mgggfjeonkbd",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "서승우",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ghoagdpmcopl",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "서종모",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-oojnipgfhpmn",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "신종원",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-kcgfgpiccppa",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "신형철",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-kcopobhklgoe",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "심규석",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-nodiokgkdejn",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "심병효",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-blighleokhdk",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "심재웅",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ciiaoihbecdm",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "심형보",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-oednmdnkffai",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "양인순",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-hgeleppolglm",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "양현종",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-lbocojhccloh",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "오성회",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-lhghonikgohk",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "오정석",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ommhaklpinak",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "유담",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-mgkmjmcehjjk",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "유선규",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ckcilennhkba",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "윤상원",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-pghokbneicgn",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "윤성로",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-fejfelalhokl",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "윤용태",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-fobeageoidck",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이경무",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-cbjmlnahnedk",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이경한",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ceifpapadlik",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이규섭",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-cpckogakbcmh",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이병영",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-gaahominkndp",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이성욱",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-plkmmdkhfomj",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이수연",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-mdlofdfodaig",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이재상",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-mnnieaipdbka",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이정우",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-dmggagjoigge",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이종호",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-edpidjmbagll",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이종호",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-jgmmpldlmjnj",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이진규",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-hgakfiahoeon",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이진호",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-bjbjibokefnb",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이철호",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-bnmgkkefjjif",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이혁재",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-aihicgflkkkk",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이현주",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-aanpbhibbljc",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "전세영",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-efpmndefgdjd",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "정교민",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-mklgbefljbpj",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "정윤찬",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-lmbieacandlf",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "조남익",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-dcibghhidjil",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최성휘",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-ahpaokahoagg",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최완",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-nepmddjbbcbg",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최우석",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-jomnkiliibim",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최우열",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-mfafcokeoked",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최우영",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-bemjkgojgjjp",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최재혁",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-efenflcagibm",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최종현",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-fpgohbfpgphn",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "하정익",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-lgmpldbefeco",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "한보형",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-apjoiplmbadj",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "한승용",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-ece-heodohneheom",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "홍성수",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-naval-ggnnpflocfjb",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "강상규",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-gpeipclipdjo",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "김도균",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-pmhaiiijegii",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "김태완",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-njlcdlebdplh",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "남보우",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-ielahgkhgaik",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "신재정",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-kbbpfkibnabo",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "오민재",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-bkbajbgibllh",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "우종훈",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-kigjfjdognkm",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "이신형",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-gdmopbocdkio",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "임영섭",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-jhhjopmmomgo",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "조선호",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-naval-jflocpkoobcd",
+      "kind": "researcher",
+      "departmentId": "naval",
+      "name": "추영민",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-dir-cse-kbncplhgfpfl",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "강유",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-hjdbkmpkenpn",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "권태경",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-pclkcmcacoia",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "김건희",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-acgfmjohdalh",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "김지홍",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-obdcbhcmelae",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "김진수",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-llpechnidmac",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "김태현",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-chbphkibefhc",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "박경수",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-lgobhkialnci",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "박재식",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-oepodggianob",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "서진욱",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-enoaahlnhlok",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "송용수",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-opmckplfbllk",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "송현오",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-blfcgepgoigj",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "엄현상",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-jkmemnpnnkoe",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "에거버나드",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-ikfkkagiacal",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "원정담",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-pppdocgoicgb",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "유승주",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-dijjffaagomb",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "유재민",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-heicmpnpdahc",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "이광근",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-loccgehabjco",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "이상구",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-jjblclajaail",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "이영기",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-ddocmegoaopn",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "이영운",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-aoeccdnipjij",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "이재욱",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-bjdgpionefhe",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "이제희",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-hfkilnobdncm",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "이창건",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-phclkilflncm",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "전병곤",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-leaainagbeeo",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "정대룡",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-kepeheehmcbb",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "주한별",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-dblkbkkiggji",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "최수연",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-bifhgbklddfn",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "하순회",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-pidlhjoimjpl",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "허충길",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-ojennanofjne",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "황승원",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-cse-allblkccmhgd",
+      "kind": "researcher",
+      "departmentId": "cse",
+      "name": "Cui Minhao",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-gaefkmhffhem",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "김규홍",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-piednglijhic",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "김윤호",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-mbbpgahfndao",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "김현진",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-lhigidmdclgo",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "박형준",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-ggdbnhbejecn",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "신상준",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-lfhgjdfahege",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "여재익",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-plleclfggfkp",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "윤군진",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-lpliopomchpl",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "이관중",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-ihljlklhldfg",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "이복직",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-aerospace-pkcechgjodfo",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "조남훈",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-dir-chemical-ibemencgcoam",
+      "kind": "researcher",
+      "departmentId": "chemical",
+      "name": "Nathaniel Suk-Yeon Hwang",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "lab-list-nuclear-a",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "3차원 스텔라레이터 및 토카막 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 2
+    },
+    {
+      "id": "lab-list-nuclear-b",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "고성능 플라즈마 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 2
+    },
+    {
+      "id": "lab-list-nuclear-c",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "몬테칼로 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-nuclear-d",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "방사선 공학 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 3
+    },
+    {
+      "id": "lab-list-nuclear-g",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "원자력 시스템 및 응용 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-nuclear-i",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "전산 핵재료 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-nuclear-j",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "플라즈마 및 방사선 공학 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 3
+    },
+    {
+      "id": "lab-list-nuclear-k",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "플라즈마 및 양자빔 공학 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 3
+    },
+    {
+      "id": "lab-list-nuclear-l",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "플라즈마 응용 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 5
+    },
+    {
+      "id": "lab-list-nuclear-m",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "핵연료재료 및 안전 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 2
+    },
+    {
+      "id": "lab-list-nuclear-n",
+      "kind": "lab",
+      "departmentId": "nuclear",
+      "name": "핵연료주기 및 핵비확산 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 4
+    },
+    {
+      "id": "lab-list-aerospace-a",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "고에너지 응용연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-c",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "극초음속 유동 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-d",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "극한환경 및 충돌 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-f",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "우주 모빌리티 및 로보틱스 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-g",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "위성항법 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 2
+    },
+    {
+      "id": "lab-list-aerospace-h",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "자율로봇연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-i",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "지능형공탄성 및 헬리콥터 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-j",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "항공우주 구조 및 재료 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-k",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "항공우주 비행체 설계 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-l",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "항공우주 자율지능 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-list-aerospace-m",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "항공우주추진연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage",
+        "affiliation"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-45",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "공초점 레이저 주사 현미경 · CLSM II",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-irf-59",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "투과전자현미경 소프트웨어 · TEM Software",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-241",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "스피너 (03)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-235",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "스핀 코터 (02)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-239",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "스핀 코터 (06)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-238",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "스핀 코터 (05)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-1205",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "신터 본더",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-923",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "오븐",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-201",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "광학 현미경 (06)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-200",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "광학 현미경 (05)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-199",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "광학 현미경 (04)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-198",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "광학 현미경 (03)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-197",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "광학 현미경 (02)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-196",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "광학 현미경 (01)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-144",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "에너지 분산 X선 분광기",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-922",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "i-line 스테퍼",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-218",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "리플렉토미터(Nanospec) (01)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-223",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "RTA (급속열처리장치_CMOS RTA)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-901",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "C-Furnace (04)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-461",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "C-Furnace (03)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-644",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "면저항 측정기",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-isrc-110",
+      "kind": "equipment",
+      "departmentId": "shared-irf",
+      "name": "4-포인트 프로브 (03)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-g",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "열중량분석기(TGA)/시차열분석기(DSC)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "eq-cbe-p",
+      "kind": "equipment",
+      "departmentId": "chemical",
+      "name": "BET 비표면적 분석장치(ASAP2020)",
+      "missingFields": [
+        "purpose"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-current-nuclear-f",
+      "kind": "researcher",
+      "departmentId": "nuclear",
+      "name": "박종규",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-current-aerospace-a",
+      "kind": "researcher",
+      "departmentId": "aerospace",
+      "name": "기창돈",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "lab-cards-cee-a",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "구조해석연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-c",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "교통계획 및 물류 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-d",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "지반공학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-e",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "기후변화적응 수자원연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-f",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "공간정보연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-g",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "폐기물실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-j",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "토양환경연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-k",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "멀티스케일구조재료실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-l",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "해안공학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-m",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "스마트도시계획연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-n",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "물질흐름 및 탄소모델링 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-o",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "지반환경공학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-p",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "구조신뢰성연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-q",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "도시물시스템연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-s",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "스마트교통연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-t",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "교통공학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-u",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "콘크리트구조 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-v",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "지반역학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-w",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "건설혁신연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-x",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "응용구조동역학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-z",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "지속가능환경기술연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-aa",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "스마트건설연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-ab",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "에너지인프라최적화연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-cee-ac",
+      "kind": "lab",
+      "departmentId": "cee",
+      "name": "유체 물리 및 정보공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-a",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "지능형 수소에너지 시스템연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-b",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "해양 및 쇼어기술 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-d",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "딥러닝 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-e",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "내항조종연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-h",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "능동인지 및 로봇지능 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-i",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "통합설계자동화연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-j",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "생산공학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-k",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "선박저항성능연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-l",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "차세대선박해양공정연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-m",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "전산구조역학연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-cards-naval-n",
+      "kind": "lab",
+      "departmentId": "naval",
+      "name": "수중 음향 지능 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-current-energy-g",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "이진욱",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-current-energy-k",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "조용채",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-current-energy-m",
+      "kind": "researcher",
+      "departmentId": "energy",
+      "name": "허은녕",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "lab-four-mechanical-a",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "음향 및 진동 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-b",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "정밀 생체계측 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-c",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "웨어러블 소프트 전자소자 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-d",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "AI주도 시뮬레이션 및 설계 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-e",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "냉동시스템 및 컨트롤 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-f",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "열 및 반응성 시스템 설계 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-h",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "나노 에너지 전달 공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-j",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "반응성 유동 실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-k",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "동력공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-l",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "친환경 에너지 및 나노열 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-m",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "소프트 로봇 및 바이오닉스 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-n",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "로봇 자동화 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-o",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "다상유동 및 유동가시화 실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-p",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "터보기계 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-q",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "어드밴스드 에너지 시스템 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-r",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "생체 시스템 공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-t",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "트랜스포머티브 아키텍쳐 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-u",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "인공구조 기반 혁신 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-v",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "초자율화 인공지능 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-w",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "인터랙티브/네트워크 로보틱스 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-x",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "지능형 이미징 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-y",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "에너지 디바이스 및 나노공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-z",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "첨단생산기술 및 스마트소재 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-aa",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "로봇비전 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-ab",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "멀티스케일 의기계공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-ac",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "비아이로보틱스 실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-ad",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "자율주행 및 차량지능 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-ae",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "재생 에너지 변환 실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-af",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "난류, 유동제어 및 CFD/생체모방공학 실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-ag",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "헬스케어 로보틱스 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-mechanical-ah",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "에너지 및 환경유동 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "prof-four-materials-p",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "서준민",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-materials-ao",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "정성균",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-materials-ar",
+      "kind": "researcher",
+      "departmentId": "materials",
+      "name": "유웅렬",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-ece-s",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "박준석",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-ece-w",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "서지원",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-ece-au",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이종호 (B)",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-ece-av",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "이종호 (S)",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-ece-bd",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "정규원",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-ece-bn",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "최준원",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "prof-four-ece-bs",
+      "kind": "researcher",
+      "departmentId": "ece",
+      "name": "홍성완",
+      "missingFields": [],
+      "unknownSourceIds": [],
+      "locationCandidates": 0
+    },
+    {
+      "id": "lab-four-chemical-a",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "불균일촉매 설계 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-e",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "연성소재 나노물리 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-f",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "나노계면소재공정 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-g",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "연성물질공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-h",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "분자세포공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-i",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "반도체 공정 및 분석 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-j",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "미세유체 및 코팅공정 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-k",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "촉매화학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-l",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "다차원 재료화학 연구실 311동 317동",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-m",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "단백질 신소재 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-n",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "시스템 및 합성생물학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-o",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "광전기화학 에너지 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-p",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "미세유변학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-q",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "유기 고분자 전자 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-r",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "유기합성 분자공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-s",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "물환경에너지공학 실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-t",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "분리공정연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-u",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "전기화학공정 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-v",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "전기화학 에너지 시스템 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-w",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "나노재료이론 및 컴퓨터시뮬레이션 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-x",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "에너지공정공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-y",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "고분자화학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-z",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "고도산화환원환경",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-aa",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "항체 및 단백질공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-ab",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "인공지능 및 계산화학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-ac",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "고체화학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-ad",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "멀티스케일 에너지 과학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-ae",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "생물분자공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-af",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "나노재료 실험실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-ag",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "첨단제조공정 연구",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-chemical-ah",
+      "kind": "lab",
+      "departmentId": "chemical",
+      "name": "생체모방재료 및 줄기세포공학 연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-ece-z",
+      "kind": "lab",
+      "departmentId": "ece",
+      "name": "초고주파집적시스템연구실",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-four-ece-ak",
+      "kind": "lab",
+      "departmentId": "ece",
+      "name": "차세대 반도체 소자 및 재료 연구실",
+      "missingFields": [
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    },
+    {
+      "id": "lab-mechanical-fuel-cell",
+      "kind": "lab",
+      "departmentId": "mechanical",
+      "name": "연료전지시스템 연구실",
+      "missingFields": [
+        "researchFields",
+        "officialHomepage"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
+    }
+  ],
+  "notes": [
+    "Missing field checks are structural, not human factual approval.",
+    "Location candidates include unknown and expired records; not a mapped-resource count.",
+    "Duplicate names are review candidates and must never be merged automatically."
+  ]
+}

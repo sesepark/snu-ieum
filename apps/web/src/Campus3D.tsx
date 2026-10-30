@@ -19,7 +19,7 @@ export default function Campus3D(p:CampusViewProps){
    const positions:number[]=[],colors:number[]=[],indices:number[]=[];
    for(let j=0;j<t.rows;j++)for(let i=0;i<t.columns;i++){
     const [x,y]=project([t.west+(i+.5)/t.columns*(t.east-t.west),t.north-(j+.5)/t.rows*(t.north-t.south)]),h=t.heights[j*t.columns+i]??0;
-    positions.push(x,y,h);const c=new Color().setHSL(.23,.12,.76-Math.min(1,h/650)*.15);colors.push(c.r,c.g,c.b);
+    positions.push(x,y,h);const c=new Color().setHSL(.29,.10,.88-Math.min(1,h/650)*.12);colors.push(c.r,c.g,c.b);
    }
    for(let j=0;j<t.rows-1;j++)for(let i=0;i<t.columns-1;i++){
     const a=j*t.columns+i,b=a+1,c=a+t.columns,d=c+1;
@@ -32,7 +32,7 @@ export default function Campus3D(p:CampusViewProps){
    for(const path of p.campus.paths.filter(r=>r.kind===kind))for(let i=1;i<path.points.length;i++)for(const point of [path.points[i-1],path.points[i]]){
     const [x,y]=project(point);positions.push(x,y,surface(p.campus,x,y)+2);
    }
-   const geometry=new BufferGeometry();geometry.setAttribute('position',new BufferAttribute(new Float32Array(positions),3));group.add(new LineSegments(geometry,new LineBasicMaterial({color:kind==='road'?'#fcfcf5':kind==='green'?'#90aa84':'#b5bea6',transparent:true,opacity:kind==='road'?.95:.6})));
+   const geometry=new BufferGeometry();geometry.setAttribute('position',new BufferAttribute(new Float32Array(positions),3));group.add(new LineSegments(geometry,new LineBasicMaterial({color:kind==='road'?'#ffffff':kind==='green'?'#729a82':'#899fa8',transparent:true,opacity:kind==='road'?.95:.6})));
   }
   for(const m of p.model.markers){
    const b=m.building,height=b.heightMeters??12;let geometry:ExtrudeGeometry|PlaneGeometry;
@@ -41,7 +41,7 @@ export default function Campus3D(p:CampusViewProps){
     for(const hole of b.footprint.coordinates.slice(1))shape.holes.push(new Path(hole.map(pt=>{const[x,y]=project(pt);return new Vector2(x,y);}))); 
     geometry=new ExtrudeGeometry(shape,{depth:height,bevelEnabled:false});geometry.translate(0,0,surface(p.campus,...m.center));
    }else{geometry=new PlaneGeometry(14,14);geometry.translate(m.center[0],m.center[1],surface(p.campus,...m.center)+2);}
-   const mesh=new Mesh(geometry,new MeshStandardMaterial({color:'#e2e2dc',roughness:.82,metalness:0,side:DoubleSide}));mesh.userData.buildingId=b.id;meshes.set(b.id,mesh);group.add(mesh);
+   const mesh=new Mesh(geometry,new MeshStandardMaterial({color:'#d0dae2',roughness:.82,metalness:0,side:DoubleSide}));mesh.userData.buildingId=b.id;meshes.set(b.id,mesh);group.add(mesh);
   }
   let frame=0,lastLabels=0,disposed=false;
   const labels=()=>{
@@ -85,7 +85,7 @@ export default function Campus3D(p:CampusViewProps){
   const update=()=>{
    for(const child of [...relations.children]){if(child instanceof LineSegments){child.geometry.dispose();const material=child.material;if(Array.isArray(material))material.forEach(m=>m.dispose());else material.dispose();}relations.remove(child);}
    const q=latest.current;renderer.setSize(q.width,q.height,false);camera.aspect=q.width/Math.max(1,q.height);camera.updateProjectionMatrix();
-   for(const m of q.model.markers){const material=meshes.get(m.building.id)?.material as MeshStandardMaterial|undefined;if(!material)continue;material.color.set(m.building.id===q.selectedBuilding?'#3773c8':q.searching&&m.matched?'#f0b157':q.college&&m.building.collegeIds.includes(q.college)?'#7eabbd':m.resourceIds.length?'#bbcad4':'#e2e2dc');}
+   for(const m of q.model.markers){const material=meshes.get(m.building.id)?.material as MeshStandardMaterial|undefined;if(!material)continue;material.color.set(m.building.id===q.selectedBuilding?'#3773c8':q.searching&&m.matched?'#f0b157':q.college&&m.building.collegeIds.includes(q.college)?'#7eabbd':m.resourceIds.length?'#bbcad4':'#d0dae2');}
    const segments:number[]=[];
    for(const link of q.model.links){if(link.from===link.to)continue;const a=q.model.markers.find(m=>m.building.id===link.from),b=q.model.markers.find(m=>m.building.id===link.to);if(!a||!b)continue;const z=Math.max(surface(q.campus,...a.center),surface(q.campus,...b.center))+45;segments.push(a.center[0],a.center[1],z,b.center[0],b.center[1],z);}
    if(segments.length){const geometry=new BufferGeometry();geometry.setAttribute('position',new BufferAttribute(new Float32Array(segments),3));relations.add(new LineSegments(geometry,new LineBasicMaterial({color:'#245da9',depthTest:false,transparent:true,opacity:.85})));}

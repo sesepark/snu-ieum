@@ -53,3 +53,15 @@ test('purpose filters, distribution and recovery keep all candidates reachable',
   await page.getByRole('button', {name:'시계열 살펴보기',exact:true}).click();
   await expect(page.locator('.resource-card')).toHaveCount(5);
 });
+
+
+test('search counts and quality meters use their stated denominators', async ({ page }) => {
+  await page.goto('#/?view=2d');
+  await page.getByLabel('자원명·연구 분야 검색').fill('Krios');
+  await expect(page.locator('.filters fieldset button').first()).toHaveText('전체 1');
+  await page.getByRole('button', {name:'초기화',exact:true}).click();
+  await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('');
+  await page.getByText('수록 현황 · 데이터 품질', {exact:false}).click();
+  await expect(page.getByRole('meter', {name:/지도 위치 근거/})).toBeVisible();
+  await expect(page.getByRole('meter', {name:/저자 검수 논문/})).toHaveAttribute('value','0');
+});
