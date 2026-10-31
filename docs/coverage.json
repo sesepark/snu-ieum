@@ -16197,11 +16197,11 @@
       "resourceId": "lab-mechanical-robot",
       "fields": {
         "officialHomepage": {
-          "value": "https://rpm.snu.ac.kr/",
+          "value": "https://ayoungk.github.io/",
           "sourceIds": [
-            "src-rpm-overview-1031"
+            "src-mechanical-robot"
           ],
-          "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
+          "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
         },
         "affiliation": {
           "value": "기계공학부",
@@ -16211,11 +16211,11 @@
           "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
         },
         "researchFields": {
-          "value": "로봇 인식·지도 작성(SLAM), 센서 융합, 자율 항법",
+          "value": "로봇 인식, 공간 AI, 다중모달 SLAM, Physical AI",
           "sourceIds": [
-            "src-rpm-overview-1031"
+            "src-ayoung-research-1031"
           ],
-          "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
+          "lastVerifiedAt": "2026-10-31T09:26:34.227Z"
         }
       }
     },
@@ -24080,19 +24080,12 @@
           ],
           "lastVerifiedAt": "2026-10-26T16:57:48.882Z"
         },
-        "researchFields": {
-          "value": "지상·비행 로봇의 센싱, 학습, 제어, 의사결정 알고리즘",
-          "sourceIds": [
-            "src-larr-1031"
-          ],
-          "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
-        },
         "officialHomepage": {
           "value": "https://larr.snu.ac.kr/",
           "sourceIds": [
-            "src-larr-1031"
+            "official-lab-inventory-aerospace"
           ],
-          "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
+          "lastVerifiedAt": "2026-10-31T09:26:34.227Z"
         }
       }
     },

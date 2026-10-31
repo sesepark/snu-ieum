@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "mechanical-evidence-draft-20261026",
-    "generatedAt": "2026-10-31T09:24:07.859Z",
+    "generatedAt": "2026-10-31T09:26:34.227Z",
     "publication": "prototype",
     "selectionReason": "공식 전임교수 명단에서 로보틱스·유체/소프트물질·설계생산의 서로 다른 분야를 골랐다. 교수 이름과 같은 카드의 연구실 항목을 대조했다. 사람 승인 전 검수 초안이며 전수·이용 가능 보장이 아니다. 공식 교수/연구실의 논문 목록·게재 안내에서 제목과 저자를 대조한 논문 근거 1건을 추가했다. 논문 유사도나 이름만으로 자원을 병합하지 않았다.",
     "schemaVersion": 1
@@ -139,13 +139,13 @@
       "lastVerifiedAt": "2026-10-26T11:30:50.557Z"
     },
     {
-      "id": "src-rpm-overview-1031",
-      "url": "https://rpm.snu.ac.kr/",
-      "title": "로봇 인식 및 공간 지능 연구실 연구 소개",
-      "organization": "서울대학교 RPM Robotics Lab",
+      "id": "src-ayoung-research-1031",
+      "url": "https://ayoungk.github.io/",
+      "title": "기계공학부 김아영 교수 공식 연결 연구 소개",
+      "organization": "서울대학교 김아영 교수 연구 소개",
       "sourceType": "official-page",
-      "retrievedAt": "2026-10-31T09:24:07.859Z",
-      "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
+      "retrievedAt": "2026-10-31T09:26:34.227Z",
+      "lastVerifiedAt": "2026-10-31T09:26:34.227Z"
     }
   ],
   "resources": [
@@ -170,21 +170,18 @@
       "id": "lab-mechanical-robot",
       "kind": "lab",
       "name": "로봇 인식 및 공간 지능 연구실",
-      "summary": "로봇의 인식과 지도 작성(SLAM), 센서 융합, 자율 주행·수중 항법을 연구합니다.",
+      "summary": "로봇 인식, 공간 AI, 다중모달 SLAM과 Physical AI를 연구합니다.",
       "departmentId": "mechanical",
       "keywords": [
-        "로보틱스",
-        "로봇 인식",
-        "공간 지능",
         "로봇",
+        "로봇 인식",
+        "공간 AI",
         "SLAM",
-        "센서 융합",
-        "자율 주행",
-        "수중 항법"
+        "Physical AI"
       ],
       "sourceIds": [
         "src-mechanical-robot",
-        "src-rpm-overview-1031"
+        "src-ayoung-research-1031"
       ],
       "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
       "verificationRequired": true

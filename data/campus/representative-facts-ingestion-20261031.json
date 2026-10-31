@@ -3,18 +3,6 @@
   "status": "pending-human-review",
   "records": [
     {
-      "sourceId": "src-rpm-overview-1031",
-      "runId": "c034ff38-0dbb-4269-b98d-0b81abcbe815",
-      "rawId": "a67f1310b8349eda8d315e8cd9f3f82bf549611f6dcaab28259517ca57ccae6d",
-      "stagingId": "f5b0cc32-da4d-4139-acc4-30bc116b718a"
-    },
-    {
-      "sourceId": "src-rpm-contact-1031",
-      "runId": "d04d6502-ee4f-4599-b7a0-c99a3472b645",
-      "rawId": "5f85b0b7db8c239b6a84ed97818bc042c03f47e8b59e8a95a276a6e5dd4f98de",
-      "stagingId": "4ade3cfc-f54e-4893-a381-2c1ea7bbd040"
-    },
-    {
       "sourceId": "src-softrobotics-1031",
       "runId": "7e42369d-34d8-4b97-859b-d317c3dfb79f",
       "rawId": "ac0e5c0b6bf9dffb6da054f48aaa65dd42aa81b85673fa793e31827a6b94296d",
@@ -33,12 +21,6 @@
       "stagingId": "20064d91-0a18-4c9d-bfbc-824281428087"
     },
     {
-      "sourceId": "src-larr-1031",
-      "runId": "6d444e95-a02d-4d86-920c-788ca6bacd35",
-      "rawId": "8b845d464807ab9d5dd3d660dc0f221ce7efad00f99f157d518ef6ee8e28e148",
-      "stagingId": "07973982-222f-4f59-89e4-76a91709fc22"
-    },
-    {
       "sourceId": "src-rllab-1031",
       "runId": "a9dead07-fc30-471b-908b-478b8e592298",
       "rawId": "a29af7fbefef352c2f567be3e4ce9d0a66dd7ed5de1730874a90131d67a444b8",
@@ -49,27 +31,15 @@
       "runId": "b1f196a2-435f-44df-bd06-e2783e969362",
       "rawId": "4aaaf29ddda563ab0df0d223bdc8a77a94697beca9282725c3404f1f0da0cec3",
       "stagingId": "7b04a8e9-d255-4b92-b7d6-6790accdd264"
+    },
+    {
+      "sourceId": "src-ayoung-research-1031",
+      "runId": "83b23ef5-c37f-4196-b217-cb386be48065",
+      "rawId": "559140ba175fb2895b6d7e47dd0fe5c7dc63475c1ee7436d547b4bf5774ffdea",
+      "stagingId": "e40b94ec-934a-489b-9415-377b1c9bfc0f"
     }
   ],
   "changes": [
-    {
-      "resourceId": "lab-mechanical-robot",
-      "field": "researchFields",
-      "before": null,
-      "after": "로봇 인식·지도 작성(SLAM), 센서 융합, 자율 항법",
-      "sourceIds": [
-        "src-rpm-overview-1031"
-      ]
-    },
-    {
-      "resourceId": "lab-mechanical-robot",
-      "field": "officialHomepage",
-      "before": "https://ayoungk.github.io/",
-      "after": "https://rpm.snu.ac.kr/",
-      "sourceIds": [
-        "src-rpm-overview-1031"
-      ]
-    },
     {
       "resourceId": "lab-four-mechanical-m",
       "field": "researchFields",
@@ -107,38 +77,12 @@
       ]
     },
     {
-      "resourceId": "lab-list-aerospace-h",
-      "field": "researchFields",
-      "before": null,
-      "after": "지상·비행 로봇의 센싱, 학습, 제어, 의사결정 알고리즘",
-      "sourceIds": [
-        "src-larr-1031"
-      ]
-    },
-    {
-      "resourceId": "lab-list-aerospace-h",
-      "field": "officialHomepage",
-      "before": null,
-      "after": "https://larr.snu.ac.kr/",
-      "sourceIds": [
-        "src-larr-1031"
-      ]
-    },
-    {
       "resourceId": "lab-four-ece-bb",
       "field": "officialHomepage",
       "before": "http://rllab.snu.ac.kr",
       "after": "https://rllab.snu.ac.kr/",
       "sourceIds": [
         "src-rllab-1031"
-      ]
-    },
-    {
-      "resourceId": "lab-mechanical-robot",
-      "field": "labLocation",
-      "after": "301동 1216호",
-      "sourceIds": [
-        "src-rpm-contact-1031"
       ]
     },
     {
@@ -667,11 +611,50 @@
       "sourceIds": [
         "src-irf-usage-1031"
       ]
+    },
+    {
+      "resourceId": "lab-mechanical-robot",
+      "field": "researchFields",
+      "after": "로봇 인식, 공간 AI, 다중모달 SLAM, Physical AI",
+      "sourceIds": [
+        "src-ayoung-research-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-list-aerospace-h",
+      "field": "officialHomepage",
+      "after": "https://larr.snu.ac.kr/",
+      "sourceIds": [
+        "official-lab-inventory-aerospace"
+      ]
     }
   ],
   "notes": [
     "Institutional lab locations only. Professor offices were never propagated to labs.",
     "Lab A and Lab B remain separate official location records for one resource.",
     "Usage links do not assert eligibility or availability."
+  ],
+  "withdrawn": [
+    {
+      "sourceId": "src-rpm-overview-1031",
+      "runId": "c034ff38-0dbb-4269-b98d-0b81abcbe815",
+      "rawId": "a67f1310b8349eda8d315e8cd9f3f82bf549611f6dcaab28259517ca57ccae6d",
+      "stagingId": "f5b0cc32-da4d-4139-acc4-30bc116b718a",
+      "reason": "robots disallow-all discovered; direct collection candidates withdrawn and excluded from canonical facts"
+    },
+    {
+      "sourceId": "src-rpm-contact-1031",
+      "runId": "d04d6502-ee4f-4599-b7a0-c99a3472b645",
+      "rawId": "5f85b0b7db8c239b6a84ed97818bc042c03f47e8b59e8a95a276a6e5dd4f98de",
+      "stagingId": "4ade3cfc-f54e-4893-a381-2c1ea7bbd040",
+      "reason": "robots disallow-all discovered; direct collection candidates withdrawn and excluded from canonical facts"
+    },
+    {
+      "sourceId": "src-larr-1031",
+      "runId": "6d444e95-a02d-4d86-920c-788ca6bacd35",
+      "rawId": "8b845d464807ab9d5dd3d660dc0f221ce7efad00f99f157d518ef6ee8e28e148",
+      "stagingId": "07973982-222f-4f59-89e4-76a91709fc22",
+      "reason": "robots disallow-all discovered; direct collection candidates withdrawn and excluded from canonical facts"
+    }
   ]
 }

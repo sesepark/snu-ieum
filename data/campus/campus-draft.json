@@ -6489,30 +6489,6 @@
       "contentUpdatedAt": null
     },
     {
-      "id": "src-rpm-overview-1031",
-      "url": "https://rpm.snu.ac.kr/",
-      "title": "로봇 인식 및 공간 지능 연구실 연구 소개",
-      "organization": "서울대학교 RPM Robotics Lab",
-      "retrievedAt": "2026-10-31T09:24:07.859Z",
-      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
-      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
-      "attribution": "서울대학교 RPM Robotics Lab",
-      "redistribution": "metadata-only",
-      "contentUpdatedAt": null
-    },
-    {
-      "id": "src-rpm-contact-1031",
-      "url": "https://rpm.snu.ac.kr/index.php/Main/Contact",
-      "title": "RPM Robotics Lab 공식 위치 안내",
-      "organization": "서울대학교 RPM Robotics Lab",
-      "retrievedAt": "2026-10-31T09:24:07.859Z",
-      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
-      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
-      "attribution": "서울대학교 RPM Robotics Lab",
-      "redistribution": "metadata-only",
-      "contentUpdatedAt": null
-    },
-    {
       "id": "src-softrobotics-1031",
       "url": "https://softrobotics.snu.ac.kr/",
       "title": "소프트 로봇 및 바이오닉스 연구실 소개",
@@ -6549,18 +6525,6 @@
       "contentUpdatedAt": null
     },
     {
-      "id": "src-larr-1031",
-      "url": "https://larr.snu.ac.kr/",
-      "title": "자율로봇연구실 공식 연구 소개",
-      "organization": "서울대학교 자율로봇연구실",
-      "retrievedAt": "2026-10-31T09:24:07.859Z",
-      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
-      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
-      "attribution": "서울대학교 자율로봇연구실",
-      "redistribution": "metadata-only",
-      "contentUpdatedAt": null
-    },
-    {
       "id": "src-rllab-1031",
       "url": "https://rllab.snu.ac.kr/",
       "title": "로봇학습 연구실 공식 위치 안내",
@@ -6581,6 +6545,18 @@
       "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
       "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
       "attribution": "서울대학교 기초과학공동기기원",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-ayoung-research-1031",
+      "url": "https://ayoungk.github.io/",
+      "title": "기계공학부 김아영 교수 공식 연결 연구 소개",
+      "organization": "서울대학교 김아영 교수 연구 소개",
+      "retrievedAt": "2026-10-31T09:26:34.227Z",
+      "lastVerifiedAt": "2026-10-31T09:26:34.227Z",
+      "license": "공식 학과에서 연결한 연구 소개의 최소 분야 메타데이터",
+      "attribution": "서울대학교 김아영 교수 연구 소개",
       "redistribution": "metadata-only",
       "contentUpdatedAt": null
     }
@@ -34045,20 +34021,6 @@
       "addressText": "37동 204호",
       "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
       "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
-    },
-    {
-      "id": "location-1031-lab-mechanical-robot-301-1216",
-      "resourceId": "lab-mechanical-robot",
-      "buildingId": "snu-301",
-      "purpose": "lab",
-      "room": "1216호",
-      "status": "verified",
-      "sourceIds": [
-        "src-rpm-contact-1031"
-      ],
-      "addressText": "301동 1216호",
-      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
-      "reason": null
     },
     {
       "id": "location-1031-lab-four-mechanical-n-302-413",

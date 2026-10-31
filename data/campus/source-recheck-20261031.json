@@ -116,6 +116,24 @@
       "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=146",
       "checkedAt": "2026-10-31T09:20:43.068Z",
       "status": "collected"
+    },
+    {
+      "url": "https://rpm.snu.ac.kr/",
+      "checkedAt": "2026-10-31T09:26:34.227Z",
+      "status": "access-restricted",
+      "reason": "robots disallow-all. Direct collection metadata withdrawn; use permitted university directory or author profile. No raw HTML retained."
+    },
+    {
+      "url": "https://rpm.snu.ac.kr/index.php/Main/Contact",
+      "checkedAt": "2026-10-31T09:26:34.227Z",
+      "status": "access-restricted",
+      "reason": "robots disallow-all. Direct collection metadata withdrawn; use permitted university directory or author profile. No raw HTML retained."
+    },
+    {
+      "url": "https://larr.snu.ac.kr/",
+      "checkedAt": "2026-10-31T09:26:34.227Z",
+      "status": "access-restricted",
+      "reason": "robots disallow-all. Direct collection metadata withdrawn; use permitted university directory or author profile. No raw HTML retained."
     }
   ],
   "notes": [
@@ -130,5 +148,65 @@
     "rawStagingRunId": "7b0ff980-0bed-45dd-9df7-809bd08289fa",
     "importedCount": 0,
     "reason": "기존 1000건과 DOI·저자 대조 전 별도 후보로 보관. 사람 검수 논문 수는 0건 유지."
-  }
+  },
+  "robotChecks": [
+    {
+      "url": "https://rpm.snu.ac.kr/robots.txt",
+      "http": 200,
+      "directives": [
+        "user-agent: *",
+        "disallow: /"
+      ]
+    },
+    {
+      "url": "https://softrobotics.snu.ac.kr/robots.txt",
+      "http": 200,
+      "directives": []
+    },
+    {
+      "url": "https://sites.google.com/robots.txt",
+      "http": 200,
+      "directives": [
+        "User-Agent: *",
+        "Disallow: /feeds",
+        "Allow: /*/_/rsrc/",
+        "Allow: /_/atari/*",
+        "Disallow: /*/_/"
+      ]
+    },
+    {
+      "url": "https://larr.snu.ac.kr/robots.txt",
+      "http": 200,
+      "directives": [
+        "User-Agent: *",
+        "Disallow: /",
+        "Disallow: /wp-content/uploads/",
+        "Disallow: /wp-content/plugins/",
+        "Disallow: /wp-admin/",
+        "Disallow: /readme.html",
+        "Disallow: /refer/"
+      ]
+    },
+    {
+      "url": "https://rllab.snu.ac.kr/robots.txt",
+      "http": 200,
+      "directives": [
+        "User-agent: *",
+        "Disallow: /search",
+        "Disallow: /login",
+        "User-Agent: Googlebot",
+        "Disallow: /*login",
+        "Disallow: /*search",
+        "Disallow: /*edit"
+      ]
+    },
+    {
+      "url": "https://irf.snu.ac.kr/robots.txt",
+      "http": 200,
+      "directives": [
+        "User-agent: *",
+        "Allow: /"
+      ]
+    }
+  ]
 }

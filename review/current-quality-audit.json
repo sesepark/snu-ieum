@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-31T09:24:37.566Z",
+  "generatedAt": "2026-10-31T09:26:45.812Z",
   "researchVersion": "college-draft-20261031",
   "spatialVersion": "campus-20261031",
   "publication": "prototype",
   "inputs": {
-    "data/college-draft.json": "096b03be69214656abe433acda212d16f6367864f7b1b53aa711387ca16b3f9e",
-    "data/campus/campus-draft.json": "9607a599e8c20619b8fefa76f6d77213044c411b2cfa8daab4eb6730534603c3",
-    "data/coverage/coverage-draft.json": "061eaeba28c22df7824656d1fa32852d41af5c7e18fdaafe500dfe86351f47be"
+    "data/college-draft.json": "ffd966e7431b1c1b8f749cc357da79fac2f1cd819799f54a4647230630cd40ea",
+    "data/campus/campus-draft.json": "0c1fa1dccd8d40c41bf7adadeec1cef69f77bbbaa938c76bfd45df63514053a6",
+    "data/coverage/coverage-draft.json": "9a615a54912d596757b2e9d7297c82c5411022e566bee35ed627a59ca229c0f0"
   },
   "counts": {
     "researcher": 341,
@@ -3417,6 +3417,17 @@
       ],
       "unknownSourceIds": [],
       "locationCandidates": 2
+    },
+    {
+      "id": "lab-list-aerospace-h",
+      "kind": "lab",
+      "departmentId": "aerospace",
+      "name": "자율로봇연구실",
+      "missingFields": [
+        "researchFields"
+      ],
+      "unknownSourceIds": [],
+      "locationCandidates": 1
     },
     {
       "id": "lab-list-aerospace-i",
