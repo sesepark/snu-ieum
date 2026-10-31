@@ -46,7 +46,9 @@ test('mobile defaults to 2D with an accessible list and bottom detail sheet', as
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
   expect(overflow).toBe(false);
   await page.getByRole('button', { name: '상세 닫기', exact: true }).click();
-  await expect(page.getByRole('button', { name: '검색 · 자원 목록', exact: true })).toBeFocused();
+  await expect(page.getByRole('button', { name: '지도로 돌아가기', exact: true })).toBeFocused();
+  await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('데이터과학');
+  await expect(page.locator('.resource-list')).toBeVisible();
   await page.screenshot({ path: 'test-results/mobile.png' });
 });
 test('a lost WebGL context falls back to 2D while retaining selection', async ({ page }) => {

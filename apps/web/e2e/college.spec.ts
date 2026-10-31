@@ -39,11 +39,11 @@ test('keeps paper evidence separate from resources and preserves its expansion a
 });
 
 
-test('purpose filters, distribution and recovery keep all candidates reachable', async ({ page }) => {
+test('type filters, distribution and recovery keep all candidates reachable', async ({ page }) => {
   await page.goto('#/?view=2d');
-  await page.getByRole('button', { name: '장비 찾기', exact: true }).click();
+  await page.locator('.filters fieldset button').filter({ hasText: '장비' }).click();
   await expect(page.locator('.resource-card .card-meta')).toContainText(Array(30).fill('장비'));
-  await page.getByRole('button', { name: '조건 지우기', exact: true }).click();
+  await page.getByRole('button', { name: '초기화', exact: true }).click();
   await page.getByLabel('자원명·연구 분야 검색').fill('로봇');
   await expect(page.locator('.resource-card')).toHaveCount(18);
   await page.getByText('4개 학과·기관에서 찾았습니다', {exact:true}).click();
@@ -61,7 +61,7 @@ test('search counts and quality meters use their stated denominators', async ({ 
   await expect(page.locator('.filters fieldset button').first()).toHaveText('전체 1');
   await page.getByRole('button', {name:'초기화',exact:true}).click();
   await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('');
-  await page.getByText('수록 현황 · 데이터 품질', {exact:false}).click();
+  await page.getByText('자료 안내 · 수록 범위', {exact:false}).click();
   await expect(page.getByRole('meter', {name:/지도 위치 근거/})).toBeVisible();
   await expect(page.getByRole('meter', {name:/저자 검수 논문/})).toHaveAttribute('value','0');
 });
@@ -71,7 +71,8 @@ test('map distribution counts located results and focuses them without losing se
   await page.getByLabel('자원명·연구 분야 검색').fill('로봇');
   const summary=page.getByLabel('검색 위치 분포');
   await expect(summary).toContainText('18개 검색 결과 · 3개 건물');
-  await expect(summary.getByRole('img')).toHaveAttribute('aria-label','위치 확인 6개, 위치 미확인 12개');
+  await expect(summary).toContainText('위치 확인 6개');
+  await expect(summary).toContainText('위치 미확인 12개');
   await summary.getByRole('button').click();
   await expect(page).toHaveURL(/camera=/);
   await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('로봇');
