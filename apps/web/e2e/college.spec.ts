@@ -15,7 +15,8 @@ test('explores official equipment and its installation room in the full college 
   await page.getByLabel('자원명·연구 분야 검색').fill('Krios');
   await expect(page.locator('.resource-card')).toHaveCount(1);
   await page.locator('.resource-card').click();
-  await expect(page.locator('.detail-panel a').first()).toHaveAttribute('href', 'https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105');
+  await expect(page.locator('.detail-panel .source-list a').first()).toHaveAttribute('href', 'https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105');
+  await expect(page.locator('.resource-actions a').filter({hasText:'이용 안내'})).toHaveAttribute('href','https://irf.snu.ac.kr/information_use/usage_procedure.php');
   await page.getByRole('button', { name: '3D', exact: true }).click();
   await page.getByRole('button', { name: '2단계 확장', exact: true }).click();
   await expect(page.getByTestId('map-stage')).toHaveAttribute('aria-label', /자원·근거 3개, 연결 2개/);
@@ -70,13 +71,13 @@ test('map distribution counts located results and focuses them without losing se
   await page.goto('#/?view=2d');
   await page.getByLabel('자원명·연구 분야 검색').fill('로봇');
   const summary=page.getByLabel('검색 위치 분포');
-  await expect(summary).toContainText('18개 검색 결과 · 3개 건물');
-  await expect(summary).toContainText('위치 확인 6개');
-  await expect(summary).toContainText('위치 미확인 12개');
+  await expect(summary).toContainText('18개 검색 결과 · 5개 건물');
+  await expect(summary).toContainText('위치 확인 9개');
+  await expect(summary).toContainText('위치 미확인 9개');
   await summary.getByRole('button').click();
   await expect(page).toHaveURL(/camera=/);
   await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('로봇');
   await expect(page.locator('.resource-card')).toHaveCount(18);
   await page.getByRole('button',{name:'3D',exact:true}).click();
-  await expect(summary).toContainText('18개 검색 결과 · 3개 건물');
+  await expect(summary).toContainText('18개 검색 결과 · 5개 건물');
 });

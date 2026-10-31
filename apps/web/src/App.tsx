@@ -6,7 +6,7 @@ import { parseUrl, shareUrl, useExplore } from './state';
 import CampusMap from './Map';
 import BuildingDetail, { ResourcePosition } from './BuildingDetail';
 import CampusCoverage from './CampusCoverage';
-import ResourceFacts from './ResourceFacts';
+import ResourceFacts, { ResourceActions } from './ResourceFacts';
 import { mappedLocations, locationLabel } from '../../../packages/catalog/src/campus';
 import Filters from './Filters';
 import Relations from './Relations';
@@ -98,7 +98,7 @@ export default function App() {
         <div className="map-footer"><details className="legend"><summary>지도 읽는 법</summary>{Object.entries(kindLabels).map(([kind, name]) => <span key={kind}><i className={`kind-mark ${kind}`} />{name}</span>)}<p>실제 건물 위치 · 높이는 개략 표현 포함.<br />가까운 위치·같은 주제는 협업 관계가 아닙니다.<br />지형은 약 30m DSM · 정밀 지면고도 아님.</p></details><details className="coverage"><summary>자료 안내 · 수록 범위 <span>↗</span></summary><div className="coverage-content">{campus && <CampusCoverage campus={campus} snapshot={snapshot}/>}{(graphData.hiddenNodes > 0 || graphData.hiddenEdges > 0) && <p>관계 보기에서 생략된 자원·근거 {graphData.hiddenNodes}개 · 연결 {graphData.hiddenEdges}개. 학과·유형을 좁혀 확인하세요. 지도 위치 미확인 수와 다른 집계입니다.</p>}<h3>유형별 수록 수</h3><p>수록 수와 검수 충족 수는 다릅니다. 공식 전체 분모가 확인되지 않은 학과는 수록률을 계산하지 않습니다.</p>{[...counts.departments, ...counts.sharedGroups].map(d => <div key={d.id}><strong>{d.name}</strong><span>교수 {d.counts.researcher} · 연구실 {d.counts.lab}<br />장비 {d.counts.equipment} · 공간 {d.counts.space}</span><small>{d.lastVerifiedAt?.slice(0, 10) || '수록 대기'}</small></div>)}</div></details></div>
         <div className="status-notice" role="status">{state.notice || (state.selected && !resource ? '이 배치에 없는 자원입니다. 목록에서 다른 자원을 선택해주세요.' : '')}</div>
       <div className="campus-attribution">{campus?.sources.filter(s=>s.id==='osm'||s.id==='copernicus-dem').map(source=><a key={source.id} href={source.url} target="_blank" rel="noreferrer">{source.id==='osm'?'© OpenStreetMap contributors · ODbL':'Copernicus DEM · DLR / Airbus / EU / ESA'}</a>)}</div></section>
-      {resource && <Detail resource={resource} snapshot={snapshot} verificationRequired={Boolean(selectedCard?.verificationRequired)} position={campus && <ResourcePosition campus={campus} snapshot={snapshot} resource={resource} onBuilding={state.selectBuilding}/>} onSelect={select} onClose={() => { state.select(undefined); if (returnToList.current) setMobileListOpen(true); if (matchMedia('(max-width:900px)').matches) listToggle.current?.focus(); else list.current?.focus(); }}><Relations snapshot={snapshot} resource={resource} />{campus&&metadataQuery.data&&<ResourceFacts resource={resource} campus={campus} snapshot={snapshot} coverage={metadataQuery.data.coverage}/>}</Detail>}
+      {resource && <Detail resource={resource} snapshot={snapshot} verificationRequired={Boolean(selectedCard?.verificationRequired)} actions={<ResourceActions resource={resource} coverage={metadataQuery.data?.coverage}/>} position={campus && <ResourcePosition campus={campus} snapshot={snapshot} resource={resource} onBuilding={state.selectBuilding}/>} onSelect={select} onClose={() => { state.select(undefined); if (returnToList.current) setMobileListOpen(true); if (matchMedia('(max-width:900px)').matches) listToggle.current?.focus(); else list.current?.focus(); }}><Relations snapshot={snapshot} resource={resource} />{campus&&metadataQuery.data&&<ResourceFacts resource={resource} campus={campus} snapshot={snapshot} coverage={metadataQuery.data.coverage}/>}</Detail>}
     </main>
   </div>;
 }

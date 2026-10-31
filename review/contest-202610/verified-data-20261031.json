@@ -1,0 +1,620 @@
+{
+  "checkedAt": "2026-10-31T09:28:47.561Z",
+  "node": "v24.22.1",
+  "resources": 832,
+  "relations": 294,
+  "displayEvidence": 16,
+  "mappedResources": 309,
+  "cases": [
+    {
+      "query": "시계열",
+      "total": 5,
+      "located": 5,
+      "buildings": 1,
+      "departments": 1
+    },
+    {
+      "query": "로봇",
+      "total": 18,
+      "located": 9,
+      "buildings": 5,
+      "departments": 4
+    },
+    {
+      "query": "초저온",
+      "total": 3,
+      "located": 3,
+      "buildings": 1,
+      "departments": 1
+    }
+  ],
+  "quality": {
+    "resourceVersion": "college-draft-20261031",
+    "generatedAt": "2026-10-31T09:24:37.471087Z",
+    "byDepartment": [
+      {
+        "id": "cee",
+        "name": "건설환경도시공학부",
+        "researchers": {
+          "kind": "researcher",
+          "total": null,
+          "observed": 31,
+          "matched": 27,
+          "missing": 0,
+          "pending": 4,
+          "detailed": 26,
+          "mapped": 27,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "공식 학과 30개 카드 전체 대조. Nguyen 이름 어순 후보와 공대 검색의 동일 인물 여부 확인 전 전체 분모 확정 대기. 원문 목록의 미확인 후보는 제외하지 않음.",
+          "sourceIds": [
+            "profile-source-cee-1"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": null,
+          "observed": 27,
+          "matched": 27,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "공식 전임 교수 전체 카드의 명시 연구실 링크 대조. 독립 현행 연구실 전체 목록과 일치 여부는 확인 대기",
+          "sourceIds": [
+            "profile-source-cee-1"
+          ]
+        }
+      },
+      {
+        "id": "architecture",
+        "name": "건축학과",
+        "researchers": {
+          "kind": "researcher",
+          "total": null,
+          "observed": 19,
+          "matched": 0,
+          "missing": 0,
+          "pending": 19,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
+          "sourceIds": [
+            "source-eng-directory-1",
+            "source-eng-directory-2",
+            "source-eng-directory-3",
+            "source-eng-directory-4",
+            "source-eng-directory-5",
+            "source-eng-directory-6",
+            "source-eng-directory-7",
+            "source-eng-directory-8",
+            "source-eng-directory-9",
+            "source-eng-directory-10",
+            "source-eng-directory-11",
+            "source-eng-directory-12",
+            "source-eng-directory-13",
+            "source-eng-directory-14",
+            "source-eng-directory-15",
+            "source-eng-directory-16",
+            "source-eng-directory-17",
+            "source-eng-directory-18",
+            "source-eng-directory-19",
+            "source-eng-directory-20",
+            "source-eng-directory-21",
+            "source-eng-directory-22",
+            "source-eng-directory-23"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": null,
+          "observed": 3,
+          "matched": 0,
+          "missing": 0,
+          "pending": 3,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+          "sourceIds": [
+            "s-departments"
+          ]
+        }
+      },
+      {
+        "id": "mechanical",
+        "name": "기계공학부",
+        "researchers": {
+          "kind": "researcher",
+          "total": 34,
+          "observed": 34,
+          "matched": 34,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 34,
+          "mapped": 31,
+          "recentEvidence": 0,
+          "detailRatio": 1,
+          "locationRatio": 0.9117647058823529,
+          "recentRatio": 0,
+          "reason": "공식 현직 교수 전체 목록과 공대 교수검색 대조. 차이와 동명이인은 검수 대기로 분모에 유지",
+          "sourceIds": [
+            "src-mechanical-robot"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": null,
+          "observed": 35,
+          "matched": 35,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 4,
+          "mapped": 2,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "공식 현직 교수 카드의 명시 연구실 전체 대조. 독립 현행 연구실 전체 분모 확인과 실제 연구실 주소 검수 대기",
+          "sourceIds": [
+            "src-mechanical-robot"
+          ]
+        }
+      },
+      {
+        "id": "industrial",
+        "name": "산업공학과",
+        "researchers": {
+          "kind": "researcher",
+          "total": 14,
+          "observed": 14,
+          "matched": 14,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 14,
+          "mapped": 14,
+          "recentEvidence": 0,
+          "detailRatio": 1,
+          "locationRatio": 1,
+          "recentRatio": 0,
+          "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
+          "sourceIds": [
+            "profile-source-industrial-1"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": 15,
+          "observed": 15,
+          "matched": 15,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 15,
+          "mapped": 15,
+          "recentEvidence": 0,
+          "detailRatio": 1,
+          "locationRatio": 1,
+          "recentRatio": 0,
+          "reason": "공식 연구실 메뉴/목록 전체 명칭 대조 · 미수록 연구실을 분모에 보존. 사람 공개 검수 대기",
+          "sourceIds": [
+            "s-departments"
+          ]
+        }
+      },
+      {
+        "id": "energy",
+        "name": "에너지자원공학과",
+        "researchers": {
+          "kind": "researcher",
+          "total": 13,
+          "observed": 13,
+          "matched": 10,
+          "missing": 0,
+          "pending": 3,
+          "detailed": 10,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": 0.7692307692307693,
+          "locationRatio": 0,
+          "recentRatio": 0,
+          "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
+          "sourceIds": [
+            "profile-source-energy-2"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": null,
+          "observed": 3,
+          "matched": 0,
+          "missing": 0,
+          "pending": 3,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+          "sourceIds": [
+            "s-departments"
+          ]
+        }
+      },
+      {
+        "id": "nuclear",
+        "name": "원자핵공학과",
+        "researchers": {
+          "kind": "researcher",
+          "total": 14,
+          "observed": 14,
+          "matched": 11,
+          "missing": 0,
+          "pending": 3,
+          "detailed": 10,
+          "mapped": 11,
+          "recentEvidence": 0,
+          "detailRatio": 0.7142857142857143,
+          "locationRatio": 0.7857142857142857,
+          "recentRatio": 0,
+          "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
+          "sourceIds": [
+            "profile-source-nuclear-14"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": 14,
+          "observed": 14,
+          "matched": 14,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 0,
+          "mapped": 14,
+          "recentEvidence": 0,
+          "detailRatio": 0,
+          "locationRatio": 1,
+          "recentRatio": 0,
+          "reason": "공식 연구실 메뉴/목록 전체 명칭 대조 · 미수록 연구실을 분모에 보존. 사람 공개 검수 대기",
+          "sourceIds": [
+            "official-lab-inventory-nuclear"
+          ]
+        }
+      },
+      {
+        "id": "materials",
+        "name": "재료공학부",
+        "researchers": {
+          "kind": "researcher",
+          "total": 45,
+          "observed": 45,
+          "matched": 41,
+          "missing": 0,
+          "pending": 4,
+          "detailed": 31,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": 0.6888888888888889,
+          "locationRatio": 0,
+          "recentRatio": 0,
+          "reason": "공식 현직 교수 전체 목록과 공대 교수검색 대조. 차이와 동명이인은 검수 대기로 분모에 유지",
+          "sourceIds": [
+            "profile-four-source-materials-1"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": null,
+          "observed": 3,
+          "matched": 0,
+          "missing": 0,
+          "pending": 3,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+          "sourceIds": [
+            "s-departments"
+          ]
+        }
+      },
+      {
+        "id": "ece",
+        "name": "전기·정보공학부",
+        "researchers": {
+          "kind": "researcher",
+          "total": 74,
+          "observed": 74,
+          "matched": 65,
+          "missing": 0,
+          "pending": 9,
+          "detailed": 65,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": 0.8783783783783784,
+          "locationRatio": 0,
+          "recentRatio": 0,
+          "reason": "공식 현직 교수 전체 목록과 공대 교수검색 대조. 차이와 동명이인은 검수 대기로 분모에 유지",
+          "sourceIds": [
+            "profile-four-source-ece-44"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": 72,
+          "observed": 72,
+          "matched": 68,
+          "missing": 0,
+          "pending": 4,
+          "detailed": 66,
+          "mapped": 1,
+          "recentEvidence": 0,
+          "detailRatio": 0.9166666666666666,
+          "locationRatio": 0.013888888888888888,
+          "recentRatio": 0,
+          "reason": "공식 연구실 전체 목록의 고유 상세 주소 72개와 각 상세의 지도교수·연구 분야 대조. 동명이인 지도교수 연결은 보류",
+          "sourceIds": [
+            "profile-four-source-ece-149"
+          ]
+        }
+      },
+      {
+        "id": "naval",
+        "name": "조선해양공학과",
+        "researchers": {
+          "kind": "researcher",
+          "total": 14,
+          "observed": 14,
+          "matched": 14,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 0,
+          "mapped": 14,
+          "recentEvidence": 0,
+          "detailRatio": 0,
+          "locationRatio": 1,
+          "recentRatio": 0,
+          "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
+          "sourceIds": [
+            "src-naval-fluids"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": 14,
+          "observed": 14,
+          "matched": 14,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 0,
+          "mapped": 14,
+          "recentEvidence": 0,
+          "detailRatio": 0,
+          "locationRatio": 1,
+          "recentRatio": 0,
+          "reason": "교수 카드와 별도로 공식 연구 및 LAB소개 전체 14개 대조. 연구 분야 원문 상세는 수록 대기",
+          "sourceIds": [
+            "source-naval-lab-addresses"
+          ]
+        }
+      },
+      {
+        "id": "cse",
+        "name": "컴퓨터공학부",
+        "researchers": {
+          "kind": "researcher",
+          "total": null,
+          "observed": 34,
+          "matched": 0,
+          "missing": 0,
+          "pending": 34,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "공대 공식 검색 전체 23페이지 대조 · 학과 현직 전임 목록과 차이·갱신 시차 검수 중. 후보 목록은 고정하며 미확인을 분모에서 제외하지 않음",
+          "sourceIds": [
+            "source-eng-directory-1",
+            "source-eng-directory-2",
+            "source-eng-directory-3",
+            "source-eng-directory-4",
+            "source-eng-directory-5",
+            "source-eng-directory-6",
+            "source-eng-directory-7",
+            "source-eng-directory-8",
+            "source-eng-directory-9",
+            "source-eng-directory-10",
+            "source-eng-directory-11",
+            "source-eng-directory-12",
+            "source-eng-directory-13",
+            "source-eng-directory-14",
+            "source-eng-directory-15",
+            "source-eng-directory-16",
+            "source-eng-directory-17",
+            "source-eng-directory-18",
+            "source-eng-directory-19",
+            "source-eng-directory-20",
+            "source-eng-directory-21",
+            "source-eng-directory-22",
+            "source-eng-directory-23"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": null,
+          "observed": 3,
+          "matched": 0,
+          "missing": 0,
+          "pending": 3,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "기존 표본만 확보 · 공식 현직/현행 전체 목록의 분모 및 누락 대조 필요",
+          "sourceIds": [
+            "s-departments"
+          ]
+        }
+      },
+      {
+        "id": "aerospace",
+        "name": "항공우주공학과",
+        "researchers": {
+          "kind": "researcher",
+          "total": 14,
+          "observed": 14,
+          "matched": 13,
+          "missing": 0,
+          "pending": 1,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": 0,
+          "locationRatio": 0,
+          "recentRatio": 0,
+          "reason": "공식 학과 현직 목록 전체와 공대 교수검색 대조. 공대 검색과 다른 항목도 분모에 유지하며 해당 신원·현재성은 확인 대기",
+          "sourceIds": [
+            "profile-source-aerospace-15"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": 14,
+          "observed": 14,
+          "matched": 14,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 0,
+          "mapped": 14,
+          "recentEvidence": 0,
+          "detailRatio": 0,
+          "locationRatio": 1,
+          "recentRatio": 0,
+          "reason": "공식 연구실 메뉴/목록 전체 명칭 대조 · 미수록 연구실을 분모에 보존. 사람 공개 검수 대기",
+          "sourceIds": [
+            "official-lab-inventory-aerospace"
+          ]
+        }
+      },
+      {
+        "id": "chemical",
+        "name": "화학생물공학부",
+        "researchers": {
+          "kind": "researcher",
+          "total": 35,
+          "observed": 35,
+          "matched": 32,
+          "missing": 0,
+          "pending": 3,
+          "detailed": 32,
+          "mapped": 32,
+          "recentEvidence": 0,
+          "detailRatio": 0.9142857142857143,
+          "locationRatio": 0.9142857142857143,
+          "recentRatio": 0,
+          "reason": "공식 현직 교수 전체 목록과 공대 교수검색 대조. 차이와 동명이인은 검수 대기로 분모에 유지",
+          "sourceIds": [
+            "profile-four-source-chemical-117"
+          ]
+        },
+        "labs": {
+          "kind": "lab",
+          "total": null,
+          "observed": 34,
+          "matched": 34,
+          "missing": 0,
+          "pending": 0,
+          "detailed": 0,
+          "mapped": 0,
+          "recentEvidence": 0,
+          "detailRatio": null,
+          "locationRatio": null,
+          "recentRatio": null,
+          "reason": "공식 현직 교수 카드의 명시 연구실 전체 대조. 독립 현행 연구실 전체 분모 확인과 실제 연구실 주소 검수 대기",
+          "sourceIds": [
+            "profile-four-source-chemical-117"
+          ]
+        }
+      }
+    ],
+    "papers": 0,
+    "pendingWorks": 0,
+    "duplicateWorks": [],
+    "equipment": 37,
+    "spaces": 8,
+    "gaps": [
+      "건설환경도시공학부 researcher: 공식 전체 분모 대조 대기",
+      "건설환경도시공학부 lab: 공식 전체 분모 대조 대기",
+      "건설환경도시공학부: 연구실 위치 90% 미달",
+      "건설환경도시공학부: 현직 교수 최근 논문 80% 미달",
+      "건축학과 researcher: 공식 전체 분모 대조 대기",
+      "건축학과 lab: 공식 전체 분모 대조 대기",
+      "건축학과: 연구실 위치 90% 미달",
+      "건축학과: 현직 교수 최근 논문 80% 미달",
+      "기계공학부 lab: 공식 전체 분모 대조 대기",
+      "기계공학부: 연구실 위치 90% 미달",
+      "기계공학부: 현직 교수 최근 논문 80% 미달",
+      "산업공학과: 현직 교수 최근 논문 80% 미달",
+      "에너지자원공학과 researcher: 전체 목록 미수록·확인 대기",
+      "에너지자원공학과 researcher: 상세 90% 미달",
+      "에너지자원공학과 lab: 공식 전체 분모 대조 대기",
+      "에너지자원공학과: 연구실 위치 90% 미달",
+      "에너지자원공학과: 현직 교수 최근 논문 80% 미달",
+      "원자핵공학과 researcher: 전체 목록 미수록·확인 대기",
+      "원자핵공학과 researcher: 상세 90% 미달",
+      "원자핵공학과 lab: 상세 90% 미달",
+      "원자핵공학과: 현직 교수 최근 논문 80% 미달",
+      "재료공학부 researcher: 전체 목록 미수록·확인 대기",
+      "재료공학부 researcher: 상세 90% 미달",
+      "재료공학부 lab: 공식 전체 분모 대조 대기",
+      "재료공학부: 연구실 위치 90% 미달",
+      "재료공학부: 현직 교수 최근 논문 80% 미달",
+      "전기·정보공학부 researcher: 전체 목록 미수록·확인 대기",
+      "전기·정보공학부 researcher: 상세 90% 미달",
+      "전기·정보공학부 lab: 전체 목록 미수록·확인 대기",
+      "전기·정보공학부: 연구실 위치 90% 미달",
+      "전기·정보공학부: 현직 교수 최근 논문 80% 미달",
+      "조선해양공학과 researcher: 상세 90% 미달",
+      "조선해양공학과 lab: 상세 90% 미달",
+      "조선해양공학과: 현직 교수 최근 논문 80% 미달",
+      "컴퓨터공학부 researcher: 공식 전체 분모 대조 대기",
+      "컴퓨터공학부 lab: 공식 전체 분모 대조 대기",
+      "컴퓨터공학부: 연구실 위치 90% 미달",
+      "컴퓨터공학부: 현직 교수 최근 논문 80% 미달",
+      "항공우주공학과 researcher: 전체 목록 미수록·확인 대기",
+      "항공우주공학과 researcher: 상세 90% 미달",
+      "항공우주공학과 lab: 상세 90% 미달",
+      "항공우주공학과: 현직 교수 최근 논문 80% 미달",
+      "화학생물공학부 researcher: 전체 목록 미수록·확인 대기",
+      "화학생물공학부 lab: 공식 전체 분모 대조 대기",
+      "화학생물공학부: 연구실 위치 90% 미달",
+      "화학생물공학부: 현직 교수 최근 논문 80% 미달",
+      "검수·중복 제거 논문 0/1000",
+      "필수 정보·위치 갖춘 장비 37/100",
+      "용도·공식 이용 안내·위치 갖춘 공간 8/20",
+      "관악 공식 건물 전체 목록 대조 대기",
+      "사람의 연구·공간 공개 배치 승인 대기"
+    ],
+    "ready": false
+  }
+}
