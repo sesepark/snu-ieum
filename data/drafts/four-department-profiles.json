@@ -1,7 +1,7 @@
 {
   "manifest": {
     "version": "department-profile-draft-20261027",
-    "generatedAt": "2026-10-27T02:07:40.329Z",
+    "generatedAt": "2026-10-31T09:24:07.859Z",
     "publication": "prototype",
     "schemaVersion": 1,
     "selectionReason": "기계·재료·전기정보·화학생물 공식 현직 교수 목록과 전기정보 연구실 전체 소개를 대조한 최소 사실. 공대 목록과 차이는 검수 대기, 교수실을 연구실로 전파하지 않음. 사람 승인 대기."
@@ -1822,6 +1822,42 @@
       "sourceType": "official-page",
       "retrievedAt": "2026-10-27T01:42:18.189Z",
       "lastVerifiedAt": "2026-10-27T01:42:18.189Z"
+    },
+    {
+      "id": "src-softrobotics-1031",
+      "url": "https://softrobotics.snu.ac.kr/",
+      "title": "소프트 로봇 및 바이오닉스 연구실 소개",
+      "organization": "서울대학교 소프트 로봇 및 바이오닉스 연구실",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
+    },
+    {
+      "id": "src-robotics-fcp-1031",
+      "url": "https://sites.google.com/robotics.snu.ac.kr/fcp/",
+      "title": "로봇 자동화 연구실 공식 연구·위치 안내",
+      "organization": "서울대학교 Robotics Laboratory",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
+    },
+    {
+      "id": "src-rvlab-1031",
+      "url": "https://sites.google.com/view/snu-rvlab/",
+      "title": "로봇비전 연구실 공식 연구·위치 안내",
+      "organization": "서울대학교 Robot Vision Lab",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
+    },
+    {
+      "id": "src-rllab-1031",
+      "url": "https://rllab.snu.ac.kr/",
+      "title": "로봇학습 연구실 공식 위치 안내",
+      "organization": "서울대학교 Robot Learning Laboratory",
+      "sourceType": "official-page",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z"
     }
   ],
   "resources": [
@@ -1959,26 +1995,40 @@
       "id": "lab-four-mechanical-m",
       "kind": "lab",
       "name": "소프트 로봇 및 바이오닉스 연구실",
-      "summary": "공식 교수 소개에 박용래 교수와 함께 명시된 연구실. 연구실의 개별 주소·연구 분야 확인 필요.",
+      "summary": "생체모방 소프트 로봇, 착용형 재활·보조 장치, 유연 센서와 구동기를 연구합니다.",
       "departmentId": "mechanical",
-      "keywords": [],
-      "sourceIds": [
-        "src-mechanical-robot"
+      "keywords": [
+        "소프트 로봇",
+        "생체모방",
+        "착용형 로봇",
+        "유연 센서"
       ],
-      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "sourceIds": [
+        "src-mechanical-robot",
+        "src-softrobotics-1031"
+      ],
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
       "verificationRequired": true
     },
     {
       "id": "lab-four-mechanical-n",
       "kind": "lab",
       "name": "로봇 자동화 연구실",
-      "summary": "공식 교수 소개에 박종우 교수와 함께 명시된 연구실. 연구실의 개별 주소·연구 분야 확인 필요.",
+      "summary": "로봇 모델링·제어, 파지·조작·동작 계획, 로봇 학습과 수학적 데이터 과학을 연구합니다.",
       "departmentId": "mechanical",
-      "keywords": [],
-      "sourceIds": [
-        "src-mechanical-robot"
+      "keywords": [
+        "로봇",
+        "로봇 제어",
+        "파지",
+        "조작",
+        "동작 계획",
+        "로봇 학습"
       ],
-      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "sourceIds": [
+        "src-mechanical-robot",
+        "src-robotics-fcp-1031"
+      ],
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
       "verificationRequired": true
     },
     {
@@ -2128,13 +2178,21 @@
       "id": "lab-four-mechanical-aa",
       "kind": "lab",
       "name": "로봇비전 연구실",
-      "summary": "공식 교수 소개에 임종우 교수와 함께 명시된 연구실. 연구실의 개별 주소·연구 분야 확인 필요.",
+      "summary": "로봇·자율주행·AR/VR을 위한 컴퓨터 비전과 기계학습, 시각 SLAM과 3차원 복원을 연구합니다.",
       "departmentId": "mechanical",
-      "keywords": [],
-      "sourceIds": [
-        "src-mechanical-robot"
+      "keywords": [
+        "로봇",
+        "컴퓨터 비전",
+        "기계학습",
+        "시각 SLAM",
+        "3차원 복원",
+        "자율주행"
       ],
-      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "sourceIds": [
+        "src-mechanical-robot",
+        "src-rvlab-1031"
+      ],
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
       "verificationRequired": true
     },
     {
@@ -3613,9 +3671,10 @@
         "제어계측 및 자동화"
       ],
       "sourceIds": [
-        "profile-four-source-ece-200"
+        "profile-four-source-ece-200",
+        "src-rllab-1031"
       ],
-      "lastVerifiedAt": "2026-10-27T01:42:18.189Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
       "verificationRequired": true
     },
     {

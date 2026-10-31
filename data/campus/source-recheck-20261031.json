@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-10-31T09:20:44.290Z",
+  "retention": "minimum factual metadata only; no HTML or contacts",
+  "entries": [
+    {
+      "departmentId": "cee",
+      "url": "https://cuee.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "checkedAt": "2026-10-31T09:20:10.926Z",
+      "count": 30,
+      "status": "collected"
+    },
+    {
+      "departmentId": "architecture",
+      "url": "https://architecture.snu.ac.kr/",
+      "checkedAt": "2026-10-31T09:20:13.133Z",
+      "status": "access-restricted",
+      "reason": "Existing robots exclusion retained; official alternate requires manual check"
+    },
+    {
+      "departmentId": "mechanical",
+      "url": "https://me.snu.ac.kr/사람들/교수진/교수/",
+      "checkedAt": "2026-10-31T09:20:13.137Z",
+      "count": 34,
+      "status": "collected"
+    },
+    {
+      "departmentId": "industrial",
+      "url": "https://ie.snu.ac.kr/professor/",
+      "checkedAt": "2026-10-31T09:20:17.205Z",
+      "count": 14,
+      "status": "collected"
+    },
+    {
+      "departmentId": "energy",
+      "url": "https://ere.snu.ac.kr/bbs/board.php?bo_table=sub2_1",
+      "checkedAt": "2026-10-31T09:20:20.761Z",
+      "count": 13,
+      "status": "collected"
+    },
+    {
+      "departmentId": "nuclear",
+      "url": "https://nucleng.snu.ac.kr/about/people/faculty",
+      "checkedAt": "2026-10-31T09:20:23.310Z",
+      "count": 14,
+      "status": "collected"
+    },
+    {
+      "departmentId": "materials",
+      "url": "https://mse.snu.ac.kr/snumse-main/people/professors/",
+      "checkedAt": "2026-10-31T09:20:25.418Z",
+      "count": 44,
+      "status": "collected"
+    },
+    {
+      "departmentId": "ece",
+      "url": "https://ece.snu.ac.kr/research-faculty/faculty/full-time",
+      "checkedAt": "2026-10-31T09:20:27.491Z",
+      "count": 72,
+      "status": "collected"
+    },
+    {
+      "departmentId": "naval",
+      "url": "https://naoe.snu.ac.kr/about/people/faculty",
+      "checkedAt": "2026-10-31T09:20:29.706Z",
+      "count": 14,
+      "status": "collected"
+    },
+    {
+      "departmentId": "cse",
+      "url": "https://cse.snu.ac.kr/en/people/faculty",
+      "checkedAt": "2026-10-31T09:20:31.815Z",
+      "status": "needs-review",
+      "reason": "No reviewed parser; manual official check needed"
+    },
+    {
+      "departmentId": "aerospace",
+      "url": "https://aerospace.snu.ac.kr/about/faculty",
+      "checkedAt": "2026-10-31T09:20:31.815Z",
+      "count": 14,
+      "status": "collected"
+    },
+    {
+      "departmentId": "chemical",
+      "url": "https://cbe.snu.ac.kr/cbe/pgm/professorMng/list.do?profCate=66&menuNo=300015",
+      "checkedAt": "2026-10-31T09:20:33.945Z",
+      "count": 8,
+      "status": "needs-review",
+      "reason": "First page only; complete inventory not claimed"
+    },
+    {
+      "url": "https://ie.snu.ac.kr/dsba_lab/",
+      "checkedAt": "2026-10-31T09:20:36.037Z",
+      "status": "collected"
+    },
+    {
+      "url": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105",
+      "checkedAt": "2026-10-31T09:20:37.579Z",
+      "status": "collected"
+    },
+    {
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=154",
+      "checkedAt": "2026-10-31T09:20:39.662Z",
+      "status": "collected"
+    },
+    {
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=14",
+      "checkedAt": "2026-10-31T09:20:40.821Z",
+      "status": "collected"
+    },
+    {
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=62",
+      "checkedAt": "2026-10-31T09:20:41.944Z",
+      "status": "collected"
+    },
+    {
+      "url": "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=146",
+      "checkedAt": "2026-10-31T09:20:43.068Z",
+      "status": "collected"
+    }
+  ],
+  "notes": [
+    "Faculty counts are parsed candidates, not approved inventory totals. Chemical first page is incomplete.",
+    "No automatic access to architecture or unreviewed CSE paths.",
+    "No new approval, user study, full-text paper ingestion or access entitlement claim."
+  ],
+  "openAlexRecheck": {
+    "url": "https://api.openalex.org/works",
+    "status": "collected",
+    "candidateCount": 100,
+    "rawStagingRunId": "7b0ff980-0bed-45dd-9df7-809bd08289fa",
+    "importedCount": 0,
+    "reason": "기존 1000건과 DOI·저자 대조 전 별도 후보로 보관. 사람 검수 논문 수는 0건 유지."
+  }
+}

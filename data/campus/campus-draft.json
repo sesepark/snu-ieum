@@ -1,12 +1,12 @@
 {
   "manifest": {
-    "version": "campus-20261029",
-    "generatedAt": "2026-10-29T05:15:24.974Z",
+    "version": "campus-20261031",
+    "generatedAt": "2026-10-31T09:24:37.471087Z",
     "publication": "prototype",
     "selectionReason": "OSM 실제 건물·도로와 공식 지도 최소 사실의 미승인 공간 초안. 공식 전수 목록·위치·윤곽 대조 검수 진행 중.",
     "schemaVersion": 1
   },
-  "resourceVersion": "college-draft-20261029",
+  "resourceVersion": "college-draft-20261031",
   "sources": [
     {
       "id": "osm",
@@ -6484,6 +6484,102 @@
       "retrievedAt": "2026-10-27T01:50:01.150Z",
       "lastVerifiedAt": "2026-10-27T01:50:01.150Z",
       "license": "공식 기기활용의 짧은 기술 항목 · 원문·이미지 재배포 허가 미확인",
+      "attribution": "서울대학교 기초과학공동기기원",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-rpm-overview-1031",
+      "url": "https://rpm.snu.ac.kr/",
+      "title": "로봇 인식 및 공간 지능 연구실 연구 소개",
+      "organization": "서울대학교 RPM Robotics Lab",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
+      "attribution": "서울대학교 RPM Robotics Lab",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-rpm-contact-1031",
+      "url": "https://rpm.snu.ac.kr/index.php/Main/Contact",
+      "title": "RPM Robotics Lab 공식 위치 안내",
+      "organization": "서울대학교 RPM Robotics Lab",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
+      "attribution": "서울대학교 RPM Robotics Lab",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-softrobotics-1031",
+      "url": "https://softrobotics.snu.ac.kr/",
+      "title": "소프트 로봇 및 바이오닉스 연구실 소개",
+      "organization": "서울대학교 소프트 로봇 및 바이오닉스 연구실",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
+      "attribution": "서울대학교 소프트 로봇 및 바이오닉스 연구실",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-robotics-fcp-1031",
+      "url": "https://sites.google.com/robotics.snu.ac.kr/fcp/",
+      "title": "로봇 자동화 연구실 공식 연구·위치 안내",
+      "organization": "서울대학교 Robotics Laboratory",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
+      "attribution": "서울대학교 Robotics Laboratory",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-rvlab-1031",
+      "url": "https://sites.google.com/view/snu-rvlab/",
+      "title": "로봇비전 연구실 공식 연구·위치 안내",
+      "organization": "서울대학교 Robot Vision Lab",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
+      "attribution": "서울대학교 Robot Vision Lab",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-larr-1031",
+      "url": "https://larr.snu.ac.kr/",
+      "title": "자율로봇연구실 공식 연구 소개",
+      "organization": "서울대학교 자율로봇연구실",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
+      "attribution": "서울대학교 자율로봇연구실",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-rllab-1031",
+      "url": "https://rllab.snu.ac.kr/",
+      "title": "로봇학습 연구실 공식 위치 안내",
+      "organization": "서울대학교 Robot Learning Laboratory",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
+      "attribution": "서울대학교 Robot Learning Laboratory",
+      "redistribution": "metadata-only",
+      "contentUpdatedAt": null
+    },
+    {
+      "id": "src-irf-usage-1031",
+      "url": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "title": "공동기기원 공식 이용절차",
+      "organization": "서울대학교 기초과학공동기기원",
+      "retrievedAt": "2026-10-31T09:24:07.859Z",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "license": "공식 연구실·운영기관의 최소 사실 수동 정리. 원문·사진·연락처 재배포 제외.",
       "attribution": "서울대학교 기초과학공동기기원",
       "redistribution": "metadata-only",
       "contentUpdatedAt": null
@@ -33949,6 +34045,76 @@
       "addressText": "37동 204호",
       "lastVerifiedAt": "2026-10-29T05:15:24.974Z",
       "reason": "공식 장비 설치 주소에서 묶은 설치 장소. 자유 이용·예약 자격을 뜻하지 않음."
+    },
+    {
+      "id": "location-1031-lab-mechanical-robot-301-1216",
+      "resourceId": "lab-mechanical-robot",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "1216호",
+      "status": "verified",
+      "sourceIds": [
+        "src-rpm-contact-1031"
+      ],
+      "addressText": "301동 1216호",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "reason": null
+    },
+    {
+      "id": "location-1031-lab-four-mechanical-n-302-413",
+      "resourceId": "lab-four-mechanical-n",
+      "buildingId": "snu-302",
+      "purpose": "lab",
+      "room": "413호",
+      "status": "verified",
+      "sourceIds": [
+        "src-robotics-fcp-1031"
+      ],
+      "addressText": "302동 413호",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "reason": null
+    },
+    {
+      "id": "location-1031-lab-four-mechanical-aa-301-213",
+      "resourceId": "lab-four-mechanical-aa",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "213호",
+      "status": "verified",
+      "sourceIds": [
+        "src-rvlab-1031"
+      ],
+      "addressText": "301동 213호",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "reason": null
+    },
+    {
+      "id": "location-1031-lab-four-ece-bb-133-610",
+      "resourceId": "lab-four-ece-bb",
+      "buildingId": "snu-133",
+      "purpose": "lab",
+      "room": "610호",
+      "status": "verified",
+      "sourceIds": [
+        "src-rllab-1031"
+      ],
+      "addressText": "133동 610호",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "reason": null
+    },
+    {
+      "id": "location-1031-lab-four-ece-bb-301-751-4",
+      "resourceId": "lab-four-ece-bb",
+      "buildingId": "snu-301",
+      "purpose": "lab",
+      "room": "751-4호",
+      "status": "verified",
+      "sourceIds": [
+        "src-rllab-1031"
+      ],
+      "addressText": "301동 751-4호",
+      "lastVerifiedAt": "2026-10-31T09:24:07.859Z",
+      "reason": null
     }
   ],
   "paths": [

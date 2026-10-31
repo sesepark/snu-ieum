@@ -1,0 +1,677 @@
+{
+  "checkedAt": "2026-10-31T09:24:07.859Z",
+  "status": "pending-human-review",
+  "records": [
+    {
+      "sourceId": "src-rpm-overview-1031",
+      "runId": "c034ff38-0dbb-4269-b98d-0b81abcbe815",
+      "rawId": "a67f1310b8349eda8d315e8cd9f3f82bf549611f6dcaab28259517ca57ccae6d",
+      "stagingId": "f5b0cc32-da4d-4139-acc4-30bc116b718a"
+    },
+    {
+      "sourceId": "src-rpm-contact-1031",
+      "runId": "d04d6502-ee4f-4599-b7a0-c99a3472b645",
+      "rawId": "5f85b0b7db8c239b6a84ed97818bc042c03f47e8b59e8a95a276a6e5dd4f98de",
+      "stagingId": "4ade3cfc-f54e-4893-a381-2c1ea7bbd040"
+    },
+    {
+      "sourceId": "src-softrobotics-1031",
+      "runId": "7e42369d-34d8-4b97-859b-d317c3dfb79f",
+      "rawId": "ac0e5c0b6bf9dffb6da054f48aaa65dd42aa81b85673fa793e31827a6b94296d",
+      "stagingId": "af799399-a8c7-4b4c-bcaa-b5be74c06289"
+    },
+    {
+      "sourceId": "src-robotics-fcp-1031",
+      "runId": "7a81867d-8ba4-4952-a8ed-cb717ff1aa79",
+      "rawId": "4dc3b9005600c7e0ed47f0cd41a8de69c7e1c1040a0c9f200faae010781bdccf",
+      "stagingId": "64268bf9-96df-4b09-943f-19f86151de61"
+    },
+    {
+      "sourceId": "src-rvlab-1031",
+      "runId": "216ca113-3f3c-4df1-8620-c4516011ad94",
+      "rawId": "d96288db194cac5f4e584b5741c810e4ad5bff4db2921e57c660bb824ebfb4cb",
+      "stagingId": "20064d91-0a18-4c9d-bfbc-824281428087"
+    },
+    {
+      "sourceId": "src-larr-1031",
+      "runId": "6d444e95-a02d-4d86-920c-788ca6bacd35",
+      "rawId": "8b845d464807ab9d5dd3d660dc0f221ce7efad00f99f157d518ef6ee8e28e148",
+      "stagingId": "07973982-222f-4f59-89e4-76a91709fc22"
+    },
+    {
+      "sourceId": "src-rllab-1031",
+      "runId": "a9dead07-fc30-471b-908b-478b8e592298",
+      "rawId": "a29af7fbefef352c2f567be3e4ce9d0a66dd7ed5de1730874a90131d67a444b8",
+      "stagingId": "aa94581b-d3ff-4881-8894-1f6b8c29a3a6"
+    },
+    {
+      "sourceId": "src-irf-usage-1031",
+      "runId": "b1f196a2-435f-44df-bd06-e2783e969362",
+      "rawId": "4aaaf29ddda563ab0df0d223bdc8a77a94697beca9282725c3404f1f0da0cec3",
+      "stagingId": "7b04a8e9-d255-4b92-b7d6-6790accdd264"
+    }
+  ],
+  "changes": [
+    {
+      "resourceId": "lab-mechanical-robot",
+      "field": "researchFields",
+      "before": null,
+      "after": "로봇 인식·지도 작성(SLAM), 센서 융합, 자율 항법",
+      "sourceIds": [
+        "src-rpm-overview-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-mechanical-robot",
+      "field": "officialHomepage",
+      "before": "https://ayoungk.github.io/",
+      "after": "https://rpm.snu.ac.kr/",
+      "sourceIds": [
+        "src-rpm-overview-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-mechanical-m",
+      "field": "researchFields",
+      "before": null,
+      "after": "생체모방 소프트 로봇, 착용형 재활·보조 장치, 유연 센서·구동기",
+      "sourceIds": [
+        "src-softrobotics-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-mechanical-n",
+      "field": "researchFields",
+      "before": null,
+      "after": "로봇 모델링·제어, 파지·조작·동작 계획, 로봇 학습, 수학적 데이터 과학",
+      "sourceIds": [
+        "src-robotics-fcp-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-mechanical-aa",
+      "field": "researchFields",
+      "before": null,
+      "after": "컴퓨터 비전·기계학습, 시각 SLAM, 3차원 복원, 자율주행 장면 이해",
+      "sourceIds": [
+        "src-rvlab-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-mechanical-aa",
+      "field": "officialHomepage",
+      "before": "https://sites.google.com/view/snu-rvlab/people/jwlim",
+      "after": "https://sites.google.com/view/snu-rvlab/",
+      "sourceIds": [
+        "src-rvlab-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-list-aerospace-h",
+      "field": "researchFields",
+      "before": null,
+      "after": "지상·비행 로봇의 센싱, 학습, 제어, 의사결정 알고리즘",
+      "sourceIds": [
+        "src-larr-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-list-aerospace-h",
+      "field": "officialHomepage",
+      "before": null,
+      "after": "https://larr.snu.ac.kr/",
+      "sourceIds": [
+        "src-larr-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-ece-bb",
+      "field": "officialHomepage",
+      "before": "http://rllab.snu.ac.kr",
+      "after": "https://rllab.snu.ac.kr/",
+      "sourceIds": [
+        "src-rllab-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-mechanical-robot",
+      "field": "labLocation",
+      "after": "301동 1216호",
+      "sourceIds": [
+        "src-rpm-contact-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-mechanical-n",
+      "field": "labLocation",
+      "after": "302동 413호",
+      "sourceIds": [
+        "src-robotics-fcp-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-mechanical-aa",
+      "field": "labLocation",
+      "after": "301동 213호",
+      "sourceIds": [
+        "src-rvlab-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-ece-bb",
+      "field": "labLocation",
+      "after": "133동 610호",
+      "sourceIds": [
+        "src-rllab-1031"
+      ]
+    },
+    {
+      "resourceId": "lab-four-ece-bb",
+      "field": "labLocation",
+      "after": "301동 751-4호",
+      "sourceIds": [
+        "src-rllab-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-105",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=105",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-1",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=1",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-109",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=109",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-84",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=84",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-108",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=108",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-53",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=53",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-10",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=10",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-106",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=106",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-100",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=100",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-35",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=35",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-54",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=54",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-89",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=89",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-50",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=50",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-15",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=15",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-74",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=74",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-19",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=19",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-21",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=21",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-114",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=114",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-113",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=113",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-91",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=91",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-3",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=3",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-52",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=52",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-82",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=82",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-57",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=57",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-69",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=69",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-64",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=64",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-62",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=62",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-66",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=66",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-97",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=97",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-63",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=63",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-48",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=48",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-55",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=55",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-90",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=90",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-86",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=86",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-85",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=85",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-16",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=16",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-61",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=61",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-56",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=56",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-20",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=20",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-4",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=4",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-60",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=60",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-72",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=72",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-102",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=102",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-92",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=92",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-24",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=24",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-68",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=68",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-65",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=65",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-67",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=67",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-83",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=83",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-42",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=42",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-45",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=45",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-112",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=112",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-70",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=70",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-49",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=49",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    },
+    {
+      "resourceId": "eq-irf-59",
+      "field": "usageUrl",
+      "before": "https://irf.snu.ac.kr/possessed_device/possessed_device.php?idx=59",
+      "after": "https://irf.snu.ac.kr/information_use/usage_procedure.php",
+      "sourceIds": [
+        "src-irf-usage-1031"
+      ]
+    }
+  ],
+  "notes": [
+    "Institutional lab locations only. Professor offices were never propagated to labs.",
+    "Lab A and Lab B remain separate official location records for one resource.",
+    "Usage links do not assert eligibility or availability."
+  ]
+}

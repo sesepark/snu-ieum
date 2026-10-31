@@ -1,0 +1,275 @@
+{
+  "checkedAt": "2026-10-31T09:24:37.471087Z",
+  "groups": [
+    {
+      "resourceIds": [
+        "prof-dir-ece-dmggagjoigge",
+        "prof-dir-ece-edpidjmbagll"
+      ],
+      "status": "needs-identity-review",
+      "reason": "공대 같은 목록의 동명이인 후보. 현재 학과 교수 목록과 고유 프로필 식별 대조 전 통합하지 않음.",
+      "compared": [
+        {
+          "resourceId": "prof-dir-ece-dmggagjoigge",
+          "name": "이종호",
+          "departmentId": "ece",
+          "officialUrls": [
+            "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=16"
+          ],
+          "model": null,
+          "nfec": null,
+          "officialHomepage": null
+        },
+        {
+          "resourceId": "prof-dir-ece-edpidjmbagll",
+          "name": "이종호",
+          "departmentId": "ece",
+          "officialUrls": [
+            "https://eng.snu.ac.kr/about/organization/professor?sc=y&page=16"
+          ],
+          "model": null,
+          "nfec": null,
+          "officialHomepage": null
+        }
+      ]
+    },
+    {
+      "resourceIds": [
+        "eq-isrc-1121",
+        "eq-isrc-264"
+      ],
+      "status": "retain-distinct",
+      "reason": "공식 장비 상세 URL이 다르며 모델 또는 NFEC 식별자가 다름. 같은 표시명만으로 통합하지 않음.",
+      "compared": [
+        {
+          "resourceId": "eq-isrc-1121",
+          "name": "Solvent-Wet Staion (08)",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1121"
+          ],
+          "model": "TDP",
+          "nfec": null,
+          "officialHomepage": null
+        },
+        {
+          "resourceId": "eq-isrc-264",
+          "name": "Solvent-Wet Staion (08)",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=264"
+          ],
+          "model": "AW04-01-03",
+          "nfec": null,
+          "officialHomepage": null
+        }
+      ]
+    },
+    {
+      "resourceIds": [
+        "eq-isrc-216",
+        "eq-isrc-1201"
+      ],
+      "status": "retain-distinct",
+      "reason": "공식 장비 상세 URL이 다르며 모델 또는 NFEC 식별자가 다름. 같은 표시명만으로 통합하지 않음.",
+      "compared": [
+        {
+          "resourceId": "eq-isrc-216",
+          "name": "PR 트랙 장비 (02)",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=216"
+          ],
+          "model": "MSX-1000",
+          "nfec": "NFEC-2022-11-282765",
+          "officialHomepage": null
+        },
+        {
+          "resourceId": "eq-isrc-1201",
+          "name": "PR 트랙 장비 (02)",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=1201"
+          ],
+          "model": "MSX-1000",
+          "nfec": "NFEC-2026-08-317730",
+          "officialHomepage": null
+        }
+      ]
+    },
+    {
+      "resourceIds": [
+        "eq-isrc-242",
+        "eq-isrc-243"
+      ],
+      "status": "retain-distinct",
+      "reason": "공식 장비 상세 URL이 다르며 모델 또는 NFEC 식별자가 다름. 같은 표시명만으로 통합하지 않음.",
+      "compared": [
+        {
+          "resourceId": "eq-isrc-242",
+          "name": "금속 스퍼터 (01)",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=242"
+          ],
+          "model": "ALPS-C03",
+          "nfec": "NFEC-2007-10-007914",
+          "officialHomepage": null
+        },
+        {
+          "resourceId": "eq-isrc-243",
+          "name": "금속 스퍼터 (01)",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=243"
+          ],
+          "model": "MHS1500",
+          "nfec": "NFEC-2006-10-042227",
+          "officialHomepage": null
+        }
+      ]
+    },
+    {
+      "resourceIds": [
+        "eq-isrc-922",
+        "eq-isrc-214"
+      ],
+      "status": "retain-distinct",
+      "reason": "공식 장비 상세 URL이 다르며 모델 또는 NFEC 식별자가 다름. 같은 표시명만으로 통합하지 않음.",
+      "compared": [
+        {
+          "resourceId": "eq-isrc-922",
+          "name": "i-line 스테퍼",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=922"
+          ],
+          "model": "JP/NSR-2205i11D",
+          "nfec": null,
+          "officialHomepage": null
+        },
+        {
+          "resourceId": "eq-isrc-214",
+          "name": "i-line 스테퍼",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=214"
+          ],
+          "model": "NSR-2005I10C",
+          "nfec": "NFEC-2007-10-012739",
+          "officialHomepage": null
+        }
+      ]
+    },
+    {
+      "resourceIds": [
+        "eq-isrc-644",
+        "eq-isrc-643",
+        "eq-isrc-642"
+      ],
+      "status": "retain-distinct",
+      "reason": "공식 장비 상세 URL이 다르며 모델 또는 NFEC 식별자가 다름. 같은 표시명만으로 통합하지 않음.",
+      "compared": [
+        {
+          "resourceId": "eq-isrc-644",
+          "name": "면저항 측정기",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=644"
+          ],
+          "model": "CMT-SR2000N",
+          "nfec": "NFEC-2024-12-302215",
+          "officialHomepage": null
+        },
+        {
+          "resourceId": "eq-isrc-643",
+          "name": "면저항 측정기",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=643"
+          ],
+          "model": "CMT-SR2000N",
+          "nfec": "NFEC-2024-12-302213",
+          "officialHomepage": null
+        },
+        {
+          "resourceId": "eq-isrc-642",
+          "name": "면저항 측정기",
+          "departmentId": "shared-irf",
+          "officialUrls": [
+            "https://isrc.snu.ac.kr/hm/equipInfo/detail?EQUIP_SKEY=642"
+          ],
+          "model": "CMT-SR2000N",
+          "nfec": "NFEC-2024-12-302214",
+          "officialHomepage": null
+        }
+      ]
+    },
+    {
+      "resourceIds": [
+        "lab-four-ece-x",
+        "lab-ece-detail-14"
+      ],
+      "status": "retain-distinct",
+      "reason": "현재 공식 소개의 지도교수(이성욱·김성철), 상세 URL과 홈페이지가 다름.",
+      "compared": [
+        {
+          "resourceId": "lab-four-ece-x",
+          "name": "전파 및 무선 통신 연구실",
+          "departmentId": "ece",
+          "officialUrls": [
+            "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=154"
+          ],
+          "model": null,
+          "nfec": null,
+          "officialHomepage": "https://artl.snu.ac.kr/"
+        },
+        {
+          "resourceId": "lab-ece-detail-14",
+          "name": "전파 및 무선통신연구실",
+          "departmentId": "ece",
+          "officialUrls": [
+            "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=14"
+          ],
+          "model": null,
+          "nfec": null,
+          "officialHomepage": "http://maxwell.snu.ac.kr/"
+        }
+      ]
+    },
+    {
+      "resourceIds": [
+        "lab-four-ece-bp",
+        "lab-ece-detail-146"
+      ],
+      "status": "needs-lab-identity-review",
+      "reason": "공식 카드의 지도교수는 심형보·이진규로 다르지만 홈페이지가 같음. 공동 연구실인지 명칭 중복인지 사람 확인 전 유지.",
+      "compared": [
+        {
+          "resourceId": "lab-four-ece-bp",
+          "name": "제어 및 동역학 연구실",
+          "departmentId": "ece",
+          "officialUrls": [
+            "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=62"
+          ],
+          "model": null,
+          "nfec": null,
+          "officialHomepage": "https://post.cdsl.kr/"
+        },
+        {
+          "resourceId": "lab-ece-detail-146",
+          "name": "제어 및 동역학 연구실",
+          "departmentId": "ece",
+          "officialUrls": [
+            "https://ece.snu.ac.kr/research-faculty/research/lab?md=view&labidx=146"
+          ],
+          "model": null,
+          "nfec": null,
+          "officialHomepage": "https://post.cdsl.kr/"
+        }
+      ]
+    }
+  ],
+  "merged": 0,
+  "humanApproval": false
+}

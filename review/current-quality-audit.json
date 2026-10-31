@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-30T01:31:41.466Z",
-  "researchVersion": "college-draft-20261029",
-  "spatialVersion": "campus-20261029",
+  "generatedAt": "2026-10-31T09:24:37.566Z",
+  "researchVersion": "college-draft-20261031",
+  "spatialVersion": "campus-20261031",
   "publication": "prototype",
   "inputs": {
-    "data/college-draft.json": "f8f6919face4e5fea0321f8f2cbb98523f70b852411c278afc3dd0f668ef4061",
-    "data/campus/campus-draft.json": "b4f4054058cabd7435110b34ed879c058370b7d25f23c8a2848a4016a9460018",
-    "data/coverage/coverage-draft.json": "a7be416852cd2909c01f579cb18f7e715bffc4133f43e7c25c6a6307e5cf2143"
+    "data/college-draft.json": "096b03be69214656abe433acda212d16f6367864f7b1b53aa711387ca16b3f9e",
+    "data/campus/campus-draft.json": "9607a599e8c20619b8fefa76f6d77213044c411b2cfa8daab4eb6730534603c3",
+    "data/coverage/coverage-draft.json": "061eaeba28c22df7824656d1fa32852d41af5c7e18fdaafe500dfe86351f47be"
   },
   "counts": {
     "researcher": 341,
@@ -160,17 +160,6 @@
         "researchFields",
         "officialHomepage",
         "affiliation"
-      ],
-      "unknownSourceIds": [],
-      "locationCandidates": 1
-    },
-    {
-      "id": "lab-mechanical-robot",
-      "kind": "lab",
-      "departmentId": "mechanical",
-      "name": "로봇 인식 및 공간 지능 연구실",
-      "missingFields": [
-        "researchFields"
       ],
       "unknownSourceIds": [],
       "locationCandidates": 1
@@ -3430,18 +3419,6 @@
       "locationCandidates": 2
     },
     {
-      "id": "lab-list-aerospace-h",
-      "kind": "lab",
-      "departmentId": "aerospace",
-      "name": "자율로봇연구실",
-      "missingFields": [
-        "researchFields",
-        "officialHomepage"
-      ],
-      "unknownSourceIds": [],
-      "locationCandidates": 1
-    },
-    {
       "id": "lab-list-aerospace-i",
       "kind": "lab",
       "departmentId": "aerospace",
@@ -4312,28 +4289,6 @@
       "locationCandidates": 1
     },
     {
-      "id": "lab-four-mechanical-m",
-      "kind": "lab",
-      "departmentId": "mechanical",
-      "name": "소프트 로봇 및 바이오닉스 연구실",
-      "missingFields": [
-        "researchFields"
-      ],
-      "unknownSourceIds": [],
-      "locationCandidates": 1
-    },
-    {
-      "id": "lab-four-mechanical-n",
-      "kind": "lab",
-      "departmentId": "mechanical",
-      "name": "로봇 자동화 연구실",
-      "missingFields": [
-        "researchFields"
-      ],
-      "unknownSourceIds": [],
-      "locationCandidates": 1
-    },
-    {
       "id": "lab-four-mechanical-o",
       "kind": "lab",
       "departmentId": "mechanical",
@@ -4448,17 +4403,6 @@
       "kind": "lab",
       "departmentId": "mechanical",
       "name": "첨단생산기술 및 스마트소재 연구실",
-      "missingFields": [
-        "researchFields"
-      ],
-      "unknownSourceIds": [],
-      "locationCandidates": 1
-    },
-    {
-      "id": "lab-four-mechanical-aa",
-      "kind": "lab",
-      "departmentId": "mechanical",
-      "name": "로봇비전 연구실",
       "missingFields": [
         "researchFields"
       ],
