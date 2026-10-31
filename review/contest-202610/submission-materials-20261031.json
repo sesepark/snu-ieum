@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-31",
+  "publication": "prototype",
+  "webUrl": "https://sesepark.github.io/snu-ieum/",
+  "files": [
+    {
+      "name": "서울대이음_서비스안내.pdf",
+      "sha256": "108713b57ddad426dcbec1891198776950dc45d674f2588cda6bc59360d753ad",
+      "bytes": 1710889,
+      "pages": 3,
+      "revisionInstructionsFound": false
+    },
+    {
+      "name": "서울대이음_시연영상.mp4",
+      "sha256": "60b151e3428054262a2167677e4e98208e89c96ed81fcdc0929cf47782d33755",
+      "bytes": 1754799,
+      "durationSeconds": 64.0
+    },
+    {
+      "name": "서울대이음_참가신청서.pdf",
+      "sha256": "9e1f1600363b39b0000e3e554133cbf8405368ff9390678582ff49611dba1d35",
+      "bytes": 47590,
+      "pages": 1,
+      "revisionInstructionsFound": false
+    },
+    {
+      "name": "서울대이음_활용보고서.pdf",
+      "sha256": "ab6cd1312a48dffa26463428ba23be88c0f75aafea70e981bdf392c653a24599",
+      "bytes": 3363328,
+      "pages": 5,
+      "revisionInstructionsFound": false
+    }
+  ],
+  "checks": {
+    "nodeMajor": 24,
+    "typecheck": true,
+    "unitApiTestsPassed": 102,
+    "browserTestsPassed": 17,
+    "build": true,
+    "diffCheck": true,
+    "renderedPages": 9,
+    "humanDataApproval": false,
+    "studentEffectMeasured": false
+  },
+  "facts": {
+    "resources": 832,
+    "relations": 294,
+    "displayPaperEvidence": 16,
+    "reviewItems": 450,
+    "duplicateNameGroups": 8,
+    "robotResults": 18,
+    "robotLocated": 9,
+    "robotBuildings": 5
+  }
+}

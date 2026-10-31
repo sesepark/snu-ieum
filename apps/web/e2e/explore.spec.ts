@@ -45,6 +45,7 @@ test('mobile defaults to 2D with an accessible list and bottom detail sheet', as
   expect(box!.y).toBeGreaterThan(300); expect(box!.width).toBeLessThanOrEqual(390);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth);
   expect(overflow).toBe(false);
+  await page.screenshot({ path: 'test-results/mobile-detail.png' });
   await page.getByRole('button', { name: '상세 닫기', exact: true }).click();
   await expect(page.getByRole('button', { name: '지도로 돌아가기', exact: true })).toBeFocused();
   await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('데이터과학');
