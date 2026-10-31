@@ -90,6 +90,7 @@ test('mobile returns to the current catalog search after inspecting a located la
   await expect(page.locator('.resource-card')).toHaveCount(5);
   await page.locator('.resource-card').filter({hasText:'데이터과학 및 비즈니스 애널리틱스 연구실'}).click();
   await expect(page.getByRole('heading',{name:'데이터과학 및 비즈니스 애널리틱스 연구실',exact:true})).toBeVisible();
+  await expect(page.locator('.resource-actions a').filter({hasText:'공식 홈페이지'})).toHaveAttribute('href','https://ie.snu.ac.kr/dsba_lab/');
   await expect(page.getByRole('button',{name:'39동 대학원연구동(1단계) · 411호',exact:true})).toBeVisible();
   await page.screenshot({path:'test-results/public-mobile.jpg'});
   await page.getByRole('button',{name:'상세 닫기',exact:true}).click();

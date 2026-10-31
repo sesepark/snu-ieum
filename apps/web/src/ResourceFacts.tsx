@@ -1,9 +1,9 @@
 import type{Campus,Resource,Snapshot}from'@ieum/contracts';import type{CoverageInput}from'../../../packages/catalog/src/coverage';
 import{SpatialSources}from'./BuildingDetail';
 const labels:Record<string,string>={researchFields:'연구 분야',officialHomepage:'공식 홈페이지',affiliation:'공식 소속',model:'모델·규격',purpose:'용도·기능',operator:'운영기관',usageUrl:'공식 이용 안내',nfec:'공식 장비 식별자'};
-export function ResourceActions({resource,coverage}:{resource:Resource;coverage?:CoverageInput}) {
+export function ResourceActions({resource,coverage,snapshot}:{resource:Resource;coverage?:CoverageInput;snapshot:Snapshot}) {
  const fields=coverage?.profiles.find(p=>p.resourceId===resource.id)?.fields;
- const links=['officialHomepage','usageUrl'].flatMap(key=>{const fact=fields?.[key];if(!fact)return [];try{const url=new URL(fact.value);return /^https?:$/.test(url.protocol)&&!url.username&&!url.password?[{key,url:url.href}]:[];}catch{return [];}});
+ const links=['officialHomepage','usageUrl'].flatMap(key=>{const fact=fields?.[key];if(!fact)return [];try{const candidate=new URL(fact.value);const url=key==='officialHomepage'&&candidate.protocol==='http:'?new URL(snapshot.sources.find(source=>resource.sourceIds.includes(source.id)&&source.url.startsWith('https:'))?.url??candidate.href):candidate;return url.protocol==='https:'&&!url.username&&!url.password?[{key,url:url.href}]:[];}catch{return [];}});
  return links.length?<div className="resource-actions">{links.map(link=><a key={link.key} href={link.url} target="_blank" rel="noreferrer">{link.key==='officialHomepage'?'공식 홈페이지':'이용 안내'} ↗</a>)}</div>:null;
 }
 export default function ResourceFacts({resource,campus,snapshot,coverage}:{resource:Resource;campus:Campus;snapshot:Snapshot;coverage:CoverageInput}){
