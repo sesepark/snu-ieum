@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-10-31T09:55:51.766Z",
+  "url": "https://sesepark.github.io/snu-ieum/",
+  "publication": "prototype",
+  "files": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 573,
+      "sha256": "c9154e76a669606ba94c3755469d3bc165697b96f51af9768f61a437f5f3c86b",
+      "matchesLocal": true
+    },
+    {
+      "file": "snapshot.json",
+      "status": 200,
+      "bytes": 835237,
+      "sha256": "ffd966e7431b1c1b8f749cc357da79fac2f1cd819799f54a4647230630cd40ea",
+      "matchesLocal": true
+    },
+    {
+      "file": "campus.json",
+      "status": 200,
+      "bytes": 1813541,
+      "sha256": "0c1fa1dccd8d40c41bf7adadeec1cef69f77bbbaa938c76bfd45df63514053a6",
+      "matchesLocal": true
+    },
+    {
+      "file": "coverage.json",
+      "status": 200,
+      "bytes": 755431,
+      "sha256": "9a615a54912d596757b2e9d7297c82c5411022e566bee35ed627a59ca229c0f0",
+      "matchesLocal": true
+    },
+    {
+      "file": "identity/snu-emblem.png",
+      "status": 200,
+      "bytes": 83376,
+      "sha256": "6efef4d80908f9b1f60f6e5be6baa116020977d1cdbfd571b406cbf16f7dfb53",
+      "matchesLocal": true
+    },
+    {
+      "file": "fonts/Pretendard-Regular.woff2",
+      "status": 200,
+      "bytes": 765892,
+      "sha256": "fad853f7f47c6c8b103171e7193fa095708cdcd70850a71d93aa5379e8a61d63",
+      "matchesLocal": true
+    },
+    {
+      "file": "fonts/Pretendard-Bold.woff2",
+      "status": 200,
+      "bytes": 791156,
+      "sha256": "4609c3356e536fafe38f4add0daeceb3d8595d3057bce13c428c33ddbd43d362",
+      "matchesLocal": true
+    },
+    {
+      "file": "readme/intro.png",
+      "status": 200,
+      "bytes": 46420,
+      "sha256": "91392497d36b5a7d61ef12ec849a36db65d96051cc499bb782a57f52931757a4",
+      "matchesLocal": true
+    },
+    {
+      "file": "readme/lab-location.jpg",
+      "status": 200,
+      "bytes": 327777,
+      "sha256": "8d6677e80552e7d1ed557839f8bbc0b6347a1763d8f87b01aa5df0bcc1c91a29",
+      "matchesLocal": true
+    },
+    {
+      "file": "readme/equipment-location.jpg",
+      "status": 200,
+      "bytes": 325866,
+      "sha256": "8b31532846b696a5f925e24a92285356fb16ed9ac285d03a86f6411068d8e641",
+      "matchesLocal": true
+    },
+    {
+      "file": "readme/cross-department.jpg",
+      "status": 200,
+      "bytes": 253887,
+      "sha256": "26ac7f86c2b337f767fc2117fe14a7b0838ea07bcb49e6c260dc7e0db34857b3",
+      "matchesLocal": true
+    },
+    {
+      "file": "readme/mobile.jpg",
+      "status": 200,
+      "bytes": 74938,
+      "sha256": "d35f7a043d2f3e4dd50dc3b3b6b20a8ce2d79c3e3934dd5f3e4de889b8a24cd2",
+      "matchesLocal": true
+    },
+    {
+      "file": "readme/demo-64s.mp4",
+      "status": 200,
+      "bytes": 1754799,
+      "sha256": "60b151e3428054262a2167677e4e98208e89c96ed81fcdc0929cf47782d33755",
+      "matchesLocal": true
+    }
+  ]
+}

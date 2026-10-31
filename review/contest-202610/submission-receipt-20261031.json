@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-31T10:13:54.684319+00:00",
+  "program": "ChatGPT Edu 활용 상시 공모전(10월)",
+  "applicationDate": "2026-10-31",
+  "status": "신청",
+  "savedAnswersMatch": true,
+  "answerNormalization": "HTML nonbreaking spaces normalized to ordinary spaces",
+  "files": [
+    {
+      "name": "서울대이음_서비스안내.pdf",
+      "listedInSavedApplication": true,
+      "localSha256": "108713b57ddad426dcbec1891198776950dc45d674f2588cda6bc59360d753ad",
+      "serverDownloaded": false,
+      "downloadSha256Matches": null
+    },
+    {
+      "name": "서울대이음_시연영상.mp4",
+      "listedInSavedApplication": true,
+      "localSha256": "60b151e3428054262a2167677e4e98208e89c96ed81fcdc0929cf47782d33755",
+      "serverDownloaded": false,
+      "downloadSha256Matches": null
+    },
+    {
+      "name": "서울대이음_참가신청서.pdf",
+      "listedInSavedApplication": true,
+      "localSha256": "9e1f1600363b39b0000e3e554133cbf8405368ff9390678582ff49611dba1d35",
+      "serverDownloaded": true,
+      "downloadSha256Matches": true
+    },
+    {
+      "name": "서울대이음_활용보고서.pdf",
+      "listedInSavedApplication": true,
+      "localSha256": "ab6cd1312a48dffa26463428ba23be88c0f75aafea70e981bdf392c653a24599",
+      "serverDownloaded": false,
+      "downloadSha256Matches": null
+    }
+  ],
+  "downloadLimitation": "Chrome multiple-file downloads blocked; only application PDF downloaded and byte-verified. All four filenames confirmed in saved application.",
+  "privacyNoticeDiscrepancy": "Saved application view displays retention 10 years; pre-submission confirmation described 3 years.",
+  "webUrl": "https://sesepark.github.io/snu-ieum/",
+  "humanDataApproval": false,
+  "studentEffectMeasured": false
+}
