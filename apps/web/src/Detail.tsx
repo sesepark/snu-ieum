@@ -6,10 +6,11 @@ export function SourceLinks({ snapshot, ids }: { snapshot: Snapshot; ids: string
 }
 export default function Detail({ resource, snapshot, verificationRequired, onClose, onSelect, position, actions, children }: { resource: Resource; snapshot: Snapshot; verificationRequired: boolean; onClose(): void; onSelect(id: string): void; position?: ReactNode; actions?: ReactNode; children?: ReactNode }) {
   const title = useRef<HTMLHeadingElement>(null);
-  useEffect(() => { title.current?.focus({ preventScroll: true }); }, [resource.id]);
+  const panel = useRef<HTMLElement>(null);
+  useEffect(() => { panel.current?.scrollTo(0, 0); title.current?.focus({ preventScroll: true }); }, [resource.id]);
   const department = snapshot.departments.find(d => d.id === resource.departmentId);
   const relations = snapshot.relations.filter(e => e.from === resource.id || e.to === resource.id);
-  return <aside className="detail-panel" aria-label="선택 자원 상세">
+  return <aside ref={panel} className="detail-panel" aria-label="선택 자원 상세">
     <div className="panel-top"><span className={`kind-pill ${resource.kind}`}>{kindLabels[resource.kind]}</span><button className="icon-button" onClick={onClose} aria-label="상세 닫기">×</button></div>
     <h2 tabIndex={-1} ref={title}>{resource.name}</h2><p className="eyebrow">{department?.name}</p>
     <p className="resource-summary">{resource.summary.length > 200 ? `${resource.summary.slice(0, 200)}…` : resource.summary}</p>

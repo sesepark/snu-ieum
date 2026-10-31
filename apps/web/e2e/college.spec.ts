@@ -22,7 +22,7 @@ test('explores official equipment and its installation room in the full college 
   await expect(page.getByTestId('map-stage')).toHaveAttribute('aria-label', /자원·근거 3개, 연결 2개/);
   await expect(page).toHaveURL(/view=3d.*selected=eq-irf-105/);
   await page.locator('.related-list button').filter({ hasText: '139-1동 B112호' }).click();
-  await expect(page.getByRole('heading', { name: '기초과학공동기기원 139-1동 B112호', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: '기초과학공동기기원 139-1동 B112호', exact: true })).toBeInViewport();
   expect(errors).toEqual([]);
 });
 
@@ -80,4 +80,21 @@ test('map distribution counts located results and focuses them without losing se
   await expect(page.locator('.resource-card')).toHaveCount(18);
   await page.getByRole('button',{name:'3D',exact:true}).click();
   await expect(summary).toContainText('18개 검색 결과 · 5개 건물');
+});
+
+test('mobile returns to the current catalog search after inspecting a located lab', async ({ page }) => {
+  await page.setViewportSize({width:390,height:844});
+  await page.goto('#/?view=2d');
+  await page.getByRole('button',{name:'검색 · 자원 목록',exact:true}).click();
+  await page.getByRole('searchbox',{name:'자원명·연구 분야 검색'}).fill('시계열');
+  await expect(page.locator('.resource-card')).toHaveCount(5);
+  await page.locator('.resource-card').filter({hasText:'데이터과학 및 비즈니스 애널리틱스 연구실'}).click();
+  await expect(page.getByRole('heading',{name:'데이터과학 및 비즈니스 애널리틱스 연구실',exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:'39동 대학원연구동(1단계) · 411호',exact:true})).toBeVisible();
+  await page.screenshot({path:'test-results/public-mobile.jpg'});
+  await page.getByRole('button',{name:'상세 닫기',exact:true}).click();
+  await expect(page.getByRole('button',{name:'지도로 돌아가기',exact:true})).toHaveAttribute('aria-expanded','true');
+  await expect(page.getByRole('searchbox',{name:'자원명·연구 분야 검색'})).toHaveValue('시계열');
+  await expect(page.locator('.resource-card')).toHaveCount(5);
+  await page.screenshot({path:'test-results/public-mobile-list.jpg'});
 });
