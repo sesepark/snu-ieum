@@ -33,7 +33,7 @@ export function buildingModel(c:Campus,s:Snapshot,f:Filters,highlighted:Set<stri
  return {markers,links,colleges,unlocated:filteredResources(s,f).filter(r=>!locations.some(l=>l.resourceId===r.id)).length};
 }
 export type CampusModel=ReturnType<typeof buildingModel>;
-export type CampusViewProps={campus:Campus;model:CampusModel;width:number;height:number;selectedBuilding?:string;college?:string;onCollege(id:string):void;searching:boolean;viewpoint:Viewpoint;reducedMotion:boolean;onBuilding(id:string):void;onRelation(id:string):void;onViewpoint(v:Viewpoint):void;onReady(handle:{home():void;zoom(factor:number):void;focus(id:string):void}):void;onFailure():void};
+export type CampusViewProps={network?:import('./network').NetworkModel;ego?:import('./network').Ego;layers?:Set<import('./network').LinkLayer>;onResource?(id:string):void;campus:Campus;model:CampusModel;width:number;height:number;selectedBuilding?:string;college?:string;onCollege(id:string):void;searching:boolean;viewpoint:Viewpoint;reducedMotion:boolean;onBuilding(id:string):void;onRelation(id:string):void;onViewpoint(v:Viewpoint):void;onReady(handle:{home():void;zoom(factor:number):void;focus(id:string):void}):void;onFailure():void};
 export function pickLabels(model:CampusModel,selected:string|undefined,searching:boolean,zoom:number){
  return [...model.markers].filter(m=>m.building.id===selected||(searching?m.matched>0:zoom>1.5?Boolean(m.building.number):m.resourceIds.length>0)).sort((a,b)=>Number(b.building.id===selected)-Number(a.building.id===selected)||b.matched-a.matched||b.resourceIds.length-a.resourceIds.length).slice(0,80);
 }

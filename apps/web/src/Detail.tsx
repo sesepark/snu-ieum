@@ -1,24 +1,25 @@
 import { useEffect, useRef, type ReactNode } from 'react';
 import type { Snapshot, Resource } from '@ieum/contracts';
+import KindIcon from './KindIcon';
 export const kindLabels: Record<Resource['kind'], string> = { researcher: '교수', lab: '연구실', equipment: '장비', space: '공간' };
 export function SourceLinks({ snapshot, ids }: { snapshot: Snapshot; ids: string[] }) {
   return <ul className="source-list">{snapshot.sources.filter(s => ids.includes(s.id)).map(source => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title} <span aria-hidden="true">↗</span></a><span>{source.organization} · 확인 {source.lastVerifiedAt.slice(0, 10)}</span></li>)}</ul>;
 }
-export default function Detail({ resource, snapshot, verificationRequired, onClose, onSelect, position, actions, children }: { resource: Resource; snapshot: Snapshot; verificationRequired: boolean; onClose(): void; onSelect(id: string): void; position?: ReactNode; actions?: ReactNode; children?: ReactNode }) {
+export default function Detail({ resource, snapshot, verificationRequired, place, onClose, onSelect, position, actions, children }: { resource: Resource; snapshot: Snapshot; verificationRequired: boolean; place?: string; onClose(): void; onSelect(id: string): void; position?: ReactNode; actions?: ReactNode; children?: ReactNode }) {
   const title = useRef<HTMLHeadingElement>(null);
   const panel = useRef<HTMLElement>(null);
   useEffect(() => { panel.current?.scrollTo(0, 0); title.current?.focus({ preventScroll: true }); }, [resource.id]);
   const department = snapshot.departments.find(d => d.id === resource.departmentId);
   const relations = snapshot.relations.filter(e => e.from === resource.id || e.to === resource.id);
   return <aside ref={panel} className="detail-panel" aria-label="선택 자원 상세">
-    <div className="panel-top"><span className={`kind-pill ${resource.kind}`}>{kindLabels[resource.kind]}</span><button className="icon-button" onClick={onClose} aria-label="상세 닫기">×</button></div>
-    <h2 tabIndex={-1} ref={title}>{resource.name}</h2><p className="eyebrow">{department?.name}</p>
+    <header className={`detail-hero ${resource.kind}`}><div className="panel-top"><span className={`kind-pill ${resource.kind}`}><KindIcon kind={resource.kind} size={14} />{kindLabels[resource.kind]}</span><button className="icon-button" onClick={onClose} aria-label="상세 닫기">×</button></div>
+    <h2 tabIndex={-1} ref={title}>{resource.name}</h2><p className="eyebrow">{department?.name}</p><p className={`hero-place ${place ? 'located' : ''}`}>{place ? `위치 ${place}` : '위치 확인 중 · 공식 페이지에서 확인해 주세요'}</p><div className="hero-meta"><span>공식 출처 {resource.sourceIds.length}</span><span>직접 연결 {relations.length}</span><span>확인 {resource.lastVerifiedAt.slice(0, 10)}</span></div></header>
     <p className="resource-summary">{resource.summary.length > 200 ? `${resource.summary.slice(0, 200)}…` : resource.summary}</p>
     {resource.summary.length > 200 && <details><summary>공식 설명 전체 보기</summary><p className="resource-summary">{resource.summary}</p></details>}
     {position}
     {actions}
     <div className="keywords">{resource.keywords.filter(word => word.length <= 30).slice(0, 8).map(word => <span key={word}>{word}</span>)}</div>
-    {verificationRequired && <p className="verification-note">공식 페이지 확인 필요 · 이용 조건과 최신 정보는 원문에서 확인해주세요.</p>}
+    {verificationRequired && <p className="verification-note">이용 조건과 최신 정보는 공식 페이지에서 확인해 주세요.</p>}
     <section><h3>공식 출처 <span>{resource.sourceIds.length}</span></h3><SourceLinks snapshot={snapshot} ids={resource.sourceIds} /><p className="fine">마지막 확인 {resource.lastVerifiedAt.slice(0, 10)}</p></section>
     <section><h3>직접 연결 <span>{relations.length}</span></h3>{relations.length ? <ul className="related-list">{relations.map(edge => {
       const other = snapshot.resources.find(r => r.id === (edge.from === resource.id ? edge.to : edge.from));

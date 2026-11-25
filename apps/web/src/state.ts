@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { FiltersSchema, type Filters } from '@ieum/contracts';
 import { type Viewpoint } from './campus-model';
-type View = '2d' | '3d';
+type View = '2d' | '3d' | 'net';
 export type SharedState = { view: View; selected?: string; kinds: Filters['kinds']; departmentIds: string[]; building?: string; college?:string; viewpoint?: Viewpoint };
 const validId = (id: string | null) => id && /^[a-zA-Z0-9][a-zA-Z0-9._:-]{0,127}$/.test(id) ? id : undefined;
 export function parseUrl(search: string, defaultView: View = '2d'): SharedState {
@@ -9,7 +9,7 @@ export function parseUrl(search: string, defaultView: View = '2d'): SharedState 
   const parsed = FiltersSchema.safeParse({ q: '', kinds: params.get('kind')?.split(',').filter(Boolean) ?? [], departmentIds: params.get('department')?.split(',').filter(Boolean) ?? [] });
   const values=params.get('camera')?.split(',').map(Number);
   const viewpoint=values?.length===5 && values.every(Number.isFinite) && Math.abs(values[0])<=6000 && Math.abs(values[1])<=6000 && values[2]>=.2 && values[2]<=20 && Math.abs(values[3])<=360 && values[4]>=15 && values[4]<=85 ? {x:values[0],y:values[1],zoom:values[2],bearing:values[3],pitch:values[4]} : undefined;
-  return { college:validId(params.get('college')), building: validId(params.get('building')), viewpoint, view: params.get('view') === '3d' ? '3d' : params.get('view') === '2d' ? '2d' : defaultView, selected: validId(params.get('selected')), kinds: parsed.success ? parsed.data.kinds : [], departmentIds: parsed.success ? parsed.data.departmentIds : [] };
+  return { college:validId(params.get('college')), building: validId(params.get('building')), viewpoint, view: params.get('view') === '3d' ? '3d' : params.get('view') === '2d' ? '2d' : params.get('view') === 'net' ? 'net' : defaultView, selected: validId(params.get('selected')), kinds: parsed.success ? parsed.data.kinds : [], departmentIds: parsed.success ? parsed.data.departmentIds : [] };
 }
 export function shareUrl(state: SharedState) {
   const params = new URLSearchParams({ view: state.view });

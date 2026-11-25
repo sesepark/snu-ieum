@@ -11,7 +11,7 @@ test('explores official equipment and its installation room in the full college 
   await expect(page.locator('.resource-card')).toHaveCount(30);
   await page.getByRole('button', { name: '30개 더 보기', exact: false }).click();
   await expect(page.locator('.resource-card')).toHaveCount(60);
-  await expect(page.getByLabel('학과 필터').locator('option')).toHaveCount(15);
+  await expect(page.getByLabel('학과 필터').locator('option')).toHaveCount(16);
   await page.getByLabel('자원명·연구 분야 검색').fill('Krios');
   await expect(page.locator('.resource-card')).toHaveCount(1);
   await page.locator('.resource-card').click();
@@ -63,8 +63,7 @@ test('search counts and quality meters use their stated denominators', async ({ 
   await page.getByRole('button', {name:'초기화',exact:true}).click();
   await expect(page.getByLabel('자원명·연구 분야 검색')).toHaveValue('');
   await page.getByText('자료 안내 · 수록 범위', {exact:false}).click();
-  await expect(page.getByRole('meter', {name:/지도 위치 근거/})).toBeVisible();
-  await expect(page.getByRole('meter', {name:/저자 검수 논문/})).toHaveAttribute('value','0');
+  await expect(page.getByRole('meter', {name:/지도에 표시된 자원/})).toBeVisible();
 });
 
 test('map distribution counts located results and focuses them without losing search state', async ({ page }) => {
