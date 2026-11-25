@@ -27,7 +27,7 @@ it('counts official departments rather than shared display groups in search eval
     keyboardPassed: true, touchTargetsPassed: true, mobilePassed: true, reducedMotionPassed: true,
     snapshotOutagePassed: true, aiFailureFallbackPassed: true, freeAccountVerified: true, backupRestorePassed: true, batchRollbackPassed: true
   };
-  expect(approved.departments).toHaveLength(14);
+  expect(approved.departments).toHaveLength(15);
   expect(launchCheck(approved, measurements).ready).toBe(false);
   expect(launchCheck(approved, measurements).gaps).toContain('공간·전체 목록 수록률 검수 자료 미제공');
   expect(launchCheck(approved,{...measurements,relationshipMeaningCorrect:7}).gaps).toContain('거리·주제·공식 관계 구별 90% 미달');

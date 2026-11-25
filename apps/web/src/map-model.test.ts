@@ -7,7 +7,7 @@ it('removes empty group anchors from a relationship view while retaining the dep
   const snapshot = parseSnapshot(draft), filters = { q: '', kinds: [], departmentIds: [] };
   const whole = model(graph(snapshot, filters), snapshot.departments);
   const focused = model(graph(snapshot, filters, { focus: 'eq-irf-105', depth: 2 }), snapshot.departments, true);
-  expect(whole.nodes.filter(n => n.kind === 'department')).toHaveLength(14);
+  expect(whole.nodes.filter(n => n.kind === 'department')).toHaveLength(15);
   expect(focused.nodes.filter(n => n.kind === 'department').map(n => n.departmentId)).toEqual(['shared-irf']);
   expect(focused.nodes.filter(n => n.kind !== 'department')).toHaveLength(3);
   expect(focused.links).toHaveLength(2);

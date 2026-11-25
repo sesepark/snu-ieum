@@ -8,10 +8,10 @@
   },
   "departments": [
     {
-      "id": "shared-irf",
-      "name": "기초과학공동기기원",
+      "id": "shared-isrc",
+      "name": "반도체공동연구소",
       "sourceIds": [
-        "src-irf-105"
+        "source-isrc-275"
       ],
       "groupType": "shared"
     }
@@ -1221,7 +1221,7 @@
       "kind": "equipment",
       "name": "와이어 볼 본딩 장비",
       "summary": "Capillary를 이용하여 공정 완료된 시편과 패드 연결 모델: 4522. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wire Ball Bonder",
         "4522",
@@ -1238,7 +1238,7 @@
       "kind": "equipment",
       "name": "Acid-Solvent-Wet Station (21)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-03-01. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (21) (Acid-Solvent)",
         "AW04-03-01",
@@ -1255,7 +1255,7 @@
       "kind": "equipment",
       "name": "Solvent-Wet Staion (18)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (18) (Solvent)",
         "없음",
@@ -1272,7 +1272,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (16)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (16) (Acid)",
         "AW04-01-03",
@@ -1289,7 +1289,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (15)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW08-10-01 (WA-15). 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (15) (Acid)",
         "AW08-10-01 (WA-15)",
@@ -1306,7 +1306,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (14-1)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: XGB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (14-1) (Acid)",
         "XGB",
@@ -1323,7 +1323,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (13)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW06-10-08(WA-13). 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (13) (Acid)",
         "AW06-10-08(WA-13)",
@@ -1340,7 +1340,7 @@
       "kind": "equipment",
       "name": "Solvent-Wet Staion (10)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: WA04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (10) (Solvent)",
         "WA04-01-03",
@@ -1357,7 +1357,7 @@
       "kind": "equipment",
       "name": "Solvent-Wet Staion (09)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: XGB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (09-1) (Solvent)",
         "XGB",
@@ -1374,7 +1374,7 @@
       "kind": "equipment",
       "name": "Solvent-Wet Staion (08)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: TDP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (08-1) (Solvent)",
         "TDP",
@@ -1391,7 +1391,7 @@
       "kind": "equipment",
       "name": "Solvent-Wet Staion (08)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (08) (Solvent)",
         "AW04-01-03",
@@ -1408,7 +1408,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (WA-5)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: XGB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (05-1) (Acid)",
         "XGB",
@@ -1425,7 +1425,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (04)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: WA04-01-03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (04) (Acid)",
         "WA04-01-03",
@@ -1442,7 +1442,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (03)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03(WA-3). 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (03) (Acid)",
         "AW04-01-03(WA-3)",
@@ -1459,7 +1459,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (02)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03(WA-2). 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (02) (Acid)",
         "AW04-01-03(WA-2)",
@@ -1476,7 +1476,7 @@
       "kind": "equipment",
       "name": "Acid-Wet Station (01)",
       "summary": "- 실험실에서 화학반응이나 생물반응을 수행시키기 위한 장치로서 가열 가압 교반 또는 빛이나 촉매를 가하거나 체류시간을 주어서 화학반응을 용이하게 하는 장치 모델: AW04-01-03(WA-1). 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wet Station (01) (Acid)",
         "AW04-01-03(WA-1)",
@@ -1493,7 +1493,7 @@
       "kind": "equipment",
       "name": "웨이퍼 마커",
       "summary": "Wafer ID marking system 모델: WM080. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Wafer Marker",
         "WM080",
@@ -1510,7 +1510,7 @@
       "kind": "equipment",
       "name": "파장 분산 엑스선 형광 분석기",
       "summary": "- Be부터 U까지 넓은 영역의 원소를 정성, 정량분석하는 파장분산형 형광분석기- 박막 및 다층 기판 하면조사 방식으로 두께 및 조성을 분석 모델: S8 TIGER. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "WD-XRF",
         "S8 TIGER",
@@ -1527,7 +1527,7 @@
       "kind": "equipment",
       "name": "PR 트랙 장비 (02)",
       "summary": "PR Coating, Develop, BAKE를 Auto 진행 모델: MSX-1000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Track",
         "MSX-1000",
@@ -1544,7 +1544,7 @@
       "kind": "equipment",
       "name": "열 금속 증착 장비 (01)",
       "summary": "Auto / Manual 공정 가능Thickness monitoring 가능Substrate rotation 가능 모델: HMS1800. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Thermal Evaporator",
         "HMS1800",
@@ -1561,7 +1561,7 @@
       "kind": "equipment",
       "name": "열저항 측정기(T3STER)",
       "summary": "패키지화된 반도체 장비(Diode, BJT, MOSFET, IGBT, LED 등)의 열 성능을 평가하기 위한 장비입니다 모델: T3STER. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "T3STER",
         "T3STER",
@@ -1578,7 +1578,7 @@
       "kind": "equipment",
       "name": "표면단차측정기",
       "summary": "박막 단차 측정 모델: DEKTAKXT-A. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Surface Profiler",
         "DEKTAKXT-A",
@@ -1595,7 +1595,7 @@
       "kind": "equipment",
       "name": "슈퍼 잉크젯 프린터",
       "summary": "Inkjet technology는 nozzle과 기판 사이의 전기력을 이용하여 1㎛ 이하의 초미세패턴을 가능하게 하며, 기존 Inkjet에서는 불가능했던 고점성, 고표면장력의 잉크도 사용할 수 있어, 응용의 폭이 더욱 큼. 이 Inkjet technology 고해상도 printable electronics, solar-cells, touch panels, microlens-array 등에 사용될 수 있음. 모델: SIJ-050. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Super Inkjet Printer",
         "SIJ-050",
@@ -1612,7 +1612,7 @@
       "kind": "equipment",
       "name": "스트레스 측정기",
       "summary": "Laser를 사용하여 파장(650nm)이 film에서 간섭현상을 일으키는 방법으로 전체 기판의 곡률을 측정한다. 모델: FSM 900 TC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Stress Measurement",
         "FSM 900 TC",
@@ -1629,7 +1629,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (13)",
       "summary": "Wet-station 작업 후 웨이퍼 건조 장치 모델: SD-1505S2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (13)",
         "SD-1505S2",
@@ -1646,7 +1646,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (12)",
       "summary": "Non-Metal용. Wet-station 작업 후 웨이퍼 건조 장치 모델: SD-1505S2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (12)",
         "SD-1505S2",
@@ -1663,7 +1663,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (10)",
       "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-870S-3-1-E-ML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (10)",
         "SRD-870S-3-1-E-ML",
@@ -1680,7 +1680,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (9)",
       "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-870S-3-1-E-ML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (09)",
         "SRD-870S-3-1-E-ML",
@@ -1697,7 +1697,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (8)",
       "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-270S-3-1-E-ML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (08)",
         "SRD-270S-3-1-E-ML",
@@ -1714,7 +1714,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (4)",
       "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-240S-2-1-EML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (04)",
         "SRD-240S-2-1-EML",
@@ -1731,7 +1731,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (3)",
       "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-240S-6-1-EML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (03)",
         "SRD-240S-6-1-EML",
@@ -1748,7 +1748,7 @@
       "kind": "equipment",
       "name": "Spin Rinse Dryer (2)",
       "summary": "- Wet-Station 공정 진행 후 Wafer를 한번 더 Rinse를 한 후 Dry하는 장비 모델: SRD-240S-2-1-EML. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Rinse Dryer (02)",
         "SRD-240S-2-1-EML",
@@ -1765,7 +1765,7 @@
       "kind": "equipment",
       "name": "스피너 (03)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: TMSC-08V2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Coater (05) (E-BEAM)",
         "TMSC-08V2",
@@ -1782,7 +1782,7 @@
       "kind": "equipment",
       "name": "스핀 코터 (02)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: TMSC-08V2. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Coater (04)",
         "TMSC-08V2",
@@ -1799,7 +1799,7 @@
       "kind": "equipment",
       "name": "스핀 코터 (06)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: SM-180BT. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Coater (03)",
         "SM-180BT",
@@ -1816,7 +1816,7 @@
       "kind": "equipment",
       "name": "스핀 코터 (05)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: WS-650MZ-23NPPB. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Spin Coater (02)",
         "WS-650MZ-23NPPB",
@@ -1833,7 +1833,7 @@
       "kind": "equipment",
       "name": "솔더 본더",
       "summary": "솔더 본더 모델: VADU100. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Solder Bonder",
         "VADU100",
@@ -1850,7 +1850,7 @@
       "kind": "equipment",
       "name": "신터 본더",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: X-Sinter P52. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Sinter Bonder",
         "X-Sinter P52",
@@ -1867,7 +1867,7 @@
       "kind": "equipment",
       "name": "초음파 분석 장비",
       "summary": "초음파 임피던스 차이를 이용한 반도체 결함 평가 장비 모델: D9650. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Scanning Acoustic Microscope",
         "D9650",
@@ -1884,7 +1884,7 @@
       "kind": "equipment",
       "name": "반도체 소자 특성 측정기 (05)",
       "summary": "B1500A / M6VC I-V(Current-voltage measurement capabilityes)C-V(AC Capacitance measurement in multi frequency)PI-V(Pulsed I-V Measurement) 모델: B1500A. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "SPA-IV/CV (02)",
         "B1500A",
@@ -1901,7 +1901,7 @@
       "kind": "equipment",
       "name": "반도체 소자 특성 측정기 (04)",
       "summary": "Semiconductor electrical characteristic MeasurementI-V(Current versus voltage), C-V(Capacitance versus voltage), etc. 모델: 4200-SCS. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "SPA-IV/CV (01) ",
         "4200-SCS",
@@ -1918,7 +1918,7 @@
       "kind": "equipment",
       "name": "반도체 소자 특성 측정기 (02)",
       "summary": "Fully automatic/high speed dc characterization of semiconductor d evices, High-resolution, wide-range sourcing and measurement I : 50fA to 100mA; V : 1mV to 100V, Max 1140 measurement and display, points for precise measurement and analysis Four SMU(Source/Monitor Unit) built in, Voltage 4 1/2 digits, Cur rent 4 digits, Voltage measurement input resistance/ Current sour ce output resistance >-10(12) ohm, Max capacitive load : 1000pF 모델: 4145B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "SPA-IV (02) ",
         "4145B",
@@ -1935,7 +1935,7 @@
       "kind": "equipment",
       "name": "반도체 소자 특성 측정기 (01)",
       "summary": "Fully automatic/high speed dc characterization of semiconductor d evices, High-resolution, wide-range sourcing and measurement I : 50fA to 100mA; V : 1mV to 100V, Max 1140 measurement and display, points for precise measurement and analysis Four SMU(Source/Monitor Unit) built in, Voltage 4 1/2 digits, Cur rent 4 digits, Voltage measurement input resistance/ Current sour ce output resistance >-10(12) ohm, Max capacitive load : 1000pF 모델: 4145B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "SPA-IV (01) ",
         "4145B",
@@ -1952,7 +1952,7 @@
       "kind": "equipment",
       "name": "리플렉토미터(Nanospec)",
       "summary": "박막 두께 측정기(Manual Type) 모델: ST4000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Reflectometer (02)",
         "ST4000",
@@ -1969,7 +1969,7 @@
       "kind": "equipment",
       "name": "RTA (04)",
       "summary": "- Ti, Ni silicide를 위한 RTP 공정 진행 모델: KVRTP- T1540. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "RTA (04)",
         "KVRTP- T1540",
@@ -1986,7 +1986,7 @@
       "kind": "equipment",
       "name": "RTA (급속열처리장치_non CMOS)",
       "summary": "Vacuum 상태에서 급속한 열처리로 Annealing, Alloy 공정 가능. 모델: KVR-3006T. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "RTA (02)",
         "KVR-3006T",
@@ -2003,7 +2003,7 @@
       "kind": "equipment",
       "name": "포토 레지스트 8종",
       "summary": "포토 레지스트 8종 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Photo Resist_8 Type",
         "없음",
@@ -2020,7 +2020,7 @@
       "kind": "equipment",
       "name": "패럴린 막 증착 장비",
       "summary": "Parylene막 증착장비 모델: PDS 2010. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Parylene Deposition System",
         "PDS 2010",
@@ -2037,7 +2037,7 @@
       "kind": "equipment",
       "name": "OXFORD PECVD [SiO2, Si3N4]",
       "summary": "Plasma를 이용, 낮은 온도(350℃)에서 유전체(SiOx, SixNx)를 증착하는 설비 모델: PLASMAPRO SYSTEM100. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "PECVD",
         "PLASMAPRO SYSTEM100",
@@ -2054,7 +2054,7 @@
       "kind": "equipment",
       "name": "오븐",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: Blue M, US/DCC-146C. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Oven (01)",
         "Blue M, US/DCC-146C",
@@ -2071,7 +2071,7 @@
       "kind": "equipment",
       "name": "광학 현미경 (06)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Optical Microscope (06)",
         "없음",
@@ -2088,7 +2088,7 @@
       "kind": "equipment",
       "name": "광학 현미경 (05)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: 없음. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Optical Microscope (05)",
         "없음",
@@ -2105,7 +2105,7 @@
       "kind": "equipment",
       "name": "광학 현미경 (04)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: 형광. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Optical Microscope (04)",
         "형광",
@@ -2122,7 +2122,7 @@
       "kind": "equipment",
       "name": "광학 현미경 (03)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: POLYVAR SC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Optical Microscope (03)",
         "POLYVAR SC",
@@ -2139,7 +2139,7 @@
       "kind": "equipment",
       "name": "광학 현미경 (02)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: POLYVAR SC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Optical Microscope (02)",
         "POLYVAR SC",
@@ -2156,7 +2156,7 @@
       "kind": "equipment",
       "name": "광학 현미경 (01)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: POLYCON. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Optical Microscope (01)",
         "POLYCON",
@@ -2173,7 +2173,7 @@
       "kind": "equipment",
       "name": "Mini Furnace",
       "summary": "Annealing 공정 가능 모델: SMF-800. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Mini Furnace",
         "SMF-800",
@@ -2190,7 +2190,7 @@
       "kind": "equipment",
       "name": "금속 산화물 스퍼터 (02) SRN sputter 2",
       "summary": "Metal-oxide target sputtering, Al2O2, IGZO, In2O3, SnO2 모델: SRN120. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Metal-Oxide Sputter (02)",
         "SRN120",
@@ -2207,7 +2207,7 @@
       "kind": "equipment",
       "name": "금속 산화물 스퍼터 (01) SNTEK",
       "summary": "Ar+ 플라즈마를 이용하여 Wafer 표면에 Oxide 계열의 금속을 균일하게 증착할 수 있다. 증착 가능 물질 : Al2O3 모델: PSP5004. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Metal-Oxide Sputter (01)",
         "PSP5004",
@@ -2224,7 +2224,7 @@
       "kind": "equipment",
       "name": "금속 스퍼터 (04)",
       "summary": "Ar 플라즈마를 활용한 금속 Sputter 모델: SRN120. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Metal Sputter (04)",
         "SRN120",
@@ -2241,7 +2241,7 @@
       "kind": "equipment",
       "name": "금속 스퍼터 (01)",
       "summary": "증착가능 Metal: Au, Cr(adhesion용)1batch 1wafer loading 가능substrate rotation 가능Within Wafer Uniformity : 4\", 6\" 5% 이내Wafer Heating: 20℃ ~ 250℃ 모델: ALPS-C03. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Metal Sputter (03)",
         "ALPS-C03",
@@ -2258,7 +2258,7 @@
       "kind": "equipment",
       "name": "금속 스퍼터 (02)",
       "summary": "ISRC STD Al, Pure Al, Ni(Silicide), Ti, TiN 박막 증착 모델: ENDURA 5500. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Metal Sputter (02)",
         "ENDURA 5500",
@@ -2275,7 +2275,7 @@
       "kind": "equipment",
       "name": "금속 스퍼터 (01)",
       "summary": "Ar 플라즈마를 활용한 금속 Sputter 모델: MHS1500. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Metal Sputter (01)",
         "MHS1500",
@@ -2292,7 +2292,7 @@
       "kind": "equipment",
       "name": "마스크리스 리소그래피 시스템 (04)",
       "summary": "반도체 포토 공정시 사용되는 노광장비로서, 포토레지스트가 코팅된 웨이퍼 위에 마스크 제작 없이 설계된 패턴에 따라 빛을 조사하여 패턴을 구현하는 노광장비이다. 마스크 제작이 필요없기 때문에 제작비용과 시간을 절약할수 있으며, 미세선폭(>1um) 구현이 가능하여 다양한 연구 분야의 사용이 가능하다. 모델: MLA-150. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Maskless lithography system (04)",
         "MLA-150",
@@ -2309,7 +2309,7 @@
       "kind": "equipment",
       "name": "마스크리스 리소그래피 시스템 (03)",
       "summary": "반도체 포토 공정시 사용되는 노광장비로서, 포토레지스트가 코팅된 웨이퍼 위에 마스크 제작 없이 설계된 패턴에 따라 빛을 조사하여 패턴을 구현하는 노광장비이다. 마스크 제작이 필요없기 때문에 제작비용과 시간을 절약할수 있으며, 미세선폭(>600nm) 구현이 가능하여 다양한 연구 분야의 사용이 가능하다. 모델: MLA-150. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Maskless lithography system (03)",
         "MLA-150",
@@ -2326,7 +2326,7 @@
       "kind": "equipment",
       "name": "마스크리스 리소그래피 시스템 (02)",
       "summary": "Mask 없이 GDS File 만으로 패턴을 구현할 수 있으며Auto/Manual로 Alignment를 진행 할 수 있음 모델: DL-1000HP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Maskless lithography system (02)",
         "DL-1000HP",
@@ -2343,7 +2343,7 @@
       "kind": "equipment",
       "name": "마스크리스 리소그래피 시스템 (01)",
       "summary": "Mask 없이도 GDS File 만으로 패턴을 구현할수 있는 장비이며, Auto/Manual로 Alignment를 진행 할 수 있음.Laser diode의10W의 높은 출력으로 빠른 패턴 가능. 모델: DL-1000 HP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Maskless lithography system (01)",
         "DL-1000 HP",
@@ -2360,7 +2360,7 @@
       "kind": "equipment",
       "name": "중전류 이온주입기 (02)",
       "summary": "본 장비는 반도체 wafer를 고진공(10E-6 Torr 이하) 상태에서 원자 이온을 목표물의 표면을 뚫고 들어갈 만큼 에너지를 갖게하여 웨이퍼 속으로 붕소, 인, 비소 등의 불순물 이온을 균일하게 Doping할 수 있다. 모델: VIISta 900 3D. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Ion Implanter (01)",
         "VIISta 900 3D",
@@ -2377,7 +2377,7 @@
       "kind": "equipment",
       "name": "ICP Metal Etcher (03)",
       "summary": "Cl Based Gas (O2, Ar, BCl3, Cl2, CH4, H2)을 활용한 Al, TiN 등의 Metal 물질 Etch 모델: NeoS-MAXIS200H. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ICP Metal Etcher (03)",
         "NeoS-MAXIS200H",
@@ -2394,7 +2394,7 @@
       "kind": "equipment",
       "name": "ICP Metal Etcher (01)",
       "summary": "ICP 방식을 이용한 ETCH(AI, Au 등 가능) 모델: PLASMA PRO 100 COBRA. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ICP Metal Etcher (01)",
         "PLASMA PRO 100 COBRA",
@@ -2411,7 +2411,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (06)",
       "summary": "Only piece, 4inch wafer process4inch single wafer manual typeHigh temperature etching 모델: PLASMAPRO100 COBRA300. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ICP HT Metal Etcher (02)",
         "PLASMAPRO100 COBRA300",
@@ -2428,7 +2428,7 @@
       "kind": "equipment",
       "name": "ICP Dielectric Etcher (02)",
       "summary": "F Based Gas (O2, Ar, SF6, CF4, CHF3, C4H8)등을 활용한 Dielectric 물질 Etch 모델: NeoS-MAXIS200H. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ICP Dielectric Etcher (02)",
         "NeoS-MAXIS200H",
@@ -2445,7 +2445,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (08)",
       "summary": "Silicon oxide와 Silicon nitride 박막 etching 모델: NeoS-MAXIS 200L. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ICP Dielectric Etcher (01)",
         "NeoS-MAXIS 200L",
@@ -2462,7 +2462,7 @@
       "kind": "equipment",
       "name": "홀 효과 측정기",
       "summary": "Hall effect : 금속이나 반도체 등의 고체를 자기장 속에 넣고, 자기장의 방향의 직각으로 고체속 에 Hall 측정.반도체 재료의 전기 전도도, 이동도, 캐리어 농도, Si계, InGaAs계, InP계, GaN계 등의 모든 반도체의 N형이나 P형 판정등을 측정하는 장비이며 반도체의 전기적인 특성도 함께 측정이 가능하다. 모델: HL5500PC. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Hall Effect Measurement",
         "HL5500PC",
@@ -2479,7 +2479,7 @@
       "kind": "equipment",
       "name": "전계 방출형 주사전자현미경 (02)",
       "summary": "전자들을 전자 렌즈 시스템에 의해 샘플의 표면에 접속되고 이때 전자빔을 화상시스템과 동기화 시켜 시편의 표면에 x-y로 스캐닝되어 시편에서 발생되는 이차 전자가 전류로 증폭되어 CRT와 동기화시켜 이미지를 형성하게 된다. 모델: APREO 2S. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "FE-SEM (02)",
         "APREO 2S",
@@ -2496,7 +2496,7 @@
       "kind": "equipment",
       "name": "전계 방출형 주사전자현미경 (01)",
       "summary": "전자들을 전자 렌즈 시스템에 의해 샘플의 표면에 접속되고 이때 전자빔을 화상시스템과 동기화 시켜 시편의 표면에 x-y로 스캐닝되어 시편에서 발생되는 이차 전자가 전류로 증폭되어 CRT와 동기화시켜 이미지를 형성하게 된다. 모델: S-4800. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "FE-SEM (01)",
         "S-4800",
@@ -2513,7 +2513,7 @@
       "kind": "equipment",
       "name": "엘립소미터 (03)",
       "summary": "반도체 CMOS, MEMS, Display, BIO, III-V 등 연구에 필요한 단층 및 다층 박막을 광학적인 방법을 사용하여 Sub Å ~ 수 ㎛ 두께 범위의 두께 및 굴절율 등을 측정하는 spectroscopic ellipsometer 장비 모델: ELLI-SEU-AM8. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Ellipsometer",
         "ELLI-SEU-AM8",
@@ -2530,7 +2530,7 @@
       "kind": "equipment",
       "name": "에너지 분산 X선 분광기",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: AZTEC ENERGY. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "EDS",
         "AZTEC ENERGY",
@@ -2547,7 +2547,7 @@
       "kind": "equipment",
       "name": "전자빔 금속 증착 장비 (02)",
       "summary": "Evaporation 방식을 이용한 금속박막의 증착증착 가능 물질 : Pt, Ti, Cr, Cu, Au, Al , Ni 모델: SRN200I. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "E-Gun Evaporator (02)",
         "SRN200I",
@@ -2564,7 +2564,7 @@
       "kind": "equipment",
       "name": "전자빔 금속 증착 장비 (01)",
       "summary": "Evaporation 방식을 이용한 금속박막의 증착증착 가능 물질 : Pt, Ti, Cr, Cu, Au, Al , Ni 모델: SRN-200. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "E-Gun Evaporator (01)",
         "SRN-200",
@@ -2581,7 +2581,7 @@
       "kind": "equipment",
       "name": "전자빔 리소그래피",
       "summary": "E-Beam Lithography는 감광제(PR)가 도포된 웨이퍼 위에 전자빔을 직접 조사하여 미세한 회로 패턴을 그리는 공정 장비.전자의 짧은 파장을 이용하기 때문에 수 나노미터(nm) 단위의 초미세 패턴 구현이 가능. 모델: JBX-8100FS. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "E-Beam Lithography (02)",
         "JBX-8100FS",
@@ -2598,7 +2598,7 @@
       "kind": "equipment",
       "name": "웨이퍼 절삭기 (03)",
       "summary": "고속 회전Blade로 wafer dicing 모델: DAD3221. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Dicing Saw (03)",
         "DAD3221",
@@ -2615,7 +2615,7 @@
       "kind": "equipment",
       "name": "웨이퍼 절삭기 (02)",
       "summary": "고속회전 스핀들에 절단용 블레이드를 장착하여 웨이퍼 등의 피절단물을 절단하는 장치이다. 모델: DAD3350. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Dicing Saw (02)",
         "DAD3350",
@@ -2632,7 +2632,7 @@
       "kind": "equipment",
       "name": "깊이 측정 현미경",
       "summary": "Z-axis 반복정밀도가 뛰어난 장비샘플의 패턴이나 반복오차를 1㎛ 이내로 측정 가능 모델: STM6-F21-3. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Depth Measurement Microscope",
         "STM6-F21-3",
@@ -2649,7 +2649,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (13)",
       "summary": "Deep silicon etching6inch cassette automatic typeOnly piece~4inch wafer, 6inch wafer process (bonding process : piece~4inch) 모델: NEOGEN-MAXIS200D. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Deep Si Etcher (02)",
         "NEOGEN-MAXIS200D",
@@ -2666,7 +2666,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (05)",
       "summary": "Deep silicon etching4inch single wafer manual typeOnly piece, 4inch wafer process (bonding process : piece) 모델: SLR-7701-10R-B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Deep Si Etcher (01)",
         "SLR-7701-10R-B",
@@ -2683,7 +2683,7 @@
       "kind": "equipment",
       "name": "In-Line 임계치수 측정 주사전자현미경",
       "summary": "Photo or Etch 공정 후 CD(Critical Dimension) 측정 모델: VEGA4 GMS. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "CD-SEM",
         "VEGA4 GMS",
@@ -2700,7 +2700,7 @@
       "kind": "equipment",
       "name": "i-line 스테퍼",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: JP/NSR-2205i11D. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-i-line Stepper (02)",
         "JP/NSR-2205i11D",
@@ -2717,7 +2717,7 @@
       "kind": "equipment",
       "name": "i-line 스테퍼",
       "summary": "분해능 Si : Line 0.25㎛ + space 0.5㎛ Oxide, Si3N4 : Line 0.4㎛ + space 0.4㎛ Metal(AI) : Line 0.45㎛ + space 0.45㎛ 모델: NSR-2005I10C. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-i-line Stepper",
         "NSR-2005I10C",
@@ -2734,7 +2734,7 @@
       "kind": "equipment",
       "name": "PR 트랙 장비 (02)",
       "summary": "PR coating, Develop, Bake, PEB 모델: MSX-1000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Track (02)",
         "MSX-1000",
@@ -2751,7 +2751,7 @@
       "kind": "equipment",
       "name": "PR 트랙 장비 (01)",
       "summary": "PR coating, Develop, Bake, PEB 모델: MSX-1060. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Track",
         "MSX-1060",
@@ -2768,7 +2768,7 @@
       "kind": "equipment",
       "name": "2D 표면 단차 측정기 (2)",
       "summary": "CMOS구역 내 nano~1,200um 범위의 2D 단차를 측정하는 장비 모델: Alpha-Step D-600. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Surface Profiler (02)",
         "Alpha-Step D-600",
@@ -2785,7 +2785,7 @@
       "kind": "equipment",
       "name": "리플렉토미터(Nanospec) (01)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: ST4000-DLX. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Reflectometer",
         "ST4000-DLX",
@@ -2802,7 +2802,7 @@
       "kind": "equipment",
       "name": "RTP (급속열처리장치_전기로)",
       "summary": "Vacuum 상태에서 급속 열처리 장비. 모델: KVT-EF001. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-RTP",
         "KVT-EF001",
@@ -2819,7 +2819,7 @@
       "kind": "equipment",
       "name": "RTA (급속열처리장치_CMOS RTA)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: KVR-6000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-RTA",
         "KVR-6000",
@@ -2836,7 +2836,7 @@
       "kind": "equipment",
       "name": "P5000 4호기 [TEOS-CVD, W-CVD, SiO/SiN ETCH]",
       "summary": "- A Chamber: Plasma를 이용, TEOS Oxide를 짧은시간 내 두꺼운 증착에 이용- B Chamber: 텅스텐 금속박막을 CVD 방식으로 Via 또는 contact Gap-fill 하는데 이용- C Chamber: Silicon Oxide, Silicon Nitride 박막 Etching 모델: P5000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-PECVD/RIE System",
         "P5000",
@@ -2853,7 +2853,7 @@
       "kind": "equipment",
       "name": "씨모스 금속 스퍼터 (01) Endura 2",
       "summary": "ISRC STD Al, Hot Al, Ni(silicide), Ti(IMP), TiN(MOCVD) 박막 증착 모델: ENDURA 5500. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Metal Sputter (01)",
         "ENDURA 5500",
@@ -2870,7 +2870,7 @@
       "kind": "equipment",
       "name": "LPCVD(리드)",
       "summary": "N+ dopped poly Si, poly Si, Nitride, MTO 박막 증착 가능 모델: PF-D64. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-LPCVD (04)",
         "PF-D64",
@@ -2887,7 +2887,7 @@
       "kind": "equipment",
       "name": "C-KrF Scanner",
       "summary": "분해능 170nm 모델: NSR S204B. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-KrF Scanner",
         "NSR S204B",
@@ -2904,7 +2904,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (02)",
       "summary": "C-Si, Poly Si 박막 etching 모델: NEOGEN-MAXIS 200L. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-ICP Poly Si Etcher (02)",
         "NEOGEN-MAXIS 200L",
@@ -2921,7 +2921,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (01)",
       "summary": "Only 6inch wafer process6inch single wafer manual type 모델: MULTIPLEX. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-ICP Poly Si Etcher (01)",
         "MULTIPLEX",
@@ -2938,7 +2938,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (03)",
       "summary": "Metal etcher (AI, Ti, TiN, etc) 모델: APEX SLR ICP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-ICP Metal Etcher",
         "APEX SLR ICP",
@@ -2955,7 +2955,7 @@
       "kind": "equipment",
       "name": "유도 결합 플라즈마 식각 장비 (04)",
       "summary": "Silicon oxide와 Silicon nitride 박막 etching 모델: APEX SLR ICP. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-ICP Dielectric Etcher",
         "APEX SLR ICP",
@@ -2972,7 +2972,7 @@
       "kind": "equipment",
       "name": "HDPCVD 2호기(SiO2)",
       "summary": "SiO2 증착 및 STI (Shallow Trench Isolation) gap-fill process 모델: APEX SLR HDPCVD MK I. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-HDPCVD (02)",
         "APEX SLR HDPCVD MK I",
@@ -2989,7 +2989,7 @@
       "kind": "equipment",
       "name": "C-Furnace (04)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: PF-D63. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Furnace (04)",
         "PF-D63",
@@ -3006,7 +3006,7 @@
       "kind": "equipment",
       "name": "C-Furnace (03)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: PF-D63. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Furnace (03)",
         "PF-D63",
@@ -3023,7 +3023,7 @@
       "kind": "equipment",
       "name": "엘립소미터 (02)",
       "summary": "반도체 CMOS 등 연구에 필요한 단층 및 다층 박막을 광학적인 방법으로 Sub Å ~ 수 ㎛ 두께 범위의 두께 및 굴절율 등을 측정하는 장비. 모델: M-2000X. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Ellipsometer (02)",
         "M-2000X",
@@ -3040,7 +3040,7 @@
       "kind": "equipment",
       "name": "엘립소미터 (01)",
       "summary": "반도체 CMOS, MEMS, Display, BIO, III-V 등 연구에 필요한 단층 및 다층 박막을 광학적인 방법을 사용하여 Sub Å ~ 수 ㎛ 두께 범위의 두께 및 굴절율 등을 측정하는 ellipsometer 장비 모델: M-2000V. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Ellipsometer (01)",
         "M-2000V",
@@ -3057,7 +3057,7 @@
       "kind": "equipment",
       "name": "화학적 건식 식각 장비",
       "summary": "Only 6inch process6inch single wafer manual typeIsotropic etching, Corner round etching, Surface treatment 모델: MINILOCK. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Chemical Dry Etcher",
         "MINILOCK",
@@ -3074,7 +3074,7 @@
       "kind": "equipment",
       "name": "C-CVD(W) System",
       "summary": "BEOL(Back End Of Line) 공정 中 Metal Plug 또는 Contact hall을 위한 텅스텐 금속박막을 LPCVD(Low Pressure Vapor Deposition) 방식으로 증착 할 수 있도록 구성된 장비 모델: P5000. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-CVD(W) System",
         "P5000",
@@ -3091,7 +3091,7 @@
       "kind": "equipment",
       "name": "CMP (02)",
       "summary": "HDP CVD. TEOS SiO2 박막을 CMP 할 수 있다. 모델: UNIPLA221. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-CMP (02)",
         "UNIPLA221",
@@ -3108,7 +3108,7 @@
       "kind": "equipment",
       "name": "STI CMP (01)",
       "summary": "W CMP를 진행하는 장비 모델: UNIPLA211. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-CMP (01)",
         "UNIPLA211",
@@ -3125,7 +3125,7 @@
       "kind": "equipment",
       "name": "임계치수 측정 주사전자현미경",
       "summary": "전자들을 전자 렌즈 시스템에 의해 샘플의 표면에 접속되고 이때 전자빔을 화상시스템과 동기화 시켜 시편의 표면에 X-Y로 스캐닝되어 시편에서 발생되는 이차전자가 전류로 증폭되어 CRT와 동기화시켜 이미지를 형성하게 된다. 모델: S-8820. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-CD-SEM",
         "S-8820",
@@ -3142,7 +3142,7 @@
       "kind": "equipment",
       "name": "PR 건식 애셔 (01)",
       "summary": "사진 식각에서 사용되는 photoresist를 Dry Ethc 또는 Ion Implant 공정 이후 O2 가스를 이용하여 제거 모델: PS300SA. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-Asher",
         "PS300SA",
@@ -3159,7 +3159,7 @@
       "kind": "equipment",
       "name": "씨모스 원자층 증착 장비 (03)",
       "summary": "Si3N4 증착 전용 ALD 장비(CSN-2, BTBAS, BDEAS)Top lid : Shower head type 모델: Premium system. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-ALD (03)",
         "Premium system",
@@ -3176,7 +3176,7 @@
       "kind": "equipment",
       "name": "씨모스 원자층 증착 장비 (02)",
       "summary": "SiO2 증착 전용 ALD 장비 (BDIPADS, DIPAS)Top lid : Shower head type 모델: Premium system. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-ALD (02)",
         "Premium system",
@@ -3193,7 +3193,7 @@
       "kind": "equipment",
       "name": "씨모스 원자층 증착 장비 (01)",
       "summary": "* ALD 방식을 이용한 high-k 유전 박막 및 금속 박막 증착 * RTP와 remote plasma를 이용한 PDA(Post Deposition Annealing) 및 표면처리 모델: Atomic Premium Cluster Type. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-ALD (01)",
         "Atomic Premium Cluster Type",
@@ -3210,7 +3210,7 @@
       "kind": "equipment",
       "name": "면저항 측정기",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-4-Point Probe (02)",
         "CMT-SR2000N",
@@ -3227,7 +3227,7 @@
       "kind": "equipment",
       "name": "4-포인트 프로브 (03)",
       "summary": "공식 장비소개 수록. 기능 확인 필요. 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "C-4-Point Probe (01)",
         "CMT-SR2000N",
@@ -3244,7 +3244,7 @@
       "kind": "equipment",
       "name": "PR 건식 애셔 (02)",
       "summary": "사진 식각에서 사용되는 Photoresist를 Dry Etch 또는 Ion Implant 공정 이후 O2 가스를 이용하여 제거 모델: PS300SA. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Asher (03)",
         "PS300SA",
@@ -3261,7 +3261,7 @@
       "kind": "equipment",
       "name": "PR 플라즈마 애셔 (2)",
       "summary": "주로 MEMS분야에서 필요한 공정인 등방성 Ashing을 할 수 있는 장비임.표면 마이크로 머시닝 기술로 금속 구조물을 제작할 경우 희생층으로 사용되는 Polymer를 선택적으로 제거하는데 사용. 사진 식각에서 사용되는 Photoresist를 제거하는데 사용. 모델: V-15G. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Asher (02)",
         "V-15G",
@@ -3278,7 +3278,7 @@
       "kind": "equipment",
       "name": "PR 플라즈마 애셔 (1)",
       "summary": "주로 MEMS분야에서 필요한 공정인 등방성 Ashing을 할 수 있는 장비임.표면 마이크로 머시닝 기술로 금속 구조물을 제작할 경우 희생층으로 사용되는 Polymer를 선택적으로 제거하는데 사용. 사진 식각에서 사용되는 Photoresist를 제거하는데 사용. 모델: V15-G. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Asher (01)",
         "V15-G",
@@ -3295,7 +3295,7 @@
       "kind": "equipment",
       "name": "얼라이너 (02)",
       "summary": "- MA6 Aligner는 고해상도의 사진공정을 위해 설계 되었다. Double side align이 가능하며, 조각 시편에서 6 Inch Wafer까지 공정이 가능할 뿐만 아니라 다른 두께의 비규격 모양의 기판을 다룰 수 있는 뛰어난 융통성을 가진 장비이다. 또한 MA6를 가지고 수동 작업을 행하면 모든 종류의 Contact 프로그램(Vacuum, Low vacuum, Hard, Soft Contact and Proximity)까지 가능하며 X, Y방향 변위이동은 0.1㎛이하이며 광학적 방법으로는 감지가 되지 못하고 6mm 두께의 Wafer와 기판까지도 프로세스가 가능하다. 모델: MA-6. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "Aligner (02)",
         "MA-6",
@@ -3312,7 +3312,7 @@
       "kind": "equipment",
       "name": "원자층 증착 장비 (05)",
       "summary": "Al2O3 증착 전용 ALD 장비 (TMA)Top lid : Traveling wave type 모델: Classic system. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ALD (05)",
         "Classic system",
@@ -3329,7 +3329,7 @@
       "kind": "equipment",
       "name": "원자층  증착 장비 (04)",
       "summary": "오존을 Reactant로 활용한 Thermal ALD(IGZO 증착), source (DADI, TMG, DEZ) 모델: ATOMIC PREMIUM. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ALD (04)",
         "ATOMIC PREMIUM",
@@ -3346,7 +3346,7 @@
       "kind": "equipment",
       "name": "원자층 증착 장비 (03)",
       "summary": "오존을 Reactant로 활용한 Thermal ALD(HfO2, ZrO2, HZO) 모델: Atomic Classic System(ISRC-2310). 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ALD (03)",
         "Atomic Classic System(ISRC-2310)",
@@ -3363,7 +3363,7 @@
       "kind": "equipment",
       "name": "원자층 증착 장비 (02)",
       "summary": "Ozone 및 Plasma를 활용한 ALD(Al2O3, HfO2, AlN, SiO2, TiN) 모델: Atomic Premium Cluster System. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ALD (02)",
         "Atomic Premium Cluster System",
@@ -3380,7 +3380,7 @@
       "kind": "equipment",
       "name": "원자층 증착 장비 (01)",
       "summary": "오존을 Reactant로 활용한 Thermal ALD(Al2O3, HfO2) 모델: Atomic Premium. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "ALD (01)",
         "Atomic Premium",
@@ -3397,7 +3397,7 @@
       "kind": "equipment",
       "name": "원자 힘 현미경 (02)",
       "summary": "반도체 재료의 표면 거칠기 및 전기적 특성 측정 모델: CYPHER S. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "AFM (02)",
         "CYPHER S",
@@ -3414,7 +3414,7 @@
       "kind": "equipment",
       "name": "면저항 측정기",
       "summary": "면저항 측정 장비,wafer scale (3\",4\",6\"), Dicing 조각 시편(10X10, 20X20, 30X30 mm) 5pt 측정 Recipe 제공 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "4-Point Probe (03)",
         "CMT-SR2000N",
@@ -3431,7 +3431,7 @@
       "kind": "equipment",
       "name": "면저항 측정기",
       "summary": "면저항 측정 장비,wafer scale (3\",4\",6\"), Dicing 조각 시편(10X10, 20X20, 30X30 mm) 5pt 측정 Recipe 제공 모델: CMT-SR2000N. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "4-Point Probe (02)",
         "CMT-SR2000N",
@@ -3448,7 +3448,7 @@
       "kind": "equipment",
       "name": "3D 표면 단차 측정기 (02)",
       "summary": "비접촉식 3차원 구조 분석 장비로 비접촉식으로 샘플의 3D단차를 측정하고 Real Color Image로 구현할 수 있다. 모델: USURF. 설치 위치·이용 절차는 공식 상세 확인 필요.",
-      "departmentId": "shared-irf",
+      "departmentId": "shared-isrc",
       "keywords": [
         "3D Surface Profiler (02)",
         "USURF",

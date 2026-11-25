@@ -10,7 +10,7 @@ it('keeps the complete sourced college draft reproducible and pending human appr
   expect(sanitize(draft).exclusions).toEqual([]);
   const summary = catalog(snapshot);
   expect(summary.departments).toHaveLength(12);
-  expect(summary.sharedGroups).toHaveLength(2);
+  expect(summary.sharedGroups).toHaveLength(3);
   expect(summary.totals).toEqual({ researcher: 341, lab: 237, equipment: 209, space: 45 });
   expect(summary.departments.every(d => d.counts.researcher >= 3 && d.counts.lab >= 3)).toBe(true);
   expect(summary.gaps).toContain('사람의 공개 배치 승인 대기');
